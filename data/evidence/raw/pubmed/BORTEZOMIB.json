@@ -1,0 +1,60 @@
+{
+ "drug": "BORTEZOMIB",
+ "status": "ok",
+ "query": "\"bortezomib\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:19:19+00:00",
+ "records": [
+  {
+   "pmid": "30909387",
+   "title": "Mechanisms of Chemotherapy-Induced Peripheral Neuropathy.",
+   "abstract": "Chemotherapy-induced peripheral neuropathy (CIPN) is one of the most frequent side effects caused by antineoplastic agents, with a prevalence from 19% to over 85%. Clinically, CIPN is a mostly sensory neuropathy that may be accompanied by motor and autonomic changes of varying intensity and duration. Due to its high prevalence among cancer patients, CIPN constitutes a major problem for both cancer patients and survivors as well as for their health care providers, especially because, at the moment, there is no single effective method of preventing CIPN; moreover, the possibilities of treating this syndrome are very limited. There are six main substance groups that cause damage to peripheral sensory, motor and autonomic neurons, which result in the development of CIPN: platinum-based antineoplastic agents, vinca alkaloids, epothilones (ixabepilone), taxanes, proteasome inhibitors (bortezomib) and immunomodulatory drugs (thalidomide). Among them, the most neurotoxic are platinum-based agents, taxanes, ixabepilone and thalidomide; other less neurotoxic but also commonlyused drugs are bortezomib and vinca alkaloids. This paper reviews the clinical picture of CIPN and the neurotoxicity mechanisms of the most common antineoplastic agents. A better understanding of the risk factors and underlying mechanisms of CIPN is needed to develop effective preventive and therapeutic strategies.",
+   "journal": "International journal of molecular sciences",
+   "year": "2019",
+   "doi": "10.3390/ijms20061451",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30909387/"
+  },
+  {
+   "pmid": "40440205",
+   "title": "Antibody-mediated rejection-treatment standard.",
+   "abstract": "Antibody-mediated rejection (AMR) remains a major cause of graft failure, with significant health and economic burden. Despite being recognized >25 years ago, AMR treatment remains unstandardized, and no therapy has gained robust regulatory approval. While uncontrolled series have shown promise, few well-designed trials exist, with most yielding negative results. In the absence of strong trial data, a Transplantation Society expert consensus recommended potential treatment options with low levels of evidence, tailored to clinical phenotypes. Here, we re-evaluate the current evidence for AMR treatment decisions. We conclude that steroids, rituximab, bortezomib, and interleukin-6 (IL-6) antagonists lack sufficiently robust evidence to support their use in AMR. For early AMR, antibody depletion using immunoadsorption could be considered as an alternative to plasmapheresis. High-dose intravenous immunoglobulin (IVIG) may be added, though the supporting evidence remains limited. While previous trials primarily targeted the cause of AMR, recent data on the successful reversal of AMR activity by CD38 antibodies-particularly recent phase 2 trial results-suggest that targeting the cellular inflammation resulting from antibody binding to the endothelium could be a rational approach. Along these lines, in severe early AMR, complement inhibition may also be an option. Ongoing phase 2 trials evaluating prolonged courses of high-dose IVIG, the neonatal Fc receptor blocker efgartigimod, the tyrosine kinase inhibitor fostamatinib, and the complement inhibitor BIVV020, along with phase 3 trials of the anti-IL-6 receptor antibody tocilizumab and the CD38 antibody felzartamab, offer hope for effective, approved therapies targeting different aspects of AMR pathobiology.",
+   "journal": "Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association",
+   "year": "2025",
+   "doi": "10.1093/ndt/gfaf097",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40440205/"
+  },
+  {
+   "pmid": "37017117",
+   "title": "Recommendations on the use of azole antifungals in hematology-oncology patients.",
+   "abstract": "The administration of antifungals for therapeutic and, especially, prophylactic purposes is virtually a constant in patients requiring hematology-oncology treatment. Any attempt to prevent or treat Aspergillus or Mucor infections requires the administration of some drugs in the azole group, which include voriconazole, posaconazole and isavuconazole, noted for their activity against these pathogens. One very relevant aspect is the potential risk of interaction when associated with one of the antineoplastic drugs used to treat hematologic tumors, with serious complications. In this regard, acalabrutinib, bortezomib, bosutinib, carfilzomib, cyclophosphamide, cyclosporine A, dasatinib, duvelisib, gilteritinib, glasdegib, ibrutinib, imatinib, nilotinib, ponatinib, prednisone, ruxolitinib, tacrolimus, all-transretinoic acid, arsenic trioxide, venetoclax, or any of the vinca alkaloids, are very clear examples of risk, in some cases because their clearance is reduced and in others because of increased risk of QTc prolongation, which is particularly evident when the drug of choice is voriconazole or posaconazole.",
+   "journal": "Revista espanola de quimioterapia : publicacion oficial de la Sociedad Espanola de Quimioterapia",
+   "year": "2023",
+   "doi": "10.37201/req/013.2023",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37017117/"
+  },
+  {
+   "pmid": "37185672",
+   "title": "Systemic AL amyloidosis: current approach and future direction.",
+   "abstract": "Systemic Light chain (AL) amyloidosis is a monoclonal plasma cell proliferative disorder characterized by deposition of amyloidogenic monoclonal light chain fragments causing organ dysfunction. It is a fatal disease and if not diagnosed and treated early can lead to organ failure and potentially death. The renal system along with the cardiovascular system are the most common organs involved but other organs such as gut and liver can be involved as well. The initial evaluation of patients requires confirming the diagnosis with tissue biopsy and staining with Congo red followed by confirmatory typing with mass spectrometry of the Congo red positive tissue. Then establishing the extent of the organs involvement by various staging and biomarkers testing. The treatment options and the tolerability of therapy depend on the disease staging, frailty, and co-morbidities. The autologous hematopoietic cell transplantation (HCT) after high dose melphalan therapy is an effective strategy which is usually done after initial bortezomib induction therapy. Unfortunately, most systemic AL amyloidosis patients are not candidate for HCT due to frailty, old age, multi-organ involvement, renal and heart failure at the time of diagnosis. While it is widely accepted that the patients need to be treated until they achieve complete hematologic response, the maintenance therapy after HCT is not well established in AL amyloidosis. In this review, we report the literature on the latest treatment updates of AL amyloidosis and the ongoing clinical trials highlighting the future treatments.",
+   "journal": "Oncotarget",
+   "year": "2023",
+   "doi": "10.18632/oncotarget.28415",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37185672/"
+  }
+ ]
+}

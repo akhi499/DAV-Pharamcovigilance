@@ -1,0 +1,49 @@
+{
+ "drug": "METHYLPREDNISOLONE SODIUM SUCCINATE",
+ "status": "ok",
+ "query": "\"methylprednisolone sodium succinate\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:20:26+00:00",
+ "records": [
+  {
+   "pmid": "29151132",
+   "title": "Safety of intrathecal route: focus to methylprednisolone acetate (Depo-Medrol) use.",
+   "abstract": "PURPOSE: Complications of the intrathecal route may cause potential toxicity related to the medical device and properties of the administered drug and/or excipient. A description of clinical and histological effects of polyethylene glycol and miripirium after Depo-Medrol injection, and the adverse reactions of particulate methylprednisolone acetate was conducted. The safety of the intrathecal route with excipients, label and off-label drugs is discussed.\nMETHODS: A bibliographic search in Medline, Google, and Cochrane database from 1940 to June 2016 was performed. The keywords included 'intrathecal methylprednisolone acetate', 'miripirium', 'myristyl-gamma-picolinium', 'side effects', 'intrathecal Depo-Medrol', 'polyethylene glycol', and 'intrathecal devices' used individually or in combination.\nRESULTS: Adverse reactions have been reported with this intrathecal administration route such as arachnoiditis, bladder dysfunction, headache, meningitis. Some pharmaceutical excipients have been associated with specific toxicity issues and with allergic and anaphylaxis reactions. Additives of methylprednisolone acetate formulations such as polyethylene glycol and miripirium chloride can be neurotoxic when injected intrathecally. Polyethylene glycol-an antimicrobial agent widely used in pharmaceutical drugs-has been associated with cardiovascular, hepatic, respiratory, and CNS toxicity.\nCONCLUSIONS: Intrathecal methylprednisolone acetate (Depo-Medrol) therapy seems not fully safe due to reported adverse events. The use of other forms of corticosteroid therapy free from excipients should be emphasized such as soluble methylprednisolone sodium succinate.",
+   "journal": "European spine journal : official publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society",
+   "year": "2019",
+   "doi": "10.1007/s00586-017-5387-x",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29151132/"
+  },
+  {
+   "pmid": "38115255",
+   "title": "Hypersensitivity reaction to nedaplatin: A case report and literature review.",
+   "abstract": "RATIONALE: Although rare, systemic hypersensitivity reactions to nedaplatin chemotherapy arise rapidly and can be life-threatening. The causes are unclear, and multiple potential mechanisms exist. Here, we report a case of systemic hypersensitivity reaction to nedaplatin and review the literature to establish a recommended protocol.\nPATIENT CONCERNS: A 62-year-old man was being treated for squamous lung cancer with multiple metastases. On the first day of chemotherapy, 5 minutes after nedaplatin infusion, he developed panic, shortness of breath, and dyspnea with rapid heart rate, reduced oxygen saturation, and elevated blood pressure.\nDIAGNOSES: The symptoms indicated that the patient had developed a severe hypersensitivity reaction to nedaplatin, which could be life-threatening without immediate intervention.\nINTERVENTION: Nedaplatin was discontinued, and he was treated with oxygen, ECG monitoring, finger pulse oximeter monitoring, 10 mg dexamethasone sodium phosphate injected intravenously, 20 mg diphenhydramine hydrochloride injected intramuscularly, and 40 mg methylprednisolone sodium succinate injected intravenously.\nOUTCOME: His allergic symptoms resolved, and once his vital signs stabilized, he was given 5 mg oral desloratadine once daily and 10 mg oral ebastine once daily to alleviate the effects of the allergic reaction. Once his vital signs remained stable without any special supportive treatment, he was discharged from the hospital. His chemotherapy regimen was discontinued, with no plan for a follow-up treatment due to the possibility of cross-allergic reactions between platinum-based drugs.\nLESSONS: Clinical use of nedaplatin should be monitored and managed intensively for prevention and treatment of hypersensitivity reactions. Care should be taken to control the titration rate during infusion while closely monitoring vital signs. Clinical staff should be prepared to treat allergic symptoms as soon as they appear. The acute phase should involve immediate discontinuation of the drug; intravenous saline infusion for volume expansion; rapid assessment of circulation, airway, respiration, state of consciousness, and skin condition; and administration of oxygen, antihistamines, and epinephrine as appropriate for anaphylaxis. More randomized clinical trials are needed to elucidate appropriate preventative and management strategies to improve patient safety and support their successful completion of clinical treatment programs.",
+   "journal": "Medicine",
+   "year": "2023",
+   "doi": "10.1097/MD.0000000000036690",
+   "publication_types": [
+    "Review",
+    "Case Reports",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38115255/"
+  },
+  {
+   "pmid": "40707939",
+   "title": "Interstitial lung disease induced by Toripalimab combined with disitamab Vedotin in upper tract urothelial carcinoma: a case report and literature review.",
+   "abstract": "BACKGROUND: Upper tract urothelial carcinoma (UTUC) is a rare subtype of urothelial cancer, accounting for only 5–10% of cases, and is characterized by aggressive biological behavior. Recent advances in immune checkpoint inhibitors (ICIs) and antibody-drug conjugates (ADCs) have expanded therapeutic options for advanced UTUC. However, their combined use may increase the risk of immune-related adverse events, particularly interstitial lung disease (ILD). CASE PRESENTATION: This case involves a 76-year-old female patient diagnosed with UTUC. The patient was diagnosed with invasive high-grade urothelial carcinoma of the right kidney following a biopsy, after a routine physical examination revealed a space-occupying lesion in the right kidney. Due to the patient’s and her family’s refusal of surgical treatment, a targeted immunotherapy regimen combining ICIs and ADCs was chosen. After two treatments with toripalimab combined with vedotin, the patient developed clinical symptoms such as drowsiness and shortness of breath, and was diagnosed with severe pneumonia complicated by type I respiratory failure. While initial treatment with anti-infectives and glucocorticoids (methylprednisolone sodium succinate) led to some improvement, the patient’s condition rapidly deteriorated upon the discontinuation of the glucocorticoid. Given the patient’s history of immunotherapy and the worsening of her condition after the discontinuation of hormone therapy, the patient was ultimately considered to have developed immune-related lung disease (ILD) caused by toripalimab. With high-dose glucocorticoid pulse therapy and other supportive treatments, the patient’s condition was controlled and gradually stabilized, and she was subsequently discharged in stable condition. During the follow-up period, the patient continued vedotin treatment, without experiencing any significant adverse reactions. CONCLUSION: Although the combination of toripalimab and disitamab vedotin demonstrates efficacy in treating UTUC, it may also induce severe ILD. In clinical practice, it is essential to strictly adhere to indications, enhance monitoring and follow-up, and formulate individualized treatment decisions.",
+   "journal": "BMC pulmonary medicine",
+   "year": "2025",
+   "doi": "10.1186/s12890-025-03838-z",
+   "publication_types": [
+    "Journal Article",
+    "Case Reports",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40707939/"
+  }
+ ]
+}

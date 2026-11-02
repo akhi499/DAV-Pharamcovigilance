@@ -1,0 +1,61 @@
+{
+ "drug": "MEPOLIZUMAB",
+ "status": "ok",
+ "query": "\"mepolizumab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:39+00:00",
+ "records": [
+  {
+   "pmid": "34163157",
+   "title": "Mepolizumab for Eosinophil-Associated COPD: Analysis of METREX and METREO.",
+   "abstract": "BACKGROUND: A pre-specified meta-analysis of individual patient data from the 52-week METREX and METREO trials, which investigated mepolizumab for chronic obstructive pulmonary disease (COPD) in patients with blood eosinophil counts ≥150 cells/µL (screening) or ≥300 cells/µL (prior year) and frequent exacerbations, enables more robust characterization of mepolizumab efficacy in COPD and exploration of the relationship between blood eosinophil count and treatment responses.\nMETHODS: In METREX (117106/NCT02105948) and METREO (117113/NCT02105961), randomized patients received mepolizumab or placebo added to existing inhaled corticosteroid (ICS)-based triple maintenance therapy. The annual rate of moderate/severe exacerbations (primary endpoint) was compared between subcutaneous (SC) mepolizumab 100 mg versus placebo (primary comparison of interest) and all doses (100 mg and 300 mg SC) versus placebo in patients with blood eosinophil counts ≥150 cells/µL at screening or ≥300 cells/µL in the prior year. Secondary/other endpoints included time to first moderate/severe exacerbation, exacerbations leading to emergency department visit/hospitalization and health-related quality of life (HRQoL). A predictive model of the relationship between screening blood eosinophil counts and exacerbation rates included data from all randomized patients.\nRESULTS: In total, 1510 patients were randomized in METREX and METREO and 1136 patients were included in the pre-specified meta-analysis. From the meta-analysis, mepolizumab 100 mg SC significantly reduced annual moderate/severe exacerbation rates versus placebo by 18% (rate ratio: 0.82; 95% confidence interval: 0.71, 0.95; p=0.006) and delayed time to first moderate/severe exacerbation (hazard ratio: 0.80 [0.68, 0.94]; p=0.006). Mepolizumab 100 mg SC versus placebo numerically reduced exacerbations leading to ED visits/hospitalization and improved HRQoL. A modelling approach demonstrated increasing efficacy for moderate/severe exacerbations with increasing screening blood eosinophil count; this relationship was more pronounced for exacerbations requiring oral corticosteroids (post hoc). The all-doses comparison had similar results.\nCONCLUSION: Mepolizumab reduces exacerbations in patients with eosinophil-associated COPD. Results suggest that blood eosinophil counts (≥150 cells/µL at screening or ≥300 cells/µL in the prior year) allow for identification of patients with COPD who experience exacerbations while treated with maximal ICS-based triple maintenance therapy who are likely to benefit from mepolizumab.",
+   "journal": "International journal of chronic obstructive pulmonary disease",
+   "year": "2021",
+   "doi": "10.2147/COPD.S294333",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34163157/"
+  },
+  {
+   "pmid": "40099886",
+   "title": "Adverse effects of biologics used to treat asthma.",
+   "abstract": "In this review, we discuss the risks and adverse effects reported for the current Food and Drug Association (FDA)-approved biologics used in the management of asthma, including omalizumab, benralizumab, dupilumab, mepolizumab, reslizumab, and tezepelumab. Our review focuses on the risk of hypersensitivity reactions, infection, and malignancy. Where relevant, we have included information regarding the risk of cardiovascular disease and eosinophilia, and we have included specific information regarding vaccine use among patients receiving the above biologics. We also review currently available data regarding the use of biologics in the context of pregnancy. Our goal is to provide a comprehensive resource for providers utilizing these agents, so that they may adequately counsel patients about the risks of therapy and identify adverse events if they occur.",
+   "journal": "Therapeutic advances in respiratory disease",
+   "year": "2025",
+   "doi": "10.1177/17534666251319175",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40099886/"
+  },
+  {
+   "pmid": "39985317",
+   "title": "Efficacy and Safety of Biologics for Chronic Rhinosinusitis With Nasal Polyps: A Meta-Analysis of Real-World Evidence.",
+   "abstract": "Dupilumab, omalizumab, mepolizumab, and benralizumab have demonstrated good efficacy and safety in the treatment of severe uncontrolled chronic rhinosinusitis with nasal polyps (CRSwNP) in phase 3 randomised controlled trials (RCTs). With recent regulatory approvals, there has been a surge in real-world studies (RWSs). This systematic review and meta-analysis aimed to summarise the efficacy and safety of these four biologics in real-world settings. Primary outcomes were nasal polyp score and sino-nasal outcome test-22 score. Secondary outcomes included smell identification test score, loss of smell score, nasal congestion score, overall nasal symptom score, treatment response, and adverse events (AEs) prompting discontinuation. Efficacy outcomes at 4, 6, 12, and over 12 months were summarised, and meta-analyses of mean changes from baseline were conducted. Sixty-four RWSs involving 3921 patients were included. Significant improvements in clinical outcomes were observed at most follow-up time points, with dupilumab showing particularly notable effects. The efficacy observed in these RWSs was superior to that demonstrated in phase 3 RCTs. All biologics exhibited low discontinuation rates due to AEs. Overall, biologic treatments for CRSwNP in real-world settings demonstrate strong efficacy and good safety. However, the limitations in current RWSs highlight the need for long-term, high-quality multicentre prospective studies and comprehensive healthcare database analyses.",
+   "journal": "Allergy",
+   "year": "2025",
+   "doi": "10.1111/all.16499",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39985317/"
+  },
+  {
+   "pmid": "32034960",
+   "title": "Efficacy and safety of treatment with biologicals (benralizumab, dupilumab, mepolizumab, omalizumab and reslizumab) for severe eosinophilic asthma. A systematic review for the EAACI Guidelines - recommendations on the use of biologicals in severe asthma.",
+   "abstract": "Five biologicals have been approved for severe eosinophilic asthma, a well-recognized phenotype. Systematic reviews (SR) evaluated the efficacy and safety of benralizumab, dupilumab, mepolizumab, omalizumab and reslizumab (alphabetical order) compared to standard of care for severe eosinophilic asthma. PubMed, Embase and Cochrane Library were searched to identify RCTs and health economic evaluations, published in English. Critical and important asthma-related outcomes were evaluated for each of the biologicals. The risk of bias and the certainty of the evidence were assessed using GRADE. 19 RCTs (three RCTs for benralizumab, three RCTs for dupilumab, three RCTs for mepolizumab, five RCTs for omalizumab and five RCTs for reslizumab), including subjects 12 to 75 years old (except for omalizumab including also subjects 6-11 years old), ranging from 12 to 56 weeks were evaluated. All biologicals reduce exacerbation rates with high certainty of evidence: benralizumab incidence rate ratio (IRR) 0.53 (95% CI 0.39 to 0.72), dupilumab (IRR) 0.43 (95% CI 0.32 to 0.59), mepolizumab IRR 0.49 (95% CI 0.38 to 0.66), omalizumab (IRR) 0.56 (95% CI 0.40 to 0.77) and reslizumab (IRR) 0.46 (95% CI 0.37 to 0.58). Benralizumab, dupilumab and mepolizumab reduce the daily dose of oral corticosteroids (OCS) with high certainty of evidence. All evaluated biologicals probably improve asthma control, QoL and FEV1 , without reaching the minimal important difference (moderate certainty). Benralizumab, mepolizumab and reslizumab slightly increase drug-related adverse events (AE) and drug-related serious AE (low to very low certainty of evidence). The incremental cost-effectiveness ratio per quality-adjusted life year value is above the willingness to pay threshold for all biologicals (moderate certainty). Potential savings are driven by decrease in hospitalizations, emergency and primary care visits. There is high certainty that all approved biologicals reduce the rate of severe asthma exacerbations and for benralizumab, dupilumab and mepolizumab for reducing OCS. There is moderate certainty for improving asthma control, QoL, FEV1 . More data on long-term safety are needed together with more efficacy data in the paediatric population.",
+   "journal": "Allergy",
+   "year": "2020",
+   "doi": "10.1111/all.14221",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32034960/"
+  }
+ ]
+}

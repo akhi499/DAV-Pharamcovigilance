@@ -1,0 +1,60 @@
+{
+ "drug": "FINASTERIDE",
+ "status": "ok",
+ "query": "\"finasteride\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:14:51+00:00",
+ "records": [
+  {
+   "pmid": "35920739",
+   "title": "Comparison of oral minoxidil, finasteride, and dutasteride for treating androgenetic alopecia.",
+   "abstract": "BACKGROUND: Androgenetic alopecia (AGA) is the most common cause of hair loss, often challenging to treat. While oral finasteride (1 mg/d) is an FDA-approved treatment for male AGA, oral minoxidil and oral dutasteride are not approved yet. However, clinicians have been increasingly using these two drugs off-label for hair loss. Recently, Japan and South Korea have approved oral dutasteride (0.5 mg/d) for male AGA.\nEFFICACY AND SAFETY: A probable efficacy ranking, in decreasing order, is - dutasteride 0.5 mg/d, finasteride 5 mg/d, minoxidil 5 mg/d, finasteride 1 mg/d, followed by minoxidil 0.25 mg/d. Oral minoxidil predominantly causes hypertrichosis and cardiovascular system (CVS) symptoms/signs in a dose-dependent manner, whereas oral finasteride and dutasteride are associated with sexual dysfunction and neuropsychiatric side effects.\nPHARMACOKINETICS AND PHARMACODYNAMICS: The average plasma half-lives of minoxidil, finasteride, and dutasteride are ∼4 h, ∼4.5 h, and ∼5 weeks, respectively. Minoxidil acts through multiple pathways to promote hair growth. It has been shown as a vasodilator, an anti-inflammatory agent, a Wnt/β-catenin signaling inducer, and an antiandrogen. Finasteride inhibits 5α-reductase (5AR) type II isoenzyme, while dutasteride inhibits both type I and type II. Thus, dutasteride suppresses DHT levels more than finasteride in the serum and scalp.",
+   "journal": "The Journal of dermatological treatment",
+   "year": "2022",
+   "doi": "10.1080/09546634.2022.2109567",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35920739/"
+  },
+  {
+   "pmid": "34291720",
+   "title": "Finasteride for hair loss: a review.",
+   "abstract": "BACKGROUND AND OBJECTIVES: Finasteride 1 mg/day is indicated for androgen-dependent conditions such as male androgenetic alopecia (AGA).\nMETHODS: The literature is comprehensively summarized on the pharmacodynamics, pharmacokinetics, mechanism of action, and metabolism of finasteride. Pairwise and network meta-analyses were performed to assess the efficacy of finasteride reported in clinical trials. The adverse events profile is described along with the post-marketing reports.\nRESULTS AND CONCLUSION: Finasteride 1 mg/day significantly increased total hair count compared to placebo after 24 weeks (mean difference = 12.4 hairs/cm2, p < .05), and 48 weeks (mean difference = 16.4 hairs/cm2, p < .05). The efficacy of the two doses of finasteride (5 mg/day and 1 mg/day) and topical finasteride (1% solution) were not significantly different. The most commonly reported sexual events include erectile dysfunction and decreased libido. Increasing patient complaints and analysis of the FAERS database led to the inclusion of depression in the FDA label in 2011, as men were found to be at a risk of suicide due to the persistent sexual side effects, commonly termed as post-finasteride syndrome. Finasteride is shown to be reasonably tolerated in both men and women; however, patients need to be educated about the possible short- and long-term side-effects.",
+   "journal": "The Journal of dermatological treatment",
+   "year": "2022",
+   "doi": "10.1080/09546634.2021.1959506",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34291720/"
+  },
+  {
+   "pmid": "35044013",
+   "title": "Natural products for male androgenetic alopecia.",
+   "abstract": "Androgenetic alopecia (AGA) is the most common cause of hair loss in men, often requiring medical attention. The US FDA approved topical minoxidil and oral finasteride to treat AGA. Topical minoxidil requires a long-term application to observe improvement; oral finasteride may cause undesirable side effects. Therefore, natural products may be an alternative when patients are skeptical about these two conventional treatments. Physicians may also suggest natural products in conjunction with topical minoxidil or oral finasteride to enhance clinical outcomes. This article reviews the prospect of natural products in treating male AGA. A systematic search was conducted in PubMed, CINAHL, Scopus, Web of Science, and EMBASE (Ovid) on July 19, 2021. In addition, the bibliographies of selected articles were hand-searched to identify relevant studies. After deduplication and screening, 11 clinical studies meet the criteria for detailed review. The selected clinical studies suggest that saw palmetto, caffeine, melatonin, marine extracts, rosemary oil, procyanidin, pumpkin seed oil, and cannabidiol oil might be considered in male AGA treatment.",
+   "journal": "Dermatologic therapy",
+   "year": "2022",
+   "doi": "10.1111/dth.15323",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35044013/"
+  },
+  {
+   "pmid": "37003900",
+   "title": "Female-pattern hair loss: therapeutic update.",
+   "abstract": "Female androgenetic alopecia or female-pattern hair loss (FPHL) is highly prevalent and has a great impact on the quality of life. The treatment is a routine challenge in dermatological practice, as many therapeutic options have a limited level of evidence and often do not meet patients expectations. Lack of knowledge of the pathogenesis of the hair miniaturization process and the factors that regulate follicular morphogenesis restricts the prospect of innovative therapies. There is also a lack of randomized, controlled studies with longitudinal follow-up, using objective outcomes and exploring the performance of the available treatments and their combinations. Topical minoxidil, which has been used to treat female pattern hair loss since the 1990s, is the only medication that has a high level of evidence and remains the first choice. However, about 40% of patients do not show improvement with this treatment. In this article, the authors critically discuss the main clinical and surgical therapeutic alternatives for FPHL, as well as present camouflage methods that can be used in more extensive or unresponsive cases.",
+   "journal": "Anais brasileiros de dermatologia",
+   "year": "2023",
+   "doi": "10.1016/j.abd.2022.09.006",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37003900/"
+  }
+ ]
+}

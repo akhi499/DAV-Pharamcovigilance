@@ -1,0 +1,22 @@
+{
+ "drug": "VENLAFAXINE HYDROCHLORIDE",
+ "status": "ok",
+ "query": "\"venlafaxine hydrochloride\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:19:36+00:00",
+ "records": [
+  {
+   "pmid": "40725968",
+   "title": "Venlafaxine-induced thrombocytopenia: A case report and literature review.",
+   "abstract": "RATIONALE: Drug-induced thrombocytopenia (DITP) is an adverse drug effect mediated by drug-dependent antibodies. Although several cases of thrombocytopenia induced by antidepressants and antianxiety drugs have been reported at home and abroad, reports of venlafaxine hydrochloride-induced thrombocytopenia are rare.\nPATIENT CONCERNS: In this study, we report a case of an anxiety patient who developed severe thrombocytopenia and subcutaneous bleeding after 1 week of treatment with a venlafaxine-containing regimen.\nDIAGNOSES: DITP was considered after other secondary factors were excluded.\nINTERVENTIONS: The patient's platelet count returned to normal after treatment with glucocorticoids combined with recombinant human thrombopoietin, and antianxiety drugs without venlafaxine were administered for continued treatment.\nOUTCOMES: Three months after discharge, repeated routine blood monitoring indicated that the platelet count remained normal.\nLESSONS: In combination with the cases and related literature, we would like to emphasize that venlafaxine may rarely cause thrombocytopenia, and clinicians should pay attention to and inform patients of rare adverse reactions that may occur if they encounter venlafaxine in their clinical practice. Once DITP is considered, the drug should be discontinued and relevant treatment measures should be taken. Based on this case and a review of the literature, we suggest that all cases with myelodysplastic tumor characteristics should undergo screening for BCR/ABL genes or Ph chromosomes to exclude chronic myeloid leukemia to mitigate the risk of misdiagnosis and ensure timely initiation of appropriate treatment.",
+   "journal": "Medicine",
+   "year": "2025",
+   "doi": "10.1097/MD.0000000000043413",
+   "publication_types": [
+    "Journal Article",
+    "Case Reports",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40725968/"
+  }
+ ]
+}

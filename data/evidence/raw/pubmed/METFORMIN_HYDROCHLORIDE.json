@@ -1,0 +1,22 @@
+{
+ "drug": "METFORMIN HYDROCHLORIDE",
+ "status": "ok",
+ "query": "\"metformin hydrochloride\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:16:04+00:00",
+ "records": [
+  {
+   "pmid": "32846852",
+   "title": "The feasibility of Chinese massage as an auxiliary way of replacing or reducing drugs in the clinical treatment of adult type 2 diabetes: A systematic review and meta-analysis.",
+   "abstract": "BACKGROUND: At present, metformin is mainly used in the treatment of type 2 diabetes mellitus (T2DM). When the therapeutic effect is achieved, there are side effects and secondary failure will occur if taken for a long time. It is of great significance to actively explore the clinical scheme of reducing drug use while ensuring the therapeutic effect of T2DM.\nOBJECTIVE: To evaluate the feasibility of Chinese massage (CM) in the treatment of T2DM.\nMETHODS: Literature retrieval is divided into 2 aspects: Electronic Retrieval and Personal Check. We will search PubMed, EMBASE, CNKI, Cochrane Central, which were registered in international clinical trials registry platform systems, select all eligible studies published before November 2, 2019, and use Personal Check method to retrieve papers, conference papers, ongoing experiments, internal reports, and so on. With fasting blood glucose, 2-hour fasting blood glucose, glycosylated hemoglobin, and insulin index as the main observation indexes, we also pay attention to traditional Chinese medicine syndrome score scale, insulin resisting index, body mass index , serum total cholesterol, Curative effect and the occurrence of all adverse reactions in drug treatment.Of the research group 2 researchers respective selected literature, extracted data, and evaluated the risk of bias. After that we used Revman 5.7 and Stata 12.1 statistical software for meta-analysis.\nRESULTS: A total of 769 subjects were included in 10 studies for meta-analysis. Compared with metformin hydrochloride tablets, CM plus baseline treatment can reduce fasting plasma glucose (weighted mean difference [WMD] = -0.33, 95% confidence interval [CI] [-0.54, -0.13], Z = 3.15, P = .002), 2 hours postprandial blood glucose (WMD = -0.52, 95% CI [-0.70, -0.34), Z = 5.66, P < .00001], hemoglobin A1c (WMD = 0.12, 95% CI [0.04, 0.20], Z = 2.94, P = .003), fasting insulin (WMD = -3.59, 95% CI [-5.56, -1.42], Z = 10.29,P < .00001), traditional Chinese medicine syndrome score scale (WMD = -4.55, 95% CI [-7.58, -1.51], Z = 2.94, P = .003),homeostasis model assessment of insulin resistance (WMD = -1.76, 95% CI [-2.25, -1.27), Z = 7.08, P < .00001),body mass index (WMD = -1.28, 95% CI [-1.65, -0.92], Z = 6.91, P < .00001), serum total cholesterol (WMD = -1.01, 95% CI [-1.14, -0.83], Z = 15.51, P < .00001), meanwhile, the effective rate was increased (risk ratio [RR] = 1.31, 95% CI [1.21, 1.42], Z = 6.57, P < .00001).\nCONCLUSION: CM combined with metformin hydrochloride tablet has a synergistic effect. It can not only be used as an auxiliary treatment of T2DM, but also as an important reference way of reducing drug treatment of T2DM, improving Clinical Efficacy and reducing adverse reactions.\nSYSTEMATIC REVIEW REGISTRATION: PROSPERO CRD42020158839.",
+   "journal": "Medicine",
+   "year": "2020",
+   "doi": "10.1097/MD.0000000000021894",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32846852/"
+  }
+ ]
+}

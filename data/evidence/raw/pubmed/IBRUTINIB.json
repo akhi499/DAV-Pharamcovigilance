@@ -1,0 +1,61 @@
+{
+ "drug": "IBRUTINIB",
+ "status": "ok",
+ "query": "\"ibrutinib\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:54+00:00",
+ "records": [
+  {
+   "pmid": "37483142",
+   "title": "Updates in chronic graft-versus-host disease management.",
+   "abstract": "Chronic graft-versus-host disease (cGvHD) remains the most important long-term complication of allogeneic hematopoietic cell transplantation (allo-HCT), but the field has seen significant changes in the last decade. Remarkable advances in the understanding of the biological pathways of cGvHD, lead to the development of targeted therapy with novel drugs thereby minimizing the exposure to harmful corticosteroids, preserving function and mobility, preventing disability, and improving quality of life (QoL) and overall survival (OS). Steroid-refractory cGvHD management has recently experienced significant improvement since ibrutinib and ruxolitinib were approved for patients that failed at least one line of treatment and belumosudil for patients that failed two lines. These recently approved drugs will be discussed in this review, along with perspectives regarding cGVHD management and additional promising drug in development.",
+   "journal": "American journal of hematology",
+   "year": "2023",
+   "doi": "10.1002/ajh.27040",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37483142/"
+  },
+  {
+   "pmid": "34983915",
+   "title": "Chemotherapy-Induced Arrhythmias.",
+   "abstract": "Cardio-oncology is a subspeciality within cardiology that has developed primarily as a consequence of the cardiovascular implications of cancer and its therapeutics. Arrhythmias are increasingly recognized as an adverse feature of many chemotherapeutic agents. This relationship is poorly defined and studied in the literature compared with other side effects of chemotherapy. In this review, we appraise the published literature on arrhythmogenic consequences of chemotherapeutic agents and summarize the available evidence. Atrial fibrillation (AF) and other supraventricular tachycardias are frequently observed in patients receiving chemotherapy. High rates of AF are seen with certain agents such as tyrosine kinase inhibitors eg, ibrutinib and the mechanism for this is poorly defined but likely related to off-target effects. The management of AF in cardio-oncology is similar to that of the noncancer patient with certain nuances. Mainly that bleeding and stroke risk stratification tools are not validated in the cancer population. In this patient cohort, treatment decisions are usually led by anecdotal evidence rather than an evidence base. This leads to treatment heterogeneity between clinicians. Furthermore, various drug interactions can limit the choice of therapy, particularly with respect to anticoagulant drugs. Many chemotherapeutic agents have been implicated in QT interval (A Measurement calculated from the start of the Q wave to the end of the T wave on the electrocardiogram approximating the time taken for ventricular relaxation.) of these, arsenic trioxide and several tyrosine kinase inhibitors are classic culprits. In patients receiving these agents, it is advisable to perform a baseline electrocardiogram and monitor the QT interval. If the (QT interval corrected for heart rate) increases by 60 milliseconds from baseline or is greater than 500 milliseconds, it is advisable to suspend treatment temporarily. Moving forward, further trials are required in the field of cardio-oncology to better understand the relationship between chemotherapeutic agents and arrhythmia.",
+   "journal": "Journal of cardiovascular pharmacology",
+   "year": "2022",
+   "doi": "10.1097/FJC.0000000000001216",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34983915/"
+  },
+  {
+   "pmid": "36943212",
+   "title": "Diagnosis and Treatment of Chronic Lymphocytic Leukemia: A Review.",
+   "abstract": "IMPORTANCE: Chronic lymphocytic leukemia (CLL), defined by a minimum of 5 × 109/L monoclonal B cells in the blood, affects more than 200 000 people and is associated with approximately 4410 deaths in the US annually. CLL is associated with an immunocompromised state and an increased rate of complications from infections.\nOBSERVATIONS: At the time of diagnosis, the median age of patients with CLL is 70 years, and an estimated 95% of patients have at least 1 medical comorbidity. Approximately 70% to 80% of patients with CLL are asymptomatic at the time of diagnosis, and one-third will never require treatment for CLL. Prognostic models have been developed to estimate the time to first treatment and the overall survival, but for patients who are asymptomatic, irrespective of disease risk category, clinical observation is the standard of care. Patients with symptomatic disease who have bulky or progressive lymphadenopathy or hepatosplenomegaly and those with a low neutrophil count, anemia, or thrombocytopenia and/or symptoms of fever, drenching night sweats, and weight loss (B symptoms) should be offered treatment. For these patients, first-line treatment consists of a regimen containing either a covalent Bruton tyrosine kinase (BTK) inhibitor (acalabrutinib, zanubrutinib, or ibrutinib) or a B-cell leukemia/lymphoma 2 (BCL2) inhibitor (venetoclax). There is no evidence that starting either class before the other improves outcomes. The covalent BTK inhibitors are typically used indefinitely. Survival rates are approximately 88% at 4 years for acalabrutinib, 94% at 2 years for zanubrutinib, and 78% at 7 years for ibrutinib. Venetoclax is prescribed in combination with obinutuzumab, a monoclonal anti-CD20 antibody, in first-line treatment for 1 year (overall survival, 82% at 5-year follow-up). A noncovalent BTK inhibitor, pitobrutinib, has shown an overall response rate of more than 70% after failure of covalent BTK inhibitors and venetoclax. Phosphoinositide 3'-kinase (PI3K) inhibitors (idelalisib and duvelisib) can be prescribed for disease that progresses with BTK inhibitors and venetoclax, but patients require close monitoring for adverse events such as autoimmune conditions and infections. In patients with multiple relapses, chimeric antigen receptor T-cell (CAR-T) therapy with lisocabtagene maraleucel was associated with a 45% complete response rate. The only potential cure for CLL is allogeneic hematopoietic cell transplant, which remains an option after use of targeted agents.\nCONCLUSIONS AND RELEVANCE: More than 200 000 people in the US are living with a CLL diagnosis, and CLL causes approximately 4410 deaths each year in the US. Approximately two-thirds of patients eventually need treatment. Highly effective novel targeted agents include BTK inhibitors such as acalabrutinib, zanubrutinib, ibrutinib, and pirtobrutinib or BCL2 inhibitors such as venetoclax.",
+   "journal": "JAMA",
+   "year": "2023",
+   "doi": "10.1001/jama.2023.1946",
+   "publication_types": [
+    "Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36943212/"
+  },
+  {
+   "pmid": "39786434",
+   "title": "FDA-approved therapies for chronic GVHD.",
+   "abstract": "Despite novel prophylactic regimens, chronic graft-versus-host disease (cGVHD) remains a challenging complication after allogeneic hematopoietic cell transplantation. cGVHD can affect multiple organs and reduces quality of life, and treatment can cause serious adverse effects. In the past 10 years, the drugs ibrutinib, ruxolitinib, belumosudil, and axatilimab were approved by the US Food and Drug Administration (FDA) for cGVHD. Here, we discuss which signaling pathways and cell types are targeted, the clinical studies that were the basis for FDA approval, and future directions for clinical research.",
+   "journal": "Blood",
+   "year": "2025",
+   "doi": "10.1182/blood.2024026633",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39786434/"
+  }
+ ]
+}

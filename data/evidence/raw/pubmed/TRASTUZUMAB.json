@@ -1,0 +1,60 @@
+{
+ "drug": "TRASTUZUMAB",
+ "status": "ok",
+ "query": "\"trastuzumab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:36+00:00",
+ "records": [
+  {
+   "pmid": "31587782",
+   "title": "Trastuzumab-Induced Cardiomyopathy.",
+   "abstract": "Trastuzumab targets the human epidermal growth factor receptor 2 (HER2). Its overexpression occurs in 25% of breast cancers and is associated with aggressive tumor characteristics and poor prognosis in absence of targeted therapy. Trastuzumab dramatically improves HER2-positive breast cancer outcomes; however, its clinical use is associated with left ventricular dysfunction and heart failure. Patients receiving trastuzumab or other HER2-targeted therapies undergo routine cardiac function assessment. Holding and/or stopping trastuzumab treatment in the setting of left ventricular dysfunction is recommended. This article summarizes the role of trastuzumab in cancer treatment, the mechanisms of trastuzumab-induced cardiotoxicity, recent clinical investigations, and current controversies.",
+   "journal": "Cardiology clinics",
+   "year": "2019",
+   "doi": "10.1016/j.ccl.2019.07.005",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31587782/"
+  },
+  {
+   "pmid": "40887295",
+   "title": "Trastuzumab Cardiotoxicity: Mechanism and Management.",
+   "abstract": "Trastuzumab, a therapeutic drug for patients with breast cancer, is one of the most effective and commonly used anticancer drugs for breast cancer. However, its adverse effects include cardiotoxicity, and there is a risk of developing conditions such as arrhythmia, cardiomyopathy, and heart failure. The adverse cardiac effects associated with trastuzumab are now widely recognized, and their mechanisms are beginning to be partially understood. One of the mechanisms has been suggested to be related to the suppressive action of trastuzumab on the erythroblastic oncogene B2 receptor, which acts protectively on the myocardium. Diagnosis can be made by assessing cardiac function with echocardiography, as well as measuring serum troponin I and N-terminal pro-B-type natriuretic peptide levels as biomarkers, and magnetic resonance imaging diagnosis may be helpful for early detection. As for therapeutic and prophylactic drugs, β-blockers and angiotensin-converting enzyme inhibitors, which are used to treat heart failure, have been shown to be effective, while recently, angiotensin receptor/neprilysin and sodium-glucose cotransporter 2 inhibitors are expected to be effective. Furthermore, the cardioprotective effects of proprotein convertase subtilisin/kexin type 9 inhibitors, which are used to treat lipid disorders, have also been attracting attention. This review will summarize the mechanisms, diagnostic methods, and treatment/preventive methods of cardiotoxicity associated with antihuman epidermal growth factor receptor 2 therapies, including trastuzumab.",
+   "journal": "Biological & pharmaceutical bulletin",
+   "year": "2025",
+   "doi": "10.1248/bpb.b25-00235",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40887295/"
+  },
+  {
+   "pmid": "33902516",
+   "title": "Trastuzumab administration during pregnancy: an update.",
+   "abstract": "BACKGROUND: Over than one third (28-58%) of pregnancy-associated breast cancer (PABC) cases are characterized by positive epidermal growth factor receptor 2-positive (HER2) expression. Trastuzumab anti-HER2 monoclonal antibody is still the benchmark treatment of HER2-positive breast tumors. However, FDA has categorized Trastuzumab as a category D drug for pregnant patients with breast cancer. This systemic review aims to synthesize all currently available data of trastuzumab administration during pregnancy and provide an updated view of the effect of trastuzumab on fetal and maternal outcome.\nMETHODS: Eligible articles were identified by a search of MEDLINE bibliographic database and ClinicalTrials.gov for the period up to 01/09/2020; The algorithm consisted of a predefined combination of the words \"breast\", \"cancer\", \"trastuzumab\" and \"pregnancy\". This study was performed in accordance with the PRISMA guidelines.\nRESULTS: A total of 28 eligible studies were identified (30 patients, 32 fetuses). In more than half of cases, trastuzumab was administered in the metastatic setting. The mean duration of trastuzumab administration during gestation was 15.7 weeks (SD: 10.8; median: 17.5; range: 1-32). Oligohydramnios or anhydramnios was the most common (58.1%) adverse event reported in all cases. There was a statistically significant decrease in oligohydramnios/anhydramnios incidence in patients receiving trastuzumab only during the first trimester (P = 0.026, Fisher's exact test). In 43.3% of cases a completely healthy neonate was born. 41.7% of fetuses exposed to trastuzumab during the second and/or third trimester were born completely healthy versus 75.0% of fetuses exposed exclusively in the first trimester. All mothers were alive at a median follow-up of 47.0 months (ranging between 9 and 100 months). Of note, there were three cases (10%) of cardiotoxicity and decreased ejection fraction during pregnancy.\nCONCLUSIONS: Overall, treatment with trastuzumab should be postponed until after delivery, otherwise pregnancy should be closely monitored.",
+   "journal": "BMC cancer",
+   "year": "2021",
+   "doi": "10.1186/s12885-021-08162-3",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33902516/"
+  },
+  {
+   "pmid": "37787931",
+   "title": "Trastuzumab Deruxtecan: A Review in Gastric or Gastro-Oesophageal Junction Adenocarcinoma.",
+   "abstract": "Trastuzumab deruxtecan (Enhertu®) is a human epidermal growth factor receptor type 2 (HER2)-directed antibody-drug conjugate that is approved in several countries globally for adults with advanced HER2-positive gastric or gastro-oesophageal junction (GOJ) adenocarcinoma who have received a prior trastuzumab-based regime. In the phase II DESTINY-Gastric01 trial, intravenous trastuzumab deruxtecan was significantly more effective than standard chemotherapy (physician's choice of intravenous irinotecan or paclitaxel) in achieving objective response and improving overall survival in Japanese or South Korean adults with advanced HER2-positive gastric or GOJ adenocarcinoma who had received two or more previous therapies. In the phase II DESTINY-Gastric02 trial, trastuzumab deruxtecan was able to induce durable response in adults from the USA or Europe with unresectable or metastatic HER2-positive gastric or GOJ adenocarcinoma. Trastuzumab deruxtecan was generally tolerable in these patients; the most common adverse events included nausea, neutropenia, fatigue and decreased appetite. Trastuzumab deruxtecan carries regulatory warnings (including boxed warnings in the USA) for interstitial lung disease/pneumonitis and embryo-foetal toxicity. Current evidence indicates that trastuzumab deruxtecan is an effective treatment option, and is generally tolerable, in previously treated adults with advanced HER2-positive gastric or GOJ adenocarcinoma.",
+   "journal": "Targeted oncology",
+   "year": "2023",
+   "doi": "10.1007/s11523-023-00998-y",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37787931/"
+  }
+ ]
+}

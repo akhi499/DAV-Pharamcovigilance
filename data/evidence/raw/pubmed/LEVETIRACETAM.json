@@ -1,0 +1,62 @@
+{
+ "drug": "LEVETIRACETAM",
+ "status": "ok",
+ "query": "\"levetiracetam\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:47+00:00",
+ "records": [
+  {
+   "pmid": "35380580",
+   "title": "Antiseizure Medications for Adults With Epilepsy: A Review.",
+   "abstract": "IMPORTANCE: Epilepsy affects approximately 65 million people worldwide. Persistent seizures are associated with a 20% to 40% risk of bodily injuries (eg, fractures, burns, concussions) over 12-month follow-up. The primary goal of epilepsy treatment is to eliminate seizures while minimizing adverse effects of antiseizure drugs (ASDs).\nOBSERVATIONS: An epileptic seizure is defined as a sudden occurrence of transient signs and symptoms caused by abnormal and excessive or synchronous neuronal activity in the brain. Focal and generalized epilepsy are the 2 most frequent types of epilepsy; diagnosis is based on the type of seizures. There are 26 US Food and Drug Administration-approved medications for epilepsy, of which 24 have similar antiseizure efficacy for focal epilepsy and 9 have similar efficacy for generalized epilepsy. The decision to initiate an ASD should be individualized, but should be strongly considered after 2 unprovoked seizures or after 1 unprovoked seizure that occurred during sleep and/or in the presence of epileptiform activity on an electroencephalogram and/or in the presence of a structural lesion on the brain magnetic resonance imaging. The ASDs must be selected based on the seizure and epilepsy types, the epilepsy syndrome, and the adverse effects associated with the drug. For focal epilepsy, oxcarbazepine and lamotrigine are first-line therapy, while levetiracetam can be also considered if there is no history of psychiatric disorder. For generalized epilepsy, the selection of the ASD is based on the type of epilepsy syndrome and the patient's sex, age, and psychiatric history. Seizure freedom is achieved in approximately 60% to 70% of all patients. A total of 25% to 50% of patients also experience neurologic, psychiatric, cognitive, or medical disorders, such as mood, anxiety, and attention deficit disorders and migraines. For these patients, selecting an ASD should consider the presence of these disorders and concomitant use of medications to treat them. ASDs with cytochrome P450 enzyme-inducing properties (eg, carbamazepine, phenytoin) may worsen comorbid coronary and cerebrovascular disease by causing hyperlipidemia and accelerating the metabolism of concomitant drugs used for their treatment. They can also facilitate the development of osteopenia and osteoporosis.\nCONCLUSIONS AND RELEVANCE: Epilepsy affects approximately 65 million people worldwide and is associated with increased rates of bodily injuries and mortality when not optimally treated. For focal and generalized epilepsy, selection of ASDs should consider the seizure and epilepsy types and epilepsy syndrome, as well as the patient's age and sex, comorbidities, and potential drug interactions.",
+   "journal": "JAMA",
+   "year": "2022",
+   "doi": "10.1001/jama.2022.3880",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35380580/"
+  },
+  {
+   "pmid": "35133310",
+   "title": "Epilepsy and Pregnancy.",
+   "abstract": "PURPOSE OF REVIEW: Seizure disorders are the most frequent major neurologic complication in pregnancy, affecting 0.3% to 0.8% of all gestations. Women of childbearing age with epilepsy require special care related to pregnancy. This article provides up-to-date information to guide practitioners in the management of epilepsy in pregnancy.\nRECENT FINDINGS: Ongoing multicenter pregnancy registries and studies continue to provide important information on issues related to pregnancy in women with epilepsy. Valproate poses a special risk for malformations and cognitive/behavioral impairments. A few antiseizure medications pose low risks (eg, lamotrigine, levetiracetam), but the risks for many antiseizure medications remain uncertain. Although pregnancy rates differ, a prospective study found no difference in fertility rates between women with epilepsy who were attempting to get pregnant and healthy controls. During pregnancy, folic acid supplementation is important, and a dose greater than 400 mcg/d during early pregnancy (ie, first 12 weeks) is associated with better neurodevelopmental outcome in children of women with epilepsy. Breastfeeding is not harmful and should be encouraged in women with epilepsy even when they are on antiseizure medication treatment.\nSUMMARY: Women with epilepsy should be counseled early and regularly about reproductive health. Practitioners should discuss the risks of various obstetric complications; potential anatomic teratogenicity and neurodevelopmental dysfunction related to fetal antiseizure medication exposure; and a plan of care during pregnancy, delivery, and postpartum. Women with epilepsy should also be reassured that the majority of pregnancies are uneventful.",
+   "journal": "Continuum (Minneapolis, Minn.)",
+   "year": "2022",
+   "doi": "10.1212/CON.0000000000001056",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35133310/"
+  },
+  {
+   "pmid": "30036676",
+   "title": "Levetiracetam.",
+   "abstract": "Therapeutic Reviews aim to provide essential independent information for health professionals about drugs used in palliative and hospice care. Additional content is available on www.palliativedrugs.com. The series editors welcome feedback on the articles (hq@palliativedrugs.com).",
+   "journal": "Journal of pain and symptom management",
+   "year": "2018",
+   "doi": "10.1016/j.jpainsymman.2018.07.012",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30036676/"
+  },
+  {
+   "pmid": "26844734",
+   "title": "Antiepileptic Drugs.",
+   "abstract": "PURPOSE OF REVIEW: Treatment of epilepsy starts with antiepileptic drug (AED) monotherapy. Knowledge of the spectrum of efficacy, clinical pharmacology, and modes of use for individual AEDs is essential for optimal treatment for epilepsy. This article addresses AEDs individually, focusing on key pharmacokinetic characteristics, indications, and modes of use.\nRECENT FINDINGS: Older-generation AEDs are effective but have tolerability and pharmacokinetic disadvantages. Several newer-generation AEDs have undergone comparative trials demonstrating efficacy equal to and tolerability at least equal to or better than older AEDs as first-line therapy. The list includes lamotrigine, oxcarbazepine, levetiracetam, topiramate, and, more recently, zonisamide. Pregabalin was found to be less effective than lamotrigine. Lacosamide, pregabalin, and eslicarbazepine have undergone successful trials of conversion to monotherapy. Other newer-generation AEDs with a variety of mechanisms of action are suitable for adjunctive therapy. Rational AED combinations should avoid AEDs with unfavorable pharmacokinetic interactions or pharmacodynamic interactions related to mechanism of action.\nSUMMARY: Knowledge of AED pharmacokinetics, efficacy, and tolerability profiles facilitates the choice of appropriate AED therapy for patients with epilepsy.",
+   "journal": "Continuum (Minneapolis, Minn.)",
+   "year": "2016",
+   "doi": "10.1212/CON.0000000000000289",
+   "publication_types": [
+    "Case Reports",
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26844734/"
+  }
+ ]
+}

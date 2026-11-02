@@ -1,0 +1,63 @@
+{
+ "drug": "NIVOLUMAB",
+ "status": "ok",
+ "query": "\"nivolumab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:28+00:00",
+ "records": [
+  {
+   "pmid": "30242316",
+   "title": "Fatal Toxic Effects Associated With Immune Checkpoint Inhibitors: A Systematic Review and Meta-analysis.",
+   "abstract": "IMPORTANCE: Immune checkpoint inhibitors (ICIs) are now a mainstay of cancer treatment. Although rare, fulminant and fatal toxic effects may complicate these otherwise transformative therapies; characterizing these events requires integration of global data.\nOBJECTIVE: To determine the spectrum, timing, and clinical features of fatal ICI-associated toxic effects.\nDESIGN, SETTING, AND PARTICIPANTS: We retrospectively queried a World Health Organization (WHO) pharmacovigilance database (Vigilyze) comprising more than 16 000 000 adverse drug reactions, and records from 7 academic centers. We performed a meta-analysis of published trials of anti-programmed death-1/ligand-1 (PD-1/PD-L1) and anti-cytotoxic T lymphocyte antigen-4 (CTLA-4) to evaluate their incidence using data from large academic medical centers, global WHO pharmacovigilance data, and all published ICI clinical trials of patients with cancer treated with ICIs internationally.\nEXPOSURES: Anti-CTLA-4 (ipilimumab or tremelimumab), anti-PD-1 (nivolumab, pembrolizumab), or anti-PD-L1 (atezolizumab, avelumab, durvalumab).\nMAIN OUTCOMES AND MEASURES: Timing, spectrum, outcomes, and incidence of ICI-associated toxic effects.\nRESULTS: Internationally, 613 fatal ICI toxic events were reported from 2009 through January 2018 in Vigilyze. The spectrum differed widely between regimens: in a total of 193 anti-CTLA-4 deaths, most were usually from colitis (135 [70%]), whereas anti-PD-1/PD-L1-related fatalities were often from pneumonitis (333 [35%]), hepatitis (115 [22%]), and neurotoxic effects (50 [15%]). Combination PD-1/CTLA-4 deaths were frequently from colitis (32 [37%]) and myocarditis (22 [25%]). Fatal toxic effects typically occurred early after therapy initiation for combination therapy, anti-PD-1, and ipilimumab monotherapy (median 14.5, 40, and 40 days, respectively). Myocarditis had the highest fatality rate (52 [39.7%] of 131 reported cases), whereas endocrine events and colitis had only 2% to 5% reported fatalities; 10% to 17% of other organ-system toxic effects reported had fatal outcomes. Retrospective review of 3545 patients treated with ICIs from 7 academic centers revealed 0.6% fatality rates; cardiac and neurologic events were especially prominent (43%). Median time from symptom onset to death was 32 days. A meta-analysis of 112 trials involving 19 217 patients showed toxicity-related fatality rates of 0.36% (anti-PD-1), 0.38% (anti-PD-L1), 1.08% (anti-CTLA-4), and 1.23% (PD-1/PD-L1 plus CTLA-4).\nCONCLUSIONS AND RELEVANCE: In the largest evaluation of fatal ICI-associated toxic effects published to date to our knowledge, we observed early onset of death with varied causes and frequencies depending on therapeutic regimen. Clinicians across disciplines should be aware of these uncommon lethal complications.",
+   "journal": "JAMA oncology",
+   "year": "2018",
+   "doi": "10.1001/jamaoncol.2018.3923",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30242316/"
+  },
+  {
+   "pmid": "33875857",
+   "title": "Endocrine toxicities of immune checkpoint inhibitors.",
+   "abstract": "Immune checkpoint inhibitors (ICIs) are monoclonal antibodies that target two key signalling pathways related to T cell activation and exhaustion, by binding to and inhibiting cytotoxic T lymphocyte antigen 4 (CTLA4) or PD1 and its ligand PDL1. ICIs, such as nivolumab, pembrolizumab and ipilimumab, are approved for the treatment of numerous and diverse cancer types, in various combination regimens, and are now an established cornerstone of cancer therapeutics. Toxicities induced by ICIs are autoimmune in nature and are referred to as immune-related adverse events (irAEs); these events can affect any organ system in an unpredictable fashion. Importantly, irAEs can manifest as endocrinopathies involving the thyroid (hypothyroidism or thyrotoxicosis), pituitary (hypophysitis), adrenal glands (adrenal insufficiency) and pancreas (diabetes mellitus). These events are a frequent source of acute and persistent morbidity in patients treated with ICIs and can even be fatal. Over the past few years, there has been a growing understanding of the underlying pathogenesis of irAEs that has led to the development of more effective management strategies. Herein, we review the current understanding of the pathobiology, clinical manifestations and treatment approaches to endocrine toxicities arising from ICIs.",
+   "journal": "Nature reviews. Endocrinology",
+   "year": "2021",
+   "doi": "10.1038/s41574-021-00484-3",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33875857/"
+  },
+  {
+   "pmid": "40853557",
+   "title": "Cutaneous Melanoma: A Review.",
+   "abstract": "IMPORTANCE: Melanoma, the fifth most common cancer in the US, has increased from 8.8 per 100 000 in 1975 to 28.42 per 100 000 in 2022. Cutaneous melanoma comprises 94% of cases, with 104 960 US cases projected for 2025.\nOBSERVATIONS: Cutaneous melanoma presents as a new, changing, or irregularly pigmented skin lesion. Cutaneous melanoma subtypes include superficial spreading (≈70%), lentigo maligna (≈15%), nodular (≈5%), desmoplastic (≈4%), amelanotic (2%-8%), spitzoid (<2%), and acral (≈1%). Risk factors for cutaneous melanoma include UV radiation exposure, skin type (eg, skin that always burns, never tans), presence of benign and atypical nevi, and personal or family history of melanoma. Primary prevention consists of avoiding direct sunlight and indoor tanning, and photoprotection (sunscreen and sun-protective clothing). Based on United States Cancer Statistics data from 1999 to 2021, 77% of patients with cutaneous melanoma had localized disease (involving only the primary site), 9.5% had regional (nodal) disease, 4.7% had distant metastasis, and 8.8% were unstaged. Melanoma staging, which includes tumor thickness and ulceration and presence of lymph node or distant metastasis, ranges from stage 0 (melanoma in situ) to stage IV (distant metastasis). Localized melanoma (stage IA-IIA) is surgically excised, with margins of 0.5 cm to 2 cm based on depth of invasion. Sentinel lymph node biopsy is recommended for cutaneous melanoma that is ulcerated or 0.8 mm or more thick. Following surgery, patients with stage IIB-C melanoma have improved recurrence-free survival with adjuvant anti-PD-1 immunotherapy compared with placebo (hazard ratio [HR] for recurrence or death, 0.62 [95% CI, 0.49-0.79] for pembrolizumab and 0.42 [95% CI, 0.30-0.59] for nivolumab). For stage III disease, recurrence risk is decreased with nivolumab (HR, 0.72 [95% CI, 0.60-0.86]), pembrolizumab (HR, 0.61 [95% CI, 0.51-0.72]), or BRAF + MEK inhibitor therapy (dabrafenib + trametinib) (HR, 0.52 [95% CI, 0.43-0.63]). First-line treatment for distant metastatic or unresectable melanoma is dual checkpoint blockade with ipilimumab (anti-CTLA-4) and nivolumab. In 2017, 10-year melanoma-specific survival rates were 98% to 94% for stage IA-B, 88% to 75% for stage IIA-C, 88% for stage IIIA, 77% to 60% for stage IIIB-C, and 24% for stage IIID. In 2024, patients with distant metastatic or unresectable melanoma treated with ipilimumab and nivolumab had a 10-year overall survival rate of 43%.\nCONCLUSIONS AND RELEVANCE: Melanoma is a common cancer in the US. Treatment for stage IA-IIA melanoma is surgical resection. Anti-PD-1 immunotherapy after surgical excision improves recurrence-free survival in stages IIB-C melanoma. For stage III melanoma, anti-PD-1 immunotherapy or BRAF + MEK inhibitor therapy decreases risk of melanoma recurrence. First-line therapy for metastatic melanoma is dual checkpoint blockade with ipilimumab and nivolumab.",
+   "journal": "JAMA",
+   "year": "2025",
+   "doi": "10.1001/jama.2025.13074",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40853557/"
+  },
+  {
+   "pmid": "26874776",
+   "title": "Management of toxicities of immune checkpoint inhibitors.",
+   "abstract": "Immune checkpoint inhibition with the anti-CTLA-4 antibody ipilimumab and the anti-PD-1 antibodies nivolumab and pembrolizumab has improved survival in metastatic melanoma, lung cancer and renal cancer. Use of these agents holds promise in other malignancies. The augmented immune response enabled by these agents has led to a particular group of side effects called immune-related adverse events (irAEs). The main irAEs include diarrhea, colitis, hepatitis, skin toxicities and endocrinopathies such as hypophysitis and thyroid dysfunction. The anti-PD-1 antibodies have a different toxicity profile to ipilimumab with fewer high grade events. This article identifies the rates of common and uncommon irAEs associated with each immune checkpoint inhibitor (ICPI) and their timing of onset, focusing mainly on the experience in melanoma and lung cancer. An approach to management for each class of irAE is provided.",
+   "journal": "Cancer treatment reviews",
+   "year": "2016",
+   "doi": "10.1016/j.ctrv.2016.02.001",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26874776/"
+  }
+ ]
+}

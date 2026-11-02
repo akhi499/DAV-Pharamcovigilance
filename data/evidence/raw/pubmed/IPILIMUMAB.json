@@ -1,0 +1,64 @@
+{
+ "drug": "IPILIMUMAB",
+ "status": "ok",
+ "query": "\"ipilimumab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:19:41+00:00",
+ "records": [
+  {
+   "pmid": "39447408",
+   "title": "A comprehensive review of immune checkpoint inhibitors for cancer treatment.",
+   "abstract": "Immunology-based therapies are emerging as an effective cancer treatment, using the body's immune system to target tumors. Immune checkpoints, which regulate immune responses to prevent tissue damage and autoimmunity, are often exploited by cancer cells to avoid destruction. The discovery of checkpoint proteins like PD-1/PD-L1 and CTLA-4 was pivotal in developing cancer immunotherapy. Immune checkpoint inhibitors (ICIs) have shown great success, with FDA-approved drugs like PD-1 inhibitors (Nivolumab, Pembrolizumab, Cemiplimab), PD-L1 inhibitors (Atezolizumab, Durvalumab, Avelumab), and CTLA-4 inhibitors (Ipilimumab, Tremelimumab), alongside LAG-3 inhibitor Relatlimab. Research continues on new checkpoints like TIM-3, VISTA, B7-H3, BTLA, and TIGIT. Biomarkers like PDL-1 expression, tumor mutation burden, interferon-γ presence, microbiome composition, and extracellular matrix characteristics play a crucial role in predicting responses to immunotherapy with checkpoint inhibitors. Despite their effectiveness, not all patients experience the same level of benefit, and organ-specific immune-related adverse events (irAEs) such as rash or itching, colitis, diarrhea, hyperthyroidism, and hypothyroidism may occur. Given the rapid advancements in this field and the variability in patient outcomes, there is an urgent need for a comprehensive review that consolidates the latest findings on immune checkpoint inhibitors, covering their clinical status, biomarkers, resistance mechanisms, strategies to overcome resistance, and associated adverse effects. This review aims to fill this gap by providing an analysis of the current clinical status of ICIs, emerging biomarkers, mechanisms of resistance, strategies to enhance therapeutic efficacy, and assessment of adverse effects. This review is crucial to furthering our understanding of ICIs and optimizing their application in cancer therapy.",
+   "journal": "International immunopharmacology",
+   "year": "2024",
+   "doi": "10.1016/j.intimp.2024.113365",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39447408/"
+  },
+  {
+   "pmid": "30242316",
+   "title": "Fatal Toxic Effects Associated With Immune Checkpoint Inhibitors: A Systematic Review and Meta-analysis.",
+   "abstract": "IMPORTANCE: Immune checkpoint inhibitors (ICIs) are now a mainstay of cancer treatment. Although rare, fulminant and fatal toxic effects may complicate these otherwise transformative therapies; characterizing these events requires integration of global data.\nOBJECTIVE: To determine the spectrum, timing, and clinical features of fatal ICI-associated toxic effects.\nDESIGN, SETTING, AND PARTICIPANTS: We retrospectively queried a World Health Organization (WHO) pharmacovigilance database (Vigilyze) comprising more than 16 000 000 adverse drug reactions, and records from 7 academic centers. We performed a meta-analysis of published trials of anti-programmed death-1/ligand-1 (PD-1/PD-L1) and anti-cytotoxic T lymphocyte antigen-4 (CTLA-4) to evaluate their incidence using data from large academic medical centers, global WHO pharmacovigilance data, and all published ICI clinical trials of patients with cancer treated with ICIs internationally.\nEXPOSURES: Anti-CTLA-4 (ipilimumab or tremelimumab), anti-PD-1 (nivolumab, pembrolizumab), or anti-PD-L1 (atezolizumab, avelumab, durvalumab).\nMAIN OUTCOMES AND MEASURES: Timing, spectrum, outcomes, and incidence of ICI-associated toxic effects.\nRESULTS: Internationally, 613 fatal ICI toxic events were reported from 2009 through January 2018 in Vigilyze. The spectrum differed widely between regimens: in a total of 193 anti-CTLA-4 deaths, most were usually from colitis (135 [70%]), whereas anti-PD-1/PD-L1-related fatalities were often from pneumonitis (333 [35%]), hepatitis (115 [22%]), and neurotoxic effects (50 [15%]). Combination PD-1/CTLA-4 deaths were frequently from colitis (32 [37%]) and myocarditis (22 [25%]). Fatal toxic effects typically occurred early after therapy initiation for combination therapy, anti-PD-1, and ipilimumab monotherapy (median 14.5, 40, and 40 days, respectively). Myocarditis had the highest fatality rate (52 [39.7%] of 131 reported cases), whereas endocrine events and colitis had only 2% to 5% reported fatalities; 10% to 17% of other organ-system toxic effects reported had fatal outcomes. Retrospective review of 3545 patients treated with ICIs from 7 academic centers revealed 0.6% fatality rates; cardiac and neurologic events were especially prominent (43%). Median time from symptom onset to death was 32 days. A meta-analysis of 112 trials involving 19 217 patients showed toxicity-related fatality rates of 0.36% (anti-PD-1), 0.38% (anti-PD-L1), 1.08% (anti-CTLA-4), and 1.23% (PD-1/PD-L1 plus CTLA-4).\nCONCLUSIONS AND RELEVANCE: In the largest evaluation of fatal ICI-associated toxic effects published to date to our knowledge, we observed early onset of death with varied causes and frequencies depending on therapeutic regimen. Clinicians across disciplines should be aware of these uncommon lethal complications.",
+   "journal": "JAMA oncology",
+   "year": "2018",
+   "doi": "10.1001/jamaoncol.2018.3923",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30242316/"
+  },
+  {
+   "pmid": "33875857",
+   "title": "Endocrine toxicities of immune checkpoint inhibitors.",
+   "abstract": "Immune checkpoint inhibitors (ICIs) are monoclonal antibodies that target two key signalling pathways related to T cell activation and exhaustion, by binding to and inhibiting cytotoxic T lymphocyte antigen 4 (CTLA4) or PD1 and its ligand PDL1. ICIs, such as nivolumab, pembrolizumab and ipilimumab, are approved for the treatment of numerous and diverse cancer types, in various combination regimens, and are now an established cornerstone of cancer therapeutics. Toxicities induced by ICIs are autoimmune in nature and are referred to as immune-related adverse events (irAEs); these events can affect any organ system in an unpredictable fashion. Importantly, irAEs can manifest as endocrinopathies involving the thyroid (hypothyroidism or thyrotoxicosis), pituitary (hypophysitis), adrenal glands (adrenal insufficiency) and pancreas (diabetes mellitus). These events are a frequent source of acute and persistent morbidity in patients treated with ICIs and can even be fatal. Over the past few years, there has been a growing understanding of the underlying pathogenesis of irAEs that has led to the development of more effective management strategies. Herein, we review the current understanding of the pathobiology, clinical manifestations and treatment approaches to endocrine toxicities arising from ICIs.",
+   "journal": "Nature reviews. Endocrinology",
+   "year": "2021",
+   "doi": "10.1038/s41574-021-00484-3",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33875857/"
+  },
+  {
+   "pmid": "39172480",
+   "title": "Immune Checkpoint Inhibitor-Induced Cardiotoxicity: A Systematic Review and Meta-Analysis.",
+   "abstract": "IMPORTANCE: Immune checkpoint inhibitors (ICIs) improve outcomes in a wide range of cancers; however, serious adverse effects, including cardiovascular adverse effects (CVAEs), can occur.\nOBJECTIVE: To determine the incidence of CVAEs and analyze data on the management of myocarditis in patients exposed to ICIs.\nDATA SOURCES: PubMed, Embase, and Cochrane Central Register of Controlled Trials from inception were searched on April 4, 2023.\nSTUDY SELECTION: Two separate studies were performed. Key inclusion criteria for study 1 were phases 1 to 4 trials involving adults with malignant neoplasms treated with an ICI and toxicity data; for study 2, publications (case reports and retrospective analyses) on clinical manifestations and treatment of patients with ICI-induced CVAEs. Studies with dose escalation or fewer than 11 patients in each group and all case reports, retrospective analyses, letters, reviews, and editorials were excluded from study 1. Studies not published in English were excluded from study 2.\nDATA EXTRACTION AND SYNTHESIS: The PRISMA guidelines and Cochrane Handbook for Systematic Reviews were followed. Data were extracted independently by 2 researchers. A meta-analysis of the incidence of CVAEs in clinical trials and a systematic review of the evidence for the management of myocarditis were performed. Data were pooled using a random-effects model.\nMAIN OUTCOMES AND MEASURES: In study 1, the primary outcome was incidence CVAEs in clinical trials with ICIs and ICI combination therapies. Study 2 examined evidence supporting specific management strategies that may decrease the mortality rate of myocarditis. The primary outcomes were planned before data collection began.\nRESULTS: In study 1, a total of 83 315 unique participants in 589 unique trials were included in the meta-analysis. Incidence of CVAEs induced by anti-programmed cell death 1 and/or programmed cell death ligand 1 was 0.80% (95% CI, 0%-1.66%) in clinical trials, with no differences between the compounds, except for cemiplimab, which was associated with a higher risk of CVAEs. Incidence of CVAEs following ipilimumab treatment was 1.07% (95% CI, 0%-2.58%). The incidence of myocarditis was significantly higher following treatment with dual ICIs. However, CVAE incidence was not higher with dual ICIs, ICI combination with chemotherapy, or tyrosine kinase inhibitors. Evidence from randomized clinical trials on recommended monitoring and treatment strategies for ICI-induced myocarditis was lacking. Study 2 showed that myocarditis-associated mortality occurred in 83 of 220 patients (37.7%). Prospective data from 40 patients with myocarditis indicated that systematic screening for respiratory muscle involvement, coupled with active ventilation, prompt use of abatacept, and the addition of ruxolitinib, may decrease the mortality rate.\nCONCLUSIONS AND RELEVANCE: Immune checkpoint inhibitor-induced CVAEs and/or myocarditis were recorded in 1.07% of patients in clinical trials. The CVAE mortality risk remains high, justifying the need for monitoring and management strategies for which evidence from randomized clinical trials is absent. Early recognition, ICI therapy cessation, prompt initiation of corticosteroid therapy, and escalation of therapy are all crucial elements for achieving optimal outcomes. Prospective clinical trials or at least prospective registration of treatments and outcomes are highly warranted.",
+   "journal": "JAMA oncology",
+   "year": "2024",
+   "doi": "10.1001/jamaoncol.2024.3065",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39172480/"
+  }
+ ]
+}

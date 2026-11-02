@@ -1,0 +1,62 @@
+{
+ "drug": "DARATUMUMAB",
+ "status": "ok",
+ "query": "\"daratumumab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:19:24+00:00",
+ "records": [
+  {
+   "pmid": "35414852",
+   "title": "Cardiac Amyloidosis Treatment.",
+   "abstract": "Cardiac amyloidosis (CA) is a restrictive cardiomyopathy with a traditionally poor prognosis. Until recently, CA treatment options were limited and consisted predominantly of managing symptoms and disease-related complications. However, the last decade has seen significant advances in disease-modifying therapies, increased awareness of CA, and improved diagnostic methods resulting in earlier diagnoses. In this review, we provide an overview of current and experimental treatments for the predominant types of CA: transthyretin cardiac amyloidosis (ATTR-CA) and immunoglobulin light chain (AL)-mediated CA (AL-CA). The mainstay of AL-CA treatment is proteasome inhibitor-based chemotherapy with daratumumab and, when feasible, autologous stem cell transplantation. For ATTR-CA, the stabilizer tafamidis is the only US Food and Drug Administration (FDA)-approved treatment. However, promising novel therapies on the horizon target various points in the ATTR-CA amyloidogenic cascade. These include transthyretin gene (TTR) silencing agents to prevent TTR formation, TTR tetramer stabilization and inhibition of oligomer aggregation to prevent fibril formation, anti-TTR fiber antibodies, and amyloid degradation. For end-stage CA, advanced interventions may need to be considered, including heart, heart-kidney, and, for hereditary ATTR-CA, heart-liver transplantation. Despite the evolution of treatment options, CA management remains complex due to patient frailty and therapeutic side effects or intolerance with advanced cardiac disease. This is particularly relevant for those with AL-CA, when active teamwork between the hematologist-oncologist and the cardiologist is critical for treatment success. Often, referral to an expert center is necessary for timely diagnosis, initiation of treatment, and participation in clinical trials.",
+   "journal": "Methodist DeBakey cardiovascular journal",
+   "year": "2022",
+   "doi": "10.14797/mdcvj.1050",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35414852/"
+  },
+  {
+   "pmid": "35635625",
+   "title": "Immunotherapy in AL Amyloidosis.",
+   "abstract": "Light-chain amyloidosis is a rare disorder where a small clone of plasma cells is producing excess toxic light chains that deposit in various organs and cause dysfunction. Cardiac involvement is a major determinant of survival and rapid reduction of light chain is critical for recovery of organ function and overall survival. Immunotherapy targeting the clonal plasma cells and amyloid fibrils has emerged as a promising candidate. Daratumumab, both alone and in combinations with other anti-myeloma agents, is able to achieve deep hematologic responses and has greatly improved outcomes. Isatuximab, elotuzumab, and CAEL101 have also shown promising results and further studies are ongoing in the frontline as well as the relapsed/refractory setting. The frailty of AL patients and the relapsing/remitting nature of the disease present unique challenges, and the low toxicity of monoclonal antibodies makes them well-suited for these patients. Other immunotherapy agents including chimeric antigen receptor T cells, bispecific antibodies, and antibody-drug conjugates have altered the landscape in treatment of multiple myeloma, and are in the early phase of evaluation in patients with AL amyloidosis with results eagerly awaited.",
+   "journal": "Current treatment options in oncology",
+   "year": "2022",
+   "doi": "10.1007/s11864-021-00922-4",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35635625/"
+  },
+  {
+   "pmid": "35838162",
+   "title": "Guidelines for non-transplant chemotherapy for treatment of systemic AL amyloidosis: EHA-ISA working group.",
+   "abstract": "BACKGROUND: This guideline has been developed jointly by the European Society of Haematology and International Society of Amyloidosis recommending non-transplant chemotherapy treatment for patients with AL amyloidosis.\nMETHODS: A review of literature and grading of evidence as well as expert recommendations by the ESH and ISA guideline committees.\nRESULTS AND CONCLUSIONS: The recommendations of this committee suggest that treatment follows the clinical presentation which determines treatment tolerance tempered by potential side effects to select and modify use of drugs in AL amyloidosis. All patients with AL amyloidosis should be considered for clinical trials where available. Daratumumab-VCD is recommended from most untreated patients (VCD or VMDex if daratumumab is unavailable). At relapse, the two guiding principles are the depth and duration of initial response, use of a class of agents not previously exposed as well as the limitation imposed by patients' fitness/frailty and end organ damage. Targeted agents like venetoclax need urgent prospective evaluation. Future prospective trials should include advanced stage patients to allow for evidence-based treatment decisions. Therapies targeting amyloid fibrils or those reducing the proteotoxicity of amyloidogenic light chains/oligomers are urgently needed.",
+   "journal": "Amyloid : the international journal of experimental and clinical investigation : the official journal of the International Society of Amyloidosis",
+   "year": "2023",
+   "doi": "10.1080/13506129.2022.2093635",
+   "publication_types": [
+    "Guideline",
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35838162/"
+  },
+  {
+   "pmid": "30951198",
+   "title": "Daratumumab in multiple myeloma.",
+   "abstract": "The development of effective monoclonal antibodies for the treatment of myeloma has been a long journey of clinical and drug development. Identification of the right target antigen was a critical part of the process. CD38 as a target has been considered for some time, but clinically, daratumumab, a CD38 monoclonal antibody, was the first to be tested, and it has delivered the best clinical responses as a single agent to date. Its proven safety and efficacy in combination with other antimyeloma agents have led to several US Food and Drug Administration approvals for treating myeloma. Furthermore, the results of early trials in the induction therapy setting have demonstrated a beneficial role when it is added to the existing induction regimens. This review summarizes the importance of CD38 as a target and examines the clinical development of the CD38 monoclonal antibody daratumumab and its clinical significance in combination regimens in both patients with relapsed/refractory myeloma and patients with newly diagnosed myeloma.",
+   "journal": "Cancer",
+   "year": "2019",
+   "doi": "10.1002/cncr.32065",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30951198/"
+  }
+ ]
+}

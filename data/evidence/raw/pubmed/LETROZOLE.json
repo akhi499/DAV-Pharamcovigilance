@@ -1,0 +1,61 @@
+{
+ "drug": "LETROZOLE",
+ "status": "ok",
+ "query": "\"letrozole\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:20:18+00:00",
+ "records": [
+  {
+   "pmid": "34228062",
+   "title": "Diagnosis and Management of Infertility: A Review.",
+   "abstract": "IMPORTANCE: In the US, approximately 12.7% of reproductive age women seek treatment for infertility each year. This review summarizes current evidence regarding diagnosis and treatment of infertility.\nOBSERVATIONS: Infertility is defined as the failure to achieve pregnancy after 12 months of regular unprotected sexual intercourse. Approximately 85% of infertile couples have an identifiable cause. The most common causes of infertility are ovulatory dysfunction, male factor infertility, and tubal disease. The remaining 15% of infertile couples have \"unexplained infertility.\" Lifestyle and environmental factors, such as smoking and obesity, can adversely affect fertility. Ovulatory disorders account for approximately 25% of infertility diagnoses; 70% of women with anovulation have polycystic ovary syndrome. Infertility can also be a marker of an underlying chronic disease associated with infertility. Clomiphene citrate, aromatase inhibitors such as letrozole, and gonadotropins are used to induce ovulation or for ovarian stimulation during in vitro fertilization (IVF) cycles. Adverse effects of gonadotropins include multiple pregnancy (up to 36% of cycles, depending on specific therapy) and ovarian hyperstimulation syndrome (1%-5% of cycles), consisting of ascites, electrolyte imbalance, and hypercoagulability. For individuals presenting with anovulation, ovulation induction with timed intercourse is often the appropriate initial treatment choice. For couples with unexplained infertility, endometriosis, or mild male factor infertility, an initial 3 to 4 cycles of ovarian stimulation may be pursued; IVF should be considered if these approaches do not result in pregnancy. Because female fecundity declines with age, this factor should guide decision-making. Immediate IVF may be considered as a first-line treatment strategy in women older than 38 to 40 years. IVF is also indicated in cases of severe male factor infertility or untreated bilateral tubal factor.\nCONCLUSIONS AND RELEVANCE: Approximately 1 in 8 women aged 15 to 49 years receive infertility services. Although success rates vary by age and diagnosis, accurate diagnosis and effective therapy along with shared decision-making can facilitate achievement of fertility goals in many couples treated for infertility.",
+   "journal": "JAMA",
+   "year": "2021",
+   "doi": "10.1001/jama.2021.4788",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34228062/"
+  },
+  {
+   "pmid": "37592101",
+   "title": "Gynecomastia.",
+   "abstract": "Enlargement of breasts among boys is termed gynecomastia. This could be due to an alteration in the androgen-estrogen ratio along with the effects of other hormones including growth hormone, insulin like growth factor 1, prolactin, and other factors affecting aromatase enzyme. The common causes of gynecomastia are pubertal gynecomastia, obesity, drugs and hypogonadism. Several other diseases including liver or renal failure, thyrotoxicosis, Klinefelter syndrome, tumors and environmental pollutants can cause gynecomastia. History and clinical examination will help formulate targeted investigations and management. The factors to be evaluated in these include examination of breasts and testes, in addition to other parts of systemic examination. Treatment of underlying disorders can improve gynecomastia, such as use of testosterone in hypogonadism. Some boys may not need any intervention as gynecomastia may resolve on its own. Medical management is useful in simple gynecomastia. Tamoxifen has been tried successfully in adolescents with gynecomastia. Other drugs including clomiphene, danazol, letrozole and anastrozole have not been consistently useful in this age group. In severe chronic gynecomastia, surgery is the treatment of choice.",
+   "journal": "Indian journal of pediatrics",
+   "year": "2023",
+   "doi": "10.1007/s12098-023-04810-7",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37592101/"
+  },
+  {
+   "pmid": "39332623",
+   "title": "Therapeutic management in women with a diminished ovarian reserve: a systematic review and meta-analysis of randomized controlled trials.",
+   "abstract": "IMPORTANCE: The clinical management of women with diminished ovarian reserve (DOR) is a challenge in the field of medically assisted reproduction. Several therapeutic strategies have been proposed, but with mixed results, mainly because the definition of DOR used was inconsistent among trials.\nOBJECTIVE: To investigate adjuvant treatments and protocols involving only women with DOR according to POSEIDON (Patient-Oriented Strategies Encompassing IndividualizeD Oocyte Number) criteria.\nDATA SOURCES: We conducted a systematic search using the MEDLINE (PubMed), EMBASE, and ISI Web of Knowledge databases to identify relevant studies published up to June 2024.The review protocol was registered at http://www.crd.york.ac.uk/PROSPERO/ (registration number: CRD42022346117).\nSTUDY SELECTION AND SYNTHESIS: After duplication removal, the titles and abstracts of 4,806 articles were scrutinized, and 124 full-text articles were assessed for eligibility. In total, 38 randomized controlled trials were included in the qualitative/quantitative analysis. The following interventions were evaluated: dehydroepiandrosterone (n = 1,336); testosterone (n = 418); high- vs. low-dose gonadotropin (n = 957); delayed-start protocol with gonadotropin hormone-releasing hormone antagonist (n = 398); letrozole (n = 612); clomiphene citrate (1,113); growth hormone (311); luteal phase stimulation (n = 57); dual triggering (n = 139); dual stimulation (168); luteinizing hormone (979); oestradiol pretreatment (n = 552); and corifollitropin alfa (n = 561).\nMAIN OUTCOMES: The primary outcome was live birth rate or ongoing pregnancy if data on live birth were unavailable. Secondary outcomes were number of oocytes retrieved, number of metaphase II oocytes, clinical pregnancy rate and miscarriage rate.\nRESULTS: Testosterone supplementation is associated with higher live birth rates compared with nonsupplemented women among all interventions evaluated (odds ratio: 2.19, 95% confidence interval [CI]: 1.11-4.32, four studies, 368 patients). Testosterone (weighted mean difference [WMD] 0.88, 95% CI: 0.03-1.72; 4 studies, n = 368 patients), dehydroepiandrosterone (WMD 0.60, 95% CI: 0.07-1.13; 4 studies, n = 418 patients), and delayed started protocol (WMD 1.32, 95% CI: 0.74 to 1.89; 3 studies, n = 398 patients) significantly improved the total number of eggs collected. Lower number of oocytes retrieved is achieved in women undergoing low dose gonadotropin regimen vs high dose (WMD: -1.57, 95% CI: -2.12 to -1.17; 2 studies, n = 905 patients), The other interventions did not produce significant improvements.\nCONCLUSION AND RELEVANCE: Specific interventions such as testosterone seem to correlate with a better live birth rate in women with DOR; these findings should be further explored in randomized trials.",
+   "journal": "Fertility and sterility",
+   "year": "2025",
+   "doi": "10.1016/j.fertnstert.2024.09.038",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39332623/"
+  },
+  {
+   "pmid": "39307268",
+   "title": "Ovarian stimulation 2.0.",
+   "abstract": "Ovarian stimulation (OS) has been the single most effective measure ever taken for enhancing assisted reproductive technology outcomes. In the past decade, we have seen a flurry of various new protocols used for OS in assisted reproductive technology In light of the important differences that characterize these new approaches for OS, we felt it was timely to review the relative merits of each and every new protocol.",
+   "journal": "Fertility and sterility",
+   "year": "2025",
+   "doi": "10.1016/j.fertnstert.2024.09.029",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39307268/"
+  }
+ ]
+}

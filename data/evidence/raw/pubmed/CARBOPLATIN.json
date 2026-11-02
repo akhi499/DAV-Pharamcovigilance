@@ -1,0 +1,61 @@
+{
+ "drug": "CARBOPLATIN",
+ "status": "ok",
+ "query": "\"carboplatin\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:09+00:00",
+ "records": [
+  {
+   "pmid": "36368406",
+   "title": "Cisplatin in cancer treatment.",
+   "abstract": "Cisplatin is a widely used chemotherapy agent in the treatment of various forms of carcinomas and sarcomas. Its effectiveness in delaying negative outcome in cancer patients has been amply documented, and attributed primarily to its ability to crosslink DNA purine bases, thus interfering with DNA repair mechanisms in cancer cells. Ultimately, this interference causes DNA damage and leads to cell apoptosis. However, the chemotherapy use of cisplatin and cisplatin-derivatives is hampered by the occurrence of major side effects in a significant percentage of cancer patients, thus limiting considerably its prolonged utilization. Acute kidney injury, gastrointestinal disorders, hemorrhage, and decreased immune response to infections are among the most common side-effects observed. On the other hand, synergistic utilization of cisplatin with other anti-cancer agents and especially its ability to induce immunomodulation in otherwise immune-depressed patients has gained significant therapeutic traction in recent times, validating the continuing clinical utilization of this agent and its derivatives. In this review, we will examine the basic physico-chemical properties of cisplatin and related derivatives, and discuss the main molecular mechanisms of actions that results in the therapeutic benefit of this class of anti-cancer agents but also in the development of major organ complications. Lastly, we will address the more recent conceptual utilization of cisplatin-induced anti-cancer immunomodulation in synergistic therapies that can also benefit of the traditional chemotherapy advantages of this class of anti-cancer agents.",
+   "journal": "Biochemical pharmacology",
+   "year": "2022",
+   "doi": "10.1016/j.bcp.2022.115323",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36368406/"
+  },
+  {
+   "pmid": "35190107",
+   "title": "Conventional Chemotherapy Nephrotoxicity.",
+   "abstract": "Conventional chemotherapies remain the mainstay of treatment for many malignancies. Kidney complications of these therapies are not infrequent and may have serious implications for future kidney function, cancer treatment options, eligibility for clinical trials, and overall survival. Kidney adverse effects may include acute kidney injury (via tubular injury, tubulointerstitial nephritis, glomerular disease and thrombotic microangiopathy), long-term kidney function loss and CKD, and electrolyte disturbances. In this review, we summarize the kidney complications of conventional forms of chemotherapy and, where possible, provide estimates of incidence, and identify risk factors and strategies for kidney risk mitigation. In addition, we provide recommendations regarding kidney dose modifications, recognizing that these adjustments may be limited by available supporting pharmacokinetic and clinical outcomes data. We discuss management strategies for kidney adverse effects associated with these therapies with drug-specific recommendations. We focus on frequently used anticancer agents with established kidney complications, including platinum-based chemotherapies (cisplatin, carboplatin, oxaliplatin), cyclophosphamide, gemcitabine, ifosfamide, methotrexate and pemetrexed, among others.",
+   "journal": "Advances in chronic kidney disease",
+   "year": "2021",
+   "doi": "10.1053/j.ackd.2021.08.001",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35190107/"
+  },
+  {
+   "pmid": "38942605",
+   "title": "Ovarian microenvironment: challenges and opportunities in protecting against chemotherapy-associated ovarian damage.",
+   "abstract": "BACKGROUND: Chemotherapy-associated ovarian damage (CAOD) is one of the most feared short- and long-term side effects of anticancer treatment in premenopausal women. Accumulating detailed data show that different chemotherapy regimens can lead to disturbance of ovarian hormone levels, reduced or lost fertility, and an increased risk of early menopause. Previous studies have often focused on the direct effects of chemotherapeutic drugs on ovarian follicles, such as direct DNA damage-mediated apoptotic death and primordial follicle burnout. Emerging evidence has revealed an imbalance in the ovarian microenvironment during chemotherapy. The ovarian microenvironment provides nutritional support and transportation of signals that stimulate the growth and development of follicles, ovulation, and corpus luteum formation. The close interaction between the ovarian microenvironment and follicles can determine ovarian function. Therefore, designing novel and precise strategies to manipulate the ovarian microenvironment may be a new strategy to protect ovarian function during chemotherapy.\nOBJECTIVE AND RATIONALE: This review details the changes that occur in the ovarian microenvironment during chemotherapy and emphasizes the importance of developing new therapeutics that protect ovarian function by targeting the ovarian microenvironment during chemotherapy.\nSEARCH METHODS: A comprehensive review of the literature was performed by searching PubMed up to April 2024. Search terms included 'ovarian microenvironment' (ovarian extracellular matrix, ovarian stromal cells, ovarian interstitial, ovarian blood vessels, ovarian lymphatic vessels, ovarian macrophages, ovarian lymphocytes, ovarian immune cytokines, ovarian oxidative stress, ovarian reactive oxygen species, ovarian senescence cells, ovarian senescence-associated secretory phenotypes, ovarian oogonial stem cells, ovarian stem cells), terms related to ovarian function (reproductive health, fertility, infertility, fecundity, ovarian reserve, ovarian function, menopause, decreased ovarian reserve, premature ovarian insufficiency/failure), and terms related to chemotherapy (cyclophosphamide, lfosfamide, chlormethine, chlorambucil, busulfan, melphalan, procarbazine, cisplatin, doxorubicin, carboplatin, taxane, paclitaxel, docetaxel, 5-fluorouraci, vincristine, methotrexate, dactinomycin, bleomycin, mercaptopurine).\nOUTCOMES: The ovarian microenvironment shows great changes during chemotherapy, inducing extracellular matrix deposition and stromal fibrosis, angiogenesis disorders, immune microenvironment disturbance, oxidative stress imbalances, ovarian stem cell exhaustion, and cell senescence, thereby lowering the quantity and quality of ovarian follicles. Several methods targeting the ovarian microenvironment have been adopted to prevent and treat CAOD, such as stem cell therapy and the use of free radical scavengers, senolytherapies, immunomodulators, and proangiogenic factors.\nWIDER IMPLICATIONS: Ovarian function is determined by its 'seeds' (follicles) and 'soil' (ovarian microenvironment). The ovarian microenvironment has been reported to play a vital role in CAOD and targeting the ovarian microenvironment may present potential therapeutic approaches for CAOD. However, the relation between the ovarian microenvironment, its regulatory networks, and CAOD needs to be further studied. A better understanding of these issues could be helpful in explaining the pathogenesis of CAOD and creating innovative strategies for counteracting the effects exerted on ovarian function. Our aim is that this narrative review of CAOD will stimulate more research in this important field.\nREGISTRATION NUMBER: Not applicable.",
+   "journal": "Human reproduction update",
+   "year": "2024",
+   "doi": "10.1093/humupd/dmae020",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38942605/"
+  },
+  {
+   "pmid": "29632935",
+   "title": "The side effects of platinum-based chemotherapy drugs: a review for chemists.",
+   "abstract": "The platinum-based drugs cisplatin, carboplatin and oxaliplatin are regularly prescribed in the treatment of cancer and while they are effective, their use is limited by their severe, dose-limiting side effects (also referred to as adverse effects/events). In total, a cancer patient can experience any combination of around 40 specific side effects. The dose-limiting side effect for cisplatin is nephrotoxicity, for carboplatin it is myelosuppression, and for oxaliplatin it is neurotoxicity. Other common side effects include anaphylaxis, cytopenias (including leukopenia and neutropenia, thrombocytopenia, and anaemia), hepatotoxicity, ototoxicity, cardiotoxicity, nausea and vomiting, diarrhea, mucositis, stomatitis, pain, alopecia, anorexia, cachexia, and asthenia. The side effects may require patients to be prescribed dose reductions in their platinum drugs of between 25 and 100%. Furthermore, patients require extensive monitoring of their biochemistries, kidney and liver function, and depending on the drug, hearing tests. Finally, patients are commonly co-prescribed additional non-chemotherapy based drugs to treat the side effects which can include antiemetics, antibiotics and myeloid growth factors, mannitol, propafenone, saline hyperhydration, magnesium supplements, monoclonal antibody cytokine blockers, and antioxidants.",
+   "journal": "Dalton transactions (Cambridge, England : 2003)",
+   "year": "2018",
+   "doi": "10.1039/c8dt00838h",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29632935/"
+  }
+ ]
+}

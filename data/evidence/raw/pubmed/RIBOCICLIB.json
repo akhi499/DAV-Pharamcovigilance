@@ -1,0 +1,60 @@
+{
+ "drug": "RIBOCICLIB",
+ "status": "ok",
+ "query": "\"ribociclib\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:17:56+00:00",
+ "records": [
+  {
+   "pmid": "37586898",
+   "title": "Dermatologic toxicities to inhibitors of cyclin-dependent kinases CDK 4 and 6: An updated review for clinical practice.",
+   "abstract": "Cyclin-dependent kinase (CDK) 4/6 inhibitors (palbociclib, ribociclib and abemaciclib) have revolutionized the treatment of metastatic breast carcinoma. They currently form the first-line treatment, in combination with endocrine agents, for the management of locally advanced or metastatic hormone receptor-positive (HR + ), human epidermal growth factor receptor 2-negative (HER2-) breast cancer, the largest subtype of breast carcinoma. CDK 4/6 inhibitors have shown comparable efficacy outcomes with predictable and manageable adverse events. In this setting, dermatologic toxicity appears to be relatively frequent, accounting for up to 15% of all reported adverse events. It is usually mild to moderate in intensity and does not normally constitute a dose-limiting toxicity. The range of dermatologic adverse events includes both non-specific entities (maculopapular rash, pruritus, alopecia) and more characteristic toxicities related to CDK4/6 inhibitors, such as vitiligo-like lesions or cutaneous lupus erythematosus. Finally, more severe or life-threatening skin reactions can occasionally occur. The main dermatologic manifestations associated with CDK4/6 inhibitors, as well as management thereof, are described in this comprehensive review.",
+   "journal": "Annales de dermatologie et de venereologie",
+   "year": "2023",
+   "doi": "10.1016/j.annder.2022.11.013",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37586898/"
+  },
+  {
+   "pmid": "40367730",
+   "title": "Drug-Drug interactions and special considerations in breast cancer patients treated with CDK4/6 inhibitors: A comprehensive review.",
+   "abstract": "Cyclin-dependent kinase 4/6 inhibitors (CDK4/6i) have reshaped the treatment paradigm of hormone receptor positive (HR + )/HER2-negative breast cancer in both adjuvant and metastatic settings. However, their metabolism via the cytochrome P450 (CYP3A4) pathway poses a high risk of clinically relevant drug-drug interactions (DDIs), requiring vigilant therapeutic strategies. This review provides a comprehensive analysis of the pharmacokinetics, metabolism, and interaction profiles of palbociclib, ribociclib, and abemaciclib, emphasizing their differential DDI risks. Among these agents, ribociclib has been associated with a higher risk of QTc prolongation and CYP3A4-mediated interactions in some studies, whereas abemaciclib demonstrates a relatively favorable DDI profile. However, data remain limited and are largely derived from indirect comparisons or pharmacovigilance analyses. We further examine the clinical implications of drug-drug interactions with frequently co-prescribed agents, including proton pump inhibitors, antifungal medications, anticoagulants, and lipid-lowering therapies. Practical recommendations regarding drug selection, therapeutic drug monitoring, and dose adjustment are discussed with attention to the individual characteristics of each CDK4/6i. Dose modifications and monitoring in patients with renal or hepatic impairment are also discussed. Emerging pharmacogenomic data suggest that genetic polymorphisms in CYP3A4 and ABCG2 influence drug exposure and toxicity, reinforcing the need for personalized treatment approaches. As the use of CDK4/6i expands across different breast cancer settings, addressing DDIs through precision medicine strategies such as pharmacogenomic profiling, physiologically based pharmacokinetic modeling, and artificial intelligence-guided clinical support will be essential to personalize therapy and optimize safety.",
+   "journal": "Cancer treatment reviews",
+   "year": "2025",
+   "doi": "10.1016/j.ctrv.2025.102956",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40367730/"
+  },
+  {
+   "pmid": "30698686",
+   "title": "Cardiac arrhythmia considerations of hormone cancer therapies.",
+   "abstract": "Breast and prostate cancers are among the most prevalent cancers worldwide. Oestradiol and progesterone are major drivers for breast cancer proliferation, and androgens for prostate cancer. Endocrine therapies are drugs that interfere with hormone-activated pathways to slow cancer progression. Multiple new breakthrough drugs improving overall survival have recently been developed within this class. As the use of these latter drugs grows, incidence of cardiac arrhythmias has emerged as an unappreciated complication. These changes are not surprising given that sex hormones alter ventricular repolarization. Testosterone shortens action potential duration and QT interval duration, while oestradiol has an opposite effect. In patients with breast cancer, selective oestrogen receptor modulators are associated with more reports for long QT and torsade de pointes (TdP) than aromatase inhibitors, likely through an oestradiol-like effect on the heart. Cyclin-dependent kinase 4/6 inhibitors, a new class of anticancer drugs used in combination with endocrine therapies in hormone receptor positive breast cancer, are also variably associated with drug-induced long QT, particularly with ribociclib. In prostate cancer, androgen deprivation therapy is associated with long QT and TdP, and possibly atrial fibrillation for abiraterone. In this review, we have summarized the clinical and preclinical data focusing on cardiac arrhythmia considerations of hormone cancer therapies.",
+   "journal": "Cardiovascular research",
+   "year": "2019",
+   "doi": "10.1093/cvr/cvz020",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30698686/"
+  },
+  {
+   "pmid": "31101994",
+   "title": "The Role of CDK4/6 Inhibitors in Breast Cancer.",
+   "abstract": "Oral inhibitors of CDK4/6 have been shown to increase response rates and prolong disease control when combined with endocrine therapy in hormone-responsive (HR+) HER2-negative advanced breast cancer. Palbociclib, ribociclib and abemaciclib are all approved in combination with non-steroidal aromatase inhibitors in first-line therapy for post-menopausal women, with a 40-45% improvement in progression-free survival seen with the addition of any of these CDK4/6 inhibitors. Additional approved indications, including first- and second-line combination therapy for pre-menopausal women, combination with fulvestrant and use as monotherapy, vary with each agent and are reviewed fully in the subsequent texts. These agents also differ in their toxicity profiles and monitoring requirements, and prescribers should be aware of the individual requirements for each agent. Current clinical trials are investigating the expanded use of these agents in other breast cancer subtypes, such as HER2-positive and triple-negative breast cancer, as well as in the adjuvant and neoadjuvant treatments of early breast cancer. Resistance to CDK4/6 inhibition can occur through multiple mechanisms. Rational combinations with other therapies, such as PI3K inhibitors, HER2-directed therapies and immunotherapy, are being explored.",
+   "journal": "Current treatment options in oncology",
+   "year": "2019",
+   "doi": "10.1007/s11864-019-0651-4",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31101994/"
+  }
+ ]
+}

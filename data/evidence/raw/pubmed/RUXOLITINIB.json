@@ -1,0 +1,63 @@
+{
+ "drug": "RUXOLITINIB",
+ "status": "ok",
+ "query": "\"ruxolitinib\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:16:56+00:00",
+ "records": [
+  {
+   "pmid": "37291149",
+   "title": "Acute graft-versus-host disease.",
+   "abstract": "Acute graft-versus-host disease (GVHD) is a common immune complication that can occur after allogeneic haematopoietic cell transplantation (alloHCT). Acute GVHD is a major health problem in these patients, and is associated with high morbidity and mortality. Acute GVHD is caused by the recognition and the destruction of the recipient tissues and organs by the donor immune effector cells. This condition usually occurs within the first 3 months after alloHCT, but later onset is possible. Targeted organs include the skin, the lower and upper gastrointestinal tract and the liver. Diagnosis is mainly based on clinical examination, and complementary examinations are performed to exclude differential diagnoses. Preventive treatment for acute GVHD is administered to all patients who receive alloHCT, although it is not always effective. Steroids are used for first-line treatment, and the Janus kinase 2 (JAK2) inhibitor ruxolitinib is second-line treatment. No validated treatments are available for acute GVHD that is refractory to steroids and ruxolitinib, and therefore it remains an unmet medical need.",
+   "journal": "Nature reviews. Disease primers",
+   "year": "2023",
+   "doi": "10.1038/s41572-023-00438-1",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37291149/"
+  },
+  {
+   "pmid": "39172480",
+   "title": "Immune Checkpoint Inhibitor-Induced Cardiotoxicity: A Systematic Review and Meta-Analysis.",
+   "abstract": "IMPORTANCE: Immune checkpoint inhibitors (ICIs) improve outcomes in a wide range of cancers; however, serious adverse effects, including cardiovascular adverse effects (CVAEs), can occur.\nOBJECTIVE: To determine the incidence of CVAEs and analyze data on the management of myocarditis in patients exposed to ICIs.\nDATA SOURCES: PubMed, Embase, and Cochrane Central Register of Controlled Trials from inception were searched on April 4, 2023.\nSTUDY SELECTION: Two separate studies were performed. Key inclusion criteria for study 1 were phases 1 to 4 trials involving adults with malignant neoplasms treated with an ICI and toxicity data; for study 2, publications (case reports and retrospective analyses) on clinical manifestations and treatment of patients with ICI-induced CVAEs. Studies with dose escalation or fewer than 11 patients in each group and all case reports, retrospective analyses, letters, reviews, and editorials were excluded from study 1. Studies not published in English were excluded from study 2.\nDATA EXTRACTION AND SYNTHESIS: The PRISMA guidelines and Cochrane Handbook for Systematic Reviews were followed. Data were extracted independently by 2 researchers. A meta-analysis of the incidence of CVAEs in clinical trials and a systematic review of the evidence for the management of myocarditis were performed. Data were pooled using a random-effects model.\nMAIN OUTCOMES AND MEASURES: In study 1, the primary outcome was incidence CVAEs in clinical trials with ICIs and ICI combination therapies. Study 2 examined evidence supporting specific management strategies that may decrease the mortality rate of myocarditis. The primary outcomes were planned before data collection began.\nRESULTS: In study 1, a total of 83 315 unique participants in 589 unique trials were included in the meta-analysis. Incidence of CVAEs induced by anti-programmed cell death 1 and/or programmed cell death ligand 1 was 0.80% (95% CI, 0%-1.66%) in clinical trials, with no differences between the compounds, except for cemiplimab, which was associated with a higher risk of CVAEs. Incidence of CVAEs following ipilimumab treatment was 1.07% (95% CI, 0%-2.58%). The incidence of myocarditis was significantly higher following treatment with dual ICIs. However, CVAE incidence was not higher with dual ICIs, ICI combination with chemotherapy, or tyrosine kinase inhibitors. Evidence from randomized clinical trials on recommended monitoring and treatment strategies for ICI-induced myocarditis was lacking. Study 2 showed that myocarditis-associated mortality occurred in 83 of 220 patients (37.7%). Prospective data from 40 patients with myocarditis indicated that systematic screening for respiratory muscle involvement, coupled with active ventilation, prompt use of abatacept, and the addition of ruxolitinib, may decrease the mortality rate.\nCONCLUSIONS AND RELEVANCE: Immune checkpoint inhibitor-induced CVAEs and/or myocarditis were recorded in 1.07% of patients in clinical trials. The CVAE mortality risk remains high, justifying the need for monitoring and management strategies for which evidence from randomized clinical trials is absent. Early recognition, ICI therapy cessation, prompt initiation of corticosteroid therapy, and escalation of therapy are all crucial elements for achieving optimal outcomes. Prospective clinical trials or at least prospective registration of treatments and outcomes are highly warranted.",
+   "journal": "JAMA oncology",
+   "year": "2024",
+   "doi": "10.1001/jamaoncol.2024.3065",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39172480/"
+  },
+  {
+   "pmid": "37483142",
+   "title": "Updates in chronic graft-versus-host disease management.",
+   "abstract": "Chronic graft-versus-host disease (cGvHD) remains the most important long-term complication of allogeneic hematopoietic cell transplantation (allo-HCT), but the field has seen significant changes in the last decade. Remarkable advances in the understanding of the biological pathways of cGvHD, lead to the development of targeted therapy with novel drugs thereby minimizing the exposure to harmful corticosteroids, preserving function and mobility, preventing disability, and improving quality of life (QoL) and overall survival (OS). Steroid-refractory cGvHD management has recently experienced significant improvement since ibrutinib and ruxolitinib were approved for patients that failed at least one line of treatment and belumosudil for patients that failed two lines. These recently approved drugs will be discussed in this review, along with perspectives regarding cGVHD management and additional promising drug in development.",
+   "journal": "American journal of hematology",
+   "year": "2023",
+   "doi": "10.1002/ajh.27040",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37483142/"
+  },
+  {
+   "pmid": "38184001",
+   "title": "Prophylaxis and management of graft-versus-host disease after stem-cell transplantation for haematological malignancies: updated consensus recommendations of the European Society for Blood and Marrow Transplantation.",
+   "abstract": "Graft-versus-host disease (GVHD) is a major factor contributing to mortality and morbidity after allogeneic haematopoietic stem-cell transplantation (HSCT). In the last 3 years, there has been regulatory approval of new drugs and considerable change in clinical approaches to prophylaxis and management of GVHD. To standardise treatment approaches, the European Society for Blood and Marrow Transplantation (EBMT) has updated its clinical practice recommendations. We formed a panel of one methodologist and 22 experts in the field of GVHD management. The selection was made on the basis of their role in GVHD management in Europe and their contributions to the field, such as publications, presentations at conferences, and other research. We applied the GRADE process to ten PICO (patient, intervention, comparator, and outcome) questions: evidence was searched for by the panel and graded for each crucial outcome. In two consensus meetings, we discussed the evidence and voted on the wording and strengths of recommendations. Key updates to the recommendations include: (1) primary use of ruxolitinib in steroid-refractory acute GVHD and steroid-refractory chronic GVHD as the new standard of care, (2) use of rabbit anti-T-cell (thymocyte) globulin or post-transplantation cyclophosphamide as standard GVHD prophylaxis in peripheral blood stem-cell transplantations from unrelated donors, and (3) the addition of belumosudil to the available treatment options for steroid-refractory chronic GVHD. The EBMT proposes to use these recommendations as the basis for routine management of GVHD during allogenic HSCT. The current recommendations favour European practice and do not necessarily represent global preferences.",
+   "journal": "The Lancet. Haematology",
+   "year": "2024",
+   "doi": "10.1016/S2352-3026(23)00342-3",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Consensus Statement"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38184001/"
+  }
+ ]
+}

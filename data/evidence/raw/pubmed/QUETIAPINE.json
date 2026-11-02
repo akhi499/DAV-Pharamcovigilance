@@ -1,0 +1,62 @@
+{
+ "drug": "QUETIAPINE",
+ "status": "ok",
+ "query": "\"quetiapine\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:18+00:00",
+ "records": [
+  {
+   "pmid": "39419777",
+   "title": "Drug-induced parkinsonism: diagnosis and treatment.",
+   "abstract": "INTRODUCTION: Drug-induced parkinsonism (DIP) is one of the most common iatrogenic movement disorders. It is characterized by tremors, slowness of movement, and shuffling gait with postural instability, clinically indistinguishable from idiopathic Parkinson's disease. Prior exposure to antipsychotic medications or other dopamine receptor blocking agents (DRBAs) is required for the diagnosis.\nAREAS COVERED: This article aims to review the epidemiology, pathophysiology, clinical features, ancillary testing, and treatment of DIP. A literature search was undertaken in PubMed from January 2013 to January 2024.\nEXPERT OPINION: A clinician's suspicion of DIP must always be present when a patient develops acute to subacute onset of parkinsonism while taking a DRBA. As DIP can be indistinguishable from idiopathic PD, ancillary testing, such as DaTscans and skin biopsy searching for alpha-synuclein deposits, are often required to make a definitive diagnosis. When DIP develops, steps should be taken to discontinue the offending agent or, in the case of antipsychotics, dose reduction or change to an agent with lower risk for DIP, such as quetiapine or clozapine. Prophylactic treatment with anticholinergics is not indicated.",
+   "journal": "Expert opinion on drug safety",
+   "year": "2024",
+   "doi": "10.1080/14740338.2024.2418950",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39419777/"
+  },
+  {
+   "pmid": "38924903",
+   "title": "Efficacy and safety of eight enhanced therapies for treatment-resistant depression: A systematic review and network meta-analysis of RCTs.",
+   "abstract": "BACKGROUND: Treatment-Resistant Depression (TRD) challenges psychiatric treatment, with existing guidelines covering only a subset of augmentation strategies.\nMETHODS: A network meta-analysis following PRISMA guidelines examined the efficacy and safety of TRD treatments, analyzing 72 randomized controlled trials from eight databases, assessing response and remission rates, tolerability, and safety through the Cochrane Risk of Bias Tool and CINeMA framework.\nFINDINGS: Including 12,105 participants, the analysis highlighted ECT, Ketamine, Esketamine, and Psilocybin as superior first-line treatments due to their optimal balance between effectiveness and tolerability. Brexpiprazole and Quetiapine showed no significant efficacy over placebo in response rates, while Esketamine and Psilocybin exhibited lower tolerability.\nINTERPRETATION: The results advocate for ECT, Ketamine, Esketamine, and Psilocybin as preferred treatments for TRD, guiding clinical practice with evidence-based recommendations for enhancing treatment outcomes. This study underscores the importance of considering both efficacy and safety in selecting augmentation strategies for TRD.",
+   "journal": "Psychiatry research",
+   "year": "2024",
+   "doi": "10.1016/j.psychres.2024.116018",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38924903/"
+  },
+  {
+   "pmid": "33941603",
+   "title": "Quetiapine for primary insomnia: Consider the risks.",
+   "abstract": "The second-generation antipsychotic drug quetiapine (Seroquel) is increasingly being used off-label for treating insomnia in the general population, possibly to avoid standard medications with known addictive qualities and adverse side effects. However, evidence to support using it in this way is scant, and quetiapine is associated with weight gain and other metabolic effects. It must be used cautiously and with appropriate monitoring for adverse effects and abuse.",
+   "journal": "Cleveland Clinic journal of medicine",
+   "year": "2021",
+   "doi": "10.3949/ccjm.88a.20031",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33941603/"
+  },
+  {
+   "pmid": "33059460",
+   "title": "Quetiapine withdrawal: A systematic review.",
+   "abstract": "OBJECTIVE: Withdrawal from psychoactive medication such as quetiapine is a well-documented phenomenon. Despite the extensive use of quetiapine, there have been few studies into the presence of discontinuation symptoms. We therefore performed a systematic review of published literature for evidence of quetiapine withdrawal or symptoms associated with discontinuation.\nMETHODS: We searched PubMed, Embase, CINAHL, Medline, Web of Science, PsycINFO for articles containing the terms 'Quetiapine' AND 'withdraw$' OR 'discontinue$'. We included all study types that reported on somatic withdrawal symptoms and had no language restrictions. We excluded studies where there was withdrawal from multiple medications or any other psychoactive substance, or where the only symptoms were psychological such as rebound psychosis or craving.\nRESULTS: We included 13 papers, all of which were individual case reports. The quality of the individual case reports was sub-optimal, as assessed by the CARE Case Report Guidelines. There was an association between rapid cessation of quetiapine and onset of somatic symptoms such as nausea, vomiting, agitation, restlessness, diaphoresis, irritability, anxiety, dysphoria, sleep disturbance, insomnia, tachycardia, hypertension and dizziness. Three studies also reported the onset of a withdrawal dyskinesia characterised by abnormal choreiform movements as well as confusion and speech disturbance in some cases. However, these findings were limited by the number and quality of case reports identified.\nCONCLUSION: Discontinuation symptoms are an uncommon side effect of quetiapine cessation, which may have clinical implications. Clinicians should therefore be alert to the possibility of quetiapine withdrawal in individuals who present with somatic symptoms or choreiform movements. However, large prospective studies are required to clarify this association.",
+   "journal": "The Australian and New Zealand journal of psychiatry",
+   "year": "2021",
+   "doi": "10.1177/0004867420965693",
+   "publication_types": [
+    "Case Reports",
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33059460/"
+  }
+ ]
+}

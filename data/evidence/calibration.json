@@ -1,0 +1,5 @@
+{
+  "sufficiency_threshold": 0.73,
+  "created_at": "2026-10-20T05:23:18+00:00",
+  "source": "evidence.evaluate.calibrate_threshold (dev drugs)"
+}

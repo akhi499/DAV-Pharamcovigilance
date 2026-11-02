@@ -1,0 +1,63 @@
+{
+ "drug": "SEMAGLUTIDE",
+ "status": "ok",
+ "query": "\"semaglutide\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:07+00:00",
+ "records": [
+  {
+   "pmid": "34305810",
+   "title": "Safety of Semaglutide.",
+   "abstract": "The glucagon-like peptide-1 receptor agonist (GLP-1RA) semaglutide is the most recently approved agent of this drug class, and the only GLP-1RA currently available as both subcutaneous and oral formulation. While GLP-1RAs effectively improve glycemic control and cause weight loss, potential safety concerns have arisen over the years. For semaglutide, such concerns have been addressed in the extensive phase 3 registration trials including cardiovascular outcome trials for both subcutaneous (SUSTAIN: Semaglutide Unabated Sustainability in Treatment of Type 2 Diabetes) and oral (PIONEER: Peptide InnOvatioN for the Early diabEtes tReatment) semaglutide and are being studied in further trials and registries, including real world data studies. In the current review we discuss the occurrence of adverse events associated with semaglutide focusing on hypoglycemia, gastrointestinal side effects, pancreatic safety (pancreatitis and pancreatic cancer), thyroid cancer, gallbladder events, cardiovascular aspects, acute kidney injury, diabetic retinopathy (DRP) complications and injection-site and allergic reactions and where available, we highlight potential underlying mechanisms. Furthermore, we discuss whether effects are specific for semaglutide or a class effect. We conclude that semaglutide induces mostly mild-to-moderate and transient gastrointestinal disturbances and increases the risk of biliary disease (cholelithiasis). No unexpected safety issues have arisen to date, and the established safety profile for semaglutide is similar to that of other GLP-1RAs where definitive conclusions for pancreatic and thyroid cancer cannot be drawn at this point due to low incidence of these conditions. Due to its potent glucose-lowering effect, patients at risk for deterioration of existing DRP should be carefully monitored if treated with semaglutide, particularly if also treated with insulin. Given the beneficial metabolic and cardiovascular actions of semaglutide, and the low risk for severe adverse events, semaglutide has an overall favorable risk/benefit profile for patient with type 2 diabetes.",
+   "journal": "Frontiers in endocrinology",
+   "year": "2021",
+   "doi": "10.3389/fendo.2021.645563",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34305810/"
+  },
+  {
+   "pmid": "34942372",
+   "title": "Semaglutide for the treatment of obesity.",
+   "abstract": "Semaglutide is a glucagon-like peptide-1 receptor agonist that was recently approved by the US Food and Drug Administration for chronic weight management. This paper reviews data on the mechanism of action, weight-loss and cardiometabolic efficacy, and safety of semaglutide 2.4 mg/week for obesity. Semaglutide has demonstrated the largest weight loss of any obesity medication to date with reductions of approximately 15% of initial weight at 68 weeks, accompanied by improvements in cardiovascular risks factors and physical functioning. The approval of this medication provides patients with greater options for weight management.",
+   "journal": "Trends in cardiovascular medicine",
+   "year": "2023",
+   "doi": "10.1016/j.tcm.2021.12.008",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34942372/"
+  },
+  {
+   "pmid": "37947489",
+   "title": "Retatrutide showing promise in obesity (and type 2 diabetes).",
+   "abstract": "INTRODUCTION: Obesity is a major risk factor for cardiovascular disease, diabetes, osteoarthritis, and some cancers. Retatrutide stimulates Glucagon-like peptide 1 (GLP-1), Glucose-dependent insulinotropic polypeptide (GIP) receptors, and glucagon receptors, and is being developed for the treatment of obesity and type 2 diabetes.\nAREAS COVERED: A phase 2 clinical trial of retatrutide (LY3437943) in the treatment of obesity. The primary end point was percentage change in weight from baseline to 24 weeks, which ranged from -7.2% to -~18% as the dose of retatrutide increased from 1 mg to 12 mg. The most frequent adverse events were gastrointestinal (nausea, diarrhea, vomiting).\nEXPERT OPINION: The results for retatrutide in phase 2 for obesity (and diabetes) are mostly encouraging. Consistent with being a GLP-1 receptor agonist, heart rate was increased by up to 6.7 beats/min by retatrutide, which may be detrimental and offset some of the benefits of weight loss. Presumably, retatrutide is being developed as a challenger to the recently developed weight loss medicines; semaglutide and/or tirzepatide. Thus, comparator studies are needed between retatrutide and these drugs, but none are ongoing and, in my opinion, this lack is a major omission in the development of retatrutide.",
+   "journal": "Expert opinion on investigational drugs",
+   "year": "2023",
+   "doi": "10.1080/13543784.2023.2283020",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37947489/"
+  },
+  {
+   "pmid": "38286487",
+   "title": "Comparative effectiveness of GLP-1 receptor agonists on glycaemic control, body weight, and lipid profile for type 2 diabetes: systematic review and network meta-analysis.",
+   "abstract": "OBJECTIVE: To evaluate the comparative efficacy and safety of glucagon-like peptide-1 receptor agonists (GLP-1RAs) on glycaemic control, body weight, and lipid profile in adults with type 2 diabetes.\nDESIGN: Systematic review and network meta-analysis.\nDATA SOURCES: PubMed, Web of Science, Cochrane Central Register of Controlled Trials (CENTRAL), and Embase from database inception to 19 August 2023.\nELIGIBILITY CRITERIA FOR SELECTING STUDIES: Eligible randomised controlled trials enrolled adults with type 2 diabetes who received GLP-1RA treatments and compared effects with placebo or any GLP-1RA drug, with a follow-up duration of at least 12 weeks. Trials with a crossover design, non-inferiority studies comparing GLP-1RA and other drug classes without a placebo group, using withdrawn drugs, and non-English studies were deemed ineligible.\nRESULTS: 76 eligible trials involving 15 GLP-1RA drugs and 39 246 participants were included in this network meta-analysis; all subsequent estimates refer to the comparison with placebo. All 15 GLP-1RAs effectively lowered haemoglobin A1c and fasting plasma glucose concentrations. Tirzepatide induced the largest reduction of haemoglobin A1c concentrations (mean difference -2.10% (95% confidence interval -2.47% to -1.74%), surface under the cumulative ranking curve 94.2%; high confidence of evidence), and fasting plasma glucose concentrations (-3.12 mmol/L (-3.59 to -2.66), 97.2%; high confidence), and proved the most effective GLP-1RA drug for glycaemic control. Furthermore, GLP-1RAs were shown to have strong benefits to weight management for patients with type 2 diabetes. CagriSema (semaglutide with cagrilintide) resulted in the highest weight loss (mean difference -14.03 kg (95% confidence interval -17.05 to -11.00); high confidence of evidence), followed by tirzepatide (-8.47 kg (-9.68 to -7.26); high confidence). Semaglutide was effective in lowering the concentration of low density lipoprotein (-0.16 mmol/L (-0.30 to -0.02)) and total cholesterol (-0.48 mmol/L (-0.84 to -0.11)). Moreover, this study also raises awareness of gastrointestinal adverse events induced by GLP-1RAs, and concerns about safety are especially warranted for high dose administration.\nCONCLUSIONS: GLP-1RAs are efficacious in treating adults with type 2 diabetes. Compared with the placebo, tirzepatide was the most effective GLP-1RA drug for glycaemic control by reducing haemoglobin A1c and fasting plasma glucose concentrations. GLP-1RAs also significantly improved weight management for type 2 diabetes, with CagriSema performing the best for weight loss. The results prompt safety concerns for GLP-1RAs, especially with high dose administration, regarding gastrointestinal adverse events.\nSYSTEMATIC REVIEW REGISTRATION: PROSPERO CRD42022342845.",
+   "journal": "BMJ (Clinical research ed.)",
+   "year": "2024",
+   "doi": "10.1136/bmj-2023-076410",
+   "publication_types": [
+    "Systematic Review",
+    "Journal Article",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38286487/"
+  }
+ ]
+}

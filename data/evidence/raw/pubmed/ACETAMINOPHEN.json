@@ -1,0 +1,60 @@
+{
+ "drug": "ACETAMINOPHEN",
+ "status": "ok",
+ "query": "\"acetaminophen\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T04:58:58+00:00",
+ "records": [
+  {
+   "pmid": "37436926",
+   "title": "Paracetamol (acetaminophen) overdose and hepatotoxicity: mechanism, treatment, prevention measures, and estimates of burden of disease.",
+   "abstract": "INTRODUCTION: Paracetamol is one of the most used medicines worldwide and is the most common important poisoning in high-income countries. In overdose, paracetamol causes dose-dependent hepatotoxicity. Acetylcysteine is an effective antidote, however despite its use hepatotoxicity and many deaths still occur.\nAREAS COVERED: This review summarizes paracetamol overdose and toxicity (including mechanisms, risk factors, risk assessment, and treatment). In addition, we summarize the epidemiology of paracetamol overdose worldwide. A literature search on PubMed for poisoning epidemiology and mortality from 1 January 2017 to 26 October 2022 was performed to estimate rates of paracetamol overdose, liver injury, and deaths worldwide.\nEXPERT OPINION: Paracetamol is widely available and yet is substantially more toxic than other analgesics available without prescription. Where data were available, we estimate that paracetamol is involved in 6% of poisonings, 56% of severe acute liver injury and acute liver failure, and 7% of drug-induced liver injury. These estimates are limited by lack of available data from many countries, particularly in Asia, South America, and Africa. Harm reduction from paracetamol is possible through better identification of high-risk overdoses, and better treatment regimens. Large overdoses and those involving modified-release paracetamol are high-risk and can be targeted through legislative change.",
+   "journal": "Expert opinion on drug metabolism & toxicology",
+   "year": "2023",
+   "doi": "10.1080/17425255.2023.2223959",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37436926/"
+  },
+  {
+   "pmid": "34681816",
+   "title": "Paracetamol (Acetaminophen) and the Developing Brain.",
+   "abstract": "Paracetamol is commonly used to treat fever and pain in pregnant women, but there are growing concerns that this may cause attention deficit hyperactivity disorder and autism spectrum disorder in the offspring. A growing number of epidemiological studies suggests that relative risks for these disorders increase by an average of about 25% following intrauterine paracetamol exposure. The data analyzed point to a dose-effect relationship but cannot fully account for unmeasured confounders, notably indication and genetic transmission. Only few experimental investigations have addressed this issue. Altered behavior has been demonstrated in offspring of paracetamol-gavaged pregnant rats, and paracetamol given at or prior to day 10 of life to newborn mice resulted in altered locomotor activity in response to a novel home environment in adulthood and blunted the analgesic effect of paracetamol given to adult animals. The molecular mechanisms that might mediate these effects are unknown. Paracetamol has diverse pharmacologic actions. It reduces prostaglandin formation via competitive inhibition of the peroxidase moiety of prostaglandin H2 synthase, while its metabolite N-arachidonoyl-phenolamine activates transient vanilloid-subtype 1 receptors and interferes with cannabinoid receptor signaling. The metabolite N-acetyl-p-benzo-quinone-imine, which is pivotal for liver damage after overdosing, exerts oxidative stress and depletes glutathione in the brain already at dosages below the hepatic toxicity threshold. Given the widespread use of paracetamol during pregnancy and the lack of safe alternatives, its impact on the developing brain deserves further investigation.",
+   "journal": "International journal of molecular sciences",
+   "year": "2021",
+   "doi": "10.3390/ijms222011156",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34681816/"
+  },
+  {
+   "pmid": "38265880",
+   "title": "Acetaminophen Hepatotoxicity: Paradigm for Understanding Mechanisms of Drug-Induced Liver Injury.",
+   "abstract": "Acetaminophen (APAP) overdose is the clinically most relevant drug hepatotoxicity in western countries, and, because of translational relevance of animal models, APAP is mechanistically the most studied drug. This review covers intracellular signaling events starting with drug metabolism and the central role of mitochondrial dysfunction involving oxidant stress and peroxynitrite. Mitochondria-derived endonucleases trigger nuclear DNA fragmentation, the point of no return for cell death. In addition, adaptive mechanisms that limit cell death are discussed including autophagy, mitochondrial morphology changes, and biogenesis. Extensive evidence supports oncotic necrosis as the mode of cell death; however, a partial overlap with signaling events of apoptosis, ferroptosis, and pyroptosis is the basis for controversial discussions. Furthermore, an update on sterile inflammation in injury and repair with activation of Kupffer cells, monocyte-derived macrophages, and neutrophils is provided. Understanding these mechanisms of cell death led to discovery of N-acetylcysteine and recently fomepizole as effective antidotes against APAP toxicity.",
+   "journal": "Annual review of pathology",
+   "year": "2024",
+   "doi": "10.1146/annurev-pathmechdis-051122-094016",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38265880/"
+  },
+  {
+   "pmid": "39637384",
+   "title": "Acetaminophen in Pregnancy and Attention-Deficit and Hyperactivity Disorder and Autism Spectrum Disorder.",
+   "abstract": "Acetaminophen is a common over-the-counter medication that recently gained substantial media attention regarding its use by pregnant individuals. In this clinical perspective, we discuss the strengths and limitations of the published literature on the effect of maternal acetaminophen use in pregnancy on the child's risk of developing attention-deficit and hyperactivity disorder (ADHD) and autism spectrum disorder (ASD). Studies included were specifically selected on the basis of the quality and validity of ADHD or ASD outcome definitions. From a total of 56 identified studies, commentaries, and editorials of relevance, we critically reviewed nine studies with original data that satisfied our inclusion criteria and three meta-analyses. Most studies that have reported positive findings are difficult to interpret because they have important biases, notably a high degree of selection bias, variability in selection and adjustment for various potential confounders, and unmeasured familial confounding. When unobserved familial confounding through sibling analysis was controlled for, associations weakened substantially. This suggests that residual confounding from shared genetic and environmental factors may have caused an upward bias in the original observations. According to the current scientific evidence, in utero exposure to acetaminophen is unlikely to confer a clinically important increased risk of childhood ADHD or ASD. The current level of evidence does not warrant changes to clinical guidelines on the treatment of fever or pain in pregnancy. Prospective research designed to account for familial and psychosocial environmental factors related to both maternal use of acetaminophen and children's neurodevelopment should be undertaken.",
+   "journal": "Obstetrics and gynecology",
+   "year": "2025",
+   "doi": "10.1097/AOG.0000000000005802",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39637384/"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "drug": "MYCOPHENOLATE MOFETIL",
+ "status": "ok",
+ "query": "\"mycophenolate mofetil\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:44+00:00",
+ "records": [
+  {
+   "pmid": "37659779",
+   "title": "Childhood nephrotic syndrome.",
+   "abstract": "Idiopathic nephrotic syndrome is the most common glomerular disease in children. Corticosteroids are the cornerstone of its treatment, and steroid response is the main prognostic factor. Most children respond to a cycle of oral steroids, and are defined as having steroid-sensitive nephrotic syndrome. Among the children who do not respond, defined as having steroid-resistant nephrotic syndrome, most respond to second-line immunosuppression, mainly with calcineurin inhibitors, and children in whom a response is not observed are described as multidrug resistant. The pathophysiology of nephrotic syndrome remains elusive. In cases of immune-mediated origin, dysregulation of immune cells and production of circulating factors that damage the glomerular filtration barrier have been described. Conversely, up to a third of cases of steroid-resistant nephrotic syndrome have a monogenic origin. Multidrug resistant nephrotic syndrome often leads to kidney failure and can cause relapse after kidney transplant. Although steroid-sensitive nephrotic syndrome does not affect renal function, most children with steroid-sensitive nephrotic syndrome have a relapsing course that requires repeated steroid cycles with significant side-effects. To minimise morbidity, some patients require steroid-sparing immunosuppressive agents, including levamisole, mycophenolate mofetil, calcineurin inhibitors, anti-CD20 monoclonal antibodies, and cyclophosphamide. Close monitoring and preventive measures are warranted at onset and during relapse to prevent acute complications (eg, hypovolaemia, acute kidney injury, infections, and thrombosis), whereas long-term management requires minimising treatment-related side-effects. A subset of patients have active disease into adulthood.",
+   "journal": "Lancet (London, England)",
+   "year": "2023",
+   "doi": "10.1016/S0140-6736(23)01051-6",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37659779/"
+  },
+  {
+   "pmid": "38724790",
+   "title": "Oral Prescription Management.",
+   "abstract": "The treatment of atopic dermatitis (AD) with oral treatments has been limited in the past due to the increased risk of adverse effects associated with oral agents. However, in recent years, a shift toward the minimization of adverse effects has been explored. Although existing treatment options like oral corticosteroids and Immunosuppressive therapies have been utilized for acute flare-ups of AD, their long-term use is limited by adverse effects and the need for lab monitoring. New systemic treatment options such as Janus kinase (JAK) inhibitors are emerging as a promising therapy, due to their quick onset and antipruritic features. However, the black box warning associated with this medication class requires careful selection of appropriate candidates and patient education despite early favorable safety profiles seen in AD trials. Discussion of other oral agents, like antibiotics and antihistamines, and their role in AD management are also clarified.",
+   "journal": "Advances in experimental medicine and biology",
+   "year": "2024",
+   "doi": "10.1007/978-3-031-54513-9_12",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38724790/"
+  },
+  {
+   "pmid": "27306639",
+   "title": "Systemic lupus erythematosus.",
+   "abstract": "Systemic lupus erythematosus (SLE) is an autoimmune disease that can affect many organs, including the skin, joints, the central nervous system and the kidneys. Women of childbearing age and certain racial groups are typically predisposed to developing the condition. Rare, inherited, single-gene complement deficiencies are strongly associated with SLE, but the disease is inherited in a polygenic manner in most patients. Genetic interactions with environmental factors, particularly UV light exposure, Epstein-Barr virus infection and hormonal factors, might initiate the disease, resulting in immune dysregulation at the level of cytokines, T cells, B cells and macrophages. Diagnosis is primarily clinical and remains challenging because of the heterogeneity of SLE. Classification criteria have aided clinical trials, but, despite this, only one drug (that is, belimumab) has been approved for use in SLE in the past 60 years. The 10-year mortality has improved and toxic adverse effects of older medications such as cyclophosphamide and glucocorticoids have been partially offset by newer drugs such as mycophenolate mofetil and glucocorticoid-sparing regimes. However, further improvements have been hampered by the adverse effects of renal and neuropsychiatric involvement and late diagnosis. Adding to this burden is the increased risk of premature cardiovascular disease in SLE together with the risk of infection made worse by immunosuppressive therapy. Challenges remain with treatment-resistant disease and symptoms such as fatigue. Newer therapies may bring hope of better outcomes, and the refinement to stem cell and genetic techniques might offer a cure in the future.",
+   "journal": "Nature reviews. Disease primers",
+   "year": "2016",
+   "doi": "10.1038/nrdp.2016.39",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27306639/"
+  },
+  {
+   "pmid": "37945162",
+   "title": "Treatment of Autoimmune Hepatitis.",
+   "abstract": "The goal of autoimmune hepatitis treatment is to achieve clinical and biochemical remission, which is associated with significantly improved outcomes. Induction treatment with corticosteroids and the subsequent addition of steroid-sparing therapy with gradual tapering of corticosteroids remains the standard of care. Several alternatives to azathioprine and second-line agents, such as mycophenolate mofetil, tacrolimus, cyclosporine, sirolimus, or rituximab, have been evaluated in those with intolerance or inadequate response to standard-of-care therapy. Treatment withdrawal is achievable in less than 20% of patients after 2 years of sustained remission. Liver transplantation should be considered in those with progressive liver disease or those with complications such as hepatocellular carcinoma.",
+   "journal": "Clinics in liver disease",
+   "year": "2024",
+   "doi": "10.1016/j.cld.2023.07.001",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37945162/"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "drug": "OXALIPLATIN",
+ "status": "ok",
+ "query": "\"oxaliplatin\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:16:38+00:00",
+ "records": [
+  {
+   "pmid": "28270698",
+   "title": "Gut microbiota modulation of chemotherapy efficacy and toxicity.",
+   "abstract": "Evidence is growing that the gut microbiota modulates the host response to chemotherapeutic drugs, with three main clinical outcomes: facilitation of drug efficacy; abrogation and compromise of anticancer effects; and mediation of toxicity. The implication is that gut microbiota are critical to the development of personalized cancer treatment strategies and, therefore, a greater insight into prokaryotic co-metabolism of chemotherapeutic drugs is now required. This thinking is based on evidence from human, animal and in vitro studies that gut bacteria are intimately linked to the pharmacological effects of chemotherapies (5-fluorouracil, cyclophosphamide, irinotecan, oxaliplatin, gemcitabine, methotrexate) and novel targeted immunotherapies such as anti-PD-L1 and anti-CLTA-4 therapies. The gut microbiota modulate these agents through key mechanisms, structured as the 'TIMER' mechanistic framework: Translocation, Immunomodulation, Metabolism, Enzymatic degradation, and Reduced diversity and ecological variation. The gut microbiota can now, therefore, be targeted to improve efficacy and reduce the toxicity of current chemotherapy agents. In this Review, we outline the implications of pharmacomicrobiomics in cancer therapeutics and define how the microbiota might be modified in clinical practice to improve efficacy and reduce the toxic burden of these compounds.",
+   "journal": "Nature reviews. Gastroenterology & hepatology",
+   "year": "2017",
+   "doi": "10.1038/nrgastro.2017.20",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28270698/"
+  },
+  {
+   "pmid": "35190107",
+   "title": "Conventional Chemotherapy Nephrotoxicity.",
+   "abstract": "Conventional chemotherapies remain the mainstay of treatment for many malignancies. Kidney complications of these therapies are not infrequent and may have serious implications for future kidney function, cancer treatment options, eligibility for clinical trials, and overall survival. Kidney adverse effects may include acute kidney injury (via tubular injury, tubulointerstitial nephritis, glomerular disease and thrombotic microangiopathy), long-term kidney function loss and CKD, and electrolyte disturbances. In this review, we summarize the kidney complications of conventional forms of chemotherapy and, where possible, provide estimates of incidence, and identify risk factors and strategies for kidney risk mitigation. In addition, we provide recommendations regarding kidney dose modifications, recognizing that these adjustments may be limited by available supporting pharmacokinetic and clinical outcomes data. We discuss management strategies for kidney adverse effects associated with these therapies with drug-specific recommendations. We focus on frequently used anticancer agents with established kidney complications, including platinum-based chemotherapies (cisplatin, carboplatin, oxaliplatin), cyclophosphamide, gemcitabine, ifosfamide, methotrexate and pemetrexed, among others.",
+   "journal": "Advances in chronic kidney disease",
+   "year": "2021",
+   "doi": "10.1053/j.ackd.2021.08.001",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35190107/"
+  },
+  {
+   "pmid": "32474658",
+   "title": "Oxaliplatin-induced peripheral neuropathy: clinical features, mechanisms, prevention and treatment.",
+   "abstract": "Oxaliplatin (OXA) is a commonly used platinum-based chemotherapy drug for colorectal cancer. OXA-induced peripheral neurotoxcity (OIPN) is a comprehensive adverse reaction of OXA. OIPN can be divided into acute and chronic types according to clinical features and different mechanisms. The main clinical features of acute OIPN are cold-sensitive sensory symptoms and neuropathic pain in limbs. In addition to the above symptoms, chronic OIPN also produces autonomic nerve dysfunction. The most important mechanism involved in acute OIPN is the alteration of voltage-gated Na + channels, and nuclear DNA damage in chronic OIPN. There are some methods like reducing exposure to cold, calcium and magnesium salts, amifostine could be beneficial in acute OIPN prevention and dose modification, changing in schedule glutathione, duloxetine, selective serotonin reuptake inhibitors, carbonic anhydrase inhibitor in chronic OIPN prevention. Recent updates are provided in this article in relation to the clinical features, potential mechanisms, prevention and treatment of OIPN.",
+   "journal": "Journal of neurology",
+   "year": "2021",
+   "doi": "10.1007/s00415-020-09942-w",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32474658/"
+  },
+  {
+   "pmid": "25370778",
+   "title": "Drug-induced acid-base disorders.",
+   "abstract": "The incidence of acid-base disorders (ABDs) is high, especially in hospitalized patients. ABDs are often indicators for severe systemic disorders. In everyday clinical practice, analysis of ABDs must be performed in a standardized manner. Highly sensitive diagnostic tools to distinguish the various ABDs include the anion gap and the serum osmolar gap. Drug-induced ABDs can be classified into five different categories in terms of their pathophysiology: (1) metabolic acidosis caused by acid overload, which may occur through accumulation of acids by endogenous (e.g., lactic acidosis by biguanides, propofol-related syndrome) or exogenous (e.g., glycol-dependant drugs, such as diazepam or salicylates) mechanisms or by decreased renal acid excretion (e.g., distal renal tubular acidosis by amphotericin B, nonsteroidal anti-inflammatory drugs, vitamin D); (2) base loss: proximal renal tubular acidosis by drugs (e.g., ifosfamide, aminoglycosides, carbonic anhydrase inhibitors, antiretrovirals, oxaliplatin or cisplatin) in the context of Fanconi syndrome; (3) alkalosis resulting from acid and/or chloride loss by renal (e.g., diuretics, penicillins, aminoglycosides) or extrarenal (e.g., laxative drugs) mechanisms; (4) exogenous bicarbonate loads: milk-alkali syndrome, overshoot alkalosis after bicarbonate therapy or citrate administration; and (5) respiratory acidosis or alkalosis resulting from drug-induced depression of the respiratory center or neuromuscular impairment (e.g., anesthetics, sedatives) or hyperventilation (e.g., salicylates, epinephrine, nicotine).",
+   "journal": "Pediatric nephrology (Berlin, Germany)",
+   "year": "2015",
+   "doi": "10.1007/s00467-014-2958-5",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25370778/"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "drug": "GOLIMUMAB",
+ "status": "ok",
+ "query": "\"golimumab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:49+00:00",
+ "records": [
+  {
+   "pmid": "39382556",
+   "title": "Therapeutic drug monitoring in inflammatory bowel disease: recent developments.",
+   "abstract": "INTRODUCTION: Therapeutic Drug Monitoring (TDM) has an important role in the management of inflammatory bowel disease (IBD) patients on infliximab (IFX) or adalimumab and is recommended in IBD patients presenting a loss of response under anti TNF agent. But, TDM was not recommended for others biotherapies.\nAREAS COVERED: Analyzing all publications about TDM and biologics in IBD patients, we reported the major results for each biotherapy.\nEXPERT OPINION: Emerging data suggest that TDM will probably be similarly useful forIFX SC. In contrast, there is no demonstrated clinical benefit to the use of TDM with golimumab. For vedolizumab results for the use of both reactive and proactive TDM are discordant. For ustekinumab, data supports the existence of an exposure response relationship, albeit of a lesser magnitude than with anti-TNF agents. Finally, recent data from small case series suggests that TDM could be valuable in optimizing anti-IL23 agents, particularly risankizumab, but this requires further clarification. Consistent with the new concept of 'proactive' strategy, recent data support the utility of dashboard-driven model informed precision dosing (MIDP) of anti-TNF agents, in particular infliximab. Dashboards are software systems using Bayesian population pharmacokinetic modelling to individualize recommendations for target drug levels.",
+   "journal": "Expert review of gastroenterology & hepatology",
+   "year": "2024",
+   "doi": "10.1080/17474124.2024.2409300",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39382556/"
+  },
+  {
+   "pmid": "27567553",
+   "title": "Molecular mechanisms of action of anti-TNF-α agents - Comparison among therapeutic TNF-α antagonists.",
+   "abstract": "Tumor necrosis factor (TNF)-α is a potent pro-inflammatory and pathological cytokines in inflammatory diseases such as rheumatoid arthritis and inflammatory bowel diseases. Anti-TNF-α therapy has been established as an efficacious therapeutic strategy in these diseases. In clinical settings, three monoclonal anti-TNF-α full IgG1 antibodies infliximab, adalimumab, and golimumab, PEGylated Fab' fragment of anti-TNF-α antibody certolizumab pegol, extracellular domain of TNF receptor 2/IgG1-Fc fusion protein etanercept, are almost equally effective for rheumatoid arthritis. Although monoclonal full IgG1 antibodies are able to induce clinical and endoscopic remission in inflammatory bowel diseases, certolizumab pegol without Fc portion has been shown to be less effective for inflammatory bowel diseases compared to full IgG1 antibodies. In addition, there are no evidences that etanercept leads clinical remission in inflammatory bowel diseases. Besides the common effect of anti-TNF-α agents on neutralization of soluble TNF-α, each anti-TNF-α agent has its own distinctive pharmacological properties which cause the difference in clinical efficacies. Here we focus on the distinctions of action of anti-TNF-α agents especially in following points; (1) blocking ability against ligands, transmembrane TNF-α and lymphotoxin, (2) effects toward transmembrane TNF-α-expressing cells, (3) effects toward Fcγ receptor-expressing cells, (4) degradation and distribution in inflamed tissue. Accumulating evidence will give us the idea how to modify anti-TNF-α agents to enhance the clinical efficacy in inflammatory diseases.",
+   "journal": "Cytokine",
+   "year": "2018",
+   "doi": "10.1016/j.cyto.2016.08.014",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27567553/"
+  },
+  {
+   "pmid": "32783974",
+   "title": "Biological therapy in pediatric age.",
+   "abstract": "Biological therapies, especially blocking tumor necrosis factor-α (TNFα) agents have radically changed the therapeutic approach and disease course of pediatric inflammatory bowel disease (IBD). In particular, drugs such as infliximab (IFX) and adalimumab (ADA) have been demonstrated to be effective in inducing and maintaining corticosteroid-free remission in both adult and pediatric patients with Crohns Disease (CD) and Ulcerative colitis (UC). Biosimilar biological (BioS) therapy is increasingly being used in pediatric age even though most knowledge on the safety and efficacy of these agents is based on IFX in adult IBD data. Studies show high rates of clinical response and remission in both IFX naïve patients and in patients switched from originator to BioS with similar risks of adverse events (AEs) as those reported with IFX originator. In the present review indications, efficacy and AEs of biological therapy in pediatric IBD will be discussed, as well as the role of other biological agents such as Golimumab, Vedolizumab and Ustekinumab, the role of BioS biological therapy and utility of therapeutic drug monitoring in clinical practice.",
+   "journal": "Pharmacological research",
+   "year": "2020",
+   "doi": "10.1016/j.phrs.2020.105120",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32783974/"
+  },
+  {
+   "pmid": "36270657",
+   "title": "Efficacy and safety of biological DMARDs: a systematic literature review informing the 2022 update of the ASAS-EULAR recommendations for the management of axial spondyloarthritis.",
+   "abstract": "OBJECTIVE: To update the evidence on efficacy and safety of biological disease-modifying antirheumatic drugs (bDMARDs) in patients with axial spondyloarthritis (axSpA) to inform the 2022 update of the Assessment of SpondyloArthritis international Society/European Alliance of Associations for Rheumatology (ASAS-EULAR) recommendations for the management of axSpA.\nMETHODS: Systematic literature review (2016-2021) on efficacy and safety of bDMARDs in axSpA (radiographic axSpA (r-axSpA)/non-radiographic axSpA (nr-axSpA)). Eligible study designs included randomised controlled trials (RCTs), strategy trials and observational studies (the latter only for safety and extra-musculoskeletal manifestations). All relevant efficacy/safety outcomes were included.\nRESULTS: In total, 148 publications were included. Efficacy of golimumab and certolizumab was confirmed. Tumour necrosis factor inhibitor (TNFi) biosimilar-originator equivalence was demonstrated. RCT (n=15) data on efficacy of interleukin-17 inhibitors (IL-17i) demonstrated clinically relevant effects (risk ratio vs placebo to achieve ASAS40 response 1.3-15.3 (r-axSpA, n=9), 1.4-2.1 (nr-axSpA, n=2)). Efficacy of secukinumab/ixekizumab was demonstrated in TNFi-naïve and TNFi-inadequate responders. IL-23 and IL-12/23 inhibitors (risankizumab/ustekinumab) failed to show relevant benefits. Tapering of TNFi by spacing was non-inferior to standard-dose treatment. The first axSpA treat-to-target trial did not meet its primary endpoint, but showed improvements in secondary outcomes. No new risks were identified with TNFi use in observational studies (data lacking for IL-17i). Secukinumab (n=1) and etanercept (n=2) were associated with increased risk of uveitis in observational studies compared to monoclonal TNFi.\nCONCLUSIONS: New evidence supports the efficacy and safety of TNFi (originators/biosimilars) and IL-17i in r-axSpA and nr-axSpA, while IL-23i failed to show relevant effects. Observational studies are needed to confirm long-term IL-17i safety.\nPROSPERO REGISTRATION NUMBER: CRD42021257588.",
+   "journal": "Annals of the rheumatic diseases",
+   "year": "2023",
+   "doi": "10.1136/ard-2022-223298",
+   "publication_types": [
+    "Systematic Review",
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36270657/"
+  }
+ ]
+}

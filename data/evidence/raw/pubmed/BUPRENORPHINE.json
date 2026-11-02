@@ -1,0 +1,61 @@
+{
+ "drug": "BUPRENORPHINE",
+ "status": "ok",
+ "query": "\"buprenorphine\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:20:10+00:00",
+ "records": [
+  {
+   "pmid": "39465454",
+   "title": "Pharmacological Pain Treatment in Older Persons.",
+   "abstract": "Pharmacological pain treatment in older persons is presented by a multi-disciplinary group of European pain experts. Drugs recommended for acute or chronic nociceptive pain, also for neuropathic pain and the routes of administration of choice are the same as those prescribed for younger persons but comorbidities and polypharmacy in older persons increase the risk of adverse effects and drug interactions. Not all drugs are available or authorised in all European countries. For mild-to-moderate pain, non-opioids including paracetamol and non-steroidal anti-inflammatory drugs are first-line treatments, followed by nefopam and metamizole. Codeine, dihydrocodeine and tramadol are prescribed for moderate to severe pain and 'strong' opioids, including morphine, hydromorphone, oxycodone, fentanyl, buprenorphine, methadone and tapentadol, for severe pain. Chronic neuropathic pain treatment relies on coanalgesics, including anti-epileptics (gabapentinoids) and anti-depressants with additional option of topical lidocaine and capsaicine. The choice of analgesic(s) and the route of administration should be guided by the pain characteristics, as well as by the patient's comorbidities, organ function and medications. Several directions have been highlighted to optimise pharmacological pain management in older individuals: (1) before starting pain treatment adequately detect and assess pain and always perform a full geriatric assessment, (2) consider kidney function systematically to adjust the doses of analgesics and avoid the risks of overdose, (3) start with the lowest dose of an analgesic and increase it gradually under the control of the effect, (4) involve the older persons and family in their treatment, (5) reevaluate pain regularly during treatment and (6) combine pharmacological treatment with non-pharmacological approaches.",
+   "journal": "Drugs & aging",
+   "year": "2024",
+   "doi": "10.1007/s40266-024-01151-8",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39465454/"
+  },
+  {
+   "pmid": "36402480",
+   "title": "Hystricomorph Rodent Analgesia.",
+   "abstract": "Limited information on the analgesic efficacy and safety of even clinically commonly used analgesic drugs in guinea pigs and chinchillas is available. Buprenorphine and meloxicam are currently the most common analgesics routinely used to treat painful conditions in guinea pigs and chinchillas. Hydromorphone has also shown to be an effective analgesic drug in these species, with limited adverse effects. Tramadol in chinchillas does not provide analgesia even at high doses, and no information is available on the efficacy of this drug in guinea pigs. Multimodal analgesic protocols should be considered whenever possible.",
+   "journal": "The veterinary clinics of North America. Exotic animal practice",
+   "year": "2023",
+   "doi": "10.1016/j.cvex.2022.07.006",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36402480/"
+  },
+  {
+   "pmid": "32563380",
+   "title": "New directions in the treatment of opioid withdrawal.",
+   "abstract": "The treatment of opioid withdrawal is an important area of clinical concern when treating patients with chronic, non-cancer pain, patients with active opioid use disorder, and patients receiving medication for opioid use disorder. Current standards of care for medically supervised withdrawal include treatment with μ-opioid receptor agonists, (eg, methadone), partial agonists (eg, buprenorphine), and α2-adrenergic receptor agonists (eg, clonidine and lofexidine). Newer agents likewise exploit these pharmacological mechanisms, including tramadol (μ-opioid receptor agonism) and tizanidine (α2 agonism). Areas for future research include managing withdrawal in the context of stabilising patients with opioid use disorder to extended-release naltrexone, transitioning patients with opioid use disorder from methadone to buprenorphine, and tapering opioids in patients with chronic, non-cancer pain.",
+   "journal": "Lancet (London, England)",
+   "year": "2020",
+   "doi": "10.1016/S0140-6736(20)30852-7",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32563380/"
+  },
+  {
+   "pmid": "34215409",
+   "title": "New Designer Drugs.",
+   "abstract": "In recent years, there has been an emergence of numerous novel drugs. Such toxicity may occur in both adolescents and adults. This article discusses the opioid epidemic and several emerging opioids, including buprenorphine, loperamide, fentanyl, fentanyl derivatives, and others. Kratom, a plant occasionally used for opiate detoxification, along with the sedatives etizolam and phenibut, will be discussed. Lastly, this article discusses the phenethylamines and marijuana.",
+   "journal": "Emergency medicine clinics of North America",
+   "year": "2021",
+   "doi": "10.1016/j.emc.2021.04.013",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34215409/"
+  }
+ ]
+}

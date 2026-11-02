@@ -1,0 +1,30 @@
+{
+ "drug": "COPPER",
+ "status": "ok",
+ "fetched_at": "2026-10-20T05:18:32+00:00",
+ "set_id": "06c529fc-272c-f889-f5e5-7f3e5ef2c59d",
+ "spl_id": "47e8233b-c64c-b42d-e063-6294a90a14e3",
+ "spl_version": "12",
+ "effective_time": "20260108",
+ "brand_names": [
+  "CitraNatal Assure"
+ ],
+ "generic_names": [
+  "ASCORBIC ACID, CALCIUM CITRATE, IRON, VITAMIN D, DL- ALPHA- TOCOPHEROL ACETATE, THIAMINE, RIBOFLAVIN, NIACINAMIDE, PYRIDOXINE HYDROCHLORIDE, FOLIC ACID, IODINE, ZINC, COPPER, DOCUSATE SODIUM, DOCONEXENT AND ICOSAPENT"
+ ],
+ "manufacturer": "Mission Pharmacal Company",
+ "route": [],
+ "dailymed_title": "CITRANATAL ASSURE (ASCORBIC ACID, CALCIUM CITRATE, IRON, VITAMIN D, DL- ALPHA- TOCOPHEROL ACETATE, THIAMINE, RIBOFLAVIN, NIACINAMIDE, PYRIDOXINE HYDROCHLORIDE, FOLIC ACID, IODINE, ZINC, COPPER, DOCUSATE SODIUM, DOCONEXENT AND ICOSAPENT) KIT [MISSION PHARMACAL COMPANY]",
+ "dailymed_published": "Jan 12, 2026",
+ "dailymed_spl_version": 12,
+ "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=06c529fc-272c-f889-f5e5-7f3e5ef2c59d",
+ "api_url": "https://api.fda.gov/drug/label.json?search=set_id:%2206c529fc-272c-f889-f5e5-7f3e5ef2c59d%22",
+ "sections": {
+  "boxed_warning": "WARNING Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. KEEP THIS PRODUCT OUT OF THE REACH OF CHILDREN. In case of accidental overdose, call a doctor or poison control center immediately.",
+  "contraindications": "CONTRAINDICATIONS This product is contraindicated in patients with a known hypersensitivity to any of the ingredients.",
+  "warnings": "WARNING Ingestion of more than 3 grams of omega-3 fatty acids per day has been shown to have potential antithrombotic effects, including an increased bleeding time and INR. Administration of omega-3 fatty acids should be avoided in patients on anticoagulants and in those known to have an inherited or acquired bleeding diathesis.\nWARNING Folic acid alone is improper therapy in the treatment of pernicious anemia and other megaloblastic anemias where vitamin B 12 is deficient.",
+  "precautions": "PRECAUTIONS Folic acid in doses above 0.1 mg daily may obscure pernicious anemia in that hematologic remission can occur while neurological manifestations progress.",
+  "adverse_reactions": "ADVERSE REACTIONS Allergic sensitization has been reported following both oral and parenteral administration of folic acid.",
+  "indications_and_usage": "INDICATIONS CitraNatal Assure ® is a multivitamin/mineral prescription drug indicated for use in improving the nutritional status of women prior to conception, throughout pregnancy, and in the postnatal period for both lactating and nonlactating mothers."
+ }
+}

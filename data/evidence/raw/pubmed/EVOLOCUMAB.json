@@ -1,0 +1,62 @@
+{
+ "drug": "EVOLOCUMAB",
+ "status": "ok",
+ "query": "\"evolocumab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:16:41+00:00",
+ "records": [
+  {
+   "pmid": "30207556",
+   "title": "PCSK9 Inhibitors: Mechanism of Action, Efficacy, and Safety.",
+   "abstract": "Low-density lipoprotein (LDL) receptors on the surface of liver hepatocytes are the primary way that humans regulate serum LDL cholesterol levels. Proprotein convertase subtilisin/kexin type 9 (PCSK9) is a proteolytic enzyme that indirectly regulates serum LDL cholesterol (LDL-C) by causing the destruction of LDL receptors. Less LDL receptors result in increased LDL-C in the bloodstream but inhibiting or binding the circulating PCSK9 results in increased LDL receptors with the resultant decrease in serum LDL-C. Two PCSK9 inhibitors are currently approved for use: alirocumab and evolocumab. Both are fully human monoclonal antibodies that bind free PCSK9. Herein we discuss the mechanism of action, efficacy, and safety of PCSK9 inhibitors. clinical problem.",
+   "journal": "Reviews in cardiovascular medicine",
+   "year": "2018",
+   "doi": "10.3909/ricm19S1S0002",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30207556/"
+  },
+  {
+   "pmid": "37486464",
+   "title": "Established and Emerging Lipid-Lowering Drugs for Primary and Secondary Cardiovascular Prevention.",
+   "abstract": "Despite treatment with statins, patients with elevated low-density lipoprotein cholesterol (LDL-C) and triglycerides remain at increased risk for adverse cardiovascular events. Consequently, novel pharmaceutical drugs have been developed to control and modify the composition of blood lipids to ultimately prevent fatal cardiovascular events in patients with dyslipidaemia. This article reviews established and emerging lipid-lowering drugs regarding their mechanism of action, development stage, ongoing clinical trials, side effects, effect on blood lipids and reduction in cardiovascular morbidity and mortality. We conducted a keyword search to identify studies on established and emerging lipid modifying drugs. Results were summarized in a narrative overview. Established pharmaceutical treatment options include the Niemann-Pick-C1 like-1 protein (NPC1L1) inhibitor ezetimibe, the protein convertase subtilisin-kexin type 9 (PCSK9) inhibitors alirocumab and evolocumab, fibrates as peroxisome proliferator receptor alpha (PPAR-α) activators, and the omega-3 fatty acid icosapent ethyl. Statins are recommended as the first-line therapy for primary and secondary cardiovascular prevention in patients with hypercholesterinaemia and hypertriglyceridemia. For secondary prevention in hypercholesterinaemia, second-line options such as statin add-on or statin-intolerant treatments are ezetimibe, alirocumab and evolocumab. For secondary prevention in hypertriglyceridemia, second-line options such as statin add-on or statin-intolerant treatments are icosapent ethyl and fenofibrate. Robust data for these add-on therapeutics in primary cardiovascular prevention remains scarce. Recent biotechnological advances have led to the development of innovative small molecules (bempedoic acid, lomitapide, pemafibrate, docosapentaenoic and eicosapentaenoic acid), antibodies (evinacumab), antisense oligonucleotides (mipomersen, volanesorsen, pelcarsen, olezarsen), small interfering RNA (inclisiran, olpasiran), and gene therapies for patients with dyslipidemia. These molecules specifically target new cellular pathways, such as the adenosine triphosphate-citrate lyase (bempedoic acid), PCSK9 (inclisiran), angiopoietin-like 3 (ANGPTL3: evinacumab), microsomal triglyceride transfer protein (MTP: lomitapide), apolipoprotein B-100 (ApoB-100: mipomersen), apolipoprotein C-III (ApoC-III: volanesorsen, olezarsen), and lipoprotein (a) (Lp(a): pelcarsen, olpasiran). The authors are hopeful that the development of new treatment modalities alongside new therapeutic targets will further reduce patients' risk of adverse cardiovascular events. Apart from statins, data on new drugs' use in primary cardiovascular prevention remain scarce. For their swift adoption into clinical routine, these treatments must demonstrate safety and efficacy as well as cost-effectiveness in randomized cardiovascular outcome trials.",
+   "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventions",
+   "year": "2023",
+   "doi": "10.1007/s40256-023-00594-5",
+   "publication_types": [
+    "Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37486464/"
+  },
+  {
+   "pmid": "35262430",
+   "title": "Comparative efficacy of non-statin lipid-lowering therapies in patients with hypercholesterolemia at increased cardiovascular risk: a network meta-analysis.",
+   "abstract": "OBJECTIVE: Network meta-analysis was used to derive estimates of the relative efficacy of inclisiran, evolocumab, alirocumab, bempedoic acid, and ezetimibe in patients with hypercholesterolemia and/or at increased cardiovascular risk due to elevated low-density lipoprotein cholesterol taking maximum tolerated dose statins.\nMETHODS: Clinical trials published through February 2021 comparing percent change from baseline in low-density lipoprotein cholesterol were identified via a systematic review. Bayesian network meta-analyses were performed for patients with atherosclerotic cardiovascular disease and/or high cardiovascular risk on maximally tolerated statins in the base case, which included 23 trials.\nRESULTS: Results from the base-case analyses demonstrated that inclisiran, evolocumab, and alirocumab provide superior efficacy over placebo, bempedoic acid, and ezetimibe in terms of reduction in low-density lipoprotein cholesterol. Inclisiran was also comparable to alirocumab (mean difference: 0.78% [95% CrI: -8.35, 9.88]) and evolocumab (8.16%, [95% CrI: -1.82, 18.49]). Findings of a scenario which also included trials conducted in patients with heterozygous familial hypercholesterolemia were consistent with the base case. There was evidence of statistical heterogeneity across the included trials, roughly equivalent to variation of 5-10% change in low-density lipoprotein cholesterol, suggesting that any differences between treatments that were greater than 5-10% are generalizable.\nCONCLUSIONS: This study provides insight regarding the comparative efficacy of drugs for which no head-to-head trials exist and suggests that inclisiran, alirocumab, and evolocumab are expected to provide similar clinically meaningful improvements in low-density lipoprotein cholesterol in patients with hypercholesterolemia on maximally tolerated statins who are at increased cardiovascular risk.",
+   "journal": "Current medical research and opinion",
+   "year": "2022",
+   "doi": "10.1080/03007995.2022.2049164",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Research Support, Non-U.S. Gov't",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35262430/"
+  },
+  {
+   "pmid": "32494971",
+   "title": "Clinical Pharmacology of Statins: an Update.",
+   "abstract": "PURPOSE OF REVIEW: Statins represent the cornerstone for the treatment of hypercholesterolemia, although muscle-related side effects and dysregulation of glucose metabolism have strongly limited their adherence and compliance especially in primary prevention therapy. The purpose of the present review is to provide the most recent evidence of the efficacy and safety of statins in monotherapy or combination with new lipid-lowering drugs.\nRECENT FINDINGS: Recent \"life-long\" analysis conducted on young familial hypercholesterolemia patients, elderly hypocholesterolemic subjects, and from a 20-year follow-up of randomized controlled trial (RCT) have been published confirming that the cardiovascular benefits of statin therapy, in patients for whom it is recommended by current guidelines, greatly outweigh the risks of side effects. In addition, recent therapies to be used in combination with statins have shown to increase the percentage of patients at goal for low-density lipoprotein - cholesterol (LDL-C) with a good safety profile. The cardiovascular (CV) benefits of monoclonal antibodies anti-proprotein convertase subtilisin/kexin type 9 (PCSK9) and ezetimibe, in patients under statin therapy, have been proven by specific RCT, while we are still waiting for the results of bempedoic acid and the small-interfering RNA (si-RNA) anti-PCSK9 inclisiran. Taken together, the approval of new pharmacological agents to be used in combination with statins represents the future for a tailored therapy of cardiovascular disease patients.",
+   "journal": "Current atherosclerosis reports",
+   "year": "2020",
+   "doi": "10.1007/s11883-020-00844-w",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32494971/"
+  }
+ ]
+}

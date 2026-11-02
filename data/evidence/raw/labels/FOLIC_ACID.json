@@ -1,0 +1,32 @@
+{
+ "drug": "FOLIC ACID",
+ "status": "ok",
+ "fetched_at": "2026-10-20T05:18:01+00:00",
+ "set_id": "735c5531-137f-4cee-8c68-ae121045a8ff",
+ "spl_id": "5737b004-3ab9-2d28-e063-6294a90a4ba0",
+ "spl_version": "6",
+ "effective_time": "20260722",
+ "brand_names": [
+  "PNV-Omega"
+ ],
+ "generic_names": [
+  "ASCORBIC ACID, CHOLECALCIFEROL, .ALPHA.-TOCOPHEROL, PYRIDOXINE HYDROCHLORIDE, FOLIC ACID, CYANOCOBALAMIN, CALCIUM CORBONATE, FERROUS FUMARATE, POTASSIUM IODIDE, MAGNESIUM, DOCONEXENT, ICOSAPENT"
+ ],
+ "manufacturer": "Acella Pharmaceuticals, LLC",
+ "route": [
+  "ORAL"
+ ],
+ "dailymed_title": "PNV-OMEGA (ASCORBIC ACID, CHOLECALCIFEROL, .ALPHA.-TOCOPHEROL, PYRIDOXINE HYDROCHLORIDE, FOLIC ACID, CYANOCOBALAMIN, CALCIUM CORBONATE, FERROUS FUMARATE, POTASSIUM IODIDE, MAGNESIUM, DOCONEXENT, ICOSAPENT) CAPSULE, GELATIN COATED [ACELLA PHARMACEUTICALS, LLC]",
+ "dailymed_published": "Aug 03, 2026",
+ "dailymed_spl_version": 6,
+ "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=735c5531-137f-4cee-8c68-ae121045a8ff",
+ "api_url": "https://api.fda.gov/drug/label.json?search=set_id:%22735c5531-137f-4cee-8c68-ae121045a8ff%22",
+ "sections": {
+  "boxed_warning": "WARNING Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children . In case of accidental overdose, call a doctor or poison control center immediately.",
+  "contraindications": "CONTRAINDICATIONS This product is contraindicated in patients with a known hypersensitivity to any of the ingredients.",
+  "warnings": "WARNING Ingestion of more than 3 grams of omega-3 fatty acids (such as DHA) per day has been shown to have potential antithrombotic effects, including an increased bleeding time and International Normalized Ratio (INR). Administration of omega-3 fatty acids should be avoided in patients taking anticoagulants and in those known to have an inherited or acquired predisposition to bleeding.",
+  "precautions": "PRECAUTIONS Folic acid alone is improper therapy in the treatment of pernicious anemia and other megaloblastic anemias where Vitamin B 12 is deficient. Folic acid in doses above 1.0 mg daily may obscure pernicious anemia in that hematologic remission can occur while neurological manifestations progress. Biotin levels higher than the recommended daily allowance may cause interference with some laboratory tests, including cardiovascular diagnostic tests, including cardiovascular diagnostic test (e.g. troponin) and hormone tests, and may lead to incorrect test results. Tell your healthcare provider about all prescription and over-the-counter medicines, vitamins, and dietary supplements that you take, including biotin. This product contains FD&C Yellow No. 5 (tartrazine) which may cause allergic-type reactions (including bronchial asthma) in certain susceptible persons. Although the overall incidence of FD&C Yellow No. 5 (tartrazine) sensitivity in the general population is low, it is frequently seen in patients who also have aspirin hypersensitivity.",
+  "adverse_reactions": "ADVERSE REACTIONS Allergic sensitization has been reported following both oral and parenteral administration of folic acid.",
+  "indications_and_usage": "INDICATIONS PNV - Omega is a multivitamin/ multimineral dietary supplement indicated for use in the dietary management of patients with nutritional deficiencies or are in need of nutritional supplementation."
+ }
+}

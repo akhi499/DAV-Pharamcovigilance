@@ -1,0 +1,61 @@
+{
+ "drug": "FENTANYL",
+ "status": "ok",
+ "query": "\"fentanyl\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:16:25+00:00",
+ "records": [
+  {
+   "pmid": "39465454",
+   "title": "Pharmacological Pain Treatment in Older Persons.",
+   "abstract": "Pharmacological pain treatment in older persons is presented by a multi-disciplinary group of European pain experts. Drugs recommended for acute or chronic nociceptive pain, also for neuropathic pain and the routes of administration of choice are the same as those prescribed for younger persons but comorbidities and polypharmacy in older persons increase the risk of adverse effects and drug interactions. Not all drugs are available or authorised in all European countries. For mild-to-moderate pain, non-opioids including paracetamol and non-steroidal anti-inflammatory drugs are first-line treatments, followed by nefopam and metamizole. Codeine, dihydrocodeine and tramadol are prescribed for moderate to severe pain and 'strong' opioids, including morphine, hydromorphone, oxycodone, fentanyl, buprenorphine, methadone and tapentadol, for severe pain. Chronic neuropathic pain treatment relies on coanalgesics, including anti-epileptics (gabapentinoids) and anti-depressants with additional option of topical lidocaine and capsaicine. The choice of analgesic(s) and the route of administration should be guided by the pain characteristics, as well as by the patient's comorbidities, organ function and medications. Several directions have been highlighted to optimise pharmacological pain management in older individuals: (1) before starting pain treatment adequately detect and assess pain and always perform a full geriatric assessment, (2) consider kidney function systematically to adjust the doses of analgesics and avoid the risks of overdose, (3) start with the lowest dose of an analgesic and increase it gradually under the control of the effect, (4) involve the older persons and family in their treatment, (5) reevaluate pain regularly during treatment and (6) combine pharmacological treatment with non-pharmacological approaches.",
+   "journal": "Drugs & aging",
+   "year": "2024",
+   "doi": "10.1007/s40266-024-01151-8",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39465454/"
+  },
+  {
+   "pmid": "36045027",
+   "title": "The opioid epidemic.",
+   "abstract": "An opioid epidemic has been happening across the world since the 1990s and continues impact individuals, families, communities and societies around the globe. The epidemic has evolved from heroin misuse to the use of synthetic opioids that are easily manufactured and are readily available. Reasons for the continuing opioid epidemic are complex, and include factors related to mental health, addiction, chronic pain relief, and, now, the COVID-19 pandemic. Women have been disproportionally affected by the opioid epidemic and the physical and biosocial effects of opioid use specific to women are an important consideration for healthcare providers. Recent data show that the effects of the opioid epidemic on rates of opioid use disorder (OUD), overdoses, and the economy continue to rise, despite global efforts to understand the drivers and develop effective prevention and intervention strategies, programs, and policies.",
+   "journal": "Best practice & research. Clinical obstetrics & gynaecology",
+   "year": "2022",
+   "doi": "10.1016/j.bpobgyn.2022.07.003",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36045027/"
+  },
+  {
+   "pmid": "34215409",
+   "title": "New Designer Drugs.",
+   "abstract": "In recent years, there has been an emergence of numerous novel drugs. Such toxicity may occur in both adolescents and adults. This article discusses the opioid epidemic and several emerging opioids, including buprenorphine, loperamide, fentanyl, fentanyl derivatives, and others. Kratom, a plant occasionally used for opiate detoxification, along with the sedatives etizolam and phenibut, will be discussed. Lastly, this article discusses the phenethylamines and marijuana.",
+   "journal": "Emergency medicine clinics of North America",
+   "year": "2021",
+   "doi": "10.1016/j.emc.2021.04.013",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34215409/"
+  },
+  {
+   "pmid": "38108561",
+   "title": "Opioid analgesics for nociceptive cancer pain: A comprehensive review.",
+   "abstract": "Pain is one of the most burdensome symptoms in people with cancer, and opioid analgesics are considered the mainstay of cancer pain management. For this review, the authors evaluated the efficacy and toxicities of opioid analgesics compared with placebo, other opioids, nonopioid analgesics, and nonpharmacologic treatments for background cancer pain (continuous and relatively constant pain present at rest), and breakthrough cancer pain (transient exacerbation of pain despite stable and adequately controlled background pain). They found a paucity of placebo-controlled trials for background cancer pain, although tapentadol or codeine may be more efficacious than placebo (moderate-certainty to low-certainty evidence). Nonsteroidal anti-inflammatory drugs including aspirin, piroxicam, diclofenac, ketorolac, and the antidepressant medicine imipramine, may be at least as efficacious as opioids for moderate-to-severe background cancer pain. For breakthrough cancer pain, oral transmucosal, buccal, sublingual, or intranasal fentanyl preparations were identified as more efficacious than placebo but were more commonly associated with toxicities, including constipation and nausea. Despite being recommended worldwide for the treatment of cancer pain, morphine was generally not superior to other opioids, nor did it have a more favorable toxicity profile. The interpretation of study results, however, was complicated by the heterogeneity in the study populations evaluated. Given the limited quality and quantity of research, there is a need to reappraise the clinical utility of opioids in people with cancer pain, particularly those who are not at the end of life, and to further explore the effects of opioids on immune system function and quality of life in these individuals.",
+   "journal": "CA: a cancer journal for clinicians",
+   "year": "2024",
+   "doi": "10.3322/caac.21823",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38108561/"
+  }
+ ]
+}

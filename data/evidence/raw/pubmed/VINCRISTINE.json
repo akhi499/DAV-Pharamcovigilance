@@ -1,0 +1,62 @@
+{
+ "drug": "VINCRISTINE",
+ "status": "ok",
+ "query": "\"vincristine\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:20:21+00:00",
+ "records": [
+  {
+   "pmid": "31894937",
+   "title": "Lymphoma: Diagnosis and Treatment.",
+   "abstract": "Lymphoma is a group of malignant neoplasms of lymphocytes with more than 90 subtypes. It is traditionally classified broadly as non-Hodgkin or Hodgkin lymphoma. Approximately 82,000 new U.S. patients are diagnosed with lymphoma annually. Any tobacco use and obesity are major modifiable risk factors, with genetic, infectious, and inflammatory etiologies also contributing. Lymphoma typically presents as painless adenopathy, with systemic symptoms of fever, unexplained weight loss, and night sweats occurring in more advanced stages of the disease. An open lymph node biopsy is preferred for diagnosis. The Lugano classification system incorporates symptoms and the extent of the disease as shown on positron emission tomography/computed tomography to stage lymphoma, which is then used to determine treatment. Chemotherapy treatment plans differ between the main subtypes of lymphoma. Non-Hodgkin lymphoma is treated with CHOP (cyclophosphamide, doxorubicin, vincristine, and prednisone) with or without rituximab (R-CHOP), bendamustine, and lenalidomide. Hodgkin lymphoma is treated with combined chemotherapy with ABVD (doxorubicin, bleomycin, vinblastine, and dacarbazine), Stanford V (a chemotherapy regimen consisting of mechlorethamine, doxorubicin, vinblastine, vincristine, bleomycin, etoposide, and prednisone), or BEACOPP (bleomycin, etoposide, doxorubicin, cyclophosphamide, vincristine, procarbazine, and prednisone) with radiotherapy. Subsequent chemotherapy toxicities include neuropathy, cardiotoxicity, and secondary cancers such as lung and breast, and should be considered in the shared decision-making process to select a treatment regimen. Once remission is achieved, patients need routine surveillance to monitor for complications and relapse, in addition to age-appropriate screenings recommended by the U.S. Preventive Services Task Force. Patients should receive a 13-valent pneumococcal conjugate vaccine followed by a 23-valent pneumococcal polysaccharide vaccine at least eight weeks later with additional age-appropriate vaccinations because lymphoma is an immunosuppressive condition. Household contacts should also be current with their immunizations.",
+   "journal": "American family physician",
+   "year": "2020",
+   "doi": null,
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31894937/"
+  },
+  {
+   "pmid": "38942605",
+   "title": "Ovarian microenvironment: challenges and opportunities in protecting against chemotherapy-associated ovarian damage.",
+   "abstract": "BACKGROUND: Chemotherapy-associated ovarian damage (CAOD) is one of the most feared short- and long-term side effects of anticancer treatment in premenopausal women. Accumulating detailed data show that different chemotherapy regimens can lead to disturbance of ovarian hormone levels, reduced or lost fertility, and an increased risk of early menopause. Previous studies have often focused on the direct effects of chemotherapeutic drugs on ovarian follicles, such as direct DNA damage-mediated apoptotic death and primordial follicle burnout. Emerging evidence has revealed an imbalance in the ovarian microenvironment during chemotherapy. The ovarian microenvironment provides nutritional support and transportation of signals that stimulate the growth and development of follicles, ovulation, and corpus luteum formation. The close interaction between the ovarian microenvironment and follicles can determine ovarian function. Therefore, designing novel and precise strategies to manipulate the ovarian microenvironment may be a new strategy to protect ovarian function during chemotherapy.\nOBJECTIVE AND RATIONALE: This review details the changes that occur in the ovarian microenvironment during chemotherapy and emphasizes the importance of developing new therapeutics that protect ovarian function by targeting the ovarian microenvironment during chemotherapy.\nSEARCH METHODS: A comprehensive review of the literature was performed by searching PubMed up to April 2024. Search terms included 'ovarian microenvironment' (ovarian extracellular matrix, ovarian stromal cells, ovarian interstitial, ovarian blood vessels, ovarian lymphatic vessels, ovarian macrophages, ovarian lymphocytes, ovarian immune cytokines, ovarian oxidative stress, ovarian reactive oxygen species, ovarian senescence cells, ovarian senescence-associated secretory phenotypes, ovarian oogonial stem cells, ovarian stem cells), terms related to ovarian function (reproductive health, fertility, infertility, fecundity, ovarian reserve, ovarian function, menopause, decreased ovarian reserve, premature ovarian insufficiency/failure), and terms related to chemotherapy (cyclophosphamide, lfosfamide, chlormethine, chlorambucil, busulfan, melphalan, procarbazine, cisplatin, doxorubicin, carboplatin, taxane, paclitaxel, docetaxel, 5-fluorouraci, vincristine, methotrexate, dactinomycin, bleomycin, mercaptopurine).\nOUTCOMES: The ovarian microenvironment shows great changes during chemotherapy, inducing extracellular matrix deposition and stromal fibrosis, angiogenesis disorders, immune microenvironment disturbance, oxidative stress imbalances, ovarian stem cell exhaustion, and cell senescence, thereby lowering the quantity and quality of ovarian follicles. Several methods targeting the ovarian microenvironment have been adopted to prevent and treat CAOD, such as stem cell therapy and the use of free radical scavengers, senolytherapies, immunomodulators, and proangiogenic factors.\nWIDER IMPLICATIONS: Ovarian function is determined by its 'seeds' (follicles) and 'soil' (ovarian microenvironment). The ovarian microenvironment has been reported to play a vital role in CAOD and targeting the ovarian microenvironment may present potential therapeutic approaches for CAOD. However, the relation between the ovarian microenvironment, its regulatory networks, and CAOD needs to be further studied. A better understanding of these issues could be helpful in explaining the pathogenesis of CAOD and creating innovative strategies for counteracting the effects exerted on ovarian function. Our aim is that this narrative review of CAOD will stimulate more research in this important field.\nREGISTRATION NUMBER: Not applicable.",
+   "journal": "Human reproduction update",
+   "year": "2024",
+   "doi": "10.1093/humupd/dmae020",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38942605/"
+  },
+  {
+   "pmid": "34590522",
+   "title": "Lenalidomide-induced arthritis: A case report and review of literature and pharmacovigilance databases.",
+   "abstract": "INTRODUCTION: Lenalidomide is an immunomodulatory agent with multiple mechanisms of action, and treatment with lenalidomide is associated with adverse events such as thrombosis and abdominal pain; nonetheless, other rarer adverse events do exist, with few knowledge from physicians and pharmacists. For such adverse events, pharmacovigilance databases are of great interest.\nCASE REPORT: A 71-year-old patient with no rheumatologic history, in complete remission of a mantle-cell lymphoma following rituximab, doxorubicin, vincristine, cyclophosphamide, and prednisone induction, received a maintenance treatment with rituximab and lenalidomide. After each course of lenalidomide and with no other new medication, the patient presented with fever and high inflammatory markers level, and a scapular-belt arthritis.\nMANAGEMENT AND OUTCOME: The patient was managed with non-steroidal anti-inflammatory drugs and colchicine, with symptomatology and inflammation improvement. After discontinuation of lenalidomide, he had no arthritis relapse; it was then concluded that the patient had a lenalidomide-induced arthritis. We interrogated the national and international (VigiBase®) pharmacovigilance databases and found that arthritis in the context of lenalidomide exposure is a rare finding, with only three reported cases in France; 0.13% of adverse events reported with lenalidomide in the international database VigiBase® were arthritis.\nDISCUSSION: Our case then reports an uncommon finding, of which both pharmacists and physicians should be aware due to the wide and increasing use of lenalidomide.",
+   "journal": "Journal of oncology pharmacy practice : official publication of the International Society of Oncology Pharmacy Practitioners",
+   "year": "2022",
+   "doi": "10.1177/10781552211038001",
+   "publication_types": [
+    "Case Reports",
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34590522/"
+  },
+  {
+   "pmid": "35628334",
+   "title": "Neurotoxicity Associated with Treatment of Acute Lymphoblastic Leukemia Chemotherapy and Immunotherapy.",
+   "abstract": "Immunotherapy is a milestone in the treatment of poor-prognosis pediatric acute lymphoblastic leukemia (ALL) and is expected to improve treatment outcomes and reduce doses of conventional chemotherapy without compromising the effectiveness of the therapy. However, both chemotherapy and immunotherapy cause side effects, including neurological ones. Acute neurological complications occur in 3.6-11% of children treated for ALL. The most neurotoxical chemotherapeutics are L-asparaginase (L-ASP), methotrexate (MTX), vincristine (VCR), and nelarabine (Ara-G). Neurotoxicity associated with methotrexate (MTX-NT) occurs in 3-7% of children treated for ALL and is characterized by seizures, stroke-like symptoms, speech disturbances, and encephalopathy. Recent studies indicate that specific polymorphisms in genes related to neurogenesis may have a predisposition to MTX toxicity. One of the most common complications associated with CAR T-cell therapy is immune effector cell-associated neurotoxicity syndrome (ICANS). Mechanisms of neurotoxicity in CAR T-cell therapy are still unknown and may be due to disruption of the blood-brain barrier and the effects of elevated cytokine levels on the central nervous system (CNS). In this review, we present an analysis of the current knowledge on the mechanisms of neurotoxicity of standard chemotherapy and the targeted therapy in children with ALL.",
+   "journal": "International journal of molecular sciences",
+   "year": "2022",
+   "doi": "10.3390/ijms23105515",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35628334/"
+  }
+ ]
+}

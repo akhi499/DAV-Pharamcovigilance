@@ -1,0 +1,28 @@
+{
+ "drug": "ADAPALENE",
+ "status": "ok",
+ "fetched_at": "2026-10-20T05:20:00+00:00",
+ "set_id": "7fb758ce-4f15-4130-8612-9113a764b5cd",
+ "spl_id": "be700323-f4e6-4b29-99f8-b07264a14bbd",
+ "spl_version": "11",
+ "effective_time": "20250825",
+ "brand_names": [
+  "Adapalene"
+ ],
+ "generic_names": [
+  "ADAPALENE"
+ ],
+ "manufacturer": "CVS Pharmacy",
+ "route": [
+  "TOPICAL"
+ ],
+ "dailymed_title": "ADAPALENE GEL [CVS PHARMACY]",
+ "dailymed_published": "Aug 27, 2025",
+ "dailymed_spl_version": 11,
+ "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7fb758ce-4f15-4130-8612-9113a764b5cd",
+ "api_url": "https://api.fda.gov/drug/label.json?search=set_id:%227fb758ce-4f15-4130-8612-9113a764b5cd%22",
+ "sections": {
+  "warnings": "Warnings For external use only Do not use on damaged skin (cuts, abrasions eczema, sunburn if you are allergic to adapalene or any of the ingredients in this product Pregnancy/Breastfeeding, ask a doctor before use. When using this product limit sun exposure, including light from tanning beds, and use sunscreen when going outdoors. do not wax to remove hair in areas where the product has been applied during the early weeks of use, your acne may appear to worsen before it improves (this is normal); continue using as directed, unless you get irritation that become severe irritation (redness, itching, dryness, burning) is more likely to occur in the first few weeks of use if using more than one topical acne medication at a time but irritation usually lessens with continued use of this product it may take up to 3 months of once daily use to see result avoid product contact eyes, lips, and month. If contact occurs immediately flush the area with water. wash hands after use Stop use and ask a doctor if you become pregnant, or planning to become pregnant while using this product you have symptoms of an allergic reaction (such as itching, rash, hives, swelling of the lips, eyelids, and shortness of breath) irritation become severe you see no improvement after 3 months of once daily use Keep out of reach of children. If swallowed, get medical help or contact a Poison Control Center (1-800-222-1222) right away.",
+  "indications_and_usage": "Use For the treatment of acne"
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "drug": "HUMAN IMMUNOGLOBULIN G",
+ "status": "ok",
+ "query": "\"human immunoglobulin g\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T04:59:10+00:00",
+ "records": [
+  {
+   "pmid": "37081241",
+   "title": "Eftrenonacog Alfa: A Review in Haemophilia B.",
+   "abstract": "Eftrenonacog alfa (Alprolix®) is an extended half-life recombinant factor IX (rFIX)-Fc fusion protein (hereafter referred to as rFIXFc). Administered as an intravenous bolus, it is approved for prophylactic use and the treatment of bleeding in patients with haemophilia B in various countries worldwide, including those of the EU, as well as the USA. In multinational, phase III trials, rFIXFc was effective for the prophylaxis, perioperative management or on-demand treatment of bleeding in male patients with severe haemophilia B regardless of age and irrespective of whether or not they had been previously treated with FIX replacement products. Prophylactic efficacy was maintained over the longer term (up to 5 years) in previously treated patients. rFIXFc effectiveness in the real-world setting is supported by results of prospective studies, as well as the outcomes of several retrospective trials. rFIXFc was well tolerated in clinical trials in previously treated and untreated children, adolescents and/or adults with severe haemophilia B. Thus, rFIXFc continues to represent a useful treatment option among the haemophilia B patient population.",
+   "journal": "Drugs",
+   "year": "2023",
+   "doi": "10.1007/s40265-023-01868-7",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37081241/"
+  },
+  {
+   "pmid": "34511011",
+   "title": "Safety evaluation of ustekinumab for moderate-to-severe ulcerative colitis.",
+   "abstract": "INTRODUCTION: Ustekinumab is a human IgG1 kappa monoclonal antibody that targets the p40 subunit of interleukin (IL)-12 and IL-23 and blocks the binding of these cytokines to the IL-12Rβ1 chain of their receptors. Ustekinumab is approved for treating moderate-to-severe ulcerative colitis (UC).\nAREAS COVERED: We reviewed the mechanism of action, pharmacokinetics, efficacy, and safety of ustekinumab. Future challenges for optimizing UC treatment with ustekinumab are discussed.\nEXPERT OPINION: Ustekinumab has favorable clinical efficacy and safety profiles for moderately-to-severely active UC. Ustekinumab is the first biologic for targeting IL-12/IL-23 pathways. Therefore, ustekinumab can be a therapeutic option following the failure of other biologics, including anti-tumor necrosis factor-α antagonists and anti-α4ß7 integrin antagonists. However, the positioning of ustekinumab in the therapeutic strategy for UC remains unclear. The efficacy of combinations of ustekinumab and immunomodulators over ustekinumab monotherapy has not been supported in studies. Ustekinumab is a human immunoglobulin G monoclonal antibody with low immunogenicity. Therefore, ustekinumab monotherapy, which should be safe, could be sufficient for treating UC. Further studies are required to understand the efficacy and safety of ustekinumab in patients with UC, particularly in special situations, and to optimize UC treatment with ustekinumab.",
+   "journal": "Expert opinion on drug safety",
+   "year": "2022",
+   "doi": "10.1080/14740338.2021.1980536",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34511011/"
+  }
+ ]
+}

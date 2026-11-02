@@ -1,0 +1,66 @@
+{
+ "drug": "EMPAGLIFLOZIN",
+ "status": "ok",
+ "query": "\"empagliflozin\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:20:28+00:00",
+ "records": [
+  {
+   "pmid": "32877652",
+   "title": "SGLT2 inhibitors in patients with heart failure with reduced ejection fraction: a meta-analysis of the EMPEROR-Reduced and DAPA-HF trials.",
+   "abstract": "BACKGROUND: Both DAPA-HF (assessing dapagliflozin) and EMPEROR-Reduced (assessing empagliflozin) trials showed that sodium-glucose co-transporter-2 (SGLT2) inhibition reduced the combined risk of cardiovascular death or hospitalisation for heart failure in patients with heart failure with reduced ejection fraction (HFrEF) with or without diabetes. However, neither trial was powered to assess effects on cardiovascular death or all-cause death or to characterise effects in clinically important subgroups. Using study-level published data from DAPA-HF and patient-level data from EMPEROR-Reduced, we aimed to estimate the effect of SGLT2 inhibition on fatal and non-fatal heart failure events and renal outcomes in all randomly assigned patients with HFrEF and in relevant subgroups from DAPA-HF and EMPEROR-Reduced trials.\nMETHODS: We did a prespecified meta-analysis of the two single large-scale trials assessing the effects of SGLT2 inhibitors on cardiovascular outcomes in patients with HFrEF with or without diabetes: DAPA-HF (assessing dapagliflozin) and EMPEROR-Reduced (assessing empagliflozin). The primary endpoint was time to all-cause death. Additionally, we assessed the effects of treatment in prespecified subgroups on the combined risk of cardiovascular death or hospitalisation for heart failure. These subgroups were based on type 2 diabetes status, age, sex, angiotensin receptor neprilysin inhibitor (ARNI) treatment, New York Heart Association (NYHA) functional class, race, history of hospitalisation for heart failure, estimated glomerular filtration rate (eGFR), body-mass index, and region (post-hoc). We used hazard ratios (HRs) derived from Cox proportional hazard models for time-to-first event endpoints and Cochran's Q test for treatment interactions; the analysis of recurrent events was based on rate ratios derived from the Lin-Wei-Yang-Ying model.\nFINDINGS: Among 8474 patients combined from both trials, the estimated treatment effect was a 13% reduction in all-cause death (pooled HR 0·87, 95% CI 0·77-0·98; p=0·018) and 14% reduction in cardiovascular death (0·86, 0·76-0·98; p=0·027). SGLT2 inhibition was accompanied by a 26% relative reduction in the combined risk of cardiovascular death or first hospitalisation for heart failure (0·74, 0·68-0·82; p<0·0001), and by a 25% decrease in the composite of recurrent hospitalisations for heart failure or cardiovascular death (0·75, 0·68-0·84; p<0·0001). The risk of the composite renal endpoint was also reduced (0·62, 0·43-0·90; p=0·013). All tests for heterogeneity of effect size between trials were not significant. The pooled treatment effects showed consistent benefits for subgroups based on age, sex, diabetes, treatment with an ARNI and baseline eGFR, but suggested treatment-by-subgroup interactions for subgroups based on NYHA functional class and race.\nINTERPRETATION: The effects of empagliflozin and dapagliflozin on hospitalisations for heart failure were consistent in the two independent trials and suggest that these agents also improve renal outcomes and reduce all-cause and cardiovascular death in patients with HFrEF.\nFUNDING: Boehringer Ingelheim.",
+   "journal": "Lancet (London, England)",
+   "year": "2020",
+   "doi": "10.1016/S0140-6736(20)31824-9",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32877652/"
+  },
+  {
+   "pmid": "32598218",
+   "title": "Comparative Effectiveness of Glucose-Lowering Drugs for Type 2 Diabetes: A Systematic Review and Network Meta-analysis.",
+   "abstract": "BACKGROUND: Several pharmacologic options for type 2 diabetes are available.\nPURPOSE: To compare benefits and harms of glucose-lowering drugs in adults with type 2 diabetes.\nDATA SOURCES: Several databases from inception through 18 December 2019 and ClinicalTrials.gov on 10 April 2020.\nSTUDY SELECTION: English-language randomized trials that had at least 24 weeks of intervention and assessed the effects of glucose-lowering drugs on mortality, glycemic, and vascular outcomes.\nDATA EXTRACTION: Pairs of reviewers extracted data and appraised risk of bias.\nDATA SYNTHESIS: 453 trials assessing 21 antidiabetic interventions from 9 drug classes were included. Interventions included monotherapies (134 trials), add-on to metformin-based therapies (296 trials), and monotherapies versus add-on to metformin therapies (23 trials). There were no differences between treatments in drug-naive patients at low cardiovascular risk. Insulin regimens and specific glucagon-like peptide-1 receptor agonists (GLP-1 RAs) added to metformin-based background therapy produced the greatest reductions in hemoglobin A1c level. In patients at low cardiovascular risk receiving metformin-based background treatment (298 trials), there were no clinically meaningful differences between treatments for mortality and vascular outcomes. In patients at increased cardiovascular risk receiving metformin-based background treatment (21 trials), oral semaglutide, empagliflozin, liraglutide, extended-release exenatide, and dapagliflozin reduced all-cause mortality. Oral semaglutide, empagliflozin, and liraglutide also reduced cardiovascular death. Odds of stroke were lower with subcutaneous semaglutide and dulaglutide. Sodium-glucose cotransporter-2 (SGLT-2) inhibitors reduced heart failure hospitalization and end-stage renal disease. Subcutaneous semaglutide and canagliflozin increased diabetic retinopathy and amputation, respectively.\nLIMITATION: Inconsistent definitions of cardiovascular risk and low-level confidence in some estimates for patients at low cardiovascular risk.\nCONCLUSION: In diabetic patients at low cardiovascular risk, no treatment differs from placebo for vascular outcomes. In patients at increased cardiovascular risk receiving metformin-based background therapy, specific GLP-1 RAs and SGLT-2 inhibitors have a favorable effect on certain cardiovascular outcomes.\nPRIMARY FUNDING SOURCE: European Foundation for the Study of Diabetes, supported by an unrestricted educational grant from AstraZeneca. (PROSPERO: CRD42019122043).",
+   "journal": "Annals of internal medicine",
+   "year": "2020",
+   "doi": "10.7326/M20-0864",
+   "publication_types": [
+    "Comparative Study",
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Systematic Review",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32598218/"
+  },
+  {
+   "pmid": "34248838",
+   "title": "Efficacy of Semaglutide in a Subcutaneous and an Oral Formulation.",
+   "abstract": "Despite the benefits of early and effective glycemic control in the management of type 2 diabetes (T2D), achieving glycated hemoglobin (HbA1c) targets is challenging in some patients. Glucagon-like peptide-1 receptor agonists (GLP-1RAs) provide effective reductions in HbA1c and body weight. Semaglutide is the only GLP-1RA that is available in both an injectable and oral formulation. The efficacy of once-weekly subcutaneous semaglutide and once-daily oral semaglutide has been investigated in the global SUSTAIN and PIONEER phase III clinical trial programs in a range of clinical settings, including early T2D managed with diet and exercise only, more established T2D uncontrolled on one to three oral antidiabetic drugs, and advanced disease treated with insulin. Across the SUSTAIN program, once-weekly subcutaneous semaglutide 1.0 mg reduced HbA1c by 1.5-1.8% after 30-56 weeks, which was significantly more than sitagliptin, liraglutide, exenatide extended release, dulaglutide, canagliflozin, or insulin glargine. Across the PIONEER program, once-daily oral semaglutide 14 mg reduced HbA1c by 1.0-1.4%, significantly more than sitagliptin or empagliflozin, and to a similar extent as liraglutide after 26 weeks. In addition, subcutaneous semaglutide reduced body weight significantly more than all active comparators tested, while oral semaglutide reduced body weight more than sitagliptin and liraglutide, and to a similar extent as empagliflozin. Neither formulation of semaglutide has been associated with an increased risk of hypoglycemia and both improve various measures of health-related quality of life. Semaglutide offers the benefits of a highly effective GLP-1RA in both injectable and oral formulations. Selection of the most appropriate formulation can be made on an individual basis to best suit the patient's preferences and needs.",
+   "journal": "Frontiers in endocrinology",
+   "year": "2021",
+   "doi": "10.3389/fendo.2021.645617",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34248838/"
+  },
+  {
+   "pmid": "39400108",
+   "title": "Empagliflozin and other SGLT2 inhibitors in patients with heart failure and preserved ejection fraction: a systematic review and meta-analysis.",
+   "abstract": "BACKGROUND: Heart failure (HF) is a highly prevalent disease, among the primary factors contributing to morbidity and death. One of its types is heart failure with preserved ejection fraction (HFpEF) comprising 40%-50% of newly diagnosed HF cases. Despite the high prevalence of HFpEF, there is still a lack of knowledge regarding the best drugs and treatment approaches to be used. However, the sodium-glucose co-transporter 2 (SGLT2) inhibitors could be a promising treatment.\nOBJECTIVES: To examine SGLT2 inhibitors' effect on hospitalization, cardiovascular death, and estimated glomerular filtration rate (eGFR) in HFpEF patients.\nSEARCH METHODS: We conducted searches for randomized controlled trials (RCTs) in PubMed, Embase, Scopus, and Web of Science up to July 2024.\nSELECTION CRITERIA: We chose RCTs that examined the effects of SGLT2 inhibitors and placebo in individuals with higher than 40% ejection fraction (HFpEF).\nDATA COLLECTION AND ANALYSIS: The methodology for the systematic review and meta-analysis was in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analysis.\nMAIN RESULTS: We included 8 studies with 16,509 participants. Drugs examined in our paper included empagliflozin, dapagliflozin, sotogliflozin, and ertugliflozin. Various outcomes were analyzed in different papers. However, different SGLT2 inhibitors lead to a decreased risk of cardiovascular hospitalization and kidney injury. Our meta-analysis showed a decreased risk of cardiovascular hospitalization but not death due to cardiovascular causes or other causes. These results were regardless of baseline status of eGFR, systolic blood pressure, atrial fibrillation or flutter, diabetes mellitus, sex, body mass index, and nt-proBNP. The included studies were of moderate to high quality.\nCONCLUSION: For individuals with HFpEF, SGLT2 inhibitors have been proven to be a safe and effective medication. However, more studies are needed for longer durations, reporting adverse events, effects on exercise tolerance, and other secondary outcomes.",
+   "journal": "Therapeutic advances in cardiovascular disease",
+   "year": "2024",
+   "doi": "10.1177/17539447241289067",
+   "publication_types": [
+    "Systematic Review",
+    "Journal Article",
+    "Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39400108/"
+  }
+ ]
+}

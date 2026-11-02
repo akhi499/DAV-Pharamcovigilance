@@ -1,0 +1,62 @@
+{
+ "drug": "DOCETAXEL",
+ "status": "ok",
+ "query": "\"docetaxel\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:39+00:00",
+ "records": [
+  {
+   "pmid": "27550571",
+   "title": "Dermatological adverse events with taxane chemotherapy.",
+   "abstract": "Taxanes (docetaxel and paclitaxel) are among the most commonly prescribed anticancer drugs approved for the treatment of metastatic or locally advanced breast, non-small cell lung, prostate, gastric, head and neck, and ovarian cancers, as well as in the adjuvant setting for operable node-positive breast cancers. Although the true incidence of dermatological adverse events (AEs) in patients receiving taxanes is not known, and has never been prospectively analysed, they clearly represent one of the major AEs associated with these agents. With an increase in the occurrence of cutaneous AEs during treatment with novel targeted and immunological therapies when used in combination with taxanes, a thorough understanding of reactions attributable to this class is imperative. Moreover, identification and management of dermatological AEs is critical for maintaining the quality of life in cancer patients and for minimizing dose modifications of their antineoplastic regimen. This analysis represents a systematic review of the dermatological conditions reported with the use of these drugs, complemented by experience at comprehensive cancer centres. The conditions reported herein include skin, hair, and nail toxicities. Lastly, we describe the dermatological data available for the new, recently FDA-and EMA- approved, solvent-free nab-paclitaxel.",
+   "journal": "European journal of dermatology : EJD",
+   "year": "2016",
+   "doi": "10.1684/ejd.2016.2833",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27550571/"
+  },
+  {
+   "pmid": "38942605",
+   "title": "Ovarian microenvironment: challenges and opportunities in protecting against chemotherapy-associated ovarian damage.",
+   "abstract": "BACKGROUND: Chemotherapy-associated ovarian damage (CAOD) is one of the most feared short- and long-term side effects of anticancer treatment in premenopausal women. Accumulating detailed data show that different chemotherapy regimens can lead to disturbance of ovarian hormone levels, reduced or lost fertility, and an increased risk of early menopause. Previous studies have often focused on the direct effects of chemotherapeutic drugs on ovarian follicles, such as direct DNA damage-mediated apoptotic death and primordial follicle burnout. Emerging evidence has revealed an imbalance in the ovarian microenvironment during chemotherapy. The ovarian microenvironment provides nutritional support and transportation of signals that stimulate the growth and development of follicles, ovulation, and corpus luteum formation. The close interaction between the ovarian microenvironment and follicles can determine ovarian function. Therefore, designing novel and precise strategies to manipulate the ovarian microenvironment may be a new strategy to protect ovarian function during chemotherapy.\nOBJECTIVE AND RATIONALE: This review details the changes that occur in the ovarian microenvironment during chemotherapy and emphasizes the importance of developing new therapeutics that protect ovarian function by targeting the ovarian microenvironment during chemotherapy.\nSEARCH METHODS: A comprehensive review of the literature was performed by searching PubMed up to April 2024. Search terms included 'ovarian microenvironment' (ovarian extracellular matrix, ovarian stromal cells, ovarian interstitial, ovarian blood vessels, ovarian lymphatic vessels, ovarian macrophages, ovarian lymphocytes, ovarian immune cytokines, ovarian oxidative stress, ovarian reactive oxygen species, ovarian senescence cells, ovarian senescence-associated secretory phenotypes, ovarian oogonial stem cells, ovarian stem cells), terms related to ovarian function (reproductive health, fertility, infertility, fecundity, ovarian reserve, ovarian function, menopause, decreased ovarian reserve, premature ovarian insufficiency/failure), and terms related to chemotherapy (cyclophosphamide, lfosfamide, chlormethine, chlorambucil, busulfan, melphalan, procarbazine, cisplatin, doxorubicin, carboplatin, taxane, paclitaxel, docetaxel, 5-fluorouraci, vincristine, methotrexate, dactinomycin, bleomycin, mercaptopurine).\nOUTCOMES: The ovarian microenvironment shows great changes during chemotherapy, inducing extracellular matrix deposition and stromal fibrosis, angiogenesis disorders, immune microenvironment disturbance, oxidative stress imbalances, ovarian stem cell exhaustion, and cell senescence, thereby lowering the quantity and quality of ovarian follicles. Several methods targeting the ovarian microenvironment have been adopted to prevent and treat CAOD, such as stem cell therapy and the use of free radical scavengers, senolytherapies, immunomodulators, and proangiogenic factors.\nWIDER IMPLICATIONS: Ovarian function is determined by its 'seeds' (follicles) and 'soil' (ovarian microenvironment). The ovarian microenvironment has been reported to play a vital role in CAOD and targeting the ovarian microenvironment may present potential therapeutic approaches for CAOD. However, the relation between the ovarian microenvironment, its regulatory networks, and CAOD needs to be further studied. A better understanding of these issues could be helpful in explaining the pathogenesis of CAOD and creating innovative strategies for counteracting the effects exerted on ovarian function. Our aim is that this narrative review of CAOD will stimulate more research in this important field.\nREGISTRATION NUMBER: Not applicable.",
+   "journal": "Human reproduction update",
+   "year": "2024",
+   "doi": "10.1093/humupd/dmae020",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38942605/"
+  },
+  {
+   "pmid": "38913213",
+   "title": "Metastatic Castration-Resistant Prostate Cancer: Advances in Treatment and Symptom Management.",
+   "abstract": "The management of metastatic castrate-resistant prostate cancer (mCRPC) has evolved in the past decade due to substantial advances in understanding the genomic landscape and biology underpinning this form of prostate cancer. The implementation of various therapeutic agents has improved overall survival but despite the promising advances in therapeutic options, mCRPC remains incurable. The focus of treatment should be not only to improve survival but also to preserve the patient's quality of life (QoL) and ameliorate cancer-related symptoms such as pain. The choice and sequence of therapy for mCRPC patients are complex and influenced by various factors, such as side effects, disease burden, treatment history, comorbidities, patient preference and, more recently, the presence of actionable genomic alterations or biomarkers. Docetaxel is the first-line treatment for chemo-naïve patients with good performance status and those who have yet to progress on docetaxel in the castration-sensitive setting. Novel androgen agents (NHAs), such as abiraterone and enzalutamide, are effective treatment options that are utilized as second-line options. These medications can be considered upfront in frail patients or patients who are NHA naïve. Current guidelines recommend genetic testing in mCRPC for mutations in DNA repair deficiency genes to inform treatment decisions, as for example in breast cancer gene mutation testing. Other potential biomarkers being investigated include phosphatase and tensin homologues and homologous recombination repair genes. Despite a growing number of studies incorporating biomarkers in their trial designs, to date, only olaparib in the PROFOUND study and lutetium-177 in the VISION trial have improved survival. This is an unmet need, and future trials should focus on biomarker-guided treatment strategies. The advent of novel noncytotoxic agents has enhanced targeted drug delivery and improved treatment responses with favourable toxicity profiling. Trials should continue to incorporate and report health-related QoL scores and functional assessments into their trial designs.",
+   "journal": "Current treatment options in oncology",
+   "year": "2024",
+   "doi": "10.1007/s11864-024-01215-2",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38913213/"
+  },
+  {
+   "pmid": "36862387",
+   "title": "First-line Systemic Treatment Options for Metastatic Castration-Sensitive Prostate Cancer: A Living Systematic Review and Network Meta-analysis.",
+   "abstract": "IMPORTANCE: The effectiveness of triplet therapy compared with androgen pathway inhibitor (API) doublets in a heterogeneous patient population with metastatic castration-sensitive prostate cancer (mCSPC) is unknown.\nOBJECTIVE: To assess the comparative effectiveness of contemporary systemic treatment options for patients with mCSPC across clinically relevant subgroups.\nDATA SOURCES: For this systematic review and meta-analysis, Ovid MEDLINE and Embase were searched from each database's inception (MEDLINE, 1946; Embase, 1974) through June 16, 2021. Subsequently, a \"living\" auto search was created with weekly updates to identify new evidence as it became available.\nSTUDY SELECTION: Phase 3 randomized clinical trials (RCTs) assessing first-line treatment options for mCSPC.\nDATA EXTRACTION AND SYNTHESIS: Two independent reviewers extracted data from eligible RCTs. The comparative effectiveness of different treatment options was assessed with a fixed-effect network meta-analysis. Data were analyzed on July 10, 2022.\nMAIN OUTCOMES AND MEASURES: Outcomes of interest included overall survival (OS), progression-free survival (PFS), grade 3 or higher adverse events, and health-related quality of life.\nRESULTS: This report included 10 RCTs with 11 043 patients and 9 unique treatment groups. Median ages of the included population ranged from 63 to 70 years. Current evidence for the overall population suggests that the darolutamide (DARO) triplet (DARO + docetaxel [D] + androgen deprivation therapy [ADT]; hazard ratio [HR], 0.68; 95% CI, 0.57-0.81), as well as the abiraterone (AAP) triplet (AAP + D + ADT; HR, 0.75; 95% CI, 0.59-0.95), are associated with improved OS compared with D doublet (D + ADT) but not compared with API doublets. Among patients with high-volume disease, AAP + D + ADT may improve OS compared with D + ADT (HR, 0.72; 95% CI, 0.55-0.95) but not compared with AAP + ADT, enzalutamide (E) + ADT, and apalutamide (APA) + ADT. For patients with low-volume disease, AAP + D + ADT may not improve OS compared with APA + ADT, AAP + ADT, E + ADT, and D + ADT.\nCONCLUSIONS AND RELEVANCE: The potential benefit observed with triplet therapy must be interpreted with careful accounting for the volume of disease and the choice of doublet comparisons used in the clinical trials. These findings suggest an equipoise to how triplet regimens compare with API doublet combinations and provide direction for future clinical trials.",
+   "journal": "JAMA oncology",
+   "year": "2023",
+   "doi": "10.1001/jamaoncol.2022.7762",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36862387/"
+  }
+ ]
+}

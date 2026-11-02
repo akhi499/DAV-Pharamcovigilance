@@ -1,0 +1,60 @@
+{
+ "drug": "SARILUMAB",
+ "status": "ok",
+ "query": "\"sarilumab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:17:18+00:00",
+ "records": [
+  {
+   "pmid": "29771256",
+   "title": "Rheumatoid arthritis: new monoclonal antibodies.",
+   "abstract": "Rheumatoid arthritis (RA) is an immune-mediated condition which primarily affects the joints, but with critical extra-articular manifestations, including a significantly increased cardiovascular risk. Patients suffering from RA can develop deforming and disabling alterations of the affected joints. Their quality of life can be substantially affected, and their life expectancy is shorter compared to that of healthy subjects. Fortunately, several pathogenic mechanisms characterizing RA have been identified, leading to the development of targeted drugs. Inhibitors of tumor necrosis factor (TNF) were the first developed among biological medications and they dramatically changed the therapeutic perspectives of RA patients. Now, 20 years after the licensing of etanercept (the first anti-TNF drug), more than 10 different biological agents have been approved by the U.S. Food and Drug Administration (FDA). Additionally, more and more drugs are under investigation in clinical trials. This review will focus on the more recently approved monoclonal antibodies and the more promising antibodies under investigation.",
+   "journal": "Drugs of today (Barcelona, Spain : 1998)",
+   "year": "2018",
+   "doi": "10.1358/dot.2018.54.3.2788019",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29771256/"
+  },
+  {
+   "pmid": "28579757",
+   "title": "Profile of sarilumab and its potential in the treatment of rheumatoid arthritis.",
+   "abstract": "In recent years the use of biotechnological agents has drastically revolutionized the therapeutic approach and the progression of rheumatoid arthritis (RA). In particular, interleukin-6 (IL-6) has been demonstrated as a pivotal cytokine in the pathogenesis of the disease by contributing to both the innate and the adaptive immune system perturbation, and to the production of acute-phase proteins involved in the systemic expression of the disorder. The first marketed IL-6 blocker was tocilizumab, a humanized anti-IL-6 receptor (anti-IL-6R) monoclonal antibody. The successful use of tocilizumab in RA has encouraged the development of other biologic agents specifically targeting the IL-6 pathway, either directed against IL-6 cytokine (sirukumab, olokizumab, and clazakizumab) or IL-6 receptor (sarilumab). One Phase II and six Phase III randomized controlled trials demonstrated a broad efficacy of sarilumab across all RA patient subtypes, ranging from methotrexate (MTX) to tumor necrosis factor inhibitor insufficient responders. In particular, sarilumab as monotherapy demonstrated a clear head-to-head superiority over adalimumab in MTX-intolerant subjects. In addition, compared with tocilizumab, sarilumab showed a similar safety profile with significantly higher affinity and longer half-life, responsible for a reduction of the frequency of administration (every other week instead weekly). All these aspects may be important in defining the strategy for positioning sarilumab in the treatment algorithm of RA. Indeed, observational data coming from post-marketing real-life studies may provide crucial additional information for better understanding the role of sarilumab in the management of the disease. This review summarizes both the biological role of IL-6 in RA and the clinical data available on sarilumab as an alternative therapeutic option in RA patients.",
+   "journal": "Drug design, development and therapy",
+   "year": "2017",
+   "doi": "10.2147/DDDT.S100302",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28579757/"
+  },
+  {
+   "pmid": "38621248",
+   "title": "Rheumatology: What You May Have Missed in 2023.",
+   "abstract": "Many patients with rheumatologic conditions receive care from physicians other than rheumatologists. Here we note key findings from 6 studies in rheumatology published in 2023 that offer valuable insights for internal medicine specialists and subspecialists outside of rheumatology. The first study investigated the effect of low-dose glucocorticoids on patients with rheumatoid arthritis (RA) over 2 years and challenged existing perceptions about the risks of glucocorticoids in this setting. The second study focused on the updated guideline for preventing and treating glucocorticoid-induced osteoporosis. With the chronic and widespread use of glucocorticoids, the American College of Rheumatology emphasized the importance of assessing fracture risk and initiating pharmacologic therapy when appropriate. The third study explored the potential use of methotrexate in treating inflammatory hand osteoarthritis, suggesting a novel approach to managing this challenging and common condition. The results of the fourth article we highlight suggest that sarilumab has promise as an adjunct treatment of polymyalgia rheumatica relapse during glucocorticoid dosage tapering. The fifth study evaluated sublingual cyclobenzaprine for fibromyalgia treatment, noting both potential benefits and risks. Finally, the sixth article is a systematic review and meta-analysis that assessed the therapeutic equivalence of biosimilars and reference biologics in the treatment of patients with RA. Knowledge of this recent literature will be useful to clinicians regardless of specialty who care for patients with these commonly encountered conditions.",
+   "journal": "Annals of internal medicine",
+   "year": "2024",
+   "doi": "10.7326/M24-0678",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38621248/"
+  },
+  {
+   "pmid": "29931592",
+   "title": "Sarilumab: A Review in Moderate to Severe Rheumatoid Arthritis.",
+   "abstract": "Sarilumab (Kevzara®), a monoclonal antibody against the interleukin-6 (IL-6) receptor, is approved in various countries, including the USA, those of the EU, and Japan, as a subcutaneous treatment administered every 2 weeks for moderately to severely active rheumatoid arthritis (RA) in adults who have responded inadequately to, or are intolerant of, one or more DMARDs. In placebo-controlled trials, sarilumab improved the signs and symptoms of RA, as well as physical function and health-related quality-of-life (HR-QOL), when administered in combination with conventional synthetic DMARD (csDMARD) therapy in patients with an inadequate response to methotrexate or an inadequate response to, or intolerance of, at least one tumour necrosis factor (TNF) inhibitor; benefits were sustained over ≤ 3 years' therapy in an open-label extension. Sarilumab plus methotrexate inhibited the progression of structural damage in patients who had inadequately responded to methotrexate. As monotherapy in patients who were inappropriate for continued treatment with methotrexate, sarilumab was more effective than adalimumab in reducing the signs and symptoms of RA and improving physical function. The safety profile of sarilumab was consistent with the anticipated effects of IL-6 inhibition. In the minority of patients who tested positive for anti-drug antibodies (ADAs), ADAs did not impact efficacy or increase adverse reactions. Thus, sarilumab extends the available treatment options for adults with moderately to severely active RA who have responded inadequately to, or are intolerant of, at least one DMARD.",
+   "journal": "Drugs",
+   "year": "2018",
+   "doi": "10.1007/s40265-018-0929-z",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29931592/"
+  }
+ ]
+}

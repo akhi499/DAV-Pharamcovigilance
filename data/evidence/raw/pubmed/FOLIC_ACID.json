@@ -1,0 +1,64 @@
+{
+ "drug": "FOLIC ACID",
+ "status": "ok",
+ "query": "\"folic acid\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:03+00:00",
+ "records": [
+  {
+   "pmid": "35133310",
+   "title": "Epilepsy and Pregnancy.",
+   "abstract": "PURPOSE OF REVIEW: Seizure disorders are the most frequent major neurologic complication in pregnancy, affecting 0.3% to 0.8% of all gestations. Women of childbearing age with epilepsy require special care related to pregnancy. This article provides up-to-date information to guide practitioners in the management of epilepsy in pregnancy.\nRECENT FINDINGS: Ongoing multicenter pregnancy registries and studies continue to provide important information on issues related to pregnancy in women with epilepsy. Valproate poses a special risk for malformations and cognitive/behavioral impairments. A few antiseizure medications pose low risks (eg, lamotrigine, levetiracetam), but the risks for many antiseizure medications remain uncertain. Although pregnancy rates differ, a prospective study found no difference in fertility rates between women with epilepsy who were attempting to get pregnant and healthy controls. During pregnancy, folic acid supplementation is important, and a dose greater than 400 mcg/d during early pregnancy (ie, first 12 weeks) is associated with better neurodevelopmental outcome in children of women with epilepsy. Breastfeeding is not harmful and should be encouraged in women with epilepsy even when they are on antiseizure medication treatment.\nSUMMARY: Women with epilepsy should be counseled early and regularly about reproductive health. Practitioners should discuss the risks of various obstetric complications; potential anatomic teratogenicity and neurodevelopmental dysfunction related to fetal antiseizure medication exposure; and a plan of care during pregnancy, delivery, and postpartum. Women with epilepsy should also be reassured that the majority of pregnancies are uneventful.",
+   "journal": "Continuum (Minneapolis, Minn.)",
+   "year": "2022",
+   "doi": "10.1212/CON.0000000000001056",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35133310/"
+  },
+  {
+   "pmid": "36982523",
+   "title": "Drug-Induced Gingival Overgrowth-Molecular Aspects of Drug Actions.",
+   "abstract": "Drug-induced gingival overgrowth (DIGO) is one of the side effects produced by therapeutic agents, most commonly phenytoin, nifedipine and cyclosporin A. However, the precise mechanism of DIGO is not entirely understood. A literature search of the MEDLINE/PubMed databases was conducted to identify the mechanisms involved in DIGO. The available information suggests that the pathogenesis of DIGO is multifactorial, but common pathogenic sequelae of events emerge, i.e., sodium and calcium channel antagonism or disturbed intracellular handling of calcium, which finally lead to reductions in intracellular folic acid levels. Disturbed cellular functions, mainly in keratinocytes and fibroblasts, result in increased collagen and glycosaminoglycans accumulation in the extracellular matrix. Dysregulation of collagenase activity, as well as integrins and membrane receptors, are key mechanisms of reduced degradation or excessive synthesis of connective tissue components. This manuscript describes the cellular and molecular factors involved in the epithelial-mesenchymal transition and extracellular matrix remodeling triggered by agents producing DIGO.",
+   "journal": "International journal of molecular sciences",
+   "year": "2023",
+   "doi": "10.3390/ijms24065448",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36982523/"
+  },
+  {
+   "pmid": "26433846",
+   "title": "Methotrexate and Pralatrexate.",
+   "abstract": "This article reviews methotrexate and the more potent, related compound, pralatrexate, for the treatment of cutaneous T-cell lymphomas, including mycosis fungoides, Sézary syndrome, and CD30+ lymphoproliferative disorders. Although these folate antagonists are traditionally viewed as antiproliferative cell cycle inhibitors, it is recognized that they inhibit DNA methylation, providing a rationale for their use as epigenetic regulators and cell proliferation inhibitors. The underlying mechanisms are outlined, key supporting data presented, followed by brief mention of recent mathematical modeling supporting the general superiority of combination therapy. Several novel examples involving folate antagonists are proposed.",
+   "journal": "Dermatologic clinics",
+   "year": "2015",
+   "doi": "10.1016/j.det.2015.05.009",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26433846/"
+  },
+  {
+   "pmid": "26198451",
+   "title": "Daily oral iron supplementation during pregnancy.",
+   "abstract": "BACKGROUND: Iron and folic acid supplementation has been the preferred intervention to improve iron stores and prevent anaemia among pregnant women, and it is thought to improve other maternal and birth outcomes.\nOBJECTIVES: To assess the effects of daily oral iron supplements for pregnant women, either alone or in conjunction with folic acid, or with other vitamins and minerals as a public health intervention in antenatal care.\nSEARCH METHODS: We searched the Cochrane Pregnancy and Childbirth Group's Trials Register (10 January 2015). We also searched the WHO International Clinical Trials Registry Platform (ICTRP) (26 February 2015) and contacted relevant organisations for the identification of ongoing and unpublished studies (26 February 2015) .\nSELECTION CRITERIA: Randomised or quasi-randomised trials evaluating the effects of oral preventive supplementation with daily iron, iron + folic acid or iron + other vitamins and minerals during pregnancy.\nDATA COLLECTION AND ANALYSIS: We assessed the methodological quality of trials using standard Cochrane criteria. Two review authors independently assessed trial eligibility, extracted data and conducted checks for accuracy. We used the GRADE approach to assess the quality of the evidence for primary outcomes.We anticipated high heterogeneity among trials and we pooled trial results using a random-effects model and were cautious in our interpretation of the pooled results: the random-effects model gives the average treatment effect.\nMAIN RESULTS: We included 61 trials. Forty-four trials, involving 43,274 women, contributed data and compared the effects of daily oral supplements containing iron versus no iron or placebo.Preventive iron supplementation reduced maternal anaemia at term by 70% (risk ratio (RR) 0.30; 95% confidence interval (CI) 0.19 to 0.46, 14 trials, 2199 women, low quality evidence), iron-deficiency anaemia at term (RR 0.33; 95% CI 0.16 to 0.69, six trials, 1088 women), and iron deficiency at term by 57% (RR 0.43; 95% CI 0.27 to 0.66, seven trials, 1256 women, low quality evidence). There were no clear differences between groups for severe anaemia in the second or third trimester, or maternal infection during pregnancy (RR 0.22; 95% CI 0.01 to 3.20, nine trials, 2125 women, very low quality evidence; and, RR 1.21; 95% CI 0.33 to 4.46; one trial, 727 women, low quality evidence, respectively), or maternal mortality (RR 0.33; 95% CI 0.01 to 8.19, two trials, 12,560 women, very low quality evidence), or reporting of side effects (RR 1.29; 95% CI 0.83 to 2.02, 11 trials, 2423 women, very low quality evidence). Women receiving iron were on average more likely to have higher haemoglobin (Hb) concentrations at term and in the postpartum period, but were at increased risk of Hb concentrations greater than 130 g/L during pregnancy, and at term.Compared with controls, women taking iron supplements less frequently had low birthweight newborns (8.4% versus 10.3%, average RR 0.84; 95% CI 0.69 to 1.03, 11 trials, 17,613 women, low quality evidence), and preterm babies (RR 0.93; 95% CI 0.84 to 1.03, 13 trials, 19,286 women, moderate quality evidence). They appeared to also deliver slightly heavier babies (mean difference (MD) 23.75; 95% CI -3.02 to 50.51, 15 trials, 18,590 women, moderate quality evidence). None of these results were statistically significant. There were no clear differences between groups for neonatal death (RR 0.91; 95% CI 0.71 to 1.18, four trials, 16,603 infants, low quality evidence), or congenital anomalies (RR 0.88, 95% CI 0.58 to 1.33, four trials, 14,636 infants, low quality evidence).Twenty-three studies were conducted in countries that in 2011 had some malaria risk in parts of the country. In some of these countries/territories, malaria is present only in certain areas or up to a particular altitude. Only two of these studies reported malaria outcomes. There is no evidence that iron supplementation increases placental malaria. For some outcomes heterogeneity was higher than 50%.\nAUTHORS' CONCLUSIONS: Supplementation reduces the risk of maternal anaemia and iron deficiency in pregnancy but the positive effect on other maternal and infant outcomes is less clear. Implementation of iron supplementation recommendations may produce heterogeneous results depending on the populations' background risk for low birthweight and anaemia, as well as the level of adherence to the intervention.",
+   "journal": "The Cochrane database of systematic reviews",
+   "year": "2015",
+   "doi": "10.1002/14651858.CD004736.pub5",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Research Support, Non-U.S. Gov't",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26198451/"
+  }
+ ]
+}

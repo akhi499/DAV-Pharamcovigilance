@@ -1,0 +1,63 @@
+{
+ "drug": "ATEZOLIZUMAB",
+ "status": "ok",
+ "query": "\"atezolizumab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:57+00:00",
+ "records": [
+  {
+   "pmid": "40163214",
+   "title": "Small Cell Lung Cancer: A Review.",
+   "abstract": "IMPORTANCE: Small cell lung cancer (SCLC) is a high-grade neuroendocrine carcinoma with an incidence of 4.7 cases per 100 000 individuals in 2021 in the US and a 5-year overall survival of 12% to 30%.\nOBSERVATIONS: Cigarette smoking is the primary risk factor for development of SCLC, as 95% of patients diagnosed with SCLC have a history of tobacco use. Patients with SCLC may present with respiratory symptoms such as cough (40%), shortness of breath (34%), hemoptysis (10%), or metastases with corresponding local symptoms (30%) such as pleuritis or bone pain; approximately 60% of patients with SCLC may be asymptomatic at diagnosis. Chest imaging may demonstrate central hilar (85%) or mediastinal lymphadenopathy (75%). At diagnosis, approximately 15% of patients have brain metastases, which may present as headache or focal weakness. Diagnosis is confirmed by biopsy of a primary lung mass, thoracic lymph node, or metastatic lesion. Small cell lung cancer is classified into limited stage (LS-SCLC; 30%) vs extensive stage (ES-SCLC; 70%) based on whether the disease can be treated within a radiation field that is typically confined to 1 hemithorax but may include contralateral mediastinal and supraclavicular nodes. For patients with LS-SCLC, surgery or concurrent chemotherapy with platinum-etoposide and radiotherapy is potentially curative in 30% of patients. More recently, median survival for LS-SCLC has reached up to 55.9 months with the addition of durvalumab, an immunotherapy. First-line treatment for ES-SCLC is combined treatment with platinum-etoposide chemotherapy and immunotherapy with the programmed cell death 1 ligand 1 (PD-L1) inhibitors durvalumab or atezolizumab followed by maintenance immunotherapy until disease progression or toxicity. Although initial rates of tumor shrinkage are 60% to 70% with platinum-etoposide and immunotherapy treatment, the median overall survival of patients treated for ES-SCLC is approximately 12 to 13 months, with 60% of patients relapsing within 3 months. Second-line therapy for patients with ES-SCLC includes the DNA-alkylating agent lurbinectedin (35% overall response rate; median progression-free survival, 3.7 months) and a bispecific T-cell engager against delta-like ligand 3, tarlatamab (40% overall response rate; median progression-free survival, 4.9 months).\nCONCLUSIONS AND RELEVANCE: Small cell lung cancer is a smoking-related malignancy that presents at an advanced stage in 70% of patients. Three-year overall survival is approximately 56.5% for LS-SCLC and 17.6% for ES-SCLC. First-line treatment for LS-SCLC is radiation targeting the tumor given concurrently with chemotherapy and followed by consolidation immunotherapy. For ES-SCLC, first-line treatment is chemotherapy and immunotherapy followed by maintenance immunotherapy.",
+   "journal": "JAMA",
+   "year": "2025",
+   "doi": "10.1001/jama.2025.0560",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40163214/"
+  },
+  {
+   "pmid": "39447408",
+   "title": "A comprehensive review of immune checkpoint inhibitors for cancer treatment.",
+   "abstract": "Immunology-based therapies are emerging as an effective cancer treatment, using the body's immune system to target tumors. Immune checkpoints, which regulate immune responses to prevent tissue damage and autoimmunity, are often exploited by cancer cells to avoid destruction. The discovery of checkpoint proteins like PD-1/PD-L1 and CTLA-4 was pivotal in developing cancer immunotherapy. Immune checkpoint inhibitors (ICIs) have shown great success, with FDA-approved drugs like PD-1 inhibitors (Nivolumab, Pembrolizumab, Cemiplimab), PD-L1 inhibitors (Atezolizumab, Durvalumab, Avelumab), and CTLA-4 inhibitors (Ipilimumab, Tremelimumab), alongside LAG-3 inhibitor Relatlimab. Research continues on new checkpoints like TIM-3, VISTA, B7-H3, BTLA, and TIGIT. Biomarkers like PDL-1 expression, tumor mutation burden, interferon-γ presence, microbiome composition, and extracellular matrix characteristics play a crucial role in predicting responses to immunotherapy with checkpoint inhibitors. Despite their effectiveness, not all patients experience the same level of benefit, and organ-specific immune-related adverse events (irAEs) such as rash or itching, colitis, diarrhea, hyperthyroidism, and hypothyroidism may occur. Given the rapid advancements in this field and the variability in patient outcomes, there is an urgent need for a comprehensive review that consolidates the latest findings on immune checkpoint inhibitors, covering their clinical status, biomarkers, resistance mechanisms, strategies to overcome resistance, and associated adverse effects. This review aims to fill this gap by providing an analysis of the current clinical status of ICIs, emerging biomarkers, mechanisms of resistance, strategies to enhance therapeutic efficacy, and assessment of adverse effects. This review is crucial to furthering our understanding of ICIs and optimizing their application in cancer therapy.",
+   "journal": "International immunopharmacology",
+   "year": "2024",
+   "doi": "10.1016/j.intimp.2024.113365",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39447408/"
+  },
+  {
+   "pmid": "30242316",
+   "title": "Fatal Toxic Effects Associated With Immune Checkpoint Inhibitors: A Systematic Review and Meta-analysis.",
+   "abstract": "IMPORTANCE: Immune checkpoint inhibitors (ICIs) are now a mainstay of cancer treatment. Although rare, fulminant and fatal toxic effects may complicate these otherwise transformative therapies; characterizing these events requires integration of global data.\nOBJECTIVE: To determine the spectrum, timing, and clinical features of fatal ICI-associated toxic effects.\nDESIGN, SETTING, AND PARTICIPANTS: We retrospectively queried a World Health Organization (WHO) pharmacovigilance database (Vigilyze) comprising more than 16 000 000 adverse drug reactions, and records from 7 academic centers. We performed a meta-analysis of published trials of anti-programmed death-1/ligand-1 (PD-1/PD-L1) and anti-cytotoxic T lymphocyte antigen-4 (CTLA-4) to evaluate their incidence using data from large academic medical centers, global WHO pharmacovigilance data, and all published ICI clinical trials of patients with cancer treated with ICIs internationally.\nEXPOSURES: Anti-CTLA-4 (ipilimumab or tremelimumab), anti-PD-1 (nivolumab, pembrolizumab), or anti-PD-L1 (atezolizumab, avelumab, durvalumab).\nMAIN OUTCOMES AND MEASURES: Timing, spectrum, outcomes, and incidence of ICI-associated toxic effects.\nRESULTS: Internationally, 613 fatal ICI toxic events were reported from 2009 through January 2018 in Vigilyze. The spectrum differed widely between regimens: in a total of 193 anti-CTLA-4 deaths, most were usually from colitis (135 [70%]), whereas anti-PD-1/PD-L1-related fatalities were often from pneumonitis (333 [35%]), hepatitis (115 [22%]), and neurotoxic effects (50 [15%]). Combination PD-1/CTLA-4 deaths were frequently from colitis (32 [37%]) and myocarditis (22 [25%]). Fatal toxic effects typically occurred early after therapy initiation for combination therapy, anti-PD-1, and ipilimumab monotherapy (median 14.5, 40, and 40 days, respectively). Myocarditis had the highest fatality rate (52 [39.7%] of 131 reported cases), whereas endocrine events and colitis had only 2% to 5% reported fatalities; 10% to 17% of other organ-system toxic effects reported had fatal outcomes. Retrospective review of 3545 patients treated with ICIs from 7 academic centers revealed 0.6% fatality rates; cardiac and neurologic events were especially prominent (43%). Median time from symptom onset to death was 32 days. A meta-analysis of 112 trials involving 19 217 patients showed toxicity-related fatality rates of 0.36% (anti-PD-1), 0.38% (anti-PD-L1), 1.08% (anti-CTLA-4), and 1.23% (PD-1/PD-L1 plus CTLA-4).\nCONCLUSIONS AND RELEVANCE: In the largest evaluation of fatal ICI-associated toxic effects published to date to our knowledge, we observed early onset of death with varied causes and frequencies depending on therapeutic regimen. Clinicians across disciplines should be aware of these uncommon lethal complications.",
+   "journal": "JAMA oncology",
+   "year": "2018",
+   "doi": "10.1001/jamaoncol.2018.3923",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30242316/"
+  },
+  {
+   "pmid": "35062949",
+   "title": "Combination strategies with PD-1/PD-L1 blockade: current advances and future directions.",
+   "abstract": "Antibodies targeting programmed cell death protein-1 (PD-1) or its ligand PD-L1 rescue T cells from exhausted status and revive immune response against cancer cells. Based on the immense success in clinical trials, ten α-PD-1 (nivolumab, pembrolizumab, cemiplimab, sintilimab, camrelizumab, toripalimab, tislelizumab, zimberelimab, prolgolimab, and dostarlimab) and three α-PD-L1 antibodies (atezolizumab, durvalumab, and avelumab) have been approved for various types of cancers. Nevertheless, the low response rate of α-PD-1/PD-L1 therapy remains to be resolved. For most cancer patients, PD-1/PD-L1 pathway is not the sole speed-limiting factor of antitumor immunity, and it is insufficient to motivate effective antitumor immune response by blocking PD-1/PD-L1 axis. It has been validated that some combination therapies, including α-PD-1/PD-L1 plus chemotherapy, radiotherapy, angiogenesis inhibitors, targeted therapy, other immune checkpoint inhibitors, agonists of the co-stimulatory molecule, stimulator of interferon genes agonists, fecal microbiota transplantation, epigenetic modulators, or metabolic modulators, have superior antitumor efficacies and higher response rates. Moreover, bifunctional or bispecific antibodies containing α-PD-1/PD-L1 moiety also elicited more potent antitumor activity. These combination strategies simultaneously boost multiple processes in cancer-immunity cycle, remove immunosuppressive brakes, and orchestrate an immunosupportive tumor microenvironment. In this review, we summarized the synergistic antitumor efficacies and mechanisms of α-PD-1/PD-L1 in combination with other therapies. Moreover, we focused on the advances of α-PD-1/PD-L1-based immunomodulatory strategies in clinical studies. Given the heterogeneity across patients and cancer types, individualized combination selection could improve the effects of α-PD-1/PD-L1-based immunomodulatory strategies and relieve treatment resistance.",
+   "journal": "Molecular cancer",
+   "year": "2022",
+   "doi": "10.1186/s12943-021-01489-2",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35062949/"
+  }
+ ]
+}

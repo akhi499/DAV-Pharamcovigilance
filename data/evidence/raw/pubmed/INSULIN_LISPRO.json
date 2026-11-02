@@ -1,0 +1,62 @@
+{
+ "drug": "INSULIN LISPRO",
+ "status": "ok",
+ "query": "\"insulin lispro\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:16:53+00:00",
+ "records": [
+  {
+   "pmid": "38586456",
+   "title": "Efficacy and safety of basal insulins in people with type 2 diabetes mellitus: a systematic review and network meta-analysis of randomized clinical trials.",
+   "abstract": "AIM: The comparative effectiveness of basal insulins has been examined in several studies. However, current treatment algorithms provide a list of options with no clear differentiation between different basal insulins as the optimal choice for initiation.\nMETHODS: A comprehensive search of MEDLINE, Embase, Cochrane Library, ISI, and Scopus, and a reference list of retrieved studies and reviews were performed up to November 2023. We identified phase III randomized controlled trials (RCTs) comparing the efficacy and safety of basal insulin regimens. The primary outcomes evaluated were HbA1c reduction, weight change, and hypoglycemic events. The revised Cochrane ROB-2 tool was used to assess the methodological quality of the included studies. A random-effects frequentist network meta-analysis was used to estimate the pooled weighted mean difference (WMD) and odds ratio (OR) with 95% confidence intervals considering the critical assumptions in the networks. The certainty of the evidence and confidence in the rankings was assessed using the GRADE minimally contextualized approach.\nRESULTS: Of 20,817 retrieved studies, 44 RCTs (23,699 participants) were eligible for inclusion in our network meta-analysis. We found no significant difference among various basal insulins (including Neutral Protamine Hagedorn (NPH), ILPS, insulin glargine, detemir, and degludec) in reducing HbA1c. Insulin glargine, 300 U/mL (IGlar-300) was significantly associated with less weight gain (mean difference ranged from 2.9 kg to 4.1 kg) compared to other basal insulins, namely thrice-weekly insulin degludec (IDeg-3TW), insulin degludec, 100 U/mL (IDeg-100), insulin degludec, 200 U/mL (IDeg-200), NPH, and insulin detemir (IDet), but with low to very low certainty regarding most comparisons. IDeg-100, IDeg-200, IDet, and IGlar-300 were associated with significantly lower odds of overall, nocturnal, and severe hypoglycemic events than NPH and insulin lispro protamine (ILPS) (moderate to high certainty evidence). NPH was associated with the highest odds of overall and nocturnal hypoglycemia compared to others. Network meta-analysis models were robust, and findings were consistent in sensitivity analyses.\nCONCLUSION: The efficacy of various basal insulin regimens is comparable. However, they have different safety profiles. IGlar-300 may be the best choice when weight gain is a concern. In contrast, IDeg-100, IDeg-200, IDet, and IGlar-300 may be preferred when hypoglycemia is the primary concern.",
+   "journal": "Frontiers in endocrinology",
+   "year": "2024",
+   "doi": "10.3389/fendo.2024.1286827",
+   "publication_types": [
+    "Systematic Review",
+    "Journal Article",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38586456/"
+  },
+  {
+   "pmid": "26499176",
+   "title": "Use of Insulin Lispro Protamine Suspension in Pregnancy.",
+   "abstract": "Maternal metabolism changes substantially during pregnancy, which poses numerous challenges to physicians managing pregnancy in women with diabetes. Insulin is the agent of choice for glycemic control in pregnant women with diabetes, and the insulin analogs are particularly interesting for use in pregnancy. These agents may reduce the risk of hypoglycemia and promote a more physiological glycemic profile than regular human insulin in pregnant women with type 1 (T1D), type 2 (T2D), or gestational (GDM) diabetes. However, there have been concerns regarding potential risk for crossing the placental barrier, mitogenic stimulation, teratogenicity, and embryotoxicity. Insulin lispro protamine suspension (ILPS), an intermediate- to long-acting insulin, has a stable and predictable pharmacological profile, and appears to have a favorable time-action profile and produce desirable basal and postprandial glycemic control. As the binding of insulin lispro is unaffected by the protamine molecule, ILPS is likely to have the same mitogenic and immunogenic potential as insulin lispro. Insulin lispro produces similar outcomes to regular insulin in pregnant women with T1D, T2D, or GDM, does not cross the placental barrier, and is considered a useful treatment option for pregnant women with diabetes. Clinical data support the usefulness of ILPS for basal insulin coverage in non-pregnant patients with T1D or T2D, and suggest that the optimal regimen, in terms of balance between efficacy and hypoglycemic risk, is a once-daily injection, especially in patients with T2D. Available data concerning use of ILPS in pregnant women are currently derived from retrospective analyses that involved, in total, >1200 pregnant women. These analyses suggest that ILPS is at least as safe and effective as neutral protamine Hagedorn insulin. Thus, available experimental and clinical data suggest that ILPS once daily is a safe and effective option for the management of diabetes in pregnant women.",
+   "journal": "Advances in therapy",
+   "year": "2015",
+   "doi": "10.1007/s12325-015-0244-y",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26499176/"
+  },
+  {
+   "pmid": "25313261",
+   "title": "Technosphere insulin (Afrezza): a new, inhaled prandial insulin.",
+   "abstract": "OBJECTIVE: To review the pharmacology, pharmacokinetics, safety, and efficacy of Technosphere insulin (TI), a new inhaled insulin product.\nDATA SOURCES: Searches were conducted in PubMed/MEDLINE, Scientific Citation Index, and abstracts from both the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD) meetings from 2005 to August 2014, utilizing the search terms Afrezza, Technosphere, Afresa, and inhaled insulin. References were reviewed to identify additional sources.\nSTUDY SELECTION AND DATA EXTRACTION: Studies with adequate sample sizes, evaluating clinically relevant end points were included.\nDATA SYNTHESIS: TI is approved by the Food and Drug Administration as a bolus insulin to treat patients with type 1 and type 2 diabetes. Its glucose-lowering properties are less than that of rapid-acting insulins, but it does demonstrate less hypoglycemia. TI's kinetics make it the fastest absorbed of any insulin available, although its overall onset of action appears similar to insulin lispro. It represents an alternative to bolus injections but would likely be used concomitantly with injected basal insulin. Major adverse effects are respiratory in nature, with cough being the most prominent. There is a small decrease in the forced expiratory volume in 1 s (FEV1) with TI; this appears to be consistent, nonprogressive, and reversible. Patients using TI must receive pulmonary function tests periodically throughout therapy. TI is contraindicated in patients with chronic lung disease and should be used with caution in patients who smoke.\nCONCLUSION: TI is a novel inhaled insulin that provides prandial coverage to patients with diabetes, representing an alternative to bolus insulin injections.",
+   "journal": "The Annals of pharmacotherapy",
+   "year": "2015",
+   "doi": "10.1177/1060028014554648",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25313261/"
+  },
+  {
+   "pmid": "25542297",
+   "title": "Safety considerations with pharmacological treatment of gestational diabetes mellitus.",
+   "abstract": "The number of women with gestational diabetes mellitus (GDM: diabetes first diagnosed in pregnancy) continues to grow, as do the associated risks of antenatal and postnatal complications and the chance of future diabetes and obesity in both mother and offspring. Recent randomised controlled trials have demonstrated clear benefits for intensive management of GDM using lifestyle modification, self blood glucose monitoring, close clinical supervision and, where glycaemia remains inadequately controlled, insulin therapy. More recently, metformin and glibenclamide have been shown to adequately reduce hyperglycaemia as part of a stepped approach to GDM management, with a switch to insulin therapy where necessary. Other oral medications have not been shown to be safe in pregnancy. Human insulin therapy is safe within the limits of hypoglycaemia and weight gain. Most insulin analogues are also now considered safe for use in pregnancy (insulin lispro, aspart and detemir). Metformin therapy is oral, and therefore preferred to insulin, but is associated with more gastrointestinal adverse effects, although not hypoglycaemia or weight gain. Conversely, glibenclamide is also an oral therapy but is associated with hypoglycaemia and weight gain. However, metformin crosses the placenta and it remains unclear whether glibenclamide crosses the placenta or not: long-term risks have not been shown, and are thought to be minimal, but further studies are needed. Metformin is seen by some as the treatment of choice where weight gain is an issue, providing that the unanswered questions over the long-term safety of oral agents have been discussed.",
+   "journal": "Drug safety",
+   "year": "2015",
+   "doi": "10.1007/s40264-014-0253-9",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25542297/"
+  }
+ ]
+}

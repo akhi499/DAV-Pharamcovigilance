@@ -1,0 +1,60 @@
+{
+ "drug": "HYDROXYCHLOROQUINE",
+ "status": "ok",
+ "query": "\"hydroxychloroquine\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:20+00:00",
+ "records": [
+  {
+   "pmid": "41182321",
+   "title": "2025 American College of Rheumatology (ACR) Guideline for the Treatment of Systemic Lupus Erythematosus.",
+   "abstract": "OBJECTIVE: To provide evidence-based and expert guidance for the treatment and management of non-renal systemic lupus erythematosus (SLE); treatment and management of lupus nephritis are addressed in a separate guideline.\nMETHODS: Clinical questions for treatment and management of SLE were developed in the PICO format (population, intervention, comparator, and outcome). Systematic literature reviews were developed for each PICO question, and the Grading of Recommendations Assessment, Development, and Evaluation (GRADE) methodology was used to assess evidence quality and formulate recommendations. The Voting Panel achieved a consensus of ≥70% agreement on the direction (for or against) and strength (strong or conditional) of each recommendation.\nRESULTS: We present recommendations and ungraded, consensus-based good practice statements for the treatment and management of SLE that are applicable to pediatric and adult patients. Recommendations emphasize uniform treatment with hydroxychloroquine, limiting duration of glucocorticoid use, and early introduction of conventional and/or biologic immunosuppressive therapies to achieve and maintain control of SLE inflammation (remission or a low level of disease activity), reduce SLE-related morbidity and mortality, and minimize medication-related toxicities.\nCONCLUSION: This guideline presents direction regarding treatment and management of SLE and provides a foundation for well-informed, shared clinician-patient decision-making. These recommendations should not be used to limit or deny access to therapies, as treatment decisions may vary due to the unique clinical situation and personal preferences of each person with SLE.",
+   "journal": "Arthritis care & research",
+   "year": "2026",
+   "doi": "10.1002/acr.25690",
+   "publication_types": [
+    "Journal Article",
+    "Practice Guideline"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41182321/"
+  },
+  {
+   "pmid": "29321641",
+   "title": "Antiphospholipid syndrome.",
+   "abstract": "Antiphospholipid syndrome (APS) is an autoimmune disease characterized by the presence of antiphospholipid antibodies, such as lupus anticoagulant, anticardiolipin antibodies and anti-β2-glycoprotein 1 antibodies. APS can present with a variety of clinical phenotypes, including thrombosis in the veins, arteries and microvasculature as well as obstetrical complications. The pathophysiological hallmark is thrombosis, but other factors such as complement activation might be important. Prevention of thrombotic manifestations associated with APS includes lifestyle changes and, in individuals at high risk, low-dose aspirin. Prevention and treatment of thrombotic events are dependent mainly on the use of vitamin K antagonists. Immunosuppression and anticomplement therapy have been used anecdotally but have not been adequately tested. Pregnancy morbidity includes unexplained recurrent early miscarriage, fetal death and late obstetrical manifestation such as pre-eclampsia, premature birth or fetal growth restriction associated with placental insufficiency. Current treatment to prevent obstetrical morbidity is based on low-dose aspirin and/or low-molecular-weight heparin and has improved pregnancy outcomes to achieve successful live birth in >70% of pregnancies. Although hydroxychloroquine and pravastatin might further improve pregnancy outcomes, prospective clinical trials are required to confirm these findings.",
+   "journal": "Nature reviews. Disease primers",
+   "year": "2018",
+   "doi": "10.1038/nrdp.2017.103",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29321641/"
+  },
+  {
+   "pmid": "39981928",
+   "title": "Hydroxychloroquine: A double‑edged sword (Review).",
+   "abstract": "Hydroxychloroquine (HCQ) is an antimalarial drug that has historically been used to treat and prevent malaria. However, its mechanism of action has not yet been fully elucidated. HCQ affects various cellular and molecular pathways through different mechanisms. HCQ has also been shown to be a disease‑improving agent for the treatment of rheumatic diseases, including systemic lupus erythematosus, antiphospholipid syndrome, rheumatoid arthritis and primary Sjögren's syndrome. Although generally considered safe, adverse reactions have been reported with the use of HCQ and clinicians should carefully monitor patients with rheumatism when prescribing these drugs. The purpose of the present review is to strengthen the clinical use of HCQ for autoimmune diseases while highlighting the adverse effects that may occur during treatment.",
+   "journal": "Molecular medicine reports",
+   "year": "2025",
+   "doi": "10.3892/mmr.2025.13467",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39981928/"
+  },
+  {
+   "pmid": "28282061",
+   "title": "Hydroxychloroquine retinopathy.",
+   "abstract": "Hydroxychloroquine (HCQ; Plaquenil) is used increasingly in the management of a variety of autoimmune disorders, with well established roles in dermatology and rheumatology and emerging roles in oncology. Hydroxychloroquine has demonstrated a survival benefit in patients with systemic lupus erythematosus; some clinicians advocate its use in all such patients. However, Hydroxychloroquine and chloroquine (CQ) have been associated with irreversible visual loss due to retinal toxicity. Hydroxychloroquine retinal toxicity is far more common than previously considered; an overall prevalence of 7.5% was identified in patients taking HCQ for greater than 5 years, rising to almost 20% after 20 years of treatment. This review aims to provide an update on HCQ/CQ retinopathy. We summarise emerging treatment indications and evidence of efficacy in systemic disease, risk factors for retinopathy, prevalence among HCQ users, diagnostic tests, and management of HCQ retinopathy. We highlight emerging risk factors such as tamoxifen use, and new guidance on safe dosing, reversing the previous recommendation to use ideal body weight, rather than actual body weight. We summarise uncertainties and the recommendations made by existing HCQ screening programmes. Asian patients with HCQ retinopathy may demonstrate an extramacular or pericentral pattern of disease; visual field testing and retinal imaging should include a wider field for screening in this group. HCQ is generally safe and effective for the treatment of systemic disease but because of the risk of HCQ retinal toxicity, modern screening methods and ideal dosing should be implemented. Guidelines regarding optimal dosing and screening regarding HCQ need to be more widely disseminated.",
+   "journal": "Eye (London, England)",
+   "year": "2017",
+   "doi": "10.1038/eye.2016.298",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28282061/"
+  }
+ ]
+}

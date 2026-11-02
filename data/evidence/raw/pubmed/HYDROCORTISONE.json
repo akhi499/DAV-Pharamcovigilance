@@ -1,0 +1,62 @@
+{
+ "drug": "HYDROCORTISONE",
+ "status": "ok",
+ "query": "\"hydrocortisone\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:19:01+00:00",
+ "records": [
+  {
+   "pmid": "40522647",
+   "title": "Adrenal Insufficiency in Adults: A Review.",
+   "abstract": "IMPORTANCE: Adrenal insufficiency is a syndrome of cortisol deficiency and is categorized as primary, secondary, or glucocorticoid induced. Although primary and secondary adrenal insufficiency are rare, affecting less than 279 per 1 million individuals, glucocorticoid-induced adrenal insufficiency is common.\nOBSERVATIONS: Primary adrenal insufficiency, which involves deficiency of all adrenocortical hormones, is caused by autoimmune destruction, congenital adrenal hyperplasia, pharmacological inhibition (eg, high doses of azole antifungal therapy), infection (eg, tuberculosis, fungal infections), or surgical removal of adrenal cortical tissue. Secondary adrenal insufficiency is caused by disorders affecting the pituitary gland, such as tumors, hemorrhage, inflammatory or infiltrative conditions (eg, hypophysitis, sarcoidosis, hemochromatosis), surgery, radiation therapy, or medications that suppress corticotropin production, such as opioids. Glucocorticoid-induced adrenal insufficiency is caused by administration of supraphysiological doses of glucocorticoids. Patients with adrenal insufficiency typically present with nonspecific symptoms, including fatigue (50%-95%), nausea and vomiting (20%-62%), and anorexia and weight loss (43%-73%). Glucocorticoid-induced adrenal insufficiency should be suspected in patients who have recently tapered or discontinued a supraphysiological dose of glucocorticoids. Early-morning (approximately 8 am) measurements of serum cortisol, corticotropin, and dehydroepiandrosterone sulfate (DHEAS) are used to diagnose adrenal insufficiency. Primary adrenal insufficiency is typically characterized by low morning cortisol levels (<5 µg/dL), high corticotropin levels, and low DHEAS levels. Patients with secondary and glucocorticoid-induced adrenal insufficiency typically have low or intermediate morning cortisol levels (5-10 µg/dL) and low or low-normal corticotropin and DHEAS levels. Patients with intermediate early-morning cortisol levels should undergo repeat early-morning cortisol testing or corticotropin stimulation testing (measurement of cortisol before and 60 minutes after administration of cosyntropin, 250 µg). Treatment of adrenal insufficiency involves supplemental glucocorticoids (eg, hydrocortisone, 15-25 mg daily, or prednisone, 3-5 mg daily). Mineralocorticoids (eg, fludrocortisone, 0.05-0.3 mg daily) should be added for patients with primary adrenal insufficiency. Adrenal crisis, a syndrome that can cause hypotension and shock, hyponatremia, altered mental status, and death if untreated, can occur in patients with adrenal insufficiency who have inadequate glucocorticoid therapy, acute illness, and physical stress. Therefore, all patients with adrenal insufficiency should be instructed how to increase glucocorticoids during acute illness and prescribed injectable glucocorticoids (eg, hydrocortisone, 100 mg intramuscular injection) to prevent or treat adrenal crisis.\nCONCLUSIONS AND RELEVANCE: Although primary and secondary adrenal insufficiency are rare, glucocorticoid-induced adrenal insufficiency is a common condition. Diagnosis of adrenal insufficiency involves early-morning measurement of cortisol, corticotropin, and DHEAS. All patients with adrenal insufficiency should be treated with glucocorticoids and instructed how to prevent and treat adrenal crisis.",
+   "journal": "JAMA",
+   "year": "2025",
+   "doi": "10.1001/jama.2025.5485",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40522647/"
+  },
+  {
+   "pmid": "27041067",
+   "title": "Hypopituitarism.",
+   "abstract": "Hypopituitarism refers to deficiency of one or more hormones produced by the anterior pituitary or released from the posterior pituitary. Hypopituitarism is associated with excess mortality, a key risk factor being cortisol deficiency due to adrenocorticotropic hormone (ACTH) deficiency. Onset can be acute or insidious, and the most common cause in adulthood is a pituitary adenoma, or treatment with pituitary surgery or radiotherapy. Hypopituitarism is diagnosed based on baseline blood sampling for thyroid stimulating hormone, gonadotropin, and prolactin deficiencies, whereas for ACTH, growth hormone, and antidiuretic hormone deficiency dynamic stimulation tests are usually needed. Repeated pituitary function assessment at regular intervals is needed for diagnosis of the predictable but slowly evolving forms of hypopituitarism. Replacement treatment exists in the form of thyroxine, hydrocortisone, sex steroids, growth hormone, and desmopressin. If onset is acute, cortisol deficiency should be replaced first. Modifications in replacement treatment are needed during the transition from paediatric to adult endocrine care, and during pregnancy.",
+   "journal": "Lancet (London, England)",
+   "year": "2016",
+   "doi": "10.1016/S0140-6736(16)30053-8",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27041067/"
+  },
+  {
+   "pmid": "27279294",
+   "title": "Topical corticosteroids in dermatology.",
+   "abstract": "Since their introduction, topical corticosteroids have become indispensable in the treatment of various dermatoses. Hydrocortisone was the first compound. Modifications in the basic structure generated in vivo activity and thus different topically active compounds were discovered. Apart from the Stoughton vasoconstrictor assay, various other methods are used for potency assessment of topical corticosteroids. Topical corticosteroides are classified based upon potency and action of these molecules. Mechanism of action at the cellular level and indications of topical corticosteroid use have been discussed. Various adverse effects often occur as an extension of their activity combined with inappropriate usage. Tachyphylaxis and contact allergy are potential problems in clinical practice. Newer compounds with improved risk-benefit ratio are available.",
+   "journal": "Indian journal of dermatology, venereology and leprology",
+   "year": "2016",
+   "doi": "10.4103/0378-6323.178903",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27279294/"
+  },
+  {
+   "pmid": "38865154",
+   "title": "Low-Dose Corticosteroids for Critically Ill Adults With Severe Pulmonary Infections: A Review.",
+   "abstract": "IMPORTANCE: Severe pulmonary infections, including COVID-19, community-acquired pneumonia, influenza, and Pneumocystis pneumonia, are a leading cause of death among adults worldwide. Pulmonary infections in critically ill patients may cause septic shock, acute respiratory distress syndrome, or both, which are associated with mortality rates ranging between 30% and 50%.\nOBSERVATIONS: Corticosteroids mitigate the immune response to infection and improve outcomes for patients with several types of severe pulmonary infections. Low-dose corticosteroids, defined as less than or equal to 400 mg hydrocortisone equivalent daily, can reduce mortality of patients with severe COVID-19, community-acquired pneumonia, and Pneumocystis pneumonia. A randomized clinical trial of 6425 patients hospitalized with COVID-19 who required supplemental oxygen or noninvasive or invasive mechanical ventilation reported that dexamethasone 6 mg daily for 10 days decreased 28-day mortality (23% vs 26%). A meta-analysis that included 7 randomized clinical trials of 1689 patients treated in the intensive care unit for severe bacterial community-acquired pneumonia reported that hydrocortisone equivalent less than or equal to 400 mg daily for 8 days or fewer was associated with lower 30-day mortality compared with placebo (10% vs 16%). In a meta-analysis of 6 randomized clinical trials, low-dose corticosteroids were associated with lower mortality rates compared with placebo for patients with HIV and moderate to severe Pneumocystis pneumonia (13% vs 25%). In a predefined subgroup analysis of a trial of low-dose steroid treatment for septic shock, patients with community-acquired pneumonia randomized to 7 days of intravenous hydrocortisone 50 mg every 6 hours and fludrocortisone 50 μg daily had decreased mortality compared with the placebo group (39% vs 51%). For patients with acute respiratory distress syndrome caused by various conditions, low-dose corticosteroids were associated with decreased in-hospital mortality (34% vs 45%) according to a meta-analysis of 8 studies that included 1091 patients. Adverse effects of low-dose corticosteroids may include hyperglycemia, gastrointestinal bleeding, neuropsychiatric disorders, muscle weakness, hypernatremia, and secondary infections.\nCONCLUSIONS AND RELEVANCE: Treatment with low-dose corticosteroids is associated with decreased mortality for patients with severe COVID-19 infection, severe community-acquired bacterial pneumonia, and moderate to severe Pneumocystis pneumonia (for patients with HIV). Low-dose corticosteroids may also benefit critically ill patients with respiratory infections who have septic shock, acute respiratory distress syndrome, or both.",
+   "journal": "JAMA",
+   "year": "2024",
+   "doi": "10.1001/jama.2024.6096",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38865154/"
+  }
+ ]
+}

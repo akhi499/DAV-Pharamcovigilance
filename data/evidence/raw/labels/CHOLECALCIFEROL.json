@@ -1,0 +1,32 @@
+{
+ "drug": "CHOLECALCIFEROL",
+ "status": "ok",
+ "fetched_at": "2026-10-20T05:19:45+00:00",
+ "set_id": "e5acfb2a-0959-4542-9b4c-790be194d581",
+ "spl_id": "5413d54f-f790-2d5c-e063-6294a90a7460",
+ "spl_version": "8",
+ "effective_time": "20260612",
+ "brand_names": [
+  "Prenate Essential"
+ ],
+ "generic_names": [
+  "ASCORBIC ACID, CHOLECALCIFEROL, .ALPHA.-TOCOPHEROL ACETATE, DL-, PYRIDOXINE HYDROCHLORIDE, FOLIC ACID, LEVOMEFOLATE CALCIUM, CYANOCOBALAMIN, BIOTIN, CALCIUM FORMATE, FERROUS ASPARTO GLYCINATE, POTASSIUM IODIDE, MAGNESIUM OXIDE, DOCONEXENT AND ICOSAPENT"
+ ],
+ "manufacturer": "Avion Pharmaceuticals, LLC",
+ "route": [
+  "ORAL"
+ ],
+ "dailymed_title": "PRENATE ESSENTIAL (ASCORBIC ACID, CHOLECALCIFEROL, .ALPHA.-TOCOPHEROL ACETATE, DL-, PYRIDOXINE HYDROCHLORIDE, FOLIC ACID, LEVOMEFOLATE CALCIUM, CYANOCOBALAMIN, BIOTIN, CALCIUM FORMATE, FERROUS ASPARTO GLYCINATE, POTASSIUM IODIDE, MAGNESIUM OXIDE, DOCONEXENT AND ICOSAPENT) CAPSULE, GELATIN COATED [AVION PHARMACEUTICALS, LLC]",
+ "dailymed_published": "Jun 23, 2026",
+ "dailymed_spl_version": 8,
+ "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e5acfb2a-0959-4542-9b4c-790be194d581",
+ "api_url": "https://api.fda.gov/drug/label.json?search=set_id:%22e5acfb2a-0959-4542-9b4c-790be194d581%22",
+ "sections": {
+  "boxed_warning": "WARNING: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose, call a doctor or poison control center immediately.",
+  "contraindications": "CONTRAINDICATIONS: PRENATE ESSENTIAL ® is contraindicated in patients with a known hypersensitivity to any of the ingredients.",
+  "warnings": "WARNING: Ingestion of more than 3 grams of omega-3 fatty acids (such as DHA) per day has been shown to have potential antithrombotic effects, including an increased bleeding time and International Normalized Ratio (INR). Administration of omega-3 fatty acids should be avoided in patients taking anticoagulants and in those known to have an inherited or acquired predisposition to bleeding.",
+  "precautions": "PRECAUTIONS: Folic acid alone is improper therapy in the treatment of pernicious anemia and other megaloblastic anemias where Vitamin B 12 is deficient. Folic acid in doses above 1.0 mg daily may obscure pernicious anemia in that hematologic remission can occur while neurological manifestations progress.",
+  "adverse_reactions": "ADVERSE REACTIONS: Allergic sensitization has been reported following both oral and parenteral administration of folic acid.",
+  "indications_and_usage": "INDICATIONS: PRENATE ESSENTIAL ® is a multivitamin/multimineral fatty acid dietary supplement indicated for use in improving the nutritional status of women throughout pregnancy and in the postnatal period for both lactating and nonlactating mothers."
+ }
+}

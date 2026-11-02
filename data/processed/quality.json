@@ -1,0 +1,194 @@
+{
+  "n_cases": 400513,
+  "field_missing_pct": {
+    "age_years": 39.19,
+    "weight_kg": 82.84,
+    "event_date": 56.86,
+    "sex": 20.68,
+    "reporter_type": 8.23,
+    "occr_country": 4.03
+  },
+  "checks": [
+    {
+      "check": "Missing Age (valid, converted to years)",
+      "dimension": "completeness",
+      "value": 39.194,
+      "unit": "% of cases",
+      "status": "warn",
+      "detail": "156,977 of 400,513 cases"
+    },
+    {
+      "check": "Missing Weight (valid, converted to kg)",
+      "dimension": "completeness",
+      "value": 82.8428,
+      "unit": "% of cases",
+      "status": "warn",
+      "detail": "331,796 of 400,513 cases"
+    },
+    {
+      "check": "Missing Full event date",
+      "dimension": "completeness",
+      "value": 56.8631,
+      "unit": "% of cases",
+      "status": "warn",
+      "detail": "227,744 of 400,513 cases"
+    },
+    {
+      "check": "Missing Sex",
+      "dimension": "completeness",
+      "value": 20.677,
+      "unit": "% of cases",
+      "status": "warn",
+      "detail": "82,814 of 400,513 cases"
+    },
+    {
+      "check": "Missing Reporter occupation",
+      "dimension": "completeness",
+      "value": 8.2277,
+      "unit": "% of cases",
+      "status": "pass",
+      "detail": "32,953 of 400,513 cases"
+    },
+    {
+      "check": "Missing Occurrence country",
+      "dimension": "completeness",
+      "value": 4.0263,
+      "unit": "% of cases",
+      "status": "pass",
+      "detail": "16,126 of 400,513 cases"
+    },
+    {
+      "check": "Implausible age (outside 0-120 y) set to missing",
+      "dimension": "validity",
+      "value": 7.0,
+      "unit": "cases",
+      "status": "pass",
+      "detail": "Converted from age + age_cod"
+    },
+    {
+      "check": "Implausible weight (outside 0.2-400 kg) set to missing",
+      "dimension": "validity",
+      "value": 44.0,
+      "unit": "cases",
+      "status": "pass",
+      "detail": "Converted from wt + wt_cod"
+    },
+    {
+      "check": "Partial event dates (YYYY or YYYYMM only)",
+      "dimension": "validity",
+      "value": 0.0,
+      "unit": "reports",
+      "status": "info",
+      "detail": "Kept as missing full date; not imputed"
+    },
+    {
+      "check": "Event date in the future",
+      "dimension": "validity",
+      "value": 2.0,
+      "unit": "cases",
+      "status": "pass",
+      "detail": "Likely data-entry error; kept but excluded from date-based summaries"
+    },
+    {
+      "check": "Event date after FDA receipt date",
+      "dimension": "validity",
+      "value": 7.0,
+      "unit": "cases",
+      "status": "pass",
+      "detail": "Likely data-entry error"
+    },
+    {
+      "check": "Event date before 1970",
+      "dimension": "validity",
+      "value": 20.0,
+      "unit": "cases",
+      "status": "info",
+      "detail": "Possible data-entry error"
+    },
+    {
+      "check": "Cases without any suspect drug",
+      "dimension": "consistency",
+      "value": 0.0,
+      "unit": "cases",
+      "status": "pass",
+      "detail": "Excluded from disproportionality"
+    },
+    {
+      "check": "Cases without any reaction term",
+      "dimension": "consistency",
+      "value": 0.0,
+      "unit": "cases",
+      "status": "pass",
+      "detail": "Excluded from disproportionality"
+    },
+    {
+      "check": "Orphan DRUG rows (no DEMO record)",
+      "dimension": "consistency",
+      "value": 0.0,
+      "unit": "rows",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "check": "Orphan REAC rows (no DEMO record)",
+      "dimension": "consistency",
+      "value": 0.0,
+      "unit": "rows",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "check": "Cases without a primary-suspect (PS) drug",
+      "dimension": "consistency",
+      "value": 0.0,
+      "unit": "cases",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "check": "Drug rows with no usable name",
+      "dimension": "consistency",
+      "value": 0.0,
+      "unit": "rows",
+      "status": "info",
+      "detail": ""
+    },
+    {
+      "check": "Drug rows lacking active ingredient (fallback to verbatim name)",
+      "dimension": "consistency",
+      "value": 1.5902,
+      "unit": "% of drug rows",
+      "status": "info",
+      "detail": "Verbatim names are normalised by regex only (no RxNorm)"
+    },
+    {
+      "check": "Duplicate CASEID versions within the quarter",
+      "dimension": "uniqueness",
+      "value": 0.0,
+      "unit": "rows",
+      "status": "info",
+      "detail": "Resolved by keeping latest FDA_DT / highest PRIMARYID"
+    },
+    {
+      "check": "Repeated reaction term within the same report",
+      "dimension": "uniqueness",
+      "value": 18571.0,
+      "unit": "rows",
+      "status": "info",
+      "detail": "Collapsed to one row per case-term"
+    },
+    {
+      "check": "Probable duplicate reports (same clinical fingerprint, different CASEID)",
+      "dimension": "uniqueness",
+      "value": 7784.0,
+      "unit": "cases",
+      "status": "warn",
+      "detail": "Excluded from disproportionality; kept in descriptive counts"
+    }
+  ],
+  "summary": {
+    "pass": 11,
+    "warn": 5,
+    "info": 6
+  }
+}

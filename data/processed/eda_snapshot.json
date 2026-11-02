@@ -1,0 +1,548 @@
+{
+  "overview": {
+    "cases": 400513,
+    "serious": 224700,
+    "deaths": 32408,
+    "hospitalizations": 83294,
+    "probable_duplicates": 7784,
+    "expedited": 211625,
+    "literature": 36793,
+    "first_fda_date": "2024-09-27",
+    "last_fda_date": "2025-03-31",
+    "median_age": 59.0,
+    "drug_rows": 2008161,
+    "distinct_suspect_drugs": 5018,
+    "reaction_rows": 1414354,
+    "distinct_reaction_terms": 12678
+  },
+  "sex": [
+    {
+      "level": "F",
+      "cases": 186230,
+      "serious": 103708,
+      "deaths": 12305,
+      "serious_pct": 55.69,
+      "death_pct": 6.61
+    },
+    {
+      "level": "M",
+      "cases": 131469,
+      "serious": 79460,
+      "deaths": 13257,
+      "serious_pct": 60.44,
+      "death_pct": 10.08
+    },
+    {
+      "level": "Unknown",
+      "cases": 82814,
+      "serious": 41532,
+      "deaths": 6846,
+      "serious_pct": 50.15,
+      "death_pct": 8.27
+    }
+  ],
+  "age_group": [
+    {
+      "level": "0-1",
+      "cases": 2037,
+      "serious": 1455,
+      "deaths": 184,
+      "serious_pct": 71.43,
+      "death_pct": 9.03
+    },
+    {
+      "level": "2-11",
+      "cases": 9226,
+      "serious": 3817,
+      "deaths": 331,
+      "serious_pct": 41.37,
+      "death_pct": 3.59
+    },
+    {
+      "level": "12-17",
+      "cases": 8847,
+      "serious": 4030,
+      "deaths": 336,
+      "serious_pct": 45.55,
+      "death_pct": 3.8
+    },
+    {
+      "level": "18-44",
+      "cases": 52589,
+      "serious": 31664,
+      "deaths": 4257,
+      "serious_pct": 60.21,
+      "death_pct": 8.09
+    },
+    {
+      "level": "45-64",
+      "cases": 76569,
+      "serious": 46732,
+      "deaths": 5778,
+      "serious_pct": 61.03,
+      "death_pct": 7.55
+    },
+    {
+      "level": "65-74",
+      "cases": 50494,
+      "serious": 32267,
+      "deaths": 4857,
+      "serious_pct": 63.9,
+      "death_pct": 9.62
+    },
+    {
+      "level": "75+",
+      "cases": 43774,
+      "serious": 29887,
+      "deaths": 6410,
+      "serious_pct": 68.28,
+      "death_pct": 14.64
+    },
+    {
+      "level": "Unknown",
+      "cases": 156977,
+      "serious": 74848,
+      "deaths": 10255,
+      "serious_pct": 47.68,
+      "death_pct": 6.53
+    }
+  ],
+  "reporter_type": [
+    {
+      "level": "CN",
+      "cases": 165641,
+      "serious": 70023,
+      "deaths": 7492,
+      "serious_pct": 42.27,
+      "death_pct": 4.52,
+      "label": "Consumer"
+    },
+    {
+      "level": "HP",
+      "cases": 91329,
+      "serious": 51898,
+      "deaths": 7781,
+      "serious_pct": 56.83,
+      "death_pct": 8.52,
+      "label": "Health professional"
+    },
+    {
+      "level": "MD",
+      "cases": 87265,
+      "serious": 63316,
+      "deaths": 12006,
+      "serious_pct": 72.56,
+      "death_pct": 13.76,
+      "label": "Physician"
+    },
+    {
+      "level": "Unknown",
+      "cases": 32953,
+      "serious": 23524,
+      "deaths": 3202,
+      "serious_pct": 71.39,
+      "death_pct": 9.72,
+      "label": "Unknown"
+    },
+    {
+      "level": "PH",
+      "cases": 21312,
+      "serious": 14277,
+      "deaths": 1836,
+      "serious_pct": 66.99,
+      "death_pct": 8.61,
+      "label": "Pharmacist"
+    },
+    {
+      "level": "LW",
+      "cases": 2013,
+      "serious": 1662,
+      "deaths": 91,
+      "serious_pct": 82.56,
+      "death_pct": 4.52,
+      "label": "Lawyer"
+    }
+  ],
+  "outcomes": [
+    {
+      "code": "OT",
+      "cases": 166395,
+      "label": "Other serious"
+    },
+    {
+      "code": "HO",
+      "cases": 83294,
+      "label": "Hospitalization"
+    },
+    {
+      "code": "DE",
+      "cases": 32408,
+      "label": "Death"
+    },
+    {
+      "code": "LT",
+      "cases": 12518,
+      "label": "Life-threatening"
+    },
+    {
+      "code": "DS",
+      "cases": 6486,
+      "label": "Disability"
+    },
+    {
+      "code": "CA",
+      "cases": 1504,
+      "label": "Congenital anomaly"
+    },
+    {
+      "code": "RI",
+      "cases": 1422,
+      "label": "Required intervention"
+    }
+  ],
+  "top_drugs": [
+    {
+      "drug": "DUPILUMAB",
+      "cases": 34416,
+      "serious": 3355,
+      "deaths": 115
+    },
+    {
+      "drug": "TIRZEPATIDE",
+      "cases": 11367,
+      "serious": 1999,
+      "deaths": 70
+    },
+    {
+      "drug": "LENALIDOMIDE",
+      "cases": 8074,
+      "serious": 4058,
+      "deaths": 600
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "cases": 6853,
+      "serious": 5465,
+      "deaths": 1274
+    },
+    {
+      "drug": "ACETAMINOPHEN",
+      "cases": 6351,
+      "serious": 5482,
+      "deaths": 2515
+    },
+    {
+      "drug": "VEDOLIZUMAB",
+      "cases": 5948,
+      "serious": 5624,
+      "deaths": 315
+    },
+    {
+      "drug": "PREDNISONE",
+      "cases": 5852,
+      "serious": 5568,
+      "deaths": 1315
+    },
+    {
+      "drug": "RITUXIMAB",
+      "cases": 5604,
+      "serious": 5369,
+      "deaths": 1557
+    },
+    {
+      "drug": "CABOZANTINIB S-MALATE",
+      "cases": 4961,
+      "serious": 1474,
+      "deaths": 196
+    },
+    {
+      "drug": "SOMATROPIN",
+      "cases": 4683,
+      "serious": 449,
+      "deaths": 23
+    },
+    {
+      "drug": "HUMAN IMMUNOGLOBULIN G",
+      "cases": 4578,
+      "serious": 3874,
+      "deaths": 340
+    },
+    {
+      "drug": "RISANKIZUMAB-RZAA",
+      "cases": 4565,
+      "serious": 3882,
+      "deaths": 190
+    },
+    {
+      "drug": "METHOTREXATE",
+      "cases": 4547,
+      "serious": 4377,
+      "deaths": 1250
+    },
+    {
+      "drug": "UPADACITINIB",
+      "cases": 4485,
+      "serious": 3533,
+      "deaths": 171
+    },
+    {
+      "drug": "PEMBROLIZUMAB",
+      "cases": 4437,
+      "serious": 4074,
+      "deaths": 716
+    },
+    {
+      "drug": "TOFACITINIB CITRATE",
+      "cases": 4390,
+      "serious": 2571,
+      "deaths": 687
+    },
+    {
+      "drug": "LEUPROLIDE ACETATE",
+      "cases": 4201,
+      "serious": 1364,
+      "deaths": 345
+    },
+    {
+      "drug": "CYCLOPHOSPHAMIDE",
+      "cases": 3605,
+      "serious": 3543,
+      "deaths": 599
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "cases": 3581,
+      "serious": 3348,
+      "deaths": 888
+    },
+    {
+      "drug": "RELUGOLIX",
+      "cases": 3564,
+      "serious": 825,
+      "deaths": 119
+    }
+  ],
+  "top_reactions": [
+    {
+      "pt": "Off label use",
+      "pt_key": "off label use",
+      "cases": 32441,
+      "serious": 19806,
+      "deaths": 2284
+    },
+    {
+      "pt": "Drug ineffective",
+      "pt_key": "drug ineffective",
+      "cases": 23304,
+      "serious": 12001,
+      "deaths": 1573
+    },
+    {
+      "pt": "Fatigue",
+      "pt_key": "fatigue",
+      "cases": 18639,
+      "serious": 11260,
+      "deaths": 909
+    },
+    {
+      "pt": "Product dose omission issue",
+      "pt_key": "product dose omission issue",
+      "cases": 17126,
+      "serious": 5684,
+      "deaths": 161
+    },
+    {
+      "pt": "Nausea",
+      "pt_key": "nausea",
+      "cases": 15251,
+      "serious": 9646,
+      "deaths": 802
+    },
+    {
+      "pt": "Diarrhoea",
+      "pt_key": "diarrhoea",
+      "cases": 14891,
+      "serious": 9540,
+      "deaths": 986
+    },
+    {
+      "pt": "Death",
+      "pt_key": "death",
+      "cases": 14493,
+      "serious": 14228,
+      "deaths": 14204
+    },
+    {
+      "pt": "Headache",
+      "pt_key": "headache",
+      "cases": 12421,
+      "serious": 7708,
+      "deaths": 657
+    },
+    {
+      "pt": "Pain",
+      "pt_key": "pain",
+      "cases": 11713,
+      "serious": 7877,
+      "deaths": 749
+    },
+    {
+      "pt": "Dyspnoea",
+      "pt_key": "dyspnoea",
+      "cases": 11692,
+      "serious": 8006,
+      "deaths": 894
+    },
+    {
+      "pt": "Pruritus",
+      "pt_key": "pruritus",
+      "cases": 11164,
+      "serious": 4339,
+      "deaths": 382
+    },
+    {
+      "pt": "Arthralgia",
+      "pt_key": "arthralgia",
+      "cases": 10704,
+      "serious": 6689,
+      "deaths": 636
+    },
+    {
+      "pt": "Rash",
+      "pt_key": "rash",
+      "cases": 10263,
+      "serious": 4871,
+      "deaths": 715
+    },
+    {
+      "pt": "Vomiting",
+      "pt_key": "vomiting",
+      "cases": 10089,
+      "serious": 7369,
+      "deaths": 863
+    },
+    {
+      "pt": "Condition aggravated",
+      "pt_key": "condition aggravated",
+      "cases": 9681,
+      "serious": 6632,
+      "deaths": 946
+    },
+    {
+      "pt": "Inappropriate schedule of product administration",
+      "pt_key": "inappropriate schedule of product administration",
+      "cases": 9387,
+      "serious": 5191,
+      "deaths": 183
+    },
+    {
+      "pt": "Pneumonia",
+      "pt_key": "pneumonia",
+      "cases": 9285,
+      "serious": 9022,
+      "deaths": 1407
+    },
+    {
+      "pt": "Dizziness",
+      "pt_key": "dizziness",
+      "cases": 9274,
+      "serious": 5979,
+      "deaths": 546
+    },
+    {
+      "pt": "Product use in unapproved indication",
+      "pt_key": "product use in unapproved indication",
+      "cases": 8930,
+      "serious": 3326,
+      "deaths": 616
+    },
+    {
+      "pt": "Malaise",
+      "pt_key": "malaise",
+      "cases": 8895,
+      "serious": 6608,
+      "deaths": 695
+    }
+  ],
+  "countries": [
+    {
+      "country": "US",
+      "cases": 246922
+    },
+    {
+      "country": "CA",
+      "cases": 30004
+    },
+    {
+      "country": "JP",
+      "cases": 16260
+    },
+    {
+      "country": "Unknown",
+      "cases": 16126
+    },
+    {
+      "country": "GB",
+      "cases": 14119
+    },
+    {
+      "country": "FR",
+      "cases": 14094
+    },
+    {
+      "country": "CN",
+      "cases": 7389
+    },
+    {
+      "country": "DE",
+      "cases": 7388
+    },
+    {
+      "country": "IT",
+      "cases": 4477
+    },
+    {
+      "country": "ES",
+      "cases": 4331
+    },
+    {
+      "country": "AU",
+      "cases": 3542
+    },
+    {
+      "country": "BR",
+      "cases": 3009
+    },
+    {
+      "country": "IN",
+      "cases": 2725
+    },
+    {
+      "country": "CO",
+      "cases": 2381
+    },
+    {
+      "country": "PT",
+      "cases": 1748
+    }
+  ],
+  "serious_by_sex": {
+    "table": [
+      {
+        "sex": "F",
+        "s": 103708,
+        "ns": 82522
+      },
+      {
+        "sex": "M",
+        "s": 79460,
+        "ns": 52009
+      }
+    ],
+    "chi2": 712.6015865908087,
+    "p_value": 5.438021462370069e-157,
+    "dof": 1,
+    "cramers_v": 0.04736041165099116,
+    "note": "Association in reported cases only; reflects reporting patterns, not population risk."
+  }
+}

@@ -1,0 +1,61 @@
+{
+ "drug": "GABAPENTIN",
+ "status": "ok",
+ "query": "\"gabapentin\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:16:31+00:00",
+ "records": [
+  {
+   "pmid": "36749328",
+   "title": "Management of Menopausal Symptoms: A Review.",
+   "abstract": "IMPORTANCE: Menopause, due to loss of ovarian follicular activity without another pathological or physiological cause, typically occurs between the ages of 45 years and 56 years. During the menopausal transition, approximately 50% to 75% of women have hot flashes, night sweats, or both (vasomotor symptoms) and more than 50% have genitourinary symptoms (genitourinary syndrome of menopause [GSM]).\nOBSERVATIONS: Vasomotor symptoms typically last more than 7 years and GSM is often chronic. Efficacious treatments for women with bothersome vasomotor symptoms or GSM symptoms include hormonal and nonhormonal options. Systemic estrogen alone or combined with a progestogen reduces the frequency of vasomotor symptoms by approximately 75%. Oral and transdermal estrogen have similar efficacy. Conjugated equine estrogens (CEE) with or without medroxyprogesterone acetate (MPA) were the only hormonal treatments for which clinical trials were designed to examine cardiovascular events, venous thromboembolism, and breast cancer risk. Compared with placebo, the increased risk of stroke and venous thromboembolism associated with CEE (with or without MPA) and breast cancer (with use of CEE plus MPA) is approximately 1 excess event/1000 person-years. Low-dose CEE plus bazedoxifene is not associated with increased risk of breast cancer (0.25%/year vs 0.23%/year with placebo). Bioidentical estrogens approved by the US Food and Drug Administration (with identical chemical structure to naturally produced estrogens, and often administered transdermally) also are available to treat vasomotor symptoms. For women who are not candidates for hormonal treatments, nonhormonal approaches such as citalopram, desvenlafaxine, escitalopram, gabapentin, paroxetine, and venlafaxine are available and are associated with a reduction in frequency of vasomotor symptoms by approximately 40% to 65%. Low-dose vaginal estrogen is associated with subjective improvement in GSM symptom severity by approximately 60% to 80%, with improvement in severity by 40% to 80% for vaginal prasterone, and with improvement in severity by 30% to 50% for oral ospemifene.\nCONCLUSIONS AND RELEVANCE: During the menopausal transition, approximately 50% to 75% of women have vasomotor symptoms and GSM symptoms. Hormonal therapy with estrogen is the first-line therapy for bothersome vasomotor symptoms and GSM symptoms, but nonhormonal medications (such as paroxetine and venlafaxine) also can be effective. Hormone therapy is not indicated for the prevention of cardiovascular disease.",
+   "journal": "JAMA",
+   "year": "2023",
+   "doi": "10.1001/jama.2022.24140",
+   "publication_types": [
+    "Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36749328/"
+  },
+  {
+   "pmid": "37208596",
+   "title": "The comparative effectiveness of migraine preventive drugs: a systematic review and network meta-analysis.",
+   "abstract": "OBJECTIVE: While there are several trials that support the efficacy of various drugs for migraine prophylaxis against placebo, there is limited evidence addressing the comparative safety and efficacy of these drugs. We conducted a systematic review and network meta-analysis to facilitate comparison between drugs for migraine prophylaxis.\nMETHODS: We searched MEDLINE, EMBASE, CENTRAL, and clinicaltrials.gov from inception to August 13, 2022, for randomized trials of pharmacological treatments for migraine prophylaxis in adults. Reviewers worked independently and in duplicate to screen references, extract data, and assess risk of bias. We performed a frequentist random-effects network meta-analysis and rated the certainty (quality) of evidence as either high, moderate, low, or very low using the GRADE approach.\nRESULTS: We identified 74 eligible trials, reporting on 32,990 patients. We found high certainty evidence that monoclonal antibodies acting on the calcitonin gene related peptide or its receptor (CGRP(r)mAbs), gepants, and topiramate increase the proportion of patients who experience a 50% or more reduction in monthly migraine days, compared to placebo. We found moderate certainty evidence that beta-blockers, valproate, and amitriptyline increase the proportion of patients who experience a 50% or more reduction in monthly migraine days, and low certainty evidence that gabapentin may not be different from placebo. We found high certainty evidence that, compared to placebo, valproate and amitriptyline lead to substantial adverse events leading to discontinuation, moderate certainty evidence that topiramate, beta-blockers, and gabapentin increase adverse events leading to discontinuation, and moderate to high certainty evidence that (CGRP(r)mAbs) and gepants do not increase adverse events.\nCONCLUSIONS: (CGRP(r)mAbs) have the best safety and efficacy profile of all drugs for migraine prophylaxis, followed closely by gepants.",
+   "journal": "The journal of headache and pain",
+   "year": "2023",
+   "doi": "10.1186/s10194-023-01594-1",
+   "publication_types": [
+    "Systematic Review",
+    "Journal Article",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37208596/"
+  },
+  {
+   "pmid": "28625307",
+   "title": "Postcesarean delivery analgesia.",
+   "abstract": "Effective pain management should be a key priority in women undergoing cesarean delivery. Suboptimal perioperative pain management is associated with chronic pain, greater opioid use, delayed functional recovery, impaired maternal-fetal bonding, and increased postpartum depression. Severe acute postoperative pain is also strongly associated with persistent pain after cesarean delivery. Multimodal analgesia is the core principle for cesarean delivery pain management. The use of neuraxial morphine and opioid-sparing adjuncts such as scheduled nonsteroidal anti-inflammatory medications and acetaminophen is recommended for all women undergoing cesarean delivery with neuraxial anesthesia unless contraindicated. Additional analgesic and opioid-sparing options such as wound instillation of local anesthetics, transversus abdominis plane blocks, dexamethasone, gabapentin, and ketamine may be used as appropriate in women at risk of severe postoperative pain or in women whose postoperative pain is not well controlled despite standard analgesic regimes.",
+   "journal": "Best practice & research. Clinical anaesthesiology",
+   "year": "2017",
+   "doi": "10.1016/j.bpa.2017.01.003",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28625307/"
+  },
+  {
+   "pmid": "38574855",
+   "title": "Evidence-based cesarean delivery: preoperative management (part 7).",
+   "abstract": "Preoperative preparation for cesarean delivery is a multistep approach for which protocols should exist at each hospital system. These protocols should be guided by the findings of this review. The interventions reviewed and recommendations made for this review have a common goal of decreasing maternal and neonatal morbidity and mortality related to cesarean delivery. The preoperative period starts before the patient's arrival to the hospital and ends immediately before skin incision. The Centers for Disease Control and Prevention recommends showering with either soap or an antiseptic solution at least the night before a procedure. Skin cleansing in addition to this has not been shown to further decrease rates of infection. Hair removal at the cesarean skin incision site is not necessary, but if preferred by the surgical team then clipping or depilatory creams should be used rather than shaving. Preoperative enema is not recommended. A clear liquid diet may be ingested up to 2 hours before and a light meal up to 6 hours before cesarean delivery. Consider giving a preoperative carbohydrate drink to nondiabetic patients up to 2 hours before planned cesarean delivery. Weight-based intravenous cefazolin is recommended 60 minutes before skin incision: 1-2 g intravenous for patients without obesity and 2 g for patients with obesity or weight ≥80 kg. Adjunctive azithromycin 500 mg intravenous is recommended for patients with labor or rupture of membranes. Preoperative gabapentin can be considered as a way to decrease pain scores with movement in the postoperative period. Tranexamic acid (1 g in 10-20 mL of saline or 10 mg/kg intravenous) is recommended prophylactically for patients at high risk of postpartum hemorrhage and can be considered in all patients. Routine use of mechanical venous thromboembolism prophylaxis is recommended preoperatively and is to be continued until the patient is ambulatory. Music and active warming of the patient, and adequate operating room temperature improves outcomes for the patient and neonate, respectively. Noise levels should allow clear communication between teams; however, a specific decibel level has not been defined in the data. Patient positioning with left lateral tilt decreases hypotensive episodes compared with right lateral tilt, which is not recommended. Manual displacers result in fewer hypotensive episodes than left lateral tilt. Both vaginal and skin preparation should be performed with either chlorhexidine (preferred) or povidone iodine. Placement of an indwelling urinary catheter is not necessary. Nonadhesive drapes are recommended. Cell salvage, although effective for high-risk patients, is not recommended for routine use. Maternal supplemental oxygen does not improve outcomes. A surgical safety checklist (including a timeout) is recommended for all cesarean deliveries.",
+   "journal": "American journal of obstetrics & gynecology MFM",
+   "year": "2024",
+   "doi": "10.1016/j.ajogmf.2024.101362",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38574855/"
+  }
+ ]
+}

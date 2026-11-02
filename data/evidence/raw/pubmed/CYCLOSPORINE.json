@@ -1,0 +1,60 @@
+{
+ "drug": "CYCLOSPORINE",
+ "status": "ok",
+ "query": "\"cyclosporine\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:16:48+00:00",
+ "records": [
+  {
+   "pmid": "36208445",
+   "title": "Cyclosporine-induced gingival overgrowth-Review.",
+   "abstract": "Drug-induced gingival overgrowth (DIGO) is an undesirable effect resulting from the therapy of one of the three groups of drugs: phenytoin, calcium channel blockers, and cyclosporine A (CsA). It is caused by a fibrous overgrowth leading to gingivitis, periodontitis, and even tooth loss. Possible consequences include tooth decay worsening, pain and difficulty in eating, bleeding gums, and bad breath. The pathomechanism of the hypertrophy is unknown, but there is a correlation between insufficient oral hygiene and the severity of this phenomenon. The gender and age predilection of gingival hyperplasia as a result of CsA therapy is also noticeable. It is most common in children and adolescents of the male sex. The beneficial effect of the removal of tartar and local irritants in reducing the above symptoms has been demonstrated. One of the treatments for DIGO is conventional gingivectomy. The paper is a review article about cyclosporine-induced gingival hyperplasia.",
+   "journal": "Dermatologic therapy",
+   "year": "2022",
+   "doi": "10.1111/dth.15912",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36208445/"
+  },
+  {
+   "pmid": "33084268",
+   "title": "Acne fulminans.",
+   "abstract": "Acne fulminans (AF) is a rare and severe form of inflammatory acne presenting clinically with an abrupt outburst of painful, hemorrhagic pustules and ulceration, that may or may not be associated with systemic symptoms, such as fever, polyarthritis, and laboratory abnormalities. It typically affects male teenagers with a pre-existing acne. Although the pathogenetic mechanism has not been established yet, a role of genetic, abnormal immunologic response, drugs intake, hormonal imbalance and viral infection, as causal factors, has been identified. AF may occur as a single disease or may be associated with other disorders. Traditionally, AF has been classified, on the basis of the presence of systemic involvement, in \"acne fulminans\" and acne fulminans \"sine fulminans,\" when no systemic involvement is present. Recently, four clinical variants have been proposed: acne fulminans with systemic symptoms (AF-SS), acne fulminans without systemic symptoms (AF-WOSS), isotretinoin-induced acne fulminans with systemic symptoms (IIAF-SS), isotretinoin-induced acne fulminans without systemic symptoms (IIAF-WOSS). The diagnosis of AF is usually based on clinical history and physical examination. No specific laboratory abnormalities are generally found. In selected cases, biopsy and/or radiologic imaging are helpful for a correct diagnosis. The treatment significantly differs from severe acne according to severity of clinical presentation and possible systemic involvement. Currently, systemic corticosteroids (prednisolone) and retinoids (isotretinoin) represent the first choice of treatment. Dapsone, cyclosporine A, methotrexate, azathioprine, levamisole, and biological agents such as anakinra, infliximab, adalimumab may be considered as alternative therapies in selected cases. Adjunctive topical and physical therapies may also be considered.",
+   "journal": "Giornale italiano di dermatologia e venereologia : organo ufficiale, Societa italiana di dermatologia e sifilografia",
+   "year": "2020",
+   "doi": "10.23736/S0392-0488.20.06711-5",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33084268/"
+  },
+  {
+   "pmid": "34577817",
+   "title": "Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis: A Review of Diagnosis and Management.",
+   "abstract": "Stevens-Johnson Syndrome (SJS) and Toxic Epidermal Necrolysis (TEN) are rare diseases that are characterized by widespread epidermal necrosis and sloughing of skin. They are associated with significant morbidity and mortality, and early diagnosis and treatment is critical in achieving favorable outcomes for patients. In this scoping review, Excerpta Medica dataBASE and PubMed were searched for publications that addressed recent advances in the diagnosis and management of the disease. Multiple proteins (galectin 7 and RIP3) were identified that are promising potential biomarkers for SJS/TEN, although both are still in early phases of research. Regarding treatment, cyclosporine is the most effective therapy for the treatment of SJS, and a combination of intravenous immunoglobulin (IVIg) and corticosteroids is most effective for SJS/TEN overlap and TEN. Due to the rare nature of the disease, there is a lack of prospective, randomized controlled trials and conducting these in the future would provide valuable insights into the management of this disease.",
+   "journal": "Medicina (Kaunas, Lithuania)",
+   "year": "2021",
+   "doi": "10.3390/medicina57090895",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34577817/"
+  },
+  {
+   "pmid": "28654132",
+   "title": "Henoch-Schönlein Purpura: A Literature Review.",
+   "abstract": "Henoch-Schönlein purpura is the most common childhood vasculitis, but may also affect adults. This article reviews the literature since 2011 on advances in diagnosis, clinical disease manifestations, pathophysiology and treatment of Henoch-Schönlein purpura. The clinical manifestations are thought to arise from IgA depositions in blood vessel walls in the affected organs, mostly skin, gastrointestinal tract, joints and kidneys. Corticosteroids may be effective in rapid resolution of renal manifestations and treating joint and abdominal pain, but they are not proven effective for treating organ manifestations and complications, such as glomerulonephritis, bowel infarction or intussusception. Mycophenolate mofetil or cyclosporine A may be better treatment choices in case of renal involvement. Other immunosuppressive and immunomodulating drugs, such as rituximab and dapsone, are promising, but larger studies are needed to confirm these findings. Cancer screening should be considered in older males diagnosed with Henoch-Schönlein purpura.",
+   "journal": "Acta dermato-venereologica",
+   "year": "2017",
+   "doi": "10.2340/00015555-2733",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28654132/"
+  }
+ ]
+}

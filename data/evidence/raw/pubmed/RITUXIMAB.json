@@ -1,0 +1,62 @@
+{
+ "drug": "RITUXIMAB",
+ "status": "ok",
+ "query": "\"rituximab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T04:59:05+00:00",
+ "records": [
+  {
+   "pmid": "32454097",
+   "title": "Immune checkpoint inhibitor-related dermatologic adverse events.",
+   "abstract": "Immune checkpoint inhibitors have emerged as a pillar in the management of advanced malignancies. However, nonspecific immune activation may lead to immune-related adverse events, wherein the skin and its appendages are the most frequent targets. Cutaneous immune-related adverse events include a diverse group of inflammatory reactions, with maculopapular rash, pruritus, psoriasiform and lichenoid eruptions being the most prevalent subtypes. Cutaneous immune-related adverse events occur early, with maculopapular rash presenting within the first 6 weeks after the initial immune checkpoint inhibitor dose. Management involves the use of topical corticosteroids for mild to moderate (grades 1-2) rash, addition of systemic corticosteroids for severe (grade 3) rash, and discontinuation of immunotherapy with grade 4 rash. Bullous pemphigoid eruptions, vitiligo-like skin hypopigmentation/depigmentation, and psoriasiform rash are more often attributed to programmed cell death-1/programmed cell death ligand-1 inhibitors. The treatment of bullous pemphigoid eruptions is similar to the treatment of maculopapular rash and lichenoid eruptions, with the addition of rituximab in grade 3-4 rash. Skin hypopigmentation/depigmentation does not require specific dermatologic treatment aside from photoprotective measures. In addition to topical corticosteroids, psoriasiform rash may be managed with vitamin D3 analogues, narrowband ultraviolet B light phototherapy, retinoids, or immunomodulatory biologic agents. Stevens-Johnson syndrome and other severe cutaneous immune-related adverse events, although rare, have also been associated with checkpoint blockade and require inpatient care as well as urgent dermatology consultation.",
+   "journal": "Journal of the American Academy of Dermatology",
+   "year": "2020",
+   "doi": "10.1016/j.jaad.2020.03.132",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32454097/"
+  },
+  {
+   "pmid": "31498102",
+   "title": "Pemphigus.",
+   "abstract": "Pemphigus consists of a group of rare and severe autoimmune blistering diseases mediated by pathogenic autoantibodies mainly directed against two desmosomal adhesion proteins, desmoglein (Dsg)1 and Dsg3 (also known as DG1 and DG3), which are present in the skin and surface-close mucosae. The binding of autoantibodies to Dsg proteins induces a separation of neighbouring keratinocytes, in a process known as acantholysis. The two main pemphigus variants are pemphigus vulgaris, which often originates with painful oral erosions, and pemphigus foliaceus, which is characterised by exclusive skin lesions. Pemphigus is diagnosed on the basis of either IgG or complement component 3 deposits (or both) at the keratinocyte cell membrane, detected by direct immunofluorescence microscopy of a perilesional biopsy, with serum anti-Dsg1 or anti-Dsg3 antibodies (or both) detected by ELISA. Corticosteroids are the therapeutic mainstay, which have recently been complemented by the anti-CD20 antibody rituximab in moderate and severe disease. Rituximab induces complete remission off therapy in 90% of patients, despite rapid tapering of corticosteroids, thus allowing for a major corticosteroid-sparing effect and a halved number of adverse events related to corticosteroids.",
+   "journal": "Lancet (London, England)",
+   "year": "2019",
+   "doi": "10.1016/S0140-6736(19)31778-7",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31498102/"
+  },
+  {
+   "pmid": "36706910",
+   "title": "Hypogammaglobulinemia, late-onset neutropenia, and infections following rituximab.",
+   "abstract": "Rituximab is a chimeric anti-CD20 monoclonal antibody that targets CD20-expressing B lymphocytes, has a well-defined efficacy and safety profile, and is broadly used to treat a wide array of diseases. In this review, we cover the mechanism of action of rituximab and focus on hypogammaglobulinemia and late-onset neutropenia-2 immune effects secondary to rituximab-and subsequent infection. We review risk factors and highlight key considerations for immunologic monitoring and clinical management of rituximab-induced secondary immune deficiencies. In patients treated with rituximab, monitoring for hypogammaglobulinemia and infections may help to identify the subset of patients at high risk for developing poor B cell reconstitution, subsequent infections, and adverse complications. These patients may benefit from early interventions such as vaccination, antibacterial prophylaxis, and immunoglobulin replacement therapy. Systematic evaluation of immunoglobulin levels and peripheral B cell counts by flow cytometry, both at baseline and periodically after therapy, is recommended for monitoring. In addition, in those patients with prolonged hypogammaglobulinemia and increased infections after rituximab use, immunologic evaluation for inborn errors of immunity may be warranted to further risk stratification, increase monitoring, and assist in therapeutic decision-making. As the immunologic effects of rituximab are further elucidated, personalized approaches to minimize the risk of adverse reactions while maximizing benefit will allow for improved care of patients with decreased morbidity and mortality.",
+   "journal": "Annals of allergy, asthma & immunology : official publication of the American College of Allergy, Asthma, & Immunology",
+   "year": "2023",
+   "doi": "10.1016/j.anai.2023.01.018",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36706910/"
+  },
+  {
+   "pmid": "29741753",
+   "title": "A tale of two antibodies: obinutuzumab versus rituximab.",
+   "abstract": "While rituximab has dramatically improved outcomes for patients with CD20+ malignancies for two decades, responses are not universal and resistance can develop. Obinutuzumab was developed to potentiate activity and overcome resistance. Pre-clinical data suggests obinutuzumab is superior to rituximab at effecting B cell depletion; however recent phase III clinical trial results have been mixed. The decision of which antibody to employ will probably be further complicated by the approval of a subcutaneous preparation of rituximab and several anti-CD20 biosimilars. Clinicians are now challenged with deciding whether to switch to obinutuzumab in approved settings, accepting the potential for increased toxicity and probable increased cost. The benefit conferred by obinutuzumab over rituximab may be context-specific and vary based on histological subtype and immune integrity. This comprehensive review will explore the preclinical differences, investigate the proposed pathogenesis of rituximab resistance, compare the employed dosing strategies and interrogate available clinical results to help inform practice.",
+   "journal": "British journal of haematology",
+   "year": "2018",
+   "doi": "10.1111/bjh.15232",
+   "publication_types": [
+    "Comparative Study",
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29741753/"
+  }
+ ]
+}

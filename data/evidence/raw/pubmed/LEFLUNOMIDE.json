@@ -1,0 +1,61 @@
+{
+ "drug": "LEFLUNOMIDE",
+ "status": "ok",
+ "query": "\"leflunomide\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:17:31+00:00",
+ "records": [
+  {
+   "pmid": "38605438",
+   "title": "The Second International Consensus Guidelines on the Management of BK Polyomavirus in Kidney Transplantation.",
+   "abstract": "BK polyomavirus (BKPyV) remains a significant challenge after kidney transplantation. International experts reviewed current evidence and updated recommendations according to Grading of Recommendations, Assessment, Development, and Evaluations (GRADE). Risk factors for BKPyV-DNAemia and biopsy-proven BKPyV-nephropathy include recipient older age, male sex, donor BKPyV-viruria, BKPyV-seropositive donor/-seronegative recipient, tacrolimus, acute rejection, and higher steroid exposure. To facilitate early intervention with limited allograft damage, all kidney transplant recipients should be screened monthly for plasma BKPyV-DNAemia loads until month 9, then every 3 mo until 2 y posttransplant (3 y for children). In resource-limited settings, urine cytology screening at similar time points can exclude BKPyV-nephropathy, and testing for plasma BKPyV-DNAemia when decoy cells are detectable. For patients with BKPyV-DNAemia loads persisting >1000 copies/mL, or exceeding 10 000 copies/mL (or equivalent), or with biopsy-proven BKPyV-nephropathy, immunosuppression should be reduced according to predefined steps targeting antiproliferative drugs, calcineurin inhibitors, or both. In adults without graft dysfunction, kidney allograft biopsy is not required unless the immunological risk is high. For children with persisting BKPyV-DNAemia, allograft biopsy may be considered even without graft dysfunction. Allograft biopsies should be interpreted in the context of all clinical and laboratory findings, including plasma BKPyV-DNAemia. Immunohistochemistry is preferred for diagnosing biopsy-proven BKPyV-nephropathy. Routine screening using the proposed strategies is cost-effective, improves clinical outcomes and quality of life. Kidney retransplantation subsequent to BKPyV-nephropathy is feasible in otherwise eligible recipients if BKPyV-DNAemia is undetectable; routine graft nephrectomy is not recommended. Current studies do not support the usage of leflunomide, cidofovir, quinolones, or IVIGs. Patients considered for experimental treatments (antivirals, vaccines, neutralizing antibodies, and adoptive T cells) should be enrolled in clinical trials.",
+   "journal": "Transplantation",
+   "year": "2024",
+   "doi": "10.1097/TP.0000000000004976",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38605438/"
+  },
+  {
+   "pmid": "40287311",
+   "title": "EULAR recommendations for use of antirheumatic drugs in reproduction, pregnancy, and lactation: 2024 update.",
+   "abstract": "OBJECTIVES: To update the existing European Alliance of Associations for Rheumatology (EULAR) points to consider (PtC) for use of antirheumatic drugs in reproduction, pregnancy, and lactation, including additional drugs and adverse outcomes as well as paternal drug safety.\nMETHODS: According to the EULAR standardised operating procedures, an international task force (TF) defined the questions for a systematic literature review, followed by formulation of the updated statements. A predefined voting process was applied to each overarching principle and statement. Level of evidence and strength of recommendation were assigned, and participants finally provided their level of agreement for each item.\nRESULTS: The TF proposes 5 overarching principles and 12 recommendations for the use of antirheumatic drugs before and during pregnancy, through lactation, and in male patients. The current evidence indicates that synthetic disease-modifying antirheumatic drugs (DMARDs) compatible with pregnancy include antimalarials, azathioprine, colchicine, cyclosporine, sulfasalazine, and tacrolimus. Regarding nonsteroidal anti-inflammatory drugs (NSAIDs) and glucocorticoids, a more restrictive approach to their use during pregnancy is recommended. Based on an individualised risk-benefit assessment, all tumour necrosis factor inhibitor (TNFi) biologic DMARDs (bDMARDs) can be used throughout pregnancy, and non-TNFi bDMARDs may be used if needed. In relation to lactation, compatible drugs include antimalarials, azathioprine, colchicine, cyclosporine, glucocorticoids, intravenous immunoglobulin (IVIG), NSAIDs, sulfasalazine, and tacrolimus. All bDMARDs are considered compatible with breastfeeding. Concerning the use of drugs in men, compatible options include antimalarials, azathioprine, colchicine, cyclosporine, IVIG, leflunomide, methotrexate, mycophenolate, NSAIDs, glucocorticoids, sildenafil, sulfasalazine, tacrolimus, and bDMARDs.\nCONCLUSIONS: The updated recommendations provide consensus guidance and will help to improve the quality of care of patients during the phases of reproduction, pregnancy, and lactation.",
+   "journal": "Annals of the rheumatic diseases",
+   "year": "2025",
+   "doi": "10.1016/j.ard.2025.02.023",
+   "publication_types": [
+    "Journal Article",
+    "Practice Guideline"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40287311/"
+  },
+  {
+   "pmid": "35057691",
+   "title": "The pharmacotherapeutics of sarcoidosis.",
+   "abstract": "INTRODUCTION: Sarcoidosis is a multi-system, inflammatory, and granulomatous disease that can damage multiple organs. Several drugs have been used to treat sarcoidosis, but few have randomized-controlled trials (RCTs) to understand their efficacy. This lack of RCTs and the heterogenous nature of sarcoidosis makes for a challenge to the provider caring for these patients.\nAREAS COVERED: Glucocorticoids remain the backbone of treatment of sarcoidosis. The side effect profile of glucocorticoids has resulted in the search for other sarcoid disease modifying drugs. This paper reviews the pharmacology, history, efficacy data, and adverse effects of alternative treatments. Most alternative sarcoidosis immune modulating treatments lack RCTs to evaluate their relative efficacy.\nEXPERT OPINION: Because of the variability of disease presentation and progression, the treatment of sarcoidosis is best managed by expert clinicians with a firm understanding of the pharmacology, pharmacokinetics, monitoring requirements, counter-indications, and adverse effects of agents used. More RCTs that compare agents in well-defined sarcoid subgroups are clearly needed.",
+   "journal": "Expert review of clinical pharmacology",
+   "year": "2022",
+   "doi": "10.1080/17512433.2022.2032657",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35057691/"
+  },
+  {
+   "pmid": "26888948",
+   "title": "The EULAR points to consider for use of antirheumatic drugs before pregnancy, and during pregnancy and lactation.",
+   "abstract": "A European League Against Rheumatism (EULAR) task force was established to define points to consider on use of antirheumatic drugs before pregnancy, and during pregnancy and lactation. Based on a systematic literature review and pregnancy exposure data from several registries, statements on the compatibility of antirheumatic drugs during pregnancy and lactation were developed. The level of agreement among experts in regard to statements and propositions of use in clinical practice was established by Delphi voting. The task force defined 4 overarching principles and 11 points to consider for use of antirheumatic drugs during pregnancy and lactation. Compatibility with pregnancy and lactation was found for antimalarials, sulfasalazine, azathioprine, ciclosporin, tacrolimus, colchicine, intravenous immunoglobulin and glucocorticoids. Methotrexate, mycophenolate mofetil and cyclophosphamide require discontinuation before conception due to proven teratogenicity. Insufficient documentation in regard to fetal safety implies the discontinuation of leflunomide, tofacitinib as well as abatacept, rituximab, belimumab, tocilizumab, ustekinumab and anakinra before a planned pregnancy. Among biologics tumour necrosis factor inhibitors are best studied and appear reasonably safe with first and second trimester use. Restrictions in use apply for the few proven teratogenic drugs and the large proportion of medications for which insufficient safety data for the fetus/child are available. Effective drug treatment of active inflammatory rheumatic disease is possible with reasonable safety for the fetus/child during pregnancy and lactation. The dissemination of the data to health professionals and patients as well as their implementation into clinical practice may help to improve the management of pregnant and lactating patients with rheumatic disease.",
+   "journal": "Annals of the rheumatic diseases",
+   "year": "2016",
+   "doi": "10.1136/annrheumdis-2015-208840",
+   "publication_types": [
+    "Consensus Statement",
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26888948/"
+  }
+ ]
+}

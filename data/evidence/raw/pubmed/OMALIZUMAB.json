@@ -1,0 +1,61 @@
+{
+ "drug": "OMALIZUMAB",
+ "status": "ok",
+ "query": "\"omalizumab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:05+00:00",
+ "records": [
+  {
+   "pmid": "39542143",
+   "title": "Omalizumab safety concerns.",
+   "abstract": "IgE and mast cells play key roles in the pathophysiology of allergic diseases. In 2003, omalizumab was the first anti-IgE mAb licensed in the United States when initially US Food and Drug Administration-approved for the treatment of allergic asthma. Since that time, the number of US Food and Drug Administration-approved indications for treatment with omalizumab has grown to include chronic spontaneous urticaria, chronic rhinosinusitis with nasal polyps, and food allergy. Although omalizumab is generally considered relatively safe and well tolerated, a number of safety concerns have been raised since its initial approval. These concerns focus on specific adverse events of interest, including anaphylaxis, pregnancy, malignancy, cardiovascular events, and infections. For each of these issues, data from clinical trials and postmarketing surveillance have been evaluated extensively. In this review, we examine these safety data, provide context for safety and risk assessments, and summarize a safety profile for each of the adverse events of interest. In doing so, we aim to provide a resource for shared decision making when treatment with omalizumab is being considered.",
+   "journal": "The Journal of allergy and clinical immunology",
+   "year": "2025",
+   "doi": "10.1016/j.jaci.2024.11.005",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39542143/"
+  },
+  {
+   "pmid": "35266897",
+   "title": "Cow's milk allergy.",
+   "abstract": "PURPOSE OF REVIEW: To highlight the most recent insights on cow's milk allergy (CMA), its treatment, and management.\nRECENT FINDINGS: CMA is one of the most common food allergies among children. Burdened by the risk for fatal reaction, CMA may imply also a severe impairment of health-related quality of life at individual and family level as well as well as individual and societal costs. The updated Diagnosis and Rationale for Action against Cow's Milk Allergy series is going to provide a series of manuscripts that will offer a comprehensive state-of-the-art specifically on CMA, including international evidence-based recommendations. The current results from randomized clinical trials highlight that oral immunotherapy may be effective by itself in providing desensitization. Preliminary data suggest that biologicals such as omalizumab may be able to increase the threshold of reactivity to milk or several foods (if multiple food allergies) without requiring allergen exposure. Breastfeeding is the first choice for infants with CMA. Extensively hydrolyzed formula and amino-acid formula are valid alternatives and may be particularly helpful when eliminating multiple foods, with severe complex gastrointestinal food allergies, eosinophilic esophagitis, severe eczema, or symptoms while exclusively breastfeeding. Heed is needed to ensure the formula is nutritionally sufficient. Due to a high degree of cross-reactivity with cow's milk proteins and risk for allergic reactions, goats' milk or other mammals' milk should not be used.\nSUMMARY: The adoption and implementation of evidence-based recommendations may guide a proper diagnostics and management and awaited advances in knowledge will allow the development of a personalized treatment tailored on the specific CMA patient's profile.",
+   "journal": "Current opinion in allergy and clinical immunology",
+   "year": "2022",
+   "doi": "10.1097/ACI.0000000000000823",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35266897/"
+  },
+  {
+   "pmid": "40099886",
+   "title": "Adverse effects of biologics used to treat asthma.",
+   "abstract": "In this review, we discuss the risks and adverse effects reported for the current Food and Drug Association (FDA)-approved biologics used in the management of asthma, including omalizumab, benralizumab, dupilumab, mepolizumab, reslizumab, and tezepelumab. Our review focuses on the risk of hypersensitivity reactions, infection, and malignancy. Where relevant, we have included information regarding the risk of cardiovascular disease and eosinophilia, and we have included specific information regarding vaccine use among patients receiving the above biologics. We also review currently available data regarding the use of biologics in the context of pregnancy. Our goal is to provide a comprehensive resource for providers utilizing these agents, so that they may adequately counsel patients about the risks of therapy and identify adverse events if they occur.",
+   "journal": "Therapeutic advances in respiratory disease",
+   "year": "2025",
+   "doi": "10.1177/17534666251319175",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40099886/"
+  },
+  {
+   "pmid": "26612794",
+   "title": "Solar urticaria.",
+   "abstract": "Solar urticaria is a rare IgE-mediated and chromophore-dependent photodermatosis. In some cases, these chromophores, designated as \"serum factor\", may be detected in serum or plasma. To date, the exact pathogenesis of solar urticaria has, however, not been elucidated. Typical clinical features include the onset of urticarial lesions within a few minutes after light exposure, which already raises diagnostic suspicion. The most common triggers are UVA and visible light. Determination of the action spectrum as well as the minimal urticarial dose (MDU) is diagnostically crucial. Other photodermatoses such as polymorphic light eruption or porphyrias (especially erythropoietic protoporphyria) have to be ruled out. Apart from sunlight avoidance, which is always required, further therapeutic options used include nonsedating antihistamines as well as light hardening. Newer treatment modalities such as plasmapheresis or the anti-IgE antibody omalizumab are reserved for severe, recalcitrant forms of solar urticaria.",
+   "journal": "Journal der Deutschen Dermatologischen Gesellschaft = Journal of the German Society of Dermatology : JDDG",
+   "year": "2015",
+   "doi": "10.1111/ddg.12809",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26612794/"
+  }
+ ]
+}

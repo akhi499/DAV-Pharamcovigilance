@@ -1,0 +1,60 @@
+{
+ "drug": "FLUOROURACIL",
+ "status": "ok",
+ "query": "\"fluorouracil\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:17:40+00:00",
+ "records": [
+  {
+   "pmid": "32061473",
+   "title": "Chemotherapy-associated steatohepatitis.",
+   "abstract": "Some drugs may induce hepatotoxic lesions, such as steatosis or steatohepatitis found in Non-Alcoholic Fatty Liver Disease (NAFLD). Among these drugs there are some anti-tumoral molecules, such as methotrexate, 5-fluorouracil, irinotecan, tamoxifen and l-asparaginase. The hepatotoxic phenotype developed from treatment with such drugs is known as \"CASH\" for \"Chemotherapy-induced Acute Steatohepatitis\". The mechanism of toxicity is essentially based on mitochondrial toxicity. These lesions are chronic and often reversible when the treatment is stopped. Contributing factors related to the patient, the disease or the treatment play a major role in the emergence of CASH. It is important to identify chemotherapies with steatosis or steatohepatitis as risk factors in order to improve control of the metabolic risk factors associated with the patient and to reinforce monitoring during treatment. In the particular context of neo-adjuvant chemotherapy for metastatic colorectal cancer, a short duration of chemotherapy and a few-weeks delay between chemotherapy and surgery could reduce postoperative morbidity and mortality.",
+   "journal": "Annals of hepatology",
+   "year": "2020",
+   "doi": "10.1016/j.aohep.2019.11.012",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32061473/"
+  },
+  {
+   "pmid": "29548480",
+   "title": "Fluoropyrimidine-induced cardiotoxicity.",
+   "abstract": "Fluoropyrimidines (5-fluorouracil and capecitabine) are antimetabolite drugs, widely used for the treatment of a variety of cancers, both in adjuvant and in metastatic setting. Although the most common toxicities of these drugs have been extensively studied, robust data and comprehensive characterization still lack concerning fluoropyrimidine-induced cardiotoxicity (FIC), an infrequent but potentially life-threatening toxicity. This review summarizes the current state of knowledge of FIC with special regard to proposed pathogenetic models (coronary vasospasm, endothelium and cardiomyocytes damage, toxic metabolites, dihydropyrimidine dehydrogenase deficiency); risk and predictive factors; efficacy and usefulness in detection of laboratory markers, electrocardiographic changes and cardiac imaging; and specific treatment, including a novel agent, uridine triacetate. The role of alternative chemotherapeutic options, namely raltitrexed and TAS-102, is discussed, and, lastly, we overview the most promising future directions in the research on FIC and development of diagnostic tools, including microRNA technology.",
+   "journal": "Critical reviews in oncology/hematology",
+   "year": "2018",
+   "doi": "10.1016/j.critrevonc.2018.02.002",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29548480/"
+  },
+  {
+   "pmid": "32012240",
+   "title": "Current therapies for actinic keratosis.",
+   "abstract": "Actinic keratosis (AK) is a very common skin disease caused by chronic sun damage, which in 75% of cases arises on chronically sun-exposed areas, such as face, scalp, neck, hands, and forearms. AKs must be considered an early squamous cell carcinoma (SCC) for their probable progression into invasive SCC. For this reason, all AK should be treated, and clinical follow-up is recommended. The aims of treatment are: (i) to clinically eradicate evident and subclinical lesions, (ii) to prevent their evolution into SCC, and (iii) to reduce the number of relapses. Among available treatments, it is possible to distinguish lesion-directed therapies and field-directed therapies. Lesion-directed treatments include: (i) cryotherapy; (ii) laser therapy; (iii) surgery; and (iv) curettage. Whereas, field-directed treatments are: (i) 5-fluorouracil (5-FU); (ii) diclofenac 3% gel; (iii) chemical peeling; (iv) imiquimod; and (v) photodynamic therapy (PDT). Prevention plays an important role in the treatment of AKs, and it is based on the continuous use of sunscreen and protective clothing. This review shows different types of available treatments and describes the characteristics and benefits of each medication, underlining the best choice.",
+   "journal": "International journal of dermatology",
+   "year": "2020",
+   "doi": "10.1111/ijd.14767",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32012240/"
+  },
+  {
+   "pmid": "28270698",
+   "title": "Gut microbiota modulation of chemotherapy efficacy and toxicity.",
+   "abstract": "Evidence is growing that the gut microbiota modulates the host response to chemotherapeutic drugs, with three main clinical outcomes: facilitation of drug efficacy; abrogation and compromise of anticancer effects; and mediation of toxicity. The implication is that gut microbiota are critical to the development of personalized cancer treatment strategies and, therefore, a greater insight into prokaryotic co-metabolism of chemotherapeutic drugs is now required. This thinking is based on evidence from human, animal and in vitro studies that gut bacteria are intimately linked to the pharmacological effects of chemotherapies (5-fluorouracil, cyclophosphamide, irinotecan, oxaliplatin, gemcitabine, methotrexate) and novel targeted immunotherapies such as anti-PD-L1 and anti-CLTA-4 therapies. The gut microbiota modulate these agents through key mechanisms, structured as the 'TIMER' mechanistic framework: Translocation, Immunomodulation, Metabolism, Enzymatic degradation, and Reduced diversity and ecological variation. The gut microbiota can now, therefore, be targeted to improve efficacy and reduce the toxicity of current chemotherapy agents. In this Review, we outline the implications of pharmacomicrobiomics in cancer therapeutics and define how the microbiota might be modified in clinical practice to improve efficacy and reduce the toxic burden of these compounds.",
+   "journal": "Nature reviews. Gastroenterology & hepatology",
+   "year": "2017",
+   "doi": "10.1038/nrgastro.2017.20",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28270698/"
+  }
+ ]
+}

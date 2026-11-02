@@ -1,0 +1,62 @@
+{
+ "drug": "DAPAGLIFLOZIN",
+ "status": "ok",
+ "query": "\"dapagliflozin\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:16:28+00:00",
+ "records": [
+  {
+   "pmid": "40884036",
+   "title": "Dapagliflozin in Patients Hospitalized for Heart Failure: Primary Results of the DAPA ACT HF-TIMI 68 Randomized Clinical Trial and Meta-Analysis of Sodium-Glucose Cotransporter-2 Inhibitors in Patients Hospitalized for Heart Failure.",
+   "abstract": "BACKGROUND: SGLT2 (sodium-glucose cotransporter-2) inhibitors reduce the risk of cardiovascular death or worsening heart failure (HF) in outpatients with HF. Data on initiation in patients hospitalized for HF are limited.\nMETHODS: We conducted a randomized, double-blind, placebo-controlled trial evaluating the efficacy and safety of in-hospital initiation of dapagliflozin (10 mg daily) in patients hospitalized for HF. The primary efficacy outcome was a composite of time to cardiovascular death or worsening HF through 2 months. Key safety outcomes included symptomatic hypotension and worsening kidney function. A prespecified meta-analysis of randomized trials evaluating initiation of SGLT2 inhibitors in patients hospitalized for HF was performed.\nRESULTS: Of 2401 patients (median age, 69 [Q1-Q3, 58-77] years, 815 [33.9%] women, 448 [18.7%] Black race, 1717 [71.5%] left ventricular ejection fraction ≤40%, 1074 [44.7%] newly diagnosed HF) randomized between September 2020 and March 2025, 1218 were assigned to dapagliflozin and 1183 to placebo. The primary outcome occurred in 133 patients (10.9%) in the dapagliflozin group and 150 (12.7%) in the placebo group (hazard ratio [HR], 0.86 [95% CI, 0.68-1.08]; P=0.20). A worsening HF event occurred in 115 (9.4%) and 122 (10.3%) patients in the dapagliflozin and placebo groups, respectively (HR, 0.91 [95% CI, 0.71-1.18]). Cardiovascular death occurred in 30 (2.5%) and 37 (3.1%) patients (HR, 0.78 [95% CI, 0.48-1.27]), and death from any cause occurred in 36 (3.0%) and 53 (4.5%) patients in the dapagliflozin and placebo groups, respectively (HR, 0.66 [95% CI, 0.43-1.00]). The rates of symptomatic hypotension were 3.6% and 2.2%, and the rates of worsening kidney function were 5.9% and 4.7% with dapagliflozin and placebo, respectively. In a meta-analysis of patients hospitalized for HF, SGLT2 inhibitors reduced the early risk of cardiovascular death or worsening HF (HR, 0.71 [95% CI, 0.54-0.93] P=0.012) and of all-cause death (HR, 0.57 [95% CI, 0.41-0.80]; P=0.001).\nCONCLUSIONS: In this trial, in-hospital initiation of dapagliflozin did not significantly reduce the risk of cardiovascular death or worsening HF through 2 months in hospitalized HF patients. However, the totality of randomized clinical trial data suggests that in-hospital initiation of SGLT2 inhibitors may reduce the early risk of cardiovascular death or worsening HF and of all-cause mortality.\nREGISTRATION: URL: https://www.clinicaltrials.gov; Unique identifier: NCT04363697.",
+   "journal": "Circulation",
+   "year": "2025",
+   "doi": "10.1161/CIRCULATIONAHA.125.076575",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Randomized Controlled Trial"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40884036/"
+  },
+  {
+   "pmid": "31236801",
+   "title": "Dapagliflozin: A Review in Type 2 Diabetes.",
+   "abstract": "Dapagliflozin (Forxiga®) is a highly potent, reversible and selective sodium-glucose cotransporter-2 inhibitor indicated worldwide for the treatment of type 2 diabetes (T2D). In the EU, oral dapagliflozin once daily is approved for use as monotherapy (in patients who are intolerant of metformin) and as add-on combination therapy (with other glucose-lowering agents, including insulin) for T2D when diet and exercise alone do not provide adequate glycaemic control. In numerous well-designed clinical studies and their extensions, dapagliflozin as monotherapy and combination therapy with other antihyperglycaemic agents provided effective glycaemic control and reduced bodyweight and blood pressure (BP) across a broad spectrum of patients. Dapagliflozin reduced the rate of cardiovascular (CV) death or hospitalization for heart failure (HHF), did not adversely affect major adverse CV events (MACE) and possibly reduced progression of renal disease relative to placebo in patients with established atherosclerotic CV disease (CVD) or multiple risk factors for CVD. Dapagliflozin was generally well tolerated, with a low risk of hypoglycaemia; diabetic ketoacidosis (DKA), although rare, and genital infections were more common with dapagliflozin than placebo. Given its antihyperglycaemic, cardioprotective and possibly renoprotective properties and generally favourable tolerability profile, dapagliflozin provides an important option for the management of a broad patient population, regardless of the history of CVD.",
+   "journal": "Drugs",
+   "year": "2019",
+   "doi": "10.1007/s40265-019-01148-3",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31236801/"
+  },
+  {
+   "pmid": "32877652",
+   "title": "SGLT2 inhibitors in patients with heart failure with reduced ejection fraction: a meta-analysis of the EMPEROR-Reduced and DAPA-HF trials.",
+   "abstract": "BACKGROUND: Both DAPA-HF (assessing dapagliflozin) and EMPEROR-Reduced (assessing empagliflozin) trials showed that sodium-glucose co-transporter-2 (SGLT2) inhibition reduced the combined risk of cardiovascular death or hospitalisation for heart failure in patients with heart failure with reduced ejection fraction (HFrEF) with or without diabetes. However, neither trial was powered to assess effects on cardiovascular death or all-cause death or to characterise effects in clinically important subgroups. Using study-level published data from DAPA-HF and patient-level data from EMPEROR-Reduced, we aimed to estimate the effect of SGLT2 inhibition on fatal and non-fatal heart failure events and renal outcomes in all randomly assigned patients with HFrEF and in relevant subgroups from DAPA-HF and EMPEROR-Reduced trials.\nMETHODS: We did a prespecified meta-analysis of the two single large-scale trials assessing the effects of SGLT2 inhibitors on cardiovascular outcomes in patients with HFrEF with or without diabetes: DAPA-HF (assessing dapagliflozin) and EMPEROR-Reduced (assessing empagliflozin). The primary endpoint was time to all-cause death. Additionally, we assessed the effects of treatment in prespecified subgroups on the combined risk of cardiovascular death or hospitalisation for heart failure. These subgroups were based on type 2 diabetes status, age, sex, angiotensin receptor neprilysin inhibitor (ARNI) treatment, New York Heart Association (NYHA) functional class, race, history of hospitalisation for heart failure, estimated glomerular filtration rate (eGFR), body-mass index, and region (post-hoc). We used hazard ratios (HRs) derived from Cox proportional hazard models for time-to-first event endpoints and Cochran's Q test for treatment interactions; the analysis of recurrent events was based on rate ratios derived from the Lin-Wei-Yang-Ying model.\nFINDINGS: Among 8474 patients combined from both trials, the estimated treatment effect was a 13% reduction in all-cause death (pooled HR 0·87, 95% CI 0·77-0·98; p=0·018) and 14% reduction in cardiovascular death (0·86, 0·76-0·98; p=0·027). SGLT2 inhibition was accompanied by a 26% relative reduction in the combined risk of cardiovascular death or first hospitalisation for heart failure (0·74, 0·68-0·82; p<0·0001), and by a 25% decrease in the composite of recurrent hospitalisations for heart failure or cardiovascular death (0·75, 0·68-0·84; p<0·0001). The risk of the composite renal endpoint was also reduced (0·62, 0·43-0·90; p=0·013). All tests for heterogeneity of effect size between trials were not significant. The pooled treatment effects showed consistent benefits for subgroups based on age, sex, diabetes, treatment with an ARNI and baseline eGFR, but suggested treatment-by-subgroup interactions for subgroups based on NYHA functional class and race.\nINTERPRETATION: The effects of empagliflozin and dapagliflozin on hospitalisations for heart failure were consistent in the two independent trials and suggest that these agents also improve renal outcomes and reduce all-cause and cardiovascular death in patients with HFrEF.\nFUNDING: Boehringer Ingelheim.",
+   "journal": "Lancet (London, England)",
+   "year": "2020",
+   "doi": "10.1016/S0140-6736(20)31824-9",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32877652/"
+  },
+  {
+   "pmid": "39952695",
+   "title": "Emerging pharmacotherapies for obesity: A systematic review.",
+   "abstract": "The history of antiobesity pharmacotherapies is marked by disappointments, often entangled with societal pressure promoting weight loss and the prevailing conviction that excess body weight signifies a lack of willpower. However, categories of emerging pharmacotherapies generate hope to reduce obesity rates. This systematic review of phase 2 and phase 3 trials in adults with overweight/obesity investigates the effect of novel weight loss pharmacotherapies, compared to placebo/control or US Food and Drug Administration-approved weight loss medication, through searching Medline, Embase, and ClinicalTrials.gov (2012-2024). We identified 53 phase 3 and phase 2 trials, with 36 emerging antiobesity drugs or combinations thereof and 4 withdrawn or terminated trials. Oral semaglutide 50 mg is the only medication that has completed a phase 3 trial. There are 14 ongoing phase 3 trials on glucagon-like peptide-1 (GLP-1) receptor agonists (RAs) (ecnoglutide, orforglipron, and TG103), GLP-1 RA/amylin agonist (CagriSema), GLP-1/glucagon RAs (mazdutide and survodutide), GLP-1/glucose-dependent insulinotropic polypeptide and glucagon RA (retatrutide), dapagliflozin, and the combination sibutramine/topiramate. Completed phase 2 trials on incretin-based therapies showed a mean percent weight loss of 7.4% to 24.2%. Almost half of the drugs undergoing phase 2 trials are incretin analogs. The obesity drug pipeline is expanding rapidly, with the most promising results reported with incretin analogs. Data on mortality and obesity-related complications, such as cardio-renal-metabolic events, are needed. Moreover, long-term follow-up data on the safety and efficacy of weight maintenance with novel obesity pharmacotherapies, along with studies focused on underrepresented populations, cost-effectiveness assessments, and drug availability, are needed to bridge the care gap for patients with obesity. SIGNIFICANCE STATEMENT: Obesity is the epidemic of the 21st century. Except for the newer injectable medications, drugs with suboptimal efficacy have been available in the clinician's armamentarium for weight management. However, emerging alternatives of novel agents and combinations populate the current obesity therapeutic pipeline. This systematic review identifies the state and mechanism of action of emerging pharmacotherapies undergoing or having completed phase 2 and phase 3 clinical trials. The information provided herein furthers the understanding of obesity management, implying direct clinical implications and stimulating research initiatives.",
+   "journal": "Pharmacological reviews",
+   "year": "2025",
+   "doi": "10.1124/pharmrev.123.001045",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39952695/"
+  }
+ ]
+}

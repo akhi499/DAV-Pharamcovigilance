@@ -1,0 +1,22 @@
+{
+ "drug": "ALENDRONATE SODIUM",
+ "status": "ok",
+ "query": "\"alendronate sodium\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:19:03+00:00",
+ "records": [
+  {
+   "pmid": "39450481",
+   "title": "Long-term administration of alendronate sodium caused an atypical femoral shaft fracture in a 36-year-old woman: a case report and literature review.",
+   "abstract": "Long-term bisphosphonate therapy is associated with atypical or insufficiency fractures, particularly in the proximal femur. We observed a case of an atypical femoral shaft fracture in a patient with a long-term history of alendronate therapy. A 36-year-old woman was admitted with a complaint of pain in her right mid-thigh following low-energy trauma. She had been taking alendronate for more than 15 years. X-rays indicated a fracture of the right femoral shaft. The patient was treated with proximal femoral nail antirotation (PFNA) fixation. This case highlights concerns regarding long-term bisphosphonate therapy and its potential complications.",
+   "journal": "The Journal of international medical research",
+   "year": "2024",
+   "doi": "10.1177/03000605241286650",
+   "publication_types": [
+    "Journal Article",
+    "Case Reports",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39450481/"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "drug": "ABEMACICLIB",
+ "status": "ok",
+ "query": "\"abemaciclib\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:19:52+00:00",
+ "records": [
+  {
+   "pmid": "37586898",
+   "title": "Dermatologic toxicities to inhibitors of cyclin-dependent kinases CDK 4 and 6: An updated review for clinical practice.",
+   "abstract": "Cyclin-dependent kinase (CDK) 4/6 inhibitors (palbociclib, ribociclib and abemaciclib) have revolutionized the treatment of metastatic breast carcinoma. They currently form the first-line treatment, in combination with endocrine agents, for the management of locally advanced or metastatic hormone receptor-positive (HR + ), human epidermal growth factor receptor 2-negative (HER2-) breast cancer, the largest subtype of breast carcinoma. CDK 4/6 inhibitors have shown comparable efficacy outcomes with predictable and manageable adverse events. In this setting, dermatologic toxicity appears to be relatively frequent, accounting for up to 15% of all reported adverse events. It is usually mild to moderate in intensity and does not normally constitute a dose-limiting toxicity. The range of dermatologic adverse events includes both non-specific entities (maculopapular rash, pruritus, alopecia) and more characteristic toxicities related to CDK4/6 inhibitors, such as vitiligo-like lesions or cutaneous lupus erythematosus. Finally, more severe or life-threatening skin reactions can occasionally occur. The main dermatologic manifestations associated with CDK4/6 inhibitors, as well as management thereof, are described in this comprehensive review.",
+   "journal": "Annales de dermatologie et de venereologie",
+   "year": "2023",
+   "doi": "10.1016/j.annder.2022.11.013",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37586898/"
+  },
+  {
+   "pmid": "29128965",
+   "title": "Abemaciclib: First Global Approval.",
+   "abstract": "Abemaciclib (Verzenio™) is an orally administered inhibitor of cyclin-dependent kinases 4 and 6 that is being developed by Eli Lilly and Company. Abemaciclib has been approved in the USA for the treatment of hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative advanced or metastatic breast cancer, in combination with fulvestrant in women with disease progression following endocrine therapy, and as monotherapy in adult patients with disease progression following endocrine therapy and prior chemotherapy in the metastatic setting. In addition, abemaciclib is in various stages of development internationally for a variety of cancers. This article summarizes the milestones in the development of abemaciclib leading to its first approval for the treatment of patients with HR-positive, HER2-negative advanced or metastatic breast cancer.",
+   "journal": "Drugs",
+   "year": "2017",
+   "doi": "10.1007/s40265-017-0840-z",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29128965/"
+  },
+  {
+   "pmid": "32026050",
+   "title": "Dedifferentiated Liposarcoma: Systemic Therapy Options.",
+   "abstract": "Over the last several years, the systemic treatment landscape for dedifferentiated liposarcoma (DDLPS) has notably expanded. Historically, systemic therapy options have been limited to cytotoxic chemotherapy agents, including doxorubicin, ifosfamide, gemcitabine, and docetaxel, that were shown to have efficacy in unselected populations of patients with soft tissue sarcomas. More recently, however, there have been phase II and III trials establishing clinical benefit of the cytotoxic agents trabectedin and eribulin along with the tyrosine kinase inhibitor pazopanib in patients with advanced liposarcoma and DDLPS. Additionally, there are several investigational targeted therapies that have incorporated advances in the understanding of DDLPS disease biology, exploiting the fact that nearly all such tumors include highly amplified expression of MDM2 and CDK4. Recent clinical trials have supported the benefit of the CDK4 inhibitor abemaciclib and the nuclear export inhibitor selinexor and support continued development of anti-MDM2 therapies, with particular attention to the bone marrow toxicity and resultant thrombocytopenia that has thus far limited their use. In contrast, the checkpoint inhibitors pembrolizumab and nivolumab remain of questionable benefit, although these immunotherapy drugs may have a role when combined with other therapeutic agents. Ongoing phase III trials will clarify the role of these novel agents. Future directions include directly comparing current standard-of-care options and newer therapies, developing synergistic combinations of novel agents, and evaluating their role in patients with localized DDLPS.",
+   "journal": "Current treatment options in oncology",
+   "year": "2020",
+   "doi": "10.1007/s11864-020-0705-7",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32026050/"
+  },
+  {
+   "pmid": "40367730",
+   "title": "Drug-Drug interactions and special considerations in breast cancer patients treated with CDK4/6 inhibitors: A comprehensive review.",
+   "abstract": "Cyclin-dependent kinase 4/6 inhibitors (CDK4/6i) have reshaped the treatment paradigm of hormone receptor positive (HR + )/HER2-negative breast cancer in both adjuvant and metastatic settings. However, their metabolism via the cytochrome P450 (CYP3A4) pathway poses a high risk of clinically relevant drug-drug interactions (DDIs), requiring vigilant therapeutic strategies. This review provides a comprehensive analysis of the pharmacokinetics, metabolism, and interaction profiles of palbociclib, ribociclib, and abemaciclib, emphasizing their differential DDI risks. Among these agents, ribociclib has been associated with a higher risk of QTc prolongation and CYP3A4-mediated interactions in some studies, whereas abemaciclib demonstrates a relatively favorable DDI profile. However, data remain limited and are largely derived from indirect comparisons or pharmacovigilance analyses. We further examine the clinical implications of drug-drug interactions with frequently co-prescribed agents, including proton pump inhibitors, antifungal medications, anticoagulants, and lipid-lowering therapies. Practical recommendations regarding drug selection, therapeutic drug monitoring, and dose adjustment are discussed with attention to the individual characteristics of each CDK4/6i. Dose modifications and monitoring in patients with renal or hepatic impairment are also discussed. Emerging pharmacogenomic data suggest that genetic polymorphisms in CYP3A4 and ABCG2 influence drug exposure and toxicity, reinforcing the need for personalized treatment approaches. As the use of CDK4/6i expands across different breast cancer settings, addressing DDIs through precision medicine strategies such as pharmacogenomic profiling, physiologically based pharmacokinetic modeling, and artificial intelligence-guided clinical support will be essential to personalize therapy and optimize safety.",
+   "journal": "Cancer treatment reviews",
+   "year": "2025",
+   "doi": "10.1016/j.ctrv.2025.102956",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40367730/"
+  }
+ ]
+}

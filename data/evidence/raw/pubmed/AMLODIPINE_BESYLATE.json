@@ -1,0 +1,60 @@
+{
+ "drug": "AMLODIPINE BESYLATE",
+ "status": "ok",
+ "query": "\"amlodipine besylate\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:16:17+00:00",
+ "records": [
+  {
+   "pmid": "30362840",
+   "title": "Amlodipine and celecoxib for treatment of hypertension and osteoarthritis pain.",
+   "abstract": "Osteoarthritis constitutes one of the leading causes of pain and disability worldwide with a significant impact on health-care costs. Patients with osteoarthritis are often affected by a number of cardiovascular comorbidities, including hypertension, which is present in about 40% of cases. Just recently, a single tablet combination of amlodipine besylate, a calcium channel blocker, and celecoxib, a nonsteroidal anti-inflammatory drug, indicated for patients for whom treatment with amlodipine for hypertension and celecoxib for osteoarthritis are appropriate, has been recently approved. Areas covered: We reviewed data from clinical studies that investigated safety and efficacy of the combination of amlodipine and celecoxib in hypertensive patients with osteoarthritis published before 31 August 2018. The literature search was conducted using research Methodology Filters. Expert commentary: The advantages of this single formulation over sequential administration include increased compliance, possibly reduced cost, and less likelihood of dosage-related issues. Moreover, this single tablet formulation combines the anti-inflammatory activity of the celecoxib with the systemic vasodilatation induced by the amlodipine. It is a promising treatment for patients with osteoarthritis and hypertension. Nevertheless, celecoxib may cause a variable degree of blood pressure increase and only a small clinical trial has been conducted before approval to assess interactions related to blood pressure effect between these two molecules.",
+   "journal": "Expert review of clinical pharmacology",
+   "year": "2018",
+   "doi": "10.1080/17512433.2018.1540299",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30362840/"
+  },
+  {
+   "pmid": "29065722",
+   "title": "Perindopril arginine and amlodipine besylate for hypertension: a safety evaluation.",
+   "abstract": "Controlling blood pressure is a global health priority; single-pill antihypertensive combinations may improve adherence, persistence, and outcomes. Areas covered: A novel combination of perindopril arginine and amlodipine besylate was recently approved. A systematic review of the literature revealed its most common adverse effects as: peripheral edema (depending on the dose of amlodipine, but attenuated by perindopril), cough, dizziness and hypotension. Dose-dependent hyperkalemia, impairment of renal function (especially in renovascular hypertension), angioedema, and teratogenicity were derived from experience with other ACE-inhibitors. Expert opinion: Substantial clinical trial experience with amlodipine or perindopril suggests that these two agents effectively lower blood pressure, and can reduce the risk of major adverse cardiovascular events, as in the Anglo-Scandinavian Cardiac Outcomes Trial. The incidence of adverse effects reported in clinical trials is lower than expected, likely due to exclusion of subjects previously exposed to its components; the nature of open-label, uncontrolled observational studies; and difficulty in recognizing and measuring cough and pedal edema. This new formulation of perindopril arginine protects its ethyl ester, without requiring physical separation from amlodipine in a single tablet, and is less hygroscopic than perindopril erbumine. These and other attributes may make this combination an attractive addition to the antihypertensive armamentarium.",
+   "journal": "Expert opinion on drug safety",
+   "year": "2018",
+   "doi": "10.1080/14740338.2018.1397129",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29065722/"
+  },
+  {
+   "pmid": "26341621",
+   "title": "Perindopril/amlodipine (Prestalia(®)): a review in hypertension.",
+   "abstract": "Perindopril, an ACE inhibitor, and amlodipine, a dihydropyridine calcium channel blocker, are established antihypertensive agents with complementary mechanisms of action. Recently, a once-daily, orally-administered, fixed-dose combination (FDC) of perindopril arginine plus amlodipine besylate (Prestalia(®); hereafter referred to as perindopril/amlodipine FDC) was approved in the USA for the treatment of hypertension. This article reviews the efficacy and tolerability of perindopril/amlodipine FDC and briefly summarizes the agent's pharmacologic properties. As demonstrated in short-term randomized controlled trials, perindopril/amlodipine FDC was significantly more effective in reducing blood pressure (BP) than monotherapy with either of the component drugs, and it appeared to be more effective than an up-titration scheme using valsartan and valsartan/amlodipine. The FDC agent was generally well tolerated, with the most common adverse events (peripheral edema, cough, headache, and dizziness) being consistent with the well-defined tolerability profiles of the individual component drugs. Furthermore, perindopril/amlodipine FDC was associated with a numerically lower incidence of peripheral edema compared with amlodipine monotherapy. Thus, perindopril/amlodipine FDC represents a useful option for the treatment of hypertension, including as initial therapy for patients likely to require multiple drugs to achieve their BP targets.",
+   "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventions",
+   "year": "2015",
+   "doi": "10.1007/s40256-015-0144-1",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26341621/"
+  },
+  {
+   "pmid": "28608025",
+   "title": "Triple Combination Therapies Based on Olmesartan: A Personalized Therapeutic Approach to Improve Blood Pressure Control.",
+   "abstract": "Recent epidemiological surveys have demonstrated that effective and sustained blood pressure (BP) control is achieved in a relatively small proportion of treated hypertensive patients. Indeed, treatment of hypertension represents a key strategy for preventing coronary artery disease, stroke, congestive heart failure and cardiovascular death. Several interventions have been proposed by international guidelines for ameliorating hypertension management and control, mostly including integrated and multi-dimensional pharmacological and non-pharmacological strategies. In particular, numerous evidence demonstrated that a more extensive use of combination therapy may represent a valid therapeutic option for treating hypertensive patients at different risk profile. This strategy has been definitely strengthened by the availability of single pill fixed-dose combinations. Among potential combination therapies, those based on the association of renin-angiotensin system antagonists, thiazide diuretics and calcium channel blockers are very effective in lowering BP levels and well tolerated. We will provide here an overview of clinical evidence supporting the use of triple combination therapy, with a focus on that based on olmesartan medoxomil, a thiazide diuretic (hydrochlorothiazide) and a calcium channel blocker (amlodipine besylate), which is available in multiple dosages. Finally, in view of the recognised importance of single-pill combination therapy for treating hypertension, we will examine the potential benefits of dual (fixed) combination therapy based on olmesartan medoxomil with either thiazide diuretic hydrochlorothiazide or calcium channel blocker amlodipine in terms of efficacy, safety and tolerability profile.",
+   "journal": "High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension",
+   "year": "2017",
+   "doi": "10.1007/s40292-017-0217-0",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28608025/"
+  }
+ ]
+}

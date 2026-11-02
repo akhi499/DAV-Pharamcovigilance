@@ -1,0 +1,62 @@
+{
+ "drug": "POMALIDOMIDE",
+ "status": "ok",
+ "query": "\"pomalidomide\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:51+00:00",
+ "records": [
+  {
+   "pmid": "32510610",
+   "title": "On point in primary CNS lymphoma.",
+   "abstract": "Primary CNS lymphoma (PCNSL) is an aggressive brain tumor that represents a significant challenge both to elucidate its biological pathogenesis as well as to develop definitive precision medicines with minimal collateral toxicity. We highlight the key issues in diagnosis and treatment and focus on emerging technologies, current options among consolidation strategies, and biological agents. We anticipate that further development of molecular diagnostics and molecular imaging approaches that elucidate minimal residual disease in brain parenchyma, leptomeninges, intraocular compartments and even bone marrow will greatly impact the delivery and timing of cytotoxic and biological therapies. Implementation of these approaches is likely essential to clarify ongoing discrepancies in the interpretation of clinical trial results that currently are based on relatively unrefined definitions of response. While the results of early phase investigations involving ibrutinib and the IMiD agents, lenalidomide, pomalidomide, as well as avadomide, strongly support the hypothesis that the B-cell receptor (BCR) pathway, involving MYD88 and CD79B and NF-kB activation, is critical to the pathogenesis of PCNSL, much work is needed to elucidate mechanisms of resistance. Similarly, development of strategies to overcome immunosuppressive mechanisms that are upregulated in the tumor microenvironment is a high priority. Finally, ongoing evidence supports the hypothesis that the blood-brain barrier represents a significant impediment to efficient brain tumor penetration of novel therapeutic agents and innovative strategies of drug delivery remain essential to further improve outcomes.",
+   "journal": "Hematological oncology",
+   "year": "2020",
+   "doi": "10.1002/hon.2761",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32510610/"
+  },
+  {
+   "pmid": "28347676",
+   "title": "Treating Multiple Myeloma Patients With Oral Therapies.",
+   "abstract": "Recent advances have highlighted the importance of long-term, continuous treatment in multiple myeloma (MM) to improve survival. However, treatment burden continues to negatively impact the real-world duration of MM therapy, and strategies to limit the adverse impact of treatment on patient quality of life are therefore particularly important. Oral MM therapies include the immunomodulatory drugs lenalidomide, thalidomide, and pomalidomide; the alkylating agents melphalan and cyclophosphamide; the histone deacetylase inhibitor panobinostat; the corticosteroids prednisone and dexamethasone; and the proteasome inhibitor ixazomib. The most commonly reported adverse events with these treatments include hematologic events such as thrombocytopenia and neutropenia; the gastrointestinal events nausea, vomiting, and diarrhea; venous thrombotic events such as deep-vein thrombosis and pulmonary embolism; and events such as rash and peripheral neuropathy. It is important that patients receiving oral therapies at home report symptoms before they become difficult to manage. Appropriate management of these treatment-related adverse events, awareness of both food and drug interactions, and assisting patients with out-of-pocket costs are all important factors in providing efficacious, sustainable, and convenient MM therapy. We outline evidence-based recommendations to provide a practical guide for health care providers addressing the effective management of MM patients receiving oral therapy.",
+   "journal": "Clinical lymphoma, myeloma & leukemia",
+   "year": "2017",
+   "doi": "10.1016/j.clml.2017.02.024",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28347676/"
+  },
+  {
+   "pmid": "31842517",
+   "title": "The Anti-CD38 Antibody Therapy in Multiple Myeloma.",
+   "abstract": "Multiple myeloma (MM) is the second-most common hematologic malignancy after diffuse large B-cell lymphoma. Despite the improvement in response and survival rates following the introduction of novel therapies, only a few patients are cured, and the majority of MM patients experience several relapses and receive multiple lines of treatment. Currently, bortezomib and lenalidomide are the core component of treatment both at the time of diagnosis and at the relapse as well as the new proteasome inhibitors (PIs), such as carfilzomib and ixazomib, and the next-generation immunomodulatory drug, pomalidomide, are now available for patients in relapse. In addition, drugs with a different mechanism of action, such as the histone deacetylase inhibitor and the monoclonal antibodies (MoAb) targeting SLAMF7 or CD38, are a part of the anti-myeloma armamentarium and are very important for heavily pretreated or double refractory to a PI and IMiD patients. In this paper, we focus on the efficacy as well as toxicities of CD38 antibodies used both as a single agent and in combination as multiple myeloma treatment.",
+   "journal": "Cells",
+   "year": "2019",
+   "doi": "10.3390/cells8121629",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31842517/"
+  },
+  {
+   "pmid": "29932776",
+   "title": "Maintenance and continuous therapy for multiple myeloma.",
+   "abstract": "In multiple myeloma (MM), maintenance therapy is a longer, less intensive treatment course than initial therapy that is administered postinduction to delay disease progression. Maintenance and continuous therapy have been shown to suppress minimal residual disease and deepen and prolong responses, with the goal of improving progression-free survival and overall survival. Areas covered: In this review, we have summarized current clinical trial data on maintenance and continuous therapy in newly diagnosed MM and relapsed/refractory MM (RRMM), focusing on lenalidomide and bortezomib. We have also analyzed the potential uses of newer agents, including carfilzomib, daratumumab, elotuzumab, pomalidomide, and ixazomib. Expert commentary: Although lenalidomide- and bortezomib-containing regimens have demonstrated safety and efficacy, only lenalidomide is approved for maintenance; it is the preferred agent in the National Comprehensive Cancer Network and European Society for Medical Oncology guidelines. Furthermore, results from the FIRST trial support lenalidomide plus low-dose dexamethasone (Rd) as a standard of care for continuous therapy. In RRMM, newer agents have been successfully added to Rd and data from additional trials are awaited. The vital roles of maintenance and continuous therapy and their benefits are now more clearly understood, but important questions remain regarding optimal duration of therapy and regimens.",
+   "journal": "Expert review of anticancer therapy",
+   "year": "2018",
+   "doi": "10.1080/14737140.2018.1490181",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29932776/"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "drug": "FUROSEMIDE",
+ "status": "ok",
+ "query": "\"furosemide\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:05+00:00",
+ "records": [
+  {
+   "pmid": "36595088",
+   "title": "Diuretics in pediatrics.",
+   "abstract": "UNLABELLED: Diuretics are frequently prescribed drugs and help managing several pathological conditions, including acute and chronic kidney disease, nephrotic syndrome, congestive heart failure, ascites, systemic and pulmonary hypertension. Diuretic classes include among others osmotic diuretics and carboanhydrase inhibitors, loop diuretics, thiazides, and potassium-sparing diuretics. In this educational article, we aim at reviewing indications, mechanisms of action, and side effects, as well as basic pharmacokinetics considerations and data on diuretics in children, supporting practicing clinicians in choosing (and understanding the background of) the best-suited diuretic regimen for the individual patient. Newer diuretic classes like vaptans and sodium glucose type 2 cotransporter inhibitors, the recent controversies on hydrochlorothiazide, and the issue of diuretic resistance, will also be briefly addressed.\nCONCLUSION: This educational review offers a didactical overview of diuretics in Pediatrics.\nWHAT IS KNOWN: • Diuretics are frequently prescribed drugs in both adults and children. • They increase water and sodium excretion, reducing fluid overload.\nWHAT IS NEW: • This article reviews indications, mechanisms of action, side effects, and basic pharmacokinetics facts on diuretics in Paediatrics. • It also addresses current issues, like the management of diuretic resistance, the recent controversy on hydrochlorothiazide, and the novel classes vaptans and gliflozins.",
+   "journal": "European journal of pediatrics",
+   "year": "2023",
+   "doi": "10.1007/s00431-022-04768-2",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36595088/"
+  },
+  {
+   "pmid": "27238657",
+   "title": "Furosemide.",
+   "abstract": "Therapeutic Reviews aim to provide essential independent information for health professionals about drugs used in palliative and hospice care. Additional content is available on www.palliativedrugs.com. Country-specific books (Hospice and Palliative Care Formulary USA, and Palliative Care Formulary, British and Canadian editions) are also available and can be ordered from www.palliativedrugs.com. The series editors welcome feedback on the articles (hq@palliativedrugs.com).",
+   "journal": "Journal of pain and symptom management",
+   "year": "2016",
+   "doi": "10.1016/j.jpainsymman.2016.05.004",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27238657/"
+  },
+  {
+   "pmid": "37995306",
+   "title": "Hydration Methods for Cisplatin Containing Chemotherapy: A Systematic Review.",
+   "abstract": "INTRODUCTION: Cisplatin-induced nephrotoxicity (CIN) can be prevented by fluid hydration, electrolyte supplementation, or forced diuresis; however, the best way to prevent CIN is still unknown. The aim of this study was to provide objective evidence on the optimal design of hydration schemes to prevent CIN based on an update of the literature.\nMETHODS: A Pubmed and Embase search were conducted in December 2021 and repeated in April 2022 and March 2023. Two independent reviewers screened the articles. The included articles were categorized and reviewed per category.\nRESULTS: Twenty-seven articles met the inclusion criteria. The included studies varied widely. Four out of seven studies investigating diuretics found a protective effect of adding mannitol to the hydration scheme. All six studies investigating duration and amount of volume of hydration found that a short-hydration scheme resulted in less CIN than a longer hydration scheme. Seven out of nine articles evaluating the role of electrolytes found that magnesium supplementation reduced the risk of nephrotoxicity. Three studies investigated the safety of oral hydration and concluded that nephrotoxicity did not occur more frequently after oral hydration.\nCONCLUSION: The hydration scheme of cisplatin should be short and consist of a relatively small amount of volume. The scheme should include mannitol and magnesium supplementation. Head-to-head studies are needed to investigate the safety of furosemide compared with mannitol and the dose of mannitol and magnesium.",
+   "journal": "The oncologist",
+   "year": "2024",
+   "doi": "10.1093/oncolo/oyad297",
+   "publication_types": [
+    "Systematic Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37995306/"
+  },
+  {
+   "pmid": "36592186",
+   "title": "Cardiovascular and renal effects of SGLT2 inhibitor initiation in acute heart failure: a meta-analysis of randomized controlled trials.",
+   "abstract": "BACKGROUND: We sought to compare cardiovascular outcomes, renal function, and diuresis in patients receiving standard diuretic therapy for acute heart failure (AHF) with or without the addition of SGLT2i.\nMETHODS AND RESULTS: Systematic search of three electronic databases identified nine eligible randomized controlled trials involving 2,824 patients. The addition of SGLT2i to conventional therapy for AHF reduced all-cause death (odds ratio [OR] 0.75; 95% CI 0.56-0.99; p = 0.049), readmissions for heart failure (HF) (OR 0.54; 95% CI 0.44-0.66; p < 0.001), and the composite of cardiovascular death and readmissions for HF (hazard ratio 0.71; 95% CI 0.60-0.84; p < 0.001). Furthermore, SGLT2i increased mean daily urinary output in liters (mean difference [MD] 0.45; 95% CI 0.03-0.87; p = 0.035) and decreased mean daily doses of loop diuretics in mg of furosemide equivalent (MD -34.90; 95% CI [- 52.58, - 17.21]; p < 0.001) without increasing the incidence worsening renal function (OR 0.75; 95% CI 0.43-1.29; p = 0.290).\nCONCLUSION: SGLT2i addition to conventional diuretic therapy reduced all-cause death, readmissions for HF, and the composite of cardiovascular death or readmissions for HF. Moreover, SGLT2i was associated with a higher volume of diuresis with a lower dose of loop diuretics.",
+   "journal": "Clinical research in cardiology : official journal of the German Cardiac Society",
+   "year": "2023",
+   "doi": "10.1007/s00392-022-02148-2",
+   "publication_types": [
+    "Comparative Study",
+    "Journal Article",
+    "Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36592186/"
+  }
+ ]
+}

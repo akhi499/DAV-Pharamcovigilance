@@ -1,0 +1,61 @@
+{
+ "drug": "RAMIPRIL",
+ "status": "ok",
+ "query": "\"ramipril\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:16:14+00:00",
+ "records": [
+  {
+   "pmid": "37417783",
+   "title": "Angiotensin-converting enzyme inhibitor induced cough compared with placebo, and other antihypertensives: A systematic review, and network meta-analysis.",
+   "abstract": "Studies have shown that angiotensin converting enzyme inhibitors (ACEIs) are superior in primary and secondary prevention for cardiac mortality and morbidity to angiotensin receptor blocker (ARBs). One of the common side effects from ACEI is dry cough. The aims of this systematic review, and network meta-analysis are to rank the risk of cough induced by different ACEIs and between ACEI and placebo, ARB or calcium channel blockers (CCB). We performed a systematic review, and network meta-analysis of randomized controlled trials to rank the risk of cough induced by each ACEI and between ACEI and placebo, ARB or CCB. A total of 135 RCTs with 45,420 patients treated with eleven ACEIs were included in the analyses. The pooled estimated relative risk (RR) between ACEI and placebo was 2.21 (95% CI: 2.05-2.39). ACEI had more incidences of cough than ARB (RR 3.2; 95% CI: 2.91, 3.51), and pooled estimated of RR between ACEI and CCB was 5.30 (95% CI: 4.32-6.50) Moexipril ranked as number one for inducing cough (SUCRA 80.4%) and spirapril ranked the least (SUCRA 12.3%). The order for the rest of the ACEIs are as follows: ramipril (SUCRA 76.4%), fosinopril (SUCRA 72.5%), lisinopril (SUCRA 64.7%), benazepril (SUCRA 58.6%), quinapril (SUCRA 56.5%), perindopril (SUCRA 54.1%), enalapril (SUCRA 49.7%), trandolapril (SUCRA 44.6%) and, captopril (SUCRA 13.7%). All ACEI has the similar risk of developing a cough. ACEI should be avoided in patients who have risk of developing cough, and an ARB or CCB is an alternative based on the patient's comorbidity.",
+   "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+   "year": "2023",
+   "doi": "10.1111/jch.14695",
+   "publication_types": [
+    "Systematic Review",
+    "Journal Article",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37417783/"
+  },
+  {
+   "pmid": "41351601",
+   "title": "A systematic review of commencing full-dose antihypertensives in newly diagnosed hypertension.",
+   "abstract": "BACKGROUND: Hypertension is the UK's most common treatable cause of mortality and morbidity, including cardiovascular disease (CVD), renal disease and dementia.\nOBJECTIVE: This systematic review has explored the efficacy and safety of commencing full-dose antihypertensive treatment in individuals with essential hypertension.\nMETHOD: Method16 randomised controlled trials (RCTs) were eligible for inclusion, with some RCTs assessing more than one treatment. The review assessed commonly used antihypertensive drugs (perindopril 8 mg, ramipril 10 mg, amlodipine 10 mg, losartan 100 mg, irbesartan 300 mg, candesartan 16 mg and candesartan 32 mg) compared to low starting doses or placebo RCTs. Eligible studies included 12 RCTs that compared full vs low doses and 19 RCTs that compared full starting doses vs placebo. The primary outcome was the difference in blood pressure reduction compared to controls (reported or calculated). ResultsUsing full doses compared to low doses led to better BP reduction (overall, 3.9/2.2 mmHg lower achieved BP) without an increase in adverse effects. This notion is supported by the changes achieved with full-dose treatment initiation compared to placebo (average over all studies: 11.4 [4.4]/6.5 [2.9] mmHg).\nCONCLUSIONS: This review indicates that initiating full-dose antihypertensives for essential hypertension may be beneficial and safe. The available data are limited, and further RCTs are required to assess this in specific patient groups to assess safety and efficac.",
+   "journal": "Blood pressure",
+   "year": "2025",
+   "doi": "10.1080/08037051.2025.2594268",
+   "publication_types": [
+    "Systematic Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41351601/"
+  },
+  {
+   "pmid": "26747390",
+   "title": "The Fuster-CNIC-Ferrer Cardiovascular Polypill: a polypill for secondary cardiovascular prevention.",
+   "abstract": "During the last decade, there has been a tremendous effort to develop different cardiovascular polypills in response to the upsurge in global cardiovascular disease worldwide. The pharmacological development of such a strategy has proven to be extremely complex from a formulation standpoint. Not all drugs are suitable for use in a polypill because of potential drug incompatibilities between them. Candidate agents must be safe, well tolerated, effective, guideline recommended and physiochemically compatible with the other components of the pill. The Fuster-CNIC-Ferrer cardiovascular (CV) polypill has been found to be the first-in-class polypill to be approved and commercialized in Europe and Latinamerican Countries. In this article, we review the pharmacological properties of its three components, including the clinical evidence supporting their use in patients with established cardiovascular disease, their pharmacokinetic properties, adverse effects, drug interactions and contraindications.",
+   "journal": "International journal of cardiology",
+   "year": "2015",
+   "doi": "10.1016/S0167-5273(15)31028-7",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26747390/"
+  },
+  {
+   "pmid": "27682140",
+   "title": "Therapeutic efficacy and safety of ACE inhibitors in the hypertensive paediatric population: a review.",
+   "abstract": "PURPOSE: Since 1997, strong incentives have been introduced worldwide to improve access to safe and effective medicines addressing the therapeutic needs of children. ACE inhibitors, the most prescribed antihypertensive drugs in the paediatric population, are one of the prototype drugs targeted by the legislation initiatives. Our purpose in assembling this review is to evaluate and describe the current evidence for the efficacy and safety profile of ACE inhibitors in the paediatric population.\nMETHODS: The authors made a descriptive review of the literature from 1980 to 2015 using the following search terms: hypertension, child, paediatric, ACE (inhibitors), renin-angiotensin aldosterone system, captopril, lisinopril, enalapril, ramipril and fosinopril.\nRESULTS: A total of 16 studies evaluating efficacy and safety of ACE inhibitors were included in this review. The included studies demonstrate that ACE inhibitors have the potency to decrease the systolic and/or diastolic blood pressure with an overall favourable safety profile in a short-term period. More importantly, the incentives resulted in an improvement of the overall availability of paediatric labelling, dosing and safety information for ACE inhibitors. However, they failed to fulfil several of paediatric needs: absence of long-term safety data on growth and maturation, absence of commercially available child-friendly formulations and incomplete evaluation of the entire paediatric hypertension population.\nCONCLUSION: Additional efforts are needed to close the gap between the availability of drugs that are labelled and indicated for paediatric use and the actual drug usage in children, especially in young children, neonates and children with severe hypertension, renal transplantation or severe renal impairment.",
+   "journal": "Archives of disease in childhood",
+   "year": "2017",
+   "doi": "10.1136/archdischild-2016-310582",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27682140/"
+  }
+ ]
+}

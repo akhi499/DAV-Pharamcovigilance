@@ -1,0 +1,22 @@
+{
+ "drug": "OXYCODONE HYDROCHLORIDE",
+ "status": "ok",
+ "query": "\"oxycodone hydrochloride\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:19:14+00:00",
+ "records": [
+  {
+   "pmid": "35759471",
+   "title": "Meta-analysis of efficacy and safety of sustained release oxycodone hydrochloride rectal administration for moderate to severe pain.",
+   "abstract": "OBJECTIVE: This study aims to evaluate the efficacy and safety of oxycodone hydrochloride (OxyContin) rectal administration in cancer pain patients. This is geared towards providing the research evidence for a novel route of OxyContin administration.\nMETHODS: Relevant randomized controlled trials (RCTs) were searched in electronic databases, including PubMed, Cochrane Library, Web of Science, EMBASE, China National Knowledge Infrastructure (CNKI), Chinese Scientific Journal Database (VIP database), Wanfang Data Knowledge Service Platform, and Chinese Biomedical Literature Database (CBM). Moreover, unpublished academic data were obtained by contacting the colleague, professor, or Institute of Traditional Chinese Medicine. The RCTs of transrectal Oxycodone administration of sustained-release tablets for moderate and severe pain patients were searched in the databases from inception to December 2020.\nRESULTS: According to the inclusion criteria, a total of 8 RCTs were included, with a total of 648 patients. Meta analysis results showed that there was no statistically significant difference in the efficacy of moderate to severe pain control between the rectal administration group and the oral administration group (RR = 1.04, 95%CI: 0.99-1.10, p = 0.13>0.05). At the same time, the incidence of adverse reactions in the rectal administration group was low. In terms of constipation, the rectal administration group was less than the oral administration group, with a statistically significant difference (RR = 0.43, 95%CI: 0.31-0.58, p< 0.00001). In terms of nausea and vomiting, the rectal administration group was less than the oral administration group, and the difference was statistically significant(RR = 0.30, 95%CI: 0.21-0.42, p<0.00001). In terms of sleepiness, there was no significant difference between the two groups(RR = 0.54, 95%CI: 0.26-1.15, p = 0.11>0.05). In terms of dizziness, there was no statistically significant difference between the two groups (RR = 0.43, 95%CI:0.27-0.68, p = 0.31>0.05). In terms of dyuria, there was no statistically significant difference between the two groups (RR = 0.37, 95%CI: 0.02-7.02, p = 0.51>0.05). In terms of KPS scores there was no significant difference was noted between the rectal and oral administration groups (RR = 1.04, 95%CI: 0.89-1.21, p = 0.63>0.05).\nCONCLUSION: In summary, we found no significant differences in efficacy between rectal administration of OxyContin and oral administration. Thus, rectal administration should be considered in managing cancer pain among patients with difficulty in oral OxyContin administration.\nPROSPERO REGISTRATION NUMBER: CRD42021209660.",
+   "journal": "PloS one",
+   "year": "2022",
+   "doi": "10.1371/journal.pone.0266754",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35759471/"
+  }
+ ]
+}

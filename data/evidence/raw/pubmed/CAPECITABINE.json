@@ -1,0 +1,61 @@
+{
+ "drug": "CAPECITABINE",
+ "status": "ok",
+ "query": "\"capecitabine\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:01+00:00",
+ "records": [
+  {
+   "pmid": "29548480",
+   "title": "Fluoropyrimidine-induced cardiotoxicity.",
+   "abstract": "Fluoropyrimidines (5-fluorouracil and capecitabine) are antimetabolite drugs, widely used for the treatment of a variety of cancers, both in adjuvant and in metastatic setting. Although the most common toxicities of these drugs have been extensively studied, robust data and comprehensive characterization still lack concerning fluoropyrimidine-induced cardiotoxicity (FIC), an infrequent but potentially life-threatening toxicity. This review summarizes the current state of knowledge of FIC with special regard to proposed pathogenetic models (coronary vasospasm, endothelium and cardiomyocytes damage, toxic metabolites, dihydropyrimidine dehydrogenase deficiency); risk and predictive factors; efficacy and usefulness in detection of laboratory markers, electrocardiographic changes and cardiac imaging; and specific treatment, including a novel agent, uridine triacetate. The role of alternative chemotherapeutic options, namely raltitrexed and TAS-102, is discussed, and, lastly, we overview the most promising future directions in the research on FIC and development of diagnostic tools, including microRNA technology.",
+   "journal": "Critical reviews in oncology/hematology",
+   "year": "2018",
+   "doi": "10.1016/j.critrevonc.2018.02.002",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29548480/"
+  },
+  {
+   "pmid": "31587781",
+   "title": "Fluoropyrimidine-Associated Cardiotoxicity.",
+   "abstract": "Fluoropyrimidines are chemotherapeutic agents that confer great benefit to many patients with solid tumors, but their use is often limited by cardiotoxicity. The incidence and precise mechanisms of cardiotoxicity remain uncertain. Clinical presentations of fluoropyrimidine toxicity are varied and include chest pain, myocardial infarction, acute cardiomyopathy, arrhythmia, cardiogenic shock, and sudden cardiac death. Proposed mechanisms include coronary vasospasm, coronary endothelial dysfunction, direct myocardial toxicity, myocarditis, and Takotsubo cardiomyopathy. Therapeutic and prophylactic interventions primarily target coronary vasospasm as the underlying cause. Prospective studies are needed to develop evidence-based approaches to cardioprotection in patients receiving fluoropyrimidines.",
+   "journal": "Cardiology clinics",
+   "year": "2019",
+   "doi": "10.1016/j.ccl.2019.07.004",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31587781/"
+  },
+  {
+   "pmid": "29624208",
+   "title": "Gemcitabine-based chemotherapy for advanced biliary tract carcinomas.",
+   "abstract": "BACKGROUND: Biliary tract cancers are a group of rare heterogeneous malignant tumours. They include intrahepatic and extrahepatic cholangiocarcinomas, gallbladder carcinomas, and ampullary carcinomas. Surgery remains the optimal modality of therapy leading to long-term survival for people diagnosed with resectable biliary tract carcinomas. Unfortunately, most people with biliary tract carcinomas are diagnosed with either unresectable locally-advanced or metastatic disease, and they are only suitable for palliative chemotherapy or supportive care.\nOBJECTIVES: To assess the benefits and harms of intravenous administration of gemcitabine monotherapy or gemcitabine-based chemotherapy versus placebo, or no intervention, or other treatments (excluding gemcitabine) in adults with advanced biliary tract carcinomas.\nSEARCH METHODS: We performed electronic searches in the Cochrane Hepato-Biliary Group Controlled Trials Register, CENTRAL, MEDLINE, Embase, LILACS, Science Citation Index Expanded, and Conference Proceedings Citation Index - Science up to June 2017. We also checked reference lists of primary original studies and review articles manually, for further related articles (cross-references).\nSELECTION CRITERIA: Eligible studies include randomised clinical trials, irrespective of language or publication status, comparing intravenous administration of gemcitabine monotherapy or gemcitabine-based combination to placebo, to no intervention, or to treatments other than gemcitabine.\nDATA COLLECTION AND ANALYSIS: We used standard methodological procedures expected by Cochrane. We assessed risks of bias of the included trials using definitions of predefined bias risk domains, and presented the review results incorporating the methodological quality of the trials using GRADE.\nMAIN RESULTS: We included seven published randomised clinical trials with 600 participants. All included trials were at high risk of bias, and we rated the evidence as very low quality. Cointerventions were equally applied in three trials (gemcitabine plus S-1 (a combination of tegafur, gimeracil, and oteracil) versus S-1 monotherapy; gemcitabine plus S-1 versus gemcitabine monotherapy versus S-1 monotherapy; and gemcitabine plus vandetanib versus gemcitabine plus placebo versus vandetanib monotherapy), while four trials compared gemcitabine plus cisplatin versus S-1 plus cisplatin; gemcitabine plus mitomycin C versus capecitabine plus mitomycin C; gemcitabine plus oxaliplatin versus chemoradiotherapy; and gemcitabine plus oxaliplatin versus 5-fluorouracil plus folinic acid versus best supportive care. The seven trials were conducted in India, Japan, France, China, Austria, South Korea, and Italy. The median age of the participants in the seven trials was between 50 and 60 years, and the male/female ratios were comparable in most of the trials. Based on these seven trials, we established eight comparisons. We could not perform all planned analyses in all comparisons because of insufficient data.Gemcitabine versus vandetanibOne three-arm trial compared gemcitabine versus vandetanib versus both drugs in combination. It reported no data for mortality, health-related quality of life, or tumour progression outcomes. We rated the increased risk of serious adverse events, anaemia, and overall response rate as very low-certainty evidence.Gemcitabine plus cisplatin versus S-1 plus cisplatinFrom one trial of 96 participants, we found very low-certainty evidence that gemcitabine can lower the risk of mortality at one year when used with cisplatin versus S-1 plus cisplatin (risk ratio (RR) 0.76, 95% confidence interval (CI) 0.58 to 0.98; P = 0.04; participants = 96). The trial did not report data for serious adverse events, quality of life, or tumour response outcomes. There is very low-certainty evidence that gemcitabine plus cisplatin combination leads to a higher risk of high-grade thrombocytopenia compared with S-1 plus cisplatin combination (RR 5.28, 95% CI 1.23 to 22.55; P = 0.02; participants = 96).Gemcitabine plus S-1 versus S-1From two trials enrolling 151 participants, we found no difference between the two groups in terms of risk of mortality at one year or risk of serious adverse events. Gemcitabine plus S-1 combination was associated with a higher overall response rate compared with S-1 alone (RR 2.46, 95% CI 1.27 to 4.75; P = 0.007; participants = 140; trials = 2; I2 = 0%; very low certainty of evidence). Neither of the trials reported data for health-related quality of life or time to progression of the tumour.Gemcitabine plus oxaliplatin versus 5-fluorouracil plus folinic acid versus best supportive careOne three-arm trial compared gemcitabine plus oxaliplatin versus 5-fluorouracil plus folinic acid versus best supportive care. It reported no data for serious adverse events, health-related quality of life, or tumour progression. We rated the evidence for mortality and for overall response rate as of very low certainty.Gemcitabine plus oxaliplatin versus 5-fluorouracil plus cisplatin plus radiotherapyOne trial of 34 participants compared gemcitabine plus oxaliplatin versus 5-fluorouracil plus cisplatin plus radiotherapy. It reported no data for quality of life, overall response rate, or tumour progression outcomes. We rated the evidence for mortality and serious adverse events as of very low certainty.Gemcitabine plus mitomycin C versus capecitabine plus mitomycin COne trial of 51 participants compared gemcitabine plus mitomycin C versus capecitabine plus mitomycin C. It reported no data for serious adverse events, quality of life, or tumour progression. We rated the evidence for mortality, overall response rate and thrombocytopenia as of very low certainty.We also identified three ongoing trials evaluating outcomes of interest for our review, which we can incorporate in future updates.For-profit bias: there was a high risk of for-profit bias in two trials (because of industry sponsorship) while there was a low risk of for-profit bias in another three trials, and unclear risk in two trials.\nAUTHORS' CONCLUSIONS: In adults with advanced biliary tract carcinomas, the effects of gemcitabine or gemcitabine-based chemotherapy are uncertain on mortality and overall response compared with a range of inactive or active controls. The very low certainty of evidence is due to risk of bias, lack of information in the analyses and hence large imprecision, and possible publication bias. The confidence intervals do not rule out meaningful benefits or lack of effect of gemcitabine in all comparisons but one on mortality where gemcitabine plus cisplatin is compared with S-1 plus cisplatin. Gemcitabine-based regimens showed an increase in non-serious adverse events (particularly haematological toxicities). Further randomised clinical trials are mandatory, to further explore the best therapeutic options for adults with advanced biliary tract carcinomas.",
+   "journal": "The Cochrane database of systematic reviews",
+   "year": "2018",
+   "doi": "10.1002/14651858.CD011746.pub2",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29624208/"
+  },
+  {
+   "pmid": "33555963",
+   "title": "Capecitabine in treating patients with advanced, persistent, or recurrent cervical cancer: an active and safe option?",
+   "abstract": "Introduction: Advanced, persistent or recurrent cervical cancer in patients not amenable to curative surgery or radiotherapy predicts a dismal prognosis. Systemic chemotherapy based on paclitaxel/cisplatin ± bevacizumab is the current standard of care. However, once progression occurs, the possibility of alternative treatment options is very limited.Areas covered: The usefulness of capecitabine has been well-established against several cancer types, including head and neck, breast, and colorectal cancer. This review covers current literature evidence on the clinical efficacy and safety of capecitabine in cervical cancer treatment, either as monotherapy or combined with other agents or chemo-radiotherapy.Expert opinion: Recent clinical data, albeit scant, suggested a promising role for capecitabine both as monotherapy in patients with platinum-resistant cervical cancer and in combination with cisplatin in chemotherapy-naïve patients with metastatic or recurrent cervical cancer. In our opinion, capecitabine, especially in combination regimens, could represent a valid treatment option and further research is warranted to better understand its effectiveness in these challenging patients.",
+   "journal": "Expert opinion on drug safety",
+   "year": "2021",
+   "doi": "10.1080/14740338.2021.1887850",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33555963/"
+  }
+ ]
+}

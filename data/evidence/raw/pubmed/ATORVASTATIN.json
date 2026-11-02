@@ -1,0 +1,61 @@
+{
+ "drug": "ATORVASTATIN",
+ "status": "ok",
+ "query": "\"atorvastatin\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:17:21+00:00",
+ "records": [
+  {
+   "pmid": "32166725",
+   "title": "Amiodarone: A Comprehensive Guide for Clinicians.",
+   "abstract": "Amiodarone is an effective antiarrhythmic medication frequently used in practice for both ventricular and atrial arrhythmias. Though classified as a class III antiarrhythmic, it affects all phases of the cardiac action potential. However, the drug has several side effects, including thyroid abnormalities, pulmonary fibrosis, and transaminitis, for which routine monitoring is recommended. It also interacts with several medications, such as warfarin, simvastatin, and atorvastatin, and many HIV antiretroviral medications. Given the common use of this medication in medical practice, it is vital that clinicians understand the indications, contraindications, dosing, side effects, and interactions of this medication. A thorough understanding of these topics is essential for clinicians to ensure safe and effective use of amiodarone.",
+   "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventions",
+   "year": "2020",
+   "doi": "10.1007/s40256-020-00401-5",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32166725/"
+  },
+  {
+   "pmid": "35979160",
+   "title": "Drug-induced autoimmune hepatitis: A minireview.",
+   "abstract": "Drug-induced autoimmune hepatitis (DIAIH) is a specific phenotype of drug-induced liver injury that may lead to the devastating outcome of acute liver failure requiring liver transplantation. Drugs implicated in DIAIH include antimicrobials such as nitrofurantoin and minocycline, non-steroidal anti-inflammatory drugs, statins as well as anti-tumor necrosis agents. The clinical features of drug-induced liver injury are indistinguishable from idiopathic autoimmune hepatitis (AIH) as both may have positive AIH-related autoantibodies, elevated immunoglobulin G, as well as similar histopathological findings. In patients who show no clinical improvement, or there is progressive liver injury despite cessation of the suspected drug, a liver biopsy should be considered, whereby the presence of advance fibrosis on histology favors the diagnosis of idiopathic AIH. Empirical treatment with corticosteroids may be required in patients with non-resolving liver injury. A typical clinical scenario supportive of DIAIH includes a history of drug exposure with spontaneous resolution of liver injury after drug withdrawal and the absence of relapse after rapid steroid taper. In this article we report two cases of DIAIH secondary to Sorafenib and Atorvastatin along with a review of currently available literature. Early identification and treatment often lead to a favorable outcome in DIAIH.",
+   "journal": "World journal of gastroenterology",
+   "year": "2022",
+   "doi": "10.3748/wjg.v28.i24.2654",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35979160/"
+  },
+  {
+   "pmid": "36049498",
+   "title": "Effect of statin therapy on muscle symptoms: an individual participant data meta-analysis of large-scale, randomised, double-blind trials.",
+   "abstract": "BACKGROUND: Statin therapy is effective for the prevention of atherosclerotic cardiovascular disease and is widely prescribed, but there are persisting concerns that statin therapy might frequently cause muscle pain or weakness. We aimed to address these through an individual participant data meta-analysis of all recorded adverse muscle events in large, long-term, randomised, double-blind trials of statin therapy.\nMETHODS: Randomised trials of statin therapy were eligible if they aimed to recruit at least 1000 participants with a scheduled treatment duration of at least 2 years, and involved a double-blind comparison of statin versus placebo or of a more intensive versus a less intensive statin regimen. We analysed individual participant data from 19 double-blind trials of statin versus placebo (n=123 940) and four double-blind trials of a more intensive versus a less intensive statin regimen (n=30 724). Standard inverse-variance-weighted meta-analyses of the effects on muscle outcomes were conducted according to a prespecified protocol.\nFINDINGS: Among 19 placebo-controlled trials (mean age 63 years [SD 8], with 34 533 [27·9%] women, 59 610 [48·1%] participants with previous vascular disease, and 22 925 [18·5%] participants with diabetes), during a weighted average median follow-up of 4·3 years, 16 835 (27·1%) allocated statin versus 16 446 (26·6%) allocated placebo reported muscle pain or weakness (rate ratio [RR] 1·03; 95% CI 1·01-1·06). During year 1, statin therapy produced a 7% relative increase in muscle pain or weakness (1·07; 1·04-1·10), corresponding to an absolute excess rate of 11 (6-16) events per 1000 person-years, which indicates that only one in 15 ([1·07-1·00]/1·07) of these muscle-related reports by participants allocated to statin therapy were actually due to the statin. After year 1, there was no significant excess in first reports of muscle pain or weakness (0·99; 0·96-1·02). For all years combined, more intensive statin regimens (ie, 40-80 mg atorvastatin or 20-40 mg rosuvastatin once per day) yielded a higher RR than less intensive or moderate-intensity regimens (1·08 [1·04-1·13] vs 1·03 [1·00-1·05]) compared with placebo, and a small excess was present (1·05 [0·99-1·12]) for more intensive regimens after year 1. There was no clear evidence that the RR differed for different statins, or in different clinical circumstances. Statin therapy yielded a small, clinically insignificant increase in median creatine kinase values of approximately 0·02 times the upper limit of normal.\nINTERPRETATION: Statin therapy caused a small excess of mostly mild muscle pain. Most (>90%) of all reports of muscle symptoms by participants allocated statin therapy were not due to the statin. The small risks of muscle symptoms are much lower than the known cardiovascular benefits. There is a need to review the clinical management of muscle symptoms in patients taking a statin.\nFUNDING: British Heart Foundation, Medical Research Council, Australian National Health and Medical Research Council.",
+   "journal": "Lancet (London, England)",
+   "year": "2022",
+   "doi": "10.1016/S0140-6736(22)01545-8",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36049498/"
+  },
+  {
+   "pmid": "39748104",
+   "title": "Green Tea Catechins as Perpetrators of Drug Pharmacokinetic Interactions.",
+   "abstract": "Green tea (Camellia sinensis) is a commonly consumed beverage or dietary supplement. As a natural product with a myriad of proposed health benefits, patients are likely to consume green tea while taking their medications unaware of its potential to interact with drugs and influence drug efficacy and safety. Catechins are the abundant polyphenolic compounds in green tea (e.g., (-)-epigallocatechin-3-gallate), which are reported to influence determinants of drug pharmacokinetics, such as drug solubility and the activity of drug transporters and drug metabolizing enzymes. This review summarized the results of clinical studies investigating the influence of green tea catechins on the pharmacokinetics of clinically used medications. The majority of analyses (72%) reported significant decreases (by 18-99%) in systemic drug exposure with green tea consumption (atorvastatin, celiprolol, digoxin, fexofenadine, folic acid, lisinopril, nadolol, nintedanib, raloxifene, and rosuvastatin). One analysis (6%) reported a 50% increase in drug systemic exposure (sildenafil) and for 22% of analyses drug pharmacokinetics were not affected by green tea consumption (fluvastatin, pseudoephedrine, simvastatin, and tamoxifen). For most drugs reporting an interaction, green tea catechins were proposed to decrease intestinal drug absorption by inhibiting OATP uptake (particularly OATP1A2), enhancing P-gp efflux activity or reducing drug solubility. Case reports have associated changes in drug pharmacokinetics with green tea consumption to changes in drug efficacy or safety (e.g., nadolol and erlotinib). These findings prompt the need for further research in relating evidence from existing literature to predict additional clinically important green tea-drug interactions and to provide appropriate recommendations for patients and clinicians.",
+   "journal": "Clinical pharmacology and therapeutics",
+   "year": "2025",
+   "doi": "10.1002/cpt.3547",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39748104/"
+  }
+ ]
+}

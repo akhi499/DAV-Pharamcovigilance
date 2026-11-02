@@ -1,0 +1,63 @@
+{
+ "drug": "INFLIXIMAB-DYYB",
+ "status": "ok",
+ "query": "\"infliximab-dyyb\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:30+00:00",
+ "records": [
+  {
+   "pmid": "27650650",
+   "title": "Infliximab Biosimilar (CT-P13; Infliximab-dyyb): A Review in Autoimmune Inflammatory Diseases.",
+   "abstract": "Infliximab biosimilar (CT-P13/infliximab-dyyb; Remsima®, Inflectra®) is approved in several countries for use in all indications for which reference infliximab (Remicade®) is approved, including rheumatoid arthritis (RA), ankylosing spondylitis (AS), psoriatic arthritis, psoriasis, Crohn's disease, and ulcerative colitis. Clinical data contributing to the EU approval of infliximab biosimilar were obtained from two pivotal double-blind clinical trials in patients with AS (PLANETAS) or RA (PLANETRA). Infliximab biosimilar demonstrated equivalence to reference infliximab in terms of its pharmacokinetic profile in patients with AS, patients with RA, and in healthy volunteers, and in terms of its efficacy in patients with RA. Clinical response rates in patients with RA or AS were maintained over the longer term (up to 102 weeks). In addition, the efficacy of infliximab biosimilar in patients with RA or Crohn's disease and ulcerative colitis [i.e. inflammatory bowel disease (IBD)] has been demonstrated in the real-world setting. Infliximab biosimilar was generally well tolerated, with a tolerability profile similar to that of reference infliximab. Switching from reference infliximab to infliximab biosimilar had no detrimental effect on efficacy, safety, or immunogenicity compared with continuous infliximab biosimilar therapy, according to the extensions of PLANETAS and PLANETRA, and real-world data in IBD. Current evidence therefore suggests that infliximab biosimilar is a useful alternative to reference infliximab in patients with autoimmune inflammatory diseases.",
+   "journal": "BioDrugs : clinical immunotherapeutics, biopharmaceuticals and gene therapy",
+   "year": "2016",
+   "doi": "10.1007/s40259-016-0193-2",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27650650/"
+  },
+  {
+   "pmid": "27215364",
+   "title": "Biosimilars in Inflammatory Bowel Disease: Facts and Fears of Extrapolation.",
+   "abstract": "Biologic drugs such as infliximab and other anti-tumor necrosis factor monoclonal antibodies have transformed the treatment of immune-mediated inflammatory conditions such as Crohn's disease and ulcerative colitis (collectively known as inflammatory bowel disease [IBD]). However, the complex manufacturing processes involved in producing these drugs mean their use in clinical practice is expensive. Recent or impending expiration of patents for several biologics has led to development of biosimilar versions of these drugs, with the aim of providing substantial cost savings and increased accessibility to treatment. Biosimilars undergo an expedited regulatory process. This involves proving structural, functional, and biological biosimilarity to the reference product (RP). It is also expected that clinical equivalency/comparability will be demonstrated in a clinical trial in one (or more) sensitive population. Once these requirements are fulfilled, extrapolation of biosimilar approval to other indications for which the RP is approved is permitted without the need for further clinical trials, as long as this is scientifically justifiable. However, such justification requires that the mechanism(s) of action of the RP in question should be similar across indications and also comparable between the RP and the biosimilar in the clinically tested population(s). Likewise, the pharmacokinetics, immunogenicity, and safety of the RP should be similar across indications and comparable between the RP and biosimilar in the clinically tested population(s). To date, most anti-tumor necrosis factor biosimilars have been tested in trials recruiting patients with rheumatoid arthritis. Concerns have been raised regarding extrapolation of clinical data obtained in rheumatologic populations to IBD indications. In this review, we discuss the issues surrounding indication extrapolation, with a focus on extrapolation to IBD.",
+   "journal": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+   "year": "2016",
+   "doi": "10.1016/j.cgh.2016.05.023",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27215364/"
+  },
+  {
+   "pmid": "33599738",
+   "title": "Network meta-analysis of infliximab biosimilars for the treatment of rheumatoid arthritis.",
+   "abstract": "PURPOSE: This article assesses the relative efficacy and safety of infliximab biosimilars in treatment of patients with rheumatoid arthritis (RA).\nMETHODS: A frequentist, random-effects network meta-analysis was performed to evaluate evidence from randomized controlled trials that examined the use of infliximab biosimilars for treatment of patients with RA. PubMed/MEDLINE and other sources were searched for reports evaluating rates of response to treatment with the reference product (infliximab) vs an infliximab biosimilar. The primary efficacy outcome of interest was the rate of attainment of ACR20 (ie, 20% improvement in American College of Rheumatology core measures). The primary safety outcome was the rate of treatment-related serious adverse events (SAEs). Data were extracted by the primary author, and an assessment for risks of methodological bias was performed for each evaluated study.\nRESULTS: Five studies that enrolled a total of 2,499 patients were included. Overall comparisons using odds ratios and 95% confidence intervals (CIs) did not indicate statistically significant differences in response to treatment with biosimilar agents relative to each other or the infliximab reference product. ORs for ACR20 response for biosimilars vs infliximab were as follows: 1.475 (95% CI, 0.940-2.315) for infliximab-axxq, 1.259 (95% CI, 0.854-1.855) for infliximab-dyyb, 0.865 (95% CI, 0.5511.358) for infliximab-qbtx, and 0.832 (95% CI, 0.506-1.367) for infliximab-abda. Similar findings were observed in reported SAE rates among patients treated with the various biosimilars.\nCONCLUSION: ACR20 response appears to be comparable and nonsignificantly different between infliximab biosimilars. In the absence of any meaningful differences in safety or efficacy, biosimilar cost may be the deciding factor in choosing a treatment or agent for formulary inclusion.",
+   "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+   "year": "2021",
+   "doi": "10.1093/ajhp/zxab042",
+   "publication_types": [
+    "Journal Article",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33599738/"
+  },
+  {
+   "pmid": "42891908",
+   "title": "Switching from Intravenous to Subcutaneous Infliximab in Children with Inflammatory Bowel Disease: A Systematic Review and Meta-Analysis.",
+   "abstract": "PURPOSE OF REVIEW: Subcutaneous infliximab (IFX-SC; CT-P13 SC/infliximab-dyyb/Remsima-SC/Zymfentra) is an approved maintenance option after intravenous (IV) induction in adults with inflammatory bowel disease (IBD), but it is not approved for patients < 18 years, and the pediatric evidence remains dispersed across small, largely observational cohorts. This review synthesizes the published pediatric experience of transitioning from IV to SC infliximab, examining maintenance of remission, drug concentrations, safety, and acceptability, and situates it within the adult evidence base and the distinctly pediatric concerns of access and dosing.\nRECENT FINDINGS: A systematic search (PROSPERO: CRD420261465026) identified six independent, non-overlapping pediatric switch cohorts (n = 173). Random-effects proportional meta-analysis yielded pooled treatment persistence of 92% (95%CI 84-98), maintained clinical remission of 93% (95%CI 84-99), and any-cause discontinuation of 8% (95%CI 2-16), most often for injection-site intolerance, disease relapse, or paradoxical dermatitis. New anti-drug antibody formation was rare among the 129 children in cohorts measuring immunogenicity (four children, none sustained) while previously positive antibodies frequently resolved after switching. Steady-state SC concentrations ran roughly 2-fold above prior IV troughs, an expected step-up reflecting sustained subcutaneous exposure. Patient and caregiver satisfaction was high due to decreased school absence and travel, and cost analyses signaled net savings from avoided infusion-center use. The principal barrier was administrative: age-based denial. In appropriately selected children, transition to IFX-SC sustains remission with predictable pharmacokinetics, a reassuring immunogenicity profile, and excellent tolerability, mirroring the adult experience. These observations constitute a well-supported real-world signal and warrant prospective validation and pursuit of pediatric labeling.",
+   "journal": "Current gastroenterology reports",
+   "year": "2026",
+   "doi": "10.1007/s11894-026-01061-2",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Meta-Analysis",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42891908/"
+  }
+ ]
+}

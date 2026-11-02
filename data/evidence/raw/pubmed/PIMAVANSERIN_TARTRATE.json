@@ -1,0 +1,21 @@
+{
+ "drug": "PIMAVANSERIN TARTRATE",
+ "status": "ok",
+ "query": "\"pimavanserin tartrate\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:25+00:00",
+ "records": [
+  {
+   "pmid": "39403823",
+   "title": "Evaluating pimavanserin tartrate as a treatment in Parkinson's disease.",
+   "abstract": "INTRODUCTION: Pimavanserin is an efficacious, atypical neuroleptic. It ameliorates the frequency and severity of hallucinations and delusions in patients with Parkinson's disease with psychosis. Most antipsychotic drugs directly block dopamine receptors and thus worsen motor behavior. In contrast, pimavanserin reduces the activity of excitatory serotonin receptor subtypes. They stimulate dopaminergic pathways in the mesolimbic system. As a result, onset of psychosis may occur particularly in patients on a chronic dopamine-substituting treatment regimen, like in Parkinson's disease.\nAREAS COVERED: This narrative drug evaluation describes the properties and effects of pimavanserin. It is approved for the treatment of psychosis in Parkinson's disease. A literature search was performed using the terms dopamine, levodopa, psychosis, and Parkinson's disease without standardized selection of cited references.\nEXPERT OPINION: An essential advantage of pimavanserin is the focus in the pivotal trials on the treatment of psychosis in patients with Parkinson's disease. Main competitors for the use in clinical practice are the atypical neuroleptic compounds quetiapine and clozapine. Both share considerable structural and pharmacological similarities, i.e. certain anticholinergic properties. They are recommended in guidelines. Once pimavanserin will become available as a generic drug, its use will probably increase worldwide.",
+   "journal": "Expert opinion on pharmacotherapy",
+   "year": "2024",
+   "doi": "10.1080/14656566.2024.2417733",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39403823/"
+  }
+ ]
+}

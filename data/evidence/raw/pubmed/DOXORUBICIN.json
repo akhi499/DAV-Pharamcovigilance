@@ -1,0 +1,65 @@
+{
+ "drug": "DOXORUBICIN",
+ "status": "ok",
+ "query": "\"doxorubicin\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:17:59+00:00",
+ "records": [
+  {
+   "pmid": "32213135",
+   "title": "Mitochondrial Determinants of Doxorubicin-Induced Cardiomyopathy.",
+   "abstract": "Anthracycline-based chemotherapy can result in the development of a cumulative and progressively developing cardiomyopathy. Doxorubicin is one of the most highly prescribed anthracyclines in the United States due to its broad spectrum of therapeutic efficacy. Interference with different mitochondrial processes is chief among the molecular and cellular determinants of doxorubicin cardiotoxicity, contributing to the development of cardiomyopathy. The present review provides the basis for the involvement of mitochondrial toxicity in the different functional hallmarks of anthracycline toxicity. Our objective is to understand the molecular determinants of a progressive deterioration of functional integrity of mitochondria that establishes a historic record of past drug treatments (mitochondrial memory) and renders the cancer patient susceptible to subsequent regimens of drug therapy. We focus on the involvement of doxorubicin-induced mitochondrial oxidative stress, disruption of mitochondrial oxidative phosphorylation, and permeability transition, contributing to altered metabolic and redox circuits in cardiac cells, ultimately culminating in disturbances of autophagy/mitophagy fluxes and increased apoptosis. We also suggest some possible pharmacological and nonpharmacological interventions that can reduce mitochondrial damage. Understanding the key role of mitochondria in doxorubicin-induced cardiomyopathy is essential to reduce the barriers that so dramatically limit the clinical success of this essential anticancer chemotherapy.",
+   "journal": "Circulation research",
+   "year": "2020",
+   "doi": "10.1161/CIRCRESAHA.119.314681",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32213135/"
+  },
+  {
+   "pmid": "29189161",
+   "title": "Toxicology of Trastuzumab: An Insight into Mechanisms of Cardiotoxicity.",
+   "abstract": "Trastuzumab is a humanized monoclonal antibody that is approved for the treatment of breast and gastric malignancies. Although it has shown promise as a biotherapeutic, its cardiotoxicity remains a major concern. Genotoxic anticancer anthracyclines such as doxorubicin and epirubicin are also known for their cardiotoxic effects. However, trastuzumab and anthracyclines are suggested to mediate cardiotoxicity via different pathways. The available lines of evidence suggest that trastuzumab can exacerbate the cardiotoxic effects of anthracyclines and thus, prior exposure to anthracyclines is regarded as one of the risk factors for trastuzumab-induced cardiotoxcity. Although it is generally believed that the trastuzumab-induced cardiotoxic effects are reversible, various preclinical studies have revealed its apoptotic effects on cardiomyocytes. Thus, the issue of the reversibility of its cardiotoxic effects remains to be fully resolved. This article discusses various mechanisms that have been proposed for the cardiotoxic effects of trastuzumab and the potential risk factors that can lead to cardiotoxicity. The recently approved anti-HER2 monoclonal antibodies including pertuzumab and ado-trastuzumab (T-DM1) are also discussed.",
+   "journal": "Current cancer drug targets",
+   "year": "2019",
+   "doi": "10.2174/1568009618666171129222159",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29189161/"
+  },
+  {
+   "pmid": "32483740",
+   "title": "Anthracycline-Induced Cardiotoxicity: Causes, Mechanisms, and Prevention.",
+   "abstract": "Doxorubicin is an anthracycline and one of the more effective chemotherapy agents used in the treatment of children, adolescents, and adults with osteosarcoma. Despite its effectiveness, cardiotoxicity is a major late effect that compromises the survival and quality of life of survivors of this and other cancers. Cardiotoxicity is the inability of the heart to pump blood through the body effectively. Doxorubicin-induced cardiotoxicity is dose dependent. Additionally, the age of the patients plays a role in susceptibility with younger patients having a greater risk for cardiotoxicity and heart failure years after treatment is complete. The exact mechanism(s) responsible for doxorubicin-induced cardiotoxicity is poorly understood, and further research needs to be done to elucidate the mechanisms. This chapter summarizes the identified mechanisms that may play a role in anthracycline-induced cardiotoxicity. We will also summarize the types of cardiomyopathies that have been described in survivors treated with doxorubicin and the current recommendations for monitoring survivor for the development of cardiomyopathies. Included will be the important search for defining early biomarkers to identify patients and survivors at risk. Finally, we will summarize some of the interventions proposed for decreasing anthracycline-induced cardiotoxicity.",
+   "journal": "Advances in experimental medicine and biology",
+   "year": "2020",
+   "doi": "10.1007/978-3-030-43032-0_15",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32483740/"
+  },
+  {
+   "pmid": "33795647",
+   "title": "Regulated cell death pathways in doxorubicin-induced cardiotoxicity.",
+   "abstract": "Doxorubicin is a chemotherapeutic drug used for the treatment of various malignancies; however, patients can experience cardiotoxic effects and this has limited the use of this potent drug. The mechanisms by which doxorubicin kills cardiomyocytes has been elusive and despite extensive research the exact mechanisms remain unknown. This review focuses on recent advances in our understanding of doxorubicin induced regulated cardiomyocyte death pathways including autophagy, ferroptosis, necroptosis, pyroptosis and apoptosis. Understanding the mechanisms by which doxorubicin leads to cardiomyocyte death may help identify novel therapeutic agents and lead to more targeted approaches to cardiotoxicity testing.",
+   "journal": "Cell death & disease",
+   "year": "2021",
+   "doi": "10.1038/s41419-021-03614-x",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33795647/"
+  }
+ ]
+}

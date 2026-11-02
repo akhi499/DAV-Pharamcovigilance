@@ -1,0 +1,60 @@
+{
+ "drug": "AZATHIOPRINE",
+ "status": "ok",
+ "query": "\"azathioprine\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:31+00:00",
+ "records": [
+  {
+   "pmid": "33084268",
+   "title": "Acne fulminans.",
+   "abstract": "Acne fulminans (AF) is a rare and severe form of inflammatory acne presenting clinically with an abrupt outburst of painful, hemorrhagic pustules and ulceration, that may or may not be associated with systemic symptoms, such as fever, polyarthritis, and laboratory abnormalities. It typically affects male teenagers with a pre-existing acne. Although the pathogenetic mechanism has not been established yet, a role of genetic, abnormal immunologic response, drugs intake, hormonal imbalance and viral infection, as causal factors, has been identified. AF may occur as a single disease or may be associated with other disorders. Traditionally, AF has been classified, on the basis of the presence of systemic involvement, in \"acne fulminans\" and acne fulminans \"sine fulminans,\" when no systemic involvement is present. Recently, four clinical variants have been proposed: acne fulminans with systemic symptoms (AF-SS), acne fulminans without systemic symptoms (AF-WOSS), isotretinoin-induced acne fulminans with systemic symptoms (IIAF-SS), isotretinoin-induced acne fulminans without systemic symptoms (IIAF-WOSS). The diagnosis of AF is usually based on clinical history and physical examination. No specific laboratory abnormalities are generally found. In selected cases, biopsy and/or radiologic imaging are helpful for a correct diagnosis. The treatment significantly differs from severe acne according to severity of clinical presentation and possible systemic involvement. Currently, systemic corticosteroids (prednisolone) and retinoids (isotretinoin) represent the first choice of treatment. Dapsone, cyclosporine A, methotrexate, azathioprine, levamisole, and biological agents such as anakinra, infliximab, adalimumab may be considered as alternative therapies in selected cases. Adjunctive topical and physical therapies may also be considered.",
+   "journal": "Giornale italiano di dermatologia e venereologia : organo ufficiale, Societa italiana di dermatologia e sifilografia",
+   "year": "2020",
+   "doi": "10.23736/S0392-0488.20.06711-5",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33084268/"
+  },
+  {
+   "pmid": "37945162",
+   "title": "Treatment of Autoimmune Hepatitis.",
+   "abstract": "The goal of autoimmune hepatitis treatment is to achieve clinical and biochemical remission, which is associated with significantly improved outcomes. Induction treatment with corticosteroids and the subsequent addition of steroid-sparing therapy with gradual tapering of corticosteroids remains the standard of care. Several alternatives to azathioprine and second-line agents, such as mycophenolate mofetil, tacrolimus, cyclosporine, sirolimus, or rituximab, have been evaluated in those with intolerance or inadequate response to standard-of-care therapy. Treatment withdrawal is achievable in less than 20% of patients after 2 years of sustained remission. Liver transplantation should be considered in those with progressive liver disease or those with complications such as hepatocellular carcinoma.",
+   "journal": "Clinics in liver disease",
+   "year": "2024",
+   "doi": "10.1016/j.cld.2023.07.001",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37945162/"
+  },
+  {
+   "pmid": "38227938",
+   "title": "Immunosuppressant Medications in Pregnancy.",
+   "abstract": "Pregnant patients are often on immunosuppressant medications, most commonly to manage transplantation or autoimmune disorders. Most immunosuppressant agents, including tacrolimus, corticosteroids, azathioprine, and calcineurin inhibitors, are safe during pregnancy and lactation. However, mycophenolic acid is associated with higher risks of birth defects and should be avoided in pregnancy. Tacrolimus, the commonly used drug in transplantation medicine and autoimmune disorders, requires monitoring of serum levels for dose adjustment, particularly during pregnancy. Although no pregnancy-specific therapeutic range exists, the general target range is 5-15 ng/mL, and pregnant patients may require higher doses to achieve therapeutic levels. Adherence to prescribed immunosuppressive regimens is crucial to prevent graft rejection and autoimmune disorder flare-ups. This review aims to provide essential information about the use of immunosuppressant medications in pregnant individuals. With a rising number of pregnant patients undergoing organ transplantations or having autoimmune disorders, it is important to understand the implications of the use of these medications during pregnancy.",
+   "journal": "Obstetrics and gynecology",
+   "year": "2024",
+   "doi": "10.1097/AOG.0000000000005512",
+   "publication_types": [
+    "Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38227938/"
+  },
+  {
+   "pmid": "40280782",
+   "title": "Drug-Induced Liver Injury.",
+   "abstract": "Drug-induced liver injury (DILI) is an underrecognized cause of hepatic disease in dogs and cats. Successful identification of cases requires an initial suspicion by the practitioner, a thorough drug exposure history, and knowledge of the toxic potential for common veterinary drugs. This article reviews the pathogenesis, classification, and diagnosis of DILI in small animals. It also discusses the clinical presentation, prevalence, and outcomes of DILI for several drugs important in veterinary medicine including azathioprine, azole antifungals, carprofen, diazepam, doxycycline, lomustine, methimazole, phenobarbital, rifampin, sulfonamide antibiotics, and zonisamide, as well as the toxic potential for nutraceuticals and herbal preparations.",
+   "journal": "The Veterinary clinics of North America. Small animal practice",
+   "year": "2025",
+   "doi": "10.1016/j.cvsm.2025.03.003",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40280782/"
+  }
+ ]
+}

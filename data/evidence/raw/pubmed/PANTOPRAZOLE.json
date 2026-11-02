@@ -1,0 +1,62 @@
+{
+ "drug": "PANTOPRAZOLE",
+ "status": "ok",
+ "query": "\"pantoprazole\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:29+00:00",
+ "records": [
+  {
+   "pmid": "36142643",
+   "title": "Proton Pump Inhibitors and Bone Health: An Update Narrative Review.",
+   "abstract": "Proton pump inhibitors (PPIs) are an antacid drug often used in acid-related disorders. They decrease acid secretion in the stomach by blocking an enzyme called H+/K+ ATPase which controls acid production. Introduced to the market in 1989, their use has increased rapidly worldwide and they are now among the top 10 most prescribed drugs in the United States. As of 2015, the FDA has already approved six drugs of this class (omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole and rabeprazole). Recently, the risks and benefits of long-term PPI use were questioned and many studies indicated that their use should be carefully considered, especially in young patients, whose treatment with these drugs could last many years. Even greater concerns have been raised about a potential positive association between PPIs and osteoporotic fracture risk including the hip, spine and wrist. Although based on observational studies, there is substantial evidence associating the long-term use of PPIs and fracture. This relationship is only partially admitted due to the lack of consistent effects of PPIs on bone mineral density loss. Therefore, this narrative review aimed to discuss the recent findings pertaining to the risk of osteoporotic fracture associated with PPIs, in particular prolonged use, and to call for further research to elucidate the mechanisms associated with this bone fragility.",
+   "journal": "International journal of molecular sciences",
+   "year": "2022",
+   "doi": "10.3390/ijms231810733",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36142643/"
+  },
+  {
+   "pmid": "36629265",
+   "title": "Proton pump inhibitors: Understanding the associated risks and benefits of long-term use.",
+   "abstract": "PURPOSE: Proton pump inhibitors (PPIs) are widely prescribed medications. Various adverse clinical effects of PPIs have been reported in the literature, particularly over the past decade. The purpose of this article is to review published data primarily describing adverse effects associated with PPI use and to help clinicians determine which patients may still benefit from therapy despite safety concerns.\nSUMMARY: Associations between PPIs and the following have been described: bone fracture, acute and chronic kidney disease, gastrointestinal infections, deficiencies in vitamin B12 and magnesium, and coronavirus disease 2019 and respiratory infections. For inclusion in this review, studies must have evaluated potential adverse events associated with PPIs as a primary or secondary objective. Increased risks of bone fracture, acute and chronic kidney disease, gastrointestinal infections, and magnesium deficiency were consistently reported, albeit mostly in studies involving low-quality data (case-control and/or observational studies) and subject to bias. In the only pertinent randomized controlled trial to date, chronic pantoprazole use was associated with a greater risk of enteric infections relative to placebo use; there was no significant between-group difference in any other adverse event evaluated. PPIs continue to be recommended by the American College of Gastroenterology as a first-line treatment for management of gastroesophageal reflux disease and in the acute period following upper gastrointestinal and ulcer bleeding.\nCONCLUSION: Higher-quality data is needed to better understand PPI-associated risks of the adverse effects listed above. Until then, clinicians may consider greater vigilance with PPI use; however, the data does not demonstrate a need for wide adoption of de-escalation strategies solely out of safety concerns.",
+   "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+   "year": "2023",
+   "doi": "10.1093/ajhp/zxad009",
+   "publication_types": [
+    "Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36629265/"
+  },
+  {
+   "pmid": "37060552",
+   "title": "Vitamin B12 deficiency and use of proton pump inhibitors: a systematic review and meta-analysis.",
+   "abstract": "BACKGROUND: Proton pump inhibitors (PPI) may impact the absorption of vitamin B12. We performed a systematic review to ascertain if PPI use increases risk of vitamin B12 deficiency.\nMETHODS: Electronic databases (PubMed, Embase, Scopus) were searched on first of September 2022. We selected studies that compared the frequency of vitamin B12 deficiency in PPI users and non-users. Pooled Odds Ratio (OR) was calculated for the occurrence of vitamin B12 deficiency in PPI users compared to non-users. The risk of bias was assessed using the Newcastle Ottawa scale.\nRESULTS: Twenty-five studies were included. The pooled OR of vitamin B12 deficiency among PPI users (2852 participants) was higher than non-users (28070 participants) (OR 1.42, 95% CI: 1.16-1.73; I2 = 54%). Overall risk of PPI use among vitamin B12 deficient individuals was higher than those without deficiency (OR 1.49, 1.20-1.85; I2 = 68%). Most studies found no difference between serum vitamin B12 levels among PPI users compared to non-users.\nCONCLUSION: Although the pooled OR of vitamin B12 deficiency was slightly increased in PPI users, but there was significant heterogeneity, and the pooled OR was too low to imply an association clearly. Better-designed prospective studies in long-term users may clarify the issue.\nREGISTRATION: This study was not registered on PROSPERO.",
+   "journal": "Expert review of gastroenterology & hepatology",
+   "year": "2023",
+   "doi": "10.1080/17474124.2023.2204229",
+   "publication_types": [
+    "Meta-Analysis",
+    "Systematic Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37060552/"
+  },
+  {
+   "pmid": "40685887",
+   "title": "Efficacy and Safety of Clopidogrel With and Without a Proton Pump Inhibitor: A Systematic Review and Meta-Analysis.",
+   "abstract": "Classifications of drug interaction alerts regarding clopidogrel and a proton pump inhibitor (PPI) differ between knowledge resources. In this systematic review, Medline, Embase, and the Cochrane Library were searched for randomized controlled trials (RCTs) applying PICO criteria: P = patients on clopidogrel; I = intervention: PPI (subgroup: [es]omeprazole); C = comparison: no PPI (C1) or a PPI other than (es)omeprazole (C2); O = outcomes, main: a composite of cardiovascular events (efficacy); also: overt gastrointestinal bleeding (safety). Fourteen RCTs fulfilled the PICO criteria, five without high risk of bias and with at least one clinical event per study arm. Regarding efficacy with or without a PPI, the pooled risk ratio (RR) and risk difference (RD) were 1.08 (95% confidence interval (CI) 0.78; 1.50) and 0.2 percentage points (95% CI -0.9; 1.2), respectively (four RCTs; 4341 patients [96% also used aspirin, 98% receiving I used (es)omeprazole]; moderate certainty evidence). Regarding safety, the RR and RD were 0.13 (95% CI 0.03; 0.59) and -0.7 percentage points (95% CI -1.1; -0.3), respectively (one RCT; 3761 patients; moderate certainty evidence). The available evidence did not allow conclusions regarding omeprazole versus pantoprazole. In conclusion, concurrent use of a PPI probably does not largely affect clopidogrel efficacy, but probably reduces the risk of overt gastrointestinal bleeding.",
+   "journal": "Basic & clinical pharmacology & toxicology",
+   "year": "2025",
+   "doi": "10.1111/bcpt.70087",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40685887/"
+  }
+ ]
+}

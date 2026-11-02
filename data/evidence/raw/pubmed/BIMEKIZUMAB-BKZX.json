@@ -1,0 +1,21 @@
+{
+ "drug": "BIMEKIZUMAB-BKZX",
+ "status": "ok",
+ "query": "\"bimekizumab-bkzx\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:27+00:00",
+ "records": [
+  {
+   "pmid": "39425925",
+   "title": "Bimekizumab-bkzx for the Treatment of Plaque Psoriasis: A Drug Review.",
+   "abstract": "BACKGROUND: Bimekizumab is a biologic targeting interleukin (IL)-17A/17F, approved by the Food and Drug Administration (FDA) for moderate-to-severe plaque psoriasis in 2023.\nDATA SOURCES: A PubMed search was performed using the keywords \"bimekizumab,\" \"plaque psoriasis,\" and \"bimekizumab clinical trials,\" from origin to August 1, 2024. We included phase I to III trials of bimekizumab for plaque psoriasis, studies published post-FDA approval, and information from the package insert.Study Selection, Data Extraction:We summarized 1 phase I, 4 phase II, and 4 phase III trials, and 3 real-world studies published post-FDA approval.\nDATA SYNTHESIS: Bimekizumab was effective; >85% and 70% of patients achieved PASI90 and PASI100, respectively, in phase III trials. Head-to-head, 85% of bimekizumab patients achieved PASI90 versus 50% of ustekinumab patients. The most frequent adverse event was oral candidiasis (4%-10%); serious adverse events were rare (<1%). Long-term studies confirmed sustained efficacy and consistent safety profile.Relevance to Patient Care and Clinical Practice in Comparison to Existing Drugs:Bimekizumab was more efficacious than other IL-17 inhibitors, ustekinumab, and adalimumab. Real-world data corroborate bimekizumab's efficacy. Bimekizumab had a safety profile like other IL-17 inhibitors, with higher rates of mucocutaneous candidiasis.\nCONCLUSION: Many patients who failed other IL-17 inhibitors and switched to bimekizumab experienced clearance. The efficacy of bimekizumab in patients who failed other IL-17 blockers may be attributable to bimekizumab's ability to block multiple IL-17 isoforms. Bimekizumab also outperformed tumor necrosis factor (TNF)-alpha inhibitors. There may be patients who fail previously available drugs, for reasons including nonadherence, antidrug antibodies, or adverse effects; bimekizumab, which targets additional cytokines, may bridge that gap.",
+   "journal": "The Annals of pharmacotherapy",
+   "year": "2025",
+   "doi": "10.1177/10600280241288553",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39425925/"
+  }
+ ]
+}

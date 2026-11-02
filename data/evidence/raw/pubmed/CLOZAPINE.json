@@ -1,0 +1,62 @@
+{
+ "drug": "CLOZAPINE",
+ "status": "ok",
+ "query": "\"clozapine\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:24+00:00",
+ "records": [
+  {
+   "pmid": "40179920",
+   "title": "INTEGRATE: international guidelines for the algorithmic treatment of schizophrenia.",
+   "abstract": "Schizophrenia is a mental illness involving multiple symptom domains and is often associated with substantial physical health comorbidities. Guidelines exist, but these tend to be country-specific and are often missing a concise yet comprehensive algorithmic approach. From May 1, 2023, to Jan 1, 2025, International Guidelines for Algorithmic Treatment (INTEGRATE) authors from all UN regions collaborated to develop a consensus guideline focused on the pharmacological treatment of schizophrenia. Following an umbrella review of the literature, input from expert workshops, a consensus survey, and lived experience focus groups, a consensus algorithmic guideline and associated digital tool were developed. Key recommendations include a focus on metabolic health from treatment initiation, timely assessment and management of non-response, symptom domain-specific interventions, mitigation of side-effects, and the prompt use of clozapine in cases of treatment resistance.",
+   "journal": "The lancet. Psychiatry",
+   "year": "2025",
+   "doi": "10.1016/S2215-0366(25)00031-8",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40179920/"
+  },
+  {
+   "pmid": "31303314",
+   "title": "Comparative efficacy and tolerability of 32 oral antipsychotics for the acute treatment of adults with multi-episode schizophrenia: a systematic review and network meta-analysis.",
+   "abstract": "BACKGROUND: Schizophrenia is one of the most common, burdensome, and costly psychiatric disorders in adults worldwide. Antipsychotic drugs are its treatment of choice, but there is controversy about which agent should be used. We aimed to compare and rank antipsychotics by quantifying information from randomised controlled trials.\nMETHODS: We did a network meta-analysis of placebo-controlled and head-to-head randomised controlled trials and compared 32 antipsychotics. We searched Embase, MEDLINE, PsycINFO, PubMed, BIOSIS, Cochrane Central Register of Controlled Trials (CENTRAL), WHO International Clinical Trials Registry Platform, and ClinicalTrials.gov from database inception to Jan 8, 2019. Two authors independently selected studies and extracted data. We included randomised controlled trials in adults with acute symptoms of schizophrenia or related disorders. We excluded studies in patients with treatment resistance, first episode, predominant negative or depressive symptoms, concomitant medical illnesses, and relapse-prevention studies. Our primary outcome was change in overall symptoms measured with standardised rating scales. We also extracted data for eight efficacy and eight safety outcomes. Differences in the findings of the studies were explored in metaregressions and sensitivity analyses. Effect size measures were standardised mean differences, mean differences, or risk ratios with 95% credible intervals (CrIs). Confidence in the evidence was assessed using CINeMA (Confidence in Network Meta-Analysis). The study protocol is registered with PROSPERO, number CRD42014014919.\nFINDINGS: We identified 54 417 citations and included 402 studies with data for 53 463 participants. Effect size estimates suggested all antipsychotics reduced overall symptoms more than placebo (although not statistically significant for six drugs), with standardised mean differences ranging from -0·89 (95% CrI -1·08 to -0·71) for clozapine to -0·03 (-0·59 to 0·52) for levomepromazine (40 815 participants). Standardised mean differences compared with placebo for reduction of positive symptoms (31 179 participants) varied from -0·69 (95% CrI -0·86 to -0·52) for amisulpride to -0·17 (-0·31 to -0·04) for brexpiprazole, for negative symptoms (32 015 participants) from -0·62 (-0·84 to -0·39; clozapine) to -0·10 (-0·45 to 0·25; flupentixol), for depressive symptoms (19 683 participants) from -0·90 (-1·36 to -0·44; sulpiride) to 0·04 (-0·39 to 0·47; flupentixol). Risk ratios compared with placebo for all-cause discontinuation (42 672 participants) ranged from 0·52 (0·12 to 0·95; clopenthixol) to 1·15 (0·36 to 1·47; pimozide), for sedation (30 770 participants) from 0·92 (0·17 to 2·03; pimozide) to 10·20 (4·72 to 29·41; zuclopenthixol), for use of antiparkinson medication (24 911 participants) from 0·46 (0·19 to 0·88; clozapine) to 6·14 (4·81 to 6·55; pimozide). Mean differences compared to placebo for weight gain (28 317 participants) ranged from -0·16 kg (-0·73 to 0·40; ziprasidone) to 3·21 kg (2·10 to 4·31; zotepine), for prolactin elevation (21 569 participants) from -77·05 ng/mL (-120·23 to -33·54; clozapine) to 48·51 ng/mL (43·52 to 53·51; paliperidone) and for QTc prolongation (15 467 participants) from -2·21 ms (-4·54 to 0·15; lurasidone) to 23·90 ms (20·56 to 27·33; sertindole). Conclusions for the primary outcome did not substantially change after adjusting for possible effect moderators or in sensitivity analyses (eg, when excluding placebo-controlled studies). The confidence in evidence was often low or very low.\nINTERPRETATION: There are some efficacy differences between antipsychotics, but most of them are gradual rather than discrete. Differences in side-effects are more marked. These findings will aid clinicians in balancing risks versus benefits of those drugs available in their countries. They should consider the importance of each outcome, the patients' medical problems, and preferences.\nFUNDING: German Ministry of Education and Research and National Institute for Health Research.",
+   "journal": "Lancet (London, England)",
+   "year": "2019",
+   "doi": "10.1016/S0140-6736(19)31135-3",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Systematic Review",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31303314/"
+  },
+  {
+   "pmid": "39419777",
+   "title": "Drug-induced parkinsonism: diagnosis and treatment.",
+   "abstract": "INTRODUCTION: Drug-induced parkinsonism (DIP) is one of the most common iatrogenic movement disorders. It is characterized by tremors, slowness of movement, and shuffling gait with postural instability, clinically indistinguishable from idiopathic Parkinson's disease. Prior exposure to antipsychotic medications or other dopamine receptor blocking agents (DRBAs) is required for the diagnosis.\nAREAS COVERED: This article aims to review the epidemiology, pathophysiology, clinical features, ancillary testing, and treatment of DIP. A literature search was undertaken in PubMed from January 2013 to January 2024.\nEXPERT OPINION: A clinician's suspicion of DIP must always be present when a patient develops acute to subacute onset of parkinsonism while taking a DRBA. As DIP can be indistinguishable from idiopathic PD, ancillary testing, such as DaTscans and skin biopsy searching for alpha-synuclein deposits, are often required to make a definitive diagnosis. When DIP develops, steps should be taken to discontinue the offending agent or, in the case of antipsychotics, dose reduction or change to an agent with lower risk for DIP, such as quetiapine or clozapine. Prophylactic treatment with anticholinergics is not indicated.",
+   "journal": "Expert opinion on drug safety",
+   "year": "2024",
+   "doi": "10.1080/14740338.2024.2418950",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39419777/"
+  },
+  {
+   "pmid": "32815018",
+   "title": "Clozapine-induced agranulocytosis.",
+   "abstract": "Wider use of clozapine, one of the most effective antipshychotic drugs, is precluded by its propensity to cause agranulocytosis. Currently, clozapine is used for treatment-resistant schizophrenia, with mandatory blood count monitoring for the duration of treatment. Agranulocytosis occurs in up to 0.8% of patients and presents a significant medical challenge, despite decreasing mortality rates. In this paper, we review the epidemiology of clozapine-induced agranulocytosis (CLIA), advances in identifying genetic risk factors, and the preventive measures to reduce the risk of CLIA. We discuss the pathogenesis of CLIA, which, despite receiving considerable scientific attention, has not been fully elucidated. Finally, we address the clinical management and suggest the approach to clozapine re-challenge in patients with a previous episode of neutropenia. With a significant proportion of clozapine recipients in Western hemisphere being Black, we comment on the importance of recognizing benign ethnic neutropenia as a potential impediment to clozapine administration. This review aims to aid haematologists and psychiatrists to jointly manage neutropenia and agranulocytosis caused by clozapine.",
+   "journal": "Annals of hematology",
+   "year": "2020",
+   "doi": "10.1007/s00277-020-04215-y",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32815018/"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "drug": "SULFAMETHOXAZOLE\\TRIMETHOPRIM",
+ "status": "ok",
+ "query": "\"sulfamethoxazole\\trimethoprim\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:17:25+00:00",
+ "records": [
+  {
+   "pmid": "28315874",
+   "title": "Multiple Drug Hypersensitivity.",
+   "abstract": "Multiple drug hypersensitivity (MDH) is a syndrome that develops as a consequence of massive T-cell stimulations and is characterized by long-lasting drug hypersensitivity reactions (DHR) to different drugs. The initial symptoms are mostly severe exanthems or drug rash with eosinophilia and systemic symptoms (DRESS). Subsequent symptoms due to another drug often appear in the following weeks, overlapping with the first DHR, or months to years later after resolution of the initial presentation. The second DHR includes exanthema, erythroderma, DRESS, Stevens-Johnson syndrome/toxic epidermal necrolysis (SJS/TEN), hepatitis, and agranulocytosis. The eliciting drugs can be identified by positive skin or in vitro tests. The drugs involved in starting the MDH are the same as for DRESS, and they are usually given in rather high doses. Fixed drug combination therapies like sulfamethoxazole/trimethoprim or piperacillin/tazobactam are frequently involved in MDH, and 30-40% of patients with severe DHR to combination therapy show T-cell reactions to both components. The drug-induced T-cell stimulation appears to be due to the p-i mechanism. Importantly, a permanent T-cell activation characterized by PD-1+/CD38+ expression on CD4+/CD25low T cells can be found in the circulation of patients with MDH for many years. In conclusion, MDH is a drug-elicited syndrome characterized by a long-lasting hyperresponsiveness to multiple, structurally unrelated drugs with clinically diverse symptoms.",
+   "journal": "International archives of allergy and immunology",
+   "year": "2017",
+   "doi": "10.1159/000458725",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28315874/"
+  },
+  {
+   "pmid": "27412314",
+   "title": "Updated Nitrofurantoin Recommendations in the Elderly: A Closer Look at the Evidence.",
+   "abstract": "The American Geriatrics Society 2015 Beers Criteria Update Expert Panel has revised its recommendation to avoid use of nitrofurantoin in renal impairment from patients with a creatinine clearance (Clcr) of less than 60 mL/min to those with a Clcr of less than 30 mL/min, based on two retrospective studies that identified the safety and efficacy of nitrofurantoin in this population. This change in recommendation, along with increasing resistance to both sulfamethoxazole/trimethoprim and fluoroquinolones, gave rise to the advantages of nitrofurantoin and may reflect a surge in prescribing among the elderly. The purpose of the manuscript is to provide readers with a brief review of updated evidence to confidently treat older patients with nitrofurantoin.",
+   "journal": "The Consultant pharmacist : the journal of the American Society of Consultant Pharmacists",
+   "year": "2016",
+   "doi": "10.4140/TCP.n.2016.381",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27412314/"
+  },
+  {
+   "pmid": "35899402",
+   "title": "Increased risk of severe cutaneous adverse reactions when cladribine is used together with other medications with a propensity for skin reactions.",
+   "abstract": "Cladribine is a purine analog used in first-line treatment of hairy cell leukemia and in relapsed/refractory chronic lymphocytic anemia. Although cladribine is typically associated with mild, self-limited skin reactions, there is increasing evidence that cladribine may increase the risk of severe cutaneous adverse reactions (SCAR) when combined with drugs classically associated with SCAR (e.g. allopurinol) beyond what would be expected for either drug alone, possibly due to cladribine-induced lymphopenia. We analyzed all SCAR cases reported for cladribine in Janssen's Global Safety Database and found that 26/35 (74.3%) reported concomitant drugs known to be associated with SCAR, most commonly sulfamethoxazole/trimethoprim (SMX/TMP) and allopurinol. In addition, a review of the WHO VigiBase showed that several drugs, including penicillins, SMX/TMP, and allopurinol had a statistically significant contribution to cladribine-associated SCAR. These results lend further support that cladribine may increase the propensity of these drugs to cause SCARs.",
+   "journal": "Leukemia & lymphoma",
+   "year": "2022",
+   "doi": "10.1080/10428194.2022.2100370",
+   "publication_types": [
+    "Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35899402/"
+  },
+  {
+   "pmid": "34553814",
+   "title": "The effectiveness and safety of low dose trimethoprim-sulfamethoxazole for the treatment of pneumocystis pneumonia: A systematic review and meta-analysis.",
+   "abstract": "BACKGROUND: Pneumocystis jirovecii pneumonia (PJP) is an opportunistic fungal infection causing significant morbidity and mortality in immunocompromised patients. The conventional treatment of PJP is sulfamethoxazole-trimethoprim (SMX-TMP) dosed at 15-20 mg/kg/day of the trimethoprim component. Several studies have suggested similar mortality outcomes and an improved adverse effect profile using a lower dose (<15 mg/kg/day) SMX-TMP regimen. Our objective of this meta-analysis was to evaluate the safety and efficacy of lower dose SMX-TMP for PJP pneumonia.\nMETHODS: We conducted a systematic review and meta-analysis of the existing literature according to Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines. MEDLINE and Embase databases were searched from inception to January 15, 2020, for studies in English evaluating low-dose SMX-TMP (<15 mg/kg/day) compared to conventional dosing for the treatment of PJP. Outcomes evaluated in our meta-analysis include survival and adverse reactions.\nRESULTS: After excluding studies that did not meet our inclusion criteria, four studies were analyzed for adverse reactions and three for mortality. Overall, there was no significant difference in mortality between low-dose and conventional-dose SMX-TMP groups (relative risk [RR]: 0.55, 95% confidence interval [CI], 0.18-1.70). There was a significant decrease in the rate of adverse reactions for the low-dose group compared with the conventional-dose group (RR: 0.70, 95% CI, 0.53-0.91).\nCONCLUSIONS: This meta-analysis shows a significant decrease in adverse reactions and similar mortality rates with lower-dose SMX-TMP compared to conventional dosing. A low-dose SMX-TMP regimen in the treatment of PJP should be considered a viable option as it could potentially decrease treatment discontinuation rates and reduce patient harm.",
+   "journal": "Transplant infectious disease : an official journal of the Transplantation Society",
+   "year": "2021",
+   "doi": "10.1111/tid.13737",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34553814/"
+  }
+ ]
+}

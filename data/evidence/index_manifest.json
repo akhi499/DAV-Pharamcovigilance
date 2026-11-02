@@ -1,0 +1,44 @@
+{
+  "index_version": "pv-evidence-index-1.0",
+  "created_at": "2026-10-20T05:21:02+00:00",
+  "documents": 601,
+  "documents_by_type": {
+    "literature": 424,
+    "label": 135,
+    "regulatory": 42
+  },
+  "chunks": 8590,
+  "chunks_by_type": {
+    "label": 7100,
+    "literature": 759,
+    "regulatory": 731
+  },
+  "drugs_with_label": 135,
+  "content_sha256": "3119931b8600511f",
+  "chunk_words": 160,
+  "overlap_words": 30,
+  "max_chunks_per_section": 25,
+  "chunks_truncated": 1180,
+  "drug_vocabulary": 300,
+  "embedding": {
+    "model_id": "BAAI/bge-small-en-v1.5",
+    "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "license": "MIT",
+    "weights_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "pooling": "CLS, L2-normalised",
+    "max_length": 512,
+    "query_instruction": "Represent this sentence for searching relevant passages: ",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "cuda": "12.6",
+    "dim": 384,
+    "seconds": 110.5,
+    "passages_per_second": 77.7
+  },
+  "retrieval_modes": [
+    "hybrid",
+    "dense",
+    "bm25"
+  ],
+  "seconds_total": 123.4
+}

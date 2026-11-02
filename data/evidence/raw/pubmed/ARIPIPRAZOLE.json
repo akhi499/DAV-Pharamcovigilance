@@ -1,0 +1,67 @@
+{
+ "drug": "ARIPIPRAZOLE",
+ "status": "ok",
+ "query": "\"aripiprazole\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:19:08+00:00",
+ "records": [
+  {
+   "pmid": "39312063",
+   "title": "Drug induced hypoprolactinemia.",
+   "abstract": "Prolactin levels can be influenced by multiple medications primarily through the interaction with dopamine receptors which regulate its secretion. Unlike hyperprolactinemia which has a well-defined clinical phenotype, the effects of hypoprolactinemia beyond inability to lactate are incompletely understood. Recent studies have raised concerns regarding detrimental changes in glucose metabolism, sexual function and psychological profile in patients with low prolactin levels. In contrast with anatomic and genetic etiologies, drug-induced hypoprolactinemia is usually reversible after dose reduction of the offending medication. The most common clinical scenario of drug-induced hypoprolactinemia in the endocrine clinic pertains to patients treated with cabergoline or bromocriptine for prolactin-secreting or other types of pituitary adenomas. Also, data has accumulated regarding hypoprolactinemia in patients receiving aripiprazole for schizophrenia and other psychiatric disorders. These patients warrant careful evaluation for comorbidities. This review aims to increase awareness about the potentially detrimental effects of drug-induced hypoprolactinemia, which should be considered in clinical practice decisions.",
+   "journal": "Reviews in endocrine & metabolic disorders",
+   "year": "2024",
+   "doi": "10.1007/s11154-024-09909-6",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39312063/"
+  },
+  {
+   "pmid": "31860457",
+   "title": "Comparative effects of 18 antipsychotics on metabolic function in patients with schizophrenia, predictors of metabolic dysregulation, and association with psychopathology: a systematic review and network meta-analysis.",
+   "abstract": "BACKGROUND: Antipsychotic treatment is associated with metabolic disturbance. However, the degree to which metabolic alterations occur in treatment with different antipsychotics is unclear. Predictors of metabolic dysregulation are poorly understood and the association between metabolic change and change in psychopathology is uncertain. We aimed to compare and rank antipsychotics on the basis of their metabolic side-effects, identify physiological and demographic predictors of antipsychotic-induced metabolic dysregulation, and investigate the relationship between change in psychotic symptoms and change in metabolic parameters with antipsychotic treatment.\nMETHODS: We searched MEDLINE, EMBASE, and PsycINFO from inception until June 30, 2019. We included blinded, randomised controlled trials comparing 18 antipsychotics and placebo in acute treatment of schizophrenia. We did frequentist random-effects network meta-analyses to investigate treatment-induced changes in body weight, BMI, total cholesterol, LDL cholesterol, HDL cholesterol, triglyceride, and glucose concentrations. We did meta-regressions to examine relationships between metabolic change and age, sex, ethnicity, baseline weight, and baseline metabolic parameter level. We examined the association between metabolic change and psychopathology change by estimating the correlation between symptom severity change and metabolic parameter change.\nFINDINGS: Of 6532 citations, we included 100 randomised controlled trials, including 25 952 patients. Median treatment duration was 6 weeks (IQR 6-8). Mean differences for weight gain compared with placebo ranged from -0·23 kg (95% CI -0·83 to 0·36) for haloperidol to 3·01 kg (1·78 to 4·24) for clozapine; for BMI from -0·25 kg/m2 (-0·68 to 0·17) for haloperidol to 1·07 kg/m2 (0·90 to 1·25) for olanzapine; for total-cholesterol from -0·09 mmol/L (-0·24 to 0·07) for cariprazine to 0·56 mmol/L (0·26-0·86) for clozapine; for LDL cholesterol from -0·13 mmol/L (-0.21 to -0·05) for cariprazine to 0·20 mmol/L (0·14 to 0·26) for olanzapine; for HDL cholesterol from 0·05 mmol/L (0·00 to 0·10) for brexpiprazole to -0·10 mmol/L (-0·33 to 0·14) for amisulpride; for triglycerides from -0·01 mmol/L (-0·10 to 0·08) for brexpiprazole to 0·98 mmol/L (0·48 to 1·49) for clozapine; for glucose from -0·29 mmol/L (-0·55 to -0·03) for lurasidone to 1·05 mmol/L (0·41 to 1·70) for clozapine. Greater increases in glucose were predicted by higher baseline weight (p=0·0015) and male sex (p=0·0082). Non-white ethnicity was associated with greater increases in total cholesterol (p=0·040) compared with white ethnicity. Improvements in symptom severity were associated with increases in weight (r=0·36, p=0·0021), BMI (r=0·84, p<0·0001), total-cholesterol (r=0·31, p=0·047), and LDL cholesterol (r=0·42, p=0·013), and decreases in HDL cholesterol (r=-0·35, p=0·035).\nINTERPRETATION: Marked differences exist between antipsychotics in terms of metabolic side-effects, with olanzapine and clozapine exhibiting the worst profiles and aripiprazole, brexpiprazole, cariprazine, lurasidone, and ziprasidone the most benign profiles. Increased baseline weight, male sex, and non-white ethnicity are predictors of susceptibility to antipsychotic-induced metabolic change, and improvements in psychopathology are associated with metabolic disturbance. Treatment guidelines should be updated to reflect our findings. However, the choice of antipsychotic should be made on an individual basis, considering the clinical circumstances and preferences of patients, carers, and clinicians.\nFUNDING: UK Medical Research Council, Wellcome Trust, National Institute for Health Research Oxford Health Biomedical Research Centre.",
+   "journal": "The lancet. Psychiatry",
+   "year": "2020",
+   "doi": "10.1016/S2215-0366(19)30416-X",
+   "publication_types": [
+    "Comparative Study",
+    "Journal Article",
+    "Network Meta-Analysis",
+    "Research Support, Non-U.S. Gov't",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31860457/"
+  },
+  {
+   "pmid": "37149344",
+   "title": "Pharmacotherapy for Treatment-Resistant Depression: Antidepressants and Atypical Antipsychotics.",
+   "abstract": "Treatment-resistant depression (TRD) affects one in three patients with major depressive disorder and is associated with increased risk of all-cause mortality. Studies of real-world practices suggest that antidepressant monotherapy continues to be the most widely used treatment after inadequate response to a first-line treatment. However, rates of remission with antidepressants in TRD are suboptimal. Atypical antipsychotics are the most widely studied augmentation agent and aripiprazole, brexpiprazole, cariprazine, quetiapine extended-release, and olanzapine-fluoxetine combination are approved for depression. Benefits of using atypical antipsychotics for TRD has to be weighted against their potential adverse events, such as weight gain, akathisia, and tardive dyskinesia.",
+   "journal": "The Psychiatric clinics of North America",
+   "year": "2023",
+   "doi": "10.1016/j.psc.2023.02.012",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, U.S. Gov't, Non-P.H.S.",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37149344/"
+  },
+  {
+   "pmid": "40593436",
+   "title": "Management of Bipolar Disorder in Pregnancy and Postpartum: A Clinicians' Guide.",
+   "abstract": "Medication management in women with bipolar disorder (BD) in the perinatal period is challenging, given that many patients taper or stop medication during pregnancy, and the postpartum period is an extremely high-risk period for relapse. The objective of this narrative review was to investigate the perinatal efficacy as well as potential adverse effects on the child of common treatments for bipolar disorder. These treatments include lithium, lamotrigine, other antiepileptics, quetiapine, olanzapine, aripiprazole, other antipsychotics, antidepressants, benzodiazepines, Z-drugs, and other sleep medication. Despite the worldwide decline in lithium use, it remains the gold standard for acute and maintenance treatment of BD, and we continue to advise its use in women of reproductive age. In contrast, medications with a high risk for teratogenicity such as valproate and carbamazepine should be avoided in women of childbearing potential. Women with bipolar disorder are at very high risk of relapse after delivery, but this risk is more than twofold lower with adequate pharmacological prophylaxis. We advise to make a written perinatal bipolar relapse prevention plan in collaboration with the patient, family, and healthcare professionals, which includes a description of: (1) maintenance treatment during pregnancy, (2) preferred mode of delivery, (3) medication immediately after delivery and the first months postpartum for relapse prevention, (4) preferred plan for feeding (breast-feeding versus bottle-feeding), (5) strategies to assist women in ensuring adequate sleep and stable circadian rhythm in the first weeks after delivery, and (6) how to recognize the first symptoms of relapse and which intervention strategies to take.",
+   "journal": "CNS drugs",
+   "year": "2025",
+   "doi": "10.1007/s40263-025-01202-7",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40593436/"
+  }
+ ]
+}

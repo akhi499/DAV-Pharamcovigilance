@@ -1,0 +1,62 @@
+{
+ "drug": "BUDESONIDE",
+ "status": "ok",
+ "query": "\"budesonide\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:19:22+00:00",
+ "records": [
+  {
+   "pmid": "39894081",
+   "title": "Treatment of patients with IgA nephropathy: a call for a new paradigm.",
+   "abstract": "IgA nephropathy (IgAN), the world's most common primary glomerular disease, carries a significant lifetime risk for kidney failure as well as an enormous socioeconomic burden. In the past, studies in patients with IgAN largely focused on optimizing so-called supportive care, that is, blockade of the renin-angiotensin system, blood pressure control, and lifestyle modifications. The effectiveness of immunosuppressive measures, particularly high-dose corticosteroid therapy, has been reported variably, but there is considerable evidence for an increase in serious adverse effects with such therapies. This disappointing situation has changed dramatically with a better understanding of the pathogenesis of IgAN, and with regulatory agencies accepting changes in proteinuria and the estimated glomerular filtration rate loss or slope over 2 to 3 years as surrogate outcome markers. A multitude of new therapies are now being evaluated in IgAN, and several drugs, such as sodium-glucose transporter-2 inhibitors, sparsentan (a dual endothelin-1 and angiotensin II receptor blocker), nefecon (a targeted release formulation of budesonide), and iptacopan (a complement factor B inhibitor), have been approved, with more to come in the next few years. In this review, we propose a new treatment paradigm that combines therapies with different mechanisms of action to target the immune components and the chronic kidney disease components of IgAN in parallel to preserve long-term kidney survival.",
+   "journal": "Kidney international",
+   "year": "2025",
+   "doi": "10.1016/j.kint.2025.01.014",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39894081/"
+  },
+  {
+   "pmid": "38556189",
+   "title": "Advances in Nonresponsive and Refractory Celiac Disease.",
+   "abstract": "Nonresponsive celiac disease (CeD) is relatively common. It is generally attributed to persistent gluten exposure and resolves after correction of diet errors. However, other complications of CeD and disorders clinically mimicking CeD need to be excluded. Novel therapies are being evaluated to facilitate mucosal recovery, which might benefit patients with nonresponsive CeD. Refractory CeD (RCeD) is rare and is divided into 2 types. The etiology of type I RCeD is unclear. A switch to gluten-independent autoimmunity is suspected in some patients. In contrast, type II RCeD represents a low-grade intraepithelial lymphoma. Type I RCeD remains a diagnosis of exclusion, requiring ruling out gluten intake and other nonmalignant causes of villous atrophy. Diagnosis of type II RCeD relies on the demonstration of a clonal population of neoplastic intraepithelial lymphocytes with an atypical immunophenotype. Type I RCeD and type II RCeD generally respond to open-capsule budesonide, but the latter has a dismal prognosis due to severe malnutrition and frequent progression to enteropathy-associated T-cell lymphoma; more efficient therapy is needed.",
+   "journal": "Gastroenterology",
+   "year": "2024",
+   "doi": "10.1053/j.gastro.2024.02.048",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38556189/"
+  },
+  {
+   "pmid": "31567493",
+   "title": "Medications and the larynx.",
+   "abstract": "PURPOSE OF REVIEW: The larynx is a complex organ that houses some of the most intricate structures of the human body. Owing to its delicate nature, the larynx is affected by different medications to varying degrees. Many of these effects manifest in subjective complaints in one's voice or swallow. This review article invokes the present available literature to describe the effects different medical agents have on the functionality of the laryngeal structures.\nRECENT FINDINGS: Multiple available studies explore the effects of inhaled corticosteroids on the larynx. While laryngeal candidiasis is a well known complication of chronic steroid use, other rarer fungal infections have also demonstrated themselves as risks. Among anesthetics, the literature suggests that sevoflurane in standard and high doses does not appear to significantly reduce the risk of laryngospasm. The use of topical and intravenous lidocaine appear to have conflicting evidence regarding their use in laryngospasm prevention, whereas postoperative sore throat, hoarseness, and cough may be prevented with preinduction nebulization of ketamine and magnesium sulfate or budesonide.\nSUMMARY: Further study is warranted to explore the effects that these and other classes of agents, such as antibiotics, have on the structure and function of the larynx.",
+   "journal": "Current opinion in otolaryngology & head and neck surgery",
+   "year": "2019",
+   "doi": "10.1097/MOO.0000000000000580",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31567493/"
+  },
+  {
+   "pmid": "34495361",
+   "title": "Current treatment of IgA nephropathy.",
+   "abstract": "IgA nephropathy (IgAN) is the most common type of glomerulonephritis in Asia and the Western world. In most patients, it follows an asymptomatic to oligosymptomatic course and GFR loss, if any, is slow. The mainstay of therapy therefore is optimized supportive care, i.e., measures that lower blood pressure, reduce proteinuria, minimize lifestyle risk factors, and otherwise help to reduce non-specific insults to the kidneys. The value of immunosuppression has become controversial and if at all, systemic high-dose corticosteroid therapy should be considered for a few months taking into account patient characteristics that would caution against or preclude such therapy. In addition, adverse events related to corticosteroid therapy markedly increase as GFR declines. Beyond corticosteroids, there is little evidence that any additional immunosuppression is helpful, with the exception of mycophenolate mofetil in patients of Asian descent. A considerable number of clinical trials ranging from enteric coated budesonide to blockade of B-cell function to complement inhibitors are currently ongoing and will hopefully allow a more targeted therapy of high-risk patients with progressive IgAN in the future.",
+   "journal": "Seminars in immunopathology",
+   "year": "2021",
+   "doi": "10.1007/s00281-021-00888-3",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34495361/"
+  }
+ ]
+}

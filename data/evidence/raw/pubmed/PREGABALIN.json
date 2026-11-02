@@ -1,0 +1,61 @@
+{
+ "drug": "PREGABALIN",
+ "status": "ok",
+ "query": "\"pregabalin\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:17:13+00:00",
+ "records": [
+  {
+   "pmid": "39859113",
+   "title": "Drug-Induced Myoclonus: A Systematic Review.",
+   "abstract": "Background and Objectives: Myoclonus is already associated with a wide variety of drugs and systemic conditions. As new components are discovered, more drugs are suspected of causing this disabling abnormal involuntary movement. This systematic review aims to assess the medications associated with drug-induced myoclonus (DIM). Materials and Methods: Two reviewers assessed the PubMed database using the search term \"myoclonus\", without language restriction, for articles published between 1955 and 2024. The medications found were divided into classes and sub-classes, and the subclasses were graded according to their level of evidence. Results: From 12,097 results, 1115 were found to be DIM. The subclasses of medications with level A evidence were intravenous anesthetics (etomidate), cephalosporins (ceftazidime, cefepime), fluoroquinolones (ciprofloxacin), selective serotonin reuptake inhibitors (citalopram, escitalopram, paroxetine, sertraline), tricyclic antidepressant (amitriptyline), glutamate antagonist (amantadine), atypical antipsychotics (clozapine, quetiapine), antiseizure medications (carbamazepine, oxcarbazepine, phenytoin, gabapentin, pregabalin, valproate), pure opioid agonist (fentanyl, morphine), bismuth salts, and mood stabilizers (lithium). The single medication with the highest number of reports was etomidate. Drug-induced asterixis is associated with a specific list of medications. The neurotransmitters likely involved in DIM are serotonin, dopamine, gamma-aminobutyric acid (GABA), and glutamate. Conclusions: DIM may be reversible with management that can include drug discontinuation, dose adjustment, and the prescription of a medication used to treat idiopathic myoclonus. Based on the main clinical constellation of symptoms and pathophysiological mechanisms found in this study, DIM can be categorized into three types: type 1 (serotonin syndrome), type 2 (non-serotonin syndrome), and type 3 (unknown).",
+   "journal": "Medicina (Kaunas, Lithuania)",
+   "year": "2025",
+   "doi": "10.3390/medicina61010131",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39859113/"
+  },
+  {
+   "pmid": "29487083",
+   "title": "Drugs for Insomnia beyond Benzodiazepines: Pharmacology, Clinical Applications, and Discovery.",
+   "abstract": "Although the GABAergic benzodiazepines (BZDs) and Z-drugs (zolpidem, zopiclone, and zaleplon) are FDA-approved for insomnia disorders with a strong evidence base, they have many side effects, including cognitive impairment, tolerance, rebound insomnia upon discontinuation, car accidents/falls, abuse, and dependence liability. Consequently, the clinical use of off-label drugs and novel drugs that do not target the GABAergic system is increasing. The purpose of this review is to analyze the neurobiological and clinical evidence of pharmacological treatments of insomnia, excluding the BZDs and Z-drugs. We analyzed the melatonergic agonist drugs, agomelatine, prolonged-release melatonin, ramelteon, and tasimelteon; the dual orexin receptor antagonist suvorexant; the modulators of the α2δ subunit of voltage-sensitive calcium channels, gabapentin and pregabalin; the H1 antagonist, low-dose doxepin; and the histamine and serotonin receptor antagonists, amitriptyline, mirtazapine, trazodone, olanzapine, and quetiapine. The pharmacology and mechanism of action of these treatments and the evidence-base for the use of these drugs in clinical practice is outlined along with novel pipelines. There is evidence to recommend suvorexant and low-dose doxepin for sleep maintenance insomnia; there is also sufficient evidence to recommend ramelteon for sleep onset insomnia. Although there is limited evidence for the use of the quetiapine, trazodone, mirtazapine, amitriptyline, pregabalin, gabapentin, agomelatine, and olanzapine as treatments for insomnia disorder, these drugs may improve sleep while successfully treating comorbid disorders, with a different side effect profile than the BZDs and Z-drugs. The unique mechanism of action of each drug allows for a more personalized and targeted medical management of insomnia.",
+   "journal": "Pharmacological reviews",
+   "year": "2018",
+   "doi": "10.1124/pr.117.014381",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29487083/"
+  },
+  {
+   "pmid": "37918778",
+   "title": "The Safe Use of Analgesics in Patients with Cirrhosis: A Narrative Review.",
+   "abstract": "Pain is prevalent in patients with cirrhosis. Due to potential alterations in drug metabolism, risk for adverse effects, and complications from cirrhosis, physicians are often faced with difficult choices when choosing appropriate analgesics in these patients. Overall, acetaminophen remains the preferred analgesic. Despite its potential for intrinsic liver toxicity, acetaminophen is safe when used at 2 g/d. In contrast, non-selective nonsteroidals should be avoided due to their multiple side effects, including worsening renal function, blunting diuretic response, and increasing risk of portal hypertensive and peptic ulcer bleeding. Celecoxib can be administered for short term (≤5 days) in patients with Child's A and Child's B cirrhosis (50% dose reduction). Opioids carry the risk of precipitating hepatic encephalopathy and should generally be avoided, when possible. If clinical situation demands their use, opioid use should be limited to short-acting agents for short duration. Gabapentin and pregabalin are generally safe. Duloxetine should be avoided in hepatic impairment. Topical diclofenac and lidocaine seem to be safe in patients with cirrhosis.",
+   "journal": "The American journal of medicine",
+   "year": "2024",
+   "doi": "10.1016/j.amjmed.2023.10.022",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37918778/"
+  },
+  {
+   "pmid": "30131174",
+   "title": "Antidepressants in epilepsy.",
+   "abstract": "People with epilepsy (PWE) frequently suffer from comorbid mood and anxiety disorders. Depression is one of the major psychiatric comorbidities having a negative impact on the quality of life in people with epilepsy. A review of the literature indicates that the majority of antidepressant-related seizures have been associated with either ultra-high doses or overdosing and, generally, the risk of antidepressant-associated seizures is low. Correspondingly, there is some evidence indicating that antidepressants of most widely used groups may additionally lower the risk of triggering seizures. Four antidepressants are not recommended for patients with epilepsy, i.e.: amoxapine, bupropion, clomipramine and maprotiline. Clinicians applying first line of depression treatment in patients with epilepsy should consider use of SSRIs or SNRIs, particularly sertraline, citalopram, mirtazapine, reboxetine, paroxetine, fluoxetine, escitalopram, fluvoxamine, venlafaxine, duloxetine. Implementation of anticonvulsive drugs in depressed patients should include valproate, carbamazepine, lamotrigine, gabapentin, pregabalin. The paper reviews the evidence for the clinical use of antidepressants in PWE.",
+   "journal": "Neurologia i neurochirurgia polska",
+   "year": "2018",
+   "doi": "10.1016/j.pjnns.2018.07.005",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30131174/"
+  }
+ ]
+}

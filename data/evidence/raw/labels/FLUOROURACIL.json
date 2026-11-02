@@ -1,0 +1,25 @@
+{
+ "drug": "FLUOROURACIL",
+ "status": "ok",
+ "fetched_at": "2026-10-20T05:17:39+00:00",
+ "set_id": "35de1c1c-bef5-46c5-b6f8-ea032147411c",
+ "spl_id": "3375c5f7-9b6f-8ca1-e063-6394a90aaff8",
+ "spl_version": "20",
+ "effective_time": "20250423",
+ "brand_names": [
+  "Efudex"
+ ],
+ "generic_names": [
+  "FLUOROURACIL"
+ ],
+ "manufacturer": "Bausch Health US, LLC",
+ "route": [
+  "TOPICAL"
+ ],
+ "dailymed_title": "EFUDEX (FLUOROURACIL) SOLUTION EFUDEX (FLUOROURACIL) CREAM [BAUSCH HEALTH US, LLC]",
+ "dailymed_published": "Apr 25, 2025",
+ "dailymed_spl_version": 20,
+ "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=35de1c1c-bef5-46c5-b6f8-ea032147411c",
+ "api_url": "https://api.fda.gov/drug/label.json?search=set_id:%2235de1c1c-bef5-46c5-b6f8-ea032147411c%22",
+ "sections": {}
+}

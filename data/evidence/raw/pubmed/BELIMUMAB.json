@@ -1,0 +1,63 @@
+{
+ "drug": "BELIMUMAB",
+ "status": "ok",
+ "query": "\"belimumab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:22+00:00",
+ "records": [
+  {
+   "pmid": "27306639",
+   "title": "Systemic lupus erythematosus.",
+   "abstract": "Systemic lupus erythematosus (SLE) is an autoimmune disease that can affect many organs, including the skin, joints, the central nervous system and the kidneys. Women of childbearing age and certain racial groups are typically predisposed to developing the condition. Rare, inherited, single-gene complement deficiencies are strongly associated with SLE, but the disease is inherited in a polygenic manner in most patients. Genetic interactions with environmental factors, particularly UV light exposure, Epstein-Barr virus infection and hormonal factors, might initiate the disease, resulting in immune dysregulation at the level of cytokines, T cells, B cells and macrophages. Diagnosis is primarily clinical and remains challenging because of the heterogeneity of SLE. Classification criteria have aided clinical trials, but, despite this, only one drug (that is, belimumab) has been approved for use in SLE in the past 60 years. The 10-year mortality has improved and toxic adverse effects of older medications such as cyclophosphamide and glucocorticoids have been partially offset by newer drugs such as mycophenolate mofetil and glucocorticoid-sparing regimes. However, further improvements have been hampered by the adverse effects of renal and neuropsychiatric involvement and late diagnosis. Adding to this burden is the increased risk of premature cardiovascular disease in SLE together with the risk of infection made worse by immunosuppressive therapy. Challenges remain with treatment-resistant disease and symptoms such as fatigue. Newer therapies may bring hope of better outcomes, and the refinement to stem cell and genetic techniques might offer a cure in the future.",
+   "journal": "Nature reviews. Disease primers",
+   "year": "2016",
+   "doi": "10.1038/nrdp.2016.39",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27306639/"
+  },
+  {
+   "pmid": "33631841",
+   "title": "Belimumab for systemic lupus erythematosus.",
+   "abstract": "BACKGROUND: Belimumab, the first biologic approved for the treatment of systemic lupus erythematosus (SLE), has been shown to reduce autoantibody levels in people with SLE and help control disease activity.\nOBJECTIVES: To assess the benefits and harms of belimumab (alone or in combination) in systematic lupus erythematosus.\nSEARCH METHODS: An Information Specialist carried out the searches of CENTRAL, MEDLINE, Embase, CINAHL, Web of Science, the World Health Organization (WHO) International Clinical Trials Registry Platform, and clinicaltrials.gov from inception to 25 September 2019. There were no language or date restrictions.\nSELECTION CRITERIA: We included randomized controlled trials (RCTs) or controlled clinical trials (CCTs) of belimumab (alone or in combination) compared to placebo/control treatment (immunosuppressive drugs, such as azathioprine, cyclosporine, mycophenolate mofetil or another biologic), in adults with SLE.\nDATA COLLECTION AND ANALYSIS: We used standard methodologic procedures expected by Cochrane.\nMAIN RESULTS: Six RCTs (2917 participants) qualified for quantitative analyses. All included studies were multicenter, international or US-based. The age range of the included participants was 22 to 80 years; most were women; and study duration ranged from 84 days to 76 weeks. The risk of bias was generally low except for attrition bias, which was high in 67% of studies. Compared to placebo, more participants on belimumab 10 mg/kg (Food and Drug Administration (FDA)-approved dose) showed at least a 4-point improvement (reduction) in Safety of Estrogen in Lupus National Assessment (SELENA) - Systemic Lupus Erythematosus Disease Activity Index (SLEDAI) score, a validated SLE disease activity index: (risk ratio (RR) 1.33, 95% confidence interval (CI) 1.22 to 1.45; 829/1589 in belimumab group and 424/1077 in placebo; I2= 0%; 4 RCTs; high-certainty evidence). Change in health-related quality of life (HRQOL), assessed by Short Form-36 Physical Component Summary score improvement (range 0 to 100), showed there was probably little or no difference between groups (mean difference 1.6 points, 95% CI 0.30 to 2.90; 401 in belimumab group and 400 in placebo; I2= 0%; 2 RCTs; moderate-certainty evidence). The belimumab 10 mg/kg group showed greater improvement in glucocorticoid dose, with a higher proportion of participants reducing their dose by at least 50% compared to placebo (RR 1.59, 95% CI 1.17 to 2.15; 81/269 in belimumab group and 52/268 in placebo; I2= 0%; 2 RCTs; high-certainty evidence). The proportion of participants experiencing harm may not differ meaningfully between the belimumab 10 mg/kg and placebo groups: one or more serious adverse event (RR 0.87, 95% CI: 0.68 to 1.11; 238/1700 in belimumab group and 199/1190 in placebo; I2= 48%; 5 RCTs; low-certainty evidence; ); one or more serious infection (RR 1.01, 95% CI: 0.66 to 1.54; 44/1230 in belimumab group and 40/955 in placebo; I2= 0%; 4 RCTs; moderate-certainty evidence); and withdrawals due to adverse events (RR 0.82, 95% CI: 0.63 to 1.07; 113/1700 in belimumab group and 94/1190 in placebo; I2= 0%; 5 RCTs; moderate-certainty evidence). Mortality was rare, and may not differ between belimumab 10 mg/kg and placebo (Peto odds ratio 1.15, 95% CI 0.41 to 3.25; 9/1714 in belimumab group and 6/1203 in placebo; I2= 4%; 6 RCTs; low-certainty evidence).\nAUTHORS' CONCLUSIONS: The six studies that provided evidence for benefits and harms of belimumab were well-designed, high-quality RCTs. At the FDA-approved dose of 10 mg/kg, based on moderate to high-certainty data, belimumab was probably associated with a clinically meaningful efficacy benefit compared to placebo in participants with SLE at 52 weeks. Evidence related to harms is inconclusive and mostly of moderate to low-certainty evidence. More data are needed for the longer-term efficacy of belimumab.",
+   "journal": "The Cochrane database of systematic reviews",
+   "year": "2021",
+   "doi": "10.1002/14651858.CD010668.pub2",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Research Support, Non-U.S. Gov't",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33631841/"
+  },
+  {
+   "pmid": "40846176",
+   "title": "Childhood-onset lupus nephritis: unique aspects and challenges in management.",
+   "abstract": "Childhood-onset lupus nephritis is an important glomerular disease that requires safe and effective treatments to reduce the incidence of chronic kidney disease and kidney failure. Novel treatments have become available for adults in the last decade, notably belimumab, obinutuzumab, and voclosporin. In contrast, most children with lupus nephritis are treated with conventional immunosuppression, and treatment recommendations are extrapolated from adult data because pediatric patients have historically been rarely included in clinical trials. However, children are not small adults with evolving immune systems, and there is a significant role of genetics contributing to the complex disease pathogenesis. In this mini review, we will highlight several unique aspects in managing childhood-onset lupus nephritis, including the optimal definition of disease remission, prevention of relapse, the delicate balance between treatment efficacy and side effects, and monogenic forms of lupus nephritis. We will also discuss how treatment adherence and dedicated transition care can affect treatment outcomes.",
+   "journal": "Kidney international",
+   "year": "2025",
+   "doi": "10.1016/j.kint.2025.05.039",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40846176/"
+  },
+  {
+   "pmid": "38321317",
+   "title": "Drug-Induced Progressive Multifocal Leukoencephalopathy (PML): A Systematic Review and Meta-Analysis.",
+   "abstract": "INTRODUCTION: Progressive multifocal leukoencephalopathy (PML) was first described among patients affected by hematological or solid tumors. Following the human immunodeficiency virus (HIV) epidemic, people living with HIV have represented most cases for more than a decade. With the diffusion of highly active antiretroviral therapy, this group progressively decreased in favor of patients undergoing treatment with targeted therapy/immunomodulators. In this systematic review and meta-analysis, the objective was to assess which drugs are most frequently related to PML development, and report the incidence of drug-induced PML through a meta-analytic approach.\nMETHODS: The electronic databases MEDLINE, EMBASE, ClinicalTrials.gov, Web of Science and the Canadian Agency for Drugs and Technologies in Health Database (CADTH) were searched up to May 10, 2022. Articles that reported the risk of PML development after treatment with immunomodulatory drugs, including patients of both sexes under the age of 80 years, affected by any pathology except HIV, primary immunodeficiencies or malignancies, were included in the review. The incidence of drug-induced PML was calculated based on PML cases and total number of patients observed per 100 persons and the observation time. Random-effect metanalyses were conducted for each drug reporting pooled incidence with 95% confidence intervals (CI) and median (interquartile range [IQR]) of the observation time. Heterogeneity was measured by I2 statistics. Publication bias was examined through funnel plots and Egger's test.\nRESULTS: A total of 103 studies were included in the systematic review. In our analysis, we found no includible study reporting cases of PML during the course of treatment with ocrelizumab, vedolizumab, abrilumab, ontamalimab, teriflunomide, daclizumab, inebilizumab, basiliximab, tacrolimus, belimumab, infliximab, firategrast, disulone, azathioprine or danazole. Dalfampridine, glatiramer acetate, dimethyl fumarate and fingolimod show a relatively safe profile, although some cases of PML have been reported. The meta-analysis showed an incidence of PML cases among patients undergoing rituximab treatment for multiple sclerosis (MS) of 0.01 cases/100 persons (95% CI - 0.08 to 0.09; I2 = 20.4%; p = 0.25) for a median observation period of 23.5 months (IQR 22.1-42.1). Treatment of MS with natalizumab carried a PML risk of 0.33 cases/100 persons (95% CI 0.29-0.37; I2 = 50%; p = 0.003) for a median observation period of 44.1 months (IQR 28.4-60) and a mean number of doses of 36.3 (standard deviation [SD] ± 20.7). When comparing data about patients treated with standard interval dosing (SID) and extended interval dosing (EID), the latter appears to carry a smaller risk of PML, that is, 0.08 cases/100 persons (95% CI 0.0-0.15) for EID versus 0.3 cases/100 persons (95% CI 0.25-0.34) for SID.\nCONCLUSIONS: A higher risk of drug-related PML in patients whose immune system is not additionally depressed by means of neoplasms, HIV or concomitant medications is found in the neurological field. This risk is higher in MS treatment, and specifically during long-term natalizumab therapy. While this drug is still routinely prescribed in this field, considering the efficacy in reducing MS relapses, in other areas it could play a smaller role, and be gradually replaced by other safer and more recently approved agents.",
+   "journal": "Drug safety",
+   "year": "2024",
+   "doi": "10.1007/s40264-023-01383-4",
+   "publication_types": [
+    "Systematic Review",
+    "Journal Article",
+    "Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38321317/"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "drug": "LEVONORGESTREL",
+ "status": "ok",
+ "query": "\"levonorgestrel\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:17:43+00:00",
+ "records": [
+  {
+   "pmid": "36201766",
+   "title": "Long-Acting Reversible Contraception.",
+   "abstract": "Long-acting reversible contraceptive (LARC) methods are effective options for pregnancy prevention. Currently available products in the United States include an etonogestrel implant, a copper intrauterine device (IUD), and several levonorgestrel IUDs. With increasing prevalence and duration of use, our understanding of efficacy, risks, and benefits has evolved. In addition to a brief discussion on nomenclature and LARC use within a framework of bodily autonomy and reproductive justice, this review covers clinical challenges with placement and removal, evidence-based duration of use, and how to mitigate side effects. Although all obstetrician-gynecologists as well as primary care clinicians can safely provide LARCs, complex family planning specialists are an expert referral source for challenging cases and evidence-based care as contraceptive technology continues to develop.",
+   "journal": "Obstetrics and gynecology",
+   "year": "2022",
+   "doi": "10.1097/AOG.0000000000004967",
+   "publication_types": [
+    "Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36201766/"
+  },
+  {
+   "pmid": "39644023",
+   "title": "Estrogen, progestin, and beyond: thrombotic risk and contraceptive choices.",
+   "abstract": "Hormonal contraceptive therapy (estrogens and/or progestogens) includes different formulations associated with varying venous thromboembolism (VTE) risks. The thrombogenicity of combined hormonal contraceptives (CHCs) is due at least in part to multiple changes in clotting factors and the vasculature and is dependent on both estrogen dose and type of progestin. Transdermal patch and vaginal ring users have similar or higher VTE risk as combined oral contraceptive users. Progestin-only agents have varying VTE risk. While depot medroxyprogesterone acetate appears to increase VTE risk, the levonorgestrel-based intrauterine system and low-dose progestin-only pills have no additional VTE risk. There are less data for the subdermal progestin-only implant. This article reviews contraceptive-related VTE risk by agent and by clinical scenario, including in patients with inherited thrombophilia, systemic lupus erythematosus with or without antiphospholipid antibodies or antiphospholipid syndrome, and sickle cell disease. Relevant clinical practice guidelines are reviewed. A multidisciplinary approach to counseling is needed for patient-focused decision-making.",
+   "journal": "Hematology. American Society of Hematology. Education Program",
+   "year": "2024",
+   "doi": "10.1182/hematology.2024000591",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39644023/"
+  },
+  {
+   "pmid": "40138924",
+   "title": "Subdermal contraceptive implants.",
+   "abstract": "The provision of long-acting reversible contraceptive (LARC) methods is one of the best tools available to avoid high rates of unplanned pregnancy (UP), a public health problem that affects millions of women worldwide. In this review we provide an update regarding subdermal contraceptive implants including etonogestrel (ENG) and levonorgestrel (LNG) implants. Implants have been shown to be one of the most effective forms of contraceptive, with failure in only 4/1000 women for up to five years. Thus, their provision is an excellent strategy for reducing UPs. After a single intervention, implants provide long-term contraception with minimal side effects. Implants have few contraindications, but care must be taken to check for drug interactions with topiramate, rifampin and efavirenz. Although the ENG implant is approved for up to three years of use, research is ongoing into the possibility of extending its use beyond that period.",
+   "journal": "Best practice & research. Clinical obstetrics & gynaecology",
+   "year": "2025",
+   "doi": "10.1016/j.bpobgyn.2025.102604",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40138924/"
+  },
+  {
+   "pmid": "25841596",
+   "title": "Oral contraception.",
+   "abstract": "Oral contraception (OC) remains a popular noninvasive, readily reversible approach for pregnancy prevention and, largely off label, for control of acne, hirsutism, dysmenorrhea, irregular menstruation, menorrhagia, and other menstrual-related symptoms. Many OC formulations exist, with generics offering lower cost and comparable efficacy. Certain medical conditions, including hypertension, migraine, breast cancer, and risk of venous thromboembolism (VTE), present contraindications. Blood pressure measurement is the only physical examination or testing needed before prescription. Although no OC is clearly superior to others, OCs containing the second-generation progestin levonorgestrel have been associated with lower VTE risk than those containing other progestins.",
+   "journal": "The Medical clinics of North America",
+   "year": "2015",
+   "doi": "10.1016/j.mcna.2015.01.004",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25841596/"
+  }
+ ]
+}

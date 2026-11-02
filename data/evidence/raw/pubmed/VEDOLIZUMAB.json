@@ -1,0 +1,64 @@
+{
+ "drug": "VEDOLIZUMAB",
+ "status": "ok",
+ "query": "\"vedolizumab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T04:59:00+00:00",
+ "records": [
+  {
+   "pmid": "37471585",
+   "title": "Novel developments in the prophylaxis and treatment of acute GVHD.",
+   "abstract": "Acute graft-versus-host disease (aGVHD) is a major life-threatening complication after allogeneic hematopoietic cell transplant. Traditional standard prophylaxis for aGVHD has included a calcineurin inhibitor plus an antimetabolite, whereas treatment has relied mainly on corticosteroids, followed by multiple nonstandard second-line options. In the past decade, this basic framework has been reshaped by approval of antithymocyte globulin products, the emergence of posttransplant cyclophosphamide, and recent pivotal trials studying abatacept and vedolizumab for GVHD prophylaxis, whereas ruxolitinib was approved for corticosteroid-refractory aGVHD treatment. Because of this progress, routine acute GVHD prophylaxis and treatment practices are starting to shift, and results of ongoing trials are eagerly awaited. Here, we review recent developments in aGVHD prevention and therapy, along with ongoing and future planned clinical trials in this space, outlining what future goals should be and the limitations of current clinical trial designs and end points.",
+   "journal": "Blood",
+   "year": "2023",
+   "doi": "10.1182/blood.2023020073",
+   "publication_types": [
+    "Review",
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37471585/"
+  },
+  {
+   "pmid": "39382556",
+   "title": "Therapeutic drug monitoring in inflammatory bowel disease: recent developments.",
+   "abstract": "INTRODUCTION: Therapeutic Drug Monitoring (TDM) has an important role in the management of inflammatory bowel disease (IBD) patients on infliximab (IFX) or adalimumab and is recommended in IBD patients presenting a loss of response under anti TNF agent. But, TDM was not recommended for others biotherapies.\nAREAS COVERED: Analyzing all publications about TDM and biologics in IBD patients, we reported the major results for each biotherapy.\nEXPERT OPINION: Emerging data suggest that TDM will probably be similarly useful forIFX SC. In contrast, there is no demonstrated clinical benefit to the use of TDM with golimumab. For vedolizumab results for the use of both reactive and proactive TDM are discordant. For ustekinumab, data supports the existence of an exposure response relationship, albeit of a lesser magnitude than with anti-TNF agents. Finally, recent data from small case series suggests that TDM could be valuable in optimizing anti-IL23 agents, particularly risankizumab, but this requires further clarification. Consistent with the new concept of 'proactive' strategy, recent data support the utility of dashboard-driven model informed precision dosing (MIDP) of anti-TNF agents, in particular infliximab. Dashboards are software systems using Bayesian population pharmacokinetic modelling to individualize recommendations for target drug levels.",
+   "journal": "Expert review of gastroenterology & hepatology",
+   "year": "2024",
+   "doi": "10.1080/17474124.2024.2409300",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39382556/"
+  },
+  {
+   "pmid": "39311981",
+   "title": "Immune checkpoint inhibitor-induced diarrhea and colitis: an overview.",
+   "abstract": "Immune checkpoint inhibitors (ICIs) have emerged as an integral component of the management of various cancers and have contributed to significant improvements in overall survival. Most available ICIs target anti-cytotoxic T-lymphocyte-associated protein 4 (anti-CTLA4), and anti-programmed cell death 1/programmed cell death ligand 1 (anti-PD1/PDL1). Gastrointestinal immune-related adverse events remain a common complication of ICIs. The predominant manifestations include diarrhea and colitis, which often manifest concurrently as immune-mediated diarrhea and colitis (IMDC). Risk factors for developing these side effects include baseline gut microbiota, preexisting autoimmune disorders, such as inflammatory bowel disease, and type of neoplasm. The hallmark symptom of colitis is diarrhea which may be accompanied by mucus or blood in stools. Patients may also experience abdominal pain, fever, vomiting, and nausea. If not treated rapidly, ICI-induced colitis can lead to serious life-threatening complications. Current management is based on corticosteroids as first-line, and immunosuppressants like infliximab or vedolizumab for refractory cases. Microbiota transplantation and specific cytokines and lymphocyte replication inhibitors are being investigated. Optimal patient care requires maintaining a balance between treatment toxicity and efficacy, hence the aim of this review is to enhance readers' comprehension of the gastrointestinal adverse events associated with ICIs, particularly IMDC. In addition to identifying the risk factors, we discuss the incidence, clinical presentation, workup, and management options of IMDC.",
+   "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+   "year": "2024",
+   "doi": "10.1007/s00520-024-08889-2",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39311981/"
+  },
+  {
+   "pmid": "34688373",
+   "title": "Comparative efficacy and safety of biologic therapies for moderate-to-severe Crohn's disease: a systematic review and network meta-analysis.",
+   "abstract": "BACKGROUND: Data are needed to inform the positioning of biologic therapy in the treatment of moderate-to-severe Crohn's disease, both first line and after previous biologic exposure. We aimed to assess the comparative efficacy and safety of biologics in patients with Crohn's disease.\nMETHODS: We did a systematic review and network meta-analysis of phase 2 and phase 3 randomised controlled trials done in adults (≥18 years) with moderate-to-severe Crohn's disease (Crohn's Disease Activity Index [CDAI] 220-450) treated with tumour necrosis factor (TNF) antagonists, anti-integrin, anti-interleukin (IL)-12 and IL-23p40, or anti-IL23p19 agents, either alone or in combination with immunosuppressants, as their first-line biologic or after previous biologic exposure, compared with placebo or an active comparator. The minimum duration of therapy was 14 days for trials reporting induction of remission in active disease and 22 weeks in trials reporting maintenance of remission. We searched Medline, EMBASE, the Cochrane CENTRAL Register of Controlled Trials, conference proceedings, trial registries, and unpublished data from inception to June 3, 2021, without any language restrictions. Summary estimates of the primary and secondary outcomes were extracted from the published reports; individual patient-level data were not sought. The primary endpoint was induction of clinical remission in patients with active disease (CDAI <150) and maintenance of remission in patients with response to induction therapy, with data extracted from published reports. A network meta-analysis with multivariate consistency model random-effects meta-regression was done, with rankings based on surface under the cumulative ranking curve (SUCRA) values.\nFINDINGS: The search strategy yielded 18 382 citations, of which 31 trials were eligible for inclusion. On the basis of 15 randomised controlled trials including 2931 biologic-naive patients, infliximab monotherapy (odds ratio [OR] 4·53 [95% CI 1·49-13·79]), infliximab combined with azathioprine (7·49 [2·04-27·49]), adalimumab (3·01 [1·25-7·27]), and ustekinumab (2·63 [1·10-6·28]) were associated with significantly higher odds of inducing remission compared to certolizumab pegol (all moderate confidence); infliximab and azathioprine combination therapy was also associated with significantly higher odds of inducing remission than vedolizumab (3·76 [1·01-14·03]; low confidence). On the basis of ten randomised controlled trials including 2479 patients with previous biologic exposure, adalimumab after loss of response to infliximab (OR 2·82 [95% CI 1·20-6·62]; low confidence), and risankizumab (2·10 [1·12-3·92]; moderate confidence), were associated with higher odds of inducing remission than vedolizumab. No differences between active interventions were observed in maintenance trials. Most trials were at low or uncertain risk of bias.\nINTERPRETATION: Although biologic treatment choices in patients with moderate-to-severe Crohn's disease must be individualised for each patient, this analysis suggests that either infliximab with azathioprine or adalimumab might be preferred as a first-line therapy, and adalimumab (after infliximab loss of response) or risankizumab might be preferred as a second-line therapy, for induction of clinical remission.\nFUNDING: None.",
+   "journal": "The lancet. Gastroenterology & hepatology",
+   "year": "2021",
+   "doi": "10.1016/S2468-1253(21)00312-5",
+   "publication_types": [
+    "Comparative Study",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Systematic Review",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34688373/"
+  }
+ ]
+}

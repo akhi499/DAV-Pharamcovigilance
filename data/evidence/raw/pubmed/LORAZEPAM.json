@@ -1,0 +1,61 @@
+{
+ "drug": "LORAZEPAM",
+ "status": "ok",
+ "query": "\"lorazepam\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:20:00+00:00",
+ "records": [
+  {
+   "pmid": "28101764",
+   "title": "Diazepam in the Treatment of Moderate to Severe Alcohol Withdrawal.",
+   "abstract": "Benzodiazepines ameliorate or prevent the symptoms and complications of moderate to severe alcohol withdrawal, which can include autonomic hyperactivity, agitation, combativeness, hallucinations, seizures, delirium, and death. The benzodiazepines most commonly used for this purpose are lorazepam, chlordiazepoxide, oxazepam, and diazepam. It is widely asserted that no member of this group is superior to the others for treatment of alcohol withdrawal. However, of these, diazepam has the shortest time to peak effect, which facilitates both rapid control of symptoms and accurate titration to avoid over-sedation. Furthermore, diazepam and its active metabolite, desmethyldiazepam, have the longest elimination half-lives, so their levels decrease in a gradual, self-tapering manner, resulting in a smoother withdrawal, i.e., a lower incidence and severity of both breakthrough symptoms and rebound phenomena, including a possibly decreased seizure risk. Importantly, the fear of increased risk of over-sedation with diazepam compared with other benzodiazepines is based on a misunderstanding of its pharmacokinetics and is unfounded. Similarly, the notion that diazepam should be avoided in patients with liver disease and elderly patients to avoid prolonged over-sedation is based on no more than conjecture. In fact, there is clinical evidence that diazepam is safe for the treatment of alcohol withdrawal in these patients when administered using a simple symptom-based approach. There is one instance in which diazepam should not be used: when intramuscular administration is the only option, the lipophilicity of diazepam can result in slow absorption-either lorazepam or, when rapid control of symptoms is required, midazolam should be used. The comparative pharmacokinetics of the benzodiazepines used in the treatment of alcohol withdrawal together with a comprehensive review of the literature on their use strongly suggest that diazepam should be the preferred benzodiazepine for the treatment of patients experiencing moderate to severe alcohol withdrawal under most circumstances.",
+   "journal": "CNS drugs",
+   "year": "2017",
+   "doi": "10.1007/s40263-016-0403-y",
+   "publication_types": [
+    "Comparative Study",
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28101764/"
+  },
+  {
+   "pmid": "28511598",
+   "title": "Silexan in anxiety disorders: Clinical data and pharmacological background.",
+   "abstract": "OBJECTIVES: Silexan is a lavender oil preparation available in 80-mg capsules. Here we review clinical trials investigating its anxiolytic efficacy, safety and tolerability in humans, as well as preclinical investigations supporting this therapeutic use.\nMETHODS: Besides three selected publications reporting preclinical investigations, seven clinical trials are included, of which five had a treatment duration of 6 or 10 weeks. Primary outcome measure was the HAM-A total score reduction, while single items were assessed with regard to effects on concomitant depressive symptoms and on quality of sleep.\nRESULTS: In patients with subthreshold (subsyndromal) anxiety or generalised anxiety disorder (GAD), an anxiolytic effect of Silexan was evident after 2 weeks. HAM-A total score reductions between baseline and end of treatment were significantly superior to placebo in patients with subthreshold anxiety and comparable with those achieved under lorazepam or paroxetine in patients with GAD. In addition, Silexan had beneficial effects on typical concomitant symptoms of anxiety disorders, such as impaired sleep, somatic complaints, co-morbid depression or decreased quality of life. Except for mild gastrointestinal symptoms, Silexan did not induce any adverse effects and did not cause drug interactions, sedation or withdrawal symptoms at daily doses of 80 or 160 mg.\nCONCLUSIONS: Silexan is a safe and effective treatment in anxiety disorders.",
+   "journal": "The world journal of biological psychiatry : the official journal of the World Federation of Societies of Biological Psychiatry",
+   "year": "2018",
+   "doi": "10.1080/15622975.2017.1331046",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28511598/"
+  },
+  {
+   "pmid": "32259826",
+   "title": "Acute and Persistent Withdrawal Syndromes Following Discontinuation of Psychotropic Medications.",
+   "abstract": "Studies on psychotropic medications decrease, discontinuation, or switch have uncovered withdrawal syndromes. The present overview aimed at analyzing the literature to illustrate withdrawal after decrease, discontinuation, or switch of psychotropic medications based on the drug class (i.e., benzodiazepines, nonbenzodiazepine benzodiazepine receptor agonists, antidepressants, ketamine, antipsychotics, lithium, mood stabilizers) according to the diagnostic criteria of Chouinard and Chouinard [Psychother Psychosom. 2015;84(2):63-71], which encompass new withdrawal symptoms, rebound symptoms, and persistent post-withdrawal disorders. All these drugs may induce withdrawal syndromes and rebound upon discontinuation, even with slow tapering. However, only selective serotonin reuptake inhibitors, serotonin noradrenaline reuptake inhibitors, and antipsychotics were consistently also associated with persistent post-withdrawal disorders and potential high severity of symptoms, including alterations of clinical course, whereas the distress associated with benzodiazepines discontinuation appears to be short-lived. As a result, the common belief that benzodiazepines should be substituted by medications that cause less dependence such as antidepressants and antipsychotics runs counter the available literature. Ketamine, and probably its derivatives, may be classified as at high risk for dependence and addiction. Because of the lag phase that has taken place between the introduction of a drug into the market and the description of withdrawal symptoms, caution is needed with the use of newer antidepressants and antipsychotics. Within medication classes, alprazolam, lorazepam, triazolam, paroxetine, venlafaxine, fluphenazine, perphenazine, clozapine, and quetiapine are more likely to induce withdrawal. The likelihood of withdrawal manifestations that may be severe and persistent should thus be taken into account in clinical practice and also in children and adolescents.",
+   "journal": "Psychotherapy and psychosomatics",
+   "year": "2020",
+   "doi": "10.1159/000506868",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32259826/"
+  },
+  {
+   "pmid": "40133850",
+   "title": "\"Pharmacological management of acute agitation in psychiatric patients: an umbrella review\".",
+   "abstract": "BACKGROUND: The main characteristics present in patients with psychomotor agitation include restlessness, excessive motor activity, irritability, and heightened responsiveness to internal and external stimuli. This umbrella review evaluates the efficacy and safety of pharmacological interventions for patients with psychiatric disorders presenting psychomotor agitation, aged 18 years or older. A comprehensive literature search was conducted to identify umbrella reviews that met our study's inclusion criteria. However, no reviews were found that specifically investigated the efficacy and safety of pharmacological interventions for agitated psychiatric patients presenting with both behavioral and psychological symptoms, such as emotional lability, decreased attention span, and cognitive and behavioral alterations. The primary objective is to assess the effectiveness of pharmacological interventions in controlling patients within a short time frame, measured in hours rather than days. The focus was placed on studies addressing treatment in emergency settings, whether in general hospitals or psychiatric facilities, with an emphasis on managing acute psychomotor agitation rather than long-term maintenance treatment.\nMETHOD: A comprehensive literature search for meta-analyses and systematic reviews assessing the efficacy and safety of pharmacological treatment for psychomotor agitation in psychiatric inpatients and emergency department patients was conducted across various databases such as PubMed, Scopus, EMBASE, Web of Science and COCHRANE Central database. Included reviews comprised those that incorporated randomized controlled trials (RCTs) or non-randomized controlled trials (NRCTs) comparing the efficacy and safety of pharmacological interventions for agitated psychiatric patients (with both psychological and behavioral symptoms).\nRESULTS: Loxapine (10 mg) demonstrated superior efficacy over 5 mg in reducing agitation within 120 min, with inhaled formulations providing rapid relief in patients with acute psychosis. Aripiprazole was effective and caused less sedation compared to Olanzapine, although Haloperidol required fewer additional doses but was less effective at 60 min. Ziprasidone, administered intramuscularly, offered a faster onset and was better tolerated than Haloperidol. Lorazepam proved effective with fewer side effects than antipsychotics and showed enhanced efficacy when combined with them. Midazolam provided rapid sedation but posed risks of severe side effects, especially in older adults. Droperidol was as effective as Olanzapine but provided faster sedation. Combination therapy, such as Haloperidol with Promethazine, effectively reduced aggression with a lower incidence of adverse effects.\nCONCLUSION: This umbrella review offers a comprehensive overview of the pharmacological management of psychomotor agitation in patients with psychiatric disorders. Among the most frequently used medications in the reviewed studies were haloperidol, olanzapine, and lorazepam. The findings underscore the importance of tailored treatment approaches and the need for further research to refine the management of psychomotor agitation in psychiatric settings.",
+   "journal": "BMC psychiatry",
+   "year": "2025",
+   "doi": "10.1186/s12888-024-06426-3",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40133850/"
+  }
+ ]
+}

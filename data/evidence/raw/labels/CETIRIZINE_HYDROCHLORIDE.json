@@ -1,0 +1,28 @@
+{
+ "drug": "CETIRIZINE HYDROCHLORIDE",
+ "status": "ok",
+ "fetched_at": "2026-10-20T05:16:20+00:00",
+ "set_id": "0b0190c7-acfd-4140-bcaf-9fe835ebaf49",
+ "spl_id": "4c6a67e4-53a4-417c-b960-e25464bc0954",
+ "spl_version": "15",
+ "effective_time": "20260730",
+ "brand_names": [
+  "Cetirizine Hydrochloride"
+ ],
+ "generic_names": [
+  "CETIRIZINE HYDROCHLORIDE"
+ ],
+ "manufacturer": "Cardinal Health 107, LLC",
+ "route": [
+  "ORAL"
+ ],
+ "dailymed_title": "CETIRIZINE HYDROCHLORIDE TABLET, FILM COATED [CARDINAL HEALTH 107, LLC]",
+ "dailymed_published": "Aug 17, 2026",
+ "dailymed_spl_version": 15,
+ "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b0190c7-acfd-4140-bcaf-9fe835ebaf49",
+ "api_url": "https://api.fda.gov/drug/label.json?search=set_id:%220b0190c7-acfd-4140-bcaf-9fe835ebaf49%22",
+ "sections": {
+  "warnings": "Warnings Do not use if you have ever had an allergic reaction to this product or any of its ingredients or to an antihistamine containing hydroxyzine. Ask a doctor before use if you have liver or kidney disease. Your doctor should determine if you need a different dose. Ask a doctor or pharmacist before use if you are taking tranquilizers or sedatives. When using this product • drowsiness may occur • avoid alcoholic drinks • alcohol, sedatives, and tranquilizers may increase drowsiness • be careful when driving a motor vehicle or operating machinery Stop use and ask a doctor if an allergic reaction to this product occurs. Seek medical help right away. If pregnant or breast-feeding: • if breast-feeding: not recommended • if pregnant: ask a health professional before use. Keep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away.",
+  "indications_and_usage": "Uses temporarily relieves these symptoms due to hay fever or other upper respiratory allergies: • runny nose • sneezing • itchy, watery eyes • itching of the nose or throat"
+ }
+}

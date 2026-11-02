@@ -1,0 +1,63 @@
+{
+ "drug": "CISPLATIN",
+ "status": "ok",
+ "query": "\"cisplatin\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:08+00:00",
+ "records": [
+  {
+   "pmid": "31939540",
+   "title": "Drug-induced nephrotoxicity.",
+   "abstract": "Acute kidney injury is a very common diagnosis, present in up to 60% of critical patients, and its third main cause is drug toxicity. Nephrotoxicity can be defined as any renal injury caused directly or indirectly by medications, with acute renal failure, tubulopathies, and glomerulopathies as common clinical presentations. Some examples of drugs commonly associated with the acute reduction of glomerular filtration rate are anti-inflammatories, antibiotics, such as vancomycin and aminoglycosides, and chemotherapeutic agents, such as cisplatin and methotrexate. Cases of tubulopathy are very common with amphotericin B, polymyxins, and tenofovir, and cases of glomerulopathies are common with VEGF inhibitors, bisphosphonates, and immunotherapy, and it is also common to have more than one clinical presentation related to a single agent. Early diagnosis is essential for the good evolution of the patient, with a reduction of renal exposure to the toxic agent, which requires knowing the risk factors and biomarkers. General measures such as correcting hydroelectrolytic disorders and hypovolemia, monitoring the serum level, avoiding combinations with the synergy of renal injury, and looking for similar options that are less toxic are the foundations for the treatment of complications that are still common and often preventable.",
+   "journal": "Revista da Associacao Medica Brasileira (1992)",
+   "year": "2020",
+   "doi": "10.1590/1806-9282.66.S1.82",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31939540/"
+  },
+  {
+   "pmid": "36229672",
+   "title": "Cisplatin nephrotoxicity: new insights and therapeutic implications.",
+   "abstract": "Cisplatin is an effective chemotherapeutic agent for various solid tumours, but its use is limited by adverse effects in normal tissues. In particular, cisplatin is nephrotoxic and can cause acute kidney injury and chronic kidney disease. Preclinical studies have provided insights into the cellular and molecular mechanisms of cisplatin nephrotoxicity, which involve intracellular stresses including DNA damage, mitochondrial pathology, oxidative stress and endoplasmic reticulum stress. Stress responses, including autophagy, cell-cycle arrest, senescence, apoptosis, programmed necrosis and inflammation have key roles in the pathogenesis of cisplatin nephrotoxicity. In addition, emerging evidence suggests a contribution of epigenetic changes to cisplatin-induced acute kidney injury and chronic kidney disease. Further research is needed to determine how these pathways are integrated and to identify the cell type-specific roles of critical molecules involved in regulated necrosis, inflammation and epigenetic modifications in cisplatin nephrotoxicity. A number of potential therapeutic targets for cisplatin nephrotoxicity have been identified. However, the effects of renoprotective strategies on the efficacy of cisplatin chemotherapy needs to be thoroughly evaluated. Further research using tumour-bearing animals, multi-omics and genome-wide association studies will enable a comprehensive understanding of the complex cellular and molecular mechanisms of cisplatin nephrotoxicity and potentially lead to the identification of specific targets to protect the kidney without compromising the chemotherapeutic efficacy of cisplatin.",
+   "journal": "Nature reviews. Nephrology",
+   "year": "2023",
+   "doi": "10.1038/s41581-022-00631-7",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, U.S. Gov't, Non-P.H.S."
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36229672/"
+  },
+  {
+   "pmid": "34774227",
+   "title": "Mechanisms of Ototoxicity and Otoprotection.",
+   "abstract": "Ototoxicity refers to damage to the inner ear that leads to functional hearing loss or vestibular disorders by selected pharmacotherapeutics as well as a variety of environmental exposures (eg, lead, cadmium, solvents). This article reviews the fundamental mechanisms underlying ototoxicity by clinically relevant, hospital-prescribed medications (ie, aminoglycoside antibiotics or cisplatin, as illustrative examples). Also reviewed are current strategies to prevent prescribed medication-induced ototoxicity, with several clinical or candidate interventional strategies being discussed.",
+   "journal": "Otolaryngologic clinics of North America",
+   "year": "2021",
+   "doi": "10.1016/j.otc.2021.08.007",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34774227/"
+  },
+  {
+   "pmid": "35190107",
+   "title": "Conventional Chemotherapy Nephrotoxicity.",
+   "abstract": "Conventional chemotherapies remain the mainstay of treatment for many malignancies. Kidney complications of these therapies are not infrequent and may have serious implications for future kidney function, cancer treatment options, eligibility for clinical trials, and overall survival. Kidney adverse effects may include acute kidney injury (via tubular injury, tubulointerstitial nephritis, glomerular disease and thrombotic microangiopathy), long-term kidney function loss and CKD, and electrolyte disturbances. In this review, we summarize the kidney complications of conventional forms of chemotherapy and, where possible, provide estimates of incidence, and identify risk factors and strategies for kidney risk mitigation. In addition, we provide recommendations regarding kidney dose modifications, recognizing that these adjustments may be limited by available supporting pharmacokinetic and clinical outcomes data. We discuss management strategies for kidney adverse effects associated with these therapies with drug-specific recommendations. We focus on frequently used anticancer agents with established kidney complications, including platinum-based chemotherapies (cisplatin, carboplatin, oxaliplatin), cyclophosphamide, gemcitabine, ifosfamide, methotrexate and pemetrexed, among others.",
+   "journal": "Advances in chronic kidney disease",
+   "year": "2021",
+   "doi": "10.1053/j.ackd.2021.08.001",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35190107/"
+  }
+ ]
+}

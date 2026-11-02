@@ -1,0 +1,61 @@
+{
+ "drug": "INFLIXIMAB",
+ "status": "ok",
+ "query": "\"infliximab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:14:43+00:00",
+ "records": [
+  {
+   "pmid": "33084268",
+   "title": "Acne fulminans.",
+   "abstract": "Acne fulminans (AF) is a rare and severe form of inflammatory acne presenting clinically with an abrupt outburst of painful, hemorrhagic pustules and ulceration, that may or may not be associated with systemic symptoms, such as fever, polyarthritis, and laboratory abnormalities. It typically affects male teenagers with a pre-existing acne. Although the pathogenetic mechanism has not been established yet, a role of genetic, abnormal immunologic response, drugs intake, hormonal imbalance and viral infection, as causal factors, has been identified. AF may occur as a single disease or may be associated with other disorders. Traditionally, AF has been classified, on the basis of the presence of systemic involvement, in \"acne fulminans\" and acne fulminans \"sine fulminans,\" when no systemic involvement is present. Recently, four clinical variants have been proposed: acne fulminans with systemic symptoms (AF-SS), acne fulminans without systemic symptoms (AF-WOSS), isotretinoin-induced acne fulminans with systemic symptoms (IIAF-SS), isotretinoin-induced acne fulminans without systemic symptoms (IIAF-WOSS). The diagnosis of AF is usually based on clinical history and physical examination. No specific laboratory abnormalities are generally found. In selected cases, biopsy and/or radiologic imaging are helpful for a correct diagnosis. The treatment significantly differs from severe acne according to severity of clinical presentation and possible systemic involvement. Currently, systemic corticosteroids (prednisolone) and retinoids (isotretinoin) represent the first choice of treatment. Dapsone, cyclosporine A, methotrexate, azathioprine, levamisole, and biological agents such as anakinra, infliximab, adalimumab may be considered as alternative therapies in selected cases. Adjunctive topical and physical therapies may also be considered.",
+   "journal": "Giornale italiano di dermatologia e venereologia : organo ufficiale, Societa italiana di dermatologia e sifilografia",
+   "year": "2020",
+   "doi": "10.23736/S0392-0488.20.06711-5",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33084268/"
+  },
+  {
+   "pmid": "25865950",
+   "title": "Erdheim-Chester disease.",
+   "abstract": "Erdheim-Chester disease (ECD) is rare form of non-Langerhans cells histiocytosis with multiorgan involvement. Individuals are more frequently affected in their fifth decade and there is a slight male prevalence. Recent studies have demonstrated that ECD patients bare mutations in the proto-oncogene BRAF (and more rarely in other genes involved in the MAPK activation pathway), suggesting a critical role of this pathway in the pathogenesis and a possible clonal origin of the disease. Clinical manifestations are extremely protean and virtually every organ system can be affected. The most common clinical features include skeletal involvement with typical bilateral osteosclerotic lesions of long bones of the lower limbs, diabetes insipidus, cardiovascular involvement with circumferential thickening of the aorta (\"coated aorta\"), and retroperitoneal fibrosis (\"hairy kidney\"). Cardiovascular and central nervous system (CNS) involvement are associated with the worst prognosis. Biopsy is necessary to establish a definite diagnosis with the identification of CD68+/CD1a-/S100- foamy histiocytes. Currently, interferon-α is the first-line treatment in ECD, as it has been clearly demonstrated to increase overall survival. Anakinra and infliximab have also led to encouraging results and should be taken into consideration when treatment with interferon-α fails. More recently, the BRAF-inhibitor vemurafenib has been used in small groups of ECD patients with optimal efficacy in all treated cases. Nevertheless, its adverse effects and the scanty data on its long-term efficacy and safety still discourage its use as a first-line option. Further studies are still warranted to better understand and treat this neglected and overlooked disease.",
+   "journal": "European journal of internal medicine",
+   "year": "2015",
+   "doi": "10.1016/j.ejim.2015.03.004",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25865950/"
+  },
+  {
+   "pmid": "39311981",
+   "title": "Immune checkpoint inhibitor-induced diarrhea and colitis: an overview.",
+   "abstract": "Immune checkpoint inhibitors (ICIs) have emerged as an integral component of the management of various cancers and have contributed to significant improvements in overall survival. Most available ICIs target anti-cytotoxic T-lymphocyte-associated protein 4 (anti-CTLA4), and anti-programmed cell death 1/programmed cell death ligand 1 (anti-PD1/PDL1). Gastrointestinal immune-related adverse events remain a common complication of ICIs. The predominant manifestations include diarrhea and colitis, which often manifest concurrently as immune-mediated diarrhea and colitis (IMDC). Risk factors for developing these side effects include baseline gut microbiota, preexisting autoimmune disorders, such as inflammatory bowel disease, and type of neoplasm. The hallmark symptom of colitis is diarrhea which may be accompanied by mucus or blood in stools. Patients may also experience abdominal pain, fever, vomiting, and nausea. If not treated rapidly, ICI-induced colitis can lead to serious life-threatening complications. Current management is based on corticosteroids as first-line, and immunosuppressants like infliximab or vedolizumab for refractory cases. Microbiota transplantation and specific cytokines and lymphocyte replication inhibitors are being investigated. Optimal patient care requires maintaining a balance between treatment toxicity and efficacy, hence the aim of this review is to enhance readers' comprehension of the gastrointestinal adverse events associated with ICIs, particularly IMDC. In addition to identifying the risk factors, we discuss the incidence, clinical presentation, workup, and management options of IMDC.",
+   "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+   "year": "2024",
+   "doi": "10.1007/s00520-024-08889-2",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39311981/"
+  },
+  {
+   "pmid": "39382556",
+   "title": "Therapeutic drug monitoring in inflammatory bowel disease: recent developments.",
+   "abstract": "INTRODUCTION: Therapeutic Drug Monitoring (TDM) has an important role in the management of inflammatory bowel disease (IBD) patients on infliximab (IFX) or adalimumab and is recommended in IBD patients presenting a loss of response under anti TNF agent. But, TDM was not recommended for others biotherapies.\nAREAS COVERED: Analyzing all publications about TDM and biologics in IBD patients, we reported the major results for each biotherapy.\nEXPERT OPINION: Emerging data suggest that TDM will probably be similarly useful forIFX SC. In contrast, there is no demonstrated clinical benefit to the use of TDM with golimumab. For vedolizumab results for the use of both reactive and proactive TDM are discordant. For ustekinumab, data supports the existence of an exposure response relationship, albeit of a lesser magnitude than with anti-TNF agents. Finally, recent data from small case series suggests that TDM could be valuable in optimizing anti-IL23 agents, particularly risankizumab, but this requires further clarification. Consistent with the new concept of 'proactive' strategy, recent data support the utility of dashboard-driven model informed precision dosing (MIDP) of anti-TNF agents, in particular infliximab. Dashboards are software systems using Bayesian population pharmacokinetic modelling to individualize recommendations for target drug levels.",
+   "journal": "Expert review of gastroenterology & hepatology",
+   "year": "2024",
+   "doi": "10.1080/17474124.2024.2409300",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39382556/"
+  }
+ ]
+}

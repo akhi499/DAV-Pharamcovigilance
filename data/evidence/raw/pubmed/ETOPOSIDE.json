@@ -1,0 +1,61 @@
+{
+ "drug": "ETOPOSIDE",
+ "status": "ok",
+ "query": "\"etoposide\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:17:47+00:00",
+ "records": [
+  {
+   "pmid": "40163214",
+   "title": "Small Cell Lung Cancer: A Review.",
+   "abstract": "IMPORTANCE: Small cell lung cancer (SCLC) is a high-grade neuroendocrine carcinoma with an incidence of 4.7 cases per 100 000 individuals in 2021 in the US and a 5-year overall survival of 12% to 30%.\nOBSERVATIONS: Cigarette smoking is the primary risk factor for development of SCLC, as 95% of patients diagnosed with SCLC have a history of tobacco use. Patients with SCLC may present with respiratory symptoms such as cough (40%), shortness of breath (34%), hemoptysis (10%), or metastases with corresponding local symptoms (30%) such as pleuritis or bone pain; approximately 60% of patients with SCLC may be asymptomatic at diagnosis. Chest imaging may demonstrate central hilar (85%) or mediastinal lymphadenopathy (75%). At diagnosis, approximately 15% of patients have brain metastases, which may present as headache or focal weakness. Diagnosis is confirmed by biopsy of a primary lung mass, thoracic lymph node, or metastatic lesion. Small cell lung cancer is classified into limited stage (LS-SCLC; 30%) vs extensive stage (ES-SCLC; 70%) based on whether the disease can be treated within a radiation field that is typically confined to 1 hemithorax but may include contralateral mediastinal and supraclavicular nodes. For patients with LS-SCLC, surgery or concurrent chemotherapy with platinum-etoposide and radiotherapy is potentially curative in 30% of patients. More recently, median survival for LS-SCLC has reached up to 55.9 months with the addition of durvalumab, an immunotherapy. First-line treatment for ES-SCLC is combined treatment with platinum-etoposide chemotherapy and immunotherapy with the programmed cell death 1 ligand 1 (PD-L1) inhibitors durvalumab or atezolizumab followed by maintenance immunotherapy until disease progression or toxicity. Although initial rates of tumor shrinkage are 60% to 70% with platinum-etoposide and immunotherapy treatment, the median overall survival of patients treated for ES-SCLC is approximately 12 to 13 months, with 60% of patients relapsing within 3 months. Second-line therapy for patients with ES-SCLC includes the DNA-alkylating agent lurbinectedin (35% overall response rate; median progression-free survival, 3.7 months) and a bispecific T-cell engager against delta-like ligand 3, tarlatamab (40% overall response rate; median progression-free survival, 4.9 months).\nCONCLUSIONS AND RELEVANCE: Small cell lung cancer is a smoking-related malignancy that presents at an advanced stage in 70% of patients. Three-year overall survival is approximately 56.5% for LS-SCLC and 17.6% for ES-SCLC. First-line treatment for LS-SCLC is radiation targeting the tumor given concurrently with chemotherapy and followed by consolidation immunotherapy. For ES-SCLC, first-line treatment is chemotherapy and immunotherapy followed by maintenance immunotherapy.",
+   "journal": "JAMA",
+   "year": "2025",
+   "doi": "10.1001/jama.2025.0560",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40163214/"
+  },
+  {
+   "pmid": "33861388",
+   "title": "Trilaciclib: First Approval.",
+   "abstract": "Trilaciclib (Cosela™) is a small-molecule, short-acting, inhibitor of cyclin-dependent kinases (CDK) 4 and 6 developed by G1 Therapeutics for its myeloprotection and potential antitumor efficacy and safety benefits in combination with cancer chemotherapy. CDKs govern cell cycle progression, and trilaciclib induces a transient, reversible G1 cell cycle arrest of proliferating haematopoietic stem and progenitor cells in bone marrow, thus protecting them from damage during chemotherapy. In February 2021, trilaciclib received its first approval in the USA to decrease the incidence of chemotherapy-induced myelosuppression in adult patients when administered prior to a platinum/etoposide-containing regimen or topotecan-containing regimen for extensive-stage small cell lung cancer (ES-SCLC). Clinical studies in breast cancer, colorectal cancer and small cell lung cancer are underway in several countries. This article summarizes the milestones in the development of trilaciclib leading to this first approval.",
+   "journal": "Drugs",
+   "year": "2021",
+   "doi": "10.1007/s40265-021-01508-y",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33861388/"
+  },
+  {
+   "pmid": "31894937",
+   "title": "Lymphoma: Diagnosis and Treatment.",
+   "abstract": "Lymphoma is a group of malignant neoplasms of lymphocytes with more than 90 subtypes. It is traditionally classified broadly as non-Hodgkin or Hodgkin lymphoma. Approximately 82,000 new U.S. patients are diagnosed with lymphoma annually. Any tobacco use and obesity are major modifiable risk factors, with genetic, infectious, and inflammatory etiologies also contributing. Lymphoma typically presents as painless adenopathy, with systemic symptoms of fever, unexplained weight loss, and night sweats occurring in more advanced stages of the disease. An open lymph node biopsy is preferred for diagnosis. The Lugano classification system incorporates symptoms and the extent of the disease as shown on positron emission tomography/computed tomography to stage lymphoma, which is then used to determine treatment. Chemotherapy treatment plans differ between the main subtypes of lymphoma. Non-Hodgkin lymphoma is treated with CHOP (cyclophosphamide, doxorubicin, vincristine, and prednisone) with or without rituximab (R-CHOP), bendamustine, and lenalidomide. Hodgkin lymphoma is treated with combined chemotherapy with ABVD (doxorubicin, bleomycin, vinblastine, and dacarbazine), Stanford V (a chemotherapy regimen consisting of mechlorethamine, doxorubicin, vinblastine, vincristine, bleomycin, etoposide, and prednisone), or BEACOPP (bleomycin, etoposide, doxorubicin, cyclophosphamide, vincristine, procarbazine, and prednisone) with radiotherapy. Subsequent chemotherapy toxicities include neuropathy, cardiotoxicity, and secondary cancers such as lung and breast, and should be considered in the shared decision-making process to select a treatment regimen. Once remission is achieved, patients need routine surveillance to monitor for complications and relapse, in addition to age-appropriate screenings recommended by the U.S. Preventive Services Task Force. Patients should receive a 13-valent pneumococcal conjugate vaccine followed by a 23-valent pneumococcal polysaccharide vaccine at least eight weeks later with additional age-appropriate vaccinations because lymphoma is an immunosuppressive condition. Household contacts should also be current with their immunizations.",
+   "journal": "American family physician",
+   "year": "2020",
+   "doi": null,
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31894937/"
+  },
+  {
+   "pmid": "40418751",
+   "title": "Clinical progress of B7-H3 targeted antibody drug conjugate ifinatamab deruxtecan for small-cell lung cancer.",
+   "abstract": "INTRODUCTION: Small cell lung cancer is an aggressive malignancy with limited treatment options and poor prognosis, particularly at extensive stage. While first-line platinum-etoposide chemotherapy combined with anti-PD-L1 therapy improves survival, most patients relapse, highlighting the need for novel therapies.\nAREAS COVERED: B7-Homolog3 (B7-H3), an immune checkpoint molecule overexpressed in SCLC, has emerged as a promising therapeutic target. Ifinatamab deruxtecan (I-DXd) is an antibody-drug conjugate targeting B7-H3, delivering a topoisomerase I inhibitor. Early clinical trials (IDeate-PanTumor01 and IDeate-Lung01) have demonstrated encouraging results in pretreated ES-SCLC. In the 12 mg/kg cohort of IDeate-Lung01, I-DXd achieved an objective response rate of 54.8%, median progression-free survival of 5.5 months, and median overall survival of 11.8 months. Notably, it showed intracranial activity with a central nervous system-confirmed response rate of 37.8%.\nEXPERT OPINION: I-DXd is currently being evaluated in the phase III IDeate-Lung02 trial. Its promising efficacy, manageable safety profile, and potential in combination strategies position it as a key candidate for future SCLC treatment.",
+   "journal": "Expert opinion on investigational drugs",
+   "year": "2025",
+   "doi": "10.1080/13543784.2025.2512566",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40418751/"
+  }
+ ]
+}

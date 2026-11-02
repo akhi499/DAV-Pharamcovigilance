@@ -1,0 +1,62 @@
+{
+ "drug": "ESKETAMINE",
+ "status": "ok",
+ "query": "\"esketamine\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:19:32+00:00",
+ "records": [
+  {
+   "pmid": "37149345",
+   "title": "Pharmacotherapy: Ketamine and Esketamine.",
+   "abstract": "Ketamine and esketamine have rapid-onset antidepressant effects and may be considered for the management of treatment-resistant depression. Intranasal esketamine has regulatory approval in the United States and European Union. Intravenous ketamine is often administered off-label as an antidepressant, though no standard operating procedures exist. Repeated administrations and the use of a concurrent standard antidepressant may maintain antidepressant effects of ketamine/esketamine. Possible adverse effects of ketamine and esketamine include psychiatric, cardiovascular, neurologic and genitourinary effects, and the potential for abuse. The long-term safety and efficacy of ketamine/esketamine as antidepressants require further study.",
+   "journal": "The Psychiatric clinics of North America",
+   "year": "2023",
+   "doi": "10.1016/j.psc.2023.02.003",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37149345/"
+  },
+  {
+   "pmid": "39876682",
+   "title": "Esketamine Treatment for Depression in Adults: A PRISMA Systematic Review and Meta-Analysis.",
+   "abstract": "OBJECTIVE: Intranasal esketamine has been approved as an adjunctive therapy for treatment-resistant major depressive disorder with acute suicidal ideation and behavior. The authors conducted a systematic review and meta-analysis of the available data on its efficacy against depression and suicidality as well as its side effects.\nMETHODS: MEDLINE was searched with the keyword \"esketamine\" on March 24, 2024, using the PRISMA method. Data processing and statistical analysis were performed with R, version 4.3.3, and the meta-analysis was performed with the METAFOR package.\nRESULTS: Of 1,115 articles initially identified, 87 were included for analysis and discussion. At weeks 2-4, randomized controlled trials were mostly negative or failed; however, the meta-analysis returned a weak but significant positive effect for depression (effect size range, 0.15-0.23 at weeks 2-4), similar to augmentation strategies with atypical antipsychotics for treatment-resistant depression. The effect size concerning suicidality was not significant at any time point. The sensitivity analysis produced the same results.\nCONCLUSIONS: The study findings suggest that esketamine's efficacy as an add-on to antidepressants is modest in treatment-resistant depression (similar to augmentation strategies with atypical antipsychotics) and is absent against suicidality itself. These findings need to be considered in light of esketamine's abuse potential and the fact that long-term effects are still not fully known. Some alarming signs concerning deaths and emerging suicidality during the testing phase are discussed, along with other regulatory issues.",
+   "journal": "The American journal of psychiatry",
+   "year": "2025",
+   "doi": "10.1176/appi.ajp.20240515",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39876682/"
+  },
+  {
+   "pmid": "38244804",
+   "title": "A comparison between psilocybin and esketamine in treatment-resistant depression using number needed to treat (NNT): A systematic review.",
+   "abstract": "BACKGROUND: Inadequate outcomes with monoamine-based treatments in depressive disorders are common and provide the impetus for mechanistically-novel treatments. Esketamine is a proven treatment recently approved for adults with Treatment-Resistant Depression (TRD) while psilocybin is an investigational treatment. Translation of the clinical meaningfulness for these foregoing agents in adults with TRD is required. Herein we evaluate the Number Needed to Treat (NNT) and Harm (NNH) of esketamine and psilocybin in adults with TRD.\nMETHODS: We conducted a systematic review of randomized controlled trials, comparing the clinical efficacy of oral psilocybin to the co-commencement of intranasal esketamine with an oral antidepressant in adults with TRD.\nRESULTS: 25 mg psilocybin had a significant reduction in depressive symptoms at 21-days post-dose, the NNT was 5 [95 % CI = 3.1, 18.5]. Psilocybin-induced nausea had a significant NNH = 5. Fixed-dosed esketamine at 56 mg and 84 mg had a significant effect at 28-days post-dose, (NNT of 7 [95 % CI56mg = 3.5, 46.7], [95 % CI84mg = 3.6, 142.2]). Esketamine-induced headache, nausea, dizziness, and dissociation had NNHs <10.\nLIMITATIONS: The preliminary results may only reflect a small portion of the patient population. These results require replication and longer term studies investigating maintenance therapy.\nCONCLUSION: Relatively few pharmacologic agents are proven safe and effective in adults with TRD. NNT estimates for investigational psilocybin and esketamine in TRD indicate clinical meaningfulness. The NNH profile for both aforementioned agents is clinically acceptable. Our results underscore the clinical relevance of these treatment options in adults with TRD.",
+   "journal": "Journal of affective disorders",
+   "year": "2024",
+   "doi": "10.1016/j.jad.2024.01.142",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Comparative Study"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38244804/"
+  },
+  {
+   "pmid": "35416105",
+   "title": "Long-term safety of ketamine and esketamine in treatment of depression.",
+   "abstract": "INTRODUCTION: Ketamine can produce rapid-acting antidepressant effects. Esketamine (Spravato), the S-enantiomer of racemic ketamine, was approved by the FDA for treatment-resistant depression in 2019. Here we review what is known about the long-term safety of both racemic ketamine and esketamine as therapies for psychiatric disorders.\nAREAS COVERED: In this article, we conducted a safety review of ketamine and esketamine. In looking at ketamine and esketamine long-term safety effects, we considered data available from experimental studies and several phase-three clinical trials.\nEXPERT OPINION: Based on available data, the most common side effects of ketamine/esketamine are generally transient, mild, and self-limited. These include dissociation, nausea, headache, elevated heart rate, and blood pressure. Treatment with esketamine may lead to an increased risk of lower urinary tract symptoms, such as dysuria or urgency. However, severe bladder pathology has not been reported among patients receiving doses of esketamine/ketamine in line with prescribing guidelines for depression. There is considerable data that ketamine at high doses can lead to long-term impairments in cognition. However, the esketamine clinical trials found that cognition generally remains stable or improves over time, suggesting that when used appropriately, there is no increased risk of cognitive impairment.",
+   "journal": "Expert opinion on drug safety",
+   "year": "2022",
+   "doi": "10.1080/14740338.2022.2066651",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35416105/"
+  }
+ ]
+}

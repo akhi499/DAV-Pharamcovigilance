@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* clinical paper, ink, pharmacy teal; violet is reserved for model output */
+    --background: 210 20% 96.5%;
+    --foreground: 213 33% 13%;
+    --card: 0 0% 100%;
+    --card-foreground: 213 33% 13%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 213 33% 13%;
+    --primary: 189 78% 25%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 18% 91%;
+    --secondary-foreground: 213 33% 16%;
+    --muted: 210 18% 92%;
+    --muted-foreground: 213 13% 38%;
+    --accent: 189 40% 92%;
+    --accent-foreground: 189 78% 20%;
+    --destructive: 4 77% 40%;
+    --destructive-foreground: 0 0% 100%;
+    --signal: 36 72% 42%;
+    --provisional: 259 39% 50%;
+    --provisional-soft: 259 50% 96%;
+    --border: 212 18% 85%;
+    --input: 212 18% 82%;
+    --ring: 189 78% 30%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 214 30% 9%;
+    --foreground: 210 20% 92%;
+    --card: 214 28% 12%;
+    --card-foreground: 210 20% 92%;
+    --popover: 214 28% 12%;
+    --popover-foreground: 210 20% 92%;
+    --primary: 186 55% 52%;
+    --primary-foreground: 214 30% 9%;
+    --secondary: 214 22% 18%;
+    --secondary-foreground: 210 20% 92%;
+    --muted: 214 22% 17%;
+    --muted-foreground: 212 14% 66%;
+    --accent: 189 30% 18%;
+    --accent-foreground: 186 55% 75%;
+    --destructive: 4 70% 58%;
+    --destructive-foreground: 0 0% 100%;
+    --signal: 38 75% 58%;
+    --provisional: 259 60% 74%;
+    --provisional-soft: 259 25% 17%;
+    --border: 214 18% 23%;
+    --input: 214 18% 27%;
+    --ring: 186 55% 52%;
+  }
+  * { @apply border-border; }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "tnum" 1, "lnum" 1;
+  }
+  h1, h2, h3 { text-wrap: balance; }
+  :focus-visible { @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background; }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  /* the visual grammar for model output: dashed violet edge */
+  .provisional-frame {
+    @apply rounded-lg border border-dashed bg-provisional-soft;
+    border-color: hsl(var(--provisional) / 0.55);
+  }
+}

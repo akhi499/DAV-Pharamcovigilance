@@ -1,0 +1,23 @@
+{
+ "drug": "QUETIAPINE FUMARATE",
+ "status": "ok",
+ "query": "\"quetiapine fumarate\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:19:30+00:00",
+ "records": [
+  {
+   "pmid": "31365048",
+   "title": "Association With Hospitalization and All-Cause Discontinuation Among Patients With Schizophrenia on Clozapine vs Other Oral Second-Generation Antipsychotics: A Systematic Review and Meta-analysis of Cohort Studies.",
+   "abstract": "IMPORTANCE: Recent meta-analyses of randomized clinical trials (RCTs) comparing clozapine with nonclozapine second-generation antipsychotics (NC-SGAs) in schizophrenia have challenged clozapine's superiority in treatment-resistant patients. However, patients in RCTs are not necessarily generalizable to those in clinical practice.\nOBJECTIVE: To conduct a systematic review and meta-analysis to compare various outcomes of clozapine vs oral NC-SGAs in cohort studies.\nDATA SOURCES: Systematic literature search in PubMed, PsycINFO, and CINAHL without language restriction from database inception until December 17, 2018.\nSTUDY SELECTION: Nonrandomized cohort studies reporting effectiveness and/or safety outcomes comparing clozapine with NC-SGAs in schizophrenia or schizoaffective disorder.\nDATA EXTRACTION AND SYNTHESIS: Independent investigators assessed studies and extracted data. Using a random-effects model, the study calculated risk ratio (RR) unadjusted for covariates and follow-up duration, number needed to treat/number needed to harm (NNT/NNH) for dichotomous data, and standardized mean difference (SMD) or mean difference (MD) for continuous data.\nMAIN OUTCOMES AND MEASURES: Coprimary outcomes were hospitalization and all-cause discontinuation. Secondary outcomes included all effectiveness and safety outcomes reported in at least 3 analyzable studies.\nRESULTS: Of 8446 hits, 68 articles from 63 individual cohort studies (n = 109 341) (60.3% male; mean [SD] age of 38.8 [6.5] years, illness duration of 11.0 [5.1] years, and study duration of 19.1 [23.3] months) were meta-analyzed. Compared with NC-SGAs, despite greater illness severity (17 studies [n = 38 766]; Hedges g, 0.222; 95% CI, 0.013-0.430; P = .04), clozapine was significantly associated with lower hospitalization risk (19 studies [n = 49 453]; RR, 0.817; 95% CI, 0.725-0.920; P = .001; NNT, 18; 95% CI, 12-40) and all-cause discontinuation (16 studies [n = 56 368]; RR, 0.732; 95% CI, 0.639-0.838; P < .001; NNT, 8; 95% CI, 6-12). Associations were statistically significant for comparisons with quetiapine fumarate and aripiprazole regarding hospitalization and all NC-SGAs, except aripiprazole, for all-cause discontinuation. Clozapine was also significantly associated with better outcomes regarding overall symptoms (SMD, -0.302; 95% CI, -0.572 to -0.032; P = .03) and Clinical Global Impressions scale severity (SMD, -1.182; 95% CI, -2.243 to -0.122; P = .03). Clozapine was significantly associated with increases in body weight (MD, 1.70; 95% CI, 0.31-3.08 kg; P = .02), body mass index (MD, 0.96; 95% CI, 0.24-1.68; P = .009), and type 2 diabetes (RR, 1.777; 95% CI, 1.229-2.570; P = .002; NNH, 27; 95% CI, 13-90).\nCONCLUSIONS AND RELEVANCE: In cohort studies, despite more severely ill patients being treated with clozapine, use of clozapine was associated with better key efficacy outcomes and higher cardiometabolic-related risk outcomes vs NC-SGAs.",
+   "journal": "JAMA psychiatry",
+   "year": "2019",
+   "doi": "10.1001/jamapsychiatry.2019.1702",
+   "publication_types": [
+    "Comparative Study",
+    "Journal Article",
+    "Meta-Analysis",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31365048/"
+  }
+ ]
+}

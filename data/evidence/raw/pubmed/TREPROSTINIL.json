@@ -1,0 +1,62 @@
+{
+ "drug": "TREPROSTINIL",
+ "status": "ok",
+ "query": "\"treprostinil\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:21+00:00",
+ "records": [
+  {
+   "pmid": "37967762",
+   "title": "Tyvaso DPI: Drug-device characteristics and patient clinical considerations.",
+   "abstract": "Tyvaso DPI is a drug-device combination therapy comprised of a small, portable, reusable, breath-powered, dry powder inhaler (DPI) for the delivery of treprostinil. It is approved for the treatment of pulmonary arterial hypertension and pulmonary hypertension associated with interstitial lung disease. Tyvaso DPI utilizes single-use prefilled cartridges to ensure proper dosing. Unlike nebulizer devices, administration of Tyvaso DPI is passive and does not require coordination with the device. The low-flow rate design results in targeted delivery to the peripheral lungs due to minimal drug loss from impaction in the oropharynx. The inert fumaryl diketopiperazine (FDKP) excipient forms microparticles that carry treprostinil into the airways, with a high fraction of the particles in the respirable range. In a clinical study in patients with pulmonary arterial hypertension, Tyvaso DPI had similar exposure and pharmacokinetics, low incidence of adverse events, and high patient satisfaction compared with nebulized treprostinil solution. Tyvaso DPI may be considered as a first prostacyclin agent or for those that do not tolerate other prostacyclin formulations, patients with pulmonary comorbidities, patients with mixed Group 1 and Group 3 pulmonary hypertension, or those that prefer an active lifestyle and need a portable, non-invasive treatment. Tyvaso DPI is a patient-preferred, maintenance-free, safe delivery option that may improve patient compliance and adherence.",
+   "journal": "Pulmonary pharmacology & therapeutics",
+   "year": "2023",
+   "doi": "10.1016/j.pupt.2023.102266",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37967762/"
+  },
+  {
+   "pmid": "28922964",
+   "title": "Oral treprostinil in the treatment of pulmonary arterial hypertension.",
+   "abstract": "Pulmonary arterial hypertension (PAH) is a rare disease resulting in progressive remodeling of the pulmonary vasculature and eventual right ventricular failure. Despite the development of 13 therapies for PAH since 2000, the use of continuously infused prostanoids retains a special role. Infused medications present unique challenges, and the search for an efficacious oral prostanoid culminated in the FDA approval of oral treprostinil - a first in class oral prostanoid medication approved to treat pulmonary arterial hypertension (PAH). Areas covered: In this discussion, we review the pharmacologic properties of oral treprostinil, and discuss three original major registration studies that resulted in the approval and widespread use of the drug. We also review several post-approval analyses and transitional studies. We discuss administration issues including side effects, transitioning, cost, and comparative analysis with selexipag. Expert opinion: Though the prospects of harnessing the benefits of continuously infused prostanoid therapy in a pill form are tantalizing, the gap in efficacy between oral and infused treatment is substantial. Major side effects and exorbitant cost are further barriers to broad uptake. Competition from oral prostaglandin receptor agonist selexipag challenges the commercial success of oral treprostinil. The long-term viability of oral treprostinil rests largely on the outcome of the long-term event-driven study of the molecule added to background approved ERA or PDE5 inhibitor monotherapy.",
+   "journal": "Expert opinion on pharmacotherapy",
+   "year": "2017",
+   "doi": "10.1080/14656566.2017.1378347",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28922964/"
+  },
+  {
+   "pmid": "36921672",
+   "title": "Pulmonary hypertension inhaled therapies: An updated review.",
+   "abstract": "Treatments of pulmonary hypertension (PH) continue to evolve with approval of new therapies. The currently FDA approved inhaled PH therapies include inhaled iloprost for group 1 pulmonary arterial hypertension (PAH), inhaled treprostinil solution and treprostinil dry powder inhaler for both group 1 PAH and group 3 PH associated with interstitial lung disease (PH-ILD). Inhaled treprostinil was recently approved for group 3 PH-ILD based on the results of INCREASE trial and the newer formulation of treprostinil dry powder that comes with a new inhaler was recently approved for both group 1 PAH and group 3 PH-ILD based on BREEZE study. The pipeline for inhaled PH therapies includes several promising molecules that can enrich the current PH therapeutic era and mitigate several systemic side effects by directly delivering the drug to the target organ. In this review article we summarize the evidence for the currently approved inhaled PAH/PH therapies, discuss the available inhalation devices, present a roadmap for successful treatment strategy, and present several inhaled PAH/PH therapies in the pipeline.",
+   "journal": "The American journal of the medical sciences",
+   "year": "2023",
+   "doi": "10.1016/j.amjms.2023.03.002",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36921672/"
+  },
+  {
+   "pmid": "26748508",
+   "title": "Comparative Safety and Tolerability of Prostacyclins in Pulmonary Hypertension.",
+   "abstract": "Prostacyclin (PGI2) is a prostaglandin derived from arachidonic acid in the endothelium and smooth muscle which causes vasodilation, inhibits platelet aggregation, and has anti-inflammatory, anti-thrombotic and anti-proliferative effects. In pulmonary arterial hypertension (PAH), PGI2 levels and PGI2 synthase expression are reduced, contributing to the vasoconstriction and vascular smooth muscle cell proliferation seen in the disease. Based on these findings, PGI2 analogues were developed to target this pathway. Epoprostenol was the first targeted therapy available for treating PAH. Due to the short half-life of this drug, it requires administration via a continuous intravenous infusion, and therefore it carries the risks of central line infections and thrombosis. However, it remains the treatment of choice in patients with severe PAH as it has a proven survival benefit as well as improved functional class and exercise capacity. Subsequently, several other PGI2 analogues have been developed with differing modes of administration and varying degrees of efficacy. Beraprost is an oral PGI2 analogue for which a sustained efficacy has not been demonstrated. Iloprost is a nebulised PGI2 analogue that requires administration six to nine times a day and leads to improved functional class, exercise capacity and haemodynamics. There are inhaled, oral, subcutaneous and intravenous forms of treprostinil. Subcutaneous treprostinil avoids the risks of a continuous intravenous administration; however, this drug can cause intractable pain at the injection site. Selexipag is the new oral non-prostanoid IP prostacyclin receptor agonist that has shown improved haemodynamics and good tolerance in a phase II study. Initial results of the phase III trial are promising. Comparison of the different PGI2 agents is limited by a lack of head-to-head clinical trials. However, the development of PGI2 analogues has improved survival in patients with PAH and remains the main treatment option in advanced disease. While PGI2 analogues have good efficacy in PAH, they are not interchangeable, and their delivery systems have many limitations; in particular, they are associated with significant deleterious consequences. In the future, it is hoped that the elusive goal of developing an effective oral PGI2 analogue will be achieved. This would increase the number of people who could benefit from the treatment while reducing the associated adverse events, and as a result improve the survival and quality of life for these patients.",
+   "journal": "Drug safety",
+   "year": "2016",
+   "doi": "10.1007/s40264-015-0365-x",
+   "publication_types": [
+    "Comparative Study",
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26748508/"
+  }
+ ]
+}

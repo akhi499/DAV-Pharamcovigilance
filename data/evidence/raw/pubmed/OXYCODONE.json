@@ -1,0 +1,61 @@
+{
+ "drug": "OXYCODONE",
+ "status": "ok",
+ "query": "\"oxycodone\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:25+00:00",
+ "records": [
+  {
+   "pmid": "39465454",
+   "title": "Pharmacological Pain Treatment in Older Persons.",
+   "abstract": "Pharmacological pain treatment in older persons is presented by a multi-disciplinary group of European pain experts. Drugs recommended for acute or chronic nociceptive pain, also for neuropathic pain and the routes of administration of choice are the same as those prescribed for younger persons but comorbidities and polypharmacy in older persons increase the risk of adverse effects and drug interactions. Not all drugs are available or authorised in all European countries. For mild-to-moderate pain, non-opioids including paracetamol and non-steroidal anti-inflammatory drugs are first-line treatments, followed by nefopam and metamizole. Codeine, dihydrocodeine and tramadol are prescribed for moderate to severe pain and 'strong' opioids, including morphine, hydromorphone, oxycodone, fentanyl, buprenorphine, methadone and tapentadol, for severe pain. Chronic neuropathic pain treatment relies on coanalgesics, including anti-epileptics (gabapentinoids) and anti-depressants with additional option of topical lidocaine and capsaicine. The choice of analgesic(s) and the route of administration should be guided by the pain characteristics, as well as by the patient's comorbidities, organ function and medications. Several directions have been highlighted to optimise pharmacological pain management in older individuals: (1) before starting pain treatment adequately detect and assess pain and always perform a full geriatric assessment, (2) consider kidney function systematically to adjust the doses of analgesics and avoid the risks of overdose, (3) start with the lowest dose of an analgesic and increase it gradually under the control of the effect, (4) involve the older persons and family in their treatment, (5) reevaluate pain regularly during treatment and (6) combine pharmacological treatment with non-pharmacological approaches.",
+   "journal": "Drugs & aging",
+   "year": "2024",
+   "doi": "10.1007/s40266-024-01151-8",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39465454/"
+  },
+  {
+   "pmid": "33728947",
+   "title": "Pharmacogenomics of oxycodone: a narrative literature review.",
+   "abstract": "Oxycodone is a semisynthetic μ- and κ-opioid receptor with agonist with a broad scope of use including postoperative analgesia as well as control of neuropathic and cancer pain. Advantages over other opioids include prolonged duration of action, greater potency than morphine and lack of histamine release or ceiling effect. Individual responses to oxycodone can vary due to genetic differences. This review article aims to summarize the oxycodone literature and provide context on its pharmacogenomics and pharmacokinetics. The evidence for clinical effect of genetic polymorphisms on oxycodone is conflicting. There is stronger evidence linking polymorphic genetic enzymes CYP2D6 and CYP3A with therapeutic outcomes. Further, research is needed to discern all of oxycodone's metabolites and their contribution to the overall analgesic effect.",
+   "journal": "Pharmacogenomics",
+   "year": "2021",
+   "doi": "10.2217/pgs-2020-0143",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33728947/"
+  },
+  {
+   "pmid": "32427604",
+   "title": "Opioid-induced esophageal dysfunction.",
+   "abstract": "PURPOSE OF REVIEW: Chronic opioid use is common and can cause opioid-induced esophageal dysfunction (OIED). We will discuss the pathophysiology, diagnosis, and management of OIED.\nRECENT FINDINGS: OIED is diagnosed based on symptoms, opioid use, and manometric evidence of distal esophageal spasm, esophagogastric junction outflow obstruction, achalasia type III, or jackhammer esophagus. Chronic opioid use appears to interfere with inhibitory signals involved in control of esophageal motility, allowing for unchecked excitatory stimuli, and leading to spastic contractility and impaired esophagogastric junction relaxation. Patients may present with dysphagia and chest pain. OIED is significantly more prevalent in patients taking the stronger opioids oxycodone and hydrocodone compared with the weaker opioid tramadol. Based on 24-h morphine equivalent doses, patients with OIED take higher opioid doses than those without OIED. Impaired inhibitory signaling was recently demonstrated in a study showing reduced deglutitive inhibition during multiple rapid swallows in patients taking opioids.\nSUMMARY: OIED is frequent in chronic opioid users undergoing manometry for esophageal symptoms, especially at higher doses or with stronger opioids. OIED appears to be due to impaired inhibitory signals in the esophagus. Opioid cessation or dose reduction is recommended, but studies examining management of OIED are lacking.",
+   "journal": "Current opinion in gastroenterology",
+   "year": "2020",
+   "doi": "10.1097/MOG.0000000000000648",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32427604/"
+  },
+  {
+   "pmid": "34396552",
+   "title": "Clinical Pharmacology, Toxicity, and Abuse Potential of Opioids.",
+   "abstract": "Opioids were the most common drug class resulting in overdose deaths in the United States in 2019. Widespread clinical use of prescription opioids for moderate to severe pain contributed to the ongoing opioid epidemic with the subsequent emergence of fentanyl-laced heroin. More potent analogues of fentanyl and structurally diverse opioid receptor agonists such as AH-7921 and MT-45 are fueling an increasingly diverse illicit opioid supply. Overdose from synthetic opioids with high binding affinities may not respond to a typical naloxone dose, thereby rendering autoinjectors less effective, requiring higher antagonist doses or resulting in a confusing clinical picture for health care providers. Nonscheduled opioid drugs such as loperamide and dextromethorphan are associated with dependence and risk of overdose as easier access makes them attractive to opioid users. Despite a common opioid-mediated pathway, several opioids present with unique pharmacodynamic properties leading to acute toxicity and dependence development. Pharmacokinetic considerations involve half-life of the parent opioid and its metabolites as well as resulting toxicity, as is established for tramadol, codeine, and oxycodone. Pharmacokinetic considerations, toxicities, and treatment approaches for notable opioids are reviewed.",
+   "journal": "Journal of clinical pharmacology",
+   "year": "2021",
+   "doi": "10.1002/jcph.1923",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34396552/"
+  }
+ ]
+}

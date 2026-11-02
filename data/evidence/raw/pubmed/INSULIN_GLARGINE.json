@@ -1,0 +1,61 @@
+{
+ "drug": "INSULIN GLARGINE",
+ "status": "ok",
+ "query": "\"insulin glargine\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:00+00:00",
+ "records": [
+  {
+   "pmid": "34248838",
+   "title": "Efficacy of Semaglutide in a Subcutaneous and an Oral Formulation.",
+   "abstract": "Despite the benefits of early and effective glycemic control in the management of type 2 diabetes (T2D), achieving glycated hemoglobin (HbA1c) targets is challenging in some patients. Glucagon-like peptide-1 receptor agonists (GLP-1RAs) provide effective reductions in HbA1c and body weight. Semaglutide is the only GLP-1RA that is available in both an injectable and oral formulation. The efficacy of once-weekly subcutaneous semaglutide and once-daily oral semaglutide has been investigated in the global SUSTAIN and PIONEER phase III clinical trial programs in a range of clinical settings, including early T2D managed with diet and exercise only, more established T2D uncontrolled on one to three oral antidiabetic drugs, and advanced disease treated with insulin. Across the SUSTAIN program, once-weekly subcutaneous semaglutide 1.0 mg reduced HbA1c by 1.5-1.8% after 30-56 weeks, which was significantly more than sitagliptin, liraglutide, exenatide extended release, dulaglutide, canagliflozin, or insulin glargine. Across the PIONEER program, once-daily oral semaglutide 14 mg reduced HbA1c by 1.0-1.4%, significantly more than sitagliptin or empagliflozin, and to a similar extent as liraglutide after 26 weeks. In addition, subcutaneous semaglutide reduced body weight significantly more than all active comparators tested, while oral semaglutide reduced body weight more than sitagliptin and liraglutide, and to a similar extent as empagliflozin. Neither formulation of semaglutide has been associated with an increased risk of hypoglycemia and both improve various measures of health-related quality of life. Semaglutide offers the benefits of a highly effective GLP-1RA in both injectable and oral formulations. Selection of the most appropriate formulation can be made on an individual basis to best suit the patient's preferences and needs.",
+   "journal": "Frontiers in endocrinology",
+   "year": "2021",
+   "doi": "10.3389/fendo.2021.645617",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34248838/"
+  },
+  {
+   "pmid": "29915923",
+   "title": "Pharmacokinetics and Clinical Implications of Semaglutide: A New Glucagon-Like Peptide (GLP)-1 Receptor Agonist.",
+   "abstract": "Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) came to market in the year 2005, as a new therapeutic classification, for clinical use in the management of type 2 diabetes mellitus (T2DM). Since 2005, there have been six approved products on the market, with the newest product being semaglutide (Novo Nordisk). Several studies have been conducted and completed evaluating its pharmacokinetics as a once-weekly subcutaneous injection. As a dose of 0.5 or 1 mg, semaglutide has a half-life of 7 days; therefore, it would reach steady state in 4-5 weeks. There are few drug interactions and dose adjustments are not necessary. However, similar to other GLP-1 RAs, semaglutide can delay gastric emptying and may impact the absorption of oral medications. Based on clinical trials, semaglutide has been compared with placebo, sitagliptin, exenatide extended release, and insulin glargine as monotherapy or add-on therapy. Semaglutide has resulted in a 1.5-1.9% glycosylated hemoglobin A1c reduction after 30-56 weeks. It also produced 5-10% weight reduction from baseline in clinical efficacy studies. Semaglutide can be another acceptable option for patients with T2DM, and it has a potential role among patients who require weight loss with a low risk of hypoglycemia. This article evaluates the pharmacokinetics of semaglutide and summarizes its application to clinical practice based on efficacy and safety data.",
+   "journal": "Clinical pharmacokinetics",
+   "year": "2018",
+   "doi": "10.1007/s40262-018-0668-z",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29915923/"
+  },
+  {
+   "pmid": "31567197",
+   "title": "Is Insulin Therapy Safe?",
+   "abstract": "BACKGROUND: After 98 years of insulin therapy, issues of safety remain of concern.\nAREAS OF UNCERTAINTY: Uncertainty has been expressed variously in regard of arterial cell wall proliferation, promotion of proliferative retinopathy, promotion of tumor growth, and for pregnancy. Immunological issues have been little studied since the advent of highly purified insulins in the 1970s. A specific topic is whether hypoglycemia, severe or otherwise, might promote cardiac thrombotic or dysrhythmic events.\nDATA SOURCES: A literature review in these areas is difficult because nearly all clinical trials with insulin refer to adverse events. However, the specific topics aforementioned allow for some informed literature searching supplemented by finger-searching of published articles, notably in connection with the insulin analogues.\nTHERAPEUTIC UNDERSTANDINGS: Safety data for pregnancy are weak because of power problems, but there are no signals for added maternal or fetal risk. Clinical-outcome trials that assess insulin against other glucose-lowering therapies or with significantly different insulin preparations in different arms are few and are sometimes conducted at modest dosage but fail to suggest promotion of arterial disease. Concern over growth-promoting activity of insulin glargine turned out to be ill-founded when the circulating moiety after injection was noted to have a lower IGF-1:insulin activity than human insulin, and a direct study of retinopathy progression or meta-analysis of malignancy incidence failed to show signals of concern. It does seem that severe hypoglycemia can cause death in some people with type 1 diabetes, although the tissue mechanism is unknown, but reducing severe hypoglycemia in type 2 diabetes does not protect against arterial events. Both symptomatic and severe hypoglycemia can however be reduced by use of more recently marketed insulin analogues, and this improves tolerability if not safety.\nCONCLUSIONS: In conclusion, although insulin therapy clearly gives health benefits, the evidence for long-term harm is absent or weak.",
+   "journal": "American journal of therapeutics",
+   "year": "2020",
+   "doi": "10.1097/MJT.0000000000001077",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31567197/"
+  },
+  {
+   "pmid": "29609864",
+   "title": "Long-acting insulin analogs and cancer.",
+   "abstract": "AIMS: Hyperinsulinemia is a recognized risk factor for cancer and plays a major role for the increased cancer incidence in diabetic patients. Whether insulin analogs, and particularly long-acting analogs, worsen the pro-cancer effect of excess insulin is still controversial.\nDATA SYNTHESIS: In this paper we summarize the biological bases for the potential detrimental effect of long-acting analogs on cancer cells and review the in vitro and in vivo evidence on this issue. Because of their different molecular structure relative to native insulin, insulin analogs may activate the insulin receptor (IR) and the post receptor pathways differently. Most, but not all, in vitro evidence indicate that long-acting analogs may have a stronger mitogenic potency than insulin on cancer cells. Notably insulin glargine, the most studied long-acting analog, also has a higher affinity for the insulin-like growth factor (IGF)-1 receptor, a potent growth mediator. In vitro observations, however, may not reflect what occurs in vivo when analogs are metabolized to derivatives with a different mitogenic activity. Clinical studies, mostly retrospective and predominantly concerning glargine, provide contrasting results. The only perspective trial found no cancer increase in patients treated with glargine. All these studies, however, have severe weaknesses because of the insufficient evaluation of important factors such as dose administered, length of exposure, patient follow-up duration and site-specific cancer investigation. Moreover, whether cancer promotion is a long-acting analog class characteristic or a specific effect of a single agent is not clear.\nCONCLUSIONS: In conclusion the carcinogenic risk of long-acting analogs, and specifically glargine, can be neither confirmed nor excluded. A personalized and shared decision, considering all the individual risk factors (metabolic and non-metabolic), is the suggestion for the clinician.",
+   "journal": "Nutrition, metabolism, and cardiovascular diseases : NMCD",
+   "year": "2018",
+   "doi": "10.1016/j.numecd.2018.02.010",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29609864/"
+  }
+ ]
+}

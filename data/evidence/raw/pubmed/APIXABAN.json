@@ -1,0 +1,61 @@
+{
+ "drug": "APIXABAN",
+ "status": "ok",
+ "query": "\"apixaban\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:12+00:00",
+ "records": [
+  {
+   "pmid": "38035566",
+   "title": "Anticoagulation in Patients with Chronic Kidney Disease.",
+   "abstract": "BACKGROUND: Both atrial fibrillation and venous thromboembolism (VTE) are highly prevalent among patients with chronic kidney disease (CKD). Until recently, warfarin was the most commonly prescribed oral anticoagulant. Direct oral anticoagulants (DOACs) have important advantages and have been shown to be noninferior to warfarin with respect to stroke prevention or recurrent VTE in the general population, with lower bleeding rates. This review article will provide available evidence on the use of DOACs in patients with CKD.\nSUMMARY: In post hoc analyses of major randomized studies with DOACs for stroke prevention in atrial fibrillation, in the subgroup of participants with moderate CKD, defined as a creatinine clearance (CrCl) of 30-50 mL/min, dabigatran 150 mg and apixaban were associated with lower rates of stroke and systemic embolism, whereas apixaban and edoxaban were associated with lower bleeding and mortality rates, compared with warfarin. In retrospective observational studies in patients with advanced CKD (defined as a CrCl &lt;30 mL/min) and atrial fibrillation, DOACs had similar efficacy with warfarin with numerically lower bleeding rates. All agents warrant dose adjustment in moderate-to-severe CKD. In patients on maintenance dialysis, the VALKYRIE trial, which was designed initially to study the effect of vitamin K on vascular calcification progression, established superiority for rivaroxaban compared with a vitamin K antagonist (VKA) in the extension phase. Two other clinical trials using apixaban (AXADIA and RENAL-AF) in this population were inconclusive due to recruitment challenges and low event rates. In post hoc analyses of randomized studies with DOACs in patients with VTE, in the subgroup of participants with moderate CKD at baseline, edoxaban was associated with lower rates of recurrent VTE, whereas rivaroxaban and dabigatran were associated with lower and higher bleeding rates, respectively, as compared to warfarin.\nKEY MESSAGES: DOACs have revolutionized the management of atrial fibrillation and VTE, and they should be preferred over warfarin in patients with moderate-to-severe CKD with appropriate dose adjustment. Therapeutic drug monitoring with a valid technique may be considered to guide clinical management in individualized cases. Current evidence questions the need for oral anticoagulation in patients on maintenance dialysis with atrial fibrillation as both DOACs and VKAs are associated with high rates of major bleeding.",
+   "journal": "American journal of nephrology",
+   "year": "2024",
+   "doi": "10.1159/000535546",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38035566/"
+  },
+  {
+   "pmid": "31089975",
+   "title": "Apixaban: A Clinical Pharmacokinetic and Pharmacodynamic Review.",
+   "abstract": "Apixaban is an oral, direct factor Xa inhibitor that inhibits both free and clot-bound factor Xa, and has been approved for clinical use in several thromboembolic disorders, including reduction of stroke risk in non-valvular atrial fibrillation, thromboprophylaxis following hip or knee replacement surgery, the treatment of deep vein thrombosis or pulmonary embolism, and prevention of recurrent deep vein thrombosis and pulmonary embolism. The absolute oral bioavailability of apixaban is ~ 50%. Food does not have a clinically meaningful impact on the bioavailability. Apixaban exposure increases dose proportionally for oral doses up to 10 mg. Apixaban is rapidly absorbed, with maximum concentration occurring 3-4 h after oral administration, and has a half-life of approximately 12 h. Elimination occurs via multiple pathways including metabolism, biliary excretion, and direct intestinal excretion, with approximately 27% of total apixaban clearance occurring via renal excretion. The pharmacokinetics of apixaban are consistent across a broad range of patients, and apixaban has limited clinically relevant interactions with most commonly prescribed medications, allowing for fixed dosages without the need for therapeutic drug monitoring. The pharmacodynamic effect of apixaban is closely correlated with apixaban plasma concentration. This review provides a summary of the pharmacokinetic, pharmacodynamic, biopharmaceutical, and drug-drug interaction profiles of apixaban. Additionally, the population-pharmacokinetic analyses of apixaban in both healthy subjects and in the target patient populations are discussed.",
+   "journal": "Clinical pharmacokinetics",
+   "year": "2019",
+   "doi": "10.1007/s40262-019-00775-z",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31089975/"
+  },
+  {
+   "pmid": "35622425",
+   "title": "Drug Interactions Affecting Oral Anticoagulant Use.",
+   "abstract": "Oral anticoagulants (OACs) are medications commonly used in patients with atrial fibrillation and other cardiovascular conditions. Both warfarin and direct oral anticoagulants are susceptible to drug-drug interactions (DDIs). DDIs are an important cause of adverse drug reactions and exact a large toll on the health care system. DDI for warfarin mainly involve moderate to strong inhibitors/inducers of cytochrome P450 (CYP) 2C9, which is responsible for the elimination of the more potent S-isomer of warfarin. However, inhibitor/inducers of CYP3A4 and CYP1A2 may also cause DDI with warfarin. Recognition of these precipitating agents along with increased frequency of monitoring when these agents are initiated or discontinued will minimize the impact of warfarin DDI. Direct oral anticoagulants are mainly affected by medications strongly affecting the permeability glycoprotein (P-gp), and to a lesser extent, strong CYP3A4 inhibitors/inducers. Dabigatran and edoxaban are affected by P-gp modulation. Strong inducers of CYP3A4 or P-gp should be avoided in all patients taking direct oral anticoagulant unless previously proven to be otherwise safe. Simultaneous strong CYP3A4 and P-gp inhibitors should be avoided in patients taking apixaban and rivaroxaban. Concomitant antiplatelet/anticoagulant use confers additive risk for bleeding, but their combination is unavoidable in many cases. Minimizing duration of concomitant anticoagulant/antiplatelet therapy as indicated by evidence-based clinical guidelines is the best way to reduce the risk of bleeding.",
+   "journal": "Circulation. Arrhythmia and electrophysiology",
+   "year": "2022",
+   "doi": "10.1161/CIRCEP.121.007956",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35622425/"
+  },
+  {
+   "pmid": "33736552",
+   "title": "Heparin-induced thrombocytopenia: pathophysiology, diagnosis and treatment.",
+   "abstract": "Introduction: Immune-mediated heparin-induced thrombocytopenia (HIT) is an infrequent complication following heparin exposure but with potentially fatal outcome due to thrombotic complications. Prompt suspension of heparin is necessary if HIT is suspected, followed by initiation of non-heparin anticoagulant therapy.Areas covered: In this review, the pathophysiology and challenges in diagnosing HIT are elucidated. Current and emerging treatment options are discussed with special focus on parenteral thrombin inhibitors (argatroban, bivalirudin), parenteral factor Xa inhibitors (danaparoid, fondaparinux) and direct oral anticoagulants (DOACs [rivaroxaban, apixaban, dabigatran]) including dosing strategies for DOACs. The database PubMed was employed without time boundaries.Expert opinion: Only argatroban holds regulatory approval for HIT treatment in both U.S. and Europe. This treatment is, however, challenged by the need for close monitoring and high costs. Fondaparinux has been increasingly used for off-label treatment and during recent years, evidence for the use of DOACs has emerged. Preliminary results from observational studies hold promise for future use of DOACs in the acute and subacute phase of HIT. However, so far, the use of DOACs in acute HIT should be reserved for clinically stable patients without severe thrombotic complications. Importantly, both fondaparinux and DOAC use is contraindicated in severe renal insufficiency.",
+   "journal": "Expert review of hematology",
+   "year": "2021",
+   "doi": "10.1080/17474086.2021.1905512",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33736552/"
+  }
+ ]
+}

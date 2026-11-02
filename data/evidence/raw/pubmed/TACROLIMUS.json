@@ -1,0 +1,60 @@
+{
+ "drug": "TACROLIMUS",
+ "status": "ok",
+ "query": "\"tacrolimus\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:20+00:00",
+ "records": [
+  {
+   "pmid": "38605438",
+   "title": "The Second International Consensus Guidelines on the Management of BK Polyomavirus in Kidney Transplantation.",
+   "abstract": "BK polyomavirus (BKPyV) remains a significant challenge after kidney transplantation. International experts reviewed current evidence and updated recommendations according to Grading of Recommendations, Assessment, Development, and Evaluations (GRADE). Risk factors for BKPyV-DNAemia and biopsy-proven BKPyV-nephropathy include recipient older age, male sex, donor BKPyV-viruria, BKPyV-seropositive donor/-seronegative recipient, tacrolimus, acute rejection, and higher steroid exposure. To facilitate early intervention with limited allograft damage, all kidney transplant recipients should be screened monthly for plasma BKPyV-DNAemia loads until month 9, then every 3 mo until 2 y posttransplant (3 y for children). In resource-limited settings, urine cytology screening at similar time points can exclude BKPyV-nephropathy, and testing for plasma BKPyV-DNAemia when decoy cells are detectable. For patients with BKPyV-DNAemia loads persisting >1000 copies/mL, or exceeding 10 000 copies/mL (or equivalent), or with biopsy-proven BKPyV-nephropathy, immunosuppression should be reduced according to predefined steps targeting antiproliferative drugs, calcineurin inhibitors, or both. In adults without graft dysfunction, kidney allograft biopsy is not required unless the immunological risk is high. For children with persisting BKPyV-DNAemia, allograft biopsy may be considered even without graft dysfunction. Allograft biopsies should be interpreted in the context of all clinical and laboratory findings, including plasma BKPyV-DNAemia. Immunohistochemistry is preferred for diagnosing biopsy-proven BKPyV-nephropathy. Routine screening using the proposed strategies is cost-effective, improves clinical outcomes and quality of life. Kidney retransplantation subsequent to BKPyV-nephropathy is feasible in otherwise eligible recipients if BKPyV-DNAemia is undetectable; routine graft nephrectomy is not recommended. Current studies do not support the usage of leflunomide, cidofovir, quinolones, or IVIGs. Patients considered for experimental treatments (antivirals, vaccines, neutralizing antibodies, and adoptive T cells) should be enrolled in clinical trials.",
+   "journal": "Transplantation",
+   "year": "2024",
+   "doi": "10.1097/TP.0000000000004976",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38605438/"
+  },
+  {
+   "pmid": "38227938",
+   "title": "Immunosuppressant Medications in Pregnancy.",
+   "abstract": "Pregnant patients are often on immunosuppressant medications, most commonly to manage transplantation or autoimmune disorders. Most immunosuppressant agents, including tacrolimus, corticosteroids, azathioprine, and calcineurin inhibitors, are safe during pregnancy and lactation. However, mycophenolic acid is associated with higher risks of birth defects and should be avoided in pregnancy. Tacrolimus, the commonly used drug in transplantation medicine and autoimmune disorders, requires monitoring of serum levels for dose adjustment, particularly during pregnancy. Although no pregnancy-specific therapeutic range exists, the general target range is 5-15 ng/mL, and pregnant patients may require higher doses to achieve therapeutic levels. Adherence to prescribed immunosuppressive regimens is crucial to prevent graft rejection and autoimmune disorder flare-ups. This review aims to provide essential information about the use of immunosuppressant medications in pregnant individuals. With a rising number of pregnant patients undergoing organ transplantations or having autoimmune disorders, it is important to understand the implications of the use of these medications during pregnancy.",
+   "journal": "Obstetrics and gynecology",
+   "year": "2024",
+   "doi": "10.1097/AOG.0000000000005512",
+   "publication_types": [
+    "Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38227938/"
+  },
+  {
+   "pmid": "36999337",
+   "title": "Pharmacogenomics and beyond! Customized pharmacotherapy for solid organ transplant recipients.",
+   "abstract": "Solid organ transplant recipients are reliant on immunosuppressive drugs, which have a narrow therapeutic index, and are concurrently vulnerable to adverse drug events due to comorbidity burden and the complexity of their medication regimens. Urgent management of post-transplant complications often falls to the generalist clinician or critical care specialist. The purpose of this narrative review is to discuss innovations and bedside applications of pharmacogenomics and therapeutic drug monitoring applied to immunosuppression and agents frequently encountered in transplant recipients. Medication formulations will be given specific attention, as interchange is frequently required in the acute care setting. Bioassays quantifying immune system activity will be described with practical applications. A structured approach to addressing drug-drug, drug-gene, and drug-drug-gene interactions will be modeled using a case-based approach synthesizing pharmacogenomics, therapeutic drug monitoring, pharmacokinetics, and pharmacodynamic principles.",
+   "journal": "Pharmacotherapy",
+   "year": "2023",
+   "doi": "10.1002/phar.2798",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36999337/"
+  },
+  {
+   "pmid": "37945162",
+   "title": "Treatment of Autoimmune Hepatitis.",
+   "abstract": "The goal of autoimmune hepatitis treatment is to achieve clinical and biochemical remission, which is associated with significantly improved outcomes. Induction treatment with corticosteroids and the subsequent addition of steroid-sparing therapy with gradual tapering of corticosteroids remains the standard of care. Several alternatives to azathioprine and second-line agents, such as mycophenolate mofetil, tacrolimus, cyclosporine, sirolimus, or rituximab, have been evaluated in those with intolerance or inadequate response to standard-of-care therapy. Treatment withdrawal is achievable in less than 20% of patients after 2 years of sustained remission. Liver transplantation should be considered in those with progressive liver disease or those with complications such as hepatocellular carcinoma.",
+   "journal": "Clinics in liver disease",
+   "year": "2024",
+   "doi": "10.1016/j.cld.2023.07.001",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37945162/"
+  }
+ ]
+}

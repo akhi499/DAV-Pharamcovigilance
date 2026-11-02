@@ -1,0 +1,45 @@
+{
+  "kb_version": "pv-kb-1.0",
+  "n_chunks": 942,
+  "by_source": {
+    "CTCAE": 811,
+    "FDA-FAQ": 52,
+    "FDA-ASC_NTS": 40,
+    "FDA-README": 30,
+    "PROJECT": 9
+  },
+  "sources": {
+    "FDA-ASC_NTS": {
+      "title": "FDA FAERS ASCII file descriptions (ASC_NTS)",
+      "file": "ASCII/ASC_NTS.pdf",
+      "sha256": "f21c5776bf8cf32f035a27706a40ae066c500e0a9fe00aa687e43d43bdd70d59",
+      "pages": 19,
+      "zip": "faers_ascii_2025q1.zip"
+    },
+    "FDA-FAQ": {
+      "title": "FDA FAERS Quarterly Data Extract FAQs",
+      "file": "FAQs.pdf",
+      "sha256": "d7d94cdda6e6203641250582b49c29226e3ee54784925a85a7cb94d61f7f3a58",
+      "pages": 12,
+      "zip": "faers_ascii_2025q1.zip"
+    },
+    "FDA-README": {
+      "title": "FDA FAERS Quarterly Data Extract README",
+      "file": "Readme.pdf",
+      "sha256": "9b4a9df630828d6771b88467a6306d7da9416e9afa24426e82ccb480a316547d",
+      "pages": 8,
+      "zip": "faers_ascii_2025q1.zip"
+    },
+    "PROJECT": {
+      "title": "Project methods notes (pvsys.nlp.kb.METHOD_NOTES)",
+      "n": 9
+    },
+    "CTCAE": {
+      "title": "NCI CTCAE v5.0 term definitions",
+      "n": 811
+    }
+  },
+  "window_words": 140,
+  "stride_words": 100,
+  "content_sha256": "5416a4baedfe3075"
+}

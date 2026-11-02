@@ -1,0 +1,64 @@
+{
+ "drug": "CLONAZEPAM",
+ "status": "ok",
+ "query": "\"clonazepam\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:20:33+00:00",
+ "records": [
+  {
+   "pmid": "38451521",
+   "title": "Drug Efficacy in the Treatment of Antipsychotic-Induced Akathisia: A Systematic Review and Network Meta-Analysis.",
+   "abstract": "IMPORTANCE: Antipsychotic-induced akathisia (AIA) occurs in 14% to 35% of patients treated with antipsychotics and is associated with increased suicide and decreased adherence in patients with schizophrenia. However, no comprehensive review and network meta-analysis has been conducted to compare the efficacy of treatments for AIA.\nOBJECTIVE: To compare the efficacy associated with AIA treatments.\nDATA SOURCES: Three databases (MEDLINE, Web of Science, and Google Scholar) were systematically searched by multiple researchers for double-blind randomized clinical trials (RCTs) comparing active drugs for the treatment of AIA with placebo or another treatment between May 30 and June 18, 2023.\nSTUDY SELECTION: Selected studies were RCTs that compared adjunctive drugs for AIA vs placebo or adjunctive treatment in patients treated with antipsychotics fulfilling the criteria for akathisia, RCTs with sample size of 10 patients or more, only trials in which no additional drugs were administered during the study, and RCTs that used a validated akathisia score. Trials with missing data for the main outcome (akathisia score at the end points) were excluded.\nDATA EXTRACTION AND SYNTHESIS: Data extraction and synthesis were performed, estimating standardized mean differences (SMDs) through pairwise and network meta-analysis with a random-effects model. The Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guideline was followed.\nMAIN OUTCOMES AND MEASURES: The primary outcome was the severity of akathisia measured by a validated scale at the last available end point.\nRESULTS: Fifteen trials involving 492 participants compared 10 treatments with placebo. Mirtazapine (15 mg/d for ≥5 days; SMD, -1.20; 95% CI, -1.83 to -0.58), biperiden (6 mg/d for ≥14 days; SMD, -1.01; 95% CI, -1.69 to -0.34), vitamin B6 (600-1200 mg/d for ≥5 days; SMD, -0.92; 95% CI, -1.57 to -0.26), trazodone (50 mg/d for ≥5 days; SMD, -0.84; 95% CI, -1.54 to -0.14), mianserin (15 mg/d for ≥5 days; SMD, -0.81; 95% CI, -1.44 to -0.19), and propranolol (20 mg/d for ≥6 days; SMD, -0.78; 95% CI, -1.35 to -0.22) were associated with greater efficacy than placebo, with low to moderate heterogeneity (I2 = 34.6%; 95% CI, 0.0%-71.1%). Cyproheptadine, clonazepam, zolmitriptan, and valproate did not yield significant effects. Eight trials were rated as having low risk of bias; 2, moderate risk; and 5, high risk. Sensitivity analyses generally confirmed the results for all drugs except for cyproheptadine and propranolol. No association between effect sizes and psychotic severity was found.\nCONCLUSIONS AND RELEVANCE: In this systematic review and network meta-analysis, mirtazapine, biperiden, and vitamin B6 were associated with the greatest efficacy for AIA, with vitamin B6 having the best efficacy and tolerance profile. Trazodone, mianserin, and propranolol appeared as effective alternatives with slightly less favorable efficacy and tolerance profiles. These findings should assist prescribers in selecting an appropriate medication for treating AIA.",
+   "journal": "JAMA network open",
+   "year": "2024",
+   "doi": "10.1001/jamanetworkopen.2024.1527",
+   "publication_types": [
+    "Systematic Review",
+    "Journal Article",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38451521/"
+  },
+  {
+   "pmid": "35861924",
+   "title": "Antiseizure Drugs and Movement Disorders.",
+   "abstract": "The relationship between antiseizure drugs and movement disorders is complex and not adequately reviewed so far. Antiseizure drugs as a treatment for tremor and other entities such as myoclonus and restless leg syndrome is the most common scenario, although the scientific evidence supporting their use is variable. However, antiseizure drugs also represent a potential cause of iatrogenic movement disorders, with parkinsonism and tremor the most common disorders. Many other antiseizure drug-induced movement disorders are possible and not always correctly identified. This review was conducted by searching for all the possible combinations between 15 movement disorders (excluding ataxia) and 24 antiseizure drugs. The main objective was to describe the movement disorders treated and worsened or induced by antiseizure drugs. We also summarized the proposed mechanisms and risk factors involved in the complex interaction between antiseizure drugs and movement disorders. Antiseizure drugs mainly used to treat movement disorders are clonazepam, gabapentin, lacosamide, levetiracetam, oxcarbazepine, perampanel, phenobarbital, pregabalin, primidone, topiramate, and zonisamide. Antiseizure drugs that worsen or induce movement disorders are cenobamate, ethosuximide, felbamate, lamotrigine, phenytoin, tiagabine, and vigabatrin. Antiseizure drugs with a variable effect on movement disorders are carbamazepine and valproate while no effect on movement disorders has been reported for brivaracetam, eslicarbazepine, lacosamide, and stiripentol. Although little information is available on the adverse effects or benefits on movement disorders of newer antiseizure drugs (such as brivaracetam, cenobamate, eslicarbazepine, lacosamide, and rufinamide), the evidence collected in this review should guide the choice of antiseizure drugs in patients with concomitant epilepsy and movement disorders. Finally, these notions can lead to a better understanding of the mechanisms involved in the pathophysiology and treatments of movement disorders.",
+   "journal": "CNS drugs",
+   "year": "2022",
+   "doi": "10.1007/s40263-022-00937-x",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35861924/"
+  },
+  {
+   "pmid": "29352477",
+   "title": "Benzodiazepines for antipsychotic-induced tardive dyskinesia.",
+   "abstract": "BACKGROUND: Tardive dyskinesia (TD) is a disfiguring movement disorder, often of the orofacial region, frequently caused by using antipsychotic drugs. A wide range of strategies have been used to help manage TD, and for those who are unable to have their antipsychotic medication stopped or substantially changed, the benzodiazepine group of drugs have been suggested as a useful adjunctive treatment. However, benzodiazepines are very addictive.\nOBJECTIVES: To determine the effects of benzodiazepines for antipsychotic-induced tardive dyskinesia in people with schizophrenia, schizoaffective disorder, or other chronic mental illnesses.\nSEARCH METHODS: On 17 July 2015 and 26 April 2017, we searched the Cochrane Schizophrenia Group's Study-Based Register of Trials (including trial registers), inspected references of all identified studies for further trials and contacted authors of each included trial for additional information.\nSELECTION CRITERIA: We included all randomised controlled trials (RCTs) focusing on people with schizophrenia (or other chronic mental illnesses) and antipsychotic-induced TD that compared benzodiazepines with placebo, no intervention, or any other intervention for the treatment of TD.\nDATA COLLECTION AND ANALYSIS: We independently extracted data from the included studies and ensured that they were reliably selected, and quality assessed. For homogenous dichotomous data, we calculated random effects, risk ratio (RR), and 95% confidence intervals (CI). We synthesised continuous data from valid scales using mean differences (MD). For continuous outcomes, we preferred endpoint data to change data. We assumed that people who left early had no improvement.\nMAIN RESULTS: The review now includes four trials (total 75 people, one additional trial since 2006, 21 people) randomising inpatients and outpatients in China and the USA. Risk of bias was mostly unclear as reporting was poor. We are uncertain about all the effects as all evidence was graded at very low quality. We found no significant difference between benzodiazepines and placebo for the outcome of 'no clinically important improvement in TD' (2 RCTs, 32 people, RR 1.12, 95% CI 0.60 to 2.09, very low quality evidence). Significantly fewer participants allocated to clonazepam compared with phenobarbital (as active placebo) experienced no clinically important improvement (RR 0.44, 95% CI 0.20 to 0.96, 1 RCT, 21 people, very low quality evidence). For the outcome 'deterioration of TD symptoms,' we found no clear difference between benzodiazepines and placebo (2 RCTs, 30 people, RR 1.48, 95% CI 0.22 to 9.82, very low quality evidence). All 10 participants allocated to benzodiazepines experienced any adverse event compared with 7/11 allocated to phenobarbital (RR 1.53, 95% CI 0.97 to 2.41, 1 RCT, 21 people, very low quality evidence). There was no clear difference in the incidence of participants leaving the study early for benzodiazepines compared with placebo (3 RCTs, 56 people, RR 2.73, 95% CI 0.15 to 48.04, very low quality evidence) or compared with phenobarbital (as active placebo) (no events, 1 RCT, 21 people, very low quality evidence). No trials reported on social confidence, social inclusion, social networks, or personalised quality of life, which are outcomes designated important by patients. No trials comparing benzodiazepines with placebo or treatment as usual reported on adverse effects.\nAUTHORS' CONCLUSIONS: There is only evidence of very low quality from a few small and poorly reported trials on the effect of benzodiazepines as an adjunctive treatment for antipsychotic-induced TD. These inconclusive results mean routine clinical use is not indicated and these treatments remain experimental. New and better trials are indicated in this under-researched area; however, as benzodiazepines are addictive, we feel that other techniques or medications should be adequately evaluated before benzodiazepines are chosen.",
+   "journal": "The Cochrane database of systematic reviews",
+   "year": "2018",
+   "doi": "10.1002/14651858.CD000205.pub3",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Research Support, Non-U.S. Gov't",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29352477/"
+  },
+  {
+   "pmid": "35971024",
+   "title": "Benzodiazepines in the Management of Seizures and Status Epilepticus: A Review of Routes of Delivery, Pharmacokinetics, Efficacy, and Tolerability.",
+   "abstract": "Status epilepticus (SE) is an acute, life-threatening medical condition that requires immediate, effective therapy. Therefore, the acute care of prolonged seizures and SE is a constant challenge for healthcare professionals, in both the pre-hospital and the in-hospital settings. Benzodiazepines (BZDs) are the first-line treatment for SE worldwide due to their efficacy, tolerability, and rapid onset of action. Although all BZDs act as allosteric modulators at the inhibitory gamma-aminobutyric acid (GABA)A receptor, the individual agents have different efficacy profiles and pharmacokinetic and pharmacodynamic properties, some of which differ significantly. The conventional BZDs clonazepam, diazepam, lorazepam and midazolam differ mainly in their durations of action and available routes of administration. In addition to the common intravenous, intramuscular and rectal administrations that have long been established in the acute treatment of SE, other administration routes for BZDs-such as intranasal administration-have been developed in recent years, with some preparations already commercially available. Most recently, the intrapulmonary administration of BZDs via an inhaler has been investigated. This narrative review provides an overview of the current knowledge on the efficacy and tolerability of different BZDs, with a focus on different routes of administration and therapeutic specificities for different patient groups, and offers an outlook on potential future drug developments for the treatment of prolonged seizures and SE.",
+   "journal": "CNS drugs",
+   "year": "2022",
+   "doi": "10.1007/s40263-022-00940-2",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35971024/"
+  }
+ ]
+}

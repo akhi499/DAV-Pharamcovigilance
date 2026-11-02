@@ -1,0 +1,63 @@
+{
+ "drug": "LEVOTHYROXINE SODIUM",
+ "status": "ok",
+ "query": "\"levothyroxine sodium\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:42+00:00",
+ "records": [
+  {
+   "pmid": "34461843",
+   "title": "Acute tubulointerstitial nephritis associated with antineutrophil cytoplasmic antibody following cimetidine treatment: a case report.",
+   "abstract": "BACKGROUND: Antineutrophil cytoplasmic antibody (ANCA)-associated vasculitis usually induces rapidly progressive glomerulonephritis, including pauci-immune necrotizing crescentic glomerulonephritis. Acute tubulointerstitial nephritis (ATIN), which is often drug-induced, is a frequent cause of kidney injury. However, ATIN associated with ANCA without any glomerular lesions has been rarely reported, and drug-induced ATIN associated with ANCA is not well recognized. Here we present a case of an older woman with ATIN associated with myeloperoxidase-ANCA (MPO-ANCA) following cimetidine treatment.\nCASE PRESENTATION: A 70-year-old woman was admitted to our hospital due to acute kidney injury and mild proteinuria. She had a one-year history of chronic thyroiditis and dyslipidemia, for which she was taking levothyroxine sodium and atorvastatin, respectively. Two weeks before admission she had started cimetidine, methylmethionine sulfonium chloride, and itopride hydrochloride for gastric discomfort persistent since a month. She had experienced fatigue for two weeks and later appetite loss. The patient demonstrated a positive titer for MPO-ANCA (192 IU/mL) and a positive drug-induced lymphocyte stimulation test for cimetidine. She underwent two kidney biopsies that revealed ATIN without any glomerular lesions. Despite discontinuation of cimetidine on admission, renal injury continued with the presence of high MPO-ANCA titer. Oral steroid treatment was closely related with the recovery of her renal function and disappearance of MPO-ANCA.\nCONCLUSIONS: In this case, ATIN presented as sustained renal insufficiency and high MPO-ANCA titer despite withdrawal of cimetidine. Therefore, we reason that the development of ANCA-associated ATIN was caused by cimetidine. Serologic follow-up with measurement of MPO-ANCA titers and renal biopsy are recommended when the clinical history is inconsistent with the relatively benign course of drug-induced ATIN.",
+   "journal": "BMC nephrology",
+   "year": "2021",
+   "doi": "10.1186/s12882-021-02502-y",
+   "publication_types": [
+    "Case Reports",
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34461843/"
+  },
+  {
+   "pmid": "29490937",
+   "title": "MANAGEMENT OF ENDOCRINE DISEASE: Pitfalls on the replacement therapy for primary and central hypothyroidism in adults.",
+   "abstract": "Hypothyroidism is one of the most common hormone deficiencies in adults. Most of the cases, particularly those of overt hypothyroidism, are easily diagnosed and managed, with excellent outcomes if treated adequately. However, minor alterations of thyroid function determine nonspecific manifestations. Primary hypothyroidism due to chronic autoimmune thyroiditis is largely the most common cause of thyroid hormone deficiency. Central hypothyroidism is a rare and heterogeneous disorder characterized by decreased thyroid hormone secretion by an otherwise normal thyroid gland, due to lack of TSH. The standard treatment of primary and central hypothyroidism is hormone replacement therapy with levothyroxine sodium (LT4). Treatment guidelines of hypothyroidism recommend monotherapy with LT4 due to its efficacy, long-term experience, favorable side effect profile, ease of administration, good intestinal absorption, long serum half-life and low cost. Despite being easily treatable with a daily dose of LT4, many patients remain hypothyroid due to malabsorption syndromes, autoimmune gastritis, pancreatic and liver disorders, drug interactions, polymorphisms in DIO2 (iodothyronine deiodinase 2), high fiber diet, and more frequently, non-compliance to LT4 therapy. Compliance to levothyroxine treatment in hypothyroidism is compromised by daily and fasting schedule. Many adult patients remain hypothyroid due to all the above mentioned and many attempts to improve levothyroxine therapy compliance and absorption have been made.",
+   "journal": "European journal of endocrinology",
+   "year": "2018",
+   "doi": "10.1530/EJE-17-0947",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29490937/"
+  },
+  {
+   "pmid": "34731129",
+   "title": "Safety and efficacy of Prunella vulgaris preparation in adjuvant treatment of thyroid nodules: A meta-analysis.",
+   "abstract": "BACKGROUND: Prunella vulgaris (PV), a traditional Chinese medical herb, is considered beneficial for some thyroid diseases. However, the effectiveness is not consistent in different studies. This review compiles the evidence from randomized controlled trials (RCTs) and quantifies the effects of PV preparation on thyroid nodules.\nMETHODS: Eight databases were searched up to April 2021 to identify eligible studies. Only RCTs were included. Meta-analysis of homogeneous studies was performed by RevMan5.3 software. Cochrane risk of bias assessment tool version 2.0 was used to assess the risk of bias of each trial. The research screening, data extraction, and risk of bias assessment were employed by 2 reviewers independently, and disagreement will be decided by a third senior reviewer. The risk ratio (RR), mean difference (MD) and corresponding 95% confidence interval (CI) of each study are summarized.\nRESULTS: Thirteen RCTs with 1468 patients were included in this study. A meta-analysis showed that the RR of the clinical efficacy of PV combined with levothyroxine sodium tablets was 1.22 (95% CI [1.11, 1.33]). The MD of thyroid nodule diameter was -0.43 (95% CI [-0.63, -0.22]). The MD of free triiodothyronine and free tetraiodothyronine levels was -1.99 (95% CI [-3.14, -0.86]) and -3.20 (95% CI [-5.50, -0.89]), respectively. The RR of the adverse reaction rate was 0.67 (95% CI [0.36, 1.22]), and the RR of the clinical efficacy of PV preparation combined with thyroxin tablets was 1.29 (95% CI [1.03, 1.62]).\nCONCLUSIONS: PV combined with levothyroxine sodium tablets or thyroxin tablets has more benefits for thyroid nodules, further improving the clinical efficiency, reducing the diameter of nodules and reducing the occurrence of adverse reactions. However, the quality of these studies is uncertain, and higher quality and more RCTs are needed to provide comprehensive evidence-based medical evidence in the future.",
+   "journal": "Medicine",
+   "year": "2021",
+   "doi": "10.1097/MD.0000000000027490",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34731129/"
+  },
+  {
+   "pmid": "28571548",
+   "title": "Intermittent Transient Motor Aphasia Associated with Acute Lithium Toxicity: A Case Report and Brief Review.",
+   "abstract": "BACKGROUND: Lithium is known to cause certain neurological deficits. However, reports of aphasia secondary to lithium toxicity are scant. We report the case of a 70 year old African American woman with a history of schizoaffective disorder and mild dementia who developed transient intermittent aphasia secondary to lithium toxicity.\nMETHODS: Patient was admitted because of agitation, delusional behavior, and pressured speech. Her previous medications included divalproex sodium 500 mg po bid, valproic acid 250 mg po qd, risperidone 3.5 mg po bid, lorazepam 1 mg po bid, amlodipine besylate 5 mg po qd, levothyroxine sodium 25 mcg po qd, gabapentin 300 mg po qd, amantadine HCl 100 mg po bid, and aspirin 81 mg po qd. Since patient's symptoms have not improved, she was started on lithium 300mg po bid and titrated up to 300 mg po bid and 450 mg po qhs over 7-8 days. Her lithium levels ranged from 0.4 mEq/L on 11/11/16 to 1.5 mEq/L on 11/22/16. Patient was observed to have aphasia symptoms intermittently at lithium level of 1.5 mEq/L. CT scan of head and neurology consultations were unremarkable. The Naranjo Adverse Drug Reaction Probability Scale score was 8 in the probable range for an adverse drug reaction. Patient's sodium was also found to be high at 148 mmol/L.\nRESULTS: Lithium was discontinued and patient rehydrated with intravenous fluids. Patients aphasia resolved completely in 2-3 days.\nCONCLUSION: Clinicians should be aware of this rarely reported side effect of lithium particularly in patients at risk for volume depletion and closely monitor fluid intake, lithium level, and potential side effects.",
+   "journal": "Current drug safety",
+   "year": "2017",
+   "doi": "10.2174/1574886312666170601092949",
+   "publication_types": [
+    "Case Reports",
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28571548/"
+  }
+ ]
+}

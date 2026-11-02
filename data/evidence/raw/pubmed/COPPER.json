@@ -1,0 +1,62 @@
+{
+ "drug": "COPPER",
+ "status": "ok",
+ "query": "\"copper\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:34+00:00",
+ "records": [
+  {
+   "pmid": "39567405",
+   "title": "Heavy metals: toxicity and human health effects.",
+   "abstract": "Heavy metals are naturally occurring components of the Earth's crust and persistent environmental pollutants. Human exposure to heavy metals occurs via various pathways, including inhalation of air/dust particles, ingesting contaminated water or soil, or through the food chain. Their bioaccumulation may lead to diverse toxic effects affecting different body tissues and organ systems. The toxicity of heavy metals depends on the properties of the given metal, dose, route, duration of exposure (acute or chronic), and  extent of bioaccumulation. The detrimental impacts of heavy metals on human health are largely linked to their capacity to interfere with antioxidant defense mechanisms, primarily through their interaction with intracellular glutathione (GSH) or sulfhydryl groups (R-SH) of antioxidant enzymes such as superoxide dismutase (SOD), catalase, glutathione peroxidase (GPx), glutathione reductase (GR), and other enzyme systems. Although arsenic (As) is believed to bind directly to critical thiols, alternative hydrogen peroxide production processes have also been postulated. Heavy metals are known to interfere with signaling pathways and affect a variety of cellular processes, including cell growth, proliferation, survival, metabolism, and apoptosis. For example, cadmium can affect the BLC-2 family of proteins involved in mitochondrial death via the overexpression of antiapoptotic Bcl-2 and the suppression of proapoptotic (BAX, BAK) mechanisms, thus increasing the resistance of various cells to undergo malignant transformation. Nuclear factor erythroid 2-related factor 2 (Nrf2) is an important regulator of antioxidant enzymes, the level of oxidative stress, and cellular resistance to oxidants and has been shown to act as a double-edged sword in response to arsenic-induced oxidative stress. Another mechanism of significant health threats and heavy metal (e.g., Pb) toxicity involves the substitution of essential metals (e.g., calcium (Ca), copper (Cu), and iron (Fe)) with structurally similar heavy metals (e.g., cadmium (Cd) and lead (Pb)) in the metal-binding sites of proteins. Displaced essential redox metals (copper, iron, manganese) from their natural metal-binding sites can catalyze the decomposition of hydrogen peroxide via the Fenton reaction and generate damaging ROS such as hydroxyl radicals, causing damage to lipids, proteins, and DNA. Conversely, some heavy metals, such as cadmium, can suppress the synthesis of nitric oxide radical (NO·), manifested by altered vasorelaxation and, consequently, blood pressure regulation. Pb-induced oxidative stress has been shown to be indirectly responsible for the depletion of nitric oxide due to its interaction with superoxide radical (O2·-), resulting in the formation of a potent biological oxidant, peroxynitrite (ONOO-). This review comprehensively discusses the mechanisms of heavy metal toxicity and their health effects. Aluminum (Al), cadmium (Cd), arsenic (As), mercury (Hg), lead (Pb), and chromium (Cr) and their roles in the development of gastrointestinal, pulmonary, kidney, reproductive, neurodegenerative (Alzheimer's and Parkinson's diseases), cardiovascular, and cancer (e.g. renal, lung, skin, stomach) diseases are discussed. A short account is devoted to the detoxification of heavy metals by chelation via the use of ethylenediaminetetraacetic acid (EDTA), dimercaprol (BAL), 2,3-dimercaptosuccinic acid (DMSA), 2,3-dimercapto-1-propane sulfonic acid (DMPS), and penicillamine chelators.",
+   "journal": "Archives of toxicology",
+   "year": "2025",
+   "doi": "10.1007/s00204-024-03903-2",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39567405/"
+  },
+  {
+   "pmid": "36201766",
+   "title": "Long-Acting Reversible Contraception.",
+   "abstract": "Long-acting reversible contraceptive (LARC) methods are effective options for pregnancy prevention. Currently available products in the United States include an etonogestrel implant, a copper intrauterine device (IUD), and several levonorgestrel IUDs. With increasing prevalence and duration of use, our understanding of efficacy, risks, and benefits has evolved. In addition to a brief discussion on nomenclature and LARC use within a framework of bodily autonomy and reproductive justice, this review covers clinical challenges with placement and removal, evidence-based duration of use, and how to mitigate side effects. Although all obstetrician-gynecologists as well as primary care clinicians can safely provide LARCs, complex family planning specialists are an expert referral source for challenging cases and evidence-based care as contraceptive technology continues to develop.",
+   "journal": "Obstetrics and gynecology",
+   "year": "2022",
+   "doi": "10.1097/AOG.0000000000004967",
+   "publication_types": [
+    "Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36201766/"
+  },
+  {
+   "pmid": "30190489",
+   "title": "Wilson disease.",
+   "abstract": "Wilson disease (WD) is a potentially treatable, inherited disorder of copper metabolism that is characterized by the pathological accumulation of copper. WD is caused by mutations in ATP7B, which encodes a transmembrane copper-transporting ATPase, leading to impaired copper homeostasis and copper overload in the liver, brain and other organs. The clinical course of WD can vary in the type and severity of symptoms, but progressive liver disease is a common feature. Patients can also present with neurological disorders and psychiatric symptoms. WD is diagnosed using diagnostic algorithms that incorporate clinical symptoms and signs, measures of copper metabolism and DNA analysis of ATP7B. Available treatments include chelation therapy and zinc salts, which reverse copper overload by different mechanisms. Additionally, liver transplantation is indicated in selected cases. New agents, such as tetrathiomolybdate salts, are currently being investigated in clinical trials, and genetic therapies are being tested in animal models. With early diagnosis and treatment, the prognosis is good; however, an important issue is diagnosing patients before the onset of serious symptoms. Advances in screening for WD may therefore bring earlier diagnosis and improvements for patients with WD.",
+   "journal": "Nature reviews. Disease primers",
+   "year": "2018",
+   "doi": "10.1038/s41572-018-0018-3",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30190489/"
+  },
+  {
+   "pmid": "38999082",
+   "title": "Zinc Toxicity: Understanding the Limits.",
+   "abstract": "Zinc, a vital trace element, holds significant importance in numerous physiological processes within the body. It participates in over 300 enzymatic reactions, metabolic functions, regulation of gene expression, apoptosis and immune modulation, thereby demonstrating its essential role in maintaining overall health and well-being. While zinc deficiency is associated with significant health risks, an excess of this trace element can also lead to harmful effects. According to the World Health Organization (WHO), 6.7 to 15 mg per day are referred to be the dietary reference value. An excess of the recommended daily intake may result in symptoms such as anemia, neutropenia and zinc-induced copper deficiency. The European Food Safety Authority (EFSA) defines the tolerable upper intake level (UL) as 25 mg per day, whereas the Food and Drug Administration (FDA) allows 40 mg per day. This review will summarize the current knowledge regarding the calculation of UL and other health risks associated with zinc. For example, zinc intake is not limited to oral consumption; other routes, such as inhalation or topical application, may also pose risks of zinc intoxication.",
+   "journal": "Molecules (Basel, Switzerland)",
+   "year": "2024",
+   "doi": "10.3390/molecules29133130",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38999082/"
+  }
+ ]
+}

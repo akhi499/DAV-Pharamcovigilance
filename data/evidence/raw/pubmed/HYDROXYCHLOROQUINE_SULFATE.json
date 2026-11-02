@@ -1,0 +1,63 @@
+{
+ "drug": "HYDROXYCHLOROQUINE SULFATE",
+ "status": "ok",
+ "query": "\"hydroxychloroquine sulfate\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:19:48+00:00",
+ "records": [
+  {
+   "pmid": "32520683",
+   "title": "Review on the Clinical Pharmacology of Hydroxychloroquine Sulfate for the Treatment of COVID-19.",
+   "abstract": "BACKGROUND: As the number of severe acute respiratory syndrome coronavirus 2 (SARS-COV-2) infected people is greatly increasing worldwide, the international medical situation becomes very serious. Potential therapeutic drugs, vaccine and stem cell replacement methods are emerging, so it is urgent to find specific therapeutic drugs and the best treatment regimens. After the publications on hydroxychloroquine (HCQ) with anti- SARS-COV-2 activity in vitro, a small, non-randomized, open-label clinical trial showed that HCQ treatment was significantly associated with reduced viral load in patients with coronavirus disease-19 (COVID-19). Meanwhile, a large prophylaxis study of HCQ sulfate for COVID-19 has been initiated in the United States. HCQ offered a promising efficacy in the treatment of COVID-19, but the optimal administration is still being explored.\nMETHODS: We used the keyword \"hydroxychloroquine\" to conduct a literature search in PubMed to collect relevant literature on the mechanism of action of HCQ, its clinical efficacy and safety, pharmacokinetic characteristics, precautions for clinical use and drug interactions to extract and organize information.\nRESULTS: This paper reviews the mechanism, clinical efficacy and safety, pharmacokinetic characteristics, exposureresponse relationship and precautions and drug interactions of HCQ, and summarizes dosage recommendations for HCQ sulfate.\nCONCLUSION: It has been proved that HCQ, which has an established safety profile, is effective against SARS-CoV-2 with sufficient pre-clinical rationale and evidence. Data from high-quality clinical trials are urgently needed worldwide.",
+   "journal": "Current drug metabolism",
+   "year": "2020",
+   "doi": "10.2174/1389200221666200610172929",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32520683/"
+  },
+  {
+   "pmid": "42225327",
+   "title": "Hydroxychloroquine-Associated Skin Lesions: Clinical Features and Mechanisms.",
+   "abstract": "Hydroxychloroquine (HCQ) is pivotal in rheumatology and dermatology for its potent antimalarial and immunomodulatory properties. Though generally safe, HCQ causes cutaneous adverse reactions ranging from mild pigmentation to life-threatening severe cutaneous adverse reactions. This review synthesizes data from studies indexed in PubMed, Web of Science, Embase, and the Cochrane Library through December 2025. Search keywords included \"hydroxychloroquine,\" \"adverse reactions,\" \"skin lesions\" (eg, pigmentation, maculopapular rash, psoriasiform eruption), and \"mechanisms.\" We included original studies, reviews, and case reports, excluding duplicates and studies focused solely on noncutaneous reactions. Two reviewers independently screened the literature, and any discrepancies were resolved via discussion. Study quality was assessed based on methodological rigor and data completeness, with priority given to high-impact literature published within the last decade. Common adverse reactions include pigmentation, maculopapular rash, and pruritus; rare but severe reactions include acute generalized exanthematous pustulosis, drug reaction with eosinophilia and systemic symptoms, Stevens-Johnson syndrome, and toxic epidermal necrolysis. Underlying mechanisms may involve alteration of pigment metabolism, lysosomal ion trapping, and T-cell-mediated hypersensitivity. Management depends on early recognition, dose adjustment, or drug discontinuation. For select mild cases, desensitization may be appropriate. Ongoing monitoring of pharmacovigilance databases is crucial for proactive surveillance and early detection.",
+   "journal": "The Journal of rheumatology",
+   "year": "2026",
+   "doi": "10.3899/jrheum.2025-1087",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42225327/"
+  },
+  {
+   "pmid": "33152333",
+   "title": "Hydroxychloroquine for the treatment and prophylaxis of COVID-19: The journey so far and the road ahead.",
+   "abstract": "As mortality and morbidity from novel coronavirus disease (COVID-19) continue to mount worldwide, the scientific community as well as public health systems are under immense pressure to contain the pandemic as well as to develop effective medical countermeasures. Meanwhile, desperation has driven prescribers, researchers as well as administrators to recommend and try therapies supported by little or no reliable evidence. Recently, hydroxychloroquine-sulfate (HCQS) has got significant media and political attention for the treatment as well as prophylaxis of COVID-19 despite the lack of convincing and unequivocal data supporting its efficacy and safety in these patients. This has unfortunately, yet foreseeably led to several controversies and confusion among the medical fraternity, the patient community as well as the general public. Based on the available studies, many with high risk of bias, relatively small sample sizes, and abbreviated follow-ups, HCQS is unlikely to be of dramatic benefit in COVID-19 patients and yet has the potential to cause harm, particularly when used in combination with azithromycin or other medications in high risk individuals with comorbidities. Although definitive data from larger well-controlled randomized trials will be forthcoming in the future, and we may be able to identify specific patient subpopulations likely to benefit from hydroxychloroquine, till that time it will be prudent to prescribe it within investigational trial settings with close safety monitoring. Here we review the current evidence and developments related to the use of HCQS in COVID-19 patients and highlight the importance of risk-benefit assessment and rational use of HCQS during this devastating pandemic.",
+   "journal": "European journal of pharmacology",
+   "year": "2021",
+   "doi": "10.1016/j.ejphar.2020.173717",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33152333/"
+  },
+  {
+   "pmid": "33942541",
+   "title": "Pleomorphicskin eruptions in a COVID-19 affected patient: Case report and review of the literature.",
+   "abstract": "The coronavirus disease (COVID-19), during its course, may involve several organs, including the skin with a petechial skin rash, urticaria and erythematous rash, or varicella-like eruption, representing an additional effect of the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection, as commonly observed in other viral diseases. Considering that symptomatic patients with COVID-19 generally undergo multidrug treatments, the occurrence of a possible adverse drug reaction presenting with cutaneous manifestations should be contemplated. Pleomorphic skin eruptions occurred in a 59-year-old Caucasian woman, affected by a stable form of chronic lymphocytic leukemia, and symptomatic SARS-CoV-2 infection, treated with a combination of hydroxychloroquine sulfate, darunavir, ritonavir, sarilumb, omeprazole, ceftriaxone, high-flow oxygen therapy devices, filgrastim (Zarzio®) as a single injection, and enoxaparin. The patient stopped all treatment but oxygen and enoxaparin were continued and the patient received a high-dose Desametasone with complete remission of dermatological impairment in 10 days. It is very important to differentially diagnose COVID-19 disease-related cutaneous manifestations, where is justified to continue the multidrug antiviral treatment, from those caused by an adverse drug reaction, where it would be necessary to identify the possible culprit drug and to start appropriate antiallergic treatment.",
+   "journal": "Immunity, inflammation and disease",
+   "year": "2021",
+   "doi": "10.1002/iid3.382",
+   "publication_types": [
+    "Case Reports",
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33942541/"
+  }
+ ]
+}

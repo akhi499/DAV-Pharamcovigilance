@@ -1,0 +1,62 @@
+{
+ "drug": "DICLOFENAC",
+ "status": "ok",
+ "query": "\"diclofenac\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:46+00:00",
+ "records": [
+  {
+   "pmid": "32012240",
+   "title": "Current therapies for actinic keratosis.",
+   "abstract": "Actinic keratosis (AK) is a very common skin disease caused by chronic sun damage, which in 75% of cases arises on chronically sun-exposed areas, such as face, scalp, neck, hands, and forearms. AKs must be considered an early squamous cell carcinoma (SCC) for their probable progression into invasive SCC. For this reason, all AK should be treated, and clinical follow-up is recommended. The aims of treatment are: (i) to clinically eradicate evident and subclinical lesions, (ii) to prevent their evolution into SCC, and (iii) to reduce the number of relapses. Among available treatments, it is possible to distinguish lesion-directed therapies and field-directed therapies. Lesion-directed treatments include: (i) cryotherapy; (ii) laser therapy; (iii) surgery; and (iv) curettage. Whereas, field-directed treatments are: (i) 5-fluorouracil (5-FU); (ii) diclofenac 3% gel; (iii) chemical peeling; (iv) imiquimod; and (v) photodynamic therapy (PDT). Prevention plays an important role in the treatment of AKs, and it is based on the continuous use of sunscreen and protective clothing. This review shows different types of available treatments and describes the characteristics and benefits of each medication, underlining the best choice.",
+   "journal": "International journal of dermatology",
+   "year": "2020",
+   "doi": "10.1111/ijd.14767",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32012240/"
+  },
+  {
+   "pmid": "34642179",
+   "title": "Effectiveness and safety of non-steroidal anti-inflammatory drugs and opioid treatment for knee and hip osteoarthritis: network meta-analysis.",
+   "abstract": "OBJECTIVE: To assess the effectiveness and safety of different preparations and doses of non-steroidal anti-inflammatory drugs (NSAIDs), opioids, and paracetamol for knee and hip osteoarthritis pain and physical function to enable effective and safe use of these drugs at their lowest possible dose.\nDESIGN: Systematic review and network meta-analysis of randomised trials.\nDATA SOURCES: Cochrane Central Register of Controlled Trials (CENTRAL), Medline, Embase, regulatory agency websites, and ClinicalTrials.gov from inception to 28 June 2021.\nELIGIBILITY CRITERIA FOR SELECTING STUDIES: Randomised trials published in English with ≥100 patients per group that evaluated NSAIDs, opioids, or paracetamol (acetaminophen) to treat osteoarthritis.\nOUTCOMES AND MEASURES: The prespecified primary outcome was pain. Physical function and safety outcomes were also assessed.\nREVIEW METHODS: Two reviewers independently extracted outcomes data and evaluated the risk of bias of included trials. Bayesian random effects models were used for network meta-analysis of all analyses. Effect estimates are comparisons between active treatments and oral placebo.\nRESULTS: 192 trials comprising 102 829 participants examined 90 different active preparations or doses (68 for NSAIDs, 19 for opioids, and three for paracetamol). Five oral preparations (diclofenac 150 mg/day, etoricoxib 60 and 90 mg/day, and rofecoxib 25 and 50 mg/day) had ≥99% probability of more pronounced treatment effects than the minimal clinically relevant reduction in pain. Topical diclofenac (70-81 and 140-160 mg/day) had ≥92.3% probability, and all opioids had ≤53% probability of more pronounced treatment effects than the minimal clinically relevant reduction in pain. 18.5%, 0%, and 83.3% of the oral NSAIDs, topical NSAIDs, and opioids, respectively, had an increased risk of dropouts due to adverse events. 29.8%, 0%, and 89.5% of oral NSAIDs, topical NSAIDs, and opioids, respectively, had an increased risk of any adverse event. Oxymorphone 80 mg/day had the highest risk of dropouts due to adverse events (51%) and any adverse event (88%).\nCONCLUSIONS: Etoricoxib 60 mg/day and diclofenac 150 mg/day seem to be the most effective oral NSAIDs for pain and function in patients with osteoarthritis. However, these treatments are probably not appropriate for patients with comorbidities or for long term use because of the slight increase in the risk of adverse events. Additionally, an increased risk of dropping out due to adverse events was found for diclofenac 150 mg/day. Topical diclofenac 70-81 mg/day seems to be effective and generally safer because of reduced systemic exposure and lower dose, and should be considered as first line pharmacological treatment for knee osteoarthritis. The clinical benefit of opioid treatment, regardless of preparation or dose, does not outweigh the harm it might cause in patients with osteoarthritis.\nSYSTEMATIC REVIEW REGISTRATION: PROSPERO number CRD42020213656.",
+   "journal": "BMJ (Clinical research ed.)",
+   "year": "2021",
+   "doi": "10.1136/bmj.n2321",
+   "publication_types": [
+    "Journal Article",
+    "Network Meta-Analysis",
+    "Research Support, Non-U.S. Gov't",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34642179/"
+  },
+  {
+   "pmid": "31863440",
+   "title": "ERCP-related adverse events: European Society of Gastrointestinal Endoscopy (ESGE) Guideline.",
+   "abstract": "PROPHYLAXIS: 1:  ESGE recommends routine rectal administration of 100 mg of diclofenac or indomethacin immediately before endoscopic retrograde cholangiopancreatography (ERCP) in all patients without contraindications to nonsteroidal anti-inflammatory drug administration.Strong recommendation, moderate quality evidence. 2:  ESGE recommends prophylactic pancreatic stenting in selected patients at high risk for post-ERCP pancreatitis (inadvertent guidewire insertion/opacification of the pancreatic duct, double-guidewire cannulation).Strong recommendation, moderate quality evidence. 3:  ESGE suggests against routine endoscopic biliary sphincterotomy before the insertion of a single plastic stent or an uncovered/partially covered self-expandable metal stent for relief of biliary obstruction.Weak recommendation, moderate quality evidence. 4:  ESGE recommends against the routine use of antibiotic prophylaxis before ERCP.Strong recommendation, moderate quality evidence. 5:  ESGE suggests antibiotic prophylaxis before ERCP in the case of anticipated incomplete biliary drainage, for severely immunocompromised patients, and when performing cholangioscopy.Weak recommendation, moderate quality evidence. 6:  ESGE suggests tests of coagulation are not routinely required prior to ERCP for patients who are not on anticoagulants and not jaundiced.Weak recommendation, low quality evidence.\nTREATMENT: 7:  ESGE suggests against salvage pancreatic stenting in patients with post-ERCP pancreatitis.Weak recommendation, low quality evidence. 8:  ESGE suggests temporary placement of a biliary fully covered self-expandable metal stent for post-sphincterotomy bleeding refractory to standard hemostatic modalities.Weak recommendation, low quality evidence. 9:  ESGE suggests to evaluate patients with post-ERCP cholangitis by abdominal ultrasonography or computed tomography (CT) scan and, in the absence of improvement with conservative therapy, to consider repeat ERCP. A bile sample should be collected for microbiological examination during repeat ERCP.Weak recommendation, low quality evidence.",
+   "journal": "Endoscopy",
+   "year": "2020",
+   "doi": "10.1055/a-1075-4080",
+   "publication_types": [
+    "Journal Article",
+    "Practice Guideline"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31863440/"
+  },
+  {
+   "pmid": "29766368",
+   "title": "Systemic Contact Dermatitis.",
+   "abstract": "Systemic contact dermatitis (SCD) traditionally refers to a skin condition where an individual who is cutaneously sensitized to an allergen will subsequently react to that same allergen or a cross reacting allergen via a different route. It occurs to allergens including metals, medications, and foods. The exact pathophysiology underlying this disease remains unknown, although it appears to be mediated by type 4 hypersensitivity reactions and possibly type 3 hypersensitivity reactions. The p-I concept (pharmacologic interaction with immunoreceptors) hypothesized that drugs are able to bind directly to a T cell receptor without first being presented by MHC (major histocompatibility complex) molecules and without prior metabolism, which would help explain why SCD can be seen on first exposure to medications. Nomenclature remains a challenge as SCD can be subcategorized using terms such as ACDS (allergic contact dermatitis syndrome) and its four clinical stages, Baboon syndrome, and SDRIFE (symmetrical drug-related intertriginous and flexural exanthema), which share many overlapping features. Food allergens may be responsible for uncontrolled or persistent symptoms in patients with contact dermatitis who do not respond to topical avoidance. With medications, symptoms may be induced by topical application versus systemic administration. Patch testing (PT) may be beneficial in diagnosing SCD caused by metals and many topical medications including corticosteroids, antimicrobials (ampicillin, bacitracin, erythromycin, neomycin, nystatin), NSAIDs (diclofenac, ibuprofen), anesthetics, and antihistamines (chlorphenamine, piperazine). Current treatment options include topical steroids and oral antihistamines for symptom relief and dietary avoidance to causative foods or metals.",
+   "journal": "Clinical reviews in allergy & immunology",
+   "year": "2019",
+   "doi": "10.1007/s12016-018-8686-z",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29766368/"
+  }
+ ]
+}

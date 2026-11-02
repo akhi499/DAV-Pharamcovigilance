@@ -1,0 +1,63 @@
+{
+ "drug": "PEGFILGRASTIM",
+ "status": "ok",
+ "query": "\"pegfilgrastim\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:20:30+00:00",
+ "records": [
+  {
+   "pmid": "30887256",
+   "title": "LA-EP2006: A Pegfilgrastim Biosimilar.",
+   "abstract": "LA-EP2006 (Ziextenzo®) is the fifth biosimilar of pegfilgrastim, a pegylated recombinant granulocyte colony-stimulating factor, to be approved in the EU. It is approved for use in adults treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes) to reduce the duration of neutropenia and the incidence of febrile neutropenia. LA-EP2006 matched reference pegfilgrastim in terms of physicochemical characteristics and functional properties, and the pharmacodynamic and pharmacokinetic similarity of the medicines has been shown in healthy volunteers. LA-EP2006 demonstrated clinical efficacy equivalent to that of EU-sourced reference pegfilgrastim in adult women with breast cancer receiving chemotherapy. The tolerability and safety profile of and the incidence of anti-drug antibodies with LA-EP2006 were similar to those of EU-sourced reference pegfilgrastim in this patient population. The role of reference pegfilgrastim in the management of chemotherapy-induced neutropenia is well established and LA-EP2006 provides an effective biosimilar alternative for patients requiring pegfilgrastim therapy.",
+   "journal": "BioDrugs : clinical immunotherapeutics, biopharmaceuticals and gene therapy",
+   "year": "2019",
+   "doi": "10.1007/s40259-019-00348-3",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30887256/"
+  },
+  {
+   "pmid": "28898593",
+   "title": "Biosimilars: Implications for Clinical Practice.",
+   "abstract": "In 2015, the United States Food and Drug Administration (FDA) approved the first biosimilar, filgrastim-sndz, a biosimilar of the granulocyte colony-stimulating factor filgrastim. Since that time, the FDA has approved four additional biosimilar tumor necrosis factor α inhibitors, and, in May 2017, the Oncology Drug Advisory Committee voted in favor of approval of an epoetin alfa biosimilar. The patents of several widely used biologic cancer therapies (including trastuzumab, rituximab, bevacizumab, cetuximab, and pegfilgrastim) are recently expired or due to expire in the near future, so the introduction of biosimilars into the oncology treatment armamentarium is imminent. However, their arrival also will introduce challenges, including pharmacy and supply chain management and the need for education of clinicians and patients about the efficacy and safety of these agents. These considerations, along with an overview of biosimilars in the oncology pipeline, will be discussed in this review.",
+   "journal": "Journal of oncology practice",
+   "year": "2017",
+   "doi": "10.1200/JOP.2017.025734",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28898593/"
+  },
+  {
+   "pmid": "36976784",
+   "title": "Two decades of pegfilgrastim: what have we learned? Where do we go from here?",
+   "abstract": "Chemotherapy-induced febrile neutropenia (FN) is a medical emergency that may occur in patients with malignancies receiving myelosuppressive chemotherapy. FN requires early therapeutic intervention since it is associated with increased hospitalizations and high mortality risk of 5%-20%. FN-related hospitalizations are higher in patients with myeloid malignancies than in those with solid tumors due to the myelotoxicity of chemotherapy regimens and the compromised bone marrow function. FN increases the burden of cancer by causing chemotherapy dose reductions and delays. The administration of the first granulocyte colony-stimulating factor (G-CSF) filgrastim reduced the incidence and duration of FN in patients undergoing chemotherapy. Filgrastim later evolved into pegfilgrastim, which has a longer half-life than filgrastim and is associated with a lower rate of severe neutropenia, chemotherapy dose reduction, and treatment delay. Nine million patients have received pegfilgrastim since its approval in early 2002. The pegfilgrastim on-body injector (OBI) is an innovative device facilitating the time-released auto-injection of pegfilgrastim approximately 27 h after chemotherapy, as clinically recommended for the prevention of FN, thus eliminating the need for a next-day hospital visit. Since its introduction in 2015, one million patients with cancer have received pegfilgrastim using the OBI. Subsequently, the device was approved in the United States (US), European Union, Latin America, and Japan, with studies and a postmarketing commitment demonstrating device reliability. A recent prospective observational study conducted in the US demonstrated that the OBI substantially improved the adherence to and compliance with clinically recommended pegfilgrastim therapy; patients receiving pegfilgrastim via the OBI experienced a lower incidence of FN than those receiving alternatives for FN prophylaxis. This review discusses the evolution of G-CSFs leading to the development of the OBI, current recommendations for G-CSF prophylaxis in the clinic, continued evidence supporting next-day pegfilgrastim administration, and improvements in patient care made possible with the OBI.",
+   "journal": "Current medical research and opinion",
+   "year": "2023",
+   "doi": "10.1080/03007995.2023.2196197",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36976784/"
+  },
+  {
+   "pmid": "36195576",
+   "title": "Oncology biosimilars: New developments and future directions.",
+   "abstract": "Biologicals have become an integral part of cancer treatment both as therapeutic agents and as supportive care agents. It is important to know that biologics are large, complex molecular entities requiring extensive immunogenicity testing and pharmacovigilance strategies to ensure no immune response is evoked in the body. Oncology's pharmacological market is dominated by biologics; however, their high development and manufacturing costs are burdensome to health care systems. Biologics being the most expensive prescription drugs on the market limit the accessibility for necessary treatment in the case of many patients. As biologics patents expire, the development of biosimilars is underway in an effort to lower costs and enable patients to access new cancer therapies. Regulatory guidelines for biosimilars have now been established and are constantly being revised to address any issues, facilitating their robust development. Moreover, many scientific societies offer guidance to help stakeholders better understand current regulations and biosimilar's safety. Despite the potential cost benefits, lack of knowledge about biosimilars, and the possibility of immunogenicity have created an uncertain environment for healthcare professionals and patients. In this review, we provide an overview of relevant legislation and regulations, pharmacoeconomics, and stakeholder perceptions regarding biosimilars. The article also describes biosimilars in development, as well as the ones currently available on the market.",
+   "journal": "Cancer reports (Hoboken, N.J.)",
+   "year": "2022",
+   "doi": "10.1002/cnr2.1720",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, U.S. Gov't, Non-P.H.S.",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36195576/"
+  }
+ ]
+}

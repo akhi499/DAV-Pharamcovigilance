@@ -1,0 +1,60 @@
+{
+ "drug": "CYCLOPHOSPHAMIDE",
+ "status": "ok",
+ "query": "\"cyclophosphamide\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T04:59:26+00:00",
+ "records": [
+  {
+   "pmid": "37659779",
+   "title": "Childhood nephrotic syndrome.",
+   "abstract": "Idiopathic nephrotic syndrome is the most common glomerular disease in children. Corticosteroids are the cornerstone of its treatment, and steroid response is the main prognostic factor. Most children respond to a cycle of oral steroids, and are defined as having steroid-sensitive nephrotic syndrome. Among the children who do not respond, defined as having steroid-resistant nephrotic syndrome, most respond to second-line immunosuppression, mainly with calcineurin inhibitors, and children in whom a response is not observed are described as multidrug resistant. The pathophysiology of nephrotic syndrome remains elusive. In cases of immune-mediated origin, dysregulation of immune cells and production of circulating factors that damage the glomerular filtration barrier have been described. Conversely, up to a third of cases of steroid-resistant nephrotic syndrome have a monogenic origin. Multidrug resistant nephrotic syndrome often leads to kidney failure and can cause relapse after kidney transplant. Although steroid-sensitive nephrotic syndrome does not affect renal function, most children with steroid-sensitive nephrotic syndrome have a relapsing course that requires repeated steroid cycles with significant side-effects. To minimise morbidity, some patients require steroid-sparing immunosuppressive agents, including levamisole, mycophenolate mofetil, calcineurin inhibitors, anti-CD20 monoclonal antibodies, and cyclophosphamide. Close monitoring and preventive measures are warranted at onset and during relapse to prevent acute complications (eg, hypovolaemia, acute kidney injury, infections, and thrombosis), whereas long-term management requires minimising treatment-related side-effects. A subset of patients have active disease into adulthood.",
+   "journal": "Lancet (London, England)",
+   "year": "2023",
+   "doi": "10.1016/S0140-6736(23)01051-6",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37659779/"
+  },
+  {
+   "pmid": "35190107",
+   "title": "Conventional Chemotherapy Nephrotoxicity.",
+   "abstract": "Conventional chemotherapies remain the mainstay of treatment for many malignancies. Kidney complications of these therapies are not infrequent and may have serious implications for future kidney function, cancer treatment options, eligibility for clinical trials, and overall survival. Kidney adverse effects may include acute kidney injury (via tubular injury, tubulointerstitial nephritis, glomerular disease and thrombotic microangiopathy), long-term kidney function loss and CKD, and electrolyte disturbances. In this review, we summarize the kidney complications of conventional forms of chemotherapy and, where possible, provide estimates of incidence, and identify risk factors and strategies for kidney risk mitigation. In addition, we provide recommendations regarding kidney dose modifications, recognizing that these adjustments may be limited by available supporting pharmacokinetic and clinical outcomes data. We discuss management strategies for kidney adverse effects associated with these therapies with drug-specific recommendations. We focus on frequently used anticancer agents with established kidney complications, including platinum-based chemotherapies (cisplatin, carboplatin, oxaliplatin), cyclophosphamide, gemcitabine, ifosfamide, methotrexate and pemetrexed, among others.",
+   "journal": "Advances in chronic kidney disease",
+   "year": "2021",
+   "doi": "10.1053/j.ackd.2021.08.001",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35190107/"
+  },
+  {
+   "pmid": "28270698",
+   "title": "Gut microbiota modulation of chemotherapy efficacy and toxicity.",
+   "abstract": "Evidence is growing that the gut microbiota modulates the host response to chemotherapeutic drugs, with three main clinical outcomes: facilitation of drug efficacy; abrogation and compromise of anticancer effects; and mediation of toxicity. The implication is that gut microbiota are critical to the development of personalized cancer treatment strategies and, therefore, a greater insight into prokaryotic co-metabolism of chemotherapeutic drugs is now required. This thinking is based on evidence from human, animal and in vitro studies that gut bacteria are intimately linked to the pharmacological effects of chemotherapies (5-fluorouracil, cyclophosphamide, irinotecan, oxaliplatin, gemcitabine, methotrexate) and novel targeted immunotherapies such as anti-PD-L1 and anti-CLTA-4 therapies. The gut microbiota modulate these agents through key mechanisms, structured as the 'TIMER' mechanistic framework: Translocation, Immunomodulation, Metabolism, Enzymatic degradation, and Reduced diversity and ecological variation. The gut microbiota can now, therefore, be targeted to improve efficacy and reduce the toxicity of current chemotherapy agents. In this Review, we outline the implications of pharmacomicrobiomics in cancer therapeutics and define how the microbiota might be modified in clinical practice to improve efficacy and reduce the toxic burden of these compounds.",
+   "journal": "Nature reviews. Gastroenterology & hepatology",
+   "year": "2017",
+   "doi": "10.1038/nrgastro.2017.20",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28270698/"
+  },
+  {
+   "pmid": "27306639",
+   "title": "Systemic lupus erythematosus.",
+   "abstract": "Systemic lupus erythematosus (SLE) is an autoimmune disease that can affect many organs, including the skin, joints, the central nervous system and the kidneys. Women of childbearing age and certain racial groups are typically predisposed to developing the condition. Rare, inherited, single-gene complement deficiencies are strongly associated with SLE, but the disease is inherited in a polygenic manner in most patients. Genetic interactions with environmental factors, particularly UV light exposure, Epstein-Barr virus infection and hormonal factors, might initiate the disease, resulting in immune dysregulation at the level of cytokines, T cells, B cells and macrophages. Diagnosis is primarily clinical and remains challenging because of the heterogeneity of SLE. Classification criteria have aided clinical trials, but, despite this, only one drug (that is, belimumab) has been approved for use in SLE in the past 60 years. The 10-year mortality has improved and toxic adverse effects of older medications such as cyclophosphamide and glucocorticoids have been partially offset by newer drugs such as mycophenolate mofetil and glucocorticoid-sparing regimes. However, further improvements have been hampered by the adverse effects of renal and neuropsychiatric involvement and late diagnosis. Adding to this burden is the increased risk of premature cardiovascular disease in SLE together with the risk of infection made worse by immunosuppressive therapy. Challenges remain with treatment-resistant disease and symptoms such as fatigue. Newer therapies may bring hope of better outcomes, and the refinement to stem cell and genetic techniques might offer a cure in the future.",
+   "journal": "Nature reviews. Disease primers",
+   "year": "2016",
+   "doi": "10.1038/nrdp.2016.39",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27306639/"
+  }
+ ]
+}

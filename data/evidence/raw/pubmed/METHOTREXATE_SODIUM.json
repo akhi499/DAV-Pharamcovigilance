@@ -1,0 +1,22 @@
+{
+ "drug": "METHOTREXATE SODIUM",
+ "status": "ok",
+ "query": "\"methotrexate sodium\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:17:48+00:00",
+ "records": [
+  {
+   "pmid": "32822455",
+   "title": "Effectiveness and Safety of Systemic Therapy for Psoriasis in Older Adults: A Systematic Review.",
+   "abstract": "IMPORTANCE: Treating older adults with psoriasis can be challenging owing to comorbidities, concomitant medication use, and consequent safety risks. Although many studies focus on the effectiveness and safety of systemic antipsoriatic therapies in the general population, their effectiveness in older adults with psoriasis has not been systematically assessed.\nOBJECTIVE: To evaluate the effectiveness and safety of systemic antipsoriatic therapies in patients 65 years or older.\nEVIDENCE REVIEW: A systematic literature search was conducted in Embase, MEDLINE, and the Cochrane Central Register of Controlled Trials (CENTRAL) on November 11, 2019. No date limit was used. Randomized clinical trials, cohort studies, large case series, and meta-analyses assessing efficacy (or effectiveness) and/or safety of systemic antipsoriatic therapies in patients 65 years or older were included.\nFINDINGS: The initial search yielded 11 096 results, of which 31 unique articles with 39 561 patients were included in analysis. Overall, limited data were available per systemic agent, and overall quality of the included studies on conventional systemic therapies was low. At the end of the induction phase (12-16 weeks after start of treatment), a reduction of 75% in Psoriasis Area and Severity Index was achieved in 49% of 74 methotrexate sodium users 65 years or older, 46% to 52.6% of 178 older cyclosporin users, 27% to 47.8% of 108 older acitretin users, 15.6% to 64% of 256 etanercept users 65 years or older, 66.7% to 93% of 43 infliximab users 65 years or older, 60.7% to 65% of 100 adalimumab users 65 years or older, 56.5% of 46 ustekinumab users 65 years or older, and 86.4% of 67 secukinumab users 65 years or older. Effectiveness of acitretin, etanercept, adalimumab, and secukinumab appeared not to be associated with age; studies regarding other systemic antipsoriatic therapies did not provide age group comparisons. Older age was significantly associated with renal function deterioration in cyclosporin users and with lymphopenia in fumaric acid esters users (hazard ratio, 2.42; 95% CI, 1.65-3.55; P < .001). Infections were the most frequently reported adverse event in patients 65 years or older using biologics, but no significant association with age was found.\nCONCLUSIONS AND RELEVANCE: On the basis of limited available evidence, age alone should not be a limiting factor in psoriasis management. Awareness of comorbidities and concomitant medication use is very important, as well as appropriate dosing and frequent laboratory and clinical monitoring. More real-world evidence and (sub)analyses of prospective cohort studies on the effectiveness and safety of systemic therapies in older adults are critical to optimize personalized, effective, and safe antipsoriatic management in this growing patient group.",
+   "journal": "JAMA dermatology",
+   "year": "2020",
+   "doi": "10.1001/jamadermatol.2020.2311",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32822455/"
+  }
+ ]
+}

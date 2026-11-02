@@ -1,0 +1,35 @@
+{
+ "drug": "TOFACITINIB CITRATE",
+ "status": "ok",
+ "query": "\"tofacitinib citrate\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T04:59:20+00:00",
+ "records": [
+  {
+   "pmid": "26889081",
+   "title": "Profile of tofacitinib citrate and its potential in the treatment of moderate-to-severe chronic plaque psoriasis.",
+   "abstract": "The outlook for patients with psoriasis has improved significantly over the last 10 years with the introduction of targeted therapies. Cytokines exert their effects by activating intracellular signaling and transcription pathways, among which there are Janus kinases (JAKs) and signal transducers and activators of transcription (STAT) pathways. JAKs are intracellular second messengers that are crucial for transmitting extracellular cytokine signals to the cell. JAK inhibition interrupts intracellular signaling and can suppress immune cell activation and inflammation in T-cell-mediated disorders, such as psoriasis. Consequently, JAKs are the subject of intensive research activity, since they represent possible therapeutic targets. Tofacitinib is an orally available compound belonging to a novel category of nonbiologic drugs, the \"JAK inhibitors\", which target JAKs. Recently, oral and topical formulations of tofacitinib have been demonstrated to be safe and effective for the treatment of plaque psoriasis in randomized clinical trials. In particular, a 10 mg bid dose of tofacitinib was shown to be noninferior to etanercept 50 mg subcutaneously twice weekly. Questions remain unresolved regarding the safety risk beyond the 5 mg bid dose. This review, assessing the available scientific literature, focuses on the profile of tofacitinib, as investigational compound in the treatment of plaque psoriasis. An overview of the efficacy and safety data from randomized clinical trials is provided. In addition, the authors highlight future potential applications of tofacitinib in other skin diseases, in particular alopecia areata and vitiligo.",
+   "journal": "Drug design, development and therapy",
+   "year": "2016",
+   "doi": "10.2147/DDDT.S82599",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26889081/"
+  },
+  {
+   "pmid": "37101279",
+   "title": "Subacute cutaneous lupus erythematosus as a rare complication of disease-modifying therapy administration in multiple sclerosis: case report.",
+   "abstract": "BACKGROUND: Teriflunomide, the active metabolite of leflunomide, is a disease-modifying therapy drug used for the treatment of multiple sclerosis (MS), yet the complications associated with this drug remain not fully understood. Here we present the rare case of a 28-year-old female MS patient who developed subacute cutaneous lupus erythematosus (SCLE) following teriflunomide treatment. Though SCLE has been reported to be associated with leflunomide, the current report represents the first documented evidence demonstrating SCLE as a potential teriflunomide treatment-related complication. Additionally, a literature review on the leflunomide-induced SCLE was conducted to emphasize the association of SCLE with teriflunomide, specifically amongst the female demographic with a preexisting autoimmune diathesis.\nCASE PRESENTATION: A 28-year-old female first presented with MS symptoms in the left upper limb along with blurred vision in the left eye. Medical and family histories were unremarkable. The patient exhibited positive serum biomarkers including ANA, Ro/SSA, La/SSB, and Ro-52 antibodies. Relapsing-remitting MS was diagnosed according to the 2017 McDonald's diagnostic criteria, and remission was achieved upon intravenous administration of methylprednisolone followed by teriflunomide sequential therapy. Three months post-teriflunomide treatment, the patient developed multiple facial cutaneous lesions. SCLE was subsequently diagnosed and was attributed to treatment-related complication. Interventions include oral administration of hydroxychloroquine and tofacitinib citrate effectively resolved cutaneous lesions. Discontinuation of hydroxychloroquine and tofacitinib citrate treatment led to recurring SCLE symptoms under continuous teriflunomide treatment. Full remission of facial annular plaques was achieved after re-treatment with hydroxychloroquine and tofacitinib citrate. The patient's clinical condition remained stable in long-term outpatient follow-ups.\nCONCLUSIONS: As teriflunomide has become a standard disease-modifying therapy for MS, the current case report highlights the importance of monitoring treatment-related complications, specifically in relation to SCLE symptoms.",
+   "journal": "BMC neurology",
+   "year": "2023",
+   "doi": "10.1186/s12883-023-03146-1",
+   "publication_types": [
+    "Review",
+    "Case Reports",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37101279/"
+  }
+ ]
+}

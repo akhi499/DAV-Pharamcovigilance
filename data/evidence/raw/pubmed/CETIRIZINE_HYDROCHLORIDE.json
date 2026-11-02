@@ -1,0 +1,21 @@
+{
+ "drug": "CETIRIZINE HYDROCHLORIDE",
+ "status": "ok",
+ "query": "\"cetirizine hydrochloride\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:16:21+00:00",
+ "records": [
+  {
+   "pmid": "34862952",
+   "title": "The Role of Cetirizine in the Changing Landscape of IV Antihistamines: A Narrative Review.",
+   "abstract": "Since 1955, the only available H1 antihistamines for intravenous administration have been first-generation formulations and, of those, only intravenously administered (IV) diphenhydramine is still approved in the USA. Orally administered cetirizine hydrochloride, a second-generation H1 antihistamine, has been safely used over-the-counter for many years. In 2019, IV cetirizine was approved for the treatment of acute urticaria. In light of this approval, this narrative review discusses the changing landscape of IV antihistamines for the treatment of histamine-mediated conditions. Specifically, IV antihistamines will be discussed as a treatment option for acute urticaria and angioedema, as premedication to prevent infusion reactions related to anticancer agents and other biologics, and as an adjunct treatment for anaphylaxis and other allergic reactions. Before the development of IV cetirizine, randomized controlled trials of IV antihistamines for these indications were lacking. Three randomized controlled trials have been conducted with IV cetirizine versus IV diphenhydramine in the ambulatory care setting. A phase 3 trial of IV cetirizine 10 mg versus IV diphenhydramine 50 mg was conducted in 262 adults who presented to the urgent care/emergency department with acute urticaria requiring antihistamines. For the primary efficacy endpoint, defined as change from baseline in a 2-h patient-rated pruritus score, non-inferiority of IV cetirizine to IV diphenhydramine was demonstrated (score - 1.6 vs - 1.5, respectively; 95% CI - 0.1, 0.3). Compared with IV diphenhydramine, IV cetirizine demonstrated fewer adverse effects including less sedation, a significantly shorter length of stay in the treatment center, and fewer returns to the treatment center at 24 and 48 h. Similar findings were demonstrated in another phase 2 acute urticaria trial and in a phase 2 trial assessing IV cetirizine for pretreatment for infusion reactions in the oncology/immunology setting. IV cetirizine is associated with similar patient outcomes, fewer adverse effects, and increased treatment center efficiency than IV diphenhydramine.",
+   "journal": "Advances in therapy",
+   "year": "2022",
+   "doi": "10.1007/s12325-021-01999-x",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34862952/"
+  }
+ ]
+}

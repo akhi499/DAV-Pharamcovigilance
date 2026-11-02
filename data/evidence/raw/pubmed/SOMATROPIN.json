@@ -1,0 +1,62 @@
+{
+ "drug": "SOMATROPIN",
+ "status": "ok",
+ "query": "\"somatropin\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T04:59:09+00:00",
+ "records": [
+  {
+   "pmid": "34618894",
+   "title": "The Future of Somatostatin Receptor Ligands in Acromegaly.",
+   "abstract": "Currently, the first-generation somatostatin receptor ligands (fg-SRLs), octreotide LAR and lanreotide autogel, are the mainstays of acromegaly treatment and achieve biochemical control in approximately 40% of patients and tumor shrinkage in over 60% of patients. Pasireotide, a second-generation SRL, shows higher efficacy with respect to both biochemical control and tumor shrinkage but has a worse safety profile. In this review, we discuss the future perspectives of currently available SRLs, focusing on the use of biomarkers of response and precision medicine, new formulations of these SRLs and new drugs, which are under development. Precision medicine, which is based on biomarkers of response to treatment, will help guide the decision-making process by allowing physicians to choose the appropriate drug for each patient and improving response rates. New formulations of available SRLs, such as oral, subcutaneous depot, and nasal octreotide, may improve patients' adherence to treatment and quality of life since there will be more options available that better suit each patient. Finally, new drugs, such as paltusotine, somatropin, ONO-5788, and ONO-ST-468, may improve treatment adherence and present higher efficacy than currently available drugs.",
+   "journal": "The Journal of clinical endocrinology and metabolism",
+   "year": "2022",
+   "doi": "10.1210/clinem/dgab726",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34618894/"
+  },
+  {
+   "pmid": "37902937",
+   "title": "Long-Term Real-World Post-approval Safety Data of Multiple Biosimilars from One Marketing-Authorization Holder After More than 18 Years Since Their First Biosimilar Launch.",
+   "abstract": "BACKGROUND: Biosimilars are additional treatment options that are approved based on robust analytical and clinical comparisons with their reference biologic. At the time of initial approval, the full safety profile of a biosimilar is inferred from the reference biologic. Nonetheless, there are still lingering concerns related to the long-term safety of biosimilars. Therefore, we reviewed the post-approval pharmacovigilance data for eight marketed biosimilars from one Marketing Authorization Holder (MAH) to summarize their safety experience in a real-world setting for up to 18 years since their first biosimilar launch.\nMETHODS: Post-approval cumulative patient exposure and safety experience for eight Sandoz biosimilars [adalimumab (Hyrimoz®), epoetin alfa (Binocrit®), etanercept (Erelzi®), filgrastim (Zarzio®), infliximab (Zessly®), pegfilgrastim (Ziextenzo®), rituximab (Rixathon®), and somatropin (Omnitrope®)] was summarized based on the available pharmacovigilance data from Periodic Safety Update Reports (PSURs) and the corresponding health authority-authored PSUR assessment reports, where available, as of 31 January 2023. Exposure to all biosimilars was calculated in patient treatment days (PTD) except for rituximab, which was expressed in number of patient doses (PD).\nRESULTS: The combined post-approval cumulative exposure to seven out of the eight marketed Sandoz biosimilars was more than 1.3 billion PTD and for rituximab more than 1.8 million PD. Overall, a critical analysis of the cumulative safety data of all eight Sandoz biosimilar PSURs concluded that the overall benefit-risk profile of each remains favorable and is consistent with the respective reference biologics.\nCONCLUSIONS: This is one of the largest reviews of post-approval biosimilar pharmacovigilance data to date by one MAH. The real-world experience of all eight marketed Sandoz biosimilars for up to 18 years demonstrates that Sandoz biosimilars can be used as safely as their respective reference biologics. Therefore, patients and healthcare providers can be confident in the clinical benefit and safety of Sandoz biosimilars. It is reasonable to believe that similar conclusions about safety may be reached for other biosimilars developed and approved to the high standards as are already in place by major health authorities such as the European Medicines Agency (EMA) and the US Food and Drug Administration (FDA). The long-term safety of biosimilars demonstrated here provides strong support for the concept of biosimilarity.",
+   "journal": "Drug safety",
+   "year": "2023",
+   "doi": "10.1007/s40264-023-01371-8",
+   "publication_types": [
+    "Review",
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37902937/"
+  },
+  {
+   "pmid": "26108298",
+   "title": "Evaluating AE Reporting of Two Off-Patent Biologics to Inform Future Biosimilar Naming and Reporting Practices.",
+   "abstract": "Historical studies of voluntary, spontaneous drug reports show poor attribution of adverse events to generic versions of commonly prescribed medications. As biosimilars enter the market place, it may be similarly difficult to accurately attribute adverse events to their respective reference products. At this time, lack of global consensus with regard to biosimilar naming conventions may result in drug reporting confusion, misattribution of adverse events and insufficient active monitoring of safety signals. Now, with the first biosimilar approval in the USA and many biosimilars expected to be launched globally in the near future, US Food and Drug Administration (FDA) guidance on biosimilar naming conventions will be essential. To inform the FDA and the global drug development community, the Tufts Center for the Study of Drug Development (Tufts CSDD) examined primary suspect reports sent to the FDA's Adverse Event Reporting System (FAERS) from US reporters for two biologics that have lost patent exclusivity--somatropin and human insulin--and extracted 4703 insulin reports and 6487 somatropin reports from FAERS. The results show that reporting practices are inconsistent between the two biologics that were evaluated and that manufacturer identifiability and traceability are lacking. Ways to improve biosimilar naming conventions and improve reporting practices are suggested.",
+   "journal": "Drug safety",
+   "year": "2015",
+   "doi": "10.1007/s40264-015-0310-z",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26108298/"
+  },
+  {
+   "pmid": "42676236",
+   "title": "Long-acting growth hormone: an updated Growth Hormone Research Society consensus statement.",
+   "abstract": "Long-acting growth hormone (LAGH) preparations have moved from development to routine clinical use over the past decade. Several products are now approved for paediatric growth hormone deficiency (GHD), selected non-GHD short-stature indications, and, in some regions, for adult GHD. The Growth Hormone Research Society convened an international workshop in October 2025 to reappraise the evidence base and refine clinical recommendations. Currently, data are available for up to 7 years of LAGH treatment in over 8000 individuals. This remains substantially shorter and smaller than for daily GH. Across preparations, short- to mid-term efficacy appears comparable to daily somatropin, provided dosing is individualized and monitored appropriately. Approvals and pivotal trials include both treatment initiation and switching from daily GH, depending on product and regional label. No new major safety signals have been identified in trials and real-world reports, although data on BMI trajectories require further evaluation. Injection-site reactions remain the most frequent adverse event and vary by formulation. Anti-drug antibodies have been observed, yet evidence suggests they have limited clinical impact. Effects on glucose metabolism resemble those of daily therapy, but metabolically, high-risk groups are under-represented in studies. Among cancer survivors, data on tumour recurrence and second neoplasms with LAGH are not yet available. Recommendations and practice points emphasized careful patient selection and counselling, product-specific dosing, and insulin-like growth factor-I (IGF-I) monitoring. Urgent knowledge gaps include transition care, long-term efficacy, adherence, and safety in cancer survivors. Well-resourced registries are essential for addressing these gaps and supporting safe, effective, and patient-centred use of LAGH.",
+   "journal": "European journal of endocrinology",
+   "year": "2026",
+   "doi": "10.1093/ejendo/lvag167",
+   "publication_types": [
+    "Journal Article",
+    "Consensus Statement",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42676236/"
+  }
+ ]
+}

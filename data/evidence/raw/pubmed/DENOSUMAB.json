@@ -1,0 +1,61 @@
+{
+ "drug": "DENOSUMAB",
+ "status": "ok",
+ "query": "\"denosumab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:17:29+00:00",
+ "records": [
+  {
+   "pmid": "36282253",
+   "title": "Hypercalcemia: A Review.",
+   "abstract": "IMPORTANCE: Hypercalcemia affects approximately 1% of the worldwide population. Mild hypercalcemia, defined as total calcium of less than 12 mg/dL (<3 mmol/L) or ionized calcium of 5.6 to 8.0 mg/dL (1.4-2 mmol/L), is usually asymptomatic but may be associated with constitutional symptoms such as fatigue and constipation in approximately 20% of people. Hypercalcemia that is severe, defined as total calcium of 14 mg/dL or greater (>3.5 mmol/L) or ionized calcium of 10 mg/dL or greater (≥2.5 mmol/L) or that develops rapidly over days to weeks, can cause nausea, vomiting, dehydration, confusion, somnolence, and coma.\nOBSERVATIONS: Approximately 90% of people with hypercalcemia have primary hyperparathyroidism (PHPT) or malignancy. Additional causes of hypercalcemia include granulomatous disease such as sarcoidosis, endocrinopathies such as thyroid disease, immobilization, genetic disorders, and medications such as thiazide diuretics and supplements such as calcium, vitamin D, or vitamin A. Hypercalcemia has been associated with sodium-glucose cotransporter 2 protein inhibitors, immune checkpoint inhibitors, denosumab discontinuation, SARS-CoV-2, ketogenic diets, and extreme exercise, but these account for less than 1% of causes. Serum intact parathyroid hormone (PTH), the most important initial test to evaluate hypercalcemia, distinguishes PTH-dependent from PTH-independent causes. In a patient with hypercalcemia, an elevated or normal PTH concentration is consistent with PHPT, while a suppressed PTH level (<20 pg/mL depending on assay) indicates another cause. Mild hypercalcemia usually does not need acute intervention. If due to PHPT, parathyroidectomy may be considered depending on age, serum calcium level, and kidney or skeletal involvement. In patients older than 50 years with serum calcium levels less than 1 mg above the upper normal limit and no evidence of skeletal or kidney disease, observation may be appropriate. Initial therapy of symptomatic or severe hypercalcemia consists of hydration and intravenous bisphosphonates, such as zoledronic acid or pamidronate. In patients with kidney failure, denosumab and dialysis may be indicated. Glucocorticoids may be used as primary treatment when hypercalcemia is due to excessive intestinal calcium absorption (vitamin D intoxication, granulomatous disorders, some lymphomas). Treatment reduces serum calcium and improves symptoms, at least transiently. The underlying cause of hypercalcemia should be identified and treated. The prognosis for asymptomatic PHPT is excellent with either medical or surgical management. Hypercalcemia of malignancy is associated with poor survival.\nCONCLUSIONS AND RELEVANCE: Mild hypercalcemia is typically asymptomatic, while severe hypercalcemia is associated with nausea, vomiting, dehydration, confusion, somnolence, and coma. Asymptomatic hypercalcemia due to primary hyperparathyroidism is managed with parathyroidectomy or observation with monitoring, while severe hypercalcemia is typically treated with hydration and intravenous bisphosphonates.",
+   "journal": "JAMA",
+   "year": "2022",
+   "doi": "10.1001/jama.2022.18331",
+   "publication_types": [
+    "Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36282253/"
+  },
+  {
+   "pmid": "36564572",
+   "title": "Denosumab Discontinuation.",
+   "abstract": "PURPOSE OF REVIEW: To review the pathophysiology, the clinical consequences as well as way of mitigating the effects of denosumab discontinuation.\nRECENT FINDINGS: Treatment with denosumab (DMAB) is reversible and upon discontinuation there is a rapid increase in bone turnover and a subsequent bone loss. During this phase of high bone turnover, an increased risk of fractures has been reported. Therefore, treatment with DMAB could be considered life-long. However, side-effects may prompt the need for discontinuation and moreover, treatment with DMAB may have increased BMD to levels where continuing treatment does not provide further fracture risk reduction. Patients stopping DMAB should be offered subsequent antiresorptive treatment with an intense monitoring regimen during the initial year as most of the bone loss occurs within these initial 12 months. In this review, we evaluated the literature published over the past 1 to 3 years investigating DMAB withdrawal with focus on bone turnover markers, bone mineral density, and fracture risk and the transition to other anti-osteoporosis therapies. Furthermore, we summarized the current recommendations of international guidelines. In this review, we evaluated the literature published over the past 1 to 3 years investigating denosumab (DMAB) discontinuation and the transition to other anti-osteoporosis therapies. Additionally, we summarized the current recommendations of international guidelines.",
+   "journal": "Current osteoporosis reports",
+   "year": "2023",
+   "doi": "10.1007/s11914-022-00771-6",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36564572/"
+  },
+  {
+   "pmid": "36592455",
+   "title": "Effectiveness and Safety of Treatments to Prevent Fractures in People With Low Bone Mass or Primary Osteoporosis: A Living Systematic Review and Network Meta-analysis for the American College of Physicians.",
+   "abstract": "BACKGROUND: The prevalence of osteoporosis is increasing in the United States.\nPURPOSE: To evaluate low bone mass and osteoporosis treatments to prevent fractures.\nDATA SOURCES: Ovid MEDLINE ALL, Ovid Evidence Based Medicine Reviews: Cochrane Central Register of Controlled Trials, Cochrane Database of Systematic Reviews, and ClinicalTrials.gov from 2014 through February 2022.\nSTUDY SELECTION: Adults receiving eligible interventions for low bone mass or osteoporosis. Randomized controlled trials (RCTs) for fracture outcomes, and RCTs and large observational studies (n ≥1000) for harms.\nDATA EXTRACTION: Abstracted by 1 reviewer and verified by a second. Independent, dual assessments of risk of bias and certainty of evidence (CoE).\nDATA SYNTHESIS: We included 34 RCTs (in 100 publications) and 36 observational studies. Bisphosphonates and denosumab reduced hip, clinical and radiographic vertebral, and other clinical fractures in postmenopausal females with osteoporosis (moderate to high CoE). Bisphosphonates for 36 months or more may increase the risk for atypical femoral fractures (AFFs) and osteonecrosis of the jaw (ONJ), but the absolute risks were low. Abaloparatide and teriparatide reduced clinical and radiographic vertebral fractures but increased the risk for withdrawals due to adverse events (WAEs; moderate to high CoE). Raloxifene and bazedoxifene for 36 months or more reduced radiographic vertebral but not clinical fractures (low to moderate CoE). Abaloparatide, teriparatide, and sequential romosozumab, then alendronate, may be more effective than bisphosphonates in reducing clinical fractures for 17 to 24 months in older postmenopausal females at very high fracture risk (low to moderate CoE). Bisphosphonates may reduce clinical fractures in older females with low bone mass (low CoE) and radiographic vertebral fractures in males with osteoporosis (low to moderate CoE).\nLIMITATION: Few studies examined participants with low bone mass, males, or Black-identifying persons, sequential therapy, or treatment beyond 3 years.\nCONCLUSION: Bisphosphonates, denosumab, abaloparatide, teriparatide, and romosozumab, followed by alendronate, reduce clinical fractures in postmenopausal females with osteoporosis. Abaloparatide and teriparatide increased WAEs; longer duration bisphosphonate use may increase AFF and ONJ risk though these events were rare.\nPRIMARY FUNDING SOURCE: American College of Physicians. (PROSPERO: CRD42021236220).",
+   "journal": "Annals of internal medicine",
+   "year": "2023",
+   "doi": "10.7326/M22-0684",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36592455/"
+  },
+  {
+   "pmid": "26789873",
+   "title": "Clinical Practice. Postmenopausal Osteoporosis.",
+   "abstract": "Key Clinical Points Postmenopausal Osteoporosis Fractures and osteoporosis are common, particularly among older women, and hip fractures can be devastating. Treatment is generally recommended in postmenopausal women who have a bone mineral density T score of -2.5 or less, a history of spine or hip fracture, or a Fracture Risk Assessment Tool (FRAX) score indicating increased fracture risk. Bisphosphonates (generic) and denosumab reduce the risk of hip, nonvertebral, and vertebral fractures; bisphosphonates are commonly used as first-line treatment in women who do not have contraindications. Teriparatide reduces the risk of nonvertebral and vertebral fractures. Osteonecrosis of the jaw and atypical femur fractures have been reported with treatment but are rare. The benefit-to-risk ratio for osteoporosis treatment is strongly positive for most women with osteoporosis. Because benefits are retained after discontinuation of alendronate or zoledronic acid, drug holidays after 5 years of alendronate therapy or 3 years of zoledronic acid therapy may be considered for patients at lower risk for fracture.",
+   "journal": "The New England journal of medicine",
+   "year": "2016",
+   "doi": "10.1056/NEJMcp1513724",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26789873/"
+  }
+ ]
+}

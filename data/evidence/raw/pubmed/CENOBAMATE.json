@@ -1,0 +1,61 @@
+{
+ "drug": "CENOBAMATE",
+ "status": "ok",
+ "query": "\"cenobamate\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:17:34+00:00",
+ "records": [
+  {
+   "pmid": "39087564",
+   "title": "Cenobamate add-on therapy for drug-resistant focal epilepsy.",
+   "abstract": "BACKGROUND: Although most people with epilepsy achieve complete seizure cessation, approximately one-third of those with the condition continue experiencing seizures despite the use of antiseizure medications (ASMs) given as monotherapy or polytherapy. In this review, we summarised the evidence from randomised controlled trials (RCTs) about cenobamate as an add-on treatment for focal epilepsy uncontrolled by one or more concomitant ASMs.\nOBJECTIVES: To assess the efficacy and tolerability of add-on oral cenobamate for the treatment of drug-resistant focal-onset seizures, defined as seizures persisting despite treatment with one or more ASMs.\nSEARCH METHODS: We searched the Cochrane Register of Studies (CRS Web) and MEDLINE Ovid (September 2022). In addition, we contacted the manufacturer of cenobamate and experts in the field to enquire after any ongoing or unpublished studies.\nSELECTION CRITERIA: RCTs comparing add-on cenobamate to placebo or another ASM in people with focal epilepsy uncontrolled by one or more concomitant ASMs.\nDATA COLLECTION AND ANALYSIS: Two review authors independently selected trials for inclusion, extracted data, performed risk of bias assessment, and assessed the certainty of the evidence using the GRADE approach. Our primary outcomes were at least a 50% reduction in total seizure frequency, seizure freedom, and the occurrence of adverse events. We used an intention-to-treat approach for our primary analyses. For each outcome we estimated summary risk ratios (RRs) with their 95% confidence intervals (CIs). We summarised the estimates of effects and certainty of the evidence for each outcome in a summary of findings table.\nMAIN RESULTS: We included two studies (659 adult participants, 442 allocated to cenobamate and 217 to placebo). The overall RR for at least a 50% reduction in seizure frequency for add-on cenobamate at any dose compared to placebo was 2.17 (52% versus 24%, 95% CI 1.66 to 2.84; 2 studies, 605 participants; moderate-certainty evidence). The RR for seizure freedom for add-on cenobamate at any dose compared to placebo was 4.45 (16% versus 5%, 95% CI 2.25 to 8.78; 2 studies, 605 participants; moderate-certainty evidence). The RR for the occurrence of adverse events for add-on cenobamate at any dose compared to placebo was 1.14 (77% versus 67%, 95% CI 1.02 to 1.27; 2 studies, 659 participants; moderate-certainty evidence). We judged the two included RCTs as at low or unclear risk of bias. Both studies were sponsored by the drug company that produces cenobamate.\nAUTHORS' CONCLUSIONS: Add-on cenobamate is probably better than placebo in reducing the frequency of seizures by at least 50% and in achieving seizure freedom in adults with focal epilepsy uncontrolled by one or more concomitant ASMs (moderate level of certainty). Its use is probably associated with an increased risk of adverse events (moderate level of certainty). Further prospective, controlled trials are required to evaluate the efficacy and tolerability of add-on cenobamate compared to other ASMs. The efficacy and tolerability of cenobamate as adjunctive treatment for focal epilepsy in children should be further investigated. Finally, the long-term efficacy and tolerability of add-on cenobamate treatment in people with other epilepsy types (e.g. generalised epilepsy) or specific epilepsy syndromes, as well as its use as monotherapy, require additional study.",
+   "journal": "The Cochrane database of systematic reviews",
+   "year": "2024",
+   "doi": "10.1002/14651858.CD014941.pub2",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39087564/"
+  },
+  {
+   "pmid": "33993416",
+   "title": "Pharmacology of Cenobamate: Mechanism of Action, Pharmacokinetics, Drug-Drug Interactions and Tolerability.",
+   "abstract": "Cenobamate is one of the latest antiseizure medications (ASMs) developed for the treatment of focal onset seizures in adult patients. The recommended starting dose is 12.5 mg/day, titrated gradually to the target daily dose of 200 mg, which may be increased to a maximum of 400 mg/day based on clinical response. Although the high rate of seizure freedom observed in randomized, placebo-controlled clinical trials has resulted in exciting expectations, further clinical studies are needed to better define its clinical profile. Cenobamate is characterized by a peculiar pharmacology regarding both pharmacodynamics and pharmacokinetics. The mechanism of action has only partly been described, with the drug acting on voltage-gated sodium channels through a pronounced action on persistent rather than transient currents. Cenobamate also acts as a positive allosteric modulator of GABAA receptors independently from the benzodiazepine binding site. The bioavailability of cenobamate is not influenced by other drugs, except phenytoin; it can inhibit cytochrome P450 (CYP) 2C19 and induce CYP3A4 and 2B6, and hence can potentially interact with many drugs (e.g. dose adjustments may be required for lamotrigine, carbamazepine and clobazam). The pharmacokinetics of cenobamate are not linear and dosage increases imply a disproportional increase in plasma levels, particularly at doses higher than 300 mg. The most common and dose-related adverse effects associated with cenobamate include central nervous system-related symptoms, mainly somnolence, dizziness, diplopia, and disturbances in gait and coordination. A somewhat higher incidence of adverse events has been observed in patients concomitantly treated with sodium channel blockers. The most relevant safety issues are currently represented by the risk of severe skin reactions (apparently avoidable by a slow titration) and QT shortening (the drug is contraindicated in patients with familial short QT syndrome or taking QT-shortening drugs). Overall, cenobamate is a promising ASM with an intriguing and not fully understood mechanism of action; pharmacokinetic issues need to be considered in clinical practice.",
+   "journal": "CNS drugs",
+   "year": "2021",
+   "doi": "10.1007/s40263-021-00819-8",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33993416/"
+  },
+  {
+   "pmid": "41106086",
+   "title": "Cenobamate in pediatric epilepsy and developmental and epileptic encephalopathies: Efficacy, safety, and syndrome-specific considerations.",
+   "abstract": "Cenobamate, a dual-mechanism antiseizure medication with sodium channel and GABA-A receptor activity, has demonstrated superior efficacy in adult focal epilepsy but remains understudied in pediatric populations and developmental and epileptic encephalopathies (DEEs). This comprehensive narrative review synthesized available evidence from 27 studies examining cenobamate use in pediatric epilepsy and DEEs through systematic literature search and narrative synthesis. Eight studies encompassing 624 pediatric patients (aged 16 months-18 years) demonstrated responder rates of 50-84 % and seizure freedom in 3-31 % of patients, with high retention rates (81-100 %). Weight-based dosing proved necessary in younger children (≤6 years: ∼5 mg/kg/day vs. adolescents: ∼2.7 mg/kg/day). Common adverse effects included somnolence (10-42 %), dizziness/ataxia (11-24 %), and behavioral changes, with rare but serious psychiatric symptoms including suicidality (1-2 % of patients). Drug-drug interactions required proactive management, particularly with clobazam and sodium channel blockers. Nineteen studies in DEEs with 339 patients showed syndrome-specific variability. Lennox-Gastaut syndrome (242 patients) achieved good efficacy (35-86 % responders, 10-31 % seizure-free) with acceptable tolerability. SCN8A-related DEE demonstrated exceptional responses (83 % responders). Conversely, Dravet syndrome showed concerning age-dependent outcomes-favorable adult responses contrasted sharply with pediatric seizure worsening and universal discontinuation in one cohort. In conclusion, cenobamate shows promise in select pediatric epilepsy populations, with efficacy comparable to adult studies. However, syndrome-specific considerations are critical, particularly the risk of seizure exacerbation in pediatric Dravet syndrome. Age-appropriate dosing strategies, psychiatric monitoring, and careful syndrome selection are essential for safe use of cenobamate in these populations. Importantly, the benefits of cenobamate may extend beyond seizure control to include improvements in cognition, behavior, and quality of life.",
+   "journal": "Epilepsy & behavior : E&B",
+   "year": "2025",
+   "doi": "10.1016/j.yebeh.2025.110787",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41106086/"
+  },
+  {
+   "pmid": "35861924",
+   "title": "Antiseizure Drugs and Movement Disorders.",
+   "abstract": "The relationship between antiseizure drugs and movement disorders is complex and not adequately reviewed so far. Antiseizure drugs as a treatment for tremor and other entities such as myoclonus and restless leg syndrome is the most common scenario, although the scientific evidence supporting their use is variable. However, antiseizure drugs also represent a potential cause of iatrogenic movement disorders, with parkinsonism and tremor the most common disorders. Many other antiseizure drug-induced movement disorders are possible and not always correctly identified. This review was conducted by searching for all the possible combinations between 15 movement disorders (excluding ataxia) and 24 antiseizure drugs. The main objective was to describe the movement disorders treated and worsened or induced by antiseizure drugs. We also summarized the proposed mechanisms and risk factors involved in the complex interaction between antiseizure drugs and movement disorders. Antiseizure drugs mainly used to treat movement disorders are clonazepam, gabapentin, lacosamide, levetiracetam, oxcarbazepine, perampanel, phenobarbital, pregabalin, primidone, topiramate, and zonisamide. Antiseizure drugs that worsen or induce movement disorders are cenobamate, ethosuximide, felbamate, lamotrigine, phenytoin, tiagabine, and vigabatrin. Antiseizure drugs with a variable effect on movement disorders are carbamazepine and valproate while no effect on movement disorders has been reported for brivaracetam, eslicarbazepine, lacosamide, and stiripentol. Although little information is available on the adverse effects or benefits on movement disorders of newer antiseizure drugs (such as brivaracetam, cenobamate, eslicarbazepine, lacosamide, and rufinamide), the evidence collected in this review should guide the choice of antiseizure drugs in patients with concomitant epilepsy and movement disorders. Finally, these notions can lead to a better understanding of the mechanisms involved in the pathophysiology and treatments of movement disorders.",
+   "journal": "CNS drugs",
+   "year": "2022",
+   "doi": "10.1007/s40263-022-00937-x",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35861924/"
+  }
+ ]
+}

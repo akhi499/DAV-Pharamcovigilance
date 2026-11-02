@@ -1,0 +1,28 @@
+{
+ "drug": "HYDROCORTISONE",
+ "status": "ok",
+ "fetched_at": "2026-10-20T05:18:59+00:00",
+ "set_id": "1e27682c-f856-41f1-9935-37540960a4c7",
+ "spl_id": "b9549cca-8fa2-45fd-9d02-b01202ac24ed",
+ "spl_version": "6",
+ "effective_time": "20260731",
+ "brand_names": [
+  "Cortizone 10 Itch Relief Massaging Rollerball"
+ ],
+ "generic_names": [
+  "HYDROCORTISONE"
+ ],
+ "manufacturer": "Chattem, Inc.",
+ "route": [
+  "TOPICAL"
+ ],
+ "dailymed_title": "CORTIZONE 10 ITCH RELIEF MASSAGING ROLLERBALL (HYDROCORTISONE) CREAM [CHATTEM, INC.]",
+ "dailymed_published": "Aug 06, 2026",
+ "dailymed_spl_version": 6,
+ "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e27682c-f856-41f1-9935-37540960a4c7",
+ "api_url": "https://api.fda.gov/drug/label.json?search=set_id:%221e27682c-f856-41f1-9935-37540960a4c7%22",
+ "sections": {
+  "warnings": "Warnings For external use only Do not use ■ for the treatment of diaper rash. Consult a doctor. ■ if you are allergic to any ingredient in this product When using this product ■ avoid contact with the eyes ■ do not use more than directed unless told to do so by a doctor Stop use and ask a doctor if ■ condition worsens ■ symptoms persist for more than 7 days or clear up and occur again within a few days, do not use this or any other hydrocortisone product unless you have asked a doctor Keep out of reach of children. If swallowed, get medical help or contact a Poison Control Center right away.",
+  "indications_and_usage": "Use s ■ temporarily relieves itching associated with minor skin irritations, inflammation, and rashes due to: ■ eczema ■ psoriasis ■ poison ivy, oak, sumac ■ insect bites ■ detergents ■ jewelry ■ cosmetics ■ soaps ■ seborrheic dermatitis ■ other uses of this product should be only under the advice and supervision of a doctor"
+ }
+}

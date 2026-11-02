@@ -1,0 +1,64 @@
+{
+ "drug": "ASPIRIN",
+ "status": "ok",
+ "query": "\"aspirin\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:17:16+00:00",
+ "records": [
+  {
+   "pmid": "36563781",
+   "title": "Drug Allergy Practice Parameter Updates to Incorporate Into Your Clinical Practice.",
+   "abstract": "The drug allergy practice parameter was developed to provide guidance on the diagnosis and management of drug hypersensitivity reactions. It was last updated in 2010. With the growth of research and evidence-based data since then, experts came together to update the practice parameter with a focus on sections that the work group deemed to have significant changes (or were not addressed) in the previous practice parameter. This review is a focused update on aspects of the practice parameter deemed to have the greatest impact on clinical practice and includes significant updates on diagnosis of antibiotic allergy including penicillin, cephalosporin, sulfonamide, fluoroquinolone, and macrolide allergies. Other topics include the evolution in our management approach to patients with aspirin/nonsteroidal anti-inflammatory drug allergy, diagnostic testing for delayed drug hypersensitivity and allergy to chemotherapeutics and biologics, and the key consensus-based statements for clinical practice. Specifically, the updated practice parameter helps allergists understand the place of 1- or 2-step drug challenges that are valuable tools often without the need for skin testing in many clinical situations. A proactive approach to delabeling penicillin allergy as well as unnecessary avoidance of safe antibiotic alternatives for patients with proven penicillin allergy is emphasized. New guidance is provided on management of patients with different phenotypes of aspirin and nonsteroidal anti-inflammatory drug hypersensitivity reactions. Approaches to delayed drug hypersensitivity and use of delayed intradermal and patch testing for specific phenotypes are reviewed. Lastly, practical approaches to management of patients with reactions to chemotherapeutics and biologics are discussed.",
+   "journal": "The journal of allergy and clinical immunology. In practice",
+   "year": "2023",
+   "doi": "10.1016/j.jaip.2022.12.002",
+   "publication_types": [
+    "Practice Guideline",
+    "Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36563781/"
+  },
+  {
+   "pmid": "31757230",
+   "title": "Drug Hypersensitivity Reactions.",
+   "abstract": "Drug hypersensitivity reactions (DHRs) may be classified based on timing (immediate vs delayed), mechanisms, and pattern of clinical manifestations. Management may include selection of alternative, non-cross reactive agents, drug allergy testing, graded challenge and/or desensitization. Immediate skin testing only identifies risk for immediate-type allergic DHR and has a negative predictive value for only a limited number of drugs (eg, penicillin). Desensitization induces a temporary state of tolerance that is maintained only so long as the drug is continued. This article discusses special considerations about antibiotics, angiotensin-converting enzyme inhibitors, anesthetic agents, aspirin and nonsteroidal antiinflammatory drugs, radiocontrast media, and chemotherapeutic agents.",
+   "journal": "The Medical clinics of North America",
+   "year": "2020",
+   "doi": "10.1016/j.mcna.2019.09.003",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31757230/"
+  },
+  {
+   "pmid": "40902613",
+   "title": "Clopidogrel versus aspirin for secondary prevention of coronary artery disease: a systematic review and individual patient data meta-analysis.",
+   "abstract": "BACKGROUND: Aspirin monotherapy is recommended indefinitely for patients with established coronary artery disease (CAD). The aim of this individual patient level meta-analysis was to provide a comprehensive evaluation of the comparative efficacy and safety of clopidogrel versus aspirin monotherapy in patients with established CAD, most of whom had undergone percutaneous coronary intervention or had acute coronary syndrome.\nMETHODS: We conducted a systematic search in PubMed, Scopus, Web of Science, and Embase to identify randomised trials published from database inception to April 12, 2025, comparing clopidogrel monotherapy with aspirin monotherapy in patients with established CAD who had discontinued or never started dual antiplatelet therapy. Randomised trials featuring an initial phase of dual antiplatelet therapy were eligible for inclusion in this individual patient data meta-analysis. In the main analysis, we used semi-parametric shared log-normal frailty models (one-stage analysis), including a random intercept to account for differences in the baseline hazard across trials, and a random slope to account for between-trial differences in treatment effects. The primary efficacy endpoint was a composite of cardiovascular death, myocardial infarction, or stroke (major adverse cardiovascular or cerebrovascular events [MACCE]); the primary safety endpoint was major bleeding. This study is registered with PROSPERO (CRD42025645594).\nFINDINGS: Seven randomised trials including 28 982 patients (14 507 assigned to clopidogrel; 14 475 assigned to aspirin) with a median follow-up of 2·3 years (IQR 1·1-4·0) were eligible and included. At 5·5 years, MACCE was less common in patients assigned to clopidogrel than in patients assigned to aspirin (929 events [2·61 per 100 patient-years] vs 1062 events [2·99 per 100 patient-years]; hazard ratio 0·86 [95% CI 0·77-0·96]; p=0·0082). Mortality and major bleeding (256 events [0·71 per 100 patient-years] with clopidogrel vs 279 events [0·77 per 100 patient-years] with aspirin; 0·94 [0·74-1·21]; p=0·64) did not differ.\nINTERPRETATION: These findings add to the evidence that clopidogrel monotherapy is superior to aspirin monotherapy for MACCE prevention with no increase in the risk of bleeding, and support the preferential use of clopidogrel over aspirin for secondary prevention in patients with established CAD.\nFUNDING: Cardiocentro Ticino Institute, Ente Ospedaliero Cantonale, Switzerland.",
+   "journal": "Lancet (London, England)",
+   "year": "2025",
+   "doi": "10.1016/S0140-6736(25)01562-4",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Meta-Analysis",
+    "Comparative Study",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40902613/"
+  },
+  {
+   "pmid": "36757490",
+   "title": "Recent Updates in Understanding NSAID Hypersensitivity.",
+   "abstract": "PURPOSE OF REVIEW: To provide a review of available literature regarding nonsteroidal anti-inflammatory drug (NSAID) hypersensitivity with an emphasis on more recent findings.\nRECENT FINDINGS: Oral provocation tests with aspirin are important for diagnosis and management in adult and pediatric populations with reported NSAID hypersensitivity. Risk of cross-reactivity to COX-2 inhibitors varies by NSAID hypersensitivity phenotype. COX-2 inhibitors are tolerated in aspirin-exacerbated respiratory disease. Reported NSAID allergy is associated with a higher risk of a substance use disorder. Effective treatment of underlying chronic spontaneous urticaria can allow tolerance of NSAIDs in NSAID-exacerbated cutaneous disease. The pathophysiology, cross-reactivity, and appropriate diagnostic evaluation differ between the 5 distinct NSAID hypersensitivity phenotypes. Further research into the pathophysiology of NSAID hypersensitivity in patients with and without underlying disease is needed.",
+   "journal": "Current allergy and asthma reports",
+   "year": "2023",
+   "doi": "10.1007/s11882-023-01064-3",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36757490/"
+  }
+ ]
+}

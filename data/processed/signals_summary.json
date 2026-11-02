@@ -1,0 +1,15 @@
+{
+  "analysis_population_cases": 392729,
+  "drug_event_pairs_observed": 648090,
+  "pairs_tested_min_cases": 241675,
+  "min_cases": 3,
+  "ror_signals": 192163,
+  "prr_signals": 184795,
+  "ic_signals": 173684,
+  "all_three_methods": 172074,
+  "haldane_corrected_rows": 4201,
+  "q_below_0_05": 192318,
+  "possible_indication_bias_rows": 16092,
+  "distinct_suspect_drugs": 5018,
+  "distinct_pts": 12678
+}

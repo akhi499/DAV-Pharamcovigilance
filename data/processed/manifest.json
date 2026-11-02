@@ -1,0 +1,124 @@
+{
+  "quarter": "2025Q1",
+  "source_zip": "faers_ascii_2025q1.zip",
+  "source_sha256": "51c1dc440733fbbb0b6913b5382ce5b9a3510642a0c6bfd6239d26aa18346b69",
+  "ingested_at": "2026-10-19T09:16:56+00:00",
+  "tables": {
+    "demo": {
+      "rows": 400514,
+      "physical_lines": 400514,
+      "rejected_lines": 0,
+      "columns": [
+        "primaryid",
+        "caseid",
+        "caseversion",
+        "i_f_code",
+        "event_dt",
+        "mfr_dt",
+        "init_fda_dt",
+        "fda_dt",
+        "rept_cod",
+        "auth_num",
+        "mfr_num",
+        "mfr_sndr",
+        "lit_ref",
+        "age",
+        "age_cod",
+        "age_grp",
+        "sex",
+        "e_sub",
+        "wt",
+        "wt_cod",
+        "rept_dt",
+        "to_mfr",
+        "occp_cod",
+        "reporter_country",
+        "occr_country"
+      ]
+    },
+    "drug": {
+      "rows": 2008162,
+      "physical_lines": 2008162,
+      "rejected_lines": 0,
+      "columns": [
+        "primaryid",
+        "caseid",
+        "drug_seq",
+        "role_cod",
+        "drugname",
+        "prod_ai",
+        "val_vbm",
+        "route",
+        "dose_vbm",
+        "cum_dose_chr",
+        "cum_dose_unit",
+        "dechal",
+        "rechal",
+        "lot_num",
+        "exp_dt",
+        "nda_num",
+        "dose_amt",
+        "dose_unit",
+        "dose_form",
+        "dose_freq"
+      ]
+    },
+    "reac": {
+      "rows": 1432926,
+      "physical_lines": 1432926,
+      "rejected_lines": 0,
+      "columns": [
+        "primaryid",
+        "caseid",
+        "pt",
+        "drug_rec_act"
+      ]
+    },
+    "outc": {
+      "rows": 304027,
+      "physical_lines": 304027,
+      "rejected_lines": 0,
+      "columns": [
+        "primaryid",
+        "caseid",
+        "outc_cod"
+      ]
+    },
+    "rpsr": {
+      "rows": 11033,
+      "physical_lines": 11033,
+      "rejected_lines": 0,
+      "columns": [
+        "primaryid",
+        "caseid",
+        "rpsr_cod"
+      ]
+    },
+    "ther": {
+      "rows": 520395,
+      "physical_lines": 520395,
+      "rejected_lines": 0,
+      "columns": [
+        "primaryid",
+        "caseid",
+        "dsg_drug_seq",
+        "start_dt",
+        "end_dt",
+        "dur",
+        "dur_cod"
+      ]
+    },
+    "indi": {
+      "rows": 1205861,
+      "physical_lines": 1205861,
+      "rejected_lines": 0,
+      "columns": [
+        "primaryid",
+        "caseid",
+        "indi_drug_seq",
+        "indi_pt"
+      ]
+    }
+  },
+  "deleted_case_ids": 5732
+}

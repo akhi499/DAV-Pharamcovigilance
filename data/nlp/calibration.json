@@ -1,0 +1,14 @@
+{
+  "lexical": {
+    "min_score": 0.06,
+    "min_margin": 0.01,
+    "temperature": 0.05,
+    "source": "calibrated on dev split (coverage>=0.7)"
+  },
+  "neural": {
+    "min_score": 0.46,
+    "min_margin": 0.02,
+    "temperature": 0.05,
+    "source": "calibrated on dev split (coverage>=0.7)"
+  }
+}

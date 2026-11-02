@@ -1,0 +1,61 @@
+{
+ "drug": "PREDNISONE",
+ "status": "ok",
+ "query": "\"prednisone\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T04:59:03+00:00",
+ "records": [
+  {
+   "pmid": "40522647",
+   "title": "Adrenal Insufficiency in Adults: A Review.",
+   "abstract": "IMPORTANCE: Adrenal insufficiency is a syndrome of cortisol deficiency and is categorized as primary, secondary, or glucocorticoid induced. Although primary and secondary adrenal insufficiency are rare, affecting less than 279 per 1 million individuals, glucocorticoid-induced adrenal insufficiency is common.\nOBSERVATIONS: Primary adrenal insufficiency, which involves deficiency of all adrenocortical hormones, is caused by autoimmune destruction, congenital adrenal hyperplasia, pharmacological inhibition (eg, high doses of azole antifungal therapy), infection (eg, tuberculosis, fungal infections), or surgical removal of adrenal cortical tissue. Secondary adrenal insufficiency is caused by disorders affecting the pituitary gland, such as tumors, hemorrhage, inflammatory or infiltrative conditions (eg, hypophysitis, sarcoidosis, hemochromatosis), surgery, radiation therapy, or medications that suppress corticotropin production, such as opioids. Glucocorticoid-induced adrenal insufficiency is caused by administration of supraphysiological doses of glucocorticoids. Patients with adrenal insufficiency typically present with nonspecific symptoms, including fatigue (50%-95%), nausea and vomiting (20%-62%), and anorexia and weight loss (43%-73%). Glucocorticoid-induced adrenal insufficiency should be suspected in patients who have recently tapered or discontinued a supraphysiological dose of glucocorticoids. Early-morning (approximately 8 am) measurements of serum cortisol, corticotropin, and dehydroepiandrosterone sulfate (DHEAS) are used to diagnose adrenal insufficiency. Primary adrenal insufficiency is typically characterized by low morning cortisol levels (<5 µg/dL), high corticotropin levels, and low DHEAS levels. Patients with secondary and glucocorticoid-induced adrenal insufficiency typically have low or intermediate morning cortisol levels (5-10 µg/dL) and low or low-normal corticotropin and DHEAS levels. Patients with intermediate early-morning cortisol levels should undergo repeat early-morning cortisol testing or corticotropin stimulation testing (measurement of cortisol before and 60 minutes after administration of cosyntropin, 250 µg). Treatment of adrenal insufficiency involves supplemental glucocorticoids (eg, hydrocortisone, 15-25 mg daily, or prednisone, 3-5 mg daily). Mineralocorticoids (eg, fludrocortisone, 0.05-0.3 mg daily) should be added for patients with primary adrenal insufficiency. Adrenal crisis, a syndrome that can cause hypotension and shock, hyponatremia, altered mental status, and death if untreated, can occur in patients with adrenal insufficiency who have inadequate glucocorticoid therapy, acute illness, and physical stress. Therefore, all patients with adrenal insufficiency should be instructed how to increase glucocorticoids during acute illness and prescribed injectable glucocorticoids (eg, hydrocortisone, 100 mg intramuscular injection) to prevent or treat adrenal crisis.\nCONCLUSIONS AND RELEVANCE: Although primary and secondary adrenal insufficiency are rare, glucocorticoid-induced adrenal insufficiency is a common condition. Diagnosis of adrenal insufficiency involves early-morning measurement of cortisol, corticotropin, and DHEAS. All patients with adrenal insufficiency should be treated with glucocorticoids and instructed how to prevent and treat adrenal crisis.",
+   "journal": "JAMA",
+   "year": "2025",
+   "doi": "10.1001/jama.2025.5485",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40522647/"
+  },
+  {
+   "pmid": "33536186",
+   "title": "Uveitis for the non-ophthalmologist.",
+   "abstract": "The uveitides are a heterogeneous group of diseases characterized by inflammation inside the eye. The uveitides are classified as infectious or non-infectious. The non-infectious uveitides, which are presumed to be immune mediated, can be further divided into those that are associated with a known systemic disease and those that are eye limited,-ie, not associated with a systemic disease. The ophthalmologist identifies the specific uveitic entity by medical history, clinical examination, and ocular imaging, as well as supplemental laboratory testing, if indicated. Treatment of the infectious uveitides is tailored to the particular infectious organism and may include regional and/or systemic medication. First line treatment for non-infectious uveitides is corticosteroids that can be administered topically, as regional injections or surgical implants, or systemically. Systemic immunosuppressive therapy is used in patients with severe disease who cannot tolerate corticosteroids, require chronic corticosteroids at >7.5 mg/day prednisone, or in whom the disease is known to respond better to immunosuppression. Management of many of these diseases is optimized by coordination between the ophthalmologist and rheumatologist or internist.",
+   "journal": "BMJ (Clinical research ed.)",
+   "year": "2021",
+   "doi": "10.1136/bmj.m4979",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33536186/"
+  },
+  {
+   "pmid": "29442540",
+   "title": "Management of Immune-Related Adverse Events in Patients Treated With Immune Checkpoint Inhibitor Therapy: American Society of Clinical Oncology Clinical Practice Guideline.",
+   "abstract": "Purpose To increase awareness, outline strategies, and offer guidance on the recommended management of immune-related adverse events in patients treated with immune checkpoint inhibitor (ICPi) therapy. Methods A multidisciplinary, multi-organizational panel of experts in medical oncology, dermatology, gastroenterology, rheumatology, pulmonology, endocrinology, urology, neurology, hematology, emergency medicine, nursing, trialist, and advocacy was convened to develop the clinical practice guideline. Guideline development involved a systematic review of the literature and an informal consensus process. The systematic review focused on guidelines, systematic reviews and meta-analyses, randomized controlled trials, and case series published from 2000 through 2017. Results The systematic review identified 204 eligible publications. Much of the evidence consisted of systematic reviews of observational data, consensus guidelines, case series, and case reports. Due to the paucity of high-quality evidence on management of immune-related adverse events, recommendations are based on expert consensus. Recommendations Recommendations for specific organ system-based toxicity diagnosis and management are presented. While management varies according to organ system affected, in general, ICPi therapy should be continued with close monitoring for grade 1 toxicities, with the exception of some neurologic, hematologic, and cardiac toxicities. ICPi therapy may be suspended for most grade 2 toxicities, with consideration of resuming when symptoms revert to grade 1 or less. Corticosteroids may be administered. Grade 3 toxicities generally warrant suspension of ICPis and the initiation of high-dose corticosteroids (prednisone 1 to 2 mg/kg/d or methylprednisolone 1 to 2 mg/kg/d). Corticosteroids should be tapered over the course of at least 4 to 6 weeks. Some refractory cases may require infliximab or other immunosuppressive therapy. In general, permanent discontinuation of ICPis is recommended with grade 4 toxicities, with the exception of endocrinopathies that have been controlled by hormone replacement. Additional information is available at www.asco.org/supportive-care-guidelines and www.asco.org/guidelineswiki .",
+   "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+   "year": "2018",
+   "doi": "10.1200/JCO.2017.77.6385",
+   "publication_types": [
+    "Journal Article",
+    "Practice Guideline"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29442540/"
+  },
+  {
+   "pmid": "38363330",
+   "title": "Corticosteroids and mania: A systematic review.",
+   "abstract": "OBJECTIVES: Corticosteroids are widely prescribed for a variety of medical conditions. Accumulating evidence suggests that their use may be associated with adverse psychiatric effects, including mania. In this systematic review, we aim to critically evaluate the existing literature on the association between corticosteroid use and the emergence of mania.\nMETHODS: We conducted a comprehensive search of major electronic databases (PubMed, Embase, Cochrane Library) for relevant studies published up to the date of the search (12th January 2023). Inclusion criteria involve studies that investigate the association between corticosteroid use and the emergence of mania in adult patients. The primary outcome is the prevalence of (hypo)mania following corticosteroid administration. Secondary outcomes include potential risk factors, dose-response relationships, and differences among various corticosteroid formulations.\nRESULTS: The identified studies were subjected to a systematic selection process and data extraction by an independent reviewer. A total of 47 articles met the inclusion criteria for our systematic review.\nCONCLUSION: Our findings suggest that mania is a common side-effect of corticosteroid use, particularly in prednisone equivalent doses above 40 mg. These findings hold practical significance for clinicians and provide insights into potential interventions, including careful monitoring, dose adjustments, and consideration of psychotropic medications when managing corticosteroid-induced mania.",
+   "journal": "The world journal of biological psychiatry : the official journal of the World Federation of Societies of Biological Psychiatry",
+   "year": "2024",
+   "doi": "10.1080/15622975.2024.2312572",
+   "publication_types": [
+    "Systematic Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38363330/"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "drug": "RISANKIZUMAB-RZAA",
+ "status": "ok",
+ "query": "\"risankizumab-rzaa\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T04:59:12+00:00",
+ "records": [
+  {
+   "pmid": "36214282",
+   "title": "Risankizumab-rzaa: A New Therapeutic Option for the Treatment of Crohn's Disease.",
+   "abstract": "OBJECTIVE: To review the pharmacologic and clinical profile of risankizumab-rzaa in the treatment of Crohn's disease (CD).\nDATA SOURCES: A PubMed search was performed from inception to August 2022 using keywords risankizumab, risankizumab-rzaa, interleukin-23 inhibitor, and Crohn's disease. Information was obtained from package inserts as well as published abstracts.\nSTUDY SELECTION AND DATA EXTRACTION: Phase 2 and 3 studies plus relevant literature on risankizumab-rzaa pharmacologic and clinical profile were reviewed.\nDATA SYNTHESIS: Risankizumab-rzaa approval was based on ADVANCE, MOTIVATE, and FORTIFY. In these 3 phase 3 studies involving patients with moderate to severe CD, risankizumab-rzaa, when compared with placebo, resulted in clinical remission and endoscopic response in a significantly higher proportion of patients in both the induction and maintenance phase. In addition, risankizumab-rzaa met the secondary endpoints of clinical response, endoscopic improvement, corticosteroid-free remission, and mucosal healing. Common adverse events noted include nasopharyngitis, arthralgia, headache, abdominal pain, and nausea.\nRELEVANCE TO PATIENT CARE AND CLINICAL PRACTICE: Risankizumab-rzaa is the first selective IL-23 inhibitor approved for CD and provides an additional therapeutic option for patients, particularly those who have been previously treated with other advanced inflammatory bowel disease therapies. Additional studies are required to determine how to best position risankizumab-rzaa in both bio-naïve and bio-experienced patients with CD.\nCONCLUSIONS: Risankizumab-rzaa is the most recent therapeutic advance for CD. It has a selective mechanism of action with a similar safety profile comparable with other currently approved advanced therapies.",
+   "journal": "The Annals of pharmacotherapy",
+   "year": "2023",
+   "doi": "10.1177/10600280221130450",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36214282/"
+  }
+ ]
+}

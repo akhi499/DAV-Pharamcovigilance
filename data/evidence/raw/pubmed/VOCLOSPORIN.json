@@ -1,0 +1,62 @@
+{
+ "drug": "VOCLOSPORIN",
+ "status": "ok",
+ "query": "\"voclosporin\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:19:09+00:00",
+ "records": [
+  {
+   "pmid": "40846176",
+   "title": "Childhood-onset lupus nephritis: unique aspects and challenges in management.",
+   "abstract": "Childhood-onset lupus nephritis is an important glomerular disease that requires safe and effective treatments to reduce the incidence of chronic kidney disease and kidney failure. Novel treatments have become available for adults in the last decade, notably belimumab, obinutuzumab, and voclosporin. In contrast, most children with lupus nephritis are treated with conventional immunosuppression, and treatment recommendations are extrapolated from adult data because pediatric patients have historically been rarely included in clinical trials. However, children are not small adults with evolving immune systems, and there is a significant role of genetics contributing to the complex disease pathogenesis. In this mini review, we will highlight several unique aspects in managing childhood-onset lupus nephritis, including the optimal definition of disease remission, prevention of relapse, the delicate balance between treatment efficacy and side effects, and monogenic forms of lupus nephritis. We will also discuss how treatment adherence and dedicated transition care can affect treatment outcomes.",
+   "journal": "Kidney international",
+   "year": "2025",
+   "doi": "10.1016/j.kint.2025.05.039",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40846176/"
+  },
+  {
+   "pmid": "37901212",
+   "title": "Efficacy and safety of immunosuppressive agents for adults with lupus nephritis: a systematic review and network meta-analysis.",
+   "abstract": "INTRODUCTION: Various immunosuppressive regimens have been developed for the treatment of lupus nephritis (LN). This study aimed to compare the efficacy and safety of immunosuppressive regimens in adults with LN.\nMETHODS: We systematically searched the PubMed, Embase, and Cochrane Central Register of Controlled Trials databases, including conference proceedings, trial registries, and reference lists, from inception until July 10, 2022. The effects of treatment were compared and ranked using the surface under the cumulative ranking curve (SUCRA). The primary endpoint was total remission. The secondary endpoints were complete remission, systemic lupus erythematosus disease activity index (SLEDAI), relapse, all-cause mortality, end-stage renal disease (ESRD), infection, herpes zoster, ovarian failure, myelosuppression, and cancer.\nRESULTS: Sixty-two trials reported in 172 studies involving 6,936 patients were included in the network meta-analysis. The combination of tacrolimus (TAC), mycophenolate mofetil (MMF), and glucocorticoid (GC) provided the best result for the total remission rate (SUCRA, 86.63%) and SLEDAI (SUCRA, 91.00%), while the combination of voclosporin (VCS) , MMF and GC gave the best improvement in the complete remission rate (SUCRA, 90.71%). The combination of cyclophosphamide (CYC), MMF and GC was associated with the lowest risk of relapse (SUCRA, 85.57%) and cancer (SUCRA, 85.14%), while the combination of obinutuzumab (OTB), MMF and GC was associated with the lowest risk of all-cause mortality (SUCRA, 84.07%). Rituximab (RTX) plus MMF plus GC was associated with the lowest risk of ESRD (SUCRA, 83.11%), while the risk of infection was lowest in patients treated with azathioprine (AZA) plus CYC plus GC (SUCRA, 68.59%). TAC plus GC was associated with the lowest risk of herpes zoster (SUCRA, 87.67%) and ovarian failure (SUCRA, 73.60%). Cyclosporine (CsA) plus GC was associated with the lowest risk of myelosuppression (SUCRA, 79.50%), while AZA plus GC was associated with the highest risk of myelosuppression (SUCRA, 16.25%).\nDISCUSSION: This study showed that a combination of TAC, MMF and GC was the best regimen for improving the total remission rate. The optimal regimen for specific outcomes should be highlighted for high-risk patients.",
+   "journal": "Frontiers in immunology",
+   "year": "2023",
+   "doi": "10.3389/fimmu.2023.1232244",
+   "publication_types": [
+    "Systematic Review",
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37901212/"
+  },
+  {
+   "pmid": "30207816",
+   "title": "An evaluation of voclosporin for the treatment of lupus nephritis.",
+   "abstract": "Lupus nephritis (LN) is associated with significant morbidity and mortality. Current treatment outcomes remain suboptimal. No disease modifying medications are licensed for the treatment of LN. Voclosporin, a novel calcineurin inhibitor, has been investigated as induction therapy in LN in combination with myocophenolate mofetil (MMF) and a glucocorticoid (GC). Two phase II trials of voclosporin were the first trials of a potential treatment of active LN that met their primary endpoints. Areas covered: This article reviews the pharmacology of voclosporin and the efficacy and safety data from the two existing phase II trials. In the phase IIb randomized controlled trial AURA-LV, voclosporin was shown to be superior to placebo, when used in combination with MMF (1-2 g/day) and GC, in achieving remission in active LN. Expert opinion: While the positive outcome of existing trials is promising, further data confirming its efficacy and evaluating its safety are required. A phase III trial is currently recruiting. Importantly, the positive results were achieved despite a novel and rapid GC taper regime, suggesting that rapid taper of GC may be a viable treatment option in active LN which merits further investigation.",
+   "journal": "Expert opinion on pharmacotherapy",
+   "year": "2018",
+   "doi": "10.1080/14656566.2018.1516751",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30207816/"
+  },
+  {
+   "pmid": "35763288",
+   "title": "Voclosporin: a novel calcineurin inhibitor for the treatment of lupus nephritis.",
+   "abstract": "INTRODUCTION: Lupus nephritis (LN) is a severe manifestation of systemic lupus erythematosus. Standard-of-care immunosuppressive therapies achieve poor complete renal response (CRR) rates, with considerable toxicity. This article reviews voclosporin, a novel oral calcineurin inhibitor (CNI) approved for treatment in adults with active LN by the US Food and Drug Administration (the FDA) in January 2021.\nAREAS COVERED: This review summarizes the chemical properties, pharmacokinetics, and pharmacodynamics of voclosporin, and its efficacy and safety in LN, based on literature review covering PubMed searches, manufacturers' websites, and documents produced by the FDA.\nEXPERT OPINION: Voclosporin is a CNI with a consistent pharmacokinetic-pharmacodynamic relationship resulting from enhanced calcineurin binding and reduced drug and metabolite load. This profile permits therapeutic efficacy in LN at a dose associated with relatively low calcineurin inhibition, and therefore a potentially improved safety profile. Pivotal trials demonstrated a significant benefit of adding voclosporin to standard therapy, with rapid reduction in proteinuria, and a clinically meaningful and significantly higher CRR rate at 1 year. At approved doses for LN, potential advantages of voclosporin versus historical experience with CNIs include lack of need for therapeutic drug monitoring, benign metabolic, lipid and electrolyte profile, and no impact on mycophenolate mofetil levels.",
+   "journal": "Expert review of clinical pharmacology",
+   "year": "2022",
+   "doi": "10.1080/17512433.2022.2092470",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35763288/"
+  }
+ ]
+}

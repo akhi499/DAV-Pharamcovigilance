@@ -1,0 +1,61 @@
+{
+ "drug": "SODIUM OXYBATE",
+ "status": "ok",
+ "query": "\"sodium oxybate\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:17:44+00:00",
+ "records": [
+  {
+   "pmid": "33417072",
+   "title": "γ-Hydroxybutyric Acid: Pharmacokinetics, Pharmacodynamics, and Toxicology.",
+   "abstract": "Gamma-hydroxybutyrate (GHB) is a short-chain fatty acid present endogenously in the brain and used therapeutically for the treatment of narcolepsy, as sodium oxybate, and for alcohol abuse/withdrawal. GHB is better known however as a drug of abuse and is commonly referred to as the \"date-rape drug\"; current use in popular culture includes recreational \"chemsex,\" due to its properties of euphoria, loss of inhibition, amnesia, and drowsiness. Due to the steep concentration-effect curve for GHB, overdoses occur commonly and symptoms include sedation, respiratory depression, coma, and death. GHB binds to both GHB and GABAB receptors in the brain, with pharmacological/toxicological effects mainly due to GABAB agonist effects. The pharmacokinetics of GHB are complex and include nonlinear absorption, metabolism, tissue uptake, and renal elimination processes. GHB is a substrate for monocarboxylate transporters, including both sodium-dependent transporters (SMCT1, 2; SLC5A8; SLC5A12) and proton-dependent transporters (MCT1-4; SLC16A1, 7, 8, and 3), which represent significant determinants of absorption, renal reabsorption, and brain and tissue uptake. This review will provide current information of the pharmacology, therapeutic effects, and pharmacokinetics/pharmacodynamics of GHB, as well as therapeutic strategies for the treatment of overdoses. Graphical abstract.",
+   "journal": "The AAPS journal",
+   "year": "2021",
+   "doi": "10.1208/s12248-020-00543-z",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33417072/"
+  },
+  {
+   "pmid": "37985310",
+   "title": "Drug-induced hyperglycemia and diabetes.",
+   "abstract": "BACKGROUND: Drug-induced hyperglycemia and diabetes have negative and potentially serious health consequences but can often be unnoticed.\nMETHODS: We reviewed the literature searching Medline database for articles addressing drug-induced hyperglycemia and diabetes up to January 31, 2023. We also selected drugs that could induce hyperglycemia or diabetes according official data from drug information databases Thériaque and Micromedex. For each selected drug or pharmacotherapeutic class, the mechanisms of action potentially involved were investigated. For drugs considered to be at risk of hyperglycemia or diabetes, disproportionality analyses were performed using data from the international pharmacovigilance database VigiBase. In order to detect new pharmacovigilance signals, additional disproportionality analyses were carried out for drug classes with more than 100 cases reported in VigiBase, but not found in the literature or official documents.\nRESULTS: The main drug classes found to cause hyperglycemia are glucocorticoids, HMG-coA reductase inhibitors, thiazide diuretics, beta-blockers, antipsychotics, fluoroquinolones, antiretrovirals, antineoplastic agents and immunosuppressants. The main mechanisms involved are alterations in insulin secretion and sensitivity, direct cytotoxic effects on pancreatic cells and increases in glucose production. Pharmacovigilance signal were found for a majority of drugs or pharmacological classes identified as being at risk of diabetes or hyperglycemia. We identified new pharmacovigilance signals with drugs not known to be at risk according to the literature or official data: phosphodiesterase type 5 inhibitors, endothelin receptor antagonists, sodium oxybate, biphosphonates including alendronic acid, digoxin, sartans, linosipril, diltiazem, verapamil, and darbepoetin alpha. Further studies will be needed to confirm these signals.\nCONCLUSIONS: The risks of induced hyperglycemia vary from one drug to another, and the underlying mechanisms are multiple and potentially complex. Clinicians need to be vigilant when using at-risk drugs in order to detect and manage these adverse drug reactions. However, it is to emphasize that the benefits of appropriately prescribed treatments most often outweigh their metabolic risks.",
+   "journal": "Therapie",
+   "year": "2024",
+   "doi": "10.1016/j.therap.2023.09.010",
+   "publication_types": [
+    "Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37985310/"
+  },
+  {
+   "pmid": "38334297",
+   "title": "Medication-induced central sleep apnea: a unifying concept.",
+   "abstract": "Medication-induced central sleep apnea (CSA) is one of the eight categories of causes of CSA but in the absence of awareness and careful history may be misclassified as primary CSA. While opioids are a well-known cause of respiratory depression and CSA, non-opioid medications including sodium oxybate, baclofen, valproic acid, gabapentin, and ticagrelor are less well-recognized. Opioids-induced respiratory depression and CSA are mediated primarily by µ-opioid receptors, which are abundant in the pontomedullary centers involved in breathing. The non-opioid medications, sodium oxybate, baclofen, valproic acid, and gabapentin, act upon brainstem gamma-aminobutyric acid (GABA) receptors, which co-colonize with µ-opioid receptors and mediate CSA. The pattern of ataxic breathing associated with these medications is like that induced by opioids on polysomnogram. Finally, ticagrelor also causes periodic breathing and CSA by increasing central chemosensitivity and ventilatory response to carbon dioxide. Given the potential consequences of CSA and the association between some of these medications with mortality, it is critical to recognize these adverse drug reactions, particularly because discontinuation of the offending agents has been shown to eliminate CSA.",
+   "journal": "Sleep",
+   "year": "2024",
+   "doi": "10.1093/sleep/zsae038",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38334297/"
+  },
+  {
+   "pmid": "28919445",
+   "title": "Cognitive effects of labeled addictolytic medications.",
+   "abstract": "INTRODUCTION: Alcohol, tobacco, and illegal drug usage is pervasive throughout the world, and abuse of these substances is a major contributor to the global disease burden. Many pharmacotherapies have been developed over the last 50years to target addictive disorders. While the efficacy of these pharmacotherapies is largely recognized, their cognitive impact is less known. However, all substance abuse disorders are known to promote cognitive disorders like executive dysfunction and memory impairment. These impairments are critical for the maintenance of addictive behaviors and impede cognitive behavioral therapies that are regularly administered in association with pharmacotherapies. It is also unknown if addictolytic medications have an impact on preexisting cognitive disorders, and if this impact is modulated by the indication of prescription, i.e. abstinence, reduction or substitution, or by the specific action of the medication.\nMETHOD: We reviewed the cognitive effects of labeled medications for tobacco addiction (varenicline, bupropion, nicotine patch and nicotine gums), alcohol addiction (naltrexone, nalmefene, baclofen, disulfiram, sodium oxybate, acamprosate), and opioid addiction (methadone, buprenorphine) in human studies. Studies were selected following MOOSE guidelines for systematic reviews of observational studies, using the keywords [Cognition] and [Cognitive disorders] and [treatment] for each medication.\nRESULTS: 971 articles were screened and 77 studies met the inclusion criteria and were reported in this review (for alcohol abuse, n=21, for tobacco n=22, for opioid n=34. However, very few comparative clinical trials have explored the chronic effects of addictolytic medications on cognition in addictive behaviors, and there are no clinical trials on the cognitive impact of nalmefene in patients suffering from alcohol use disorders.\nDISCUSSION: Although some medications seem to enhance cognition in patients suffering from cognitive disorders, others could promote cognitive impairments, and our work highlights a lack of literature on this subject. In conclusion, more comparative clinical trials are needed to better understand the cognitive impact of addictolytic medications.",
+   "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+   "year": "2018",
+   "doi": "10.1016/j.pnpbp.2017.09.008",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28919445/"
+  }
+ ]
+}

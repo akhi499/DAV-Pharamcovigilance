@@ -1,0 +1,61 @@
+{
+ "drug": "UPADACITINIB",
+ "status": "ok",
+ "query": "\"upadacitinib\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T04:59:16+00:00",
+ "records": [
+  {
+   "pmid": "39018058",
+   "title": "Systemic Immunomodulatory Treatments for Atopic Dermatitis: Living Systematic Review and Network Meta-Analysis Update.",
+   "abstract": "IMPORTANCE: There are multiple approved systemic treatments for atopic dermatitis. Lebrikizumab is a newly licensed biologic medication that has been compared to placebo in clinical trials but not to other systemic treatments.\nOBJECTIVE: To compare reported measures of efficacy and safety of lebrikizumab to other systemic treatments for atopic dermatitis in a living systematic review and network meta-analysis.\nDATA SOURCES: The Cochrane Central Register of Controlled Trials, MEDLINE, Embase, the Latin American and Caribbean Health Science Information database, the Global Resource of Eczema Trials database, and trial registries were searched from inception through November 3, 2023.\nSTUDY SELECTION: Randomized clinical trials evaluating 8 or more weeks of treatment with systemic immunomodulatory medications for moderate to severe atopic dermatitis. Titles, abstracts, and full texts were screened in duplicate.\nDATA EXTRACTION AND SYNTHESIS: Data were abstracted in duplicate and random-effects bayesian network meta-analyses were performed. Minimal important differences were used to define important differences between medications. Certainty of evidence was assessed using the GRADE approach (Grading of Recommendations Assessment, Development and Evaluation). The updated analysis was completed from December 13, 2023, to February 20, 2024.\nMAIN OUTCOME MEASURES: Efficacy outcomes were the Eczema Area and Severity Index (EASI), the Patient Oriented Eczema Measure (POEM) Dermatology Life Quality Index (DLQI), and Peak Pruritus Numeric Rating Scales (PP-NRS) and were compared using mean difference (MD) with 95% credible intervals (CrI). Safety outcomes were serious adverse events and withdrawal due to adverse events. Other outcomes included the proportion of participants with 50%, 75%, and 90% improvement in EASI (EASI-50, -75, -90) and the proportion with success on the Investigator Global Assessment compared using odds ratios with 95% CrI.\nRESULTS: The study sample included 97 eligible trials, with a total of 24 679 patients. Lebrikizumab was associated with no important difference in change in EASI (MD, -2.0; 95% CrI, -4.5 to 0.3; moderate certainty), POEM (MD, -1.1; 95% CrI -2.5 to 0.2; moderate certainty), DLQI (MD, -0.2; 95% CrI -2.1 to 1.6; moderate certainty), or PP-NRS (MD, 0.1; 95% CrI -0.4, 0.6; high certainty) compared to dupilumab among adults with atopic dermatitis who were treated for up to 16 weeks. Dupilumab was associated with higher odds of efficacy in binary outcomes compared with lebrikizumab. The relative efficacy of other approved systemic medications was similar to that found by previous updates of this living study, with high-dose upadacitinib and abrocitinib demonstrating numerically highest relative efficacy. For safety outcomes, low event rates limited useful comparisons.\nCONCLUSIONS AND RELEVANCE: In this living systematic review and network meta-analysis, lebrikizumab was similarly effective to dupilumab for the short-term treatment of atopic dermatitis in adults. Clinicians and patients can use these comparative data to inform treatment decisions.",
+   "journal": "JAMA dermatology",
+   "year": "2024",
+   "doi": "10.1001/jamadermatol.2024.2192",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39018058/"
+  },
+  {
+   "pmid": "37014106",
+   "title": "JAK inhibitors for rheumatoid arthritis.",
+   "abstract": "INTRODUCTION: JAK (Janus kinase) is a type of non-receptor tyrosine kinase that includes JAK1, JAK2, JAK3, and Tyk2. Currently, there are five JAK inhibitors approved for treating rheumatoid arthritis. These inhibitors vary in their selectivity for different JAK isoforms.\nAREA COVERED: This review outlines the mode of actions and the results of Phase III trials of the JAK inhibitors which have been approved for the treatment of rheumatoid arthritis.\nEXPERT COMMENTARY: JAK inhibitors have the potential to finely tune immunity and inflammation in patients with rheumatoid arthritis. The in vitro data indicates that IL-6 signaling is suppressed by all JAK inhibitors, while tofacitinib exhibits the most extensive suppression of cytokines via the JAK pathway. Peficitinib suppresses common gamma cytokines, and filgotinib suppresses interferon. Furthermore, baricitinib and upadacitinib appear to be inclined toward suppressing interferon and the IL-12 family. Despite their specific target profiles, any of these drugs can inhibit other JAKs if their blood levels surpass a certain threshold. As a result, predicting in vivo selectivity remains a challenging task. JAK inhibitor seems to be a vital treatment option for difficult-to-treat rheumatoid arthritis patients, and it is expected that precision medicine approaches will enhance its effectiveness in the future.",
+   "journal": "Expert opinion on investigational drugs",
+   "year": "2023",
+   "doi": "10.1080/13543784.2023.2199919",
+   "publication_types": [
+    "Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37014106/"
+  },
+  {
+   "pmid": "31642025",
+   "title": "Upadacitinib: First Approval.",
+   "abstract": "Upadacitinib (Rinvoq™), an orally-administered Janus kinase 1 (JAK-1) inhibitor, is being developed by AbbVie for the treatment of rheumatoid arthritis. In August 2019, based on positive results from multinational phase III trials conducted in patients with rheumatoid arthritis, upadacitinib received marketing approval in the USA for the treatment of moderately to severely active rheumatoid arthritis and an inadequate response or intolerance to methotrexate. This article summarizes the milestones in the development of upadacitinib leading to this first approval for the treatment of rheumatoid arthritis.",
+   "journal": "Drugs",
+   "year": "2019",
+   "doi": "10.1007/s40265-019-01211-z",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31642025/"
+  },
+  {
+   "pmid": "38216757",
+   "title": "Efficacy and safety of JAK inhibitors in rheumatoid arthritis: update for the practising clinician.",
+   "abstract": "Janus kinase (JAK) inhibitors, including tofacitinib, baricitinib, upadacitinib and filgotinib, are increasingly used in the treatment of rheumatoid arthritis (RA). There has been debate about their safety, particularly following the issuance of guidance by regulatory agencies advising caution in their use in certain patients. The registrational clinical trials and registry data of JAK inhibitors did not identify a difference in the risk of major adverse cardiovascular events (MACEs), venous thromboembolism, malignancies or infections (other than herpes zoster) with a JAK inhibitor versus a biologic DMARD. In the ORAL Surveillance trial, which enrolled patients >50 years of age with ≥1 cardiovascular risk factor, tofacitinib was statistically inferior to TNF inhibitors for the occurrence of MACEs and malignancy. Further post hoc analysis of the data revealed that an age of ≥65 years, a high baseline cardiovascular risk, a history of smoking, sustained inflammation, disease activity and suboptimal treatment of cardiovascular comorbidities all increase the risk of these outcomes. The guidance issued by regulatory agencies should be carefully considered to ensure appropriate and safe treatment of patients with RA without undertreatment of patients who might benefit from JAK inhibitor, as well as biologic, treatment. As always, the risks associated with the use of these agents, treatment goals, costs and patient preferences should be discussed with the patient.",
+   "journal": "Nature reviews. Rheumatology",
+   "year": "2024",
+   "doi": "10.1038/s41584-023-01062-9",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38216757/"
+  }
+ ]
+}

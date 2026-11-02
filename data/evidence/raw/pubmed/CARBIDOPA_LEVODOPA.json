@@ -1,0 +1,61 @@
+{
+ "drug": "CARBIDOPA\\LEVODOPA",
+ "status": "ok",
+ "query": "\"carbidopa\\levodopa\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:16:34+00:00",
+ "records": [
+  {
+   "pmid": "33924103",
+   "title": "Treatment Options for Motor and Non-Motor Symptoms of Parkinson's Disease.",
+   "abstract": "Parkinson's disease (PD) usually presents in older adults and typically has both motor and non-motor dysfunctions. PD is a progressive neurodegenerative disorder resulting from dopaminergic neuronal cell loss in the mid-brain substantia nigra pars compacta region. Outlined here is an integrative medicine and health strategy that highlights five treatment options for people with Parkinson's (PwP): rehabilitate, therapy, restorative, maintenance, and surgery. Rehabilitating begins following the diagnosis and throughout any additional treatment processes, especially vis-à-vis consulting with physical, occupational, and/or speech pathology therapist(s). Therapy uses daily administration of either the dopamine precursor levodopa (with carbidopa) or a dopamine agonist, compounds that preserve residual dopamine, and other specific motor/non-motor-related compounds. Restorative uses strenuous aerobic exercise programs that can be neuroprotective. Maintenance uses complementary and alternative medicine substances that potentially support and protect the brain microenvironment. Finally, surgery, including deep brain stimulation, is pursued when PwP fail to respond positively to other treatment options. There is currently no cure for PD. In conclusion, the best strategy for treating PD is to hope to slow disorder progression and strive to achieve stability with neuroprotection. The ultimate goal of any management program is to improve the quality-of-life for a person with Parkinson's disease.",
+   "journal": "Biomolecules",
+   "year": "2021",
+   "doi": "10.3390/biom11040612",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33924103/"
+  },
+  {
+   "pmid": "33248395",
+   "title": "Parkinson's disease and skin.",
+   "abstract": "Parkinson's disease is associated with a variety of dermatologic disorders and the study of skin may provide insights into pathophysiological mechanisms underlying this common neurodegenerative disorder. Skin disorders in patients with Parkinson's disease can be divided into two major groups: 1) non-iatrogenic disorders, including melanoma, seborrheic dermatitis, sweating disorders, bullous pemphigoid, and rosacea, and 2) iatrogenic disorders related either to systemic side effects of antiparkinsonian medications or to the delivery system of antiparkinsonian therapy, including primarily carbidopa/levodopa, rotigotine and other dopamine agonists, amantadine, catechol-O-methyl transferase inhibitors, subcutaneous apomorphine, levodopa/carbidopa intestinal gel, and deep brain stimulation. Recent advances in our understanding of the role of α-synuclein in peripheral tissues, including the skin, and research based on induced pluripotent stem cells derived from skin fibroblasts have made skin an important target for the study of Parkinson's disease pathogenesis, drug discovery, novel stem cell therapies, and diagnostics.",
+   "journal": "Parkinsonism & related disorders",
+   "year": "2021",
+   "doi": "10.1016/j.parkreldis.2020.11.017",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33248395/"
+  },
+  {
+   "pmid": "36922273",
+   "title": "Levodopa, homocysteine and Parkinson's disease: What's the problem?",
+   "abstract": "Elevated circulating homocysteine levels have been associated with cognitive impairment and cardio-cerebro-vascular events. Levodopa treatment of Parkinson's disease tends to further elevate circulating homocysteine levels due to the metabolism of levodopa via catechol-O-methyltransferase (COMT). COMT co-factors are vitamins B12, B6 and folic acid. Accumulating deficiencies of these vitamins are presumed to be the substrate for the homocysteine elevation. B-vitamin therapy reduces homocysteine levels. This begs the question of whether Parkinson's disease patients on levodopa should be concurrently treated with ongoing B-vitamin therapy (versus long-term monitoring of B-vitamins/homocysteine). There is a substantial literature on this topic that has accumulated over the last quarter-century, and this topic is still debated. This review summarizes the relevant literature with the aim of approximating closure on this issue. Also, noteworthy is that Parkinson's disease patients with renal insufficiency may not tolerate cyanocobalamin, the standard oral B12 supplement due to facilitation of renal decline; alternatives are discussed.",
+   "journal": "Parkinsonism & related disorders",
+   "year": "2023",
+   "doi": "10.1016/j.parkreldis.2023.105357",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36922273/"
+  },
+  {
+   "pmid": "37493495",
+   "title": "Catechol-O-methyltransferase inhibition with entacapone: Evidence from controlled clinical trials in Parkinson's disease.",
+   "abstract": "Adjunct therapy with the catechol-O-methyltransferase inhibitor entacapone is a first-line approach to treat wearing-off type motor fluctuations in levodopa-treated Parkinson's disease (PD) patients. Five randomized placebo-controlled trials including a total of >1000 patients have established its efficacy, showing increases in ON time between 0.7 and 1.6 h, with corresponding OFF-time reductions. These and other trials also found improvements in ON motor function and quality of life. Additional trials have tested the efficacy of adjunct entacapone in patients either without or with early and mild motor fluctuations and also found enhanced motor control and improved activities of daily living function and quality of life, whereas the STRIDE-PD trial failed to show efficacy of early entacapone use in delaying the onset of dyskinesias. Adjunct entacapone enhances dopaminergic activity and may increase levodopa-induced adverse events like dyskinesias, which can usually be controlled by modest levodopa dose reductions. There is no formal requirement to monitor liver function during entacapone treatment. Entacapone can be a rare cause of lymphocytic colitis with severe diarrhoea and need for treatment discontinuation. In 2003, a triple-combination pill of levodopa, carbidopa, and entacapone (LCE) was first introduced onto the market, and since then proprietary LCE (Stalevo® ) is indicated on the basis of those trials for patients with idiopathic PD to (i) substitute for immediate-release carbidopa/levodopa and entacapone previously administered as individual products or (ii) replace immediate-release carbidopa/levodopa therapy (without entacapone) when patients taking a total daily dose of levodopa of ≤600 mg and not experiencing dyskinesias experience signs and symptoms of end-of-dose wearing off.",
+   "journal": "European journal of neurology",
+   "year": "2023",
+   "doi": "10.1111/ene.15993",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37493495/"
+  }
+ ]
+}

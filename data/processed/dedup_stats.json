@@ -1,0 +1,17 @@
+{
+  "demo_rows_raw": 400514,
+  "distinct_caseids_raw": 400514,
+  "deleted_caseids_listed": 5732,
+  "rows_removed_deleted": 1,
+  "cases_after_dedup": 400513,
+  "rows_removed_older_versions": 0,
+  "probable_duplicates_flagged": 7784,
+  "reaction_rows_raw": 1432926,
+  "cases_rows": 400513,
+  "drugs_rows": 2008161,
+  "reactions_rows": 1414354,
+  "outcomes_rows": 304027,
+  "indications_rows": 1205581,
+  "therapy_rows": 520395,
+  "report_sources_rows": 11033
+}

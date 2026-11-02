@@ -1,0 +1,62 @@
+{
+ "drug": "LAMOTRIGINE",
+ "status": "ok",
+ "query": "\"lamotrigine\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:17:38+00:00",
+ "records": [
+  {
+   "pmid": "33278937",
+   "title": "Bipolar disorders.",
+   "abstract": "Bipolar disorders are a complex group of severe and chronic disorders that includes bipolar I disorder, defined by the presence of a syndromal, manic episode, and bipolar II disorder, defined by the presence of a syndromal, hypomanic episode and a major depressive episode. Bipolar disorders substantially reduce psychosocial functioning and are associated with a loss of approximately 10-20 potential years of life. The mortality gap between populations with bipolar disorders and the general population is principally a result of excess deaths from cardiovascular disease and suicide. Bipolar disorder has a high heritability (approximately 70%). Bipolar disorders share genetic risk alleles with other mental and medical disorders. Bipolar I has a closer genetic association with schizophrenia relative to bipolar II, which has a closer genetic association with major depressive disorder. Although the pathogenesis of bipolar disorders is unknown, implicated processes include disturbances in neuronal-glial plasticity, monoaminergic signalling, inflammatory homoeostasis, cellular metabolic pathways, and mitochondrial function. The high prevalence of childhood maltreatment in people with bipolar disorders and the association between childhood maltreatment and a more complex presentation of bipolar disorder (eg, one including suicidality) highlight the role of adverse environmental exposures on the presentation of bipolar disorders. Although mania defines bipolar I disorder, depressive episodes and symptoms dominate the longitudinal course of, and disproportionately account for morbidity and mortality in, bipolar disorders. Lithium is the gold standard mood-stabilising agent for the treatment of people with bipolar disorders, and has antimanic, antidepressant, and anti-suicide effects. Although antipsychotics are effective in treating mania, few antipsychotics have proven to be effective in bipolar depression. Divalproex and carbamazepine are effective in the treatment of acute mania and lamotrigine is effective at treating and preventing bipolar depression. Antidepressants are widely prescribed for bipolar disorders despite a paucity of compelling evidence for their short-term or long-term efficacy. Moreover, antidepressant prescription in bipolar disorder is associated, in many cases, with mood destabilisation, especially during maintenance treatment. Unfortunately, effective pharmacological treatments for bipolar disorders are not universally available, particularly in low-income and middle-income countries. Targeting medical and psychiatric comorbidity, integrating adjunctive psychosocial treatments, and involving caregivers have been shown to improve health outcomes for people with bipolar disorders. The aim of this Seminar, which is intended mainly for primary care physicians, is to provide an overview of diagnostic, pathogenetic, and treatment considerations in bipolar disorders. Towards the foregoing aim, we review and synthesise evidence on the epidemiology, mechanisms, screening, and treatment of bipolar disorders.",
+   "journal": "Lancet (London, England)",
+   "year": "2020",
+   "doi": "10.1016/S0140-6736(20)31544-0",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33278937/"
+  },
+  {
+   "pmid": "35380580",
+   "title": "Antiseizure Medications for Adults With Epilepsy: A Review.",
+   "abstract": "IMPORTANCE: Epilepsy affects approximately 65 million people worldwide. Persistent seizures are associated with a 20% to 40% risk of bodily injuries (eg, fractures, burns, concussions) over 12-month follow-up. The primary goal of epilepsy treatment is to eliminate seizures while minimizing adverse effects of antiseizure drugs (ASDs).\nOBSERVATIONS: An epileptic seizure is defined as a sudden occurrence of transient signs and symptoms caused by abnormal and excessive or synchronous neuronal activity in the brain. Focal and generalized epilepsy are the 2 most frequent types of epilepsy; diagnosis is based on the type of seizures. There are 26 US Food and Drug Administration-approved medications for epilepsy, of which 24 have similar antiseizure efficacy for focal epilepsy and 9 have similar efficacy for generalized epilepsy. The decision to initiate an ASD should be individualized, but should be strongly considered after 2 unprovoked seizures or after 1 unprovoked seizure that occurred during sleep and/or in the presence of epileptiform activity on an electroencephalogram and/or in the presence of a structural lesion on the brain magnetic resonance imaging. The ASDs must be selected based on the seizure and epilepsy types, the epilepsy syndrome, and the adverse effects associated with the drug. For focal epilepsy, oxcarbazepine and lamotrigine are first-line therapy, while levetiracetam can be also considered if there is no history of psychiatric disorder. For generalized epilepsy, the selection of the ASD is based on the type of epilepsy syndrome and the patient's sex, age, and psychiatric history. Seizure freedom is achieved in approximately 60% to 70% of all patients. A total of 25% to 50% of patients also experience neurologic, psychiatric, cognitive, or medical disorders, such as mood, anxiety, and attention deficit disorders and migraines. For these patients, selecting an ASD should consider the presence of these disorders and concomitant use of medications to treat them. ASDs with cytochrome P450 enzyme-inducing properties (eg, carbamazepine, phenytoin) may worsen comorbid coronary and cerebrovascular disease by causing hyperlipidemia and accelerating the metabolism of concomitant drugs used for their treatment. They can also facilitate the development of osteopenia and osteoporosis.\nCONCLUSIONS AND RELEVANCE: Epilepsy affects approximately 65 million people worldwide and is associated with increased rates of bodily injuries and mortality when not optimally treated. For focal and generalized epilepsy, selection of ASDs should consider the seizure and epilepsy types and epilepsy syndrome, as well as the patient's age and sex, comorbidities, and potential drug interactions.",
+   "journal": "JAMA",
+   "year": "2022",
+   "doi": "10.1001/jama.2022.3880",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35380580/"
+  },
+  {
+   "pmid": "35133310",
+   "title": "Epilepsy and Pregnancy.",
+   "abstract": "PURPOSE OF REVIEW: Seizure disorders are the most frequent major neurologic complication in pregnancy, affecting 0.3% to 0.8% of all gestations. Women of childbearing age with epilepsy require special care related to pregnancy. This article provides up-to-date information to guide practitioners in the management of epilepsy in pregnancy.\nRECENT FINDINGS: Ongoing multicenter pregnancy registries and studies continue to provide important information on issues related to pregnancy in women with epilepsy. Valproate poses a special risk for malformations and cognitive/behavioral impairments. A few antiseizure medications pose low risks (eg, lamotrigine, levetiracetam), but the risks for many antiseizure medications remain uncertain. Although pregnancy rates differ, a prospective study found no difference in fertility rates between women with epilepsy who were attempting to get pregnant and healthy controls. During pregnancy, folic acid supplementation is important, and a dose greater than 400 mcg/d during early pregnancy (ie, first 12 weeks) is associated with better neurodevelopmental outcome in children of women with epilepsy. Breastfeeding is not harmful and should be encouraged in women with epilepsy even when they are on antiseizure medication treatment.\nSUMMARY: Women with epilepsy should be counseled early and regularly about reproductive health. Practitioners should discuss the risks of various obstetric complications; potential anatomic teratogenicity and neurodevelopmental dysfunction related to fetal antiseizure medication exposure; and a plan of care during pregnancy, delivery, and postpartum. Women with epilepsy should also be reassured that the majority of pregnancies are uneventful.",
+   "journal": "Continuum (Minneapolis, Minn.)",
+   "year": "2022",
+   "doi": "10.1212/CON.0000000000001056",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35133310/"
+  },
+  {
+   "pmid": "30131174",
+   "title": "Antidepressants in epilepsy.",
+   "abstract": "People with epilepsy (PWE) frequently suffer from comorbid mood and anxiety disorders. Depression is one of the major psychiatric comorbidities having a negative impact on the quality of life in people with epilepsy. A review of the literature indicates that the majority of antidepressant-related seizures have been associated with either ultra-high doses or overdosing and, generally, the risk of antidepressant-associated seizures is low. Correspondingly, there is some evidence indicating that antidepressants of most widely used groups may additionally lower the risk of triggering seizures. Four antidepressants are not recommended for patients with epilepsy, i.e.: amoxapine, bupropion, clomipramine and maprotiline. Clinicians applying first line of depression treatment in patients with epilepsy should consider use of SSRIs or SNRIs, particularly sertraline, citalopram, mirtazapine, reboxetine, paroxetine, fluoxetine, escitalopram, fluvoxamine, venlafaxine, duloxetine. Implementation of anticonvulsive drugs in depressed patients should include valproate, carbamazepine, lamotrigine, gabapentin, pregabalin. The paper reviews the evidence for the clinical use of antidepressants in PWE.",
+   "journal": "Neurologia i neurochirurgia polska",
+   "year": "2018",
+   "doi": "10.1016/j.pjnns.2018.07.005",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30131174/"
+  }
+ ]
+}

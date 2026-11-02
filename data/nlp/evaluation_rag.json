@@ -1,0 +1,678 @@
+{
+  "created_at": "2026-10-19T16:46:00+00:00",
+  "faq_retrieval": {
+    "status": "ok",
+    "queries": 52,
+    "corpus_size": 131,
+    "corpus": "52 FDA FAQ answers (questions removed) + README/ASC_NTS windows + project notes",
+    "systems": {
+      "bm25": {
+        "n": 52,
+        "recall_at_1": 0.4423,
+        "recall_at_3": 0.6538,
+        "recall_at_5": 0.7115,
+        "recall_at_10": 0.8077,
+        "recall_at_1_95ci": [
+          0.3077,
+          0.5769
+        ],
+        "mrr": 0.5594,
+        "mrr_95ci": [
+          0.4452,
+          0.6757
+        ],
+        "top_score_median": 16.14,
+        "share_top_score_below_abstain_threshold_3": 0.0
+      },
+      "tfidf": {
+        "n": 52,
+        "recall_at_1": 0.5385,
+        "recall_at_3": 0.6923,
+        "recall_at_5": 0.7692,
+        "recall_at_10": 0.8269,
+        "recall_at_1_95ci": [
+          0.3846,
+          0.6731
+        ],
+        "mrr": 0.635,
+        "mrr_95ci": [
+          0.5179,
+          0.7486
+        ]
+      },
+      "random": {
+        "recall_at_1": 0.0076,
+        "recall_at_3": 0.0229,
+        "recall_at_5": 0.0382,
+        "recall_at_10": 0.0763,
+        "mrr": 0.0417,
+        "note": "expected value of a random ranking"
+      }
+    },
+    "paired_difference_tfidf_minus_bm25": {
+      "recall_at_1": {
+        "mean": 0.0962,
+        "95ci": [
+          0.0192,
+          0.1923
+        ]
+      },
+      "mrr": {
+        "mean": 0.0757,
+        "95ci": [
+          0.0237,
+          0.1396
+        ]
+      }
+    },
+    "per_query_bm25": [
+      {
+        "faq": 1,
+        "question": "Why doesn\u2019t FAERS include the ISR number? Why did you introduce the new fields PRIMARYID and CASEVERSION into the Quarterly Data Extract?",
+        "bm25_rank": 14
+      },
+      {
+        "faq": 2,
+        "question": "When I look at a case with multiple versions, I see data only from the latest version. Why is this?",
+        "bm25_rank": 8
+      },
+      {
+        "faq": 3,
+        "question": "Why do we have partial dates now instead of complete dates populated with 01 or 01/01 if partial in a case?",
+        "bm25_rank": 7
+      },
+      {
+        "faq": 4,
+        "question": "In LAERS, verbatim product information appeared in the ASCII file DOSE_VBM field. Why does it appear much less frequently in the FAERS extract?",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 5,
+        "question": "Were any fields removed with the FAERS extracts?",
+        "bm25_rank": 42
+      },
+      {
+        "faq": 6,
+        "question": "Why do I sometimes see large numeric values in the ASCII AGE field?",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 7,
+        "question": "Why is legacy MedDRA data in all upper case, while new MedDRA data is in sentence (mixed) case?",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 8,
+        "question": "Does FDA use a drug dictionary?",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 9,
+        "question": "What are the max field lengths specified in the ASC_NTS.doc based upon?",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 10,
+        "question": "In the ASCII Demo file, why doesn\u2019t FDA use the FOLL_SEQ field anymore?",
+        "bm25_rank": 5
+      },
+      {
+        "faq": 11,
+        "question": "Why are country codes now showing up as abbreviations instead of full text in the ASCII Demo file (for example, \u201cUS\u201d instead of \u201cUnited States\u201d)?",
+        "bm25_rank": 31
+      },
+      {
+        "faq": 12,
+        "question": "How do I determine which drug is the primary suspect product? ---- ------------",
+        "bm25_rank": 2
+      },
+      {
+        "faq": 13,
+        "question": "Why is <occurcounty> tag added to the XML extract and OCCR_COUNTRY field added to the ASCII extract?",
+        "bm25_rank": 3
+      },
+      {
+        "faq": 14,
+        "question": "Why are some of the statistical files Null Counts columns headers modified from how they were being displayed in the past?",
+        "bm25_rank": 3
+      },
+      {
+        "faq": 15,
+        "question": "Why are some of the Report Source data counts lower in FAERS?",
+        "bm25_rank": 2
+      },
+      {
+        "faq": 16,
+        "question": "I am seeing isolated cases where the version does not seem correct. Am I missing data?",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 17,
+        "question": "I\u2019ve noticed in your statistics report of the first FAERS extract (2012 Q4), the percentage of Death cases has increased from approximately 12% to 19%. Why is t",
+        "bm25_rank": 17
+      },
+      {
+        "faq": 18,
+        "question": "I\u2019ve noticed that some Direct cases have a version other than one. This did not occur in the legacy data. What is the reason for this?",
+        "bm25_rank": 89
+      },
+      {
+        "faq": 19,
+        "question": "Why is Null not the predominant choice in the Rechallange statistics report?",
+        "bm25_rank": 55
+      },
+      {
+        "faq": 20,
+        "question": "I\u2019ve noticed a change in the percentage of non-Null values in the TO_MFR field \u2013 why is this?",
+        "bm25_rank": 77
+      },
+      {
+        "faq": 21,
+        "question": "I\u2019ve noticed that the REPORTER_COUNTRY missing count is now showing \u201c0\u201d in the Demo Stat file but in the LAERS Stat file it was never \u201c0\u201d \u2013 why is this?",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 22,
+        "question": "I noticed that you are using \u201cCountry Not Specified\u201d in the Reporter Country field but are not using \u201cNot Specified\u201d for other fields that are unknown \u2013 why is ",
+        "bm25_rank": 9
+      },
+      {
+        "faq": 23,
+        "question": "In the NDA field, I noticed that the numbers \u201c999999\u201d are sometimes present \u2013 why is this?",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 24,
+        "question": "I\u2019ve noted that in the first FAERS extract (2012 Q4), case numbers 7334857, 8791047, 9300033 have an entry in the Drug file that has no drug name - why is this?",
+        "bm25_rank": 88
+      },
+      {
+        "faq": 25,
+        "question": "How do I know what version of MedDRA that an individual extract is based on?",
+        "bm25_rank": 8
+      },
+      {
+        "faq": 26,
+        "question": "In the first FAERS XML extract (2012 Q4), the <reporttype> tag was not filled in 100% of the time as it was in AERS \u2013 why is this? A.1.4 reporttype Type of repo",
+        "bm25_rank": 121
+      },
+      {
+        "faq": 27,
+        "question": "The first FAERS XML extract (2012 Q4), contained invalid MedDRA terms in the indications field \u2013 why is this?",
+        "bm25_rank": 2
+      },
+      {
+        "faq": 28,
+        "question": "I had some trouble processing the first FAERS extract (2012 Q4) because some of the data fields contained special characters.",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 29,
+        "question": "I am seeing a few duplicate records between your 2012 Q4 and 2013 Q1 extracts, case and version number are identical in these records. What should I do with the",
+        "bm25_rank": 8
+      },
+      {
+        "faq": 30,
+        "question": "I have found cases with no Primary Suspect (ROLE_COD=PS) product within the DRUG ASCII file of the QDE \u2013 why is this?",
+        "bm25_rank": 2
+      },
+      {
+        "faq": 31,
+        "question": "How does FAERS link different versions of a case together and are there any exceptions that I have to think about when creating a database or querying the data?",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 32,
+        "question": "Does the FDA provide support for software used to import the QDE data for analysis? After importing the QDE data, why are some of the variables/fields blank?",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 33,
+        "question": "In the 2014Q2 extract the number of cases outside the Q2 extract period seems larger than normal \u2013 why is this?",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 34,
+        "question": "The Demographics (DEMO) file contains the date the adverse event occurred or began (EVENT_DT). Will the FDA provide this information in the XML file?",
+        "bm25_rank": 4
+      },
+      {
+        "faq": 35,
+        "question": "In the 2014Q3 extract new fields and tags were added, will the FDA provide these tags/fields for the previous FAERS extracts?",
+        "bm25_rank": 104
+      },
+      {
+        "faq": 36,
+        "question": "In the 2014Q3 extract, the XML tag for <narrativeincludeclinical> containing the CASE EVENT DATE was added. In a case where several drugs and reactions are prov",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 37,
+        "question": "Could you provide more information about the new field for Drug Recur Action (DRUG_REC_ACT) in the Event file populated with the Reaction/Event information? A. ",
+        "bm25_rank": 3
+      },
+      {
+        "faq": 41,
+        "question": "I noticed the counts for Dechallenge in this Extract (2016 Q3) is different than past Quarterly Data Extracts? Also, what are the meanings of the Dechallenge va",
+        "bm25_rank": 3
+      },
+      {
+        "faq": 42,
+        "question": "I noticed that in some 2016 and 2017 quarters the total number of records in the physical file does not exactly match the total number of records from the pdf r",
+        "bm25_rank": 2
+      },
+      {
+        "faq": 43,
+        "question": "I noticed that in some of the quarters the total number of records in the physical file does not exactly match the total number of records from the pdf report o",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 44,
+        "question": "As of 2019 Quarter one there is a new text file that lists deleted files. What is this used for?",
+        "bm25_rank": 3
+      },
+      {
+        "faq": 45,
+        "question": "In Q1 2020, the Med Watch Online Form has added new reporter occupation values that can be reported. How are these new reporter occupation values accounted for ",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 46,
+        "question": "Starting in 2021 Q4 extract it seems that DUR and DUR_CODE values have increased. Why is this?",
+        "bm25_rank": 3
+      },
+      {
+        "faq": 47,
+        "question": "In the Indication .pdf report, why does the \u201cTotal Count of Drugs\u201d not equal the sum of \u201cTotal Count of Indications\u201d and \u201cMissing Count\u201d?",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 48,
+        "question": "In the .pdf Drug file, the percentages for Routes have changed. Why is this?",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 49,
+        "question": "In the .pdf Drug file, the percentages for VAL_VBM have changed. Why is this?",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 50,
+        "question": "The total number of records in 2021 Q4 is lower than expected. W hy is this?",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 51,
+        "question": "We used to see negative ages in unborn patients. These cases are now showing zero instead of a negative number. Why is this?",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 52,
+        "question": "Why am I seeing more than one drug record for a given sequence number (i.e., drug_seq_no) for some of the products listed in the ASCII Drug file for Direct repo",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 53,
+        "question": "Why am I seeing the same data in the \u2018DRUGNAME\u2019 and \u2018PROD_AI\u2019 fields for some product types?",
+        "bm25_rank": 1
+      },
+      {
+        "faq": 54,
+        "question": "I have sent in a study report to FDA and it doesn\u2019t appear to be showing up in QDE files. Why is this?",
+        "bm25_rank": 4
+      },
+      {
+        "faq": 55,
+        "question": "Up until the 2024Q2 QDE XML extract, the extract displayed <sendertype> tag with value of 6 (6=Other) and the default value \u201cFDA-Public Use\u201d for the A.3.1.2 <se",
+        "bm25_rank": 1
+      }
+    ]
+  },
+  "reaction_linking": {
+    "status": "ok",
+    "queries": 427,
+    "dev": 128,
+    "test": 299,
+    "test_definition_without_term": 297,
+    "candidates": 12678,
+    "systems": {
+      "sapbert": {
+        "status": "ok",
+        "chosen_variant": "sapbert_stripped_64tok",
+        "dev_mrr_by_variant": {
+          "sapbert_full_25tok": 0.5571,
+          "sapbert_stripped_25tok": 0.5704,
+          "sapbert_stripped_64tok": 0.602
+        },
+        "test": {
+          "n": 299,
+          "recall_at_1": 0.4783,
+          "recall_at_3": 0.6722,
+          "recall_at_5": 0.7726,
+          "recall_at_10": 0.8562,
+          "recall_at_1_95ci": [
+            0.4214,
+            0.5351
+          ],
+          "mrr": 0.6068,
+          "mrr_95ci": [
+            0.5641,
+            0.6512
+          ]
+        },
+        "test_definition_without_term": {
+          "n": 297,
+          "recall_at_1": 0.4815,
+          "recall_at_3": 0.6768,
+          "recall_at_5": 0.7778,
+          "recall_at_10": 0.8586,
+          "recall_at_1_95ci": [
+            0.4242,
+            0.5354
+          ],
+          "mrr": 0.6103,
+          "mrr_95ci": [
+            0.5658,
+            0.6551
+          ]
+        },
+        "at_production_threshold": {
+          "threshold": 0.7,
+          "dev_coverage": 0.6797,
+          "dev_precision_at_1_when_accepted": 0.6092,
+          "test_coverage": 0.7492,
+          "test_precision_at_1_when_accepted": 0.5848,
+          "note": "Definitions are long and formal; production queries are short phrases, whose similarities are higher."
+        }
+      },
+      "tfidf_char": {
+        "status": "ok",
+        "chosen_variant": "tfidf_char_stripped",
+        "dev_mrr_by_variant": {
+          "tfidf_char_full": 0.1534,
+          "tfidf_char_stripped": 0.1726
+        },
+        "test": {
+          "n": 299,
+          "recall_at_1": 0.1171,
+          "recall_at_3": 0.1906,
+          "recall_at_5": 0.2241,
+          "recall_at_10": 0.2709,
+          "recall_at_1_95ci": [
+            0.0836,
+            0.1572
+          ],
+          "mrr": 0.1727,
+          "mrr_95ci": [
+            0.1391,
+            0.2122
+          ]
+        },
+        "test_definition_without_term": {
+          "n": 297,
+          "recall_at_1": 0.1145,
+          "recall_at_3": 0.1852,
+          "recall_at_5": 0.2189,
+          "recall_at_10": 0.266,
+          "recall_at_1_95ci": [
+            0.0774,
+            0.1515
+          ],
+          "mrr": 0.1693,
+          "mrr_95ci": [
+            0.133,
+            0.2064
+          ]
+        }
+      },
+      "bm25_word": {
+        "status": "ok",
+        "chosen_variant": "bm25_word_stripped",
+        "dev_mrr_by_variant": {
+          "bm25_word_stripped": 0.1605
+        },
+        "test": {
+          "n": 299,
+          "recall_at_1": 0.1237,
+          "recall_at_3": 0.1973,
+          "recall_at_5": 0.2308,
+          "recall_at_10": 0.291,
+          "recall_at_1_95ci": [
+            0.087,
+            0.1639
+          ],
+          "mrr": 0.1766,
+          "mrr_95ci": [
+            0.1416,
+            0.2174
+          ]
+        },
+        "test_definition_without_term": {
+          "n": 297,
+          "recall_at_1": 0.1212,
+          "recall_at_3": 0.1919,
+          "recall_at_5": 0.2256,
+          "recall_at_10": 0.2862,
+          "recall_at_1_95ci": [
+            0.0842,
+            0.1582
+          ],
+          "mrr": 0.1733,
+          "mrr_95ci": [
+            0.1367,
+            0.2109
+          ]
+        }
+      }
+    },
+    "examples_test": [
+      {
+        "definition": "A disorder characterized by laboratory test results that indicate an increased number of eosinophils in the blood.",
+        "gold": "Eosinophilia",
+        "sapbert_top1": "Eosinophil count abnormal",
+        "rank": 2.0
+      },
+      {
+        "definition": "A disorder characterized by laboratory test results that indicate an increased number of white blood cells in the blood.",
+        "gold": "Leukocytosis",
+        "sapbert_top1": "White blood cell count increased",
+        "rank": 6.0
+      },
+      {
+        "definition": "A disorder characterized by a sensation of marked discomfort in a lymph node.",
+        "gold": "Lymph node pain",
+        "sapbert_top1": "Lymph node pain",
+        "rank": 1.0
+      },
+      {
+        "definition": "A disorder characterized by the presence of microangiopathic hemolytic anemia, thrombocytopenic purpura, fever, renal abnormalities and neurological abnormaliti",
+        "gold": "Thrombotic thrombocytopenic purpura",
+        "sapbert_top1": "Haemangioma-thrombocytopenia syndrome",
+        "rank": 65.0
+      },
+      {
+        "definition": "A disorder characterized by a defect in aortic valve function or structure.",
+        "gold": "Aortic valve disease",
+        "sapbert_top1": "Aortic valve disease",
+        "rank": 1.0
+      },
+      {
+        "definition": "A disorder characterized by a dysrhythmia without discernible P waves and an irregular ventricular response due to multiple reentry circuits. The rhythm disturb",
+        "gold": "Atrial fibrillation",
+        "sapbert_top1": "Atrial escape rhythm",
+        "rank": 463.0
+      },
+      {
+        "definition": "A disorder characterized by a dysrhythmia with complete failure of atrial electrical impulse conduction through the AV node to the ventricles.",
+        "gold": "Atrioventricular block complete",
+        "sapbert_top1": "Atrioventricular block complete",
+        "rank": 1.0
+      },
+      {
+        "definition": "A disorder characterized by a dysrhythmia with a delay in the time required for the conduction of an electrical impulse through the atrioventricular (AV) node b",
+        "gold": "Atrioventricular block first degree",
+        "sapbert_top1": "Atrioventricular node dysfunction",
+        "rank": 20.0
+      },
+      {
+        "definition": "A disorder characterized by cessation of the pumping function of the heart.",
+        "gold": "Cardiac arrest",
+        "sapbert_top1": "Cardiac contractility decreased",
+        "rank": 5.0
+      },
+      {
+        "definition": "A disorder characterized by pathological irregularities in the cardiac conduction system.",
+        "gold": "Conduction disorder",
+        "sapbert_top1": "Conduction disorder",
+        "rank": 1.0
+      },
+      {
+        "definition": "A disorder characterized by a bluish discoloration of the skin and/or mucous membranes.",
+        "gold": "Cyanosis",
+        "sapbert_top1": "Skin discolouration",
+        "rank": 9.0
+      },
+      {
+        "definition": "A disorder characterized by a defect in mitral valve function or structure.",
+        "gold": "Mitral valve disease",
+        "sapbert_top1": "Mitral valve disease",
+        "rank": 1.0
+      }
+    ],
+    "protocol": {
+      "seed": 42,
+      "dev_fraction": 0.3,
+      "selection": "input variant with best dev MRR per family"
+    }
+  },
+  "end_to_end": {
+    "status": "ok",
+    "pairs_sampled": 150,
+    "questions": 805,
+    "exact_retrieval_generic_templates": 0.9933,
+    "exact_retrieval_95ci": [
+      0.9867,
+      0.9987
+    ],
+    "per_template": {
+      "is_associated": {
+        "n": 150,
+        "exact_retrieval": 0.9933,
+        "95ci": [
+          0.9733,
+          1.0
+        ]
+      },
+      "bare_pair": {
+        "n": 150,
+        "exact_retrieval": 0.9933,
+        "95ci": [
+          0.9733,
+          1.0
+        ]
+      },
+      "does_cause_lower": {
+        "n": 150,
+        "exact_retrieval": 0.9933,
+        "95ci": [
+          0.9733,
+          1.0
+        ]
+      },
+      "signal_for": {
+        "n": 150,
+        "exact_retrieval": 0.9933,
+        "95ci": [
+          0.9733,
+          1.0
+        ]
+      },
+      "reports_of": {
+        "n": 150,
+        "exact_retrieval": 0.9933,
+        "95ci": [
+          0.9733,
+          1.0
+        ]
+      },
+      "brand_alias": {
+        "n": 55,
+        "exact_retrieval": 1.0,
+        "95ci": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "failure_reasons": {
+      "drug not linked": 5
+    },
+    "failure_examples": [
+      {
+        "template": "is_associated",
+        "question": "Is PLACEBO associated with Drug ineffective?",
+        "reason": "drug not linked",
+        "linked_drugs": [],
+        "linked_terms": [
+          "drug ineffective",
+          "accidental use of placebo"
+        ]
+      },
+      {
+        "template": "bare_pair",
+        "question": "PLACEBO Drug ineffective",
+        "reason": "drug not linked",
+        "linked_drugs": [],
+        "linked_terms": [
+          "drug ineffective"
+        ]
+      },
+      {
+        "template": "does_cause_lower",
+        "question": "does placebo cause drug ineffective",
+        "reason": "drug not linked",
+        "linked_drugs": [],
+        "linked_terms": [
+          "drug ineffective",
+          "accidental use of placebo"
+        ]
+      },
+      {
+        "template": "signal_for",
+        "question": "Is there a signal for Drug ineffective with PLACEBO?",
+        "reason": "drug not linked",
+        "linked_drugs": [],
+        "linked_terms": [
+          "drug ineffective",
+          "accidental use of placebo"
+        ]
+      },
+      {
+        "template": "reports_of",
+        "question": "Any reports of drug ineffective in patients taking placebo?",
+        "reason": "drug not linked",
+        "linked_drugs": [],
+        "linked_terms": [
+          "drug ineffective",
+          "accidental use of placebo"
+        ]
+      }
+    ],
+    "answered": 805,
+    "deterministic_answers_passing_grounding_check": 1.0,
+    "mean_latency_ms": 116.5,
+    "link_mode": "neural",
+    "note": "Templated questions built from real (drug, PT) pairs; tests parsing+retrieval, not clinical truth. Brand aliases are learnt from the same FAERS data, so that row is a consistency check."
+  },
+  "generator": {
+    "status": "not_evaluated",
+    "reason": "No generative model weights were available when this evaluation was run; only the verifier is unit-tested. Generated summaries, if enabled, are unevaluated."
+  },
+  "caveats": [
+    "The FAQ benchmark has 52 questions; confidence intervals are wide.",
+    "CTCAE definitions are formal NCI text, not patient language; they are a conservative proxy for linking.",
+    "Templated end-to-end questions use exact or lower-cased vocabulary terms; real questions are messier.",
+    "No metric here measures clinical correctness; the statistics themselves are validated separately."
+  ],
+  "duration_seconds": 158.1
+}

@@ -1,0 +1,63 @@
+{
+ "drug": "VENETOCLAX",
+ "status": "ok",
+ "query": "\"venetoclax\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:16:45+00:00",
+ "records": [
+  {
+   "pmid": "39316723",
+   "title": "How I treat patients with AML using azacitidine and venetoclax.",
+   "abstract": "Venetoclax (VEN) received full approval in October 2020 for use in older patients who are unfit with acute myeloid leukemia (AML) combined with either hypomethylating agents or low-dose cytarabine. This ended a semicentennial of stalled clinical progress and initiated a new treatment option with proven capacity to enhance response and prolong survival in older patients with AML. Despite widespread use of azacitidine-VEN (AZA-VEN), there is increasing appreciation that this regimen is myelosuppressive and associated with a higher risk of infectious complications than AZA alone. Key principles of initial management include prevention of tumor lysis syndrome in patients at high risk and minimizing infectious complications during induction. In the postremission phase, limiting cumulative marrow suppression by allowing sufficient time between cycles for optimal marrow recovery and truncating the duration of VEN exposure for those with delayed blood count recovery have emerged as important axioms of effective care. This article casts a clinical spotlight on important challenges and dilemmas encountered in practice. We also outline a structured framework to assist in the safe management of AZA-VEN in the clinic.",
+   "journal": "Blood",
+   "year": "2025",
+   "doi": "10.1182/blood.2024024009",
+   "publication_types": [
+    "Journal Article",
+    "Case Reports",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39316723/"
+  },
+  {
+   "pmid": "36943212",
+   "title": "Diagnosis and Treatment of Chronic Lymphocytic Leukemia: A Review.",
+   "abstract": "IMPORTANCE: Chronic lymphocytic leukemia (CLL), defined by a minimum of 5 × 109/L monoclonal B cells in the blood, affects more than 200 000 people and is associated with approximately 4410 deaths in the US annually. CLL is associated with an immunocompromised state and an increased rate of complications from infections.\nOBSERVATIONS: At the time of diagnosis, the median age of patients with CLL is 70 years, and an estimated 95% of patients have at least 1 medical comorbidity. Approximately 70% to 80% of patients with CLL are asymptomatic at the time of diagnosis, and one-third will never require treatment for CLL. Prognostic models have been developed to estimate the time to first treatment and the overall survival, but for patients who are asymptomatic, irrespective of disease risk category, clinical observation is the standard of care. Patients with symptomatic disease who have bulky or progressive lymphadenopathy or hepatosplenomegaly and those with a low neutrophil count, anemia, or thrombocytopenia and/or symptoms of fever, drenching night sweats, and weight loss (B symptoms) should be offered treatment. For these patients, first-line treatment consists of a regimen containing either a covalent Bruton tyrosine kinase (BTK) inhibitor (acalabrutinib, zanubrutinib, or ibrutinib) or a B-cell leukemia/lymphoma 2 (BCL2) inhibitor (venetoclax). There is no evidence that starting either class before the other improves outcomes. The covalent BTK inhibitors are typically used indefinitely. Survival rates are approximately 88% at 4 years for acalabrutinib, 94% at 2 years for zanubrutinib, and 78% at 7 years for ibrutinib. Venetoclax is prescribed in combination with obinutuzumab, a monoclonal anti-CD20 antibody, in first-line treatment for 1 year (overall survival, 82% at 5-year follow-up). A noncovalent BTK inhibitor, pitobrutinib, has shown an overall response rate of more than 70% after failure of covalent BTK inhibitors and venetoclax. Phosphoinositide 3'-kinase (PI3K) inhibitors (idelalisib and duvelisib) can be prescribed for disease that progresses with BTK inhibitors and venetoclax, but patients require close monitoring for adverse events such as autoimmune conditions and infections. In patients with multiple relapses, chimeric antigen receptor T-cell (CAR-T) therapy with lisocabtagene maraleucel was associated with a 45% complete response rate. The only potential cure for CLL is allogeneic hematopoietic cell transplant, which remains an option after use of targeted agents.\nCONCLUSIONS AND RELEVANCE: More than 200 000 people in the US are living with a CLL diagnosis, and CLL causes approximately 4410 deaths each year in the US. Approximately two-thirds of patients eventually need treatment. Highly effective novel targeted agents include BTK inhibitors such as acalabrutinib, zanubrutinib, ibrutinib, and pirtobrutinib or BCL2 inhibitors such as venetoclax.",
+   "journal": "JAMA",
+   "year": "2023",
+   "doi": "10.1001/jama.2023.1946",
+   "publication_types": [
+    "Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36943212/"
+  },
+  {
+   "pmid": "38701350",
+   "title": "Venetoclax: a new player in the treatment of children with high-risk myeloid malignancies?",
+   "abstract": "Venetoclax selectively inhibits B-cell lymphoma 2 (BCL-2) and restores apoptotic signaling of hematologic malignant cells. Venetoclax, in combination with hypomethylating and low-dose cytotoxic agents, has revolutionized the management of older patients affected by acute myeloid leukemia (AML) and that of patients unfit to receive intensive chemotherapy. In a single phase 1 pediatric trial conducted on relapsed or refractory AML, the combination of venetoclax and intensive chemotherapy was shown to be safe and yielded promising response rates. In addition, several retrospective studies in children with AML reported that venetoclax, when combined with hypomethylating agents and cytotoxic drugs, seems to be a safe and efficacious bridge to transplant. The promising results on the use of venetoclax combinations in advanced myelodysplastic syndromes (MDS) and therapy-related MDS/AML have also been reported in small case series. This review summarizes the available current knowledge about venetoclax use in childhood high-risk myeloid neoplasms and discusses the possible integration of BCL-2 inhibition in the current treatment algorithm of these children. It also focuses on specific genetic subgroups potentially associated with response in preclinical and clinical studies.",
+   "journal": "Blood advances",
+   "year": "2024",
+   "doi": "10.1182/bloodadvances.2023012041",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38701350/"
+  },
+  {
+   "pmid": "35838162",
+   "title": "Guidelines for non-transplant chemotherapy for treatment of systemic AL amyloidosis: EHA-ISA working group.",
+   "abstract": "BACKGROUND: This guideline has been developed jointly by the European Society of Haematology and International Society of Amyloidosis recommending non-transplant chemotherapy treatment for patients with AL amyloidosis.\nMETHODS: A review of literature and grading of evidence as well as expert recommendations by the ESH and ISA guideline committees.\nRESULTS AND CONCLUSIONS: The recommendations of this committee suggest that treatment follows the clinical presentation which determines treatment tolerance tempered by potential side effects to select and modify use of drugs in AL amyloidosis. All patients with AL amyloidosis should be considered for clinical trials where available. Daratumumab-VCD is recommended from most untreated patients (VCD or VMDex if daratumumab is unavailable). At relapse, the two guiding principles are the depth and duration of initial response, use of a class of agents not previously exposed as well as the limitation imposed by patients' fitness/frailty and end organ damage. Targeted agents like venetoclax need urgent prospective evaluation. Future prospective trials should include advanced stage patients to allow for evidence-based treatment decisions. Therapies targeting amyloid fibrils or those reducing the proteotoxicity of amyloidogenic light chains/oligomers are urgently needed.",
+   "journal": "Amyloid : the international journal of experimental and clinical investigation : the official journal of the International Society of Amyloidosis",
+   "year": "2023",
+   "doi": "10.1080/13506129.2022.2093635",
+   "publication_types": [
+    "Guideline",
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35838162/"
+  }
+ ]
+}

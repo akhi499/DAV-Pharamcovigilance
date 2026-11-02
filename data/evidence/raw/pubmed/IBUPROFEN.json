@@ -1,0 +1,60 @@
+{
+ "drug": "IBUPROFEN",
+ "status": "ok",
+ "query": "\"ibuprofen\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:16:44+00:00",
+ "records": [
+  {
+   "pmid": "39466269",
+   "title": "Peptic Ulcer Disease: A Review.",
+   "abstract": "IMPORTANCE: In the US, peptic ulcer disease affects 1% of the population and approximately 54 000 patients are admitted to the hospital annually for bleeding peptic ulcers.\nOBSERVATIONS: Approximately 10% of patients presenting with upper abdominal pain in a primary care setting have a peptic ulcer as the cause of their symptoms. The principal causes of peptic ulcer disease are Helicobacter pylori infection, which affects approximately 42% of patients with peptic ulcer disease, and aspirin or nonsteroidal anti-inflammatory drug (NSAID) use, which are etiologic factors in approximately 36% of people with peptic ulcer disease. Complications of peptic ulcer include bleeding (73% of patients), perforation (9% of patients), and pyloric obstruction (3% of patients). Annually, 10 000 people die of peptic ulcer disease in the US. Endoscopy definitively diagnoses peptic ulcer disease. Acid blockers, such as omeprazole, can heal peptic ulcers in approximately 80% to 100% of patients within 4 weeks, but gastric ulcers larger than 2 cm may require 8 weeks of treatment. Eradication of H pylori decreases peptic ulcer recurrence rates from approximately 50% to 60% to 0% to 2%. Discontinuing NSAIDs heals 95% of ulcers identified on endoscopy and reduces recurrence from 40% to 9%. When discontinuing an NSAID is not desirable, changing the NSAID (eg, from ketorolac to ibuprofen), adding a proton pump inhibitor such as omeprazole or lansoprazole, and eradicating H pylori with treatment such as bismuth, metronidazole, and tetracycline combined with omeprazole can reduce recurrence rates.\nCONCLUSIONS AND RELEVANCE: Peptic ulcer disease is associated with increased hospitalization rates and mortality. Acid blocking with proton pump inhibitors, such as omeprazole or lansoprazole, is the primary treatment. Recurrence of ulcers can be prevented by eradicating H pylori if present and discontinuing aspirin or NSAIDs if applicable.",
+   "journal": "JAMA",
+   "year": "2024",
+   "doi": "10.1001/jama.2024.19094",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39466269/"
+  },
+  {
+   "pmid": "36065676",
+   "title": "Clinical pharmacology of antiplatelet drugs.",
+   "abstract": "INTRODUCTION: Platelets play a key role in arterial thrombosis and antiplatelet therapy is pivotal in the treatment of cardiovascular disease. Current antiplatelet drugs target different pathways of platelet activation and show specific pharmacodynamic and pharmacokinetic characteristics, implicating clinically relevant drug-drug interactions.\nAREAS COVERED: This article reviews the role of platelets in hemostasis and cardiovascular thrombosis, and discusses the key pharmacodynamics, drug-drug interactions and reversal strategies of clinically used antiplatelet drugs.\nEXPERT OPINION: Antiplatelet therapies target distinct pathways of platelet activation: thromboxane A2 synthesis, adenosine diphosphate-mediated signaling, integrin αIIbβ3 (GPIIb/IIIa), thrombin-mediated platelet activation via the PAR1 receptor and phosphodiesterases. Key clinical drug-drug interactions of antiplatelet agents involve acetylsalicylic acid - ibuprofen, clopidogrel - omeprazole, and morphine - oral P2Y12 inhibitors, all of which lead to an attenuated antiplatelet effect. Platelet function and genetic testing and the use of scores (ARC-HBR, PRECISE-DAPT, ESC ischemic risk definition) may contribute to a more tailored antiplatelet therapy. High on-treatment platelet reactivity presents a key problem in the acute management of ST-elevation myocardial infarction (STEMI). A treatment strategy involving early initiation of an intravenous antiplatelet agent may be able to bridge the gap of insufficient platelet inhibition in high ischemic risk patients with STEMI.",
+   "journal": "Expert review of clinical pharmacology",
+   "year": "2022",
+   "doi": "10.1080/17512433.2022.2121702",
+   "publication_types": [
+    "Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36065676/"
+  },
+  {
+   "pmid": "29766368",
+   "title": "Systemic Contact Dermatitis.",
+   "abstract": "Systemic contact dermatitis (SCD) traditionally refers to a skin condition where an individual who is cutaneously sensitized to an allergen will subsequently react to that same allergen or a cross reacting allergen via a different route. It occurs to allergens including metals, medications, and foods. The exact pathophysiology underlying this disease remains unknown, although it appears to be mediated by type 4 hypersensitivity reactions and possibly type 3 hypersensitivity reactions. The p-I concept (pharmacologic interaction with immunoreceptors) hypothesized that drugs are able to bind directly to a T cell receptor without first being presented by MHC (major histocompatibility complex) molecules and without prior metabolism, which would help explain why SCD can be seen on first exposure to medications. Nomenclature remains a challenge as SCD can be subcategorized using terms such as ACDS (allergic contact dermatitis syndrome) and its four clinical stages, Baboon syndrome, and SDRIFE (symmetrical drug-related intertriginous and flexural exanthema), which share many overlapping features. Food allergens may be responsible for uncontrolled or persistent symptoms in patients with contact dermatitis who do not respond to topical avoidance. With medications, symptoms may be induced by topical application versus systemic administration. Patch testing (PT) may be beneficial in diagnosing SCD caused by metals and many topical medications including corticosteroids, antimicrobials (ampicillin, bacitracin, erythromycin, neomycin, nystatin), NSAIDs (diclofenac, ibuprofen), anesthetics, and antihistamines (chlorphenamine, piperazine). Current treatment options include topical steroids and oral antihistamines for symptom relief and dietary avoidance to causative foods or metals.",
+   "journal": "Clinical reviews in allergy & immunology",
+   "year": "2019",
+   "doi": "10.1007/s12016-018-8686-z",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29766368/"
+  },
+  {
+   "pmid": "36903343",
+   "title": "Ibuprofen: Toxicology and Biodegradation of an Emerging Contaminant.",
+   "abstract": "The anti-inflammatory drug ibuprofen is considered to be an emerging contaminant because of its presence in different environments (from water bodies to soils) at concentrations with adverse effects on aquatic organisms due to cytotoxic and genotoxic damage, high oxidative cell stress, and detrimental effects on growth, reproduction, and behavior. Because of its high human consumption rate and low environmental degradation rate, ibuprofen represents an emerging environmental problem. Ibuprofen enters the environment from different sources and accumulates in natural environmental matrices. The problem of drugs, particularly ibuprofen, as contaminants is complicated because few strategies consider them or apply successful technologies to remove them in a controlled and efficient manner. In several countries, ibuprofen's entry into the environment is an unattended contamination problem. It is a concern for our environmental health system that requires more attention. Due to its physicochemical characteristics, ibuprofen degradation is difficult in the environment or by microorganisms. There are experimental studies that are currently focused on the problem of drugs as potential environmental contaminants. However, these studies are insufficient to address this ecological issue worldwide. This review focuses on deepening and updating the information concerning ibuprofen as a potential emerging environmental contaminant and the potential for using bacteria for its biodegradation as an alternative technology.",
+   "journal": "Molecules (Basel, Switzerland)",
+   "year": "2023",
+   "doi": "10.3390/molecules28052097",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36903343/"
+  }
+ ]
+}

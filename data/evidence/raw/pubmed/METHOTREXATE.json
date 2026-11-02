@@ -1,0 +1,62 @@
+{
+ "drug": "METHOTREXATE",
+ "status": "ok",
+ "query": "\"methotrexate\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T04:59:14+00:00",
+ "records": [
+  {
+   "pmid": "27496039",
+   "title": "Preventing and Managing Toxicities of High-Dose Methotrexate.",
+   "abstract": "UNLABELLED: : High-dose methotrexate (HDMTX), defined as a dose higher than 500 mg/m2, is used to treat a range of adult and childhood cancers. Although HDMTX is safely administered to most patients, it can cause significant toxicity, including acute kidney injury (AKI) in 2%-12% of patients. Nephrotoxicity results from crystallization of methotrexate in the renal tubular lumen, leading to tubular toxicity. AKI and other toxicities of high-dose methotrexate can lead to significant morbidity, treatment delays, and diminished renal function. Risk factors for methotrexate-associated toxicity include a history of renal dysfunction, volume depletion, acidic urine, and drug interactions. Renal toxicity leads to impaired methotrexate clearance and prolonged exposure to toxic concentrations, which further worsen renal function and exacerbate nonrenal adverse events, including myelosuppression, mucositis, dermatologic toxicity, and hepatotoxicity. Serum creatinine, urine output, and serum methotrexate concentration are monitored to assess renal clearance, with concurrent hydration, urinary alkalinization, and leucovorin rescue to prevent and mitigate AKI and subsequent toxicity. When delayed methotrexate excretion or AKI occurs despite preventive strategies, increased hydration, high-dose leucovorin, and glucarpidase are usually sufficient to allow renal recovery without the need for dialysis. Prompt recognition and effective treatment of AKI and associated toxicities mitigate further toxicity, facilitate renal recovery, and permit patients to receive other chemotherapy or resume HDMTX therapy when additional courses are indicated.\nIMPLICATIONS FOR PRACTICE: High-dose methotrexate (HDMTX), defined as a dose higher than 500 mg/m2, is used for a range of cancers. Although HDMTX is safely administered to most patients, it can cause significant toxicity, including acute kidney injury (AKI), attributable to crystallization of methotrexate in the renal tubular lumen, leading to tubular toxicity. When AKI occurs despite preventive strategies, increased hydration, high-dose leucovorin, and glucarpidase allow renal recovery without the need for dialysis. This article, based on a review of the current associated literature, provides comprehensive recommendations for prevention of toxicity and, when necessary, detailed treatment guidance to mitigate AKI and subsequent toxicity.",
+   "journal": "The oncologist",
+   "year": "2016",
+   "doi": "10.1634/theoncologist.2015-0164",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27496039/"
+  },
+  {
+   "pmid": "31939540",
+   "title": "Drug-induced nephrotoxicity.",
+   "abstract": "Acute kidney injury is a very common diagnosis, present in up to 60% of critical patients, and its third main cause is drug toxicity. Nephrotoxicity can be defined as any renal injury caused directly or indirectly by medications, with acute renal failure, tubulopathies, and glomerulopathies as common clinical presentations. Some examples of drugs commonly associated with the acute reduction of glomerular filtration rate are anti-inflammatories, antibiotics, such as vancomycin and aminoglycosides, and chemotherapeutic agents, such as cisplatin and methotrexate. Cases of tubulopathy are very common with amphotericin B, polymyxins, and tenofovir, and cases of glomerulopathies are common with VEGF inhibitors, bisphosphonates, and immunotherapy, and it is also common to have more than one clinical presentation related to a single agent. Early diagnosis is essential for the good evolution of the patient, with a reduction of renal exposure to the toxic agent, which requires knowing the risk factors and biomarkers. General measures such as correcting hydroelectrolytic disorders and hypovolemia, monitoring the serum level, avoiding combinations with the synergy of renal injury, and looking for similar options that are less toxic are the foundations for the treatment of complications that are still common and often preventable.",
+   "journal": "Revista da Associacao Medica Brasileira (1992)",
+   "year": "2020",
+   "doi": "10.1590/1806-9282.66.S1.82",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31939540/"
+  },
+  {
+   "pmid": "39392455",
+   "title": "Methotrexate polyglutamates.",
+   "abstract": "INTRODUCTION: Methotrexate polyglutamates (MTXPGs) are intracellular metabolites of methotrexate (MTX) that play a critical role in the drug's activity, influencing both its efficacy and toxicity. As the exact implications of MTXPGs in these processes remain a subject of debate, a comprehensive review of MTXPGs could provide valuable insights for clinicians and pharmacists, potentially minimizing adverse reactions and enhancing therapeutic outcomes.\nAREAS COVERED: A comprehensive search of relevant literature was conducted in PubMed and Web of Science databases, including studies from their inception to April 2024. Eligible studies included reviews, clinical trials, and real-world analyses. Additional manual searches and citation reviews were also performed. This review aims to explore MTXPGs with a primary focus on their pharmacokinetics, analytical methods, determinants of drug exposure, and their correlation with MTX efficacy and toxicity.\nEXPERT OPINION: MTXPGs have not yet garnered significant attention in clinical practice. However, multiple studies have demonstrated a relationship between MTXPGs and the efficacy and toxicity of MTX, suggesting a potential avenue for personalized treatment strategies. Future research should aim to further validate and refine this correlation. Additionally, attention should also be directed toward other metabolites of MTX, which may hold clinical significance.",
+   "journal": "Expert review of clinical pharmacology",
+   "year": "2024",
+   "doi": "10.1080/17512433.2024.2416674",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39392455/"
+  },
+  {
+   "pmid": "25738271",
+   "title": "Methotrexate.",
+   "abstract": "The purpose of this article is to educate healthcare professionals about the many uses of the drug Methotrexate. Information regarding dosing, action, contraindications, adverse effects, drug interactions, as well as tips for patient education are included.",
+   "journal": "Home healthcare now",
+   "year": "2015",
+   "doi": "10.1097/NHH.0000000000000203",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25738271/"
+  }
+ ]
+}

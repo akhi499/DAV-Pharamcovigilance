@@ -1,0 +1,60 @@
+{
+ "drug": "PACLITAXEL",
+ "status": "ok",
+ "query": "\"paclitaxel\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:54+00:00",
+ "records": [
+  {
+   "pmid": "37787931",
+   "title": "Trastuzumab Deruxtecan: A Review in Gastric or Gastro-Oesophageal Junction Adenocarcinoma.",
+   "abstract": "Trastuzumab deruxtecan (Enhertu®) is a human epidermal growth factor receptor type 2 (HER2)-directed antibody-drug conjugate that is approved in several countries globally for adults with advanced HER2-positive gastric or gastro-oesophageal junction (GOJ) adenocarcinoma who have received a prior trastuzumab-based regime. In the phase II DESTINY-Gastric01 trial, intravenous trastuzumab deruxtecan was significantly more effective than standard chemotherapy (physician's choice of intravenous irinotecan or paclitaxel) in achieving objective response and improving overall survival in Japanese or South Korean adults with advanced HER2-positive gastric or GOJ adenocarcinoma who had received two or more previous therapies. In the phase II DESTINY-Gastric02 trial, trastuzumab deruxtecan was able to induce durable response in adults from the USA or Europe with unresectable or metastatic HER2-positive gastric or GOJ adenocarcinoma. Trastuzumab deruxtecan was generally tolerable in these patients; the most common adverse events included nausea, neutropenia, fatigue and decreased appetite. Trastuzumab deruxtecan carries regulatory warnings (including boxed warnings in the USA) for interstitial lung disease/pneumonitis and embryo-foetal toxicity. Current evidence indicates that trastuzumab deruxtecan is an effective treatment option, and is generally tolerable, in previously treated adults with advanced HER2-positive gastric or GOJ adenocarcinoma.",
+   "journal": "Targeted oncology",
+   "year": "2023",
+   "doi": "10.1007/s11523-023-00998-y",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37787931/"
+  },
+  {
+   "pmid": "27550571",
+   "title": "Dermatological adverse events with taxane chemotherapy.",
+   "abstract": "Taxanes (docetaxel and paclitaxel) are among the most commonly prescribed anticancer drugs approved for the treatment of metastatic or locally advanced breast, non-small cell lung, prostate, gastric, head and neck, and ovarian cancers, as well as in the adjuvant setting for operable node-positive breast cancers. Although the true incidence of dermatological adverse events (AEs) in patients receiving taxanes is not known, and has never been prospectively analysed, they clearly represent one of the major AEs associated with these agents. With an increase in the occurrence of cutaneous AEs during treatment with novel targeted and immunological therapies when used in combination with taxanes, a thorough understanding of reactions attributable to this class is imperative. Moreover, identification and management of dermatological AEs is critical for maintaining the quality of life in cancer patients and for minimizing dose modifications of their antineoplastic regimen. This analysis represents a systematic review of the dermatological conditions reported with the use of these drugs, complemented by experience at comprehensive cancer centres. The conditions reported herein include skin, hair, and nail toxicities. Lastly, we describe the dermatological data available for the new, recently FDA-and EMA- approved, solvent-free nab-paclitaxel.",
+   "journal": "European journal of dermatology : EJD",
+   "year": "2016",
+   "doi": "10.1684/ejd.2016.2833",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27550571/"
+  },
+  {
+   "pmid": "25744683",
+   "title": "Chemotherapy-induced peripheral neuropathy.",
+   "abstract": "Chemotherapy-induced peripheral neuropathy (CIPN) is common in patients receiving anticancer treatment and can affect survivability and long-term quality of life of the patient following treatment. The symptoms of CIPN primarily include abnormal sensory discrimination of touch, vibration, thermal information, and pain. There is currently a paucity of pharmacological agents to prevent or treat CIPN. The lack of efficacious therapeutics is due, at least in part, to an incomplete understanding of the mechanisms by which chemotherapies alter the sensitivity of sensory neurons. Although the clinical presentation of CIPN can be similar with the various classes of chemotherapeutic agents, there are subtle differences, suggesting that each class of drugs might induce neuropathy via different mechanisms. Multiple mechanisms have been proposed to underlie the development and maintenance of neuropathy; however, most pharmacological agents generated from preclinical experiments have failed to alleviate the symptoms of CIPN in the clinic. Further research is necessary to identify the specific mechanisms by which each class of chemotherapeutics induces neuropathy.",
+   "journal": "Progress in molecular biology and translational science",
+   "year": "2015",
+   "doi": "10.1016/bs.pmbts.2014.12.002",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25744683/"
+  },
+  {
+   "pmid": "40997625",
+   "title": "Cognitive dysfunction in chemobrain: Molecular mechanisms and therapeutic implications.",
+   "abstract": "Chemotherapy-induced cognitive impairment (CICI), commonly referred to as chemobrain, is a prevalent side effect of cancer treatment that severely affects survivors' quality of life. Chemotherapeutic agents, including cisplatin, doxorubicin, and paclitaxel, cross the blood-brain barrier (BBB) and induce neurotoxicity, resulting in cognitive dysfunction. These agents trigger reactive oxygen species (ROS) generation, cause mitochondrial dysfunction, and induce DNA damage, all of which impair synaptic plasticity and neurogenesis. Mitochondrial dysfunction is central to chemobrain, as it disrupts ATP production, increases oxidative stress, and leads to neuronal apoptosis. Furthermore, mitochondrial DNA (mtDNA) damage caused by agents like cisplatin impairs oxidative phosphorylation, exacerbating neuronal degeneration. The molecular mechanisms of chemobrain likely involve several key players, including NAMPT-dependent NAD+ depletion and increased levels of Cyclooxygenase-2 (COX-2), which collectively exacerbate oxidative stress and neuroinflammation. Another important molecular target is the Adenosine A2A receptor (A2AR). When activated, it contributes to synaptic dysfunction and cognitive decline, particularly in chemotherapy-related cognitive deficits in the hippocampus. This review explores the complex interplay of these core pathologies in chemobrain and discusses how targeting these pathways could offer a therapeutic strategy to alleviate cognitive impairments in cancer survivors.",
+   "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+   "year": "2025",
+   "doi": "10.1016/j.biopha.2025.118581",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40997625/"
+  }
+ ]
+}

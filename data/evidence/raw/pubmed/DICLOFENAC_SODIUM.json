@@ -1,0 +1,62 @@
+{
+ "drug": "DICLOFENAC SODIUM",
+ "status": "ok",
+ "query": "\"diclofenac sodium\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:16:06+00:00",
+ "records": [
+  {
+   "pmid": "25632179",
+   "title": "Preventing post-endoscopic retrograde cholangiopancreatography pancreatitis: what can be done?",
+   "abstract": "Post-endoscopic retrograde cholangiopancreatography pancreatitis (PEP) is the most common complication of endoscopic retrograde cholangiopancreatography. The incidence of post-endoscopic retrograde cholangiopancreatography (ERCP) pancreatitis varies substantially and is reported around 1%-10%, although there are some reports with an incidence of around 30%. Usually, PEP is a mild or moderate pancreatitis, but in some instances it can be severe and fatal. Generally, it is defined as the onset of new pancreatic-type abdominal pain severe enough to require hospital admission or prolonged hospital stay with levels of serum amylase two to three times greater than normal, occurring 24 h after ERCP. Several methods have been adopted for preventing pancreatitis, such as pharmacological or endoscopic approaches. Regarding medical prevention, only non-steroidal anti-inflammatory drugs, namely diclofenac sodium and indomethacin, are recommended, but there are some other drugs which have some potential benefits in reducing the incidence of post-ERCP pancreatitis. Endoscopic preventive measures include cannulation (wire guided) and pancreatic stenting, while the adoption of the early pre-cut technique is still arguable. This review will attempt to present and discuss different ways of preventing post-ERCP pancreatitis.",
+   "journal": "World journal of gastroenterology",
+   "year": "2015",
+   "doi": "10.3748/wjg.v21.i4.1069",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25632179/"
+  },
+  {
+   "pmid": "28388238",
+   "title": "Oral Versus Topical Diclofenac Sodium in the Treatment of Osteoarthritis.",
+   "abstract": "Osteoarthritis (OA) is one of the most common causes of joint pain in the United States and non-steroidal anti-inflammatories (NSAIDs), such as Diclofenac sodium, which is currently available in two main routes of administration; oral and topical distribution have been established as one of the standard treatments for OA. Generally, oral NSAIDs are well tolerated; however our narrative review suggests that the topical solution had a better tolerability property than oral Diclofenac sodium, especially due to side effects of gastrointestinal bleeding with the utilization of the oral format. In addition, the topical route may be considered a reasonable selection by clinicians for management of musculoskeletal pain in those patients with a history of potential risk and adverse side effects. Most studies reviewed comparing oral versus topical solution of Diclofenac sodium revealed comparable efficacy, with minimal side effects utilizing the topical route. The key point of this narrative review is to help clinicians that currently must decide between very inexpensive diclofenac oral presentations and expensive topical presentations especially in the elderly population and the pros and cons of such decision-making process.",
+   "journal": "Journal of pain & palliative care pharmacotherapy",
+   "year": "2017",
+   "doi": "10.1080/15360288.2017.1301616",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28388238/"
+  },
+  {
+   "pmid": "31090381",
+   "title": "Safety of nonsteroidal anti-inflammatory drugs in patients with cardiovascular risk.",
+   "abstract": "The review presents current information on the role of NSAIDs in the development of cardiovascular disasters. The development of non-desirable cardiovascular effects and an increase in cardiovascular risk with the administration of NSAIDs, most experts assess in terms of the antagonistic effect on the platelet-vascular homeostasis of metabolites of COX-thromboxane A2 and prostaglandin I2 (prostacyclin). All the presented reviews confirming an increase in the risk of MI complications in the administration of NSAIDs, indicate the class-specificity of this undesirable effect, not homogeneous for different representatives of the group. Important clinical aspects of prescribing NSAIDs for patients with low and moderate cardiovascular risk are the clinical features of the patient and the individual set of risk factors for CVD. Such pharmacokinetic characteristics of NSAIDs as a short half-life, a high degree of binding to blood plasma albumins are indicative of greater safety of NSAIDs, but the final decision must be made based on the accumulated data of clinical trials and meta-analyzes. Keywords: nonsteroidal anti-inflammatory drugs, cardiovascular diseases, cardiovascular risk, lornoxicam, diclofenac sodium, thrombo-elastogram, myocardial infarction, stroke.",
+   "journal": "Terapevticheskii arkhiv",
+   "year": "2019",
+   "doi": "10.26442/00403660.2019.01.000039",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31090381/"
+  },
+  {
+   "pmid": "26151766",
+   "title": "Single dose oral diclofenac for acute postoperative pain in adults.",
+   "abstract": "BACKGROUND: Diclofenac is a nonsteroidal anti-inflammatory drug, available as a potassium salt (immediate release) or sodium salt (enteric coated to suppress dissolution in the stomach). This review updates an earlier review published in the Cochrane Database of Systematic Reviews (Issue 2, 2009) entitled 'Single dose oral diclofenac for acute postoperative pain in adults'.\nOBJECTIVES: To assess the analgesic efficacy and adverse effects of a single oral dose of diclofenac for moderate to severe postoperative pain, using methods that permit comparison with other analgesics evaluated in standardised trials using almost identical methods and outcomes.\nSEARCH METHODS: We searched the Cochrane Central Register of Controlled Trials (CENTRAL), MEDLINE, EMBASE, the Oxford Pain Relief Database, two clinical trial registries, and the reference lists of articles. The date of the most recent search was 9 March 2015.\nSELECTION CRITERIA: Randomised, double-blind, placebo-controlled clinical trials of single dose, oral diclofenac (sodium or potassium) for acute postoperative pain in adults.\nDATA COLLECTION AND ANALYSIS: Two review authors independently considered studies for inclusion in the review, assessed risk of bias, and extracted data. We used the area under the pain relief versus time curve to derive the proportion of participants with at least 50% pain relief over six hours prescribed either diclofenac or placebo. We calculated the risk ratio (RR) and number needed to treat to benefit (NNT). We used information on the use of rescue medication to calculate the proportion of participants requiring rescue medication and the weighted mean of the median time to use. We also collected information on adverse effects.\nMAIN RESULTS: This update included three new studies, providing a 26% increase in participants in comparisons between diclofenac and placebo. We included 18 studies involving 3714 participants, 1902 treated with diclofenac and 1007 with placebo. This update has also changed the focus of the review, examining the effects of formulation in more detail than previously. This is a result of increased understanding of the importance of speed of onset in determining analgesic efficacy in acute pain.The largest body of information, for diclofenac potassium 50 mg, in seven studies, produced an NNT for at least 50% of maximum pain relief compared with placebo of 2.1 (95% confidence interval (CI) 1.9 to 2.5) (high quality evidence). There was a graded improvement in efficacy as doses rose from 25 mg to 100 mg, both for participants achieving at least 50% maximum pain relief, and for remedication within 6 to 8 hours. Fast-acting formulations (dispersible products, solutions, and softgel formulations) had a similar efficacy for a 50 mg dose, with an NNT of 2.4 (2.0 to 3.0). Diclofenac sodium in a small number of studies produced a lesser effect, with an NNT of 6.6 (4.1 to 17) for the 50 mg dose.Adverse event rates were low in these single dose studies, with no difference between diclofenac and placebo (moderate quality evidence).\nAUTHORS' CONCLUSIONS: Diclofenac potassium provides good pain relief at 25 mg, 50 mg, and 100 mg doses. Diclofenac sodium has limited efficacy and should probably not be used in acute pain.",
+   "journal": "The Cochrane database of systematic reviews",
+   "year": "2015",
+   "doi": "10.1002/14651858.CD004768.pub3",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Research Support, Non-U.S. Gov't",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26151766/"
+  }
+ ]
+}

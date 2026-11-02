@@ -1,0 +1,63 @@
+{
+ "drug": "DUPILUMAB",
+ "status": "ok",
+ "query": "\"dupilumab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T04:58:47+00:00",
+ "records": [
+  {
+   "pmid": "39018058",
+   "title": "Systemic Immunomodulatory Treatments for Atopic Dermatitis: Living Systematic Review and Network Meta-Analysis Update.",
+   "abstract": "IMPORTANCE: There are multiple approved systemic treatments for atopic dermatitis. Lebrikizumab is a newly licensed biologic medication that has been compared to placebo in clinical trials but not to other systemic treatments.\nOBJECTIVE: To compare reported measures of efficacy and safety of lebrikizumab to other systemic treatments for atopic dermatitis in a living systematic review and network meta-analysis.\nDATA SOURCES: The Cochrane Central Register of Controlled Trials, MEDLINE, Embase, the Latin American and Caribbean Health Science Information database, the Global Resource of Eczema Trials database, and trial registries were searched from inception through November 3, 2023.\nSTUDY SELECTION: Randomized clinical trials evaluating 8 or more weeks of treatment with systemic immunomodulatory medications for moderate to severe atopic dermatitis. Titles, abstracts, and full texts were screened in duplicate.\nDATA EXTRACTION AND SYNTHESIS: Data were abstracted in duplicate and random-effects bayesian network meta-analyses were performed. Minimal important differences were used to define important differences between medications. Certainty of evidence was assessed using the GRADE approach (Grading of Recommendations Assessment, Development and Evaluation). The updated analysis was completed from December 13, 2023, to February 20, 2024.\nMAIN OUTCOME MEASURES: Efficacy outcomes were the Eczema Area and Severity Index (EASI), the Patient Oriented Eczema Measure (POEM) Dermatology Life Quality Index (DLQI), and Peak Pruritus Numeric Rating Scales (PP-NRS) and were compared using mean difference (MD) with 95% credible intervals (CrI). Safety outcomes were serious adverse events and withdrawal due to adverse events. Other outcomes included the proportion of participants with 50%, 75%, and 90% improvement in EASI (EASI-50, -75, -90) and the proportion with success on the Investigator Global Assessment compared using odds ratios with 95% CrI.\nRESULTS: The study sample included 97 eligible trials, with a total of 24 679 patients. Lebrikizumab was associated with no important difference in change in EASI (MD, -2.0; 95% CrI, -4.5 to 0.3; moderate certainty), POEM (MD, -1.1; 95% CrI -2.5 to 0.2; moderate certainty), DLQI (MD, -0.2; 95% CrI -2.1 to 1.6; moderate certainty), or PP-NRS (MD, 0.1; 95% CrI -0.4, 0.6; high certainty) compared to dupilumab among adults with atopic dermatitis who were treated for up to 16 weeks. Dupilumab was associated with higher odds of efficacy in binary outcomes compared with lebrikizumab. The relative efficacy of other approved systemic medications was similar to that found by previous updates of this living study, with high-dose upadacitinib and abrocitinib demonstrating numerically highest relative efficacy. For safety outcomes, low event rates limited useful comparisons.\nCONCLUSIONS AND RELEVANCE: In this living systematic review and network meta-analysis, lebrikizumab was similarly effective to dupilumab for the short-term treatment of atopic dermatitis in adults. Clinicians and patients can use these comparative data to inform treatment decisions.",
+   "journal": "JAMA dermatology",
+   "year": "2024",
+   "doi": "10.1001/jamadermatol.2024.2192",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39018058/"
+  },
+  {
+   "pmid": "35183605",
+   "title": "Novel insights into contact dermatitis.",
+   "abstract": "Contact dermatitis is a common disease that is caused by repeated skin contact with contact allergens or irritants, resulting in allergic contact dermatitis (ACD) and/or irritant contact dermatitis. Attempts have been made to identify biomarkers to distinguish irritant and allergic patch test reactions, which could aid diagnosis. Some promising candidates have recently been identified, but verification and validation in clinical cases still need to be done. New causes of ACD are constantly being recognized. In this review, 10 new contact allergens from recent years, several relating to anti-aging products, have been identified. Frequent allergens causing considerable morbidity in the population, such as the preservative methylisothiazolinone, have been regulated in the European Union. A significant drop in the number of cases has been seen, whereas high rates are still occurring in other areas such as North America. Other frequent causes are fragrance allergens, especially the widely used terpenes and acrylates found in medical devices for control of diabetes. These represent unsolved problems. Recent advances in immunology have opened the way for a better understanding of the complexity of contact dermatitis, especially ACD-a disease that may be more heterogenous that previous understood, with several subtypes. With the rapidly evolving molecular understanding of ACD, the potential for development of new drugs for personalized treatment of contact dermatitis is considerable.",
+   "journal": "The Journal of allergy and clinical immunology",
+   "year": "2022",
+   "doi": "10.1016/j.jaci.2022.02.002",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35183605/"
+  },
+  {
+   "pmid": "38796276",
+   "title": "Paradoxical Psoriasis.",
+   "abstract": "Cytokine blocking therapies have revolutionized the management of psoriasis and atopic dermatitis but can lead to the development of paradoxic psoriasis (PP). Patients treated with biologics should be closely monitored for the development of PP and other paradoxical eruptions (including inflammatory joint disease, inflammatory bowel disease, eczematous eruptions, lupus like eruptions, sarcoidal eruptions, and others) and occasionally the development of cutaneous T-cell lymphoma. Further understanding the immunologic mechanism of these processes will ultimately drive our understanding of and ability to predict and manage PPs.",
+   "journal": "Dermatologic clinics",
+   "year": "2024",
+   "doi": "10.1016/j.det.2024.02.011",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38796276/"
+  },
+  {
+   "pmid": "29557246",
+   "title": "Dupilumab for treatment of atopic dermatitis.",
+   "abstract": "Dupilumab is a new treatment option for patients with moderate-to-severe atopic dermatitis. It blocks IL-4/IL13-signaling and thereby inhibits receptor signaling downstream the JAK-STAT-pathway. Three of the main disease mechanisms of atopic dermatitis are affected by blocking this pathway; the decrease of skin barrier function, the class switch to IgE and the TH2-differentiation. Areas Covered: Dupilumab showed promising results in clinical trials of phase I-III. Clinical outcome parameters such as SCORAD, EASI, IGA and BSA improved with dupilumab. A positive effect on patient-reported outcomes like DLQI or pruritus-rating-scales was also demonstrated. The safety profile of dupilumab is superior to conventional immunosuppressive drugs, such as cyclosporine or methotrexate. Injection-site reactions and conjunctivitis were the most relevant side-effects. Skin infections were less frequently observed compared to placebo. Data on the use of dupilumab during pregnancy or in children are not published to date. Expert Commentary: Dupilumab was approved by the FDA in April 2017 for the treatment of adult patients with moderate-to-severe atopic dermatitis whose disease is not adequately controlled with topical prescription therapies or when those therapies are not advisable.",
+   "journal": "Expert review of clinical pharmacology",
+   "year": "2018",
+   "doi": "10.1080/17512433.2018.1449642",
+   "publication_types": [
+    "Comparative Study",
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29557246/"
+  }
+ ]
+}

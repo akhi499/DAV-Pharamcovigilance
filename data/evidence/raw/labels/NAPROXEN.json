@@ -1,0 +1,28 @@
+{
+ "drug": "NAPROXEN",
+ "status": "ok",
+ "fetched_at": "2026-10-20T05:20:04+00:00",
+ "set_id": "27938b08-ff37-4587-aa81-5ec3ef21a28a",
+ "spl_id": "58debaea-c331-d1a6-e063-6394a90ab7ba",
+ "spl_version": "6",
+ "effective_time": "20260812",
+ "brand_names": [
+  "Naproxen Sodium"
+ ],
+ "generic_names": [
+  "NAPROXEN SODIUM"
+ ],
+ "manufacturer": "Harris Teeter",
+ "route": [
+  "ORAL"
+ ],
+ "dailymed_title": "NAPROXEN SODIUM TABLET, COATED [HARRIS TEETER]",
+ "dailymed_published": "Aug 14, 2026",
+ "dailymed_spl_version": 6,
+ "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27938b08-ff37-4587-aa81-5ec3ef21a28a",
+ "api_url": "https://api.fda.gov/drug/label.json?search=set_id:%2227938b08-ff37-4587-aa81-5ec3ef21a28a%22",
+ "sections": {
+  "warnings": "Warnings Allergy alert Naproxen sodium may cause a severe allergic reaction, especially in people allergic to aspirin. Symptoms may include: hives facial swelling asthma (wheezing) shock skin reddening rash blisters If an allergic reaction occurs, stop use and seek medical help right away. Stomach bleeding warning This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you: are age 60 or older have had stomach ulcers or bleeding problems take a blood thinning (anticoagulant) or steroid drug take other drugs containing prescription or nonprescription NSAIDs (aspirin, ibuprofen, naproxen, or others) have 3 or more alcoholic drinks every day while using this product take more or for a longer time than directed Heart attack and stroke warning NSAIDs, except aspirin, increase the risk of heart attack, heart failure, and stroke. These can be fatal. The risk is higher if you use more than directed or for longer than directed. Do not use if you have ever had an allergic reaction to any other pain reliever/fever reducer right before or after heart surgery Ask a doctor before use if the stomach bleeding warning applies to you you have a history of stomach problems, such as heartburn you have high blood pressure, heart disease, liver cirrhosis, kidney disease, asthma, or had a stroke you are taking a diuretic you have problems or serious side effects from taking pain relievers or fever reducers Ask a doctor or pharmacist before use if you are under a doctor's care for any serious condition taking aspirin for heart attack or stroke, because naproxen may decrease this benefit of aspirin taking any other drug When using this product take with food or milk if stomach upset occurs Stop use and ask a doctor if ■ you experience any of the following signs of stomach bleeding: ■ feel faint ■ vomit blood ■ have bloody or black stools ■ have stomach pain that does not get better ■ you have symptoms of heart problems or stroke: ■ chest pain ■ trouble breathing ■ weakness in one part or side of body ■ slurred speech ■ leg swelling ■ pain gets worse or lasts more than 10 days ■ fever gets worse or lasts more than 3 days ■ you have difficulty swallowing ■ it feels like the pill is stuck in your throat ■ redness or swelling is present in the painful area ■ any new symptoms appear If pregnant or breast-feeding, ask a health professional before use. It is especially important not to use naproxen sodium at 20 weeks or later in pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery. Keep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away. (1-800-822-1222)",
+  "indications_and_usage": "Uses temporarily relieves minor aches and pains due to: minor pain of arthritis muscular aches backache menstrual cramps headache toothache the common cold temporarily reduces fever"
+ }
+}

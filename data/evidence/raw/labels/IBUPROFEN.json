@@ -1,0 +1,31 @@
+{
+ "drug": "IBUPROFEN",
+ "status": "ok",
+ "fetched_at": "2026-10-20T05:16:42+00:00",
+ "set_id": "0607edb0-1b3a-2ccd-e054-00144ff8d46c",
+ "spl_id": "3e5d5179-6101-176d-e063-6394a90aed0c",
+ "spl_version": "25",
+ "effective_time": "20250909",
+ "brand_names": [
+  "Medique Iprin",
+  "Medi-First Plus Ibuprofen",
+  "Dover Addaprin",
+  "Medi-First Ibuprofen"
+ ],
+ "generic_names": [
+  "IBUPROFEN"
+ ],
+ "manufacturer": "Unifirst First Aid Corporation",
+ "route": [
+  "ORAL"
+ ],
+ "dailymed_title": null,
+ "dailymed_published": null,
+ "dailymed_spl_version": null,
+ "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0607edb0-1b3a-2ccd-e054-00144ff8d46c",
+ "api_url": "https://api.fda.gov/drug/label.json?search=set_id:%220607edb0-1b3a-2ccd-e054-00144ff8d46c%22",
+ "sections": {
+  "warnings": "Warnings Allergy alert: Ibuprofen may cause a severe allergic reaction, especially in people allergic to aspirin. Symptoms may include: ■ hives ■ skin reddening ■ asthma (wheezing) ■ facial swelling ■ rash ■ shock ■ blisters If an allergic reaction occurs, stop use and seek medical help right away. Stomach bleeding warning: This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you: ■ are age 60 or older ■ have had stomach ulcers or bleeding problems ■ take a blood thinning (anticoagulant) or steroid drug ■ take other drugs containing prescription or nonprescription NSAIDs (aspirin, ibuprofen, naproxen, or others) ■ have 3 or more alcoholic drinks every day while using this product ■ take more or for a longer time than directed Heart attack or stroke warning: NSAIDS, except aspirin, increase the risk of heart attack, heart failure, and stroke. These can be fatal. The risk is higher if you use more than directed or for longer than directed.",
+  "indications_and_usage": "Uses Temporarily relieves minor aches and pains associated with ■ headache ■ toothache ■ backache ■ menstrual cramps ■ common cold ■ muscular aches ■ minor arthritis pain Temporarily reduces fever."
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "drug": "LENVATINIB",
+ "status": "ok",
+ "query": "\"lenvatinib\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:20:15+00:00",
+ "records": [
+  {
+   "pmid": "38095799",
+   "title": "Efficacy of Atezolizumab Plus Bevacizumab Versus Lenvatinib in Patients with Unresectable Hepatocellular Carcinoma: a Meta-analysis.",
+   "abstract": "INTRODUCTION: Hepatocellular carcinoma is a lethal disease and there has been a debate regarding the first-line treatment of its advanced and unresectable form. Observational studies have explored atezolizumab plus bevacizumab versus lenvatinib, yielding mixed results. This systematic review and meta-analysis aim to compare efficacy and safety of both treatment arms.\nMETHODS: A systematic literature review was conducted in accordance with PRISMA guidelines. Randomized control trials, cohort studies, or case-control that included patients above age 60 with unresectable hepatocellular carcinoma confirmed by radiological imaging were included. At least one of the outcomes: overall survival (OS), progression-free survival (PFS), objective response rate (ORR), duration of response, or adverse events was included in the selected studies.\nRESULTS: Ten cohorts were included in the analysis with a total of 6493 patients. Nine of the included studies had patients with advanced HCC (BCLC-C) or intermediate HCC (BCLC-B) and 1 study included patients with all three stages (BCLC-A, BCLC-B, and BCLC-C). Of these patients, 2524 patients received atezolizumab plus bevacizumab (A + B) combination while 3969 received lenvatinib. The overall survival was better statistically in the A + B group then the lenvatinib group (MD: - 5.06; 95% CI: - 7.79 to - 2.33; p = 0.0003, I2 = 0%). The progression-free survival was significantly improved in A + B arm as well group (MD: - 4.96; 95% CI: - 7.67 to - 2.26; I2 = 0%, p = 0. 0003). There was no significant difference in objective response rate, disease control rate, and frequency of adverse events in either of the group.\nCONCLUSION: Our study concluded that combination therapy with atezolizumab plus bevacizumab could increase the survival duration without affecting the disease course. Moreover, while the severity of adverse events was greater in the A + B group, their frequency was comparable to the lenvatinib group.",
+   "journal": "Journal of gastrointestinal cancer",
+   "year": "2024",
+   "doi": "10.1007/s12029-023-00999-0",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38095799/"
+  },
+  {
+   "pmid": "37535375",
+   "title": "Critical Appraisal of Guideline Recommendations on Systemic Therapies for Advanced Hepatocellular Carcinoma: A Review.",
+   "abstract": "IMPORTANCE: The combination of immune checkpoint inhibitors with antiangiogenic agents has revolutionized the treatment landscape of advanced hepatocellular carcinoma (HCC). However, due to rapid publication of new studies that attained their predefined primary end points, a lack of robust cross-trial comparison of first-line therapies, and diverging clinical guidelines, no clear-cut treatment flowchart and sequence of therapies are available. This critical analysis of the recommendations for the management of advanced HCC from the main scientific societies in the US and Europe adopted an integrated approach to provide information on the clinical benefit (overall survival and progression-free survival) and safety profile of these therapies using the European Society for Medical Oncology (ESMO)-Magnitude of Clinical Benefit Scale (MCBS) score and an ad hoc network meta-analysis.\nOBSERVATIONS: There is a major consensus among guidelines that atezolizumab plus bevacizumab has a primacy as the recommended first-line treatment of choice in advanced HCC. On progression after immunotherapy-containing regimens and for patients with contraindications for immunotherapies, most guidelines maintain the established treatment hierarchy, recommending lenvatinib or sorafenib as the preferred options, followed by either regorafenib, cabozantinib, or ramucirumab. Thus far, the first-line immune-based regimen of tremelimumab plus durvalumab has been integrated only in the American Association for the Study of Liver Diseases guidance document and the latest National Comprehensive Cancer Network guidelines and has particular utility for patients with a high risk of gastrointestinal bleeding. Overall, in the first-line setting, both atezolizumab plus bevacizumab and sintilimab plus IBI305 (a bevacizumab biosimilar) and durvalumab plus tremelimumab received the highest ESMO-MCBS score of 5, indicating a substantial magnitude of clinical benefit. In a network meta-analysis, no significant differences in overall survival were found among the various combination regimens. However, the newly reported combination of camrelizumab plus rivoceranib was associated with a significantly higher risk of treatment-related adverse events compared with atezolizumab plus bevacizumab (relative risk, 1.59; 95% CI, 1.25-2.03; P < .001).\nCONCLUSIONS AND RELEVANCE: This narrative review found that atezolizumab plus bevacizumab is regarded as the primary standard of care for advanced HCC in the first-line setting. These findings from integrating the recommendations from scientific societies' guidelines for managing advanced HCC along with new data from cross-trial comparisons may aid clinicians in decision-making and guide them through a rapidly evolving and complex treatment landscape.",
+   "journal": "JAMA oncology",
+   "year": "2024",
+   "doi": "10.1001/jamaoncol.2023.2677",
+   "publication_types": [
+    "Review",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37535375/"
+  },
+  {
+   "pmid": "30993651",
+   "title": "Lenvatinib: A Review in Hepatocellular Carcinoma.",
+   "abstract": "Lenvatinib (Lenvima®) is an oral small molecule inhibitor of multiple receptor tyrosine kinases, and is approved for the first-line treatment of patients with unresectable hepatocellular carcinoma (HCC) in the USA, EU, Japan and China. The approval of lenvatinib was based on results of the randomized, open-label, multinational, non-inferiority phase III REFLECT trial in patients with unresectable HCC, who had not received treatment for advanced disease. In REFLECT, lenvatinib was non-inferior, but not superior, to sorafenib (current standard of care) for overall survival (OS). However, lenvatinib was associated with significant improvements compared with sorafenib in terms of all secondary endpoints [higher objective response rate (ORR), and longer progression-free survival (PFS) and time to progression (TTP)]. Lenvatinib had a generally manageable tolerability profile in REFLECT, with the most common treatment-emergent adverse events being hypertension, diarrhoea, decreased appetite and decreased weight. Given its non-inferior efficacy to sorafenib and manageable tolerability profile, lenvatinib represents a long-awaited alternative option to sorafenib for the first-line systemic treatment of patients with unresectable HCC. Further clinical experience may be required to fully define the position of lenvatinib in this setting.",
+   "journal": "Drugs",
+   "year": "2019",
+   "doi": "10.1007/s40265-019-01116-x",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30993651/"
+  },
+  {
+   "pmid": "34126063",
+   "title": "Evidence-Based Management of Hepatocellular Carcinoma: Systematic Review and Meta-analysis of Randomized Controlled Trials (2002-2020).",
+   "abstract": "BACKGROUND & AIMS: Hepatocellular carcinoma (HCC) is a leading cause of cancer-related mortality, with a rapidly changing landscape of treatments. In the past 20 years, numerous randomized controlled trials (RCTs) have aimed at improving outcomes across disease stages. We aimed to analyze the current evidence and identify potential factors influencing response to therapies.\nMETHODS: We conducted a systematic review of phase III RCTs (2002-2020) across disease stages. A meta-analysis was designed to examine the relationship between etiology and outcome after systemic therapies with either tyrosine-kinase inhibitor (TKI)/antiangiogenic or immune checkpoint inhibitor (ICI) therapy.\nRESULTS: Out of 10,100 studies identified, 76 were phase III RCTs. Among them, a rigorous screening algorithm identified 49 with high quality including a total of 22,113 patients undergoing adjuvant (n = 7) and primary treatment for early (n = 2), intermediate (n = 7), and advanced (first-line, n = 21; second-line, n = 12) stages of disease. Nine of these trials were positive, 6 treatments have been adopted in guidelines (sorafenib [2 RCTs], lenvatinib, atezolizumab+bevacizumab, regorafenib, cabozantinib and ramucirumab), but 2 were not (adjuvant CIK cells and sorafenib plus hepatic arterial infusion with FOLFOX). Meta-analysis of 8 trials including 3739 patients revealed ICI therapy to be significantly more effective in patients with viral hepatitis compared with nonviral-related HCC, whereas no differences related to etiology were observed in patients treated with TKI/anti-vascular endothelial growth factor.\nCONCLUSIONS: Among 49 high-quality RCTs conducted in HCC during 2002-2020, 9 resulted in positive results. A meta-analysis of systemic therapies suggests that immunotherapies may be more effective in viral etiologies.",
+   "journal": "Gastroenterology",
+   "year": "2021",
+   "doi": "10.1053/j.gastro.2021.06.008",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34126063/"
+  }
+ ]
+}

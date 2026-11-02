@@ -1,0 +1,61 @@
+{
+ "drug": "RELUGOLIX",
+ "status": "ok",
+ "query": "\"relugolix\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:14:47+00:00",
+ "records": [
+  {
+   "pmid": "34216282",
+   "title": "Cardiovascular Toxicity of Androgen Deprivation Therapy.",
+   "abstract": "PURPOSE OF REVIEW: Androgen deprivation therapy (ADT) is the standard of care for the treatment of advanced prostate cancer (PC). ADT, particularly with GnRH agonists, leads to increased risk of cardiovascular disease, including myocardial infarction, hypertension, and stroke. This review discusses the options of ADT, the mechanism of ADT-associated cardiovascular side effects, and potential benefit by using GnRH antagonists.\nRECENT FINDINGS: GnRH antagonists have relatively less cardiovascular adverse effects compared to GnRH agonists. We highlight on a recently published phase III clinical trial on the oral GnRH antagonist, relugolix, and its comparative benefit to traditional GnRH agonist regarding development of cardiovascular disease. Recent data reinforces that GnRH antagonists have a more favorable cardiovascular outcomes compared to GnRH agonists yet maintain a similar efficacy profile. From the data we reviewed, GnRH antagonists may be the preferred method of ADT for PC, but further data with primary cardiovascular outcomes are warranted.",
+   "journal": "Current cardiology reports",
+   "year": "2021",
+   "doi": "10.1007/s11886-021-01561-9",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34216282/"
+  },
+  {
+   "pmid": "28870102",
+   "title": "Therapeutic outcomes of the LHRH antagonists.",
+   "abstract": "Recently, LHRH antagonists have been established in the management of advanced prostate cancer, although the vast majority of Medical Oncologists and Urologists still prefer the LHRH agonists. Areas Covered: In this article we assess the therapeutic outcomes and the safety of the LHRH antagonists (mainly degarelix) compared to the LHRH agonists. Expert Commentary: Relevant studies demonstrated that LHRH antagonists are at least non-inferior to the LHRH agonists regarding therapeutic efficacy and safety, while there is potential benefit over the LHRH agonists in terms of cardiovascular morbidity and disease control. Disadvantages regarding formulation and frequency of administration are currently seem to be improving, as a 3-month depot of degarelix is evaluated and relugolix, an investigational orally administered is undergoing phase I studies, while the results of relative comparative studies are warranted.",
+   "journal": "Expert review of pharmacoeconomics & outcomes research",
+   "year": "2017",
+   "doi": "10.1080/14737167.2017.1375855",
+   "publication_types": [
+    "Comparative Study",
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28870102/"
+  },
+  {
+   "pmid": "32674616",
+   "title": "Relugolix for the treatment of uterine fibroids.",
+   "abstract": "INTRODUCTION: Uterine fibroids (UF) are benign tumors common in premenopausal women, with strong impact on the health-care systems. For many years, surgery represented the only therapy for symptomatic fibroids. However, clinicians are observing a switch from surgery to noninvasive methods; in particular, medical treatment has been shown to be efficacious in obtaining a bleeding reduction and in ameliorating patient conditions.\nAREAS COVERED: The authors review the current options available for the treatment of women with UF, with a special focus on the newest one, relugolix. It is an orally active non-peptide Gonadotropin-releasing hormone (GnRH)-receptor antagonist recently licensed for women with symptomatic fibroids. Relugolix is a well-tolerated safe drug; it is effective in inducing a dose-dependent decrease in menstrual blood loss, with faster reduction of heavy menstrual bleeding (HMB) and a greater shrinkage in fibroid volume compared to the current standard of GnRH agonist treatment.\nEXPERT OPINION: Relugolix is a promising drug for the non-surgical treatment of women with UF. To date, the only published data come from a well-selected Japanese female population study while results from worldwide ongoing studies are ongoing in order to confirm the efficacy of this GnRH agonist receptor.",
+   "journal": "Expert opinion on pharmacotherapy",
+   "year": "2020",
+   "doi": "10.1080/14656566.2020.1787988",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32674616/"
+  },
+  {
+   "pmid": "35108137",
+   "title": "Advances with androgen deprivation therapy for prostate cancer.",
+   "abstract": "INTRODUCTION: Androgen deprivation therapy (ADT) has been a treatment of choice for prostate cancer in almost all phases, particularly in the locally advanced, metastatic setting in both hormone-sensitive and castration-resistant diseaseand in those who are unfit for any local therapy. Different ways of administering ADT comes in the form of surgical or chemical castration with the use of gonadotropin-releasing hormone (GnRH-agonists) being the foremost way of delivering ADT.\nAREAS COVERED: This review encompasses ADT history, use of leuprolide, degarelix, and relugolix, with contextual use of ADT in combination with androgen-signaling inhibitors and potential mechanisms of resistance. Novel approaches with regard to hormone therapy are also discussed.\nEXPERT OPINION: The use of GnRH-agonists and GnRH-antagonists yields efficacy that is likely equivalent in resulting in testosterone suppression. While the side-effect profile with ADT are generally equivalent, effects on cardiovascular morbidity may be improved with the use of oral relugolix though this is noted with caution since the cardiovascular side-effects were a result of secondary subgroup analyses. The choice of ADT hinges upon cost, availability, ease of administration, and preference amongst physicians and patients alike.",
+   "journal": "Expert opinion on pharmacotherapy",
+   "year": "2022",
+   "doi": "10.1080/14656566.2022.2033210",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35108137/"
+  }
+ ]
+}

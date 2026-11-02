@@ -1,0 +1,61 @@
+{
+ "drug": "BEVACIZUMAB",
+ "status": "ok",
+ "query": "\"bevacizumab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:16:12+00:00",
+ "records": [
+  {
+   "pmid": "28945054",
+   "title": "Intracranial stereotactic radiosurgery.",
+   "abstract": "Stereotactic radiosurgery (SRS) is the use of a single high dose of radiation, stereotactically directed to an intracranial region of interest, in order to create a lesion or obliterate a preexisting one. This technology has evolved over the years into the use of multiple radiation sources oriented at a variety of angles, thus permitting the creation of various treatment target shapes. This allows for non-open surgical treatment of intracranial pathologies, which significantly decreases the risk of morbidity. The destruction of pathological tissue following radiosurgery is a stepwise process that involves a number of different stages, beginning with the necrotic stage, followed by the resorption stage, and concluding with the glial scar formation stage. There are currently a number of different delivery methods of SRS, including linear accelerators, Gamma Knife units, and charged particle methods (Bragg-peak and plateau-beam). Various intracranial lesions exhibit different responses to radiosurgery; however, most lesions of appropriate size tend to respond favorably. Radiosurgery is used today in the treatment of brain metastases, meningiomas, vestibular schwannomas, sellar and suprasellar lesions, and arteriovenous malformations. SRS is widely used to treat functional conditions, such as trigeminal neuralgia and intractable tremor. The treatment of intracranial lesions with radiosurgery can result in undesirable effects on the adjacent normal brain, resulting in adverse radiation effects. The distinction between tumor progression and adverse radiation effects can be challenging but is aided by various imaging modalities. Treatment options for this condition include observation, corticosteroids, pentoxifylline and vitamin E, bevacizumab, laser-interstitial thermal therapy, and surgical resection.",
+   "journal": "Journal of neurosurgical sciences",
+   "year": "2019",
+   "doi": "10.23736/S0390-5616.17.04210-2",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28945054/"
+  },
+  {
+   "pmid": "28898589",
+   "title": "Science of Biosimilars.",
+   "abstract": "Biosimilar therapeutic proteins in oncology offer the potential to decrease costs while providing safety and efficacy profiles consistent with their respective reference or originator products. Biosimilars have a number of important differences from generic small-molecule drugs, including manufacturing processes that are unique from their reference products. These differences may affect biosimilars through posttranslational modifications that can occur in specific cellular production lines, and these modifications have potential effects on protein structure, function, clinical pharmacology, and immunogenicity. Regulatory agencies expect these differences to be identified, analyzed, and minimized through iterative processes and extensive preclinical efforts. Generic naming of biosimilars reflects the nonproprietary reference product name along with a meaningless four-letter suffix to ensure that each product can be uniquely identified for prescribing and pharmacovigilance purposes. Labeling information for biosimilars reflects a greater detail of comparisons to reference products than conventional generic drugs, which ensures that prescribers can understand the source of information and have a complete understanding of the therapeutic profile of each biosimilar agent. Postmarketing surveillance programs will be required to evolve and ensure optimal pharmacovigilance reporting, because the potential for unexpected adverse events with biosimilars is higher than with conventional generic agents as a result of different manufacturing processes and different clinical trial designs and durations. The existing filgrastim biosimilars are likely to be joined soon by therapeutic monoclonal antibodies, including rituximab, trastuzumab, and bevacizumab, on the basis of patent expiration dates and clinical trial results.",
+   "journal": "Journal of oncology practice",
+   "year": "2017",
+   "doi": "10.1200/JOP.2017.026062",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28898589/"
+  },
+  {
+   "pmid": "34347284",
+   "title": "FKB238: A Bevacizumab Biosimilar.",
+   "abstract": "FKB238 is a biosimilar of bevacizumab (a monoclonal antibody against vascular endothelial growth factor) approved for use in the same types of cancer as reference bevacizumab. FKB238 has similar physicochemical and pharmacodynamic properties to those of reference bevacizumab and pharmacokinetic similarity was shown in healthy volunteers and in patients with non-small cell lung cancer (NSCLC). FKB238 demonstrated equivalent clinical efficacy to reference bevacizumab in patients with advanced or recurrent nonsquamous NSCLC, with similar tolerability, safety and immunogenicity profiles.",
+   "journal": "Clinical drug investigation",
+   "year": "2021",
+   "doi": "10.1007/s40261-021-01065-y",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34347284/"
+  },
+  {
+   "pmid": "38539034",
+   "title": "HER2-Positive Metastatic Colorectal Cancer.",
+   "abstract": "Targeted treatment strategies are available for human epidermal growth factor receptor 2 (HER2)-positive (amplified and/or overexpressed) metastatic colorectal cancer (mCRC), and HER2 testing is indicated in patients with mCRC. At present, standard of care first-line treatment for those with HER2-positive mCRC remains chemotherapy in combination with epidermal growth factor receptor (EGFR) inhibitors or bevacizumab, depending on RAS/BRAF mutational status and tumor sidedness. HER2-targeted agents should be considered for those with RAS/BRAF wild-type disease in subsequent-line treatment and in first-line treatment for patients not appropriate for intensive therapy. While the choice of anti-HER2 therapy is empiric given lack of head-to-head comparisons, the combination of trastuzumab plus tucatinib has received FDA accelerated approval for use in this setting and is generally the authors' preference. Trastuzumab plus lapatinib, trastuzumab plus pertuzumab, and trastuzumab deruxtecan (T-DXd) also have evidence of efficacy in this setting. As T-DXd has demonstrated activity following treatment with other HER2-targeted regimens and carries an increased risk of high-grade toxicities, the authors favor reserving it for use after progression on prior anti-HER2 therapy. HER2-targeted therapies that inhibit signal transduction appear to have limited activity in those with RAS mutations, including trastuzumab-containing regimens. However, the antibody drug conjugate T-DXd has some data showing efficacy in this setting, and the authors would consider T-DXd in subsequent-line therapy for HER2-positive, RAS-mutated mCRC. Several areas of uncertainty remain regarding how to best utilize HER2-targeted therapies in mCRC. These include the optimal sequence of anti-HER2 therapies with chemotherapy and anti-EGFR therapies, the optimal combination partners for anti-HER2 therapies, and the incorporation of predictive biomarkers to guide use of anti-HER2 therapies. Results of ongoing studies may thus alter the treatment paradigm above in the coming years.",
+   "journal": "Current treatment options in oncology",
+   "year": "2024",
+   "doi": "10.1007/s11864-024-01183-7",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38539034/"
+  }
+ ]
+}

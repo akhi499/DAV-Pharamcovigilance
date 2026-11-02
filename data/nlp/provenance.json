@@ -1,0 +1,79 @@
+{
+  "run_id": "2b46ea76dd75",
+  "prediction_source": "neural",
+  "created_at": "2026-10-19T09:17:19+00:00",
+  "duration_seconds": 126.9,
+  "n_terms": 12678,
+  "n_predicted": 7333,
+  "n_abstained": 5345,
+  "abstain_reasons": {
+    "low_similarity": 3732,
+    "ambiguous": 1613
+  },
+  "case_weighted_coverage": 0.8550780073446959,
+  "agreement_with_lexical_top1": 0.4188357785139612,
+  "category_counts": {
+    "abstain": 5345,
+    "cardiovascular": 502,
+    "eye": 488,
+    "infections": 486,
+    "skin": 479,
+    "respiratory": 419,
+    "investigations": 394,
+    "product_use": 382,
+    "gastrointestinal": 361,
+    "injury_procedural": 343,
+    "hepatobiliary": 310,
+    "blood": 295,
+    "immune_allergic": 291,
+    "psychiatric": 279,
+    "renal_urinary": 277,
+    "metabolic": 276,
+    "neoplasms": 269,
+    "pregnancy": 262,
+    "musculoskeletal": 248,
+    "nervous_system": 228,
+    "endocrine": 228,
+    "reproductive": 226,
+    "general": 185,
+    "ear": 105
+  },
+  "model": {
+    "encoder": "SapBERT",
+    "model_id": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+    "model_revision": "090663c3ae57bf35ffe4d0d468a2a88d03051a4d",
+    "license": "Apache-2.0",
+    "weights_file": "model.safetensors",
+    "weights_sha256": "a4696930afef9aab296196d3d2142216c44cba24f21b4f285ceca7af21025614",
+    "pooling": "CLS token, L2-normalised",
+    "max_length": 25,
+    "torch": "2.14.1+cu130",
+    "transformers": "5.20.1",
+    "device": "cpu",
+    "python": "3.13.16"
+  },
+  "baseline": {
+    "encoder": "TF-IDF char n-grams (3-5, char_wb)",
+    "model_id": "sklearn-tfidf-char",
+    "model_revision": "vocab=39088",
+    "license": "BSD-3-Clause (scikit-learn)"
+  },
+  "thresholds": {
+    "min_score": 0.46,
+    "min_margin": 0.02,
+    "temperature": 0.05,
+    "source": "calibrated on dev split (coverage>=0.7)"
+  },
+  "taxonomy": {
+    "version": "pv-cat-1.0",
+    "hash": "a515e981e6b4f1bd",
+    "n_categories": 23,
+    "n_anchors": 251,
+    "note": "Project-defined categories; not MedDRA SOCs."
+  },
+  "data_manifest": {
+    "quarter": "2025Q1",
+    "source_zip": "faers_ascii_2025q1.zip",
+    "source_sha256": "51c1dc440733fbbb0b6913b5382ce5b9a3510642a0c6bfd6239d26aa18346b69"
+  }
+}

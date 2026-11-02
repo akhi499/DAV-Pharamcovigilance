@@ -1,0 +1,63 @@
+{
+ "drug": "RISPERIDONE",
+ "status": "ok",
+ "query": "\"risperidone\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:14+00:00",
+ "records": [
+  {
+   "pmid": "39350614",
+   "title": "Antipsychotic Drugs: A Concise Review of History, Classification, Indications, Mechanism, Efficacy, Side Effects, Dosing, and Clinical Application.",
+   "abstract": "The introduction of the first antipsychotic drug, chlorpromazine, was a milestone for psychiatry. The authors review the history, classification, indications, mechanism, efficacy, side effects, dosing, drug initiation, switching, and other practical issues and questions related to antipsychotics. Classifications such as first-generation/typical versus second-generation/atypical antipsychotics are neither valid nor useful; these agents should be described according to the Neuroscience-based Nomenclature (NbN). Antipsychotic drugs are not specific for treating schizophrenia. They reduce psychosis regardless of the underlying diagnosis, and they go beyond nonspecific sedation. All currently available antipsychotic drugs are dopamine blockers or dopamine partial agonists. In schizophrenia, effect sizes for relapse prevention are larger than for acute treatment. A major unresolved problem is the implausible increase in placebo response in antipsychotic drug trials over the decades. Differences in side effects, which can be objectively measured, such as weight gain, are less equivocal than differences in rating-scale-measured (subjective) efficacy. The criteria for choosing among antipsychotics are mainly pragmatic and include factors such as available formulations, metabolism, half-life, efficacy, and side effects in previous illness episodes. Plasma levels help to detect nonadherence, and once-daily dosing at night (which is possible with many antipsychotics) and long-acting injectable formulations are useful when adherence is a problem. Dose-response curves for both acute treatment and relapse prevention follow a hyperbolic pattern, with maximally efficacious average dosages for schizophrenia of around 5 mg/day risperidone equivalents. Computer apps facilitating the choice between drugs are available. Future drug development should include pharmacogenetics and focus on drugs for specific aspects of psychosis.",
+   "journal": "The American journal of psychiatry",
+   "year": "2024",
+   "doi": "10.1176/appi.ajp.20240738",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Historical Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39350614/"
+  },
+  {
+   "pmid": "38490016",
+   "title": "Efficacy, acceptability and side-effects of oral versus long-acting- injectables antipsychotics: Systematic review and network meta-analysis.",
+   "abstract": "Long-acting injectable antipsychotics (LAIs) are primarily used for relapse prevention, but in some settings and situations, they may also be useful for acute treatment of schizophrenia. We conducted a systematic review and frequentist network meta-analysis of randomized-controlled trials (RCTs), focusing on adult patients in the acute phase of schizophrenia. Interventions were risperidone, paliperidone, aripiprazole, olanzapine, and placebo, administered either orally or as LAI. We synthesized data on overall symptoms, complemented by 17 other efficacy and tolerability outcomes. Confidence in the evidence was assessed with the Confidence-in-Network-Meta-Analysis-framework (CINeMA). We included 115 RCTs with 25,550 participants. All drugs were significantly more efficacious than placebo with the following standardized mean differences and their 95 % confidence intervals: olanzapine LAI -0.66 [-1.00; -0.33], risperidone LAI -0.59[-0.73;-0.46], olanzapine oral -0.55[-0.62;-0.48], aripiprazole LAI -0.54[-0.71; -0.37], risperidone oral -0.48[-0.55;-0.41], paliperidone oral -0.47[-0.58;-0.37], paliperidone LAI -0.45[-0.57;-0.33], aripiprazole oral -0.40[-0.50; -0.31]. There were no significant efficacy differences between LAIs and oral formulations. Sensitivity analyses of the primary outcome overall symptoms largely confirmed these findings. Moreover, some side effects were less frequent under LAIs than under their oral counterparts. Confidence in the evidence was moderate for most comparisons. LAIs are efficacious for acute schizophrenia and may have some benefits compared to oral formulations in terms of side effects. These findings assist clinicians with insights to weigh the risks and benefits between oral and injectable agents when treating patients in the acute phase.",
+   "journal": "European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology",
+   "year": "2024",
+   "doi": "10.1016/j.euroneuro.2024.03.003",
+   "publication_types": [
+    "Systematic Review",
+    "Journal Article",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38490016/"
+  },
+  {
+   "pmid": "39592559",
+   "title": "Pediatric Bipolar Disorder: Challenges in Diagnosis and Treatment.",
+   "abstract": "Despite an opportunity to prevent adult psychopathology associated with bipolar disorder through early diagnosis in children, there is insufficient information and awareness among healthcare providers about the unique features and treatment of mania and its comorbid conditions in children. Converging evidence from disparate sites describe a developmentally distinct presentation of bipolar disorder in youth that is highly morbid, persistent and responds to treatment with the mood stabilizer medications used in the treatment of adult bipolar disorder, such as divalproex sodium and carbamazepine. Some are additionally approved for use in pediatric populations including, for manic or mixed states, risperidone, aripiprazole, and asenapine for those aged 10-17 years and also including lithium and olanzapine for ages 13-17 years. Quetiapine is approved as monotherapy or as adjunct to lithium or divalproex sodium for manic states in those aged 10-17 years. Delayed or missed diagnosis, inappropriate treatment, worsening course, and treatment resistance unfortunately still occur. While an array of mood-stabilizing medications is available for treatment, such as second-generation antipsychotics, lithium, and anticonvulsants, these can be only partially effective and fraught with annoying and serious side effects. This article will review current practice in the diagnosis and treatment of pediatric bipolar disorder and its comorbid conditions, highlighting areas of need for future research.",
+   "journal": "Paediatric drugs",
+   "year": "2025",
+   "doi": "10.1007/s40272-024-00669-z",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39592559/"
+  },
+  {
+   "pmid": "38916833",
+   "title": "Lithium, the gold standard drug for bipolar disorder: analysis of current clinical studies.",
+   "abstract": "Lithium is the gold standard drug in the treatment of bipolar disorder. Despite increasing scientific interest, relatively few patients with bipolar disorder receive lithium therapy. Lithium is the only drug that is effective in the prophylaxis of manic, depressive, and suicidal symptoms. Lithium therapy is also associated with a variety of adverse drug reactions and the need for therapeutic drug monitoring. Numerous studies have focussed on the efficacy and safety of both lithium-monotherapy and lithium-add-on therapy. The aim of this study is to provide a systematic overview of clinical studies on lithium therapy for bipolar disorder from the last 7 years and to present a critical analysis of these studies. The results provide an up-to-date overview of the efficacy, tolerability, and safety of lithium therapy for bipolar disorder and thus improve the pharmacotherapy of bipolar disorder. A total of 59 studies were analysed using various analysis parameters. The studies were also categorised into different subgroups. These are lithium-monotherapy, lithium vs. placebo/drug, and lithium + adjunctive therapy. The majority of the studies (N = 20) had a duration of only 3-8 weeks. Only 13 studies lasted for > 40 weeks. Lithium was superior to aripiprazole, valproic acid, and quetiapine in terms of improving manic symptoms. Lithium therapy resulted in a lower relapse rate compared to valproic acid therapy. Lithium was more neuroprotectively effective than quetiapine. Fourteen of the 22 add-on therapies to lithium showed a predominantly positive effect on the treatment outcome compared to lithium-monotherapy. Only the add-on therapy with sertraline led to a higher rate of study discontinuations than lithium-monotherapy. Lithium is a safe and effective treatment option for children. However, risperidone and quetiapine were superior to lithium in some aspects, which is why these drugs should be considered as an alternative treatment option for children. Collectively, current clinical studies highlight the relevance of lithium in the treatment of bipolar disorder.",
+   "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+   "year": "2024",
+   "doi": "10.1007/s00210-024-03210-8",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38916833/"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "drug": "TOPIRAMATE",
+ "status": "ok",
+ "query": "\"topiramate\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:19:57+00:00",
+ "records": [
+  {
+   "pmid": "39037780",
+   "title": "Medications for Obesity: A Review.",
+   "abstract": "IMPORTANCE: Obesity affects approximately 19% of women and 14% of men worldwide and is associated with increased morbidity. Antiobesity medications (AOMs) modify biological processes that affect appetite and significantly improve outcomes, such as type 2 diabetes, hypertension, and dyslipidemia.\nOBSERVATIONS: AOMs should be administered in combination with lifestyle interventions and can be classified according to their mechanisms of action. Orlistat modifies digestive tract absorption and causes gastrointestinal adverse effects, such as oily fecal spotting and urgency, in more than 25% of patients. Centrally acting drugs, such as phentermine-topiramate and naltrexone-bupropion, regulate appetite in the brain and are associated with constipation in approximately 20% of patients, although the incidence of other adverse effects (eg, paresthesia, nausea) varies by medication. Nutrient-stimulated hormone-based medications, such as liraglutide, semaglutide, and tirzepatide, mimic the actions of enteropancreatic hormones that modify central appetite regulation and provide multiple cardiometabolic weight-loss benefits. Adverse effects of these drugs include nausea (28%-44%), diarrhea (21%-30%), and constipation (11%-24%). The relative potency of adult obesity medications has been studied in meta-analyses. Compared with placebo, orlistat was associated with 3.1% greater weight loss (52 randomized clinical trials [RCTs]; 16 964 participants), phentermine-topiramate was associated with 8.0% greater weight loss (5 RCTs; 3407 participants), naltrexone-bupropion was associated with 4.1% greater weight loss (6 RCTs; 9949 participants), liraglutide was associated with 4.7% greater weight loss (18 RCTs; 6321 participants), semaglutide was associated with 11.4% greater weight loss (5 RCTs; 4421 participants), and tirzepatide 15 mg was associated with 12.4% greater weight loss (6 RCTs; 1972 participants).\nCONCLUSION AND RELEVANCE: Obesity is associated with increased morbidity. Antiobesity medications are effective adjunctive therapy to lifestyle changes for improved weight loss and health outcomes.",
+   "journal": "JAMA",
+   "year": "2024",
+   "doi": "10.1001/jama.2024.10816",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39037780/"
+  },
+  {
+   "pmid": "39952695",
+   "title": "Emerging pharmacotherapies for obesity: A systematic review.",
+   "abstract": "The history of antiobesity pharmacotherapies is marked by disappointments, often entangled with societal pressure promoting weight loss and the prevailing conviction that excess body weight signifies a lack of willpower. However, categories of emerging pharmacotherapies generate hope to reduce obesity rates. This systematic review of phase 2 and phase 3 trials in adults with overweight/obesity investigates the effect of novel weight loss pharmacotherapies, compared to placebo/control or US Food and Drug Administration-approved weight loss medication, through searching Medline, Embase, and ClinicalTrials.gov (2012-2024). We identified 53 phase 3 and phase 2 trials, with 36 emerging antiobesity drugs or combinations thereof and 4 withdrawn or terminated trials. Oral semaglutide 50 mg is the only medication that has completed a phase 3 trial. There are 14 ongoing phase 3 trials on glucagon-like peptide-1 (GLP-1) receptor agonists (RAs) (ecnoglutide, orforglipron, and TG103), GLP-1 RA/amylin agonist (CagriSema), GLP-1/glucagon RAs (mazdutide and survodutide), GLP-1/glucose-dependent insulinotropic polypeptide and glucagon RA (retatrutide), dapagliflozin, and the combination sibutramine/topiramate. Completed phase 2 trials on incretin-based therapies showed a mean percent weight loss of 7.4% to 24.2%. Almost half of the drugs undergoing phase 2 trials are incretin analogs. The obesity drug pipeline is expanding rapidly, with the most promising results reported with incretin analogs. Data on mortality and obesity-related complications, such as cardio-renal-metabolic events, are needed. Moreover, long-term follow-up data on the safety and efficacy of weight maintenance with novel obesity pharmacotherapies, along with studies focused on underrepresented populations, cost-effectiveness assessments, and drug availability, are needed to bridge the care gap for patients with obesity. SIGNIFICANCE STATEMENT: Obesity is the epidemic of the 21st century. Except for the newer injectable medications, drugs with suboptimal efficacy have been available in the clinician's armamentarium for weight management. However, emerging alternatives of novel agents and combinations populate the current obesity therapeutic pipeline. This systematic review identifies the state and mechanism of action of emerging pharmacotherapies undergoing or having completed phase 2 and phase 3 clinical trials. The information provided herein furthers the understanding of obesity management, implying direct clinical implications and stimulating research initiatives.",
+   "journal": "Pharmacological reviews",
+   "year": "2025",
+   "doi": "10.1124/pharmrev.123.001045",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39952695/"
+  },
+  {
+   "pmid": "38161305",
+   "title": "Psychotropic Drug-Related Weight Gain and Its Treatment.",
+   "abstract": "Psychotropic drug-related weight gain (PDWG) is a common occurrence and is highly associated with non-initiation, discontinuation, and dissatisfaction with psychiatric drugs. Moreover, PDWG intersects with the elevated risk for obesity and associated morbidity that has been amply reported in the psychiatric population. Evidence indicates that differential liability for PDWG exists for antipsychotics, antidepressants, and anticonvulsants. During the past two decades, agents within these classes have become available with significantly lower or no liability for PDWG and as such should be prioritized. Although lithium is associated with weight gain, the overall extent of weight gain is significantly lower than previously estimated. The benefit of lifestyle and behavioral modification for obesity and/or PDWG in psychiatric populations is established, with effectiveness similar to that in the general population. Metformin is the most studied pharmacological treatment in the prevention and treatment of PDWG, and promising data are emerging for glucagon-like peptide-1 (GLP-1) receptor agonists (e.g., liraglutide, exenatide, semaglutide). Most pharmacologic antidotes for PDWG are supported with low-confidence data (e.g., topiramate, histamine-2 receptor antagonists). Future vistas for pharmacologic treatment for PDWG include large, adequately controlled studies with GLP-1 receptor agonists and possibly GLP-1/glucose-dependent insulinotropic polypeptide co-agonists (e.g., tirzepatide) as well as specific dietary modifications.",
+   "journal": "The American journal of psychiatry",
+   "year": "2024",
+   "doi": "10.1176/appi.ajp.20230922",
+   "publication_types": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38161305/"
+  },
+  {
+   "pmid": "37208596",
+   "title": "The comparative effectiveness of migraine preventive drugs: a systematic review and network meta-analysis.",
+   "abstract": "OBJECTIVE: While there are several trials that support the efficacy of various drugs for migraine prophylaxis against placebo, there is limited evidence addressing the comparative safety and efficacy of these drugs. We conducted a systematic review and network meta-analysis to facilitate comparison between drugs for migraine prophylaxis.\nMETHODS: We searched MEDLINE, EMBASE, CENTRAL, and clinicaltrials.gov from inception to August 13, 2022, for randomized trials of pharmacological treatments for migraine prophylaxis in adults. Reviewers worked independently and in duplicate to screen references, extract data, and assess risk of bias. We performed a frequentist random-effects network meta-analysis and rated the certainty (quality) of evidence as either high, moderate, low, or very low using the GRADE approach.\nRESULTS: We identified 74 eligible trials, reporting on 32,990 patients. We found high certainty evidence that monoclonal antibodies acting on the calcitonin gene related peptide or its receptor (CGRP(r)mAbs), gepants, and topiramate increase the proportion of patients who experience a 50% or more reduction in monthly migraine days, compared to placebo. We found moderate certainty evidence that beta-blockers, valproate, and amitriptyline increase the proportion of patients who experience a 50% or more reduction in monthly migraine days, and low certainty evidence that gabapentin may not be different from placebo. We found high certainty evidence that, compared to placebo, valproate and amitriptyline lead to substantial adverse events leading to discontinuation, moderate certainty evidence that topiramate, beta-blockers, and gabapentin increase adverse events leading to discontinuation, and moderate to high certainty evidence that (CGRP(r)mAbs) and gepants do not increase adverse events.\nCONCLUSIONS: (CGRP(r)mAbs) have the best safety and efficacy profile of all drugs for migraine prophylaxis, followed closely by gepants.",
+   "journal": "The journal of headache and pain",
+   "year": "2023",
+   "doi": "10.1186/s10194-023-01594-1",
+   "publication_types": [
+    "Systematic Review",
+    "Journal Article",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37208596/"
+  }
+ ]
+}

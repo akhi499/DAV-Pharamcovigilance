@@ -1,0 +1,67 @@
+{
+ "drug": "DULAGLUTIDE",
+ "status": "ok",
+ "query": "\"dulaglutide\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:17:54+00:00",
+ "records": [
+  {
+   "pmid": "31422062",
+   "title": "Cardiovascular, mortality, and kidney outcomes with GLP-1 receptor agonists in patients with type 2 diabetes: a systematic review and meta-analysis of cardiovascular outcome trials.",
+   "abstract": "BACKGROUND: Glucagon-like peptide-1 (GLP-1) receptor agonists differ in their structure and duration of action and have been studied in trials of varying sizes and with different patient populations, with inconsistent effects on cardiovascular outcomes reported. We aimed to synthesise the available evidence by doing a systematic review and meta-analysis of cardiovascular outcome trials of these drugs.\nMETHODS: We searched MEDLINE (via PubMed) and the Cochrane Central Register of Controlled Trials for eligible placebo-controlled trials reporting major adverse cardiovascular events (MACE; ie, cardiovascular death, stroke, or myocardial infarction) up to June 15, 2019. We did a meta-analysis using a random-effects model to estimate overall hazard ratios (HRs) for MACE, its components, death from any cause, hospital admission for heart failure, kidney outcomes, and key safety outcomes (severe hypoglycaemia, pancreatitis, and pancreatic cancer). We also examined MACE in several subgroups based on patient characteristics (history of cardiovascular disease, BMI, age, baseline HbA1c, and baseline estimated glomerular filtration rate), trial duration, treatment dosing interval, and structural homology.\nFINDINGS: Of 27 publications screened, seven trials, with a combined total of 56 004 participants, were included: ELIXA (lixisenatide), LEADER (liraglutide), SUSTAIN-6 (semaglutide), EXSCEL (exenatide), Harmony Outcomes (albiglutide), REWIND (dulaglutide), and PIONEER 6 (oral semaglutide). Overall, GLP-1 receptor agonist treatment reduced MACE by 12% (HR 0·88, 95% CI 0·82-0·94; p<0·0001). There was no statistically significant heterogeneity across the subgroups examined. HRs were 0·88 (95% CI 0·81-0·96; p=0·003) for death from cardiovascular causes, 0·84 (0·76-0·93; p<0·0001) for fatal or non-fatal stroke, and 0·91 (0·84-1·00; p=0·043) for fatal or non-fatal myocardial infarction. GLP-1 receptor agonist treatment reduced all-cause mortality by 12% (0·88, 0·83-0·95; p=0·001), hospital admission for heart failure by 9% (0·91, 0·83-0·99; p=0·028), and a broad composite kidney outcome (development of new-onset macroalbuminuria, decline in estimated glomerular filtration rate [or increase in creatinine], progression to end-stage kidney disease, or death attributable to kidney causes) by 17% (0·83, 0·78-0·89; p<0·0001), mainly due to a reduction in urinary albumin excretion. There was no increase in risk of severe hypoglycaemia, pancreatitis, or pancreatic cancer.\nINTERPRETATION: Treatment with GLP-1 receptor agonists has beneficial effects on cardiovascular, mortality, and kidney outcomes in patients with type 2 diabetes.\nFUNDING: None.",
+   "journal": "The lancet. Diabetes & endocrinology",
+   "year": "2019",
+   "doi": "10.1016/S2213-8587(19)30249-9",
+   "publication_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Research Support, Non-U.S. Gov't",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31422062/"
+  },
+  {
+   "pmid": "40892610",
+   "title": "Cardiovascular Effects and Tolerability of GLP-1 Receptor Agonists: A Systematic Review and Meta-Analysis of 99,599 Patients.",
+   "abstract": "BACKGROUND: Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) have demonstrated significant cardiovascular (CV) benefits, particularly in patients with diabetes mellitus, but the safety and efficacy of different GLP-1 RAs across diverse populations remain insufficiently defined.\nOBJECTIVES: Previous meta-analyses of GLP-1 RAs have been limited by restricted populations, omission of recent trials, or incomplete safety synthesis; this study integrates the latest evidence across 21 randomized controlled trials and diverse populations using advanced meta-analytic methods.\nMETHODS: Randomized controlled trials comparing GLP-1 RAs vs controls or placebo were included. Analyses were conducted in prespecified subgroups based on the GLP-1 RA used. Prespecified subgroups according to diabetes mellitus, kidney function, obesity, or heart failure were also performed. Main outcomes comprised mortality (all-cause and CV), trial-defined major adverse cardiovascular events (MACE) and serious adverse events. GRADE (Grading of Recommendations Assessment, Development and Evaluation) and trial sequential analyses were performed to evaluate certainty and conclusiveness of findings, respectively.\nRESULTS: A total of 21 trials encompassing 99,599 patients were included. Eight different GLP-1 RAs were used (lixisenatide, liraglutide, exenatide, semaglutide, efpeglenatide, dulaglutide, albiglutide, and tirzepatide), each administered at therapeutic doses and compared vs placebo or controls. Mean follow-up duration was 2.4 years. We found conclusive, high-certainty evidence that GLP-1 RAs reduced all-cause death (incidence rate ratio [IRR]: 0.88; 95% CI: 0.84-0.92; needed to treat [NNT] = 121), CV death (IRR: 0.87; 95% CI: 0.81-0.92; NNT = 170), and MACE (IRR: 0.87; 95% CI: 0.83-0.91; NNT = 66), compared with controls. GLP-1 RAs reduced serious adverse events (-9%), myocardial infarction (-15%), acute kidney failure (-9%), heart failure (-15%), and infections (-10%), but increased gastrointestinal (+63%) and gallbladder (+26%) disorders. There were no differences in stroke, pancreatitis, or neoplasm between groups. Results were mostly consistent across subgroups. Analysis by GLP-1 RA type revealed potential differences in efficacy and safety profiles.\nCONCLUSIONS: GLP-1 RAs reduce mortality and MACE in high-risk populations, highlighting benefits beyond glycemic control. These come at increased gastrointestinal and gallbladder risks. Variation in efficacy and tolerability supports tailoring GLP-1 RA therapy to individual patient characteristics and treatment goals. (PROSPERO [GLP-1 RAs Reduce Mortality and Cardiovascular Events Across the Spectrum of Treated Patients: A Systematic Review and Meta-Analysis]; CRD420251032222).",
+   "journal": "Journal of the American College of Cardiology",
+   "year": "2025",
+   "doi": "10.1016/j.jacc.2025.08.027",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40892610/"
+  },
+  {
+   "pmid": "32598218",
+   "title": "Comparative Effectiveness of Glucose-Lowering Drugs for Type 2 Diabetes: A Systematic Review and Network Meta-analysis.",
+   "abstract": "BACKGROUND: Several pharmacologic options for type 2 diabetes are available.\nPURPOSE: To compare benefits and harms of glucose-lowering drugs in adults with type 2 diabetes.\nDATA SOURCES: Several databases from inception through 18 December 2019 and ClinicalTrials.gov on 10 April 2020.\nSTUDY SELECTION: English-language randomized trials that had at least 24 weeks of intervention and assessed the effects of glucose-lowering drugs on mortality, glycemic, and vascular outcomes.\nDATA EXTRACTION: Pairs of reviewers extracted data and appraised risk of bias.\nDATA SYNTHESIS: 453 trials assessing 21 antidiabetic interventions from 9 drug classes were included. Interventions included monotherapies (134 trials), add-on to metformin-based therapies (296 trials), and monotherapies versus add-on to metformin therapies (23 trials). There were no differences between treatments in drug-naive patients at low cardiovascular risk. Insulin regimens and specific glucagon-like peptide-1 receptor agonists (GLP-1 RAs) added to metformin-based background therapy produced the greatest reductions in hemoglobin A1c level. In patients at low cardiovascular risk receiving metformin-based background treatment (298 trials), there were no clinically meaningful differences between treatments for mortality and vascular outcomes. In patients at increased cardiovascular risk receiving metformin-based background treatment (21 trials), oral semaglutide, empagliflozin, liraglutide, extended-release exenatide, and dapagliflozin reduced all-cause mortality. Oral semaglutide, empagliflozin, and liraglutide also reduced cardiovascular death. Odds of stroke were lower with subcutaneous semaglutide and dulaglutide. Sodium-glucose cotransporter-2 (SGLT-2) inhibitors reduced heart failure hospitalization and end-stage renal disease. Subcutaneous semaglutide and canagliflozin increased diabetic retinopathy and amputation, respectively.\nLIMITATION: Inconsistent definitions of cardiovascular risk and low-level confidence in some estimates for patients at low cardiovascular risk.\nCONCLUSION: In diabetic patients at low cardiovascular risk, no treatment differs from placebo for vascular outcomes. In patients at increased cardiovascular risk receiving metformin-based background therapy, specific GLP-1 RAs and SGLT-2 inhibitors have a favorable effect on certain cardiovascular outcomes.\nPRIMARY FUNDING SOURCE: European Foundation for the Study of Diabetes, supported by an unrestricted educational grant from AstraZeneca. (PROSPERO: CRD42019122043).",
+   "journal": "Annals of internal medicine",
+   "year": "2020",
+   "doi": "10.7326/M20-0864",
+   "publication_types": [
+    "Comparative Study",
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Systematic Review",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32598218/"
+  },
+  {
+   "pmid": "34248838",
+   "title": "Efficacy of Semaglutide in a Subcutaneous and an Oral Formulation.",
+   "abstract": "Despite the benefits of early and effective glycemic control in the management of type 2 diabetes (T2D), achieving glycated hemoglobin (HbA1c) targets is challenging in some patients. Glucagon-like peptide-1 receptor agonists (GLP-1RAs) provide effective reductions in HbA1c and body weight. Semaglutide is the only GLP-1RA that is available in both an injectable and oral formulation. The efficacy of once-weekly subcutaneous semaglutide and once-daily oral semaglutide has been investigated in the global SUSTAIN and PIONEER phase III clinical trial programs in a range of clinical settings, including early T2D managed with diet and exercise only, more established T2D uncontrolled on one to three oral antidiabetic drugs, and advanced disease treated with insulin. Across the SUSTAIN program, once-weekly subcutaneous semaglutide 1.0 mg reduced HbA1c by 1.5-1.8% after 30-56 weeks, which was significantly more than sitagliptin, liraglutide, exenatide extended release, dulaglutide, canagliflozin, or insulin glargine. Across the PIONEER program, once-daily oral semaglutide 14 mg reduced HbA1c by 1.0-1.4%, significantly more than sitagliptin or empagliflozin, and to a similar extent as liraglutide after 26 weeks. In addition, subcutaneous semaglutide reduced body weight significantly more than all active comparators tested, while oral semaglutide reduced body weight more than sitagliptin and liraglutide, and to a similar extent as empagliflozin. Neither formulation of semaglutide has been associated with an increased risk of hypoglycemia and both improve various measures of health-related quality of life. Semaglutide offers the benefits of a highly effective GLP-1RA in both injectable and oral formulations. Selection of the most appropriate formulation can be made on an individual basis to best suit the patient's preferences and needs.",
+   "journal": "Frontiers in endocrinology",
+   "year": "2021",
+   "doi": "10.3389/fendo.2021.645617",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34248838/"
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{
+ "drug": "PANCRELIPASE AMYLASE\\PANCRELIPASE LIPASE\\PANCRELIPASE PROTEASE",
+ "status": "no_results",
+ "query": "\"pancrelipase amylase\\pancrelipase lipase\\pancrelipase protease\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:19:11+00:00",
+ "records": []
+}

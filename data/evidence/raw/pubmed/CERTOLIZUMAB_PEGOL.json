@@ -1,0 +1,64 @@
+{
+ "drug": "CERTOLIZUMAB PEGOL",
+ "status": "ok",
+ "query": "\"certolizumab pegol\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:42+00:00",
+ "records": [
+  {
+   "pmid": "34688373",
+   "title": "Comparative efficacy and safety of biologic therapies for moderate-to-severe Crohn's disease: a systematic review and network meta-analysis.",
+   "abstract": "BACKGROUND: Data are needed to inform the positioning of biologic therapy in the treatment of moderate-to-severe Crohn's disease, both first line and after previous biologic exposure. We aimed to assess the comparative efficacy and safety of biologics in patients with Crohn's disease.\nMETHODS: We did a systematic review and network meta-analysis of phase 2 and phase 3 randomised controlled trials done in adults (≥18 years) with moderate-to-severe Crohn's disease (Crohn's Disease Activity Index [CDAI] 220-450) treated with tumour necrosis factor (TNF) antagonists, anti-integrin, anti-interleukin (IL)-12 and IL-23p40, or anti-IL23p19 agents, either alone or in combination with immunosuppressants, as their first-line biologic or after previous biologic exposure, compared with placebo or an active comparator. The minimum duration of therapy was 14 days for trials reporting induction of remission in active disease and 22 weeks in trials reporting maintenance of remission. We searched Medline, EMBASE, the Cochrane CENTRAL Register of Controlled Trials, conference proceedings, trial registries, and unpublished data from inception to June 3, 2021, without any language restrictions. Summary estimates of the primary and secondary outcomes were extracted from the published reports; individual patient-level data were not sought. The primary endpoint was induction of clinical remission in patients with active disease (CDAI <150) and maintenance of remission in patients with response to induction therapy, with data extracted from published reports. A network meta-analysis with multivariate consistency model random-effects meta-regression was done, with rankings based on surface under the cumulative ranking curve (SUCRA) values.\nFINDINGS: The search strategy yielded 18 382 citations, of which 31 trials were eligible for inclusion. On the basis of 15 randomised controlled trials including 2931 biologic-naive patients, infliximab monotherapy (odds ratio [OR] 4·53 [95% CI 1·49-13·79]), infliximab combined with azathioprine (7·49 [2·04-27·49]), adalimumab (3·01 [1·25-7·27]), and ustekinumab (2·63 [1·10-6·28]) were associated with significantly higher odds of inducing remission compared to certolizumab pegol (all moderate confidence); infliximab and azathioprine combination therapy was also associated with significantly higher odds of inducing remission than vedolizumab (3·76 [1·01-14·03]; low confidence). On the basis of ten randomised controlled trials including 2479 patients with previous biologic exposure, adalimumab after loss of response to infliximab (OR 2·82 [95% CI 1·20-6·62]; low confidence), and risankizumab (2·10 [1·12-3·92]; moderate confidence), were associated with higher odds of inducing remission than vedolizumab. No differences between active interventions were observed in maintenance trials. Most trials were at low or uncertain risk of bias.\nINTERPRETATION: Although biologic treatment choices in patients with moderate-to-severe Crohn's disease must be individualised for each patient, this analysis suggests that either infliximab with azathioprine or adalimumab might be preferred as a first-line therapy, and adalimumab (after infliximab loss of response) or risankizumab might be preferred as a second-line therapy, for induction of clinical remission.\nFUNDING: None.",
+   "journal": "The lancet. Gastroenterology & hepatology",
+   "year": "2021",
+   "doi": "10.1016/S2468-1253(21)00312-5",
+   "publication_types": [
+    "Comparative Study",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Systematic Review",
+    "Network Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34688373/"
+  },
+  {
+   "pmid": "27567553",
+   "title": "Molecular mechanisms of action of anti-TNF-α agents - Comparison among therapeutic TNF-α antagonists.",
+   "abstract": "Tumor necrosis factor (TNF)-α is a potent pro-inflammatory and pathological cytokines in inflammatory diseases such as rheumatoid arthritis and inflammatory bowel diseases. Anti-TNF-α therapy has been established as an efficacious therapeutic strategy in these diseases. In clinical settings, three monoclonal anti-TNF-α full IgG1 antibodies infliximab, adalimumab, and golimumab, PEGylated Fab' fragment of anti-TNF-α antibody certolizumab pegol, extracellular domain of TNF receptor 2/IgG1-Fc fusion protein etanercept, are almost equally effective for rheumatoid arthritis. Although monoclonal full IgG1 antibodies are able to induce clinical and endoscopic remission in inflammatory bowel diseases, certolizumab pegol without Fc portion has been shown to be less effective for inflammatory bowel diseases compared to full IgG1 antibodies. In addition, there are no evidences that etanercept leads clinical remission in inflammatory bowel diseases. Besides the common effect of anti-TNF-α agents on neutralization of soluble TNF-α, each anti-TNF-α agent has its own distinctive pharmacological properties which cause the difference in clinical efficacies. Here we focus on the distinctions of action of anti-TNF-α agents especially in following points; (1) blocking ability against ligands, transmembrane TNF-α and lymphotoxin, (2) effects toward transmembrane TNF-α-expressing cells, (3) effects toward Fcγ receptor-expressing cells, (4) degradation and distribution in inflamed tissue. Accumulating evidence will give us the idea how to modify anti-TNF-α agents to enhance the clinical efficacy in inflammatory diseases.",
+   "journal": "Cytokine",
+   "year": "2018",
+   "doi": "10.1016/j.cyto.2016.08.014",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27567553/"
+  },
+  {
+   "pmid": "41274746",
+   "title": "AGA Living Clinical Practice Guideline on the Pharmacologic Management of Moderate-to-Severe Crohn's Disease.",
+   "abstract": "BACKGROUND & AIMS: This American Gastroenterological Association (AGA) living guideline is intended to support practitioners in the pharmacologic management of moderate-to-severely active Crohn's disease (CD).\nMETHODS: A multidisciplinary panel of clinical experts and methodologists used the Grading of Recommendations Assessment, Development and Evaluation (GRADE) framework to prioritize clinical questions, identify patient-centered outcomes, conduct an evidence synthesis, and develop recommendations.\nRESULTS: The guideline panel agreed on 16 recommendations, of which 1 is a strong recommendation, 9 are conditional recommendations, and 6 were identified as knowledge gaps. In adult patients with moderate-to-severely active CD, the AGA recommends the use of infliximab, adalimumab, ustekinumab, risankizumab, mirikizumab, guselkumab, or upadacitinib over no treatment, and suggests the use of certolizumab pegol or vedolizumab over no treatment. In individuals who are naïve to advanced therapies, the AGA suggests using a higher efficacy medication (infliximab, adalimumab, vedolizumab, ustekinumab, risankizumab, mirikizumab, or guselkumab) rather than a lower-efficacy medication (certolizumab pegol or upadacitinib). In individuals who have previously been exposed to 1 or more advanced therapies, the AGA suggests using a higher efficacy medication (adalimumab, risankizumab, guselkumab, or upadacitinib) or intermediate efficacy medication (ustekinumab or mirikizumab) rather than a lower efficacy medication (vedolizumab or certolizumab pegol). In adult outpatients with moderate-to-severely active CD, the AGA suggests against using thiopurine monotherapy for induction of remission, but suggests using thiopurine monotherapy over no treatment for maintenance of (typically corticosteroid-induced) remission. The AGA suggests using subcutaneous methotrexate for induction and maintenance of remission, but suggests against using oral methotrexate. The AGA suggests using combination therapy with infliximab and thiopurines over infliximab monotherapy, particularly in those naïve to thiopurines. The AGA also suggests using initial advanced therapy over step therapy involving corticosteroids and/or immunomodulators in patients with moderate-to-severely active CD. The panel also proposed key implementation considerations for optimal use of these medications, identified several knowledge gaps, and areas for future research.\nCONCLUSIONS: This guideline provides a comprehensive, patient-centered, evidence-based approach to the pharmacologic management of patients with moderate-to-severely active CD.",
+   "journal": "Gastroenterology",
+   "year": "2025",
+   "doi": "10.1053/j.gastro.2025.09.038",
+   "publication_types": [
+    "Journal Article",
+    "Practice Guideline",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41274746/"
+  },
+  {
+   "pmid": "33769772",
+   "title": "Certolizumab Pegol in Plaque Psoriasis: Considerations for Pregnancy.",
+   "abstract": "Psoriasis is a chronic, immune-mediated skin condition which commonly affects women of childbearing age. Certolizumab pegol (CZP) is an anti-tumor necrosis factor-alpha (anti-TNFα) agent that has demonstrated long-term safety and efficacy in treating moderate-to-severe plaque psoriasis. Previously, there has been limited safety data surrounding its use in pregnancy. The objective of this article is to review pivotal clinical trial data for CZP and explore safety considerations for this agent in pregnancy. This review demonstrates that CZP offers a safe and effective treatment option for women during childbearing years based on pharmacokinetics and available safety data. The observed occurrence of major congenital malformations and miscarriages appears to be no greater than the background occurrence of those in the general population, and risks to the mother are minimal based on its known safety profile. The use of CZP for treatment of plaque psoriasis should be considered and discussed with patients considering childbearing or whom are currently pregnant or breastfeeding.",
+   "journal": "Skin therapy letter",
+   "year": "2021",
+   "doi": null,
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33769772/"
+  }
+ ]
+}

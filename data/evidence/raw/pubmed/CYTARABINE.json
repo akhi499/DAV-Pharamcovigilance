@@ -1,0 +1,63 @@
+{
+ "drug": "CYTARABINE",
+ "status": "ok",
+ "query": "\"cytarabine\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:20:24+00:00",
+ "records": [
+  {
+   "pmid": "39316723",
+   "title": "How I treat patients with AML using azacitidine and venetoclax.",
+   "abstract": "Venetoclax (VEN) received full approval in October 2020 for use in older patients who are unfit with acute myeloid leukemia (AML) combined with either hypomethylating agents or low-dose cytarabine. This ended a semicentennial of stalled clinical progress and initiated a new treatment option with proven capacity to enhance response and prolong survival in older patients with AML. Despite widespread use of azacitidine-VEN (AZA-VEN), there is increasing appreciation that this regimen is myelosuppressive and associated with a higher risk of infectious complications than AZA alone. Key principles of initial management include prevention of tumor lysis syndrome in patients at high risk and minimizing infectious complications during induction. In the postremission phase, limiting cumulative marrow suppression by allowing sufficient time between cycles for optimal marrow recovery and truncating the duration of VEN exposure for those with delayed blood count recovery have emerged as important axioms of effective care. This article casts a clinical spotlight on important challenges and dilemmas encountered in practice. We also outline a structured framework to assist in the safe management of AZA-VEN in the clinic.",
+   "journal": "Blood",
+   "year": "2025",
+   "doi": "10.1182/blood.2024024009",
+   "publication_types": [
+    "Journal Article",
+    "Case Reports",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39316723/"
+  },
+  {
+   "pmid": "31547736",
+   "title": "CPX-351 (vyxeos) in AML.",
+   "abstract": "For decades, the standard induction for patients with acute myeloid leukemia (AML) has been the combination of cytarabine with anthracycline (7 + 3 regimen). In August 2017 the US FDA approved CPX-351 (vyxeos), a liposomal formulation of cytarabine and daunorubicin at a fixed 5:1 molar ratio, for the treatment of adults with newly diagnosed AML with myelodysplasia-related changes (AML-MRC) and therapy-related AML (t-AML). This is the first approved treatment specifically for patients with this subgroup of AML. The approval was based on findings from a multicenter, randomized, open-label, phase III study of CPX-351 Versus 7 + 3 in patients 60-75 years old with newly diagnosed AML-MRC or t-AML. In this study CPX-351 had a higher median OS than 7 + 3 (9.56 vs 5.95 months, HR 0.69; 95% CI: 0.52 to 0.90, p = 0.005). In this profile, we review preclinical and clinical data, and discuss limitations and future directions with CPX-351 use in AML.",
+   "journal": "Leukemia & lymphoma",
+   "year": "2020",
+   "doi": "10.1080/10428194.2019.1660970",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31547736/"
+  },
+  {
+   "pmid": "33938097",
+   "title": "Chemotherapy for non-Hodgkin lymphoma in the hemodialysis patient: A comprehensive review.",
+   "abstract": "Chemotherapy for non-Hodgkin lymphoma (NHL) in the hemodialysis (HD) patient is a challenging situation. Because many drugs are predominantly eliminated by the kidneys, chemotherapy in the HD patient requires special considerations concerning dose adjustments to avoid overdose and toxicities. Conversely, some drugs are removed by HD and may expose the patient to undertreatment, therefore the timing of drug administration in relation to HD sessions must be carefully planned. Also, the metabolites of some drugs show different toxicities and dialysability as compared with the parent drug, therefore this must also be catered for. However, the pharmacokinetics of many chemotherapeutics and their metabolites in HD patients are unknown, and the fact that NHL patients are often treated with distinct multiagent chemotherapy regimens makes the situation more complicated. In a realm where uncertainty prevails, case reports and case series reporting on actual treatment and outcomes are extremely valuable and can aid physicians in decision making from drug selection to dosing. We carried out an exhaustive review of the literature and adopted 48 manuscripts consisting of 66 HD patients undergoing 71 chemotherapy regimens for NHL, summarized the data, and provide recommendations concerning dose adjustments and timing of administration for individual chemotherapeutics where possible. The chemotherapy regimens studied in this review include, but are not limited to, rituximab, cyclophosphamide + vincristine + prednisolone (CVP) and cyclophosphamide + doxorubicin + vincristine + prednisolone (CHOP)-like regimens, chlorambucil, ibrutinib, bendamustine, methotrexate, platinum compounds, cytarabine, gemcitabine, etoposide, ifosfamide, melphalan, busulfan, fludarabine, mogamulizumab, brentuximab vedotin, and 90 Y-ibritumomab tiuxetan.",
+   "journal": "Cancer science",
+   "year": "2021",
+   "doi": "10.1111/cas.14933",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33938097/"
+  },
+  {
+   "pmid": "41290614",
+   "title": "Optimizing lower intensity triplet therapy in acute myeloid leukemia: a practical guide.",
+   "abstract": "Venetoclax-based doublets with azacitidine or low dose cytarabine are the standard of care for the treatment of acute myeloid leukemia (AML) in older patients or those unfit for intensive chemotherapy. However, some patients do not attain complete remission, and over time, most patients relapse. Frontline triplet therapy incorporating a targeted therapy (FLT3, IDH or menin inhibitor) is an emerging treatment concept under investigation for this population. Initial triplet regimens have yielded encouraging composite complete remission and measurable residual disease negativity rates, enabling the transition to allogeneic stem cell transplantation for eligible patients. While effective, triplets are associated with myelosuppression and cytopenia-related toxicities, which can affect treatment tolerability and quality of life. In this review, we summarize the available evidence for triplet therapy in AML and offer our recommendations on the practical application of triplets in clinical practice, with particular focus on adjustments to dosing schedules in induction and continuation cycles. We also outline drug-specific adverse effects and interactions based on emerging clinical data to help guide the clinician, given the increasing use of novel combination therapies.",
+   "journal": "Blood cancer journal",
+   "year": "2025",
+   "doi": "10.1038/s41408-025-01429-z",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41290614/"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "drug": "OSIMERTINIB",
+ "status": "ok",
+ "query": "\"osimertinib\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:20:12+00:00",
+ "records": [
+  {
+   "pmid": "41114991",
+   "title": "Lung Cancer in Nonsmoking Individuals: A Review.",
+   "abstract": "IMPORTANCE: Lung cancer in nonsmoking individuals (defined as people who have smoked fewer than 100 cigarettes in their lifetime) accounts for 15% to 20% of all lung cancer cases worldwide. In the US, the annual incidence of lung cancer in nonsmoking individuals is 14.4 to 20.8 per 100 000 person-years in females and 4.8 to 12.7 per 100 000 person-years in males.\nOBSERVATIONS: Most lung cancers in nonsmoking individuals are histologically adenocarcinomas (60%-80%) with the remainder being squamous or adenosquamous (10%-20%) and rarely small cell lung cancer (<10%). Risk factors include exposure to passive smoking, radon exposure, air pollution, asbestos, and history of lung cancer in a first-degree family member. Therapeutically targetable genomic variants, such as EGFR mutations or ALK gene rearrangements, are more common in tumors from nonsmoking individuals compared with those with a smoking history (defined as people who currently or formerly smoked) (43% vs 11% for EGFR and 12% vs 2% for ALK). In contrast, tumor mutation burden, the number of somatic mutations in a tumor cell, is lower in lung cancer among nonsmoking individuals (0-3 mutations/megabase [Mb] vs 0-30 mutations/Mb). Similar to individuals with a history of smoking, nonsmoking individuals with lung cancer may present with wheeze, chest pain, dyspnea, hemoptysis, or symptoms attributable to metastatic disease (eg, bone pain and headache) or be diagnosed with incidentally detected disease. The US Preventive Services Task Force does not currently recommend lung cancer screening with low-dose computed tomographic scans for nonsmoking individuals, although screening guidelines vary globally. Treatment typically involves a combination of surgery, radiotherapy, and systemic therapies depending on stage, performance status, and molecular features of the tumor. Comprehensive next-generation sequencing should be performed on stage Ib to IIIa lung cancer tumor tissue from nonsmoking individuals because actionable genomic alterations, such as EGFR mutations or ALK gene rearrangements, are treated with targeted therapy such as the tyrosine kinase inhibitors osimertinib or lorlatinib, respectively. Median survival among nonsmoking individuals with advanced non-small cell lung cancer (stage IIIb or higher) and actionable genomic alterations can exceed 3 to 5 years, while survival without these genomic alterations is similar to lung cancer in people with a history of smoking (1-2 years).\nCONCLUSIONS: Lung cancer in nonsmoking individuals accounts for 15% to 20% of lung cancer cases worldwide. Among patients with lung cancer, nonsmoking individuals are more likely to have genomic alterations such as EGFR mutations or ALK gene rearrangements, and these patients have improved survival when treated with tyrosine kinase inhibitors compared with chemotherapy.",
+   "journal": "JAMA",
+   "year": "2025",
+   "doi": "10.1001/jama.2025.17695",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41114991/"
+  },
+  {
+   "pmid": "40897431",
+   "title": "Cardiovascular adverse events associated with epidermal growth factor receptor tyrosine kinase inhibitors in EGFR-mutated non-small cell lung cancer: systematic review and network meta-analysis.",
+   "abstract": "OBJECTIVE: To evaluate the risk of cardiovascular adverse events associated with epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors in patients with EGFR-mutated non-small cell lung cancer (NSCLC).\nDESIGN: Systematic review and network meta-analysis.\nDATA SOURCES: PubMed, Embase, Web of Science, Scopus, Cochrane Central Register of Controlled Trials, and three clinical trial registries, from inception to 20 November 2024.\nSTUDY SELECTION: Randomised controlled trials comparing EGFR tyrosine kinase inhibitor monotherapy with placebo or other treatments in patients with EGFR-mutated NSCLC.\nDATA EXTRACTION AND SYNTHESIS: Pairs of reviewers extracted data and assessed risk of bias. A random effects network meta-analysis using a frequentist approach compared adverse drug reactions across different treatments. Certainty of evidence was evaluated using the confidence in network meta-analysis approach. Pairwise meta-analyses were done to compare the three generations of EGFR tyrosine kinase inhibitors.\nRESULTS: The network meta-analysis comprised 89 randomised controlled trials involving 29 813 participants, mean follow-up 2.18 years. Compared with placebo, both first generation (odds ratio 1.51, 95% confidence interval 1.01 to 2.26; high certainty; pooled incidence 3.2%) and third generation EGFR tyrosine kinase inhibitors (2.18, 1.46 to 3.27; high certainty; 9.5%) were associated with increased risks of cardiac adverse events. Among third generation inhibitors, osimertinib (2.53, 1.53 to 4.19; high certainty; 8.9%) and lazertinib (2.84, 1.17 to 6.91; moderate certainty; 2.7%) were associated with cardiac adverse events. Combined therapies, such as antiangiogenesis with erlotinib or gefitinib, were associated with vascular adverse events (high certainty), whereas antiangiogenesis with osimertinib was associated with cardiovascular adverse events (moderate to high certainty). Also, the risk of arrhythmias was significantly higher with third generation inhibitors (3.26, 1.83 to 5.81; high certainty; 7.3%), such as osimertinib alone (3.35, 1.75 to 6.40; high certainty; 6.2%) and in combination with antiangiogenesis. Almonertinib was associated with vascular toxicity. In pairwise meta-analysis, third generation inhibitors were associated with higher risks of any grade and grade ≥3 cardiovascular adverse events compared with first generation inhibitors.\nCONCLUSIONS: In patients with EGFR-mutated NSCLC, first and third generation EGFR tyrosine kinase inhibitors, as well as combination therapies with antiangiogenesis, were associated with increased risks of cardiovascular adverse events. Risks were significantly higher with third generation compared with first generation inhibitors.\nSYSTEMATIC REVIEW REGISTRATION: PROSPERO CRD42023433003.",
+   "journal": "BMJ (Clinical research ed.)",
+   "year": "2025",
+   "doi": "10.1136/bmj-2024-082834",
+   "publication_types": [
+    "Journal Article",
+    "Network Meta-Analysis",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40897431/"
+  },
+  {
+   "pmid": "40660952",
+   "title": "Comprehensive management strategies for amivantamab-induced toxicities and review of the literature.",
+   "abstract": "BackgroundLung cancer is a leading cause of cancer-related deaths, with Non-Small Cell Lung Cancer (NSCLC) comprising 85-90% of cases, most commonly adenocarcinoma. Key mutations include EGFR Exon 19 deletions and Exon 21 L858R. While third-generation TKIs like osimertinib, lazertinib, and aumolertinib are effective, resistance often arises. Amivantamab, a bispecific monoclonal antibody targeting EGFR and c-MET, shows promise, particularly against EGFR Exon 20 insertions.ObjectiveTo provide a comprehensive evaluation of the adverse effects associated with amivantamab in EGFR-mutant NSCLC, including their underlying pathophysiological mechanisms and evidence-based management strategies. In addition, this review aims to contextualize the clinical relevance of amivantamab by briefly outlining the therapeutic evolution of EGFR-targeted treatments, highlighting the rationale for its development, and current positioning in treatment paradigms.MethodsA comprehensive review of clinical trials, including CHRYSALIS, PAPILLON, MARIPOSA, and PALOMA-III, was conducted to assess the safety and efficacy of amivantamab. Practical and early insights into managing adverse effects of amivantamab are critical to better adherence and quality of life.ResultsAdverse effects were observed in most of the patients treated with amivantamab. Common side effects included cutaneous toxicities, diarrhea, infusion-related reactions (IRRs), vascular thrombosis and pneumonitis. The most frequent cutaneous side effects were rash, paronychia, pruritis, and stomatitis. Diarrhea occurred in patients primarily due to EGFR inhibition. IRRs were predominantly mild to moderate, occurring mainly during the first cycle. Thrombosis was a notable adverse effect observed, even in patients receiving anticoagulant prophylaxis. Pneumonitis was less common but severe.ManagementAdverse effects of amivantamab are managed based on severity. Cutaneous toxicities are treated with antibiotics, topical steroids, and dose adjustments. Diarrhea is managed with hydration, loperamide, and dose interruption. Infusion-related reactions (IRRs) are treated symptomatically, with epinephrine in severe cases. Anticoagulants are used for deep vein thrombosis or thromboembolism, and fibrinolytics or thrombectomy may be considered. Pneumonitis is managed by discontinuing amivantamab and using glucocorticoids.ConclusionsAmivantamab is effective for EGFR mutant NSCLC but can cause adverse effects. Understanding these effects and implementing management strategies can optimize outcomes, maintaining treatment efficacy.",
+   "journal": "Journal of oncology pharmacy practice : official publication of the International Society of Oncology Pharmacy Practitioners",
+   "year": "2026",
+   "doi": "10.1177/10781552251358871",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40660952/"
+  },
+  {
+   "pmid": "33356419",
+   "title": "Cardiac Safety of Osimertinib: A Review of Data.",
+   "abstract": "PURPOSE: Osimertinib is a third-generation, CNS-active, irreversible, oral epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI) that potently and selectively inhibits both EGFR-TKI-sensitizing and T790M resistance mutations. We assess the cardiac failure risk in patients receiving osimertinib by evaluating the available data.\nMETHODS: Post hoc analyses of cardiac data from (1) studies in patients with advanced non-small-cell lung cancer, FLAURA (osimertinib, n = 279; comparator EGFR-TKI, n = 277) and AURA3 (osimertinib, n = 279; chemotherapy, n = 140), and (2) a pooled data set of patients treated with osimertinib 80 mg from across the clinical trial program (n = 1,142), including cardiac failure-related adverse events and left ventricular ejection fraction (LVEF) reductions. An LVEF pharmacokinetic or pharmacodynamic analysis of the pooled data set was performed. The sponsor's global safety database was analyzed for cardiac failure-related adverse events, and a literature search was conducted.\nRESULTS: Decreases in LVEF from a baseline of ≥ 10 percentage points to an absolute value of < 50% following osimertinib treatment were observed in 8 (3.1%) and 14 (5.5%) patients in FLAURA and AURA3, respectively, and in 35 (3.9%) patients in the pooled population. Most events were asymptomatic and resolved without treatment of the event or osimertinib discontinuation. The pharmacokinetic or pharmacodynamic analysis did not indicate a relationship between exposure to osimertinib and decreases in LVEF from baseline. The database and literature search showed no specific trend or pattern that was suggestive of a safety issue in patients receiving osimertinib.\nCONCLUSION: These data do not suggest a causal relationship between osimertinib and cardiac failure. However, because of LVEF decreases that were observed in patients with cardiac risk factors before osimertinib treatment, cardiac monitoring, including an assessment of LVEF at baseline and during osimertinib treatment, is advised.",
+   "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+   "year": "2021",
+   "doi": "10.1200/JCO.20.01171",
+   "publication_types": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33356419/"
+  }
+ ]
+}

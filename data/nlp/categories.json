@@ -1,0 +1,414 @@
+[
+  {
+    "id": "cardiovascular",
+    "label": "Cardiovascular",
+    "description": "Heart rhythm, heart muscle, coronary and blood-vessel problems, blood pressure.",
+    "anchors": [
+      "cardiac arrhythmia",
+      "heart failure",
+      "myocardial infarction",
+      "chest pain of cardiac origin",
+      "palpitations",
+      "tachycardia",
+      "bradycardia",
+      "hypertension",
+      "hypotension",
+      "deep vein thrombosis",
+      "vasculitis",
+      "cardiac arrest",
+      "stroke due to blood clot in artery",
+      "peripheral vascular disorder"
+    ]
+  },
+  {
+    "id": "respiratory",
+    "label": "Respiratory",
+    "description": "Airways, lungs, pleura and breathing.",
+    "anchors": [
+      "shortness of breath",
+      "cough",
+      "pneumonitis",
+      "asthma attack",
+      "pulmonary embolism",
+      "respiratory failure",
+      "interstitial lung disease",
+      "pleural effusion",
+      "bronchospasm",
+      "nasal congestion",
+      "wheezing",
+      "hypoxia"
+    ]
+  },
+  {
+    "id": "gastrointestinal",
+    "label": "Gastrointestinal",
+    "description": "Mouth, oesophagus, stomach, intestines, pancreas and digestion.",
+    "anchors": [
+      "nausea",
+      "vomiting",
+      "diarrhoea",
+      "constipation",
+      "abdominal pain",
+      "gastrointestinal haemorrhage",
+      "pancreatitis",
+      "colitis",
+      "dyspepsia",
+      "mouth ulceration",
+      "bowel obstruction",
+      "dysphagia"
+    ]
+  },
+  {
+    "id": "hepatobiliary",
+    "label": "Hepatobiliary",
+    "description": "Liver and bile-duct disorders.",
+    "anchors": [
+      "hepatotoxicity",
+      "drug-induced liver injury",
+      "hepatitis",
+      "jaundice",
+      "hepatic failure",
+      "cholestasis",
+      "cholecystitis",
+      "gallstones",
+      "liver cirrhosis",
+      "hepatic steatosis"
+    ]
+  },
+  {
+    "id": "renal_urinary",
+    "label": "Renal & urinary",
+    "description": "Kidney and urinary tract disorders.",
+    "anchors": [
+      "acute kidney injury",
+      "renal failure",
+      "nephrotoxicity",
+      "proteinuria",
+      "haematuria",
+      "urinary retention",
+      "urinary incontinence",
+      "nephritis",
+      "dysuria",
+      "urinary frequency"
+    ]
+  },
+  {
+    "id": "nervous_system",
+    "label": "Nervous system",
+    "description": "Brain, spinal cord, peripheral nerves, headache, seizures, sensation and movement.",
+    "anchors": [
+      "headache",
+      "dizziness",
+      "seizure",
+      "peripheral neuropathy",
+      "paraesthesia",
+      "tremor",
+      "somnolence",
+      "syncope",
+      "encephalopathy",
+      "cerebral haemorrhage",
+      "migraine",
+      "memory impairment",
+      "dysgeusia",
+      "movement disorder"
+    ]
+  },
+  {
+    "id": "psychiatric",
+    "label": "Psychiatric",
+    "description": "Mood, behaviour, perception and sleep-related mental disorders.",
+    "anchors": [
+      "depression",
+      "anxiety",
+      "insomnia",
+      "suicidal ideation",
+      "hallucination",
+      "confusional state",
+      "agitation",
+      "psychosis",
+      "mood swings",
+      "abnormal dreams",
+      "substance dependence"
+    ]
+  },
+  {
+    "id": "skin",
+    "label": "Skin & subcutaneous",
+    "description": "Skin, hair, nails and subcutaneous tissue.",
+    "anchors": [
+      "rash",
+      "pruritus",
+      "urticaria",
+      "eczema",
+      "alopecia",
+      "erythema",
+      "dry skin",
+      "stevens-johnson syndrome",
+      "blister",
+      "skin exfoliation",
+      "hyperhidrosis",
+      "psoriasis",
+      "acne"
+    ]
+  },
+  {
+    "id": "musculoskeletal",
+    "label": "Musculoskeletal",
+    "description": "Muscles, joints, bones, tendons and connective tissue.",
+    "anchors": [
+      "arthralgia",
+      "myalgia",
+      "back pain",
+      "muscle spasms",
+      "rhabdomyolysis",
+      "osteoporosis",
+      "arthritis",
+      "pain in extremity",
+      "joint swelling",
+      "tendon rupture",
+      "osteonecrosis of jaw",
+      "muscular weakness"
+    ]
+  },
+  {
+    "id": "blood",
+    "label": "Blood & lymphatic",
+    "description": "Blood cells, bone marrow, coagulation and lymph nodes.",
+    "anchors": [
+      "anaemia",
+      "neutropenia",
+      "thrombocytopenia",
+      "leukopenia",
+      "febrile neutropenia",
+      "pancytopenia",
+      "bone marrow failure",
+      "lymphadenopathy",
+      "haemolysis",
+      "disseminated intravascular coagulation"
+    ]
+  },
+  {
+    "id": "immune_allergic",
+    "label": "Immune & hypersensitivity",
+    "description": "Allergic, anaphylactic and other immune-system reactions.",
+    "anchors": [
+      "hypersensitivity",
+      "anaphylactic reaction",
+      "allergic reaction",
+      "drug allergy",
+      "angioedema",
+      "cytokine release syndrome",
+      "serum sickness",
+      "immunosuppression",
+      "transplant rejection",
+      "infusion-related allergic reaction"
+    ]
+  },
+  {
+    "id": "infections",
+    "label": "Infections",
+    "description": "Bacterial, viral, fungal and parasitic infections and infestations.",
+    "anchors": [
+      "pneumonia",
+      "urinary tract infection",
+      "sepsis",
+      "covid-19",
+      "herpes zoster",
+      "cellulitis",
+      "nasopharyngitis",
+      "fungal infection",
+      "influenza",
+      "bacterial infection",
+      "viral infection",
+      "tuberculosis"
+    ]
+  },
+  {
+    "id": "metabolic",
+    "label": "Metabolism & nutrition",
+    "description": "Glucose, electrolytes, fluid balance, appetite and nutrition.",
+    "anchors": [
+      "hypoglycaemia",
+      "hyperglycaemia",
+      "diabetes mellitus",
+      "hyponatraemia",
+      "hypokalaemia",
+      "dehydration",
+      "decreased appetite",
+      "lactic acidosis",
+      "hyperlipidaemia",
+      "malnutrition",
+      "tumour lysis syndrome"
+    ]
+  },
+  {
+    "id": "endocrine",
+    "label": "Endocrine",
+    "description": "Hormone-producing glands: thyroid, adrenal, pituitary and others.",
+    "anchors": [
+      "hypothyroidism",
+      "hyperthyroidism",
+      "adrenal insufficiency",
+      "thyroiditis",
+      "hypophysitis",
+      "cushing's syndrome",
+      "hyperparathyroidism",
+      "inappropriate antidiuretic hormone secretion"
+    ]
+  },
+  {
+    "id": "eye",
+    "label": "Eye",
+    "description": "Eyes and vision.",
+    "anchors": [
+      "blurred vision",
+      "visual impairment",
+      "cataract",
+      "conjunctivitis",
+      "dry eye",
+      "glaucoma",
+      "retinal detachment",
+      "eye pain",
+      "uveitis",
+      "macular oedema"
+    ]
+  },
+  {
+    "id": "ear",
+    "label": "Ear & labyrinth",
+    "description": "Hearing and balance organs.",
+    "anchors": [
+      "tinnitus",
+      "hearing loss",
+      "vertigo",
+      "ear pain",
+      "deafness",
+      "ear infection of inner ear"
+    ]
+  },
+  {
+    "id": "reproductive",
+    "label": "Reproductive & breast",
+    "description": "Reproductive organs, menstruation, sexual function and breast.",
+    "anchors": [
+      "erectile dysfunction",
+      "menstrual disorder",
+      "heavy menstrual bleeding",
+      "breast pain",
+      "gynaecomastia",
+      "vaginal haemorrhage",
+      "infertility",
+      "amenorrhoea",
+      "testicular pain"
+    ]
+  },
+  {
+    "id": "pregnancy",
+    "label": "Pregnancy & perinatal",
+    "description": "Pregnancy, childbirth, foetal and neonatal conditions.",
+    "anchors": [
+      "exposure during pregnancy",
+      "spontaneous abortion",
+      "premature delivery",
+      "foetal growth restriction",
+      "stillbirth",
+      "pre-eclampsia",
+      "neonatal complication",
+      "maternal exposure during breast feeding"
+    ]
+  },
+  {
+    "id": "neoplasms",
+    "label": "Neoplasms",
+    "description": "Benign, malignant and unspecified tumours, cancer progression.",
+    "anchors": [
+      "malignant neoplasm",
+      "cancer progression",
+      "metastasis",
+      "lymphoma",
+      "leukaemia",
+      "breast cancer",
+      "lung cancer",
+      "skin cancer",
+      "benign tumour",
+      "second primary malignancy"
+    ]
+  },
+  {
+    "id": "general",
+    "label": "General & administration site",
+    "description": "Whole-body symptoms, administration-site reactions and death.",
+    "anchors": [
+      "fatigue",
+      "pyrexia",
+      "malaise",
+      "asthenia",
+      "oedema peripheral",
+      "chills",
+      "pain",
+      "injection site reaction",
+      "infusion site swelling",
+      "death",
+      "feeling abnormal",
+      "condition aggravated",
+      "influenza like illness"
+    ]
+  },
+  {
+    "id": "investigations",
+    "label": "Investigations (test results)",
+    "description": "Abnormal laboratory values, vital-sign measurements and test results.",
+    "anchors": [
+      "alanine aminotransferase increased",
+      "blood creatinine increased",
+      "weight decreased",
+      "weight increased",
+      "platelet count decreased",
+      "white blood cell count decreased",
+      "blood pressure increased",
+      "electrocardiogram qt prolonged",
+      "haemoglobin decreased",
+      "blood glucose increased",
+      "liver function test abnormal",
+      "heart rate increased"
+    ]
+  },
+  {
+    "id": "injury_procedural",
+    "label": "Injury, poisoning & procedural",
+    "description": "Falls, fractures, wounds, overdose, toxicity and procedure complications.",
+    "anchors": [
+      "fall",
+      "fracture",
+      "contusion",
+      "overdose",
+      "poisoning",
+      "laceration",
+      "procedural complication",
+      "post procedural haemorrhage",
+      "toxicity to various agents",
+      "radiation injury",
+      "burn"
+    ]
+  },
+  {
+    "id": "product_use",
+    "label": "Product use, errors & efficacy",
+    "description": "Medication errors, off-label use, product quality/device problems and lack of effect.",
+    "anchors": [
+      "off label use",
+      "drug ineffective",
+      "medication error",
+      "wrong dose administered",
+      "product dose omission",
+      "intentional product misuse",
+      "product quality issue",
+      "device malfunction",
+      "therapeutic response decreased",
+      "drug interaction",
+      "product use in unapproved indication",
+      "treatment noncompliance",
+      "inappropriate schedule of drug administration"
+    ]
+  }
+]

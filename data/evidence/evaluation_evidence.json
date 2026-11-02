@@ -1,0 +1,941 @@
+{
+  "created_at": "2026-10-20T05:23:18+00:00",
+  "index": {
+    "index_version": "pv-evidence-index-1.0",
+    "created_at": "2026-10-20T05:21:02+00:00",
+    "documents": 601,
+    "documents_by_type": {
+      "literature": 424,
+      "label": 135,
+      "regulatory": 42
+    },
+    "chunks": 8590,
+    "chunks_by_type": {
+      "label": 7100,
+      "literature": 759,
+      "regulatory": 731
+    },
+    "drugs_with_label": 135,
+    "content_sha256": "3119931b8600511f",
+    "chunk_words": 160,
+    "overlap_words": 30,
+    "max_chunks_per_section": 25,
+    "chunks_truncated": 1180,
+    "drug_vocabulary": 300,
+    "embedding": {
+      "model_id": "BAAI/bge-small-en-v1.5",
+      "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "license": "MIT",
+      "weights_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+      "pooling": "CLS, L2-normalised",
+      "max_length": 512,
+      "query_instruction": "Represent this sentence for searching relevant passages: ",
+      "device": "cuda",
+      "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "cuda": "12.6",
+      "dim": 384,
+      "seconds": 110.5,
+      "passages_per_second": 77.7
+    },
+    "retrieval_modes": [
+      "hybrid",
+      "dense",
+      "bm25"
+    ],
+    "seconds_total": 123.4
+  },
+  "retrieval_mode_available": "hybrid",
+  "drugs_with_label": 127,
+  "dev_drugs": 38,
+  "test_drugs": 89,
+  "protocol": {
+    "seed": 42,
+    "dev_fraction": 0.3,
+    "topics": {
+      "boxed_warning": [
+        "boxed_warning"
+      ],
+      "contraindications": [
+        "contraindications"
+      ],
+      "interactions": [
+        "drug_interactions"
+      ],
+      "pregnancy": [
+        "pregnancy",
+        "use_in_specific_populations"
+      ],
+      "overdosage": [
+        "overdosage"
+      ],
+      "adverse_reactions": [
+        "adverse_reactions"
+      ]
+    },
+    "templates": {
+      "boxed_warning": [
+        "What is the boxed warning for {d}?",
+        "What is the most serious warning about {b}?"
+      ],
+      "contraindications": [
+        "What are the contraindications of {d}?",
+        "Who should not take {b}?"
+      ],
+      "interactions": [
+        "What are the drug interactions of {d}?",
+        "Which other medicines should not be combined with {b}?"
+      ],
+      "pregnancy": [
+        "What does the label say about {d} use in pregnancy?",
+        "Is it safe to take {b} while pregnant?"
+      ],
+      "overdosage": [
+        "What are the signs of {d} overdosage?",
+        "What happens if someone takes too much {b}?"
+      ],
+      "adverse_reactions": [
+        "What are the most common adverse reactions of {d}?",
+        "What side effects do people get from {b}?"
+      ]
+    }
+  },
+  "retrieval": {
+    "queries_total": 1300,
+    "modes": [
+      "bm25",
+      "dense",
+      "hybrid"
+    ],
+    "within_drug": {
+      "bm25": {
+        "all": {
+          "n": 886,
+          "recall_at_1": 0.5102,
+          "recall_at_3": 0.6445,
+          "recall_at_5": 0.7054,
+          "recall_at_10": 0.7968,
+          "mrr": 0.5948,
+          "ndcg_at_10": 0.6427,
+          "recall_at_5_95ci": [
+            0.6761,
+            0.7337
+          ],
+          "mrr_95ci": [
+            0.5669,
+            0.6227
+          ]
+        },
+        "label_wording": {
+          "n": 443,
+          "recall_at_1": 0.8352,
+          "recall_at_3": 0.9661,
+          "recall_at_5": 0.9774,
+          "recall_at_10": 0.991,
+          "mrr": 0.8986,
+          "ndcg_at_10": 0.9218,
+          "recall_at_5_95ci": [
+            0.9639,
+            0.991
+          ],
+          "mrr_95ci": [
+            0.8765,
+            0.9194
+          ]
+        },
+        "lay_wording": {
+          "n": 443,
+          "recall_at_1": 0.1851,
+          "recall_at_3": 0.3228,
+          "recall_at_5": 0.4334,
+          "recall_at_10": 0.6027,
+          "mrr": 0.2909,
+          "ndcg_at_10": 0.3635,
+          "recall_at_5_95ci": [
+            0.386,
+            0.4808
+          ],
+          "mrr_95ci": [
+            0.2571,
+            0.3272
+          ]
+        }
+      },
+      "dense": {
+        "all": {
+          "n": 886,
+          "recall_at_1": 0.8115,
+          "recall_at_3": 0.921,
+          "recall_at_5": 0.9458,
+          "recall_at_10": 0.9718,
+          "mrr": 0.8705,
+          "ndcg_at_10": 0.8954,
+          "recall_at_5_95ci": [
+            0.93,
+            0.9594
+          ],
+          "mrr_95ci": [
+            0.8522,
+            0.889
+          ]
+        },
+        "label_wording": {
+          "n": 443,
+          "recall_at_1": 0.9458,
+          "recall_at_3": 0.9819,
+          "recall_at_5": 0.9865,
+          "recall_at_10": 0.9977,
+          "mrr": 0.9652,
+          "ndcg_at_10": 0.9732,
+          "recall_at_5_95ci": [
+            0.9752,
+            0.9955
+          ],
+          "mrr_95ci": [
+            0.95,
+            0.9787
+          ]
+        },
+        "lay_wording": {
+          "n": 443,
+          "recall_at_1": 0.6772,
+          "recall_at_3": 0.86,
+          "recall_at_5": 0.9052,
+          "recall_at_10": 0.9458,
+          "mrr": 0.7759,
+          "ndcg_at_10": 0.8177,
+          "recall_at_5_95ci": [
+            0.8758,
+            0.9323
+          ],
+          "mrr_95ci": [
+            0.7443,
+            0.8081
+          ]
+        }
+      },
+      "hybrid": {
+        "all": {
+          "n": 886,
+          "recall_at_1": 0.6716,
+          "recall_at_3": 0.7968,
+          "recall_at_5": 0.8555,
+          "recall_at_10": 0.9244,
+          "mrr": 0.7496,
+          "ndcg_at_10": 0.7914,
+          "recall_at_5_95ci": [
+            0.8307,
+            0.877
+          ],
+          "mrr_95ci": [
+            0.7261,
+            0.774
+          ]
+        },
+        "label_wording": {
+          "n": 443,
+          "recall_at_1": 0.9481,
+          "recall_at_3": 0.9865,
+          "recall_at_5": 0.9955,
+          "recall_at_10": 1.0,
+          "mrr": 0.9689,
+          "ndcg_at_10": 0.9767,
+          "recall_at_5_95ci": [
+            0.9887,
+            1.0
+          ],
+          "mrr_95ci": [
+            0.9557,
+            0.9809
+          ]
+        },
+        "lay_wording": {
+          "n": 443,
+          "recall_at_1": 0.395,
+          "recall_at_3": 0.6072,
+          "recall_at_5": 0.7156,
+          "recall_at_10": 0.8488,
+          "mrr": 0.5303,
+          "ndcg_at_10": 0.606,
+          "recall_at_5_95ci": [
+            0.6704,
+            0.7585
+          ],
+          "mrr_95ci": [
+            0.4918,
+            0.5681
+          ]
+        }
+      }
+    },
+    "whole_index": {
+      "bm25": {
+        "all": {
+          "n": 886,
+          "recall_at_1": 0.4876,
+          "recall_at_3": 0.6287,
+          "recall_at_5": 0.6941,
+          "recall_at_10": 0.7912,
+          "mrr": 0.5773,
+          "ndcg_at_10": 0.628,
+          "recall_at_5_95ci": [
+            0.6648,
+            0.7223
+          ],
+          "mrr_95ci": [
+            0.5502,
+            0.604
+          ]
+        },
+        "label_wording": {
+          "n": 443,
+          "recall_at_1": 0.7923,
+          "recall_at_3": 0.9413,
+          "recall_at_5": 0.9594,
+          "recall_at_10": 0.9865,
+          "mrr": 0.8673,
+          "ndcg_at_10": 0.8969,
+          "recall_at_5_95ci": [
+            0.9391,
+            0.9752
+          ],
+          "mrr_95ci": [
+            0.8413,
+            0.8921
+          ]
+        },
+        "lay_wording": {
+          "n": 443,
+          "recall_at_1": 0.1828,
+          "recall_at_3": 0.316,
+          "recall_at_5": 0.4289,
+          "recall_at_10": 0.5959,
+          "mrr": 0.2873,
+          "ndcg_at_10": 0.3591,
+          "recall_at_5_95ci": [
+            0.3815,
+            0.4763
+          ],
+          "mrr_95ci": [
+            0.2527,
+            0.3234
+          ]
+        }
+      },
+      "dense": {
+        "all": {
+          "n": 886,
+          "recall_at_1": 0.7607,
+          "recall_at_3": 0.9007,
+          "recall_at_5": 0.9312,
+          "recall_at_10": 0.9582,
+          "mrr": 0.8353,
+          "ndcg_at_10": 0.8656,
+          "recall_at_5_95ci": [
+            0.9142,
+            0.947
+          ],
+          "mrr_95ci": [
+            0.8155,
+            0.856
+          ]
+        },
+        "label_wording": {
+          "n": 443,
+          "recall_at_1": 0.8488,
+          "recall_at_3": 0.9413,
+          "recall_at_5": 0.9571,
+          "recall_at_10": 0.9729,
+          "mrr": 0.8976,
+          "ndcg_at_10": 0.9163,
+          "recall_at_5_95ci": [
+            0.9368,
+            0.9752
+          ],
+          "mrr_95ci": [
+            0.874,
+            0.9202
+          ]
+        },
+        "lay_wording": {
+          "n": 443,
+          "recall_at_1": 0.6727,
+          "recall_at_3": 0.86,
+          "recall_at_5": 0.9052,
+          "recall_at_10": 0.9436,
+          "mrr": 0.773,
+          "ndcg_at_10": 0.8149,
+          "recall_at_5_95ci": [
+            0.8758,
+            0.9323
+          ],
+          "mrr_95ci": [
+            0.7412,
+            0.8054
+          ]
+        }
+      },
+      "hybrid": {
+        "all": {
+          "n": 886,
+          "recall_at_1": 0.6546,
+          "recall_at_3": 0.7867,
+          "recall_at_5": 0.8544,
+          "recall_at_10": 0.9233,
+          "mrr": 0.7391,
+          "ndcg_at_10": 0.7833,
+          "recall_at_5_95ci": [
+            0.8307,
+            0.8758
+          ],
+          "mrr_95ci": [
+            0.716,
+            0.7635
+          ]
+        },
+        "label_wording": {
+          "n": 443,
+          "recall_at_1": 0.9097,
+          "recall_at_3": 0.9661,
+          "recall_at_5": 0.991,
+          "recall_at_10": 1.0,
+          "mrr": 0.9446,
+          "ndcg_at_10": 0.9584,
+          "recall_at_5_95ci": [
+            0.9819,
+            0.9977
+          ],
+          "mrr_95ci": [
+            0.9264,
+            0.96
+          ]
+        },
+        "lay_wording": {
+          "n": 443,
+          "recall_at_1": 0.3995,
+          "recall_at_3": 0.6072,
+          "recall_at_5": 0.7178,
+          "recall_at_10": 0.8465,
+          "mrr": 0.5336,
+          "ndcg_at_10": 0.6081,
+          "recall_at_5_95ci": [
+            0.6749,
+            0.7585
+          ],
+          "mrr_95ci": [
+            0.4951,
+            0.5724
+          ]
+        }
+      }
+    },
+    "per_topic_hybrid_within_drug_recall_at_5": {
+      "adverse_reactions": 0.9157,
+      "boxed_warning": 0.9111,
+      "contraindications": 0.7874,
+      "interactions": 0.8264,
+      "overdosage": 0.6866,
+      "pregnancy": 0.994
+    },
+    "test_queries": 886
+  },
+  "sufficiency": {
+    "status": "ok",
+    "threshold": 0.73,
+    "objective": "max balanced accuracy on dev drugs",
+    "dev": {
+      "balanced_accuracy": 0.9113,
+      "answerable_kept": 0.9541,
+      "unanswerable_rejected": 0.8684,
+      "n": 642
+    },
+    "test": {
+      "balanced_accuracy": 0.9246,
+      "answerable_kept": 0.9334,
+      "unanswerable_rejected": 0.9157,
+      "n": 1420
+    },
+    "unanswerable_templates": [
+      "How much does {b} cost in pharmacies?",
+      "What colour is the {b} packaging?",
+      "What is the street address of the company that sells {b}?",
+      "Who won the football world cup?",
+      "What is a good recipe for chocolate cake?",
+      "How tall is the Eiffel Tower?"
+    ],
+    "similarity_quartiles": {
+      "answerable": [
+        0.771,
+        0.804,
+        0.833
+      ],
+      "unanswerable": [
+        0.408,
+        0.53,
+        0.687
+      ]
+    }
+  },
+  "generation": {
+    "status": "ok",
+    "generator": {
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "model_dir": "E:\\Akhil\\DAV\\PharmacoVigilance\\models\\generator"
+    },
+    "n": 40,
+    "boxed_warning_accuracy": 0.35,
+    "boxed_warning_accuracy_95ci": [
+      0.2,
+      0.5
+    ],
+    "prediction_counts": {
+      "undetermined": 21,
+      "yes": 16,
+      "no": 3
+    },
+    "baseline_retrieval_only_accuracy": 0.975,
+    "verifier_pass_rate": 0.425,
+    "explicit_insufficient_rate": 0.0,
+    "rejection_reasons": {
+      "sentence not supported by its cited passage": 21,
+      "no citation": 18,
+      "quotation not found verbatim in evidence": 2,
+      "unknown citation ids": 1
+    },
+    "citation_support_mean": 0.475,
+    "seconds_median": 0.94,
+    "seconds_p90": 2.33,
+    "examples": [
+      {
+        "drug": "FOLIC ACID",
+        "gold": "yes",
+        "pred": "yes",
+        "status": "verified",
+        "verified": true,
+        "support": 1.0,
+        "seconds": 3.84,
+        "retrieval_has_boxed": true,
+        "text": "The FDA prescribing information states that folic acid is a boxed warning [L1].",
+        "problems": []
+      },
+      {
+        "drug": "LEVOTHYROXINE SODIUM",
+        "gold": "yes",
+        "pred": "no",
+        "status": "rejected",
+        "verified": false,
+        "support": 0.0,
+        "seconds": 0.96,
+        "retrieval_has_boxed": true,
+        "text": "The FDA prescribing information does not contain a boxed warning about levothyroxine sodium [L2].",
+        "problems": [
+          "sentence not supported by its cited passage: 'The FDA prescribing information does not contain a boxed warning about levothyro'"
+        ]
+      },
+      {
+        "drug": "CELECOXIB",
+        "gold": "yes",
+        "pred": "yes",
+        "status": "rejected",
+        "verified": false,
+        "support": 0.0,
+        "seconds": 1.15,
+        "retrieval_has_boxed": true,
+        "text": "The FDA prescribing information states that Celecoxib (Celecoxib) has a boxed warning for gastrointestinal (GI) events [see Warnings and Precautions (5.2)].",
+        "problems": [
+          "no citation",
+          "sentence not supported by its cited passage: 'The FDA prescribing information states that Celecoxib (Celecoxib) has a boxed wa'"
+        ]
+      },
+      {
+        "drug": "SARILUMAB",
+        "gold": "yes",
+        "pred": "yes",
+        "status": "verified",
+        "verified": true,
+        "support": 1.0,
+        "seconds": 0.7,
+        "retrieval_has_boxed": true,
+        "text": "The FDA prescribing information states that SARILUMAB has a boxed warning for infections due to opportunistic pathogens [L1].",
+        "problems": []
+      },
+      {
+        "drug": "VENLAFAXINE HYDROCHLORIDE",
+        "gold": "yes",
+        "pred": "undetermined",
+        "status": "rejected",
+        "verified": false,
+        "support": 0.0,
+        "seconds": 4.26,
+        "retrieval_has_boxed": true,
+        "text": "The FDA prescribing information states that venlafaxine hydrochloride is contraindicated in patients with known hypersensitivity to venlafaxine hydrochloride, desvenlafaxine succinate, or to any excipients in the formulation [see Adverse Reactions ( 6.2 )]. Taking, or within 14 days of stopping, MAOIs (including the MAOIs linezolid and intravenous methylene blue) because of the risk of serotonin s",
+        "problems": [
+          "unknown citation ids: L5",
+          "sentence not supported by its cited passage: 'The FDA prescribing information states that venlafaxine hydrochloride is contrai'"
+        ]
+      },
+      {
+        "drug": "SERTRALINE HYDROCHLORIDE",
+        "gold": "yes",
+        "pred": "yes",
+        "status": "rejected",
+        "verified": false,
+        "support": 0.0,
+        "seconds": 1.03,
+        "retrieval_has_boxed": true,
+        "text": "The FDA prescribing information states that sertraline hydrochloride has a boxed warning about suicidality [Boxed Warning (20260825)].",
+        "problems": [
+          "no citation",
+          "sentence not supported by its cited passage: 'The FDA prescribing information states that sertraline hydrochloride has a boxed'"
+        ]
+      },
+      {
+        "drug": "CAPECITABINE",
+        "gold": "yes",
+        "pred": "yes",
+        "status": "rejected",
+        "verified": false,
+        "support": 0.0,
+        "seconds": 2.24,
+        "retrieval_has_boxed": true,
+        "text": "The FDA prescribing information states that Capecitabine has a boxed warning for serious adverse reactions or death in patients with complete DPD deficiency and increased risk of bleeding with concurrent use of Vitamin K antagonists [see Warnings and Precautions (5.2) ].",
+        "problems": [
+          "no citation",
+          "sentence not supported by its cited passage: 'The FDA prescribing information states that Capecitabine has a boxed warning for'"
+        ]
+      },
+      {
+        "drug": "ARIPIPRAZOLE",
+        "gold": "yes",
+        "pred": "yes",
+        "status": "verified",
+        "verified": true,
+        "support": 1.0,
+        "seconds": 0.74,
+        "retrieval_has_boxed": true,
+        "text": "The FDA has listed a boxed warning for Aripiprazole [L1].",
+        "problems": []
+      }
+    ],
+    "note": "Generation was evaluated with the hybrid retriever (the default when the run was made)."
+  },
+  "concordance": {
+    "status": "ok",
+    "most_reported": {
+      "status": "ok",
+      "signals_checked": 300,
+      "criteria": "all three methods, no indication-bias flag, a >= 10, top 300 by a DESC among drugs with an indexed label",
+      "share_reaction_text_in_label": 0.3367,
+      "share_in_label_excluding_product_use_terms": 0.428,
+      "product_use_terms": 64,
+      "examples_not_in_label": [
+        {
+          "drug": "DUPILUMAB",
+          "pt": "Injection site pain",
+          "a": 3045,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "DUPILUMAB",
+          "pt": "Dry skin",
+          "a": 2188,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "DUPILUMAB",
+          "pt": "Condition aggravated",
+          "a": 1843,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "FINASTERIDE",
+          "pt": "Adverse drug reaction",
+          "a": 1762,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "INFLIXIMAB-DYYB",
+          "pt": "Condition aggravated",
+          "a": 1623,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "DUPILUMAB",
+          "pt": "Exposure via skin contact",
+          "a": 1536,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "ALBUTEROL SULFATE",
+          "pt": "Dyspnoea",
+          "a": 1129,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "ALBUTEROL SULFATE",
+          "pt": "No adverse event",
+          "a": 1106,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "VEDOLIZUMAB",
+          "pt": "Diarrhoea",
+          "a": 1092,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "DUPILUMAB",
+          "pt": "Skin exfoliation",
+          "a": 1046,
+          "in_label": false,
+          "product_use_term": false
+        }
+      ],
+      "examples_in_label": [
+        {
+          "drug": "DUPILUMAB",
+          "pt": "Pruritus",
+          "a": 4797,
+          "in_label": true,
+          "product_use_term": false
+        },
+        {
+          "drug": "DUPILUMAB",
+          "pt": "Rash",
+          "a": 2903,
+          "in_label": true,
+          "product_use_term": false
+        },
+        {
+          "drug": "RELUGOLIX",
+          "pt": "Hot flush",
+          "a": 1472,
+          "in_label": true,
+          "product_use_term": false
+        },
+        {
+          "drug": "DUPILUMAB",
+          "pt": "Erythema",
+          "a": 1164,
+          "in_label": true,
+          "product_use_term": false
+        },
+        {
+          "drug": "TIRZEPATIDE",
+          "pt": "Nausea",
+          "a": 1085,
+          "in_label": true,
+          "product_use_term": false
+        },
+        {
+          "drug": "RELUGOLIX",
+          "pt": "Fatigue",
+          "a": 1054,
+          "in_label": true,
+          "product_use_term": false
+        },
+        {
+          "drug": "TIRZEPATIDE",
+          "pt": "Injection site pain",
+          "a": 1042,
+          "in_label": true,
+          "product_use_term": false
+        },
+        {
+          "drug": "ADALIMUMAB",
+          "pt": "Pain",
+          "a": 953,
+          "in_label": true,
+          "product_use_term": false
+        },
+        {
+          "drug": "DUPILUMAB",
+          "pt": "Dry eye",
+          "a": 924,
+          "in_label": true,
+          "product_use_term": false
+        },
+        {
+          "drug": "DUPILUMAB",
+          "pt": "Injection site swelling",
+          "a": 918,
+          "in_label": true,
+          "product_use_term": false
+        }
+      ],
+      "caveat": "Exact-term text match: a reaction worded differently in the label counts as 'not found'."
+    },
+    "most_disproportionate": {
+      "status": "ok",
+      "signals_checked": 300,
+      "criteria": "all three methods, no indication-bias flag, a >= 10, top 300 by ror_lower DESC among drugs with an indexed label",
+      "share_reaction_text_in_label": 0.0167,
+      "share_in_label_excluding_product_use_terms": 0.0176,
+      "product_use_terms": 16,
+      "examples_not_in_label": [
+        {
+          "drug": "VEDOLIZUMAB",
+          "pt": "Therapeutic reaction time decreased",
+          "a": 368,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "COPPER",
+          "pt": "Abnormal uterine bleeding",
+          "a": 188,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "COPPER",
+          "pt": "Infertility female",
+          "a": 44,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "LEVONORGESTREL",
+          "pt": "Genital haemorrhage",
+          "a": 116,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "DESOXIMETASONE",
+          "pt": "Anti-cyclic citrullinated peptide antibody positive",
+          "a": 453,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "COPPER",
+          "pt": "Foreign body in urogenital tract",
+          "a": 25,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "DESOXIMETASONE",
+          "pt": "Pemphigus",
+          "a": 482,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "DESOXIMETASONE",
+          "pt": "Duodenal ulcer perforation",
+          "a": 421,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "CELECOXIB",
+          "pt": "International normalised ratio fluctuation",
+          "a": 24,
+          "in_label": false,
+          "product_use_term": false
+        },
+        {
+          "drug": "ALENDRONATE SODIUM",
+          "pt": "Pemphigus",
+          "a": 506,
+          "in_label": false,
+          "product_use_term": false
+        }
+      ],
+      "examples_in_label": [
+        {
+          "drug": "CELECOXIB",
+          "pt": "Hepatic enzyme",
+          "a": 28,
+          "in_label": true,
+          "product_use_term": false
+        },
+        {
+          "drug": "DESOXIMETASONE",
+          "pt": "Folliculitis",
+          "a": 385,
+          "in_label": true,
+          "product_use_term": false
+        },
+        {
+          "drug": "METHYLPREDNISOLONE SODIUM SUCCINATE",
+          "pt": "Hepatic enzyme",
+          "a": 24,
+          "in_label": true,
+          "product_use_term": false
+        },
+        {
+          "drug": "SULFASALAZINE",
+          "pt": "Pericarditis",
+          "a": 448,
+          "in_label": true,
+          "product_use_term": false
+        },
+        {
+          "drug": "TACROLIMUS",
+          "pt": "New onset diabetes after transplantation",
+          "a": 27,
+          "in_label": true,
+          "product_use_term": false
+        }
+      ],
+      "caveat": "Exact-term text match: a reaction worded differently in the label counts as 'not found'."
+    },
+    "caveat": "Exact-term text match: a reaction worded differently in the label counts as 'not found'."
+  },
+  "seconds": 126.7,
+  "caveats": [
+    "Gold relevance is FDA's own SPL section coding; a passage outside the gold section can still be useful.",
+    "Questions are templated (two wordings per topic); real questions are more varied.",
+    "Unanswerable questions are templated by the project; their answers are absent from all indexed sources by construction.",
+    "The generator is evaluated on one yes/no task plus automatic faithfulness checks, not on free-form clinical accuracy.",
+    "Concordance uses exact text matching and is descriptive, not a measure of signal validity."
+  ],
+  "mode_selection": {
+    "selected_mode": "dense",
+    "criterion": "highest MRR on dev drugs",
+    "dev": {
+      "bm25": {
+        "n": 414,
+        "recall_at_1": 0.4952,
+        "recall_at_3": 0.6522,
+        "recall_at_5": 0.7029,
+        "recall_at_10": 0.7899,
+        "mrr": 0.5881,
+        "ndcg_at_10": 0.6363
+      },
+      "dense": {
+        "n": 414,
+        "recall_at_1": 0.7778,
+        "recall_at_3": 0.9058,
+        "recall_at_5": 0.9372,
+        "recall_at_10": 0.971,
+        "mrr": 0.8498,
+        "ndcg_at_10": 0.8797
+      },
+      "hybrid": {
+        "n": 414,
+        "recall_at_1": 0.6691,
+        "recall_at_3": 0.8068,
+        "recall_at_5": 0.8502,
+        "recall_at_10": 0.93,
+        "mrr": 0.7517,
+        "ndcg_at_10": 0.7943
+      }
+    }
+  },
+  "patched": {
+    "at": "after the laptop run",
+    "what": "mode_selection (dev drugs) and concordance (two rankings) recomputed on the same index; retrieval, sufficiency and generation results are from the laptop run"
+  }
+}

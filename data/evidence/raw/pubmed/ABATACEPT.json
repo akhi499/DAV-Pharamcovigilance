@@ -1,0 +1,62 @@
+{
+ "drug": "ABATACEPT",
+ "status": "ok",
+ "query": "\"abatacept\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:14:58+00:00",
+ "records": [
+  {
+   "pmid": "39172480",
+   "title": "Immune Checkpoint Inhibitor-Induced Cardiotoxicity: A Systematic Review and Meta-Analysis.",
+   "abstract": "IMPORTANCE: Immune checkpoint inhibitors (ICIs) improve outcomes in a wide range of cancers; however, serious adverse effects, including cardiovascular adverse effects (CVAEs), can occur.\nOBJECTIVE: To determine the incidence of CVAEs and analyze data on the management of myocarditis in patients exposed to ICIs.\nDATA SOURCES: PubMed, Embase, and Cochrane Central Register of Controlled Trials from inception were searched on April 4, 2023.\nSTUDY SELECTION: Two separate studies were performed. Key inclusion criteria for study 1 were phases 1 to 4 trials involving adults with malignant neoplasms treated with an ICI and toxicity data; for study 2, publications (case reports and retrospective analyses) on clinical manifestations and treatment of patients with ICI-induced CVAEs. Studies with dose escalation or fewer than 11 patients in each group and all case reports, retrospective analyses, letters, reviews, and editorials were excluded from study 1. Studies not published in English were excluded from study 2.\nDATA EXTRACTION AND SYNTHESIS: The PRISMA guidelines and Cochrane Handbook for Systematic Reviews were followed. Data were extracted independently by 2 researchers. A meta-analysis of the incidence of CVAEs in clinical trials and a systematic review of the evidence for the management of myocarditis were performed. Data were pooled using a random-effects model.\nMAIN OUTCOMES AND MEASURES: In study 1, the primary outcome was incidence CVAEs in clinical trials with ICIs and ICI combination therapies. Study 2 examined evidence supporting specific management strategies that may decrease the mortality rate of myocarditis. The primary outcomes were planned before data collection began.\nRESULTS: In study 1, a total of 83 315 unique participants in 589 unique trials were included in the meta-analysis. Incidence of CVAEs induced by anti-programmed cell death 1 and/or programmed cell death ligand 1 was 0.80% (95% CI, 0%-1.66%) in clinical trials, with no differences between the compounds, except for cemiplimab, which was associated with a higher risk of CVAEs. Incidence of CVAEs following ipilimumab treatment was 1.07% (95% CI, 0%-2.58%). The incidence of myocarditis was significantly higher following treatment with dual ICIs. However, CVAE incidence was not higher with dual ICIs, ICI combination with chemotherapy, or tyrosine kinase inhibitors. Evidence from randomized clinical trials on recommended monitoring and treatment strategies for ICI-induced myocarditis was lacking. Study 2 showed that myocarditis-associated mortality occurred in 83 of 220 patients (37.7%). Prospective data from 40 patients with myocarditis indicated that systematic screening for respiratory muscle involvement, coupled with active ventilation, prompt use of abatacept, and the addition of ruxolitinib, may decrease the mortality rate.\nCONCLUSIONS AND RELEVANCE: Immune checkpoint inhibitor-induced CVAEs and/or myocarditis were recorded in 1.07% of patients in clinical trials. The CVAE mortality risk remains high, justifying the need for monitoring and management strategies for which evidence from randomized clinical trials is absent. Early recognition, ICI therapy cessation, prompt initiation of corticosteroid therapy, and escalation of therapy are all crucial elements for achieving optimal outcomes. Prospective clinical trials or at least prospective registration of treatments and outcomes are highly warranted.",
+   "journal": "JAMA oncology",
+   "year": "2024",
+   "doi": "10.1001/jamaoncol.2024.3065",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39172480/"
+  },
+  {
+   "pmid": "37471585",
+   "title": "Novel developments in the prophylaxis and treatment of acute GVHD.",
+   "abstract": "Acute graft-versus-host disease (aGVHD) is a major life-threatening complication after allogeneic hematopoietic cell transplant. Traditional standard prophylaxis for aGVHD has included a calcineurin inhibitor plus an antimetabolite, whereas treatment has relied mainly on corticosteroids, followed by multiple nonstandard second-line options. In the past decade, this basic framework has been reshaped by approval of antithymocyte globulin products, the emergence of posttransplant cyclophosphamide, and recent pivotal trials studying abatacept and vedolizumab for GVHD prophylaxis, whereas ruxolitinib was approved for corticosteroid-refractory aGVHD treatment. Because of this progress, routine acute GVHD prophylaxis and treatment practices are starting to shift, and results of ongoing trials are eagerly awaited. Here, we review recent developments in aGVHD prevention and therapy, along with ongoing and future planned clinical trials in this space, outlining what future goals should be and the limitations of current clinical trial designs and end points.",
+   "journal": "Blood",
+   "year": "2023",
+   "doi": "10.1182/blood.2023020073",
+   "publication_types": [
+    "Review",
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37471585/"
+  },
+  {
+   "pmid": "40488825",
+   "title": "Optimal GVHD Prophylaxis.",
+   "abstract": "Graft-versus-host disease (GVHD) limits the curative potential of allogeneic hematopoietic cell transplant (HCT). This immune-mediated disease can result in multisystem organ morbidity, chronic debility, or mortality. Prevention of GVHD is a primary objective when treating patients with allogeneic HCT. While many factors are considered in transplant planning, the choice of GVHD prophylaxis is a critical and modifiable factor that impacts the risk of GVHD. Each regimen is associated with variable GVHD risk, immune reconstitution, infection risk, graft-versus-tumor effect, and drug-related adverse events. Furthermore, the utility of a specific regimen must be considered in the context of the transplant platform such as conditioning regimen and donor choice. In this chapter, we review the current state of GVHD prophylaxis, highlighting the historical standard approach of calcineurin inhibitor-based regimens, as well as the emerging standard of post-transplant cyclophosphamide.",
+   "journal": "Advances in experimental medicine and biology",
+   "year": "2025",
+   "doi": "10.1007/978-3-031-84988-6_5",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40488825/"
+  },
+  {
+   "pmid": "39329708",
+   "title": "Current Approaches for the Prevention and Treatment of Acute and Chronic GVHD.",
+   "abstract": "Whereas aGVHD has strong inflammatory components, cGVHD displays autoimmune and fibrotic features; incidence and risk factors are similar but not identical; indeed, the aGVHD is the main risk factor for cGVHD. Calcineurin Inhibitors (CNI) with either Methotrexate (MTX) or Mycophenolate (MMF) still represent the standard prophylaxis in HLA-matched allogeneic stem cell transplantation (HSCT); other strategies focused on ATG, Post-Transplant Cyclophosphamide (PTCy), Abatacept and graft manipulation. Despite the high rate, first-line treatment for aGVHD is represented by corticosteroids, and Ruxolitinib is the standard second-line therapy; investigational approaches include Microbiota transplant and the infusion of Mesenchymal stem cells. GVHD is a pleiotropic disease involving any anatomical district; also, Ruxolitinib represents the standard for steroid-refractory cGVHD in this setting. It is a pleiotropic disease involving any anatomical district; also, Ruxolitinib represents the standard for steroid-refractory cGVHD in this setting. Extracorporeal Photopheresis (ECP) is still an option used for steroid refractoriness or to achieve a steroid-sparing. For Ruxolitinib-refractory cGVHD, Belumosudil and Axatilimab represent the most promising agents. Bronchiolitis obliterans syndrome (BOS) still represents a challenge; among the compounds targeting non-immune effectors, Alvelestat, a Neutrophil elastase inhibitor, seems promising in BOS. Finally, in both aGVHD and cGVHD, the association of biological markers with specific disease manifestations could help refine risk stratification and the availability of reliable biomarkers for specific treatments.",
+   "journal": "Cells",
+   "year": "2024",
+   "doi": "10.3390/cells13181524",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39329708/"
+  }
+ ]
+}

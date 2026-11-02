@@ -1,0 +1,60 @@
+{
+ "drug": "TOCILIZUMAB",
+ "status": "ok",
+ "query": "\"tocilizumab\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:15:37+00:00",
+ "records": [
+  {
+   "pmid": "36763238",
+   "title": "CAR-T Cell Therapy: the Efficacy and Toxicity Balance.",
+   "abstract": "PURPOSE OF REVIEW: Chimeric antigen receptor (CAR) T cell therapy is an immunotherapy that has resulted in tremendous progress in the treatment of patients with B cell malignancies. However, the remarkable efficacy of therapy is not without significant safety concerns. Herein, we will review the unique and potentially life-threatening toxicities associated with CAR-T cell therapy and their association with treatment efficacy.\nRECENT FINDINGS: Currently, CAR-T cell therapy is approved for the treatment of B cell relapsed or refractory leukemia and lymphoma, and most recently, multiple myeloma (MM). In these different diseases, it has led to excellent complete and overall response rates depending on the patient population and therapy. Despite promising efficacy, CAR-T cell therapy is associated with significant side effects; the two most notable toxicities are cytokine release syndrome (CRS) and immune effector cell-associated neurotoxicity syndrome (ICANS). The treatment of CAR-T-induced toxicity is supportive; however, as higher-grade adverse events occur, toxicity-directed therapy with tocilizumab, an IL-6 receptor antibody, and steroids is standard practice. Overall, a careful risk-benefit balance exists between the efficacy and toxicities of therapies. The challenge lies in the underlying pathophysiology of CAR-T-related toxicity which relies upon the activation of CAR-T cells. Some degree of toxicity is expected to achieve an effective response to therapy, and certain aspects of treatment are also associated with toxicity. As progress is made in the investigation and approval of new CARs, novel toxicity-directed therapies and toxicity-limited constructs will be the focus of attention.",
+   "journal": "Current hematologic malignancy reports",
+   "year": "2023",
+   "doi": "10.1007/s11899-023-00687-7",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36763238/"
+  },
+  {
+   "pmid": "32425246",
+   "title": "Psychopharmacology of COVID-19.",
+   "abstract": "BACKGROUND: With the rapid, global spread of severe acute respiratory syndrome coronavirus 2, hospitals have become inundated with patients suffering from coronavirus disease 2019. Consultation-liaison psychiatrists are actively involved in managing these patients and should familiarize themselves with how the virus and its proposed treatments can affect psychotropic management. The only Food and Drug Administration-approved drug to treat COVID-19 is remdesivir, and other off-label medications used include chloroquine and hydroxychloroquine, tocilizumab, lopinavir/ritonavir, favipiravir, convalescent plasma therapy, azithromycin, vitamin C, corticosteroids, interferon, and colchicine.\nOBJECTIVE: To provide an overview of the major safety considerations relevant to clinicians who prescribe psychotropics to patients with COVID-19, both related to the illness and its proposed treatments.\nMETHODS: In this targeted review, we performed structured literature searches in PubMed to identify articles describing the impacts of COVID-19 on different organ systems, the neuropsychiatric adverse effects of treatments, and any potential drug interactions with psychotropics. The articles most relevant to this one were included.\nRESULTS: COVID-19 impacts multiple organ systems, including gastrointestinal, renal, cardiovascular, pulmonary, immunological, and hematological systems. This may lead to pharmacokinetic changes that impact psychotropic medications and increase sensitivity to psychotropic-related adverse effects. In addition, several proposed treatments for COVID-19 have neuropsychiatric effects and potential interactions with commonly used psychotropics.\nCONCLUSIONS: Clinicians should be aware of the need to adjust existing psychotropics or avoid using certain medications in some patients with COVID-19. They should also be familiar with neuropsychiatric effects of medications being used to treat this disease. Further research is needed to identify strategies to manage psychiatric issues in this population.",
+   "journal": "Psychosomatics",
+   "year": "2020",
+   "doi": "10.1016/j.psym.2020.05.006",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32425246/"
+  },
+  {
+   "pmid": "28841363",
+   "title": "Tocilizumab (Actemra).",
+   "abstract": "Tocilizumab (TCZ), is a recombinant humanized anti-interleukin-6 receptor (IL-6R) monoclonal antibody which has a main use in the treatment of rheumatoid arthritis, systemic juvenile idiopathic arthritis (sJIA) and polyarticular juvenile idiopathic arthritis (pJIA). This article provides an overview of TCZ including looking into the past at the discovery of interleukin-6 (IL-6) as a pro-inflammatory cytokine. It also looks at how tocilizumab was developed, manufactured and tested to ensure both safety and efficacy in a human population. The article then explores the advantages and disadvantages of using TCZ when compared to other biologics approved in RA, sJIA and pJIA and finally looks ahead to the future and the emerging role of IL-6 and its blockade by TCZ as a treatment for giant cell arteritis (GCA), polymyalgia rheumatica (PMR) and large vessel vasculitis (LVV).",
+   "journal": "Human vaccines & immunotherapeutics",
+   "year": "2017",
+   "doi": "10.1080/21645515.2017.1316909",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28841363/"
+  },
+  {
+   "pmid": "40440205",
+   "title": "Antibody-mediated rejection-treatment standard.",
+   "abstract": "Antibody-mediated rejection (AMR) remains a major cause of graft failure, with significant health and economic burden. Despite being recognized >25 years ago, AMR treatment remains unstandardized, and no therapy has gained robust regulatory approval. While uncontrolled series have shown promise, few well-designed trials exist, with most yielding negative results. In the absence of strong trial data, a Transplantation Society expert consensus recommended potential treatment options with low levels of evidence, tailored to clinical phenotypes. Here, we re-evaluate the current evidence for AMR treatment decisions. We conclude that steroids, rituximab, bortezomib, and interleukin-6 (IL-6) antagonists lack sufficiently robust evidence to support their use in AMR. For early AMR, antibody depletion using immunoadsorption could be considered as an alternative to plasmapheresis. High-dose intravenous immunoglobulin (IVIG) may be added, though the supporting evidence remains limited. While previous trials primarily targeted the cause of AMR, recent data on the successful reversal of AMR activity by CD38 antibodies-particularly recent phase 2 trial results-suggest that targeting the cellular inflammation resulting from antibody binding to the endothelium could be a rational approach. Along these lines, in severe early AMR, complement inhibition may also be an option. Ongoing phase 2 trials evaluating prolonged courses of high-dose IVIG, the neonatal Fc receptor blocker efgartigimod, the tyrosine kinase inhibitor fostamatinib, and the complement inhibitor BIVV020, along with phase 3 trials of the anti-IL-6 receptor antibody tocilizumab and the CD38 antibody felzartamab, offer hope for effective, approved therapies targeting different aspects of AMR pathobiology.",
+   "journal": "Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association",
+   "year": "2025",
+   "doi": "10.1093/ndt/gfaf097",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40440205/"
+  }
+ ]
+}

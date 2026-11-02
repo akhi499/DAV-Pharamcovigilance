@@ -1,0 +1,60 @@
+{
+ "drug": "ALPRAZOLAM",
+ "status": "ok",
+ "query": "\"alprazolam\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:48+00:00",
+ "records": [
+  {
+   "pmid": "28777203",
+   "title": "A Review of Alprazolam Use, Misuse, and Withdrawal.",
+   "abstract": ": Alprazolam is one of the most widely prescribed benzodiazepines for the treatment of generalized anxiety disorder and panic disorder. Its clinical use has been a point of contention as most addiction specialists consider it to be highly addictive, given its unique psychodynamic properties which limit its clinical usefulness, whereas many primary care physicians continue to prescribe it for longer periods than recommended. Clinical research data has not fully shed light on its \"abuse liability,\" yet it is one of the most frequently prescribed benzodiazepines. \"Abuse liability\" is the degree to which a psychoactive drug has properties that facilitate people misusing it, or becoming addicted to it, and is commonly used in the literature. We have replaced it in our manuscript with \"misuse liability\" as it reflects a more updated terminology consistent with the Diagnostic and Statistical Manual of Mental Disorders (DSM-5). In this paper, we have reviewed alprazolam's indications for use, its effect on pregnant women, misuse liability, withdrawal syndrome, pharmacodynamic properties, and suggest better clinical prescription practice of alprazolam by presenting an indepth theory of its clinical effects with use and withdrawal.",
+   "journal": "Journal of addiction medicine",
+   "year": "2018",
+   "doi": "10.1097/ADM.0000000000000350",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28777203/"
+  },
+  {
+   "pmid": "32259826",
+   "title": "Acute and Persistent Withdrawal Syndromes Following Discontinuation of Psychotropic Medications.",
+   "abstract": "Studies on psychotropic medications decrease, discontinuation, or switch have uncovered withdrawal syndromes. The present overview aimed at analyzing the literature to illustrate withdrawal after decrease, discontinuation, or switch of psychotropic medications based on the drug class (i.e., benzodiazepines, nonbenzodiazepine benzodiazepine receptor agonists, antidepressants, ketamine, antipsychotics, lithium, mood stabilizers) according to the diagnostic criteria of Chouinard and Chouinard [Psychother Psychosom. 2015;84(2):63-71], which encompass new withdrawal symptoms, rebound symptoms, and persistent post-withdrawal disorders. All these drugs may induce withdrawal syndromes and rebound upon discontinuation, even with slow tapering. However, only selective serotonin reuptake inhibitors, serotonin noradrenaline reuptake inhibitors, and antipsychotics were consistently also associated with persistent post-withdrawal disorders and potential high severity of symptoms, including alterations of clinical course, whereas the distress associated with benzodiazepines discontinuation appears to be short-lived. As a result, the common belief that benzodiazepines should be substituted by medications that cause less dependence such as antidepressants and antipsychotics runs counter the available literature. Ketamine, and probably its derivatives, may be classified as at high risk for dependence and addiction. Because of the lag phase that has taken place between the introduction of a drug into the market and the description of withdrawal symptoms, caution is needed with the use of newer antidepressants and antipsychotics. Within medication classes, alprazolam, lorazepam, triazolam, paroxetine, venlafaxine, fluphenazine, perphenazine, clozapine, and quetiapine are more likely to induce withdrawal. The likelihood of withdrawal manifestations that may be severe and persistent should thus be taken into account in clinical practice and also in children and adolescents.",
+   "journal": "Psychotherapy and psychosomatics",
+   "year": "2020",
+   "doi": "10.1159/000506868",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32259826/"
+  },
+  {
+   "pmid": "26638213",
+   "title": "Alprazolam for essential tremor.",
+   "abstract": "BACKGROUND: Essential tremor (ET) is one of the most common movement disorders. Treatment is based primarily on pharmacological agents. On this basis, although primidone and propranolol are well-established treatments in clinical practice, they could be ineffective in 25% to 55% of patients and can produce serious adverse events (AEs) in a large percentage of individuals. For these reasons, evaluating treatment alternatives for ET may be a worthwhile pursuit. Alprazolam has been suggested as a potentially useful agent for treatment of individuals with ET, but its efficacy and safety are uncertain.\nOBJECTIVES: PrimaryTo assess the efficacy and safety of alprazolam in the treatment of individuals with ET. SecondaryTo examine effects of alprazolam treatment on the quality of life of people with ET.\nSEARCH METHODS: We carried out a systematic search without language restrictions to identify all relevant trials. We searched the Cochrane Central Register of Controlled Trials (CENTRAL), MEDLINE (January 1966 to September 2015), EMBASE (January 1988 to September 2015), the National Institute for Health and Care Excellence (NICE) (1999 to September 2015), ClinicalTrials.gov (1997 to September 2015) and the World Health Organiza tion (WHO) International Clinical Trials Registry Platform (ICTRP) (2004 to September 2015). We handsearched grey literature and examined the reference lists of identified studies and reviews.\nSELECTION CRITERIA: We included all randomised controlled trials (RCTs) of alprazolam versus placebo or any other treatment. We included studies in which ET was diagnosed according to accepted and validated diagnostic criteria. We excluded studies that included patients presenting with secondary forms of tremor or reporting only neurophysiological parameters for the pur p ose of assessing outcomes.\nDATA COLLECTION AND ANALYSIS: Two review authors independently collected and extracted data using a data collection form. We assessed risk of bias and the body of evidence. We used inverse variance methods for continuous outcomes and measurement scales. We compared differences between treatment groups as mean differences. We used Review Manager software for management and analysis of data.\nMAIN RESULTS: We included in this review one trial that compared alprazolam versus placebo (24 participants). It was judged to have high overall risk of bias. We graded the overall quality of evidence as very low. Compared with those given placebo, participants treated with alprazolam showed a significant reduction in tremor severity (mean difference (MD) -0.75, 95% confidence interval (CI) -0.83 to -0.67). Nine alprazolam-treated participants (75%) developed AEs, mainly represented by sedation (50%), constipation (17%) and dry mouth (9%). No participants in the alprazolam group and no p articipants in the placebo group discontinued treatment and dropped out of the study.\nAUTHORS' CONCLUSIONS: Currently available data reveal evidence insufficient for assessment of the efficacy and safety of alprazolam treatment for individuals with ET.",
+   "journal": "The Cochrane database of systematic reviews",
+   "year": "2015",
+   "doi": "10.1002/14651858.CD009681.pub2",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26638213/"
+  },
+  {
+   "pmid": "37040158",
+   "title": "Alprazolam: Good for Some, Not Good for All!",
+   "abstract": "BACKGROUND: Although alprazolam is approved only for use in panic disorder and generalized anxiety disorder, it is used for numerous other conditions, not only by psychiatrists but also by medical professionals in general. This commentary critically analyzes the use of alprazolam.\nMETHODS: A narrative review approach was adopted, using relevant articles and textbooks, to compile pertinent literature for the aforementioned topic.\nRESULTS: Among all its adverse reactions, the most bothersome concern about the use of alprazolam is its potential for abuse and dependence. This can be attributed to certain unique pharmacokinetic and pharmacodynamic properties of this benzodiazepine. Also, the withdrawal triggered by use of alprazolam is challenging to treat. Alternate pharmacological and non-pharmacological strategies for use in anxiety and insomnia are available, which might be safer than alprazolam. Also, policy changes can serve as an answer to curb alprazolam abuse to some extent. Alprazolam might still be a good choice for individuals who do not have a history of abuse of other substances, with adequate psychoeducation and close monitoring of their usage pattern.\nCONCLUSION: There is a need to reconsider the need for long-term use of benzodiazepines in general, and alprazolam in particular. However, they still might be an appropriate choice in individuals where abuse and dependence are less likely.",
+   "journal": "Journal of clinical psychopharmacology",
+   "year": "2023",
+   "doi": "10.1097/JCP.0000000000001669",
+   "publication_types": [
+    "Review",
+    "Journal Article"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37040158/"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "drug": "SULFASALAZINE",
+ "status": "ok",
+ "query": "\"sulfasalazine\"[tiab] AND (\"adverse effects\"[sh] OR \"drug-related side effects and adverse reactions\"[mh]) AND (review[pt] OR systematic review[pt] OR meta-analysis[pt]) AND english[la] AND hasabstract AND 2015:3000[dp]",
+ "fetched_at": "2026-10-20T05:18:11+00:00",
+ "records": [
+  {
+   "pmid": "40287311",
+   "title": "EULAR recommendations for use of antirheumatic drugs in reproduction, pregnancy, and lactation: 2024 update.",
+   "abstract": "OBJECTIVES: To update the existing European Alliance of Associations for Rheumatology (EULAR) points to consider (PtC) for use of antirheumatic drugs in reproduction, pregnancy, and lactation, including additional drugs and adverse outcomes as well as paternal drug safety.\nMETHODS: According to the EULAR standardised operating procedures, an international task force (TF) defined the questions for a systematic literature review, followed by formulation of the updated statements. A predefined voting process was applied to each overarching principle and statement. Level of evidence and strength of recommendation were assigned, and participants finally provided their level of agreement for each item.\nRESULTS: The TF proposes 5 overarching principles and 12 recommendations for the use of antirheumatic drugs before and during pregnancy, through lactation, and in male patients. The current evidence indicates that synthetic disease-modifying antirheumatic drugs (DMARDs) compatible with pregnancy include antimalarials, azathioprine, colchicine, cyclosporine, sulfasalazine, and tacrolimus. Regarding nonsteroidal anti-inflammatory drugs (NSAIDs) and glucocorticoids, a more restrictive approach to their use during pregnancy is recommended. Based on an individualised risk-benefit assessment, all tumour necrosis factor inhibitor (TNFi) biologic DMARDs (bDMARDs) can be used throughout pregnancy, and non-TNFi bDMARDs may be used if needed. In relation to lactation, compatible drugs include antimalarials, azathioprine, colchicine, cyclosporine, glucocorticoids, intravenous immunoglobulin (IVIG), NSAIDs, sulfasalazine, and tacrolimus. All bDMARDs are considered compatible with breastfeeding. Concerning the use of drugs in men, compatible options include antimalarials, azathioprine, colchicine, cyclosporine, IVIG, leflunomide, methotrexate, mycophenolate, NSAIDs, glucocorticoids, sildenafil, sulfasalazine, tacrolimus, and bDMARDs.\nCONCLUSIONS: The updated recommendations provide consensus guidance and will help to improve the quality of care of patients during the phases of reproduction, pregnancy, and lactation.",
+   "journal": "Annals of the rheumatic diseases",
+   "year": "2025",
+   "doi": "10.1016/j.ard.2025.02.023",
+   "publication_types": [
+    "Journal Article",
+    "Practice Guideline"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40287311/"
+  },
+  {
+   "pmid": "40663028",
+   "title": "Comparative efficacy and safety of biologics and systemic immunomodulatory treatments for chronic urticaria: Systematic review and network meta-analysis.",
+   "abstract": "BACKGROUND: Chronic urticaria is a common skin condition characterized by itchy wheals (hives), angioedema, or both, lasting for 6 weeks or more. Beyond antihistamines, multiple systemic treatments are available, but there is uncertainty regarding their comparative effects on chronic urticaria outcomes.\nOBJECTIVE: We systematically synthesized the comparative benefits and harms of systemic treatments for chronic urticaria.\nMETHODS: As part of updating the AAAAI/ACAAI JTFPP chronic urticaria guidelines, we searched Medline, Embase, Central, Chinese Biomedical Databases (CBM), China National Knowledge Infrastructure (CNKI), Chinese Scientific Journal Database (VIP), and Wanfang from inception to February 4, 2025, for randomized trials addressing systemic immunomodulatory treatments, including phototherapy, for chronic urticaria. Paired reviewers screened records, extracted data, and assessed risk of bias. Random effects Bayesian network meta-analyses addressed urticaria activity (comprising itch and wheal scores), angioedema activity, health-related quality of life, and adverse events. The GRADE approach informed certainty-of-evidence ratings (PROSPERO: CRD42023429819).\nRESULTS: We included 93 studies (n = 11,398; mostly adult and adolescent participants across 83 randomized trials and 10 nonrandomized studies) that evaluated 42 interventions. With high certainty, standard-dose omalizumab (300 mg every 4 weeks) and remibrutinib are among the most effective for improving multiple patient-important outcomes. The safety profile of remibrutinib, however, is less certain. Dupilumab improved urticaria activity, but its impact on quality of life is uncertain, and no dupilumab trials addressed angioedema activity. Cyclosporine may be among the most effective for improving urticaria activity but may be among the most harmful in increasing the frequency of any adverse events. Azathioprine, dapsone, hydroxychloroquine, mycophenolate, sulfasalazine, and vitamin D may improve outcomes, while benralizumab, quilizumab, and tezepelumab may not differ from placebo, though the evidence is uncertain. Findings were consistent across age groups and baseline severity, and were robust to subgroup analyses.\nCONCLUSIONS: Among individuals with chronic urticaria refractory to antihistamines, standard-dose omalizumab and remibrutinib are among the most effective drugs across multiple patient-important outcomes with a favorable safety profile across the studied duration. Cyclosporine may be effective but may be among the most harmful. Dupilumab improves itch and wheals, but it is uncertain whether it improves angioedema or quality of life. Lower doses of omalizumab are of intermediate effectiveness and favorable safety. The net benefit of conventional immunosuppressants is uncertain.",
+   "journal": "The Journal of allergy and clinical immunology",
+   "year": "2025",
+   "doi": "10.1016/j.jaci.2025.06.004",
+   "publication_types": [
+    "Comparative Study",
+    "Journal Article",
+    "Network Meta-Analysis",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40663028/"
+  },
+  {
+   "pmid": "31741184",
+   "title": "Drug-Induced Intracranial Hypertension: A Systematic Review and Critical Assessment of Drug-Induced Causes.",
+   "abstract": "BACKGROUND: Idiopathic intracranial hypertension (IIH) is a condition with increased intracranial pressure of unknown etiology. Its presenting symptoms include persistent headache, pulsatile tinnitus, and visual obscuration. It tends to occur in obese women of childbearing age, and its greatest risk is irreversible loss of vision. Some of the commonly used medications in dermatology, especially those for acne vulgaris, have been associated with IIH. However, the creation of specific risk categories for drugs as a guide for clinicians has never been performed.\nOBJECTIVE: The aim of this study was to critically assess all published cases of IIH and identify high-risk drugs associated with drug-induced intracranial hypertension (DIIH), to assist dermatologists and other physicians with patient education and monitoring of symptoms of secondary intracranial hypertension.\nMETHODS: MEDLINE, EMBASE, and Cochrane Review Databases were searched for all cases of IIH thought to be drug-related between January 1900 and June 2019. A total of 5117 articles were identified, and 235 articles were found to be relevant. All cases were assessed to satisfy the modified Dandy criteria for diagnosis of IIH, and the likelihood of each case being a 'definite' adverse drug reaction (ADR) was determined using the Koh algorithm for ADR. An association category (from weakly associated [Category I] to strongly associated [Category V]) was assigned based on the number of cases meeting these two criteria.\nRESULTS: There were 259 verifiable cases of DIIH. Vitamin A derivatives, tetracycline-class antibiotics, recombinant growth hormone, and lithium were found to be most strongly associated with DIIH (Categories IV and V). Corticosteroids were moderately associated with DIIH (Category III). Drugs that were weakly associated with DIIH (Categories I and II) include cyclosporine, progestin-only contraceptives, combined oral contraceptives, second- and third-generation fluoroquinolones, sulfenazone, gonadotropin-releasing hormones and luteinizing hormone-releasing hormone agonist, nalidixic acid, amiodarone, stanozolol, danazol, divalproic acid, sulfasalazine, ketoconazole, and ustekinumab.\nCONCLUSION: We suggest using the term 'drug-induced intracranial hypertension' (DIIH) and propose a set of diagnostic criteria for DIIH. Our review attempts to identify DIIH-associated drugs based on a strict diagnostic and drug-causality algorithm, then stratify them into appropriate risks categories. This may ultimately assist physicians in counselling patients about the risk of DIIH when prescribing medications and recognizing this uncommon yet sight-threatening condition.",
+   "journal": "American journal of clinical dermatology",
+   "year": "2020",
+   "doi": "10.1007/s40257-019-00485-z",
+   "publication_types": [
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31741184/"
+  },
+  {
+   "pmid": "31727565",
+   "title": "Paternal safety of anti-rheumatic medications.",
+   "abstract": "There is lack of research on the safety of medications used to treat rheumatic diseases in men wishing to conceive. When evaluating medication safety for potential fathers, two major reproductive issues are to be considered: first, whether a drug induces infertility, and second, whether a drug can cause adverse pregnancy outcomes. Cyclophosphamide is the only medication used in rheumatic disease management that causes irreversible infertility. All men prescribed cyclophosphamide should be counseled on fertility preservation including sperm banking. Sulfasalazine can cause reversible azoospermia; when conception is delayed, this medication should be held for three months and semen analysis should be performed. There are limited data on the teratogenic risk of paternal exposure to medications. Men wanting to conceive should avoid cyclophosphamide and thalidomide. Methotrexate; NSAIDs; glucocorticoids; sulfasalazine; the immunosuppressive agents azathioprine, 6-mercaptopurine, cyclosporine, tacrolimus, and mycophenolate mofetil; colchicine; TNF-alpha blockers; hydroxychloroquine; IVIG; rituximab; abatacept; and anakinra are compatible with paternal exposure. There are insufficient data to conclude the safety of other biologics and small molecules in men seeking to father a child.",
+   "journal": "Best practice & research. Clinical obstetrics & gynaecology",
+   "year": "2020",
+   "doi": "10.1016/j.bpobgyn.2019.09.004",
+   "publication_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31727565/"
+  }
+ ]
+}
