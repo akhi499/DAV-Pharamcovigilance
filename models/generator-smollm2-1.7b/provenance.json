@@ -1,0 +1,13 @@
+{
+  "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "license": "Apache-2.0",
+  "weights_files": [
+    "model.safetensors"
+  ],
+  "weights_sha256": {
+    "model.safetensors": "f55217be716b6a997b97b9d8d7eb6fad02e00858f5010ec24f64603c3a98a0e8"
+  },
+  "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "downloaded_at": "2026-11-02T13:54:17+00:00"
+}

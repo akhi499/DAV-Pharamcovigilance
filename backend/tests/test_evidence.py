@@ -281,3 +281,41 @@ def test_api_evidence_endpoints(evidence):
     assert body["established"]["label_mentions"][0]["found"] is True
     assert c.post("/api/rag/ask", json={"question": "Is DRUGX associated with nausea?", "external": False}).json()[
         "established"] == {"status": "not_requested"}
+
+
+def test_mcnemar_and_wilson():
+    from pvsys.evidence.compare_generators import mcnemar_exact, wilson
+
+    r = mcnemar_exact([True] * 10, [False] * 10)
+    assert r["only_first_correct"] == 10 and r["p_value"] == pytest.approx(2 / 2 ** 10)
+    assert mcnemar_exact([True, False], [True, False])["p_value"] == 1.0
+    lo, hi = wilson(39, 40)
+    assert lo == pytest.approx(0.8712, abs=1e-3) and hi == pytest.approx(0.9956, abs=1e-3)
+
+
+def test_generator_comparison_mechanics(evidence, tmp_path):
+    """Runs the full comparison with a tiny random GPT-2 on the synthetic index (mechanics, not quality)."""
+    pytest.importorskip("torch")
+    transformers = pytest.importorskip("transformers")
+    tokenizers = pytest.importorskip("tokenizers")
+    from pvsys.evidence.compare_generators import compare
+
+    tok = tokenizers.Tokenizer(tokenizers.models.WordLevel(unk_token="[UNK]"))
+    tok.pre_tokenizer = tokenizers.pre_tokenizers.Whitespace()
+    tok.train_from_iterator(["the label boxed warning drugx L1 yes no"] * 3,
+                            tokenizers.trainers.WordLevelTrainer(special_tokens=["[UNK]", "[EOS]"]))
+    fast = transformers.PreTrainedTokenizerFast(tokenizer_object=tok, unk_token="[UNK]", eos_token="[EOS]")
+    d = tmp_path / "generator-tiny"
+    fast.save_pretrained(d)
+    transformers.GPT2LMHeadModel(transformers.GPT2Config(vocab_size=fast.vocab_size, n_positions=2048, n_embd=16,
+                                                         n_layer=1, n_head=2, eos_token_id=fast.eos_token_id)).save_pretrained(d)
+    paths = evidence[0]
+    r = compare([d], paths)
+    m = r["models"][0]
+    assert m["status"] == "ok" and m["parameters_millions"] >= 0
+    assert r["task_a_gold_counts"] == {"yes": 1, "no": 0}  # DRUGX's label has a boxed warning
+    for t in ("task_a", "task_b"):
+        s = m[t]
+        assert s["n"] == 1 and 0 <= s["system_accuracy"] <= 1 and "p_value" in s["mcnemar_extractive_vs_generative"]
+    assert len(m["items_task_a"]) == 1 and r["inputs"]["task_a"][0]["chunk_ids"]
+    assert (src.evidence_dir(paths) / "generator_comparison.json").exists()

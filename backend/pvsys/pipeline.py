@@ -11,6 +11,8 @@
     python -m pvsys.pipeline evidence-fetch [--n 150] [--drug "X" ...] [--refresh]   # FDA labels, FDA DSCs, PubMed
     python -m pvsys.pipeline evidence-index # chunk + embed (offline, from the cached downloads)
     python -m pvsys.pipeline evidence-eval  # retrieval / threshold / generation / concordance evaluation
+    python -m pvsys.pipeline evidence-compare [--model-dir models/generator-1.5b ...] [--limit 5]
+                                            # extractive vs generative answers across local models
 
 Run from the ``backend`` folder (or with ``backend`` on PYTHONPATH).
 """
@@ -83,13 +85,15 @@ def main(argv: list[str] | None = None) -> int:
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("command", choices=["download", "all", "stats", "nlp", "evaluate",
                                             "annotate-export", "annotate-import", "rag-index", "rag-eval",
-                                            "evidence-fetch", "evidence-index", "evidence-eval"])
+                                            "evidence-fetch", "evidence-index", "evidence-eval", "evidence-compare"])
     parser.add_argument("path", nargs="?", help="CSV path for annotate-import")
     parser.add_argument("--quarter", default=QUARTER)
     parser.add_argument("--n", type=int, default=200, help="batch size for annotate-export / pairs for rag-eval")
     parser.add_argument("--drug", action="append", help="evidence-fetch: drug name(s) to fetch (repeatable)")
     parser.add_argument("--refresh", action="store_true", help="evidence-fetch: ignore cached downloads")
     parser.add_argument("--skip-generation", action="store_true", help="evidence-eval: skip the generator part")
+    parser.add_argument("--model-dir", action="append", help="evidence-compare: generator folder(s); default models/generator*")
+    parser.add_argument("--limit", type=int, help="evidence-compare: only the first N test drugs (smoke test)")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
@@ -159,6 +163,25 @@ def main(argv: list[str] | None = None) -> int:
                    "concordance": {k: r["concordance"].get(k) for k in ("signals_checked", "share_reaction_text_in_label")},
                    "seconds": r["seconds"]}
         print(json.dumps(summary, indent=2, default=str))
+    elif args.command == "evidence-compare":
+        from pathlib import Path
+
+        from .evidence import compare_generators as cg
+
+        dirs = [Path(d) for d in args.model_dir] if args.model_dir else cg.default_model_dirs()
+        if not dirs:
+            parser.error("no generator models found (expected folders models/generator*)")
+        r = cg.compare(dirs, get_paths(), limit=args.limit)
+        rows = []
+        for m in r["models"]:
+            if m["status"] != "ok":
+                rows.append({"model": m["model_dir"], "error": m["error"]})
+                continue
+            rows.append({"model": m["model_id"], "params_M": m["parameters_millions"], "device": m["device"],
+                         "peak_gpu_gib": m["peak_gpu_gib"], "tok_per_s": m["tokens_per_second"],
+                         **{f"{t}_{k}": m[t][k] for t in ("task_a", "task_b")
+                            for k in ("generative_accuracy", "extractive_accuracy", "verifier_pass_rate", "system_accuracy")}})
+        print(json.dumps(rows, indent=2))
     elif args.command == "annotate-export":
         from .nlp import review
 

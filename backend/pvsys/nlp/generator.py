@@ -171,9 +171,15 @@ class Generator:
         torch.set_num_threads(max(1, min(4, os.cpu_count() or 1)))
         self._torch = torch
         self.device = pick_device()
-        dtype = torch.float16 if self.device == "cuda" else torch.float32  # fp16 fits a 4 GB laptop GPU
         self.tok = AutoTokenizer.from_pretrained(str(self.model_dir))
-        self.model = AutoModelForCausalLM.from_pretrained(str(self.model_dir), torch_dtype=dtype).eval().to(self.device)
+        try:
+            dtype = torch.float16 if self.device == "cuda" else torch.float32  # fp16 fits a 4 GB laptop GPU
+            self.model = AutoModelForCausalLM.from_pretrained(str(self.model_dir), dtype=dtype).eval().to(self.device)
+        except torch.cuda.OutOfMemoryError:  # model too large for the GPU: fall back to the CPU
+            log.warning("%s does not fit in GPU memory; running on the CPU", self.model_dir.name)
+            torch.cuda.empty_cache()
+            self.device = "cpu"
+            self.model = AutoModelForCausalLM.from_pretrained(str(self.model_dir), dtype=torch.float32).eval()
         meta = self.model_dir / "provenance.json"
         self.meta = json.loads(meta.read_text()) if meta.exists() else {"model_id": self.model_dir.name}
         self.meta.update(device_info())
@@ -195,10 +201,20 @@ class Generator:
                  shots: list[tuple[str, str]] | None = None) -> str:
         block = evidence_block(evidence, max_chars=max_chars)
         prompt = self._prompt(question, block, system, shots)
-        with self._lock, self._torch.inference_mode():
-            ids = self.tok(prompt, return_tensors="pt", truncation=True, max_length=1536).to(self.device)
+        torch = self._torch
+        with self._lock, torch.inference_mode():
             pad = self.tok.pad_token_id if self.tok.pad_token_id is not None else self.tok.eos_token_id
-            out = self.model.generate(**ids, max_new_tokens=MAX_NEW_TOKENS, do_sample=False, pad_token_id=pad)
+            ids = self.tok(prompt, return_tensors="pt", truncation=True, max_length=1536).to(self.device)
+            try:
+                out = self.model.generate(**ids, max_new_tokens=MAX_NEW_TOKENS, do_sample=False, pad_token_id=pad)
+            except torch.cuda.OutOfMemoryError:  # 4 GB laptop GPUs: move to the CPU once and retry
+                log.warning("GPU out of memory while generating with %s; switching to the CPU", self.model_dir.name)
+                self.model = self.model.float().to("cpu")
+                torch.cuda.empty_cache()
+                self.device = "cpu"
+                self.meta["device"] = "cpu (fell back after GPU out-of-memory)"
+                ids = ids.to("cpu")
+                out = self.model.generate(**ids, max_new_tokens=MAX_NEW_TOKENS, do_sample=False, pad_token_id=pad)
         return self.tok.decode(out[0, ids["input_ids"].shape[1]:], skip_special_tokens=True).strip()
 
 
@@ -257,17 +273,20 @@ def citation_support(text: str, evidence: list[dict]) -> float | None:
     return round(sum(s["support"] >= MIN_SENTENCE_SUPPORT for s in ss) / len(ss), 3)
 
 
-def summarise_external(question: str, items: list[dict]) -> dict:
-    """Generate a cited answer from external passages (labels, FDA communications, literature) and verify it."""
-    st = status()
-    if not st["available"]:
-        return {"status": "unavailable", "reason": "no local generator model" if st["deps_installed"] else
-                "torch/transformers not installed"}
+def summarise_external(question: str, items: list[dict], gen: Generator | None = None) -> dict:
+    """Generate a cited answer from external passages (labels, FDA communications, literature) and verify it.
+
+    ``gen`` lets an evaluation pass a specific model; by default the configured local generator is used."""
+    if gen is None:
+        st = status()
+        if not st["available"]:
+            return {"status": "unavailable", "reason": "no local generator model" if st["deps_installed"] else
+                    "torch/transformers not installed"}
     if not items:
         return {"status": "skipped", "reason": "no external evidence retrieved"}
     t = time.perf_counter()
     try:
-        gen = get_generator()
+        gen = gen or get_generator()
         text = gen.generate(question, items, system=EXTERNAL_PROMPT, max_chars=500, shots=EXTERNAL_SHOTS)
     except Exception as exc:
         log.exception("generator failed")
