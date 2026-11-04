@@ -187,6 +187,25 @@ All downloads and caches (pip, PyTorch, Hugging Face, temp) go to `.cache\` insi
 * **Generated answers (Qwen2.5-0.5B-Instruct, GPU, 40 test drugs):** "Does X have a boxed warning?" correct **35%** (95% CI 20–50%) vs **97.5%** for the extractive baseline (does a retrieved passage come from the Boxed Warning section?); only **42.5%** of drafts passed the source checks (rejections: unsupported sentence 21, missing citation 18, misquote 2, invented id 1). Median 0.9 s per answer. **Consequence: generation is off by default**; answers are composed from the label check and verbatim quotes, and the model is an opt-in experiment. A larger model (e.g. Qwen2.5-1.5B-Instruct) can be dropped into `models/generator`.
 * **Signal–label concordance (descriptive):** of the 300 most-reported strong FAERS signals (all three methods, ≥ 10 cases, no indication bias) the reaction term occurs in the label for **33.7%** (42.8% excluding product-use terms, e.g. dupilumab–pruritus/rash, relugolix–hot flush); of the 300 most *disproportionate* only 1.7% – extreme ratios are dominated by unusual report clusters. Exact text matching undercounts synonyms.
 
+### Extractive vs generative answering, and the accuracy improvements (paper: `docs/paper/`)
+
+**Comparison (89 test drugs, identical top-3 passages for every system; `scripts\compare_generators.ps1`, `generator_comparison.json`).** "Does X have a boxed warning?": extractive **92.1%** vs Qwen2.5-0.5B 43.8%, Qwen2.5-1.5B 69.7%, SmolLM2-1.7B 49.4% (all p < 10⁻⁴, exact McNemar). The v1 verifier (citations, numbers, quotes, word-overlap support) passed about half the drafts, but it also passed confident polarity errors (Qwen2.5-1.5B: 16 verified "no boxed warning" answers for drugs that have one), so showing verified generations *lowered* system accuracy to 74–76% for the Qwen models.
+
+**Improvements (`scripts\overnight.ps1`, 2026-11-04; all choices made on the 38 dev drugs; results on the 89 test drugs).**
+
+| Verifier on the *same* drafts (`generator_reverify.json`) | v1 | + structure check | + entailment check | + both |
+|---|---|---|---|---|
+| Qwen2.5-1.5B – system accuracy (boxed warning) | 76.4% | 92.1% | **93.3%** | 92.1% |
+| Qwen2.5-1.5B – verified false "no" / false "yes" | 16 / 3 | 2 / 0 | **0** / 2 | 0 / 0 |
+| SmolLM2-1.7B – system accuracy | 87.6% | 92.1% | 87.6% | 92.1% |
+| SmolLM2-1.7B – verified false "no" / false "yes" | 0 / 7 | 0 / 0 | 0 / 7 | 0 / 0 |
+| Extractive answer (reference) | 92.1% | 92.1% | 92.1% | 92.1% |
+
+* **Structure check** (`nlp/checks.py`, deterministic): a draft may not deny a boxed warning when a retrieved passage is from FDA's Boxed Warning section, nor assert one when none is. **Entailment check**: `cross-encoder/nli-deberta-v3-small` (Apache-2.0, rev `fa28048`, CPU) rejects a sentence its cited passage contradicts (P(contradiction) ≥ 0.5 and > P(entailment), fixed in advance). The two are complementary: entailment removed every false "no", structure every false "yes". Both are now part of the app's verifier.
+* **Retrieval** (`evaluation_evidence_v2.json`): section routing (`evidence/rerank.py` – "who should not take" → Contraindications, …; bonus weight chosen on dev) is now the default (`dense+route`). On 1,329 *re-worded* test questions top-1 rises from **54.4% to 66.9%** (MRR 0.644 → 0.733); routing covers 32% of them and misroutes 7%. On the original templates it scores 100% – by construction, because the same authors wrote both, so this is not claimed as an accuracy gain.
+* **Cross-encoder re-ranking** (`BAAI/bge-reranker-base`, MIT, rev `2cfc18c`) made retrieval **worse** (top-1 65.1% → 52.0%; label wording 94.6% → 64.6%) and was rejected on dev drugs; the code keeps it as an option.
+* **Larger model** – Qwen2.5-3B-Instruct (Qwen Research Licence, non-commercial; 4-bit NF4, 2.2 GB GPU, 17.5 tokens/s), with routing so the right passage is retrieved for every drug: 78.7% on the boxed-warning question vs 79.8% for Qwen2.5-1.5B and 100% for the extractive answer; v1 verifier still passed 4 false "no" and 4 false "yes" (`generator_comparison_v2.json`). Scale did not remove the polarity errors; the new verifier did (system accuracy 100% with both checks, because every disagreement with the label structure is rejected).
+
 ## The question-answering (RAG) module in detail
 
 1. **Understanding.** Drugs: longest-first, punctuation-insensitive lookup over 5,015 normalised suspect drugs and 2,079 brand/verbatim aliases learnt from FAERS (a dose-stripped verbatim name that maps to one ingredient in ≥ 90% of ≥ 5 rows, e.g. OZEMPIC → SEMAGLUTIDE); words shared by several products ("insulin") are reported as ambiguous, typos matched at difflib ratio ≥ 0.88. Reactions: exact MedDRA PT first (a longer PT beats a drug word inside it), else SapBERT; a link is accepted only at cosine ≥ 0.70 (lexical fallback 0.45), otherwise reported as not understood. Intent: pair / drug / reaction / documentation / clarification.
@@ -212,7 +231,7 @@ API: `POST /api/rag/ask {"question": "...", "generate": false}`, `GET /api/rag/s
 
 | Check | Command | Result |
 |---|---|---|
-| Backend tests | `cd backend && pytest -q` | 101 passed |
+| Backend tests | `cd backend && pytest -q` | 110 passed |
 | Lint | `cd backend && ruff check .` | All checks passed |
 | Frontend tests | `cd frontend && npm test` | 18 passed |
 | Type check | `cd frontend && npm run typecheck` | 0 errors |
@@ -227,7 +246,7 @@ Backend tests use a synthetic FAERS quarter with hand-checkable answers (version
 * Drug names are normalised by regex/active ingredient only (no RxNorm), so salts and brands may split one substance (e.g. `CABOZANTINIB S-MALATE`).
 * Probable-duplicate detection is a strict exact-match heuristic; fuzzy duplicates remain.
 * One quarter only: no time-trend signal detection or cumulative analysis.
-* External evidence: 150 drugs only; label sections longer than 25 passages are truncated; label-mention check is exact text (synonyms missed); the 0.5B generator is unreliable (35% on the boxed-warning test) and therefore opt-in; ~7% of answerable questions fall below the similarity threshold; PubMed abstracts only, no full text; sources are a snapshot of 2026-10-20.
+* External evidence: 150 drugs only; label sections longer than 25 passages are truncated; label-mention check is exact text (synonyms missed); small generators (0.5B–3B) make confident yes/no errors and are therefore opt-in, with a structure + entailment verifier; section routing is rule-based and was evaluated on templated and author-written paraphrased questions only; ~7% of answerable questions fall below the similarity threshold; PubMed abstracts only, no full text; sources are a snapshot of 2026-10-20.
 * Question answering: evaluated on templated, not real, user questions; no comparisons, doses or time trends; BM25 is lexical (misses paraphrased documentation) and lost to TF-IDF on the FAQ test; brand names come from FAERS verbatim names, not RxNorm; the generative summariser is unevaluated.
 * NLP: CTCAE is an oncology terminology and cleaner than FAERS PTs; product-use terms have no reference label; the SOC→category crosswalk is ours; 42% of distinct terms (mostly rare ones) are abstained; anchors encode the authors' judgement. Accuracy on FAERS terms awaits blinded human annotation.
 

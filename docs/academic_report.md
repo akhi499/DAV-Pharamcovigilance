@@ -312,6 +312,23 @@ On development drugs the MRR was 0.850 (dense), 0.752 (hybrid) and 0.588 (BM25),
 
 **Generation.** Qwen2.5-0.5B-Instruct answered "Does X have a boxed warning?" correctly for 35% of 40 test drugs (95% CI 20–50%), against 97.5% for the extractive rule; 21 of its answers could not even be classified. Only 42.5% of drafts passed the source checks; the commonest failures were sentences not supported by the cited passage (21) and missing citations (18) – including a fluent but unsupported claim that metformin should be avoided in pregnancy, caught by the support rule during development. Because a fluent wrong answer is worse than a quoted correct one, generation is disabled by default.
 
+**Extractive vs generative comparison (89 test drugs; `generator_comparison.json`).** With identical top-3 passages, "Does X have a boxed warning?" was answered correctly by the extractive rule for 92.1% of drugs, against 43.8% (Qwen2.5-0.5B), 69.7% (Qwen2.5-1.5B) and 49.4% (SmolLM2-1.7B); all differences p < 10⁻⁴ (exact McNemar). The v1 verifier passed about half of the drafts but also confident polarity errors – Qwen2.5-1.5B denied 23 of 45 existing boxed warnings and 16 of these passed – so showing verified generations lowered system accuracy to 74.2–76.4% for the Qwen models. On lay questions (attribution only), Qwen2.5-1.5B with fallback improved on extractive top-1 (77.5% vs 67.4%, p = 0.012). Full analysis: `docs/paper/`.
+
+**Table 7. Polarity-aware verification on the same drafts (`generator_reverify.json`, boxed-warning question, 89 test drugs)**
+
+| | v1 verifier | + structure check | + entailment check | + both |
+|---|---|---|---|---|
+| Qwen2.5-1.5B: system accuracy | 76.4% | 92.1% | 93.3% | 92.1% |
+| Qwen2.5-1.5B: verified false "no" / false "yes" | 16 / 3 | 2 / 0 | 0 / 2 | 0 / 0 |
+| SmolLM2-1.7B: system accuracy | 87.6% | 92.1% | 87.6% | 92.1% |
+| SmolLM2-1.7B: verified false "no" / false "yes" | 0 / 7 | 0 / 0 | 0 / 7 | 0 / 0 |
+
+The structure check rejects a draft that denies a boxed warning when a retrieved passage is from FDA's Boxed Warning section, or asserts one when none is; the entailment check (cross-encoder/nli-deberta-v3-small, threshold fixed in advance) rejects sentences contradicted by their cited passage. They are complementary – entailment removed every false "no", structure every false "yes" – and together the system is no longer worse than extractive answering (p = 1.0). Both are now part of the verifier.
+
+**Retrieval improvements (`evaluation_evidence_v2.json`; choices on dev drugs).** Rule-based section routing ("who should not take" → Contraindications) was selected (`dense+route`). On 1,329 re-worded test questions it raised top-1 from 54.4% to 66.9% (MRR 0.644 → 0.733), routing 32% of them correctly and 7% to a wrong section. On the original templates it scores 100%, which is by construction (the same authors wrote both) and is not claimed. A cross-encoder re-ranker (bge-reranker-base) lowered top-1 from 65.1% to 52.0% and was rejected on dev drugs.
+
+**Larger model.** Qwen2.5-3B-Instruct, loaded in 4-bit (2.2 GB GPU), answered the boxed-warning question correctly for 78.7% of drugs even with the routed retriever placing a Boxed Warning passage first for every drug that has one – no better than Qwen2.5-1.5B (79.8%) – and the v1 verifier still passed 4 false "no" and 4 false "yes" answers (`generator_comparison_v2.json`). Scale within this range did not remove polarity errors; verification did.
+
 **Concordance.** Among the 300 most-reported strong signals of labelled drugs, the reaction term appears in the label text for 33.7% (42.8% excluding product-use terms); among the 300 most disproportionate pairs, for 1.7%, which mostly reflects unusual report clusters and terms that labels do not use (e.g. desoximetasone–pemphigus, 482 reports). Exact matching undercounts synonyms, so these are lower bounds.
 
 ---
@@ -324,7 +341,7 @@ On development drugs the MRR was 0.850 (dense), 0.752 (hybrid) and 0.588 (BM25),
 
 **Question answering.** Grounding by construction (templates and verbatim quotes) rather than by hoping a generator stays faithful made the answers checkable: every number and citation can be traced, and the automatic check passed for all evaluated answers. The evaluation was useful as an engineering tool as well as a measurement — it found three parsing bugs that a handful of manual examples had not. The weak point is the language side rather than the statistics: SapBERT is trained on short names, so long descriptions link less reliably than lay phrases, and BM25 misses documentation phrased differently from the question ("standardised drug names" vs FDA's "drug dictionary").
 
-**External evidence.** Dense embeddings were decisive for lay questions, where keyword search fails; rank fusion did not help because one weak ranker drags down a strong one. The negative generation result is itself a finding: at this size a generative model is a liability for factual safety questions, and the evidence-support checks are what made that visible and kept unsupported text off the screen.
+**External evidence.** Dense embeddings were decisive for lay questions, where keyword search fails; rank fusion and a general-purpose cross-encoder re-ranker did not help, because a weaker ranker drags down a strong one. The negative generation result is itself a finding: at 0.5–3B parameters a generative model is a liability for factual safety questions, and its errors are confident polarity flips rather than random noise. Word-overlap verification cannot see them; a deterministic check against document structure and an entailment model can, and with both in place showing a verified generation no longer costs accuracy.
 
 **Independence and honesty.** Keeping the language model out of the statistical path means a model error can never change an ROR. Model outputs are visually distinct, carry provenance and are labelled provisional everywhere.
 
@@ -392,7 +409,10 @@ cd backend
 python -m pvsys.pipeline all        # writes data/processed/* and data/nlp/*
 python -m pvsys.pipeline evaluate   # re-prints Table 3
 python -m pvsys.pipeline rag-eval   # Tables 4-5 and the end-to-end result (~3 min on CPU)
-pytest -q                           # 101 tests
+pytest -q                           # 110 tests
 # external evidence (from the project root, Windows): scripts\build_evidence.ps1  -> data/evidence/evaluation_evidence.json
+# generator comparison: scripts\compare_generators.ps1 -> generator_comparison.json
+# improvements (routing, re-ranker, verifier v2, Qwen2.5-3B): scripts\overnight.ps1 -> evaluation_evidence_v2.json,
+#   generator_reverify.json, generator_comparison_v2.json
 ```
 Numbers are read from `data/processed/{manifest,dedup_stats,quality,signals_summary,eda_snapshot}.json` and `data/nlp/{provenance,evaluation_reference,evaluation_rag,kb_manifest}.json`.

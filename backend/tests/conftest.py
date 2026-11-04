@@ -111,6 +111,8 @@ def pipeline_paths(synthetic_zip, tmp_path_factory):
     os.environ["PV_WARMUP"] = "0"  # no background model loading inside the test client
     os.environ["PV_GENERATOR_DIR"] = str(data / "no-generator")  # tests never load the real local models
     os.environ["PV_EMBED_DIR"] = str(data / "no-embedder")
+    os.environ["PV_RERANKER_DIR"] = str(data / "no-reranker")
+    os.environ["PV_NLI_DIR"] = str(data / "no-nli")
     from pvsys import clean, eda, ingest, quality, signals
     from pvsys.config import get_paths
 

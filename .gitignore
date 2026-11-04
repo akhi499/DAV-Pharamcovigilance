@@ -17,3 +17,11 @@ models/**/pytorch_model.bin
 .cache/
 models/**/onnx/
 models/**/.cache/
+
+# all model weights (incl. sharded *-00001-of-0000N.safetensors and pytorch_model.bin)
+models/**/*.safetensors
+models/**/*.bin
+
+models/generator-3b/
+models/nli/
+models/reranker/

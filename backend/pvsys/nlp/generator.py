@@ -160,6 +160,26 @@ def status() -> dict:
     return st
 
 
+def _wants_4bit(model_dir: Path, torch) -> bool:
+    """4-bit loading for models whose fp16 weights would not fit the GPU (e.g. a 3B model on a 4 GB laptop GPU).
+
+    PV_GEN_QUANT=4bit forces it, PV_GEN_QUANT=none disables it; needs the optional bitsandbytes package."""
+    mode = os.environ.get("PV_GEN_QUANT", "auto").lower()
+    if mode in ("none", "off", "fp16"):
+        return False
+    try:
+        import bitsandbytes  # noqa: F401
+    except ImportError:
+        if mode == "4bit":
+            log.warning("PV_GEN_QUANT=4bit but bitsandbytes is not installed; loading in fp16")
+        return False
+    if mode == "4bit":
+        return True
+    weights = sum(f.stat().st_size for f in model_dir.glob("*.safetensors"))
+    total = torch.cuda.get_device_properties(0).total_memory
+    return weights > 0.9 * total
+
+
 class Generator:
     def __init__(self, model_dir: Path | None = None):
         import torch
@@ -172,9 +192,19 @@ class Generator:
         self._torch = torch
         self.device = pick_device()
         self.tok = AutoTokenizer.from_pretrained(str(self.model_dir))
+        self.quantization = None
         try:
-            dtype = torch.float16 if self.device == "cuda" else torch.float32  # fp16 fits a 4 GB laptop GPU
-            self.model = AutoModelForCausalLM.from_pretrained(str(self.model_dir), dtype=dtype).eval().to(self.device)
+            if self.device == "cuda" and _wants_4bit(self.model_dir, torch):
+                from transformers import BitsAndBytesConfig
+
+                q = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type="nf4",
+                                       bnb_4bit_compute_dtype=torch.float16, bnb_4bit_use_double_quant=True)
+                self.model = AutoModelForCausalLM.from_pretrained(str(self.model_dir), quantization_config=q,
+                                                                  device_map={"": 0}, dtype=torch.float16).eval()
+                self.quantization = "4-bit NF4 (bitsandbytes), fp16 compute"
+            else:
+                dtype = torch.float16 if self.device == "cuda" else torch.float32  # fp16 fits a 4 GB laptop GPU
+                self.model = AutoModelForCausalLM.from_pretrained(str(self.model_dir), dtype=dtype).eval().to(self.device)
         except torch.cuda.OutOfMemoryError:  # model too large for the GPU: fall back to the CPU
             log.warning("%s does not fit in GPU memory; running on the CPU", self.model_dir.name)
             torch.cuda.empty_cache()
@@ -183,6 +213,7 @@ class Generator:
         meta = self.model_dir / "provenance.json"
         self.meta = json.loads(meta.read_text()) if meta.exists() else {"model_id": self.model_dir.name}
         self.meta.update(device_info())
+        self.meta["quantization"] = self.quantization
         self._lock = threading.Lock()
 
     def _prompt(self, question: str, block: str, system: str = SYSTEM_PROMPT,
@@ -208,6 +239,8 @@ class Generator:
             try:
                 out = self.model.generate(**ids, max_new_tokens=MAX_NEW_TOKENS, do_sample=False, pad_token_id=pad)
             except torch.cuda.OutOfMemoryError:  # 4 GB laptop GPUs: move to the CPU once and retry
+                if self.quantization:  # 4-bit weights cannot be moved to the CPU
+                    raise
                 log.warning("GPU out of memory while generating with %s; switching to the CPU", self.model_dir.name)
                 self.model = self.model.float().to("cpu")
                 torch.cuda.empty_cache()
@@ -301,6 +334,16 @@ def summarise_external(question: str, items: list[dict], gen: Generator | None =
     weak = [s for s in support if s["support"] < MIN_SENTENCE_SUPPORT]
     if weak:  # a cited sentence whose content is not in the cited passage is an unsupported claim
         problems.append(f"sentence not supported by its cited passage: '{weak[0]['sentence'][:80]}'")
+    # verifier v2: polarity-aware checks (label structure, and entailment if the NLI model is installed)
+    from .checks import entailment_check, structure_problems
+
+    v1 = list(problems)
+    struct = structure_problems(text, items)
+    nli = entailment_check(text, items) if os.environ.get("PV_NLI", "on").lower() != "off" else \
+        {"status": "disabled", "problems": [], "sentences": []}
+    problems = v1 + struct + nli["problems"]
     return {**base, "status": "verified" if not problems else "rejected", "text": text if not problems else None,
             "rejected_text": text if problems else None, "problems": problems,
+            "checks": {"v1": v1, "structure": struct, "entailment": nli["problems"], "entailment_status": nli["status"],
+                       "entailment_sentences": nli["sentences"]},
             "citation_support": citation_support(text, items), "sentence_support": support}

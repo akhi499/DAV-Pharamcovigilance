@@ -624,7 +624,9 @@ class RAGEngine:
             q = f"{question} {parsed.drugs[0].drug.lower()} {parsed.reactions[0].pt.lower()}"
         res = idx.search(q, k=5, drugs=searchable or None)
         hits = res["hits"]
-        top = max((h["dense_similarity"] for h in hits if h["dense_similarity"] is not None), default=None)
+        top = res.get("top_dense_similarity")  # best dense similarity over all candidates (re-ranking may reorder)
+        if top is None:
+            top = max((h["dense_similarity"] for h in hits if h["dense_similarity"] is not None), default=None)
         out["top_similarity"] = top
         out["retrieval_mode"] = res["mode"]
         sufficient = bool(hits) and (top is None or tau is None or top >= tau)

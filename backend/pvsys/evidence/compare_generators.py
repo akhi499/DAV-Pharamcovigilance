@@ -94,6 +94,34 @@ def _cited(text: str | None) -> set[str]:
     return {c.strip() for grp in re.findall(r"\[([A-Z]\d+(?:\s*[,;]\s*[A-Z]\d+)*)\]", text) for c in re.split(r"[,;]", grp)}
 
 
+def _checks(g: dict) -> dict:
+    c = g.get("checks") or {}
+    return {"generated": g["status"] in ("verified", "rejected"), "v1": c.get("v1", g.get("problems", [])),
+            "structure": c.get("structure", []), "entailment": c.get("entailment", []),
+            "entailment_status": c.get("entailment_status", "not run")}
+
+
+def _free_reranker() -> None:
+    from .rerank import get_reranker
+
+    get_reranker.cache_clear()
+    gc.collect()
+    try:
+        import torch
+
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+    except ImportError:
+        pass
+
+
+def _n_params(model) -> int:
+    try:
+        return int(model.num_parameters())  # counts 4-bit packed weights correctly
+    except Exception:
+        return sum(p.numel() for p in model.parameters())
+
+
 def run_model(model_dir: Path, tasks: dict) -> dict:
     import torch
 
@@ -116,7 +144,8 @@ def run_model(model_dir: Path, tasks: dict) -> dict:
         rows_a.append({"drug": t["drug"], "gold": t["gold"], "pred": pred, "status": g["status"], "verified": verified,
                        "correct": pred == t["gold"], "extractive_correct": t["extractive_pred"] == t["gold"],
                        "system_correct": (pred == t["gold"]) if verified else (t["extractive_pred"] == t["gold"]),
-                       "problems": g.get("problems", []), "seconds": g.get("seconds"), "text": text})
+                       "problems": g.get("problems", []), "checks": _checks(g), "seconds": g.get("seconds"),
+                       "text": text})
     for t in tasks["task_b"]:
         g = summarise_external(t["question"], t["items"], gen)
         text = g.get("text") or g.get("rejected_text")
@@ -129,11 +158,13 @@ def run_model(model_dir: Path, tasks: dict) -> dict:
         rows_b.append({"drug": t["drug"], "topic": t["topic"], "status": g["status"], "verified": verified,
                        "correct": correct, "extractive_correct": t["extractive_correct"],
                        "system_correct": correct if verified else t["extractive_correct"],
-                       "problems": g.get("problems", []), "seconds": g.get("seconds"), "text": text})
+                       "problems": g.get("problems", []), "checks": _checks(g), "seconds": g.get("seconds"),
+                       "text": text})
     peak = round(torch.cuda.max_memory_allocated() / 2 ** 30, 2) if gen.device == "cuda" else None
     meta = {"model_id": gen.meta.get("model_id", model_dir.name), "revision": gen.meta.get("revision"),
-            "parameters_millions": round(sum(p.numel() for p in gen.model.parameters()) / 1e6),
+            "parameters_millions": round(_n_params(gen.model) / 1e6),
             "device": gen.device, "dtype": str(next(gen.model.parameters()).dtype).replace("torch.", ""),
+            "quantization": getattr(gen, "quantization", None),
             "load_seconds": load_s, "peak_gpu_gib": peak,
             "tokens_per_second": round(n_tokens / gen_seconds, 1) if gen_seconds else None}
     del gen
@@ -167,12 +198,14 @@ def summarise_task(rows: list[dict]) -> dict:
             "rejection_reasons": reasons, "seconds_median": round(float(np.median(secs)), 2) if secs else None}
 
 
-def compare(model_dirs: list[Path], paths: Paths | None = None, limit: int | None = None) -> dict:
+def compare(model_dirs: list[Path], paths: Paths | None = None, limit: int | None = None,
+            out_name: str = "generator_comparison.json") -> dict:
     from .index import EvidenceIndex
 
     paths = paths or get_paths()
     idx = EvidenceIndex(paths)
     tasks = build_tasks(idx, paths)
+    _free_reranker()  # retrieval is cached in `tasks`; give the GPU memory to the generators
     if limit:  # quick smoke test on the first `limit` drugs
         tasks["task_a"], tasks["task_b"] = tasks["task_a"][:limit], tasks["task_b"][:limit]
     out = {"created_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "retriever": tasks["retriever"],
@@ -190,13 +223,15 @@ def compare(model_dirs: list[Path], paths: Paths | None = None, limit: int | Non
             continue
         out["models"].append({"model_dir": str(d), "status": "ok", **res["meta"],
                               "task_a": summarise_task(res["task_a"]), "task_b": summarise_task(res["task_b"]),
+                              "verifier_ablation": {"task_a": ablation(res["task_a"], task_a=True),
+                                                    "task_b": ablation(res["task_b"])},
                               "items_task_a": res["task_a"], "items_task_b": res["task_b"]})
-        (evidence_dir(paths) / "generator_comparison.json").write_text(json.dumps(out, indent=2, default=str))
+        (evidence_dir(paths) / out_name).write_text(json.dumps(out, indent=2, default=str))
     out["inputs"] = {"task_a": [{k: v for k, v in t.items() if k != "items"} | {"chunk_ids": [i["chunk_id"] for i in t["items"]]}
                                 for t in tasks["task_a"]],
                      "task_b": [{k: v for k, v in t.items() if k != "items"} | {"chunk_ids": [i["chunk_id"] for i in t["items"]]}
                                 for t in tasks["task_b"]]}
-    (evidence_dir(paths) / "generator_comparison.json").write_text(json.dumps(out, indent=2, default=str))
+    (evidence_dir(paths) / out_name).write_text(json.dumps(out, indent=2, default=str))
     return out
 
 
@@ -206,3 +241,73 @@ def default_model_dirs(paths: Paths | None = None) -> list[Path]:
     dirs = [d for d in root.glob("generator*") if (d / "config.json").exists() and
             (any(d.glob("*.safetensors")) or any(d.glob("*.bin")))]
     return sorted(dirs, key=lambda d: sum(f.stat().st_size for f in d.glob("*.safetensors")))
+
+
+# ---------------------------------------------------------------- verifier v2 ablation
+
+VARIANTS = {"v1": ("v1",), "v1+structure": ("v1", "structure"), "v1+entailment": ("v1", "entailment"),
+            "v1+structure+entailment": ("v1", "structure", "entailment")}
+
+
+def ablation(rows: list[dict], task_a: bool = False) -> dict:
+    """Verifier pass rate / accuracy of verified answers / system accuracy for each verifier variant,
+    on the same generated drafts (generation does not depend on the verifier)."""
+    out = {}
+    for name, parts in VARIANTS.items():
+        rs = []
+        for r in rows:
+            c = r.get("checks") or {}
+            gen_ok = c.get("generated", r["verified"] or bool(r.get("problems")))
+            verified = bool(gen_ok and not any(c.get(p) for p in parts)) if c else r["verified"]
+            rs.append({**r, "verified": verified,
+                       "system_correct": r["correct"] if verified else r["extractive_correct"]})
+        sm = summarise_task(rs)
+        res = {k: sm[k] for k in ("verifier_pass_rate", "accuracy_of_verified", "verified_n", "system_accuracy",
+                                  "system_95ci", "mcnemar_extractive_vs_system")}
+        if task_a:
+            res["verified_false_negatives"] = sum(r["verified"] and r["gold"] == "yes" and r["pred"] == "no" for r in rs)
+            res["verified_false_positives"] = sum(r["verified"] and r["gold"] == "no" and r["pred"] == "yes" for r in rs)
+        out[name] = res
+    out["entailment_status"] = sorted({(r.get("checks") or {}).get("entailment_status", "not run") for r in rows})
+    return out
+
+
+def reverify(paths: Paths | None = None, src: str = "generator_comparison.json",
+             out_name: str = "generator_reverify.json") -> dict:
+    """Apply the v2 checks to the drafts already generated in `src` (identical texts and passages), so the
+    effect of the verifier is measured without re-running any generator."""
+    import pandas as pd
+
+    from ..nlp.checks import entailment_check, structure_problems
+
+    paths = paths or get_paths()
+    root = evidence_dir(paths)
+    data = json.loads((root / src).read_text())
+    chunks = pd.read_parquet(root / "chunks.parquet").set_index("chunk_id")
+
+    def items(ids: list[str]) -> list[dict]:
+        return [{"id": f"L{i + 1}", "kind": "external", "chunk_id": c, **chunks.loc[c].to_dict()}
+                for i, c in enumerate(ids) if c in chunks.index]
+
+    inputs = {t: {r["drug"]: items(r["chunk_ids"]) for r in data["inputs"][t]} for t in ("task_a", "task_b")}
+    out = {"created_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "source": src,
+           "retriever": data.get("retriever"), "test_drugs": data.get("test_drugs"),
+           "note": "Same drafts and passages as the source file; only the verifier differs.", "models": []}
+    for m in data["models"]:
+        if m.get("status") != "ok":
+            continue
+        res = {"model_id": m["model_id"]}
+        for task in ("task_a", "task_b"):
+            rows = []
+            for r in m[f"items_{task}"]:
+                its = inputs[task].get(r["drug"], [])
+                generated = r["status"] in ("verified", "rejected")
+                text = r.get("text") if generated else None
+                nli = entailment_check(text, its)
+                rows.append({**r, "checks": {"generated": generated, "v1": r.get("problems", []),
+                                             "structure": structure_problems(text, its) if generated else [],
+                                             "entailment": nli["problems"], "entailment_status": nli["status"]}})
+            res[task] = ablation(rows, task_a=task == "task_a")
+        out["models"].append(res)
+    (root / out_name).write_text(json.dumps(out, indent=2, default=str))
+    return out

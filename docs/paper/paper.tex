@@ -31,7 +31,7 @@ diyansh.jain@vit.edu.in}
 \maketitle
 
 \begin{abstract}
-Retrieval-augmented generation (RAG) is attractive for drug-safety question answering, but privacy and cost often require small language models that run on local hardware, and a fluent wrong answer about a drug's safety is worse than no answer. We built a local pharmacovigilance assistant over the U.S.\ FDA Adverse Event Reporting System (FAERS, 2025 Q1) and an evidence corpus of FDA drug labels, FDA Drug Safety Communications and PubMed reviews (601 documents, 8{,}590 passages), and compared extractive answering with generation by three small instruction-tuned models (Qwen2.5-0.5B, Qwen2.5-1.5B, SmolLM2-1.7B) on a single 4\,GB laptop GPU. All systems saw identical retrieved passages; ground truth came from FDA's own label section coding, so no item was hand-labelled. On a factual safety check (\emph{``Does drug X have a boxed warning?''}, 89 held-out drugs) the extractive answer was correct for 92.1\% of drugs, against 43.8\%, 69.7\% and 49.4\% for the generators (all $p<10^{-4}$, exact McNemar). A citation-and-support verifier accepted 51--52\% of generated drafts, yet 16--47\% of accepted drafts were wrong; the dominant errors were polarity biases that lexical verification cannot see (Qwen2.5-1.5B denied 23 of 45 existing boxed warnings; SmolLM2-1.7B asserted one for all 44 drugs without). Allowing verified generations into the answer therefore \emph{lowered} accuracy for both Qwen models (to 74.2\% and 76.4\%). Generation helped only for choosing which passage answers a lay question, where Qwen2.5-1.5B with verification outperformed extractive top-1 selection (77.5\% vs 67.4\%, $p=0.012$). For factual safety claims with small local models, extractive answering is the safer default; generation is best confined to passage selection and presentation.
+Retrieval-augmented generation (RAG) is attractive for drug-safety question answering, but privacy and cost often require small language models that run on local hardware, and a fluent wrong answer about a drug's safety is worse than no answer. We built a local pharmacovigilance assistant over the U.S.\ FDA Adverse Event Reporting System (FAERS, 2025 Q1) and an evidence corpus of FDA drug labels, FDA Drug Safety Communications and PubMed reviews (601 documents, 8{,}590 passages), and compared extractive answering with generation by three small instruction-tuned models (Qwen2.5-0.5B, Qwen2.5-1.5B, SmolLM2-1.7B) on a single 4\,GB laptop GPU. All systems saw identical retrieved passages; ground truth came from FDA's own label section coding, so no item was hand-labelled. On a factual safety check (\emph{``Does drug X have a boxed warning?''}, 89 held-out drugs) the extractive answer was correct for 92.1\% of drugs, against 43.8\%, 69.7\% and 49.4\% for the generators (all $p<10^{-4}$, exact McNemar). A citation-and-support verifier accepted 51--52\% of generated drafts, yet 16--47\% of accepted drafts were wrong; the dominant errors were polarity biases that lexical verification cannot see (Qwen2.5-1.5B denied 23 of 45 existing boxed warnings; SmolLM2-1.7B asserted one for all 44 drugs without). Allowing verified generations into the answer therefore \emph{lowered} accuracy for both Qwen models (to 74.2\% and 76.4\%). Generation helped only for choosing which passage answers a lay question, where Qwen2.5-1.5B with verification outperformed extractive top-1 selection (77.5\% vs 67.4\%, $p=0.012$). A larger model (Qwen2.5-3B, 4-bit) did not remove the polarity errors, but two polarity-aware checks did: a deterministic cross-check against label structure and an entailment model reduced Qwen2.5-1.5B's verified false negatives from 16 to 0 and restored system accuracy to the extractive level (93.3\%). For factual safety claims with small local models, extractive answering is the safer default; generation should be confined to passage selection and presentation, behind polarity-aware verification.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -48,7 +48,7 @@ We study this question in a working system and make four contributions:
 \item A fully local RAG pipeline that joins FAERS statistics computed in DuckDB with FDA labels, FDA Drug Safety Communications and PubMed reviews, separates \emph{observed reports} from \emph{established evidence}, and declines when evidence is insufficient.
 \item A label-free evaluation protocol that uses FDA's structured product labeling (SPL) section coding as ground truth for retrieval and answering.
 \item A controlled, paired comparison of extractive answering against three small generators (0.5--1.7B parameters) under identical retrieval, with a citation-and-support verifier.
-\item Evidence that verification of this kind is necessary but not sufficient: it rejects unsupported text but passes confident polarity errors, so generation lowered accuracy on a factual safety task while helping on passage selection.
+\item Evidence that verification of this kind is necessary but not sufficient: it rejects unsupported text but passes confident polarity errors, so generation lowered accuracy on a factual safety task while helping on passage selection; and an ablation showing that structure and entailment checks close this gap where a larger model does not.
 \end{enumerate}
 
 \section{Related Work}
@@ -247,22 +247,55 @@ System accuracy & 67.4\% & 70.8\% & \textbf{77.5\%} & 64.0\% \\
 }
 \end{table}
 
+\subsection{Closing the gap: polarity-aware verification and scale}
+After the main comparison we tested three follow-up interventions, choosing every setting on development drugs.
+
+\emph{Verifier v2.} Two checks were added and applied to the \emph{same} drafts as Tables~\ref{tab:taskA}--\ref{tab:polarity}, so only the verifier differs. The \emph{structure check} rejects a draft that denies a boxed warning when a retrieved passage comes from the Boxed Warning section, or asserts one when none does. The \emph{entailment check} scores each cited sentence against each passage it cites with a natural-language-inference cross-encoder (nli-deberta-v3-small \cite{he2023debertav3}, run on the CPU) and rejects it if $P(\text{contradiction})\geq 0.5$ and exceeds $P(\text{entailment})$; this threshold was fixed in advance. The checks are complementary (Table~\ref{tab:v2}): entailment removed all 16 verified false negatives of Qwen2.5-1.5B but none of SmolLM2's false positives, which the structure check removed. With either check, showing verified generations no longer reduced accuracy (93.3\% and 92.1\% vs 92.1\% extractive, $p=1.0$). On Task B the checks changed no outcome.
+
+\begin{table}[t]
+\caption{Verifier variants on identical Task A drafts: system accuracy and verified wrong answers (false ``no'' / false ``yes'')}
+\label{tab:v2}
+\centering
+\setlength{\tabcolsep}{3pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+Verifier & \multicolumn{2}{c}{Qwen 1.5B} & \multicolumn{2}{c}{SmolLM2 1.7B} \\
+ & System & FN / FP & System & FN / FP \\
+\midrule
+v1 (citation, number, quote, support) & 76.4\% & 16 / 3 & 87.6\% & 0 / 7 \\
++ structure check & 92.1\% & 2 / 0 & 92.1\% & 0 / 0 \\
++ entailment check & \textbf{93.3\%} & 0 / 2 & 87.6\% & 0 / 7 \\
++ both & 92.1\% & 0 / 0 & 92.1\% & 0 / 0 \\
+\midrule
+Extractive (reference) & \multicolumn{2}{c}{92.1\%} & \multicolumn{2}{c}{92.1\%} \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\emph{Retrieval.} A cross-encoder re-ranker (bge-reranker-base \cite{xiao2023cpack}) over the top 20 dense candidates \emph{lowered} top-1 on all 2{,}215 test questions (templates and re-wordings) from 65.1\% to 52.0\% and was rejected on development drugs. Rule-based section routing (e.g.\ ``who should not take'' $\to$ Contraindications), which adds a bonus to passages of the routed section, was selected. Because we wrote both the routing rules and the question templates, routing reaches 100\% on the templates by construction, and we do not count this as a gain. On 1{,}329 re-worded test questions (three per topic and drug, written after the rules) it raised top-1 from 54.4\% to 66.9\% (MRR 0.644 $\to$ 0.733), although it routed only 32\% of them correctly and 7\% to a wrong section.
+
+\emph{Scale.} We repeated Task A with Qwen2.5-3B-Instruct loaded in 4-bit NF4 \cite{dettmers2023qlora} (2.2\,GB, 17.5 tokens/s) and the routed retriever, which surfaced a Boxed Warning passage for every drug that has one (extractive accuracy 100\%). Even with the right passage in front of it, the 3B model was correct for 78.7\% of drugs, no better than Qwen2.5-1.5B under the same retrieval (79.8\%), and the v1 verifier passed 4 false negatives and 4 false positives. Within the 0.5--3B range, scale did not remove polarity errors; verification did.
+
 \subsection{Cost}
 Peak GPU memory was 1.1, 3.1 and 3.6\,GB and throughput 33.0, 20.5 and 22.9 tokens/s for the 0.5B, 1.5B and 1.7B models; median time per answer was 0.7--3.3\,s. All fit a 4\,GB laptop GPU in fp16. The extractive answer needs no generator and responds in about 0.1\,s after retrieval.
 
 \section{Discussion}
 \textbf{Extractive answering is the safer default for factual safety claims.} On a question with a verifiable yes/no answer, no small generator came close to quoting the retrieved label, and adding verified generations made the system worse. A pilot with Qwen2.5-0.5B on 40 drugs, using hybrid retrieval and four passages, showed the same pattern (35\% vs 97.5\%).
 
-\textbf{Verification is necessary but not sufficient.} The verifier removed drafts without citations, invented numbers or misquotes (in the pilot it also blocked an unsupported claim that metformin should be avoided in pregnancy), but word-overlap support is blind to negation. Errors were systematic biases---denying or asserting a warning regardless of evidence---rather than random noise, so they pass any test that looks only at shared vocabulary. Polarity-aware checks, such as entailment models, deterministic cross-checks against document structure, or answer-type constraints, are needed before generated safety claims can be shown.
+\textbf{Verification is necessary but not sufficient.} The verifier removed drafts without citations, invented numbers or misquotes (in the pilot it also blocked an unsupported claim that metformin should be avoided in pregnancy), but word-overlap support is blind to negation. Errors were systematic biases---denying or asserting a warning regardless of evidence---rather than random noise, so they pass any test that looks only at shared vocabulary. Polarity-aware checks are needed before generated safety claims can be shown, and our ablation shows they work: an entailment model and a cross-check against label structure each brought system accuracy back to the extractive level, catching different errors.
 
 \textbf{Generation can help where it selects rather than asserts.} On lay questions, Qwen2.5-1.5B improved attribution by choosing among retrieved passages, a role in which an error is visible (the cited passage is shown) rather than hidden in fluent prose.
 
-\textbf{Model family matters as much as size.} SmolLM2-1.7B was larger than Qwen2.5-1.5B but worse on both tasks, mainly through format non-compliance and a uniform ``yes'' answer.
+\textbf{Model family matters as much as size.} SmolLM2-1.7B was larger than Qwen2.5-1.5B but worse on both tasks, mainly through format non-compliance and a uniform ``yes'' answer, and doubling Qwen to 3B parameters did not improve the factual task.
 
-\textbf{Limitations.} One FAERS quarter and 150 drugs; three models from two families, all below 2B parameters; templated questions rather than real user queries; one factual task with a binary answer; ground truth at the level of label sections, so Task B measures attribution, not clinical correctness; and pattern-based mapping of generated text to yes/no. The evidence corpus is a snapshot and covers PubMed abstracts only.
+\textbf{Negative results.} A general-purpose cross-encoder re-ranker hurt retrieval on drug labels, where the section a passage belongs to matters more than topical overlap; this is why routing helped and re-ranking did not.
+
+\textbf{Limitations.} One FAERS quarter and 150 drugs; three models from two families, all below 2B parameters; templated questions rather than real user queries; one factual task with a binary answer; ground truth at the level of label sections, so Task B measures attribution, not clinical correctness; and pattern-based mapping of generated text to yes/no. The structure check covers only the boxed-warning question type; routing rules and paraphrases were written by the authors; and the 3B model was quantised to 4 bits while the others ran in fp16. The evidence corpus is a snapshot and covers PubMed abstracts only.
 
 \section{Conclusion}
-In a local pharmacovigilance RAG system, extractive answering over well-retrieved FDA label passages was more accurate than generation by small language models on a factual safety question, and a citation-and-support verifier could not prevent confident polarity errors from reaching the answer. Small generators were useful only for selecting which passage answers a lay question. We recommend that local drug-safety assistants state factual safety claims extractively, reserve small generators for selection and presentation, and adopt polarity-aware verification before allowing generated claims. Future work will evaluate larger local models, entailment-based verification and real user questions with expert-judged answers.
+In a local pharmacovigilance RAG system, extractive answering over well-retrieved FDA label passages was more accurate than generation by small language models on a factual safety question, and a citation-and-support verifier could not prevent confident polarity errors from reaching the answer. Small generators were useful only for selecting which passage answers a lay question, and a 3B model was no more reliable than a 1.5B one. Polarity-aware verification---an entailment model plus a cross-check against label structure---removed the verified polarity errors and brought the system back to extractive accuracy. We recommend that local drug-safety assistants state factual safety claims extractively, reserve small generators for selection and presentation, and adopt polarity-aware verification before allowing generated claims. Future work will extend structure checks beyond boxed warnings and evaluate on real user questions with expert-judged answers.
 
 \bibliographystyle{IEEEtran}
 \bibliography{refs}

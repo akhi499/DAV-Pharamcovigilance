@@ -1,0 +1,432 @@
+{
+  "created_at": "2026-11-03T19:44:43+00:00",
+  "source": "generator_comparison.json",
+  "retriever": "dense",
+  "test_drugs": 89,
+  "note": "Same drafts and passages as the source file; only the verifier differs.",
+  "models": [
+    {
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "task_a": {
+        "v1": {
+          "verifier_pass_rate": 0.5056,
+          "accuracy_of_verified": 0.5333,
+          "verified_n": 45,
+          "system_accuracy": 0.7416,
+          "system_95ci": [
+            0.642,
+            0.8212
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 17,
+            "only_second_correct": 1,
+            "p_value": 0.00014495849609375
+          },
+          "verified_false_negatives": 1,
+          "verified_false_positives": 2
+        },
+        "v1+structure": {
+          "verifier_pass_rate": 0.4607,
+          "accuracy_of_verified": 0.561,
+          "verified_n": 41,
+          "system_accuracy": 0.764,
+          "system_95ci": [
+            0.6661,
+            0.8402
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 14,
+            "only_second_correct": 0,
+            "p_value": 0.0001220703125
+          },
+          "verified_false_negatives": 0,
+          "verified_false_positives": 0
+        },
+        "v1+entailment": {
+          "verifier_pass_rate": 0.4494,
+          "accuracy_of_verified": 0.55,
+          "verified_n": 40,
+          "system_accuracy": 0.764,
+          "system_95ci": [
+            0.6661,
+            0.8402
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 15,
+            "only_second_correct": 1,
+            "p_value": 0.000518798828125
+          },
+          "verified_false_negatives": 1,
+          "verified_false_positives": 1
+        },
+        "v1+structure+entailment": {
+          "verifier_pass_rate": 0.4157,
+          "accuracy_of_verified": 0.5676,
+          "verified_n": 37,
+          "system_accuracy": 0.7753,
+          "system_95ci": [
+            0.6782,
+            0.8496
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 13,
+            "only_second_correct": 0,
+            "p_value": 0.000244140625
+          },
+          "verified_false_negatives": 0,
+          "verified_false_positives": 0
+        },
+        "entailment_status": [
+          "ok"
+        ]
+      },
+      "task_b": {
+        "v1": {
+          "verifier_pass_rate": 0.3708,
+          "accuracy_of_verified": 0.697,
+          "verified_n": 33,
+          "system_accuracy": 0.7079,
+          "system_95ci": [
+            0.6064,
+            0.7922
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 1,
+            "only_second_correct": 4,
+            "p_value": 0.375
+          }
+        },
+        "v1+structure": {
+          "verifier_pass_rate": 0.3708,
+          "accuracy_of_verified": 0.697,
+          "verified_n": 33,
+          "system_accuracy": 0.7079,
+          "system_95ci": [
+            0.6064,
+            0.7922
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 1,
+            "only_second_correct": 4,
+            "p_value": 0.375
+          }
+        },
+        "v1+entailment": {
+          "verifier_pass_rate": 0.3483,
+          "accuracy_of_verified": 0.6774,
+          "verified_n": 31,
+          "system_accuracy": 0.7079,
+          "system_95ci": [
+            0.6064,
+            0.7922
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 1,
+            "only_second_correct": 4,
+            "p_value": 0.375
+          }
+        },
+        "v1+structure+entailment": {
+          "verifier_pass_rate": 0.3483,
+          "accuracy_of_verified": 0.6774,
+          "verified_n": 31,
+          "system_accuracy": 0.7079,
+          "system_95ci": [
+            0.6064,
+            0.7922
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 1,
+            "only_second_correct": 4,
+            "p_value": 0.375
+          }
+        },
+        "entailment_status": [
+          "ok"
+        ]
+      }
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "task_a": {
+        "v1": {
+          "verifier_pass_rate": 0.5169,
+          "accuracy_of_verified": 0.587,
+          "verified_n": 46,
+          "system_accuracy": 0.764,
+          "system_95ci": [
+            0.6661,
+            0.8402
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 17,
+            "only_second_correct": 3,
+            "p_value": 0.0025768280029296875
+          },
+          "verified_false_negatives": 16,
+          "verified_false_positives": 3
+        },
+        "v1+structure": {
+          "verifier_pass_rate": 0.2921,
+          "accuracy_of_verified": 0.9231,
+          "verified_n": 26,
+          "system_accuracy": 0.9213,
+          "system_95ci": [
+            0.8464,
+            0.9614
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 0,
+            "only_second_correct": 0,
+            "p_value": 1.0
+          },
+          "verified_false_negatives": 2,
+          "verified_false_positives": 0
+        },
+        "v1+entailment": {
+          "verifier_pass_rate": 0.2697,
+          "accuracy_of_verified": 0.9167,
+          "verified_n": 24,
+          "system_accuracy": 0.9326,
+          "system_95ci": [
+            0.8606,
+            0.9687
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 2,
+            "only_second_correct": 3,
+            "p_value": 1.0
+          },
+          "verified_false_negatives": 0,
+          "verified_false_positives": 2
+        },
+        "v1+structure+entailment": {
+          "verifier_pass_rate": 0.2135,
+          "accuracy_of_verified": 1.0,
+          "verified_n": 19,
+          "system_accuracy": 0.9213,
+          "system_95ci": [
+            0.8464,
+            0.9614
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 0,
+            "only_second_correct": 0,
+            "p_value": 1.0
+          },
+          "verified_false_negatives": 0,
+          "verified_false_positives": 0
+        },
+        "entailment_status": [
+          "ok"
+        ]
+      },
+      "task_b": {
+        "v1": {
+          "verifier_pass_rate": 0.6854,
+          "accuracy_of_verified": 0.8525,
+          "verified_n": 61,
+          "system_accuracy": 0.7753,
+          "system_95ci": [
+            0.6782,
+            0.8496
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 1,
+            "only_second_correct": 10,
+            "p_value": 0.01171875
+          }
+        },
+        "v1+structure": {
+          "verifier_pass_rate": 0.6854,
+          "accuracy_of_verified": 0.8525,
+          "verified_n": 61,
+          "system_accuracy": 0.7753,
+          "system_95ci": [
+            0.6782,
+            0.8496
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 1,
+            "only_second_correct": 10,
+            "p_value": 0.01171875
+          }
+        },
+        "v1+entailment": {
+          "verifier_pass_rate": 0.618,
+          "accuracy_of_verified": 0.8364,
+          "verified_n": 55,
+          "system_accuracy": 0.7753,
+          "system_95ci": [
+            0.6782,
+            0.8496
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 1,
+            "only_second_correct": 10,
+            "p_value": 0.01171875
+          }
+        },
+        "v1+structure+entailment": {
+          "verifier_pass_rate": 0.618,
+          "accuracy_of_verified": 0.8364,
+          "verified_n": 55,
+          "system_accuracy": 0.7753,
+          "system_95ci": [
+            0.6782,
+            0.8496
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 1,
+            "only_second_correct": 10,
+            "p_value": 0.01171875
+          }
+        },
+        "entailment_status": [
+          "ok"
+        ]
+      }
+    },
+    {
+      "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "task_a": {
+        "v1": {
+          "verifier_pass_rate": 0.5056,
+          "accuracy_of_verified": 0.8444,
+          "verified_n": 45,
+          "system_accuracy": 0.8764,
+          "system_95ci": [
+            0.7921,
+            0.9296
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 7,
+            "only_second_correct": 3,
+            "p_value": 0.34375
+          },
+          "verified_false_negatives": 0,
+          "verified_false_positives": 7
+        },
+        "v1+structure": {
+          "verifier_pass_rate": 0.3933,
+          "accuracy_of_verified": 1.0,
+          "verified_n": 35,
+          "system_accuracy": 0.9213,
+          "system_95ci": [
+            0.8464,
+            0.9614
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 0,
+            "only_second_correct": 0,
+            "p_value": 1.0
+          },
+          "verified_false_negatives": 0,
+          "verified_false_positives": 0
+        },
+        "v1+entailment": {
+          "verifier_pass_rate": 0.4607,
+          "accuracy_of_verified": 0.8293,
+          "verified_n": 41,
+          "system_accuracy": 0.8764,
+          "system_95ci": [
+            0.7921,
+            0.9296
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 7,
+            "only_second_correct": 3,
+            "p_value": 0.34375
+          },
+          "verified_false_negatives": 0,
+          "verified_false_positives": 7
+        },
+        "v1+structure+entailment": {
+          "verifier_pass_rate": 0.3483,
+          "accuracy_of_verified": 1.0,
+          "verified_n": 31,
+          "system_accuracy": 0.9213,
+          "system_95ci": [
+            0.8464,
+            0.9614
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 0,
+            "only_second_correct": 0,
+            "p_value": 1.0
+          },
+          "verified_false_negatives": 0,
+          "verified_false_positives": 0
+        },
+        "entailment_status": [
+          "ok"
+        ]
+      },
+      "task_b": {
+        "v1": {
+          "verifier_pass_rate": 0.1798,
+          "accuracy_of_verified": 0.375,
+          "verified_n": 16,
+          "system_accuracy": 0.6404,
+          "system_95ci": [
+            0.5369,
+            0.7324
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 4,
+            "only_second_correct": 1,
+            "p_value": 0.375
+          }
+        },
+        "v1+structure": {
+          "verifier_pass_rate": 0.1798,
+          "accuracy_of_verified": 0.375,
+          "verified_n": 16,
+          "system_accuracy": 0.6404,
+          "system_95ci": [
+            0.5369,
+            0.7324
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 4,
+            "only_second_correct": 1,
+            "p_value": 0.375
+          }
+        },
+        "v1+entailment": {
+          "verifier_pass_rate": 0.1573,
+          "accuracy_of_verified": 0.3571,
+          "verified_n": 14,
+          "system_accuracy": 0.6517,
+          "system_95ci": [
+            0.5483,
+            0.7425
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 3,
+            "only_second_correct": 1,
+            "p_value": 0.625
+          }
+        },
+        "v1+structure+entailment": {
+          "verifier_pass_rate": 0.1573,
+          "accuracy_of_verified": 0.3571,
+          "verified_n": 14,
+          "system_accuracy": 0.6517,
+          "system_95ci": [
+            0.5483,
+            0.7425
+          ],
+          "mcnemar_extractive_vs_system": {
+            "only_first_correct": 3,
+            "only_second_correct": 1,
+            "p_value": 0.625
+          }
+        },
+        "entailment_status": [
+          "ok"
+        ]
+      }
+    }
+  ]
+}

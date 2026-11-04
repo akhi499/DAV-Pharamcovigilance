@@ -7,7 +7,9 @@ Build (offline, from cached raw files)::
     data/evidence/index_manifest.json   counts, embedding model id/revision/hash, content hash, timings
 
 Search modes: ``dense`` (cosine over BGE vectors, exact search with NumPy - ~10^4 vectors, so no ANN
-library is needed), ``bm25`` (lexical) and ``hybrid`` (reciprocal-rank fusion of both, k = 60). The default
+library is needed), ``bm25`` (lexical), ``hybrid`` (reciprocal-rank fusion of both, k = 60), and the
+improvements of ``rerank.py``: ``dense+route`` (bonus for the label section the question asks about),
+``rerank`` (cross-encoder re-ranking of the top dense candidates) and ``rerank+route``. The default
 mode is the one chosen on development drugs by ``evaluate.select_mode_on_dev`` (dense on FAERS 2025 Q1).
 Results can be restricted to drugs and source types. Without the embedding model, ``hybrid`` and
 ``dense`` degrade to ``bm25`` and the response says so.
@@ -27,11 +29,14 @@ import pandas as pd
 from ..config import Paths, get_paths
 from .chunking import chunk_documents
 from .embed import EmbedderUnavailable, get_embedder, text_hash
+from .rerank import RERANK_CANDIDATES, get_reranker, minmax, reranker_available, route_sections
 from .sources import build_documents, evidence_dir
 
 log = logging.getLogger(__name__)
 RRF_K = 60
 CANDIDATES = 100
+MODES = ("dense", "bm25", "hybrid", "dense+route", "rerank", "rerank+route")
+DEFAULT_ROUTE_WEIGHT = 0.3  # used only until evaluate_v2 has chosen one on dev drugs
 INDEX_VERSION = "pv-evidence-index-1.0"
 
 
@@ -112,16 +117,40 @@ class EvidenceIndex:
             else:
                 log.warning("embeddings.npy does not match chunks.parquet; rebuild the index")
         # production mode chosen on dev drugs by evaluate.select_mode_on_dev (stored in evaluation_evidence.json)
+        self.route_weight: dict[str, float] = {}
         self.default_mode = self._selected_mode() if self.vectors is not None else "bm25"
         self._qcache: dict[str, np.ndarray] = {}
+        self._rcache: dict[tuple[str, int], float] = {}
+        self._reranker_ok: bool | None = None
         self._lock = threading.Lock()
 
     def _selected_mode(self) -> str:
-        f = evidence_dir(self.paths) / "evaluation_evidence.json"
-        try:
-            return json.loads(f.read_text())["mode_selection"]["selected_mode"]
-        except (OSError, KeyError, ValueError):
-            return "dense"
+        """Mode chosen on dev drugs: evaluation_evidence_v2.json (improved retrieval) if present, else v1."""
+        root = evidence_dir(self.paths)
+        for name in ("evaluation_evidence_v2.json", "evaluation_evidence.json"):
+            try:
+                sel = json.loads((root / name).read_text())["mode_selection"]
+            except (OSError, KeyError, ValueError):
+                continue
+            self.route_weight = {k: float(v) for k, v in sel.get("route_weight", {}).items()}
+            if sel.get("selected_mode") in MODES:
+                return sel["selected_mode"]
+        return "dense"
+
+    def has_reranker(self) -> bool:
+        if self._reranker_ok is None:
+            self._reranker_ok = reranker_available()
+        return self._reranker_ok
+
+    def _rerank(self, q: str, rows: np.ndarray) -> np.ndarray:
+        todo = [int(r) for r in rows if (q, int(r)) not in self._rcache]
+        if todo:
+            texts = [f"{self.chunks.at[r, 'section']}: {self.chunks.at[r, 'text']}" for r in todo]
+            for r, v in zip(todo, get_reranker().score(q, texts), strict=True):
+                self._rcache[(q, r)] = float(v)
+            if len(self._rcache) > 200_000:
+                self._rcache.clear()
+        return np.array([self._rcache.get((q, int(r)), 0.0) for r in rows])
 
     def _qvec(self, q: str) -> np.ndarray:
         with self._lock:
@@ -150,18 +179,37 @@ class EvidenceIndex:
         m = self.mask(drugs, source_types)
         if section_keys:
             m &= self.chunks["section_key"].isin(section_keys).to_numpy()
+        if mode not in MODES:
+            raise ValueError(f"unknown retrieval mode {mode!r}; expected one of {MODES}")
         used = mode if (mode == "bm25" or self.vectors is not None) else "bm25"
+        note = None
+        if used.startswith("rerank") and not self.has_reranker():
+            used, note = used.replace("rerank", "dense"), "re-ranker model not installed; dense retrieval used"
         if not m.any():
-            return {"mode": used, "hits": []}
+            return {"mode": used, "hits": [], "note": note}
         idx = np.where(m)[0]
         dense = bm = None
-        if used in ("dense", "hybrid"):
+        if used != "bm25" and used != "bm25-only":
             dense = self.vectors[idx] @ self._qvec(q)
         if used in ("bm25", "hybrid"):
             bm = self.bm25.scores(q)[idx]
+        routed = route_sections(q) if used.endswith("+route") else ()
+        boost = (np.isin(self.chunks["section_key"].to_numpy()[idx], routed).astype(float) if routed
+                 else np.zeros(len(idx)))
+        beta = self.route_weight.get(used, DEFAULT_ROUTE_WEIGHT) if routed else 0.0
         if used == "dense":
             order = np.argsort(-dense)[:k]
             fused = dense
+        elif used == "dense+route":
+            fused = minmax(dense) + beta * boost
+            order = np.argsort(-fused, kind="stable")[:k]
+        elif used.startswith("rerank"):
+            pre = minmax(dense) + beta * boost
+            cand = np.argsort(-pre, kind="stable")[:RERANK_CANDIDATES]
+            final = minmax(self._rerank(q, idx[cand])) + beta * boost[cand]
+            order = cand[np.argsort(-final, kind="stable")[:k]]
+            fused = np.full(len(idx), -1.0)
+            fused[cand] = final
         elif used == "bm25":
             order = [i for i in np.argsort(-bm)[:k] if bm[i] > 0]
             fused = bm
@@ -184,7 +232,8 @@ class EvidenceIndex:
                          "score": round(float(fused[i]), 5),
                          "dense_similarity": round(float(dense[i]), 4) if dense is not None else None,
                          "bm25": round(float(bm[i]), 3) if bm is not None else None})
-        return {"mode": used, "hits": hits}
+        return {"mode": used, "hits": hits, "note": note, "routed_sections": list(routed),
+                "top_dense_similarity": round(float(dense.max()), 4) if dense is not None and len(dense) else None}
 
     def label_mentions(self, drug: str, terms: list[str]) -> list[dict]:
         """Label chunks of `drug` whose text mentions any of `terms` (whole-word, case-insensitive)."""

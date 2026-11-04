@@ -319,3 +319,136 @@ def test_generator_comparison_mechanics(evidence, tmp_path):
         assert s["n"] == 1 and 0 <= s["system_accuracy"] <= 1 and "p_value" in s["mcnemar_extractive_vs_generative"]
     assert len(m["items_task_a"]) == 1 and r["inputs"]["task_a"][0]["chunk_ids"]
     assert (src.evidence_dir(paths) / "generator_comparison.json").exists()
+
+
+def _tiny_bert(d, words: str, num_labels: int | None = None, id2label: dict | None = None):
+    transformers = pytest.importorskip("transformers")
+    tokenizers = pytest.importorskip("tokenizers")
+    tok = tokenizers.Tokenizer(tokenizers.models.WordLevel(unk_token="[UNK]"))
+    tok.pre_tokenizer = tokenizers.pre_tokenizers.Whitespace()
+    tok.train_from_iterator([words] * 3, tokenizers.trainers.WordLevelTrainer(
+        special_tokens=["[UNK]", "[PAD]", "[CLS]", "[SEP]"]))
+    fast = transformers.PreTrainedTokenizerFast(tokenizer_object=tok, unk_token="[UNK]", pad_token="[PAD]",
+                                                cls_token="[CLS]", sep_token="[SEP]")
+    fast.save_pretrained(d)
+    cfg = dict(vocab_size=fast.vocab_size, hidden_size=16, num_hidden_layers=1, num_attention_heads=2,
+               intermediate_size=32)
+    if num_labels is None:
+        transformers.BertModel(transformers.BertConfig(**cfg)).save_pretrained(d)
+    else:
+        extra = {"id2label": id2label, "label2id": {v: k for k, v in id2label.items()}} if id2label else {}
+        transformers.BertForSequenceClassification(transformers.BertConfig(num_labels=num_labels, **cfg, **extra)
+                                                   ).save_pretrained(d)
+
+
+def test_routing_and_reranking_modes(evidence, tmp_path, monkeypatch):
+    """dense+route / rerank / rerank+route with tiny random models (mechanics, not quality)."""
+    pytest.importorskip("torch")
+    from pvsys.evidence import embed, rerank
+    from pvsys.evidence import index as ix
+
+    words = "drugx hepatitis nausea warning liver label boxed who should not take pregnancy"
+    _tiny_bert(tmp_path / "emb", words)
+    monkeypatch.setenv("PV_EMBED_DIR", str(tmp_path / "emb"))
+    embed.get_embedder.cache_clear()
+    rerank.get_reranker.cache_clear()
+    try:
+        paths = evidence[0]
+        ix.build_index(paths, rebuild_documents=False)
+        idx = ix.EvidenceIndex(paths)
+        r = idx.search("Does drugx have a boxed warning?", k=3, drugs=["DRUGX"], mode="rerank")
+        assert r["mode"] == "dense" and "re-ranker" in r["note"]  # no re-ranker model: honest fallback
+        r = idx.search("Does drugx have a boxed warning?", k=3, drugs=["DRUGX"], mode="dense+route")
+        assert r["routed_sections"] == ["boxed_warning"] and r["top_dense_similarity"] is not None
+        idx.route_weight["dense+route"] = 10.0  # a large bonus puts the routed section first
+        r = idx.search("Does drugx have a boxed warning?", k=3, drugs=["DRUGX"], mode="dense+route")
+        assert r["hits"][0]["section_key"] == "boxed_warning"
+        _tiny_bert(tmp_path / "rr", words, num_labels=1)
+        monkeypatch.setenv("PV_RERANKER_DIR", str(tmp_path / "rr"))
+        rerank.get_reranker.cache_clear()
+        idx = ix.EvidenceIndex(paths)
+        for mode in ("rerank", "rerank+route"):
+            r = idx.search("drugx liver warning", k=3, drugs=["DRUGX"], mode=mode)
+            assert r["mode"] == mode and r["hits"] and r["note"] is None
+        with pytest.raises(ValueError):
+            idx.search("drugx", mode="nonsense")
+    finally:
+        monkeypatch.setenv("PV_EMBED_DIR", str(tmp_path / "none"))
+        monkeypatch.setenv("PV_RERANKER_DIR", str(tmp_path / "none"))
+        embed.get_embedder.cache_clear()
+        rerank.get_reranker.cache_clear()
+        ix.build_index(evidence[0], rebuild_documents=False)
+        ix.reset_index()
+
+
+def test_route_sections():
+    from pvsys.evidence.rerank import route_sections
+
+    assert route_sections("Who should not take Humira?") == ("contraindications",)
+    assert route_sections("Does X have a boxed warning?") == ("boxed_warning",)
+    assert route_sections("Is it safe to take X while pregnant?") == ("pregnancy", "use_in_specific_populations")
+    assert route_sections("What happens if someone takes too much X?") == ("overdosage",)
+    assert route_sections("Can X be combined with other medicines?") == ("drug_interactions",)
+    assert route_sections("What are the warnings for X?") == ("warnings_and_cautions", "warnings", "precautions")
+    assert route_sections("Tell me about X") == ()
+
+
+def test_structure_check():
+    from pvsys.nlp.checks import boxed_polarity, structure_problems
+
+    boxed = [{"id": "L1", "section_key": "boxed_warning"}]
+    other = [{"id": "L1", "section_key": "adverse_reactions"}]
+    deny = "No, there is no boxed warning for capecitabine [L1]."
+    assert boxed_polarity(deny) == "no" and boxed_polarity("Yes, it has a boxed warning [L1].") == "yes"
+    assert boxed_polarity("Nausea is common [L1].") is None
+    assert structure_problems(deny, boxed) and not structure_problems(deny, other)
+    assert structure_problems("Yes, X carries a boxed warning [L1].", other)
+    assert not structure_problems("Nausea is common [L1].", boxed)
+
+
+def test_entailment_check_with_fake_model():
+    from pvsys.nlp.checks import entailment_check
+
+    class Fake:
+        def probs(self, premises, hypotheses):
+            return [(0.9, 0.05) if h.startswith("No") else (0.02, 0.9) for h in hypotheses]
+
+    items = [{"id": "L1", "section": "BOXED WARNING", "text": "WARNING: serious infections."}]
+    r = entailment_check("No, there is no boxed warning [L1]. Serious infections occur [L1].", items, Fake())
+    assert r["status"] == "ok" and len(r["problems"]) == 1 and r["sentences"][0]["contradiction"] == 0.9
+    assert entailment_check("Uncited sentence.", items, Fake())["problems"] == []
+    assert entailment_check("No warning [L1].", items)["status"] == "unavailable"  # no model in tests
+
+
+def test_tiny_nli_model_loads(tmp_path, monkeypatch):
+    pytest.importorskip("torch")
+    from pvsys.nlp import checks
+
+    _tiny_bert(tmp_path / "nli", "no boxed warning serious infections",
+               num_labels=3, id2label={0: "contradiction", 1: "entailment", 2: "neutral"})
+    nli = checks.NLI(tmp_path / "nli")
+    assert nli.device == "cpu" and (nli.i_con, nli.i_ent) == (0, 1)
+    r = checks.entailment_check("no boxed warning [L1].", [{"id": "L1", "section": "x", "text": "serious infections"}], nli)
+    assert r["status"] == "ok" and len(r["sentences"]) == 1
+
+
+def test_verifier_ablation():
+    from pvsys.evidence.compare_generators import ablation
+
+    def row(gold, pred, v1=(), struct=(), ent=(), extr=True):
+        return {"gold": gold, "pred": pred, "correct": gold == pred, "extractive_correct": extr, "verified": not v1,
+                "problems": list(v1), "seconds": 1.0,
+                "checks": {"generated": True, "v1": list(v1), "structure": list(struct), "entailment": list(ent)}}
+
+    rows = [row("yes", "no", struct=["x"]), row("yes", "yes"), row("no", "yes", ent=["y"]), row("no", "no", v1=["z"])]
+    a = ablation(rows, task_a=True)
+    assert a["v1"]["verified_n"] == 3 and a["v1"]["verified_false_negatives"] == 1
+    assert a["v1+structure"]["verified_false_negatives"] == 0 and a["v1+structure"]["verified_n"] == 2
+    assert a["v1+structure+entailment"]["verified_n"] == 1 and a["v1+structure+entailment"]["system_accuracy"] == 1.0
+
+
+def test_generator_quantization_switch(monkeypatch, tmp_path):
+    from pvsys.nlp.generator import _wants_4bit
+
+    monkeypatch.setenv("PV_GEN_QUANT", "none")
+    assert _wants_4bit(tmp_path, None) is False

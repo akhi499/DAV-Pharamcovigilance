@@ -4,3 +4,7 @@
 torch>=2.2
 transformers>=4.40
 safetensors>=0.4
+# Optional, only for 4-bit loading of generators larger than the GPU (e.g. Qwen2.5-3B on a 4 GB GPU);
+# installed by scripts\overnight.ps1:
+#   bitsandbytes>=0.45
+#   accelerate>=1.0

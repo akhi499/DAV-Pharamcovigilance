@@ -121,14 +121,15 @@ def _rank(hits: list[dict], gold: set[str]) -> float:
     return float("inf")
 
 
-def eval_retrieval(idx, queries: list[dict], test: set[str]) -> dict:
-    modes = ["bm25"] + (["dense", "hybrid"] if idx.vectors is not None else [])
+def eval_retrieval(idx, queries: list[dict], test: set[str], modes: list[str] | None = None,
+                   whole_index: bool = True) -> dict:
+    modes = modes or ["bm25"] + (["dense", "hybrid"] if idx.vectors is not None else [])
     res: dict = {"queries_total": len(queries), "modes": modes, "within_drug": {}, "whole_index": {}}
     rows = []
     for q in queries:
         for mode in modes:
             r1 = _rank(idx.search(q["query"], k=10, drugs=[q["drug"]], mode=mode)["hits"], q["gold"])
-            r2 = _rank(idx.search(q["query"], k=10, mode=mode)["hits"], q["gold"])
+            r2 = _rank(idx.search(q["query"], k=10, mode=mode)["hits"], q["gold"]) if whole_index else float("nan")
             rows.append({"drug": q["drug"], "topic": q["topic"], "style": q["style"], "mode": mode,
                          "rank_within": r1, "rank_whole": r2, "split": "test" if q["drug"] in test else "dev"})
     df = pd.DataFrame(rows)
@@ -137,10 +138,11 @@ def eval_retrieval(idx, queries: list[dict], test: set[str]) -> dict:
         m = t[t["mode"] == mode]
         res["within_drug"][mode] = {"all": _metrics(m["rank_within"].tolist()),
                                     **{s: _metrics(m[m["style"] == s]["rank_within"].tolist())
-                                       for s in ("label_wording", "lay_wording")}}
-        res["whole_index"][mode] = {"all": _metrics(m["rank_whole"].tolist()),
-                                    **{s: _metrics(m[m["style"] == s]["rank_whole"].tolist())
-                                       for s in ("label_wording", "lay_wording")}}
+                                       for s in sorted(set(m["style"]))}}
+        if whole_index:
+            res["whole_index"][mode] = {"all": _metrics(m["rank_whole"].tolist()),
+                                        **{s: _metrics(m[m["style"] == s]["rank_whole"].tolist())
+                                           for s in ("label_wording", "lay_wording")}}
     if "hybrid" in modes:
         res["per_topic_hybrid_within_drug_recall_at_5"] = {
             tp: round(float((g["rank_within"] <= 5).mean()), 4)
@@ -149,9 +151,9 @@ def eval_retrieval(idx, queries: list[dict], test: set[str]) -> dict:
     return res
 
 
-def select_mode_on_dev(idx, queries: list[dict], dev: set[str]) -> dict:
+def select_mode_on_dev(idx, queries: list[dict], dev: set[str], modes: list[str] | None = None) -> dict:
     """Choose the production retrieval mode on DEV drugs only (MRR, within-drug search)."""
-    modes = ["bm25"] + (["dense", "hybrid"] if idx.vectors is not None else [])
+    modes = modes or ["bm25"] + (["dense", "hybrid"] if idx.vectors is not None else [])
     res = {}
     for mode in modes:
         ranks = [_rank(idx.search(q["query"], k=10, drugs=[q["drug"]], mode=mode)["hits"], q["gold"])
@@ -331,4 +333,132 @@ def evaluate(paths: Paths | None = None, n_generation: int = 40, skip_generation
         "Concordance uses exact text matching and is descriptive, not a measure of signal validity.",
     ]
     (evidence_dir(paths) / "evaluation_evidence.json").write_text(json.dumps(out, indent=2, default=str))
+    return out
+
+
+# ---------------------------------------------------------------- v2: retrieval improvements
+
+ROUTE_WEIGHT_GRID = (0.0, 0.05, 0.1, 0.2, 0.3, 0.5, 1.0)
+
+# Alternative lay wordings (three per topic). Written after the routing rules, deliberately using vocabulary the
+# rules do not contain as well as some they do; they test robustness, but are not an independent user sample.
+PARAPHRASES = {
+    "boxed_warning": ["Does {b} carry any special FDA warning?", "What is the biggest danger of taking {b}?",
+                      "Is there a black box on the {b} label?"],
+    "contraindications": ["Are there people who must never use {b}?", "When is {b} not allowed?",
+                          "Which patients is {b} unsafe for?"],
+    "interactions": ["Can I take {b} at the same time as my other pills?", "Does {b} react badly with other drugs?",
+                     "Is it okay to use {b} with blood thinners?"],
+    "pregnancy": ["Can a woman expecting a child use {b}?", "Could {b} harm a baby during pregnancy?",
+                  "Is {b} safe while breastfeeding?"],
+    "overdosage": ["What should I do if I accidentally took two doses of {b}?", "What are the symptoms of {b} poisoning?",
+                   "What happens after an overdose of {b}?"],
+    "adverse_reactions": ["What problems can {b} cause?", "What unwanted effects does {b} have?",
+                          "What are the downsides of taking {b}?"],
+}
+
+
+def build_paraphrases(idx) -> list[dict]:
+    labels = idx.chunks[idx.chunks["source_type"] == "label"]
+    out = []
+    for drug, g in labels.groupby("drugs"):
+        present = set(g["section_key"])
+        brand = _brand(g["title"].iloc[0], drug)
+        for topic, (secs, _, _) in TOPICS.items():
+            if not present & set(secs):
+                continue
+            gold = set(g[g["section_key"].isin(secs)]["chunk_id"])
+            out += [{"drug": drug, "topic": topic, "style": "paraphrase", "gold": gold, "query": t.format(b=brand)}
+                    for t in PARAPHRASES[topic]]
+    return out
+
+
+def per_topic(idx, queries: list[dict], drugs: set[str], mode: str) -> dict:
+    out: dict = {}
+    for q in queries:
+        if q["drug"] not in drugs:
+            continue
+        r = _rank(idx.search(q["query"], k=10, drugs=[q["drug"]], mode=mode)["hits"], q["gold"])
+        out.setdefault(f"{q['topic']}/{q['style']}", []).append(r)
+    return {k: {"n": len(v), "recall_at_1": round(float(np.mean(np.array(v) <= 1)), 4)} for k, v in sorted(out.items())}
+
+
+def evaluate_v2(paths: Paths | None = None) -> dict:
+    """Section routing and cross-encoder re-ranking vs the v1 retrievers, same drugs, split and gold as v1.
+
+    Route weights and the production mode are chosen on dev drugs only; test drugs are reported once.
+    Writes data/evidence/evaluation_evidence_v2.json; v1 files (and calibration.json) are not touched."""
+    from .index import EvidenceIndex
+    from .rerank import get_reranker
+
+    paths = paths or get_paths()
+    t0 = time.time()
+    idx = EvidenceIndex(paths)
+    if idx.vectors is None:
+        raise RuntimeError("dense embeddings are required for the v2 evaluation")
+    queries = build_queries(idx)
+    drugs = sorted({q["drug"] for q in queries})
+    dev, test = split_drugs(drugs)  # same split as v1 (computed from the template queries)
+    queries = queries + build_paraphrases(idx)
+    reranker = idx.has_reranker()
+    modes = ["bm25", "dense", "hybrid", "dense+route"] + (["rerank", "rerank+route"] if reranker else [])
+    out = {"created_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "dev_drugs": len(dev),
+           "test_drugs": len(test), "queries_total": len(queries), "modes": modes,
+           "reranker": get_reranker().provenance if reranker else {"status": "unavailable"}}
+    # 1. route weight per routed mode, on dev drugs only
+    weights, grid = {}, {}
+    for mode in [m for m in modes if m.endswith("+route")]:
+        grid[mode] = {}
+        for b in ROUTE_WEIGHT_GRID:
+            idx.route_weight[mode] = b
+            ranks = [_rank(idx.search(q["query"], k=10, drugs=[q["drug"]], mode=mode)["hits"], q["gold"])
+                     for q in queries if q["drug"] in dev]
+            grid[mode][str(b)] = _metrics(ranks)["mrr"]
+            log.info("v2 dev: %s beta=%s MRR=%s", mode, b, grid[mode][str(b)])
+        best = max(ROUTE_WEIGHT_GRID, key=lambda b: (grid[mode][str(b)], -b))
+        weights[mode] = best
+        idx.route_weight[mode] = best
+    out["route_weight_selection"] = {"criterion": "highest MRR on dev drugs (within-drug search)", "grid": grid,
+                                     "selected": weights}
+    # 2. production mode on dev drugs
+    sel = select_mode_on_dev(idx, queries, dev, modes)
+    sel["route_weight"] = weights
+    out["mode_selection"] = sel
+    log.info("v2: selected %s on dev drugs", sel["selected_mode"])
+    # 3. test-drug results for every mode (within-drug: the production setting)
+    t1 = time.time()
+    out["retrieval"] = eval_retrieval(idx, queries, test, modes, whole_index=False)
+    out["retrieval"]["seconds"] = round(time.time() - t1, 1)
+    out["per_topic_test_recall_at_1"] = {m: per_topic(idx, queries, test, m) for m in modes if m != "bm25"}
+    from .rerank import route_sections
+
+    para = [q for q in queries if q["style"] == "paraphrase"]
+    out["routing_coverage"] = {
+        style: {"routed_to_gold": round(float(np.mean([bool(set(route_sections(q["query"])) & set(TOPICS[q["topic"]][0]))
+                                                       for q in qs])), 4),
+                "routed_elsewhere": round(float(np.mean([bool(route_sections(q["query"])) and
+                                                         not set(route_sections(q["query"])) & set(TOPICS[q["topic"]][0])
+                                                         for q in qs])), 4),
+                "not_routed": round(float(np.mean([not route_sections(q["query"]) for q in qs])), 4), "n": len(qs)}
+        for style, qs in (("templates", [q for q in queries if q["style"] != "paraphrase"]), ("paraphrases", para))}
+    # 4. the boxed-warning factual check answered extractively from the top-3 passages (Task A of the comparison)
+    labels = idx.chunks[idx.chunks["source_type"] == "label"]
+    has_bw = labels.groupby("drugs")["section_key"].apply(lambda x: "boxed_warning" in set(x))
+    task_a = {}
+    for m in ("dense", sel["selected_mode"]):
+        ok = [any(h["section_key"] == "boxed_warning" for h in
+                  idx.search(f"Does {d.lower()} have a boxed warning?", k=5, drugs=[d], mode=m)["hits"][:3]) == bool(has_bw[d])
+              for d in sorted(test)]
+        task_a[m] = {"n": len(ok), "accuracy": round(float(np.mean(ok)), 4), "correct": int(sum(ok))}
+    out["task_a_extractive_test"] = task_a
+    out["caveats"] = [
+        "Section routing rules were written by the authors of the question templates, so routed results on the "
+        "templates are optimistic by construction; the paraphrase set (written after the rules) is a robustness "
+        "check, not an independent user sample. Re-ranking without routing has no such dependence.",
+        "Route weights and the production mode are chosen on dev drugs using templates and paraphrases together.",
+        "Gold relevance is FDA's SPL section coding, as in v1; the drug split (seed 42) is the same as v1.",
+        "The sufficiency threshold is unchanged: it uses the best dense similarity, which re-ranking does not alter.",
+    ]
+    out["seconds"] = round(time.time() - t0, 1)
+    (evidence_dir(paths) / "evaluation_evidence_v2.json").write_text(json.dumps(out, indent=2, default=str))
     return out

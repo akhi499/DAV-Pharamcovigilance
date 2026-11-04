@@ -145,7 +145,15 @@ SapBERT Apache-2.0, PubMedBERT MIT, FAERS and FDA's README/FAQ public (quoted wi
 
 **When does it refuse?** Below a similarity of 0.73 (chosen on development drugs): it answers 93% of answerable questions and declines 92% of questions no source can answer; also when the drug isn't indexed.
 
-**Did the generative model work?** Not well: Qwen2.5-0.5B got the boxed-warning question right 35% of the time vs 97.5% for simply checking which section the retrieved passage came from, and only 43% of its drafts passed our source checks. So it is off by default – an honest negative result. The checks (citations exist, numbers/quotes in the source, each sentence supported by its cited passage) stop unsupported text reaching the user.
+**Did the generative model work?** Not well. In the first pilot Qwen2.5-0.5B got the boxed-warning question right 35% of the time vs 97.5% for simply checking which section the retrieved passage came from, and only 43% of its drafts passed our source checks. So it is off by default – an honest negative result. The checks (citations exist, numbers/quotes in the source, each sentence supported by its cited passage) stop unsupported text reaching the user.
+
+**Did you train or fine-tune any model?** No. All models are pretrained and used as downloaded (zero-shot); only decision settings (thresholds, retrieval mode, routing weight) were chosen on the 38 development drugs, and every result is reported on the 89 held-out test drugs. FAERS has no labelled training data, and the research question is whether off-the-shelf local models are safe to use.
+
+**Extractive or generative – what did the comparison show?** Same three passages for every system, 89 test drugs: quoting the evidence answered "Does X have a boxed warning?" correctly 92.1% of the time; Qwen 0.5B 43.8%, Qwen 1.5B 69.7%, SmolLM2 1.7B 49.4%, Qwen 3B (4-bit) no better than 1.5B. The errors were confident yes/no flips ("No, there is no boxed warning [L1]" citing the boxed warning itself) that a word-overlap verifier passes.
+
+**How did you fix that?** Two extra checks: a structure check (a draft can't contradict which label section the passage came from) and an entailment model (nli-deberta-v3-small) that rejects sentences their cited passage contradicts. Qwen 1.5B's verified false "no" answers fell from 16 to 0 and system accuracy rose from 76.4% to 93.3%, level with extractive answering.
+
+**Did the re-ranker and routing help?** Routing (mapping "who should not take" to Contraindications) raised top-1 on re-worded questions from 54% to 67%; on our own templates it is 100%, but that is by construction, so we don't claim it. The cross-encoder re-ranker made retrieval worse (65% → 52%) and was rejected on development drugs – a negative result we report.
 
 **How do you separate reports from evidence?** Two panels: "Observed in FAERS reports" (counts and disproportionality – not causal) and "Established clinical evidence" (what the label/literature states, with a direct check whether the label mentions the reaction).
 
@@ -160,7 +168,7 @@ Typed FastAPI/Pydantic parameters with ranges and length limits, whitelisted sor
 Descriptive aggregates are LRU-cached in the API; the frontend caches with TanStack Query; semantic-search query embeddings are cached; question answers are LRU-cached; the QA engine warms up in a background thread at API start (first question ~0.6 s instead of ~30 s); Plotly is split into its own bundle chunk.
 
 **Testing?**
-101 backend tests (synthetic FAERS quarter, formula checks, NLP abstention/calibration/review/annotation, retrieval, linking, verifier, generator mechanics with a tiny random model, abstention, independence, API validation), Ruff lint, 18 frontend tests (Vitest + Testing Library), TypeScript check and production build.
+110 backend tests (synthetic FAERS quarter, formula checks, NLP abstention/calibration/review/annotation, retrieval, linking, verifier, generator mechanics with a tiny random model, abstention, independence, API validation), Ruff lint, 18 frontend tests (Vitest + Testing Library), TypeScript check and production build.
 
 ## 4. Numbers to remember
 
@@ -184,9 +192,11 @@ Descriptive aggregates are LRU-cached in the API; the frontend caches with TanSt
 | External evidence | 601 docs (135 labels, 424 reviews, 42 FDA DSCs), 8,590 passages |
 | Label-section retrieval, dense vs BM25 (top-1 / top-5) | 81.2% / 94.6% vs 51.0% / 70.5%; lay wording 67.7% vs 18.5% top-1 |
 | Insufficient-evidence threshold | 0.73; balanced accuracy 92.5% |
-| Qwen2.5-0.5B boxed-warning test | 35% vs 97.5% extractive; 42.5% pass checks → opt-in |
+| Boxed-warning test (89 drugs), extractive vs generators | 92.1% vs 43.8% (Qwen 0.5B) / 69.7% (Qwen 1.5B) / 49.4% (SmolLM2) / 78.7% (Qwen 3B, 4-bit, routed retrieval) |
+| Verifier v2 (structure + entailment), Qwen 1.5B | verified false "no" 16 → 0; system 76.4% → 93.3% (extractive 92.1%) |
+| Section routing, re-worded questions | top-1 54.4% → 66.9%; re-ranker 65.1% → 52.0% (rejected) |
 | Strong signals already in label | 33.7% (most-reported 300) |
 
 ## 5. Limitations to volunteer
 
-No denominator (no risk); disproportionality ≠ causality; one quarter; regex drug normalisation (no RxNorm); exact-match duplicate detection; screening flags not FDR-controlled; NLP reference is a proxy with small per-category samples; 42% of distinct terms abstained; no FAERS ground truth yet; QA evaluated on templated not real user questions, no comparisons/doses/trends, BM25 is lexical and lost to TF-IDF on the FAQ test, generative summariser unevaluated.
+No denominator (no risk); disproportionality ≠ causality; one quarter; regex drug normalisation (no RxNorm); exact-match duplicate detection; screening flags not FDR-controlled; NLP reference is a proxy with small per-category samples; 42% of distinct terms abstained; no FAERS ground truth yet; QA evaluated on templated not real user questions, no comparisons/doses/trends, BM25 is lexical and lost to TF-IDF on the FAQ test, small generators make confident polarity errors (kept opt-in, behind the structure + entailment verifier); routing evaluated on author-written questions only.

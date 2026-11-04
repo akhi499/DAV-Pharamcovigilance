@@ -1,0 +1,967 @@
+{
+  "created_at": "2026-11-03T19:29:24+00:00",
+  "dev_drugs": 38,
+  "test_drugs": 89,
+  "queries_total": 3250,
+  "modes": [
+    "bm25",
+    "dense",
+    "hybrid",
+    "dense+route",
+    "rerank",
+    "rerank+route"
+  ],
+  "reranker": {
+    "model_id": "BAAI/bge-reranker-base",
+    "revision": "2cfc18c9415c912f9d8155881c133215df768a70",
+    "license": "MIT",
+    "weights_files": [
+      "model.safetensors"
+    ],
+    "weights_sha256": {
+      "model.safetensors": "ced967c45fd1902eb92716c9ceeca7c95a936770ea9db611f5a841b926e33fbd"
+    },
+    "source": "https://huggingface.co/BAAI/bge-reranker-base",
+    "downloaded_at": "2026-11-03T19:27:29+00:00"
+  },
+  "route_weight_selection": {
+    "criterion": "highest MRR on dev drugs (within-drug search)",
+    "grid": {
+      "dense+route": {
+        "0.0": 0.7007,
+        "0.05": 0.7294,
+        "0.1": 0.7587,
+        "0.2": 0.7965,
+        "0.3": 0.8097,
+        "0.5": 0.8161,
+        "1.0": 0.818
+      },
+      "rerank+route": {
+        "0.0": 0.6203,
+        "0.05": 0.643,
+        "0.1": 0.6588,
+        "0.2": 0.6916,
+        "0.3": 0.71,
+        "0.5": 0.7368,
+        "1.0": 0.7766
+      }
+    },
+    "selected": {
+      "dense+route": 1.0,
+      "rerank+route": 1.0
+    }
+  },
+  "mode_selection": {
+    "selected_mode": "dense+route",
+    "criterion": "highest MRR on dev drugs",
+    "dev": {
+      "bm25": {
+        "n": 1035,
+        "recall_at_1": 0.3527,
+        "recall_at_3": 0.4947,
+        "recall_at_5": 0.572,
+        "recall_at_10": 0.7121,
+        "mrr": 0.4496,
+        "ndcg_at_10": 0.511
+      },
+      "dense": {
+        "n": 1035,
+        "recall_at_1": 0.6106,
+        "recall_at_3": 0.7614,
+        "recall_at_5": 0.8203,
+        "recall_at_10": 0.8899,
+        "mrr": 0.7007,
+        "ndcg_at_10": 0.7463
+      },
+      "hybrid": {
+        "n": 1035,
+        "recall_at_1": 0.4908,
+        "recall_at_3": 0.6473,
+        "recall_at_5": 0.7382,
+        "recall_at_10": 0.8676,
+        "mrr": 0.5972,
+        "ndcg_at_10": 0.661
+      },
+      "dense+route": {
+        "n": 1035,
+        "recall_at_1": 0.7787,
+        "recall_at_3": 0.8454,
+        "recall_at_5": 0.8754,
+        "recall_at_10": 0.8995,
+        "mrr": 0.818,
+        "ndcg_at_10": 0.8377
+      },
+      "rerank": {
+        "n": 1035,
+        "recall_at_1": 0.5227,
+        "recall_at_3": 0.6754,
+        "recall_at_5": 0.7546,
+        "recall_at_10": 0.8483,
+        "mrr": 0.6203,
+        "ndcg_at_10": 0.6746
+      },
+      "rerank+route": {
+        "n": 1035,
+        "recall_at_1": 0.7391,
+        "recall_at_3": 0.7884,
+        "recall_at_5": 0.829,
+        "recall_at_10": 0.8802,
+        "mrr": 0.7766,
+        "ndcg_at_10": 0.801
+      }
+    },
+    "route_weight": {
+      "dense+route": 1.0,
+      "rerank+route": 1.0
+    }
+  },
+  "retrieval": {
+    "queries_total": 3250,
+    "modes": [
+      "bm25",
+      "dense",
+      "hybrid",
+      "dense+route",
+      "rerank",
+      "rerank+route"
+    ],
+    "within_drug": {
+      "bm25": {
+        "all": {
+          "n": 2215,
+          "recall_at_1": 0.3738,
+          "recall_at_3": 0.5088,
+          "recall_at_5": 0.5955,
+          "recall_at_10": 0.7151,
+          "mrr": 0.4679,
+          "ndcg_at_10": 0.5262,
+          "recall_at_5_95ci": [
+            0.5761,
+            0.6149
+          ],
+          "mrr_95ci": [
+            0.4508,
+            0.4847
+          ]
+        },
+        "label_wording": {
+          "n": 443,
+          "recall_at_1": 0.8352,
+          "recall_at_3": 0.9661,
+          "recall_at_5": 0.9774,
+          "recall_at_10": 0.991,
+          "mrr": 0.8986,
+          "ndcg_at_10": 0.9218,
+          "recall_at_5_95ci": [
+            0.9639,
+            0.991
+          ],
+          "mrr_95ci": [
+            0.8765,
+            0.9194
+          ]
+        },
+        "lay_wording": {
+          "n": 443,
+          "recall_at_1": 0.1851,
+          "recall_at_3": 0.3228,
+          "recall_at_5": 0.4334,
+          "recall_at_10": 0.6027,
+          "mrr": 0.2909,
+          "ndcg_at_10": 0.3635,
+          "recall_at_5_95ci": [
+            0.386,
+            0.4808
+          ],
+          "mrr_95ci": [
+            0.2571,
+            0.3272
+          ]
+        },
+        "paraphrase": {
+          "n": 1329,
+          "recall_at_1": 0.2829,
+          "recall_at_3": 0.4184,
+          "recall_at_5": 0.5222,
+          "recall_at_10": 0.6606,
+          "mrr": 0.3834,
+          "ndcg_at_10": 0.4485,
+          "recall_at_5_95ci": [
+            0.4951,
+            0.5486
+          ],
+          "mrr_95ci": [
+            0.3622,
+            0.4062
+          ]
+        }
+      },
+      "dense": {
+        "all": {
+          "n": 2215,
+          "recall_at_1": 0.651,
+          "recall_at_3": 0.7964,
+          "recall_at_5": 0.8501,
+          "recall_at_10": 0.9052,
+          "mrr": 0.7344,
+          "ndcg_at_10": 0.7757,
+          "recall_at_5_95ci": [
+            0.8352,
+            0.865
+          ],
+          "mrr_95ci": [
+            0.7185,
+            0.7496
+          ]
+        },
+        "label_wording": {
+          "n": 443,
+          "recall_at_1": 0.9458,
+          "recall_at_3": 0.9819,
+          "recall_at_5": 0.9865,
+          "recall_at_10": 0.9977,
+          "mrr": 0.9652,
+          "ndcg_at_10": 0.9732,
+          "recall_at_5_95ci": [
+            0.9752,
+            0.9955
+          ],
+          "mrr_95ci": [
+            0.95,
+            0.9787
+          ]
+        },
+        "lay_wording": {
+          "n": 443,
+          "recall_at_1": 0.6772,
+          "recall_at_3": 0.86,
+          "recall_at_5": 0.9052,
+          "recall_at_10": 0.9458,
+          "mrr": 0.7759,
+          "ndcg_at_10": 0.8177,
+          "recall_at_5_95ci": [
+            0.8758,
+            0.9323
+          ],
+          "mrr_95ci": [
+            0.7443,
+            0.8081
+          ]
+        },
+        "paraphrase": {
+          "n": 1329,
+          "recall_at_1": 0.544,
+          "recall_at_3": 0.7133,
+          "recall_at_5": 0.7863,
+          "recall_at_10": 0.8608,
+          "mrr": 0.6436,
+          "ndcg_at_10": 0.6958,
+          "recall_at_5_95ci": [
+            0.7637,
+            0.8089
+          ],
+          "mrr_95ci": [
+            0.6215,
+            0.6663
+          ]
+        }
+      },
+      "hybrid": {
+        "all": {
+          "n": 2215,
+          "recall_at_1": 0.5043,
+          "recall_at_3": 0.674,
+          "recall_at_5": 0.763,
+          "recall_at_10": 0.8686,
+          "mrr": 0.611,
+          "ndcg_at_10": 0.6722,
+          "recall_at_5_95ci": [
+            0.7458,
+            0.7797
+          ],
+          "mrr_95ci": [
+            0.5934,
+            0.6278
+          ]
+        },
+        "label_wording": {
+          "n": 443,
+          "recall_at_1": 0.9481,
+          "recall_at_3": 0.9865,
+          "recall_at_5": 0.9955,
+          "recall_at_10": 1.0,
+          "mrr": 0.9689,
+          "ndcg_at_10": 0.9767,
+          "recall_at_5_95ci": [
+            0.9887,
+            1.0
+          ],
+          "mrr_95ci": [
+            0.9557,
+            0.9809
+          ]
+        },
+        "lay_wording": {
+          "n": 443,
+          "recall_at_1": 0.395,
+          "recall_at_3": 0.6072,
+          "recall_at_5": 0.7156,
+          "recall_at_10": 0.8488,
+          "mrr": 0.5303,
+          "ndcg_at_10": 0.606,
+          "recall_at_5_95ci": [
+            0.6704,
+            0.7585
+          ],
+          "mrr_95ci": [
+            0.4918,
+            0.5681
+          ]
+        },
+        "paraphrase": {
+          "n": 1329,
+          "recall_at_1": 0.3928,
+          "recall_at_3": 0.5922,
+          "recall_at_5": 0.7013,
+          "recall_at_10": 0.8315,
+          "mrr": 0.5185,
+          "ndcg_at_10": 0.5928,
+          "recall_at_5_95ci": [
+            0.6772,
+            0.7261
+          ],
+          "mrr_95ci": [
+            0.4974,
+            0.5408
+          ]
+        }
+      },
+      "dense+route": {
+        "all": {
+          "n": 2215,
+          "recall_at_1": 0.8014,
+          "recall_at_3": 0.8682,
+          "recall_at_5": 0.8962,
+          "recall_at_10": 0.9219,
+          "mrr": 0.8399,
+          "ndcg_at_10": 0.8597,
+          "recall_at_5_95ci": [
+            0.8835,
+            0.9084
+          ],
+          "mrr_95ci": [
+            0.8259,
+            0.8533
+          ]
+        },
+        "label_wording": {
+          "n": 443,
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0,
+          "recall_at_10": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_10": 1.0,
+          "recall_at_5_95ci": [
+            1.0,
+            1.0
+          ],
+          "mrr_95ci": [
+            1.0,
+            1.0
+          ]
+        },
+        "lay_wording": {
+          "n": 443,
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0,
+          "recall_at_10": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_10": 1.0,
+          "recall_at_5_95ci": [
+            1.0,
+            1.0
+          ],
+          "mrr_95ci": [
+            1.0,
+            1.0
+          ]
+        },
+        "paraphrase": {
+          "n": 1329,
+          "recall_at_1": 0.6689,
+          "recall_at_3": 0.7803,
+          "recall_at_5": 0.8269,
+          "recall_at_10": 0.8698,
+          "mrr": 0.7331,
+          "ndcg_at_10": 0.7661,
+          "recall_at_5_95ci": [
+            0.8066,
+            0.8465
+          ],
+          "mrr_95ci": [
+            0.7124,
+            0.7547
+          ]
+        }
+      },
+      "rerank": {
+        "all": {
+          "n": 2215,
+          "recall_at_1": 0.5201,
+          "recall_at_3": 0.6767,
+          "recall_at_5": 0.7526,
+          "recall_at_10": 0.8415,
+          "mrr": 0.6176,
+          "ndcg_at_10": 0.671,
+          "recall_at_5_95ci": [
+            0.735,
+            0.7702
+          ],
+          "mrr_95ci": [
+            0.6003,
+            0.6353
+          ]
+        },
+        "label_wording": {
+          "n": 443,
+          "recall_at_1": 0.6456,
+          "recall_at_3": 0.7765,
+          "recall_at_5": 0.8375,
+          "recall_at_10": 0.9074,
+          "mrr": 0.7259,
+          "ndcg_at_10": 0.7693,
+          "recall_at_5_95ci": [
+            0.8036,
+            0.8713
+          ],
+          "mrr_95ci": [
+            0.6901,
+            0.7611
+          ]
+        },
+        "lay_wording": {
+          "n": 443,
+          "recall_at_1": 0.6456,
+          "recall_at_3": 0.7923,
+          "recall_at_5": 0.851,
+          "recall_at_10": 0.8916,
+          "mrr": 0.7326,
+          "ndcg_at_10": 0.7713,
+          "recall_at_5_95ci": [
+            0.8172,
+            0.8826
+          ],
+          "mrr_95ci": [
+            0.6961,
+            0.7676
+          ]
+        },
+        "paraphrase": {
+          "n": 1329,
+          "recall_at_1": 0.4364,
+          "recall_at_3": 0.605,
+          "recall_at_5": 0.6915,
+          "recall_at_10": 0.8029,
+          "mrr": 0.5431,
+          "ndcg_at_10": 0.6048,
+          "recall_at_5_95ci": [
+            0.6659,
+            0.7148
+          ],
+          "mrr_95ci": [
+            0.5195,
+            0.5674
+          ]
+        }
+      },
+      "rerank+route": {
+        "all": {
+          "n": 2215,
+          "recall_at_1": 0.7372,
+          "recall_at_3": 0.805,
+          "recall_at_5": 0.8429,
+          "recall_at_10": 0.8939,
+          "mrr": 0.7811,
+          "ndcg_at_10": 0.8078,
+          "recall_at_5_95ci": [
+            0.8275,
+            0.8582
+          ],
+          "mrr_95ci": [
+            0.7657,
+            0.7967
+          ]
+        },
+        "label_wording": {
+          "n": 443,
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0,
+          "recall_at_10": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_10": 1.0,
+          "recall_at_5_95ci": [
+            1.0,
+            1.0
+          ],
+          "mrr_95ci": [
+            1.0,
+            1.0
+          ]
+        },
+        "lay_wording": {
+          "n": 443,
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0,
+          "recall_at_10": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_10": 1.0,
+          "recall_at_5_95ci": [
+            1.0,
+            1.0
+          ],
+          "mrr_95ci": [
+            1.0,
+            1.0
+          ]
+        },
+        "paraphrase": {
+          "n": 1329,
+          "recall_at_1": 0.5621,
+          "recall_at_3": 0.6749,
+          "recall_at_5": 0.7381,
+          "recall_at_10": 0.8232,
+          "mrr": 0.6351,
+          "ndcg_at_10": 0.6796,
+          "recall_at_5_95ci": [
+            0.7133,
+            0.7615
+          ],
+          "mrr_95ci": [
+            0.6106,
+            0.658
+          ]
+        }
+      }
+    },
+    "whole_index": {},
+    "per_topic_hybrid_within_drug_recall_at_5": {
+      "adverse_reactions": 0.8135,
+      "boxed_warning": 0.7422,
+      "contraindications": 0.6437,
+      "interactions": 0.7361,
+      "overdosage": 0.6239,
+      "pregnancy": 0.9807
+    },
+    "test_queries": 2215,
+    "seconds": 400.2
+  },
+  "per_topic_test_recall_at_1": {
+    "dense": {
+      "adverse_reactions/label_wording": {
+        "n": 89,
+        "recall_at_1": 0.9888
+      },
+      "adverse_reactions/lay_wording": {
+        "n": 89,
+        "recall_at_1": 0.8764
+      },
+      "adverse_reactions/paraphrase": {
+        "n": 267,
+        "recall_at_1": 0.7678
+      },
+      "boxed_warning/label_wording": {
+        "n": 45,
+        "recall_at_1": 0.6889
+      },
+      "boxed_warning/lay_wording": {
+        "n": 45,
+        "recall_at_1": 0.3333
+      },
+      "boxed_warning/paraphrase": {
+        "n": 135,
+        "recall_at_1": 0.237
+      },
+      "contraindications/label_wording": {
+        "n": 87,
+        "recall_at_1": 1.0
+      },
+      "contraindications/lay_wording": {
+        "n": 87,
+        "recall_at_1": 0.6552
+      },
+      "contraindications/paraphrase": {
+        "n": 261,
+        "recall_at_1": 0.3487
+      },
+      "interactions/label_wording": {
+        "n": 72,
+        "recall_at_1": 0.9722
+      },
+      "interactions/lay_wording": {
+        "n": 72,
+        "recall_at_1": 0.4444
+      },
+      "interactions/paraphrase": {
+        "n": 216,
+        "recall_at_1": 0.338
+      },
+      "overdosage/label_wording": {
+        "n": 67,
+        "recall_at_1": 1.0
+      },
+      "overdosage/lay_wording": {
+        "n": 67,
+        "recall_at_1": 0.5821
+      },
+      "overdosage/paraphrase": {
+        "n": 201,
+        "recall_at_1": 0.4478
+      },
+      "pregnancy/label_wording": {
+        "n": 83,
+        "recall_at_1": 0.9157
+      },
+      "pregnancy/lay_wording": {
+        "n": 83,
+        "recall_at_1": 0.9518
+      },
+      "pregnancy/paraphrase": {
+        "n": 249,
+        "recall_at_1": 0.9317
+      }
+    },
+    "hybrid": {
+      "adverse_reactions/label_wording": {
+        "n": 89,
+        "recall_at_1": 0.9438
+      },
+      "adverse_reactions/lay_wording": {
+        "n": 89,
+        "recall_at_1": 0.4831
+      },
+      "adverse_reactions/paraphrase": {
+        "n": 267,
+        "recall_at_1": 0.3296
+      },
+      "boxed_warning/label_wording": {
+        "n": 45,
+        "recall_at_1": 0.8667
+      },
+      "boxed_warning/lay_wording": {
+        "n": 45,
+        "recall_at_1": 0.3556
+      },
+      "boxed_warning/paraphrase": {
+        "n": 135,
+        "recall_at_1": 0.2
+      },
+      "contraindications/label_wording": {
+        "n": 87,
+        "recall_at_1": 1.0
+      },
+      "contraindications/lay_wording": {
+        "n": 87,
+        "recall_at_1": 0.1954
+      },
+      "contraindications/paraphrase": {
+        "n": 261,
+        "recall_at_1": 0.1762
+      },
+      "interactions/label_wording": {
+        "n": 72,
+        "recall_at_1": 0.9306
+      },
+      "interactions/lay_wording": {
+        "n": 72,
+        "recall_at_1": 0.3056
+      },
+      "interactions/paraphrase": {
+        "n": 216,
+        "recall_at_1": 0.3056
+      },
+      "overdosage/label_wording": {
+        "n": 67,
+        "recall_at_1": 1.0
+      },
+      "overdosage/lay_wording": {
+        "n": 67,
+        "recall_at_1": 0.1194
+      },
+      "overdosage/paraphrase": {
+        "n": 201,
+        "recall_at_1": 0.3781
+      },
+      "pregnancy/label_wording": {
+        "n": 83,
+        "recall_at_1": 0.9157
+      },
+      "pregnancy/lay_wording": {
+        "n": 83,
+        "recall_at_1": 0.8313
+      },
+      "pregnancy/paraphrase": {
+        "n": 249,
+        "recall_at_1": 0.8795
+      }
+    },
+    "dense+route": {
+      "adverse_reactions/label_wording": {
+        "n": 89,
+        "recall_at_1": 1.0
+      },
+      "adverse_reactions/lay_wording": {
+        "n": 89,
+        "recall_at_1": 1.0
+      },
+      "adverse_reactions/paraphrase": {
+        "n": 267,
+        "recall_at_1": 0.7678
+      },
+      "boxed_warning/label_wording": {
+        "n": 45,
+        "recall_at_1": 1.0
+      },
+      "boxed_warning/lay_wording": {
+        "n": 45,
+        "recall_at_1": 1.0
+      },
+      "boxed_warning/paraphrase": {
+        "n": 135,
+        "recall_at_1": 0.3333
+      },
+      "contraindications/label_wording": {
+        "n": 87,
+        "recall_at_1": 1.0
+      },
+      "contraindications/lay_wording": {
+        "n": 87,
+        "recall_at_1": 1.0
+      },
+      "contraindications/paraphrase": {
+        "n": 261,
+        "recall_at_1": 0.3487
+      },
+      "interactions/label_wording": {
+        "n": 72,
+        "recall_at_1": 1.0
+      },
+      "interactions/lay_wording": {
+        "n": 72,
+        "recall_at_1": 1.0
+      },
+      "interactions/paraphrase": {
+        "n": 216,
+        "recall_at_1": 0.6435
+      },
+      "overdosage/label_wording": {
+        "n": 67,
+        "recall_at_1": 1.0
+      },
+      "overdosage/lay_wording": {
+        "n": 67,
+        "recall_at_1": 1.0
+      },
+      "overdosage/paraphrase": {
+        "n": 201,
+        "recall_at_1": 0.8209
+      },
+      "pregnancy/label_wording": {
+        "n": 83,
+        "recall_at_1": 1.0
+      },
+      "pregnancy/lay_wording": {
+        "n": 83,
+        "recall_at_1": 1.0
+      },
+      "pregnancy/paraphrase": {
+        "n": 249,
+        "recall_at_1": 0.9799
+      }
+    },
+    "rerank": {
+      "adverse_reactions/label_wording": {
+        "n": 89,
+        "recall_at_1": 0.8202
+      },
+      "adverse_reactions/lay_wording": {
+        "n": 89,
+        "recall_at_1": 0.8876
+      },
+      "adverse_reactions/paraphrase": {
+        "n": 267,
+        "recall_at_1": 0.6592
+      },
+      "boxed_warning/label_wording": {
+        "n": 45,
+        "recall_at_1": 0.5778
+      },
+      "boxed_warning/lay_wording": {
+        "n": 45,
+        "recall_at_1": 0.2444
+      },
+      "boxed_warning/paraphrase": {
+        "n": 135,
+        "recall_at_1": 0.2444
+      },
+      "contraindications/label_wording": {
+        "n": 87,
+        "recall_at_1": 0.5287
+      },
+      "contraindications/lay_wording": {
+        "n": 87,
+        "recall_at_1": 0.5747
+      },
+      "contraindications/paraphrase": {
+        "n": 261,
+        "recall_at_1": 0.1801
+      },
+      "interactions/label_wording": {
+        "n": 72,
+        "recall_at_1": 0.5833
+      },
+      "interactions/lay_wording": {
+        "n": 72,
+        "recall_at_1": 0.5
+      },
+      "interactions/paraphrase": {
+        "n": 216,
+        "recall_at_1": 0.2454
+      },
+      "overdosage/label_wording": {
+        "n": 67,
+        "recall_at_1": 0.4328
+      },
+      "overdosage/lay_wording": {
+        "n": 67,
+        "recall_at_1": 0.5224
+      },
+      "overdosage/paraphrase": {
+        "n": 201,
+        "recall_at_1": 0.2388
+      },
+      "pregnancy/label_wording": {
+        "n": 83,
+        "recall_at_1": 0.8434
+      },
+      "pregnancy/lay_wording": {
+        "n": 83,
+        "recall_at_1": 0.9036
+      },
+      "pregnancy/paraphrase": {
+        "n": 249,
+        "recall_at_1": 0.8956
+      }
+    },
+    "rerank+route": {
+      "adverse_reactions/label_wording": {
+        "n": 89,
+        "recall_at_1": 1.0
+      },
+      "adverse_reactions/lay_wording": {
+        "n": 89,
+        "recall_at_1": 1.0
+      },
+      "adverse_reactions/paraphrase": {
+        "n": 267,
+        "recall_at_1": 0.6592
+      },
+      "boxed_warning/label_wording": {
+        "n": 45,
+        "recall_at_1": 1.0
+      },
+      "boxed_warning/lay_wording": {
+        "n": 45,
+        "recall_at_1": 1.0
+      },
+      "boxed_warning/paraphrase": {
+        "n": 135,
+        "recall_at_1": 0.3333
+      },
+      "contraindications/label_wording": {
+        "n": 87,
+        "recall_at_1": 1.0
+      },
+      "contraindications/lay_wording": {
+        "n": 87,
+        "recall_at_1": 1.0
+      },
+      "contraindications/paraphrase": {
+        "n": 261,
+        "recall_at_1": 0.1801
+      },
+      "interactions/label_wording": {
+        "n": 72,
+        "recall_at_1": 1.0
+      },
+      "interactions/lay_wording": {
+        "n": 72,
+        "recall_at_1": 1.0
+      },
+      "interactions/paraphrase": {
+        "n": 216,
+        "recall_at_1": 0.4537
+      },
+      "overdosage/label_wording": {
+        "n": 67,
+        "recall_at_1": 1.0
+      },
+      "overdosage/lay_wording": {
+        "n": 67,
+        "recall_at_1": 1.0
+      },
+      "overdosage/paraphrase": {
+        "n": 201,
+        "recall_at_1": 0.7065
+      },
+      "pregnancy/label_wording": {
+        "n": 83,
+        "recall_at_1": 1.0
+      },
+      "pregnancy/lay_wording": {
+        "n": 83,
+        "recall_at_1": 1.0
+      },
+      "pregnancy/paraphrase": {
+        "n": 249,
+        "recall_at_1": 0.9598
+      }
+    }
+  },
+  "routing_coverage": {
+    "templates": {
+      "routed_to_gold": 1.0,
+      "routed_elsewhere": 0.0,
+      "not_routed": 0.0,
+      "n": 1300
+    },
+    "paraphrases": {
+      "routed_to_gold": 0.3169,
+      "routed_elsewhere": 0.0718,
+      "not_routed": 0.6113,
+      "n": 1950
+    }
+  },
+  "task_a_extractive_test": {
+    "dense": {
+      "n": 89,
+      "accuracy": 0.9213,
+      "correct": 82
+    },
+    "dense+route": {
+      "n": 89,
+      "accuracy": 1.0,
+      "correct": 89
+    }
+  },
+  "caveats": [
+    "Section routing rules were written by the authors of the question templates, so routed results on the templates are optimistic by construction; the paraphrase set (written after the rules) is a robustness check, not an independent user sample. Re-ranking without routing has no such dependence.",
+    "Route weights and the production mode are chosen on dev drugs using templates and paraphrases together.",
+    "Gold relevance is FDA's SPL section coding, as in v1; the drug split (seed 42) is the same as v1.",
+    "The sufficiency threshold is unchanged: it uses the best dense similarity, which re-ranking does not alter."
+  ],
+  "seconds": 955.5
+}

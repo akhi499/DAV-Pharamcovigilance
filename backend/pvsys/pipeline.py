@@ -11,7 +11,9 @@
     python -m pvsys.pipeline evidence-fetch [--n 150] [--drug "X" ...] [--refresh]   # FDA labels, FDA DSCs, PubMed
     python -m pvsys.pipeline evidence-index # chunk + embed (offline, from the cached downloads)
     python -m pvsys.pipeline evidence-eval  # retrieval / threshold / generation / concordance evaluation
-    python -m pvsys.pipeline evidence-compare [--model-dir models/generator-1.5b ...] [--limit 5]
+    python -m pvsys.pipeline evidence-compare [--model-dir models/generator-1.5b ...] [--limit 5] [--out FILE]
+    python -m pvsys.pipeline evidence-eval-v2   # section routing + re-ranking (evaluation_evidence_v2.json)
+    python -m pvsys.pipeline evidence-reverify  # verifier v2 on the existing drafts (generator_reverify.json)
                                             # extractive vs generative answers across local models
 
 Run from the ``backend`` folder (or with ``backend`` on PYTHONPATH).
@@ -85,7 +87,8 @@ def main(argv: list[str] | None = None) -> int:
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("command", choices=["download", "all", "stats", "nlp", "evaluate",
                                             "annotate-export", "annotate-import", "rag-index", "rag-eval",
-                                            "evidence-fetch", "evidence-index", "evidence-eval", "evidence-compare"])
+                                            "evidence-fetch", "evidence-index", "evidence-eval", "evidence-compare",
+                                            "evidence-eval-v2", "evidence-reverify"])
     parser.add_argument("path", nargs="?", help="CSV path for annotate-import")
     parser.add_argument("--quarter", default=QUARTER)
     parser.add_argument("--n", type=int, default=200, help="batch size for annotate-export / pairs for rag-eval")
@@ -94,6 +97,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--skip-generation", action="store_true", help="evidence-eval: skip the generator part")
     parser.add_argument("--model-dir", action="append", help="evidence-compare: generator folder(s); default models/generator*")
     parser.add_argument("--limit", type=int, help="evidence-compare: only the first N test drugs (smoke test)")
+    parser.add_argument("--out", default="generator_comparison.json",
+                        help="evidence-compare: output file name in data/evidence/")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
@@ -171,7 +176,7 @@ def main(argv: list[str] | None = None) -> int:
         dirs = [Path(d) for d in args.model_dir] if args.model_dir else cg.default_model_dirs()
         if not dirs:
             parser.error("no generator models found (expected folders models/generator*)")
-        r = cg.compare(dirs, get_paths(), limit=args.limit)
+        r = cg.compare(dirs, get_paths(), limit=args.limit, out_name=args.out)
         rows = []
         for m in r["models"]:
             if m["status"] != "ok":
@@ -182,6 +187,24 @@ def main(argv: list[str] | None = None) -> int:
                          **{f"{t}_{k}": m[t][k] for t in ("task_a", "task_b")
                             for k in ("generative_accuracy", "extractive_accuracy", "verifier_pass_rate", "system_accuracy")}})
         print(json.dumps(rows, indent=2))
+    elif args.command == "evidence-eval-v2":
+        from .evidence import evaluate as ev
+
+        r = ev.evaluate_v2(get_paths())
+        print(json.dumps({"selected_mode": r["mode_selection"]["selected_mode"],
+                          "route_weight": r["mode_selection"]["route_weight"],
+                          "test_within_drug": {m: {s: {k: v[s].get(k) for k in ("n", "recall_at_1", "recall_at_5", "mrr")}
+                                                   for s in v} for m, v in r["retrieval"]["within_drug"].items()},
+                          "task_a_extractive_test": r["task_a_extractive_test"], "routing_coverage": r["routing_coverage"],
+                          "seconds": r["seconds"]}, indent=2))
+    elif args.command == "evidence-reverify":
+        from .evidence import compare_generators as cg
+
+        r = cg.reverify(get_paths())
+        print(json.dumps([{"model": m["model_id"], **{f"{t}/{v}": {k: m[t][v][k] for k in
+                                                                   ("verifier_pass_rate", "accuracy_of_verified", "system_accuracy")}
+                                                      for t in ("task_a", "task_b") for v in cg.VARIANTS}}
+                          for m in r["models"]], indent=2))
     elif args.command == "annotate-export":
         from .nlp import review
 
